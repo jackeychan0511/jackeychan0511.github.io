@@ -23,8 +23,8 @@ image: /assets/images/posts/hakata-hotels/hakata-square.jpg
 | **1박 요금** | 12~18만원 |
 | **추천 대상** | 역 접근성 최우선 |
 
-![JR 하카타 시티](/assets/images/posts/hakata-hotels/hero-hakata-station.jpg)
-*오리엔탈 호텔이 위치한 JR 하카타 시티 — 역과 건물 직결*
+![오리엔탈 호텔 후쿠오카 하카타 스테이션](/assets/images/posts/hakata-hotels/hotel-oriental.jpg)
+*오리엔탈 호텔 후쿠오카 하카타 스테이션 외관 — 하카타역 직결*
 
 역과 건물이 직접 연결되어 접근성이 가장 좋습니다. 1층 로손 편의점과 영어 가능한 프론트까지 갖춰 여행 초보자에게 제격입니다.
 
@@ -147,4 +147,4 @@ JR큐슈가 운영하는 **5성급 호텔**. 객실이 넓고 전망이 뛰어�
 - [2026 후쿠오카 하카타역 호텔 TOP 7](https://www.tourbus21.com/2026/03/fukuoka-hakata-station-top7-hotels-2026.html)
 
 *이 글은 실제 방문 경험과 최신 리뷰를 바탕으로 작성되었습니다. 가격은 시즌에 따라 변동될 수 있습니다.*
-*이미지 출처: 하카타역·JR 하카타시티·미야코 호텔·프린스 스마트 인·도미 인·APA 호텔·캐널시티 (Wikimedia Commons, Trip.com)*
+*이미지 출처: 구글 호텔·트립닷컴·Wikimedia Commons*
