@@ -163,19 +163,6 @@ image: /assets/images/posts/aot-museum/hero.jpg
 
 ---
 
-## 🎬 히타 여행 영상
-
-압축하여 업로드했습니다 (4K→1080p, 107MB→12.7MB).
-
-<video controls preload="metadata" style="width:100%;border-radius:12px;">
-  <source src="/assets/images/posts/aot-museum/video.mp4" type="video/mp4">
-  지원되지 않는 브라우저입니다.
-</video>
-
-*히타 거리와 진격의 거인 뮤지엄 현장 영상*
-
----
-
 ## ⚠️ 참고사항
 
 1. 뮤지엄은 **월요일 휴관**인 경우가 많으니 방문 전 확인하세요.
