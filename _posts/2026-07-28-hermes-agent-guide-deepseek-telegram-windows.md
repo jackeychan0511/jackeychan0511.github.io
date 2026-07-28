@@ -4,14 +4,12 @@ title: "Hermes Agent 설치 가이드: DeepSeek부터 텔레그램 연동까지 
 date: 2026-07-28 11:00:00 +0900
 categories: [career]
 tags: [HermesAgent, NousResearch, AI에이전트, DeepSeek, 텔레그램봇, AI설치, 윈도우]
-image: /assets/images/posts/hermes-guide/hero.png
+image: /assets/images/posts/hermes-guide/hero-real.jpg
 ---
 
 AI 에이전트 하면 OpenClaw만 떠오르셨다면, 이번 글을 주목해주세요.
 
 **Hermes Agent**는 Nous Research에서 만든 오픈소스 AI 에이전트로, **스스로 학습하고 성장하는** 차세대 에이전트입니다. OpenClaw와 함께 2026년을 대표하는 AI 에이전트로 자리 잡았죠.
-
-![Hermes Agent 윈도우 데스크탑](/assets/images/posts/hermes-guide/hero.png)
 
 > 이 글은 제가 실제로 Hermes Agent를 설치하고 DeepSeek를 연결하고 텔레그램까지 연동한 경험을 바탕으로 작성했습니다.
 
@@ -248,4 +246,5 @@ AI 에이전트 시대, Hermes Agent로 나만의 AI 비서를 만들어보세�
 
 ---
 
-*이 글은 실제 Hermes Agent 사용 경험과 공식 문서(Docs, DeepSeek 연동 가이드)를 참고하여 작성되었습니다.*
+*이 글은 실제 Hermes Agent 사용 경험과 공식 문서(Docs, DeepSeek 연동 가이드)를 참고하여 작성되었습니다.*<br>
+*대표 이미지: Gerd Leonhard (CC BY-SA 2.0)*
