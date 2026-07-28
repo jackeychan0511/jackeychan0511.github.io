@@ -60,12 +60,27 @@ img { max-width: 100%; height: auto; border-radius: var(--radius-sm); }
   height: 64px;
 }
 
-.site-brand { display: flex; align-items: baseline; gap: 12px; }
+.site-brand { display: flex; align-items: center; gap: 8px; }
 .site-logo {
-  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+}
+.logo-img {
+  height: 40px;
+  width: auto;
+  border-radius: 6px;
+}
+.logo-text {
+  font-size: 1.3rem;
   font-weight: 900;
-  color: #fff !important;
+  color: #fff;
   letter-spacing: -0.5px;
+}
+@media (max-width: 480px) {
+  .logo-img { height: 32px; }
+  .logo-text { font-size: 1rem; }
 }
 .site-tagline {
   font-size: 0.8rem;
@@ -352,18 +367,14 @@ img { max-width: 100%; height: auto; border-radius: var(--radius-sm); }
 }
 
 .sidebar-profile { text-align: center; }
-.avatar-placeholder {
-  width: 72px;
-  height: 72px;
+.profile-img {
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
-  background: linear-gradient(135deg, var(--accent), var(--gold));
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.5rem;
-  font-weight: 900;
+  object-fit: cover;
   margin: 0 auto 12px;
+  display: block;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 .profile-name { font-size: 1rem; font-weight: 700; margin-bottom: 8px; }
 .profile-bio { font-size: 0.85rem; color: var(--text-light); line-height: 1.5; }
