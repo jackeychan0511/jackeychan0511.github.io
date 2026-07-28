@@ -184,7 +184,7 @@ image: /assets/images/posts/aot-museum/hero.jpg
   지원되지 않는 브라우저입니다.
 </video>
 
-*히타 거리와 진격의 거인 뮤지엄 현장 영상*
+*진격의거인 와규덮밥 오픈영상*
 
 ---
 
