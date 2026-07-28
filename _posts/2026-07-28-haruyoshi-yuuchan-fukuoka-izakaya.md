@@ -77,6 +77,13 @@ image: /assets/images/posts/haruyoshi-yuuchan-fukuoka/01.jpg
 
 몸통을 길게 자른 조각과 둥근 링 모양, 다리 부분까지 다양한 부위가 섞여 있습니다. 간장 소스에 찍어 먹어도 좋고, 가루소금에 살짝 찍어 먹어도 오징어 본연의 맛을 느낄 수 있어요. 맥주 안주로 이만한 게 없습니다.
 
+### 📹 이자카야 분위기 영상
+
+<video controls width="100%" preload="metadata">
+  <source src="/assets/images/posts/haruyoshi-yuuchan-fukuoka/20260507_232030.mp4" type="video/mp4">
+  브라우저가 동영상을 지원하지 않습니다.
+</video>
+
 ---
 
 ## 🥗 일본식 해산물 플레이팅 — 오이 장식과 에다마메
