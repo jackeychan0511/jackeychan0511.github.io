@@ -29,12 +29,12 @@ category_order:
   - food
 
 category_names:
-  finance: "한화 재테크"
+  finance: "💰 재테크"
   travel: "✈️ 여행"
-  career: "한화 커리어 & AI"
-  education: "한화 자녀교육"
-  products: "한화 이슈제품"
-  food: "한화 맛집"
+  career: "💼 커리어 & AI"
+  education: "📚 자녀교육"
+  products: "🚀 이슈제품"
+  food: "🍽️ 맛집"
 
 author:
   name: "재찬키"
