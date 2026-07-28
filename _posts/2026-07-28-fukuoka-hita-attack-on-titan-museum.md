@@ -163,6 +163,17 @@ image: /assets/images/posts/aot-museum/hero.jpg
 
 ---
 
+## 🎬 현장 영상
+
+<video controls preload="metadata" style="width:100%;border-radius:12px;">
+  <source src="/assets/images/posts/aot-museum/video.mp4" type="video/mp4">
+  지원되지 않는 브라우저입니다.
+</video>
+
+*진격의 거인 관련 식당에서 즐긴 와규덮밥 (4K→1080p, 12.7MB)*
+
+---
+
 ## ⚠️ 참고사항
 
 1. 뮤지엄은 **월요일 휴관**인 경우가 많으니 방문 전 확인하세요.
