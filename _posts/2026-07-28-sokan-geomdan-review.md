@@ -21,7 +21,7 @@ image: /assets/images/posts/sokan/01.jpg
 
 매장 내부는 전체적으로 **프라이빗한 룸 중심**으로 구성되어 있어 데이트나 가족 모임, 기념일 식사에 제격입니다. 일본 숯불 야끼니꾸 전문점 특유의 세련된 인테리어가 인상적이었어요.
 
-![소칸 검단본점 외관]({{ "/assets/images/posts/sokan/01.jpg" }}
+![소칸 검단본점 외관](/assets/images/posts/sokan/01.jpg)
 
 ---
 
@@ -29,7 +29,7 @@ image: /assets/images/posts/sokan/01.jpg
 
 주문과 동시에 나온 와규 모둠은 보자마자 감탄이 나왔습니다. 접시 위에 각 부위별로 **나무 태그**가 꽂혀 있어 어떤 부위인지一目了然. 초보자도 헷갈릴 일이 없어요.
 
-![와규 모둠]({{ "/assets/images/posts/sokan/02.jpg" }}
+![와규 모둠](/assets/images/posts/sokan/02.jpg)
 
 이날 맛본 부위를 하나씩 정리해 봤습니다.
 
@@ -47,7 +47,7 @@ image: /assets/images/posts/sokan/01.jpg
 
 채소 모둠과 함께 나오는 화요(청주)도 곁들여 먹으면 느끼함을 잡아주고 풍미를 더해줍니다.
 
-![와규와 화요]({{ "/assets/images/posts/sokan/05.jpg" }}
+![와규와 화요](/assets/images/posts/sokan/05.jpg)
 
 ---
 
@@ -66,7 +66,7 @@ image: /assets/images/posts/sokan/01.jpg
 
 소칸은 **백탄(참숯)**을 사용합니다. 백탄은 일반 숯보다 더 높은 온도로 오래 타오르고, 불향이 고기에 배는 정도가 다릅니다.
 
-![숯불구이]({{ "/assets/images/posts/sokan/03.jpg" }}
+![숯불구이](/assets/images/posts/sokan/03.jpg)
 
 두툼한 고기를 백탄불에 올리면 겉은 순식간에 그을리고 속은 촉촉하게 — 완벽한 **미디움 레어**가 완성됩니다. 첫 입에 느껴지는 불향과 육즙의 조화는 직접 경험해야 아는 맛이에요.
 
@@ -86,7 +86,7 @@ image: /assets/images/posts/sokan/01.jpg
 ### 자몽에이드
 고기 먹는 중간중간 마시기에 시원하고 **상큼**해서 입가심에 제격입니다.
 
-![육회와 밑반찬]({{ "/assets/images/posts/sokan/06.jpg" }}
+![육회와 밑반찬](/assets/images/posts/sokan/06.jpg)
 
 ---
 
@@ -106,7 +106,7 @@ image: /assets/images/posts/sokan/01.jpg
 
 특히 **2인 와규세트 79,000원**은 이 퀄리티를 생각하면 정말 합리적인 가격입니다. 오마카세(139,000원)는 숨은 맛집을 찾는 미식가에게, 프리미엄 풀코스(179,000원)는 특별한 날에 강력 추천합니다.
 
-![메뉴판]({{ "/assets/images/posts/sokan/04.jpg" }}
+![메뉴판](/assets/images/posts/sokan/04.jpg)
 
 ---
 
