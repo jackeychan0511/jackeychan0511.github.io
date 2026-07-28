@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "후쿠오카 하카타역 아뮤플라자 8층 닌텐도샵 완전정복 | 아이와 가볼 만한 곳"
-date: 2026-07-28 13:30:00 +0900
+date: 2026-07-28 13:00:00 +0900
 categories: [travel]
 tags: [후쿠오카, 하카타역, 아뮤플라자, 닌텐도스토어, 닌텐도샵, 가족여행, 키즈]
 image: /assets/images/posts/nintendo-store/hero.jpg
