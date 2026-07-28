@@ -43,6 +43,13 @@ img { max-width: 100%; height: auto; border-radius: var(--radius-sm); }
 
 .container { max-width: var(--container); margin: 0 auto; padding: 0 20px; }
 
+/* ── Custom Scrollbar ── */
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: var(--primary-light); border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: var(--accent); }
+* { scrollbar-width: thin; scrollbar-color: var(--primary-light) var(--bg); }
+
 /* ── Header ── */
 .site-header {
   background: var(--primary);
