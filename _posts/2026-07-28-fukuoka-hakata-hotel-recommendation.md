@@ -4,7 +4,7 @@ title: "후쿠오카 하카타역 호텔 추천 2026: 역 도보 5분, 가성비
 date: 2026-07-28 14:00:00 +0900
 categories: [travel]
 tags: [후쿠오카, 하카타역, 호텔추천, 가성비호텔, 일본여행, 후쿠오카여행, 숙소추천]
-image: /assets/images/posts/hakata-hotels/hakata-station.jpg
+image: /assets/images/posts/hakata-hotels/hero-hakata-station.jpg
 ---
 
 후쿠오카 여행의 시작과 끝은 **하카타역**입니다. 공항에서 지하철로 5분, 큐슈 각지로 가는 JR의 거점, 그리고 먹거리와 쇼핑이 집결된 곳이죠.
@@ -15,8 +15,11 @@ image: /assets/images/posts/hakata-hotels/hakata-station.jpg
 
 ## 📍 왜 하카타역인가?
 
-![하카타역 내부](/assets/images/posts/hakata-hotels/hakata-station.jpg)
-*JR 하카타역 콘코스. 역 안에서 쇼핑몰·식당·호텔이 모두 연결됨*
+![하카타역 JR큐슈 시티](/assets/images/posts/hakata-hotels/hero-hakata-station.jpg)
+*JR 하카타역 아트리움. 역 건물 자체가 하나의 랜드마크*
+
+![하카타역 앞 광장](/assets/images/posts/hakata-hotels/hakata-square.jpg)
+*하카타역 앞 광장과 택시 승강장. 역에서 모든 호텔이 도보권*
 
 | 장점 | 설명 |
 |:----|:------|
@@ -183,4 +186,4 @@ APA 호텔은 일본 전국에 있는 대표 비즈니스 호텔 체인입니다
 - [후쿠오카 가족여행 호텔 TOP5](https://enjoytip.com/travel/guides/fukuoka-family-hotel-top5)
 
 *이 글은 실제 방문 경험과 최신 리뷰를 바탕으로 작성되었습니다. 가격은 시즌에 따라 변동될 수 있습니다.*
-*이미지 출처: 하카타역·후쿠오카 야경 (Wikimedia Commons, CC BY-SA)*
+*이미지 출처: JR 하카타역·하카타역 광장 (Wikimedia Commons, CC BY-SA 4.0)*
