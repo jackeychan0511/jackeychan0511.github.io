@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "🚀 업비트 RLUSD(리플유에스디) 신규 상장! 7월 28일 14시 거래 시작 (Ripple USD 스테이블코인)"
+title: "업비트 RLUSD(리플유에스디) 신규 상장! 7월 28일 14시 거래 시작 (Ripple USD 스테이블코인)"
 date: 2026-07-28 12:30:00 +0900
 categories: [products]
 tags: [업비트, RLUSD, 리플유에스디, RippleUSD, 신규상장, 스테이블코인, 코인, 가상자산]
