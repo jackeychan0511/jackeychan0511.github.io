@@ -55,6 +55,29 @@ layout: default
       </div>
     </div>
 
+    <!-- 관련 글 -->
+    {% assign related_posts = site.posts | where_exp: "item", "item.categories[0] == page.categories[0]" | where_exp: "item", "item.url != page.url" %}
+    {% if related_posts.size > 0 %}
+    <div class="related-posts">
+      <strong class="related-title">📎 관련 글</strong>
+      <div class="related-grid">
+        {% for post in related_posts limit:4 %}
+        <a href="{{ post.url }}" class="related-card">
+          {% if post.image %}
+          <div class="related-card-image">
+            <img src="{{ post.image }}" alt="{{ post.title }}" loading="lazy">
+          </div>
+          {% endif %}
+          <div class="related-card-body">
+            <span class="related-card-date">{{ post.date | date: "%Y.%m.%d" }}</span>
+            <span class="related-card-title">{{ post.title }}</span>
+          </div>
+        </a>
+        {% endfor %}
+      </div>
+    </div>
+    {% endif %}
+
     {% if site.comments.provider == "utterances" and page.comments != false %}
     <div class="post-comments">
       <script src="https://utteranc.es/client.js"
