@@ -156,4 +156,3 @@ image: /assets/images/posts/aot-museum/hero.jpg
 
 *이 글은 실제 방문 후 작성한 솔직 후기입니다. 가격과 일정은 변동될 수 있습니다.*
 *동영상(102MB)은 GitHub Pages 용량 제한으로 첨부하지 못했습니다.*
-*대표 이미지: Wikimedia Commons (CC BY-SA)*
