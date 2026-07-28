@@ -163,7 +163,21 @@ image: /assets/images/posts/aot-museum/hero.jpg
 
 ---
 
-## 🎬 진격의 거인 식당
+## 🍽️ 진격의 거인 식당: 와규덮밥
+
+뮤지엄 근처에는 **진격의 거인 콜라보 메뉴**를 즐길 수 있는 식당이 있습니다. 가게 앞에는 캐릭터 입간판이 서 있고, 내부에서는 한정 콜라보 메뉴를 맛볼 수 있어요.
+
+![히타 진격의 거인 식당 외관](/assets/images/posts/aot-museum/20260508_120223.jpg)
+*전통 일식 가게와 진격의 거인 콜라보 간판이 어우러진 외관*
+
+![와규덮밥 정식](/assets/images/posts/aot-museum/1778225754396.jpg)
+*진격의 거인 콜라보 메뉴 — 와규 스테이크 덮밥 정식 (와규+반찬+국+차완무시)*
+
+메뉴는 **와규 스테이크 덮밥**을 비롯해 여러 일본 정식이 준비되어 있습니다. 콜라보 한정 굿즈(코스터 등)도 함께 제공되니 식사 후 챙기세요!
+
+---
+
+## 🎬 식당 현장 영상
 
 <video controls preload="metadata" style="width:100%;border-radius:12px;">
   <source src="/assets/images/posts/aot-museum/video.mp4" type="video/mp4">
