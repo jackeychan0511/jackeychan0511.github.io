@@ -1,14 +1,17 @@
 ---
 layout: post
 title: "OpenClaw v2026.7.2 출시! 원격 코딩 세션, Linux 패키지, GPT-5.6 기본탑재"
-date: 2026-07-28 12:00:00 +0900
+date: 2026-07-28 11:00:00 +0900
 categories: [career]
 tags: [OpenClaw, AI에이전트, 업데이트, GPT-5.6, 오픈소스AI]
+image: /assets/images/posts/openclaw-release/hero-coder.jpg
 ---
 
 AI 에이전트 오픈소스 플랫폼 **OpenClaw**가 7월 27일, v2026.7.2 프리릴리즈를 공개했습니다. 불과 2주 전인 7월 13일에 v2026.7.1(Control UI 대개편, GPT-5.6 지원)이 나온 직후라 놀라운 속도입니다.
 
 이번 버전은 단순한 버그픽스가 아니라 **원격 코딩 세션, Linux 공식 패키지, GPT-5.6 기본 모델 채택** 등 실무에 바로 체감되는 변화를 담고 있습니다. 532명의 컨트리뷰터가 기여한 3,063개의 커밋이 집약된 결과물이죠.
+
+![Programmer writing code](/assets/images/posts/openclaw-release/hero-code.jpg)
 
 ---
 
@@ -111,3 +114,5 @@ AI 에이전트를 직접 운영하거나 개발 워크플로에 통합하고 �
 - [ClawSpiral: OpenClaw 2026.7.2 Ships](https://clawspiral.com/news/2026-07-27-v202672-release/)
 - [OpenClaw 공식 문서](https://docs.openclaw.ai/releases/2026.7.1)
 - [OpenClaw 공식 사이트](https://openclaw.ai)
+
+*대표 이미지: Wikimedia Commons (CC BY-SA)*
