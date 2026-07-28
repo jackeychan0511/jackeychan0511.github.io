@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[7/28 오후] 코인 브리핑 — FOMC D-DAY, 비트코인 $65K 회복 · ETH/BTC 11개월 하락추세 돌파 · 워시 의장 주목"
-date: 2026-07-22 13:00:00 +0900
+date: 2026-07-28 13:00:00 +0900
 categories: [finance]
 tags: [비트코인, 가상화폐, 코인, BTC, 암호화폐, FOMC, 연준, 이더리움, ETH, KevinWarsh]
 author: "40대 블로거"

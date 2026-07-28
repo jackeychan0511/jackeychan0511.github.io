@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "인천 검단 맛집 소칸 검단본점 | 부채살·살치살 와규 모둠부터 숯불구이까지 내돈내산 후기"
-date: 2026-07-27 17:00:00 +0900
+date: 2026-07-28 17:00:00 +0900
 categories: [food]
 tags: [소칸,소칸검단본점,검단맛집,인천맛집,와규맛집,야끼니꾸,검단데이트,숯불구이,내돈내산,부채살,살치살]
 image: /assets/images/posts/sokan/00-exterior.png
