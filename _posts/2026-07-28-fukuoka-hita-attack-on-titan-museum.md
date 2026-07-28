@@ -163,17 +163,16 @@ image: /assets/images/posts/aot-museum/hero.jpg
 
 ---
 
-## 🎬 동영상 첨부 안내
+## 🎬 히타 여행 영상
 
-함께 찍은 동영상(102MB)은 GitHub Pages 용량 제한으로 직접 업로드는 어렵습니다. 대신 아래 방법으로 확인 가능합니다:
+압축하여 업로드했습니다 (4K→1080p, 107MB→12.7MB).
 
-| 방법 | 설명 |
-|:---|:------|
-| ☁️ **구글 드라이브 공유** | 동영상을 구글 드라이브에 올리고 링크 공유 |
-| ▶️ **유튜브 업로드** | 유튜브에 업로드 후 링크 공유 |
-| 📱 **텔레그램 전송** | 텔레그램으로 전송 (동영상 압축 가능) |
+<video controls preload="metadata" style="width:100%;border-radius:12px;">
+  <source src="/assets/images/posts/aot-museum/video.mp4" type="video/mp4">
+  지원되지 않는 브라우저입니다.
+</video>
 
-원하시는 방법 알려주시면 링크를 글에 추가하겠습니다!
+*히타 거리와 진격의 거인 뮤지엄 현장 영상*
 
 ---
 
@@ -193,4 +192,3 @@ image: /assets/images/posts/aot-museum/hero.jpg
 - 히타시 관광 공식 사이트
 
 *이 글은 실제 방문 후 작성한 솔직 후기입니다. 가격과 일정은 변동될 수 있습니다.*
-*동영상(102MB)은 GitHub Pages 용량 제한으로 첨부하지 못했습니다. 구글 드라이브/유튜브 공유 시 링크 추가 예정입니다.*
