@@ -35,9 +35,24 @@ layout: default
     {% endif %}
 
     <div class="post-share">
-      <strong>이 글 공유하기:</strong>
-      <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" target="_blank" rel="noopener">Facebook</a>
-      <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}" target="_blank" rel="noopener">Twitter</a>
+      <strong>📤 공유하기</strong>
+      <div class="share-buttons">
+        <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" target="_blank" rel="noopener" class="share-btn share-facebook" title="페이스북 공유">
+          <span>📘</span> 페이스북
+        </a>
+        <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}" target="_blank" rel="noopener" class="share-btn share-twitter" title="트위터 공유">
+          <span>🐦</span> 트위터
+        </a>
+        <a href="https://share.naver.com/web/shareView?url={{ site.url }}{{ page.url }}&title={{ page.title }}" target="_blank" rel="noopener" class="share-btn share-naver" title="네이버 블로그 공유">
+          <span>🌿</span> 네이버
+        </a>
+        <a href="https://talk.kakao.com/sharer/sharer?url={{ site.url }}{{ page.url }}&title={{ page.title }}" target="_blank" rel="noopener" class="share-btn share-kakao" title="카카오톡 공유">
+          <span>💬</span> 카카오톡
+        </a>
+        <button class="share-btn share-copy" onclick="copyLink()" title="링크 복사">
+          <span>🔗</span> 링크복사
+        </button>
+      </div>
     </div>
 
     {% if site.comments.provider == "utterances" and page.comments != false %}
