@@ -1,0 +1,2089 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32.png" />
+<link rel="icon" type="image/png" sizes="64x64" href="/images/favicon-64.png" />
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png" />
+<title>와이즈만가구연구소 · 맞춤 싱크대 · 냉장고장 · 붙박이장</title>
+<meta name="description" content="한샘 공식 시공협력사. 15년 경력, 1,800건+ 시공. 싱크대·냉장고장·붙박이장 맞춤 제작, 1분 셀프견적으로 기준 가격을 바로 확인하세요. 수도권 전 지역." />
+<link rel="canonical" href="https://www.wiseman.kr/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="와이즈만가구연구소" />
+<meta property="og:title" content="와이즈만가구연구소 · 나에게 딱 맞춘 싱크대" />
+<meta property="og:description" content="한샘 공식 시공협력사 · 15년 경력 · 1,800건+ 시공. 1분 셀프견적으로 우리집 주방 기준 가격을 바로 확인하세요." />
+<meta property="og:url" content="https://www.wiseman.kr/" />
+<meta property="og:image" content="https://www.wiseman.kr/images/og-home.jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="와이즈만가구연구소 · 나에게 딱 맞춘 싱크대" />
+<meta name="twitter:description" content="한샘 공식 시공협력사 · 1분 셀프견적으로 기준 가격 바로 확인" />
+<meta name="twitter:image" content="https://www.wiseman.kr/images/og-home.jpg" />
+<template id="__bundler_thumbnail" data-bg-color="#F5F2EC">
+  <svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+    <rect width="1200" height="800" fill="#F5F2EC"/>
+    <g fill="#1a1a18">
+      <rect x="180" y="340" width="840" height="4"/>
+      <text x="180" y="300" font-family="Georgia, serif" font-size="84" font-weight="700" letter-spacing="-2">WEIZMANN</text>
+      <text x="180" y="420" font-family="Georgia, serif" font-size="28" letter-spacing="4">가구연구소 · SINCE 2011</text>
+      <rect x="180" y="500" width="120" height="120" fill="none" stroke="#1a1a18" stroke-width="3"/>
+      <rect x="340" y="500" width="120" height="120" fill="none" stroke="#1a1a18" stroke-width="3"/>
+      <rect x="500" y="500" width="120" height="120" fill="none" stroke="#1a1a18" stroke-width="3"/>
+      <circle cx="960" cy="560" r="8" fill="#B9553A"/>
+    </g>
+  </svg>
+</template>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+<script>
+const TWEAK_DEFAULS = /*EDITMODE-BEGIN*/{
+  "palette": "ink",
+  "heroLayout": "split",
+  "density": "compact"
+}/*EDITMODE-END*/;
+</script>
+<style>
+  /* ---------- palette themes ---------- */
+  :root {
+    --paper: #F7F3EC;          /* warm off-white */
+    --paper-2: #EFE9DD;        /* sand */
+    --paper-3: #E5DDCB;        /* deeper sand */
+    --ink: #1F1B16;            /* warm charcoal */
+    --ink-2: #2D2823;
+    --muted: #6E665B;          /* warm gray */
+    --muted-2: #A39B8A;
+    --line: #DBD2BF;           /* hairline on paper */
+    --line-soft: #E8E0CE;
+    --accent: #8C6A3F;         /* walnut */
+    --accent-ink: #FAF7F0;
+    --chip-bg: transparent;
+  }
+  [data-palette="forest"] {
+    --paper: #F1F2EC;
+    --paper-2: #E5E8DC;
+    --paper-3: #D7DCC9;
+    --ink: #1F2A22;
+    --ink-2: #2C3A2F;
+    --muted: #6A7268;
+    --muted-2: #9EA597;
+    --line: #CFD6BF;
+    --line-soft: #DEE3CD;
+    --accent: #5C7A5E;
+    --accent-ink: #FFFFFF;
+  }
+  [data-palette="brick"] {
+    --paper: #F4ECE2;
+    --paper-2: #EADFCD;
+    --paper-3: #DECDB1;
+    --ink: #261E18;
+    --ink-2: #382C24;
+    --muted: #75665A;
+    --muted-2: #AC9B89;
+    --line: #DCC9AF;
+    --line-soft: #E5D7BD;
+    --accent: #B05A3C;
+    --accent-ink: #FFFFFF;
+  }
+
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: "Pretendard", "Pretendard Variable", -apple-system, BlinkMacSystemFont, system-ui, "Apple SD Gothic Neo", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.65;
+    letter-spacing: -0.012em;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+  }
+
+  /* ---------- dynamic animated background ---------- */
+  .bg-dynamic {
+    position: fixed; inset: 0; z-index: -1;
+    background: var(--paper);
+    overflow: hidden; pointer-events: none;
+  }
+  .bg-dynamic .blob {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(110px);
+    opacity: 0.45;
+    will-change: transform;
+    mix-blend-mode: multiply;
+  }
+  [data-palette="ink"] .bg-dynamic .blob.b1 { background: #E8D9BF; }
+  [data-palette="ink"] .bg-dynamic .blob.b2 { background: #D9C9A8; }
+  [data-palette="ink"] .bg-dynamic .blob.b3 { background: #ECDFC6; }
+  [data-palette="forest"] .bg-dynamic .blob.b1 { background: #C6DDBF; }
+  [data-palette="forest"] .bg-dynamic .blob.b2 { background: #E4E8D2; }
+  [data-palette="forest"] .bg-dynamic .blob.b3 { background: #D0E0C8; }
+  [data-palette="brick"] .bg-dynamic .blob.b1 { background: #F2C9B4; }
+  [data-palette="brick"] .bg-dynamic .blob.b2 { background: #EDDCC8; }
+  [data-palette="brick"] .bg-dynamic .blob.b3 { background: #F4D0C0; }
+  .bg-dynamic .blob.b1 { width: 640px; height: 640px; top: -180px;  left: -160px;  animation: drift1 28s ease-in-out infinite; }
+  .bg-dynamic .blob.b2 { width: 540px; height: 540px; top: 40%;     right: -180px; animation: drift2 34s ease-in-out infinite; }
+  .bg-dynamic .blob.b3 { width: 720px; height: 720px; bottom: -220px; left: 20%;    animation: drift3 42s ease-in-out infinite; }
+  .bg-dynamic::after {
+    content: "";
+    position: absolute; inset: 0;
+    background: linear-gradient(180deg, color-mix(in srgb, var(--paper) 0%, transparent) 0%, var(--paper) 100%);
+    opacity: 0.35;
+  }
+  .bg-dynamic .grain {
+    position: absolute; inset: 0;
+    background-image: radial-gradient(circle at 1px 1px, color-mix(in srgb, var(--ink) 6%, transparent) 1px, transparent 0);
+    background-size: 3px 3px;
+    opacity: 0.25;
+    mix-blend-mode: multiply;
+  }
+  @keyframes drift1 {
+    0%, 100% { transform: translate(0,0) scale(1); }
+    50% { transform: translate(120px, 80px) scale(1.15); }
+  }
+  @keyframes drift2 {
+    0%, 100% { transform: translate(0,0) scale(1); }
+    50% { transform: translate(-140px, -60px) scale(1.1); }
+  }
+  @keyframes drift3 {
+    0%, 100% { transform: translate(0,0) scale(1); }
+    50% { transform: translate(80px, -100px) scale(1.2); }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .bg-dynamic .blob { animation: none; }
+  }
+
+  /* section backgrounds become translucent so dynamic bg shows */
+  body, .hero, .trust, section.block { background: transparent; }
+  nav.top { background: color-mix(in srgb, var(--paper) 72%, transparent); }
+  .serif { font-family: "Fraunces", "Pretendard", serif; font-optical-sizing: auto; letter-spacing: -0.02em; }
+  .mono { font-family: "JetBrains Mono", "SF Mono", ui-monospace, monospace; }
+
+  /* container */
+  .wrap { max-width: 1240px; margin: 0 auto; padding: 0 40px; }
+  @media (max-width: 720px) { .wrap { padding: 0 20px; } }
+
+  /* ---------- nav ---------- */
+  nav.top {
+    position: sticky; top: 0; z-index: 50;
+    background: color-mix(in srgb, var(--paper) 88%, transparent);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border-bottom: 1px solid var(--line);
+  }
+  nav.top .inner {
+    display: flex; align-items: center; justify-content: space-between;
+    height: 72px;
+  }
+  nav.top .brand {
+    display: flex; align-items: center; gap: 14px;
+    font-family: "Fraunces", "Pretendard", serif; font-weight: 600; font-optical-sizing: auto;
+    font-size: 17px; letter-spacing: -0.01em;
+    color: var(--ink);
+    text-decoration: none;
+  }
+  nav.top .brand img.logo-mark {
+    height: 44px; width: auto; display: block;
+  }
+  nav.top .brand .brand-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-left: 4px;
+    padding: 4px 8px 4px 7px;
+    border: 1px solid var(--ink);
+    font-family: Inter, "Noto Sans KR", sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    color: var(--ink);
+    line-height: 1;
+    text-transform: none;
+    white-space: nowrap;
+  }
+  nav.top .brand .brand-badge em {
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    padding-right: 6px;
+    border-right: 1px solid color-mix(in srgb, var(--ink) 40%, transparent);
+  }
+  @media (max-width: 720px) {
+    nav.top .brand .brand-badge { display: none; }
+  }
+  [data-palette="forest"] nav.top .brand img.logo-mark,
+  [data-palette="brick"] nav.top .brand img.logo-mark {
+    filter: none;
+  }
+  .foot-brand-logo {
+    height: 56px; width: auto; display: block;
+    filter: invert(1);
+    margin-bottom: 20px;
+  }
+  nav.top ul {
+    list-style: none; display: flex; gap: 36px; margin: 0; padding: 0;
+    align-items: center;
+  }
+  nav.top ul a {
+    color: var(--ink-2); text-decoration: none;
+    font-size: 14px; font-weight: 500;
+    transition: color .2s;
+  }
+  nav.top ul a:hover { color: var(--accent); }
+  nav.top .cta {
+    background: var(--ink); color: var(--paper);
+    padding: 11px 22px; border-radius: 2px;
+    font-size: 14px; font-weight: 600;
+    text-decoration: none; white-space: nowrap;
+    transition: background .2s;
+  }
+  nav.top .cta:hover { background: var(--accent); color: var(--accent-ink); }
+  @media (max-width: 860px) {
+    nav.top ul li:not(:last-child) { display: none; }
+  }
+
+  /* ---------- hero ---------- */
+  .hero {
+    padding: 88px 0 120px;
+    border-bottom: 1px solid var(--line);
+    position: relative;
+  }
+  [data-density="compact"] .hero { padding: 64px 0 88px; }
+  .hero .eyebrow {
+    font-family: Inter, "Noto Sans KR", sans-serif;
+    font-size: 12px; font-weight: 500;
+    letter-spacing: 0.18em; text-transform: uppercase;
+    color: var(--muted); margin-bottom: 32px;
+  }
+  .hero h1 {
+    font-family: "Fraunces", "Pretendard", serif;
+    font-weight: 400;
+    font-size: clamp(40px, 5.6vw, 84px);
+    line-height: 1.08;
+    letter-spacing: -0.035em;
+    margin: 0 0 32px;
+    color: var(--ink);
+    max-width: 14ch;
+  }
+  .hero h1 .h1-main { display: block; font-weight: 600; }
+  .hero h1 .h1-sub {
+    display: block;
+    font-family: "Noto Sans KR", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: clamp(18px, 1.6vw, 24px);
+    color: var(--muted);
+    letter-spacing: -0.01em;
+    line-height: 1.55;
+    margin-top: 20px;
+    max-width: 24ch;
+  }
+  .hero .lede {
+    max-width: 520px;
+    color: var(--ink-2);
+    font-size: 16px; line-height: 1.75;
+    margin-bottom: 40px;
+    padding-left: 18px;
+    border-left: 2px solid var(--line);
+    text-align: left;
+    word-break: keep-all;
+  }
+  .hero .lede .quote {
+    display: block;
+    font-family: "Fraunces", "Pretendard", serif;
+    font-style: italic;
+    color: var(--ink);
+    margin-bottom: 10px;
+    font-size: 17px;
+    font-weight: 400;
+  }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 40px; max-width: 620px; }
+  .chip {
+    border: 1px solid var(--line);
+    padding: 7px 14px;
+    font-size: 12.5px; font-weight: 500;
+    color: var(--muted);
+    background: color-mix(in srgb, var(--paper) 60%, transparent);
+    border-radius: 100px;
+    transition: all .2s;
+    letter-spacing: -0.005em;
+  }
+  .chip:hover { border-color: var(--ink); color: var(--ink); background: var(--paper); }
+  .btn-row { display: flex; align-items: center; gap: 24px; flex-wrap: wrap; }
+  .btn-primary {
+    background: #F26A1B; color: #fff;
+    padding: 18px 40px;
+    font-size: 16px; font-weight: 800; letter-spacing: -0.01em;
+    text-decoration: none;
+    white-space: nowrap;
+    border-radius: 8px;
+    display: inline-flex; align-items: center; gap: 10px;
+    box-shadow: 0 8px 22px rgba(242,106,27,.34);
+    transition: background .2s, transform .2s, box-shadow .2s;
+    animation: heroCta 2.2s ease-in-out infinite;
+  }
+  .btn-primary:hover { background: #d9550c; color: #fff; transform: translateY(-2px); }
+  @keyframes heroCta {
+    0%,100% { box-shadow: 0 8px 22px rgba(242,106,27,.28); transform: translateY(0); }
+    50%     { box-shadow: 0 14px 34px rgba(242,106,27,.55); transform: translateY(-3px); }
+  }
+  @media (prefers-reduced-motion: reduce) { .btn-primary { animation: none; } }
+  .btn-primary .arrow { transition: transform .2s; }
+  .btn-primary:hover .arrow { transform: translateX(4px); }
+  .btn-meta {
+    font-size: 13px; color: var(--muted); font-weight: 400;
+  }
+  .btn-meta .dot { display: inline-block; margin: 0 10px; opacity: .4; }
+
+  /* ---------- hero (editorial, distinctive) ---------- */
+  .hero {
+    padding: 56px 0 80px;
+    border-bottom: none;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero .wrap {
+    display: grid;
+    grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr);
+    gap: clamp(32px, 5vw, 72px);
+    align-items: center;
+  }
+  .hero-copy { min-width: 0; }
+  .hero-grid { display: block; }
+  .hero-visual {
+    position: relative;
+    aspect-ratio: 4/5;
+    background-size: cover;
+    background-position: center;
+    background-color: color-mix(in srgb, var(--ink) 8%, var(--paper));
+    overflow: hidden;
+  }
+  .hero-visual::after {
+    content: "";
+    position: absolute; inset: 0;
+    background: linear-gradient(180deg, transparent 55%, color-mix(in srgb, var(--ink) 30%, transparent) 100%);
+    pointer-events: none;
+  }
+  .hero-visual .visual-tag {
+    position: absolute; left: 20px; bottom: 18px;
+    color: var(--paper);
+    font-family: Inter, sans-serif;
+    font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase;
+    z-index: 1;
+  }
+  .hero-visual .visual-tag strong { font-weight: 600; margin-right: 10px; }
+  @media (max-width: 860px) {
+    .hero .wrap { grid-template-columns: 1fr; }
+    .hero-visual { aspect-ratio: 16/11; margin-top: 12px; }
+  }
+
+  /* ---------- hero: rhythm + motion ---------- */
+  @keyframes heroRise {
+    from { opacity: 0; transform: translateY(22px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes heroFade {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+  @keyframes heroUnderline {
+    from { transform: scaleX(0); }
+    to   { transform: scaleX(1); }
+  }
+  @keyframes kenBurns {
+    0%   { transform: scale(1.04); }
+    50%  { transform: scale(1.12); }
+    100% { transform: scale(1.04); }
+  }
+  @keyframes kenBurnsBg {
+    0%   { opacity: 1; background-size: 112% auto; background-position: 50% 50%; }
+    50%  { opacity: 1; background-size: 122% auto; background-position: 48% 52%; }
+    100% { opacity: 1; background-size: 112% auto; background-position: 50% 50%; }
+  }
+  @keyframes marqueeGlide {
+    0%   { background-position: 50% 50%; }
+    100% { background-position: 52% 48%; }
+  }
+  @keyframes dotPulse {
+    0%, 100% { transform: translateY(-0.05em) scale(1);   opacity: 1; }
+    50%      { transform: translateY(-0.05em) scale(1.45); opacity: 0.7; }
+  }
+
+  .hero .eyebrow    { opacity: 0; animation: heroRise 900ms cubic-bezier(.2,.7,.2,1) 80ms forwards; }
+  .hero h1 .h1-main { opacity: 0; animation: heroRise 1100ms cubic-bezier(.2,.7,.2,1) forwards; }
+  .hero h1 .h1-main:nth-of-type(1) { animation-delay: 160ms; }
+  .hero h1 .h1-main:nth-of-type(2) { animation-delay: 240ms; }
+  .hero h1 .h1-main:nth-of-type(3) { animation-delay: 320ms; }
+  .hero h1 .h1-main:nth-of-type(4) { animation-delay: 400ms; }
+  .hero h1 .h1-brand { opacity: 0; animation: heroRise 1100ms cubic-bezier(.2,.7,.2,1) 540ms forwards; }
+  .hero h1 .h1-sig   { opacity: 0; animation: heroRise 1100ms cubic-bezier(.2,.7,.2,1) 540ms forwards; }
+  .hero .lede      { opacity: 0; animation: heroRise 900ms cubic-bezier(.2,.7,.2,1) 520ms forwards; }
+  .hero .cta-col   { opacity: 0; animation: heroRise 900ms cubic-bezier(.2,.7,.2,1) 600ms forwards; }
+  .hero .chips     { opacity: 0; animation: heroRise 900ms cubic-bezier(.2,.7,.2,1) 720ms forwards; }
+
+  .hero h1 .accent-dot {
+    animation: dotPulse 2.4s ease-in-out 1.6s infinite;
+  }
+
+  /* decorative underline now lives on .h1-brand via its own ::after */
+  .hero h1 .h1-main:nth-of-type(3) {
+    position: relative;
+    display: block;
+  }
+
+  /* hero-visual: frame + Ken Burns + corner marks */
+  .hero-visual {
+    opacity: 0;
+    animation: heroFade 1200ms ease-out 300ms forwards;
+    transform: translateZ(0);
+  }
+  .hero-visual {
+    background-size: 112% auto;
+    animation: heroFade 1200ms ease-out 300ms forwards, kenBurnsBg 18s ease-in-out 1800ms infinite;
+  }
+  /* corner ticks */
+  .hero-visual::after {
+    background:
+      linear-gradient(180deg, transparent 55%, color-mix(in srgb, var(--ink) 30%, transparent) 100%),
+      linear-gradient(var(--ink), var(--ink)) left  0  / 1px 20px no-repeat,
+      linear-gradient(var(--ink), var(--ink)) left  0  / 20px 1px no-repeat,
+      linear-gradient(var(--ink), var(--ink)) right 0  / 1px 20px no-repeat,
+      linear-gradient(var(--ink), var(--ink)) right 0  / 20px 1px no-repeat,
+      linear-gradient(var(--ink), var(--ink)) left  100% / 1px 20px no-repeat,
+      linear-gradient(var(--ink), var(--ink)) left  100% / 20px 1px no-repeat,
+      linear-gradient(var(--ink), var(--ink)) right 100% / 1px 20px no-repeat,
+      linear-gradient(var(--ink), var(--ink)) right 100% / 20px 1px no-repeat;
+  }
+
+  /* chips drift */
+  .hero .chip {
+    transition: transform .6s cubic-bezier(.2,.7,.2,1), background .3s, color .3s;
+  }
+  .hero .chip:hover { transform: translateY(-3px); }
+
+  /* ---------- hero ambient blobs ---------- */
+  .hero-ambient {
+    position: absolute; inset: -10% -5%;
+    pointer-events: none; z-index: 0;
+    filter: blur(60px);
+    opacity: 0.55;
+  }
+  .hero-ambient .blob {
+    position: absolute;
+    display: block;
+    border-radius: 50%;
+    will-change: transform;
+  }
+  .hero-ambient .blob-a {
+    width: 42vw; height: 42vw;
+    left: -8vw; top: -12vw;
+    background: radial-gradient(circle at 30% 30%,
+      color-mix(in srgb, var(--accent) 55%, transparent),
+      transparent 65%);
+    animation: blobA 22s ease-in-out infinite alternate;
+  }
+  .hero-ambient .blob-b {
+    width: 36vw; height: 36vw;
+    right: -6vw; top: 8vw;
+    background: radial-gradient(circle at 70% 40%,
+      color-mix(in srgb, #8aa58f 60%, transparent),
+      transparent 65%);
+    animation: blobB 28s ease-in-out infinite alternate;
+  }
+  .hero-ambient .blob-c {
+    width: 30vw; height: 30vw;
+    left: 30vw; bottom: -10vw;
+    background: radial-gradient(circle at 40% 60%,
+      color-mix(in srgb, #d9b38a 55%, transparent),
+      transparent 65%);
+    animation: blobC 32s ease-in-out infinite alternate;
+  }
+  @keyframes blobA {
+    0%   { transform: translate(0, 0) scale(1);    }
+    50%  { transform: translate(6vw, 4vw) scale(1.08); }
+    100% { transform: translate(-4vw, 8vw) scale(0.95); }
+  }
+  @keyframes blobB {
+    0%   { transform: translate(0, 0) scale(1);    }
+    50%  { transform: translate(-5vw, 6vw) scale(1.1);  }
+    100% { transform: translate(3vw, -4vw) scale(0.95); }
+  }
+  @keyframes blobC {
+    0%   { transform: translate(0, 0) scale(1);     }
+    50%  { transform: translate(4vw, -6vw) scale(1.12); }
+    100% { transform: translate(-3vw, 3vw) scale(0.98); }
+  }
+  .hero .wrap { position: relative; z-index: 1; }
+
+  /* ---------- hero-visual cross-fade swapper ---------- */
+  .hero-visual { background-image: none !important; animation: heroFade 1200ms ease-out 300ms forwards !important; }
+  .hv-layer {
+    position: absolute; inset: 0;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transform: scale(1.04);
+    transition: opacity 1200ms ease, transform 8000ms ease-out;
+  }
+  .hv-layer.is-on {
+    opacity: 1;
+    transform: scale(1.12);
+  }
+  .hv-tags { position: absolute; inset: 0; z-index: 2; pointer-events: none; }
+  .hv-tags .visual-tag {
+    position: absolute; left: 20px; bottom: 18px;
+    color: var(--paper);
+    font-family: Inter, sans-serif;
+    font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase;
+    opacity: 0; transform: translateY(6px);
+    transition: opacity 600ms ease 200ms, transform 600ms ease 200ms;
+  }
+  .hv-tags .visual-tag.is-on { opacity: 1; transform: translateY(0); }
+  .hv-tags .visual-tag strong { font-weight: 700; margin-right: 10px; }
+
+  .hv-counter {
+    position: absolute; right: 16px; top: 16px; z-index: 2;
+    font-family: Inter, sans-serif;
+    font-size: 11px; letter-spacing: 0.18em;
+    color: var(--paper);
+    background: color-mix(in srgb, var(--ink) 45%, transparent);
+    padding: 6px 10px;
+    backdrop-filter: blur(4px);
+  }
+
+  /* ---------- hero-visual partner badge ---------- */
+  .hv-partner {
+    position: absolute;
+    left: 12px;
+    top: 12px;
+    z-index: 3;
+    background: var(--paper);
+    border: 1px solid var(--line);
+    padding: 7px 10px 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    box-shadow: 0 10px 28px -14px rgba(24,24,22,0.35);
+    opacity: 0;
+    animation: heroFade 900ms ease-out 1400ms forwards;
+    max-width: calc(100% - 24px);
+  }
+  .hv-partner img {
+    height: 16px;
+    width: auto;
+    max-width: 100%;
+    display: block;
+    object-fit: contain;
+  }
+  .hv-partner-label {
+    font-family: Inter, sans-serif;
+    font-size: 7px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+    display: flex;
+    align-items: center;
+    gap: 7px;
+  }
+  .hv-partner-yrs {
+    color: var(--ink);
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    padding-left: 7px;
+    border-left: 1px solid color-mix(in srgb, var(--ink) 30%, transparent);
+  }
+  .hv-partner img {
+    height: 13px;
+    width: auto;
+    display: block;
+  }
+  @media (max-width: 860px) {
+    .hv-partner { padding: 6px 7px 7px; }
+    .hv-partner img { height: 10px; }
+  }
+
+  /* ---------- hero-visual floating spec pins ---------- */
+  .hv-pins { position: absolute; inset: 0; z-index: 3; pointer-events: none; }
+  .hv-pin {
+    position: absolute;
+    background: var(--paper);
+    color: var(--ink);
+    padding: 12px 16px;
+    border: 1px solid var(--line);
+    box-shadow: 0 12px 32px -12px rgba(24,24,22,0.35);
+    min-width: 120px;
+    opacity: 0;
+    animation: pinIn 900ms cubic-bezier(.2,.7,.2,1) forwards,
+               pinFloat 6s ease-in-out infinite;
+  }
+  .hv-pin.pin-a { left: -22px;  top: 14%;  animation-delay: 1100ms, 1100ms; }
+  .hv-pin.pin-b { right: -18px; top: 52%;  animation-delay: 1300ms, 1300ms; }
+  .hv-pin.pin-c { left: 30%;    bottom: -22px; animation-delay: 1500ms, 1500ms; }
+  .hv-pin .pin-num {
+    font-family: "Fraunces", "Pretendard", serif;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+  }
+  .hv-pin .pin-num sup {
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 0.5em;
+    font-weight: 500;
+    margin-left: 2px;
+    vertical-align: 0.55em;
+  }
+  .hv-pin .pin-label {
+    font-family: Inter, sans-serif;
+    font-size: 10px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-top: 6px;
+  }
+  @keyframes pinIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes pinFloat {
+    0%, 100% { transform: translateY(0); }
+    50%      { transform: translateY(-6px); }
+  }
+
+  /* ---------- h1 char reveal lines ---------- */
+  .hero h1 .reveal-line {
+    display: block;
+    overflow: hidden;
+    animation: none !important;
+    opacity: 1 !important;
+  }
+  .hero h1 .reveal-line .char {
+    display: inline-block;
+    transform: translateY(1.1em);
+    opacity: 0;
+    animation: charRise 800ms cubic-bezier(.2,.7,.2,1) forwards;
+  }
+  .hero h1 .reveal-line .char.space { width: 0.3em; }
+  /* 단어 단위 묶음 — 좁은 화면에서 단어 중간에 줄바꿈 안 되도록 */
+  .hero h1 .reveal-line .word { display: inline-block; white-space: nowrap; }
+  @keyframes charRise {
+    to { transform: translateY(0); opacity: 1; }
+  }
+
+  @media (max-width: 860px) {
+    .hv-pin.pin-a { left: 10px;  top: 10px; }
+    .hv-pin.pin-b { right: 10px; top: auto; bottom: 60px; }
+    .hv-pin.pin-c { left: 10px;  bottom: 10px; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .hero-ambient .blob { animation: none; }
+    .hv-layer { transition: opacity 600ms ease; transform: none; }
+    .hv-pin { animation: none !important; opacity: 1; }
+    .hero h1 .reveal-line .char { animation: none; opacity: 1; transform: none; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .hero .eyebrow, .hero h1 .h1-main, .hero h1 .h1-brand, .hero h1 .h1-sig, .hero .lede,
+    .hero .cta-col, .hero .chips, .hero-visual {
+      opacity: 1 !important; animation: none !important;
+    }
+    .hero-visual::before { animation: none !important; }
+    .hero h1 .accent-dot { animation: none !important; }
+  }
+
+  .hero .eyebrow {
+    display: flex; align-items: center; gap: 14px;
+    font-family: Inter, sans-serif;
+    font-size: 11px; font-weight: 600;
+    letter-spacing: 0.22em; text-transform: uppercase;
+    color: var(--muted); margin-bottom: 28px;
+  }
+  .hero .eyebrow::before {
+    content: ""; width: 32px; height: 1px; background: var(--ink);
+  }
+
+  .hero h1 {
+    font-family: "Fraunces", "Pretendard", serif;
+    font-weight: 400;
+    font-size: 66px;
+    line-height: 1.18;
+    letter-spacing: -0.03em;
+    margin: 0 0 40px;
+    color: var(--ink);
+    position: relative;
+  }
+  .hero h1 .h1-main { display: block; font-weight: 600; }
+  .hero h1 .h1-main.indent { padding-left: clamp(40px, 8vw, 180px); font-style: italic; font-weight: 400; }
+  .hero h1 .accent-dot {
+    display: inline-block; width: 0.18em; height: 0.18em;
+    background: var(--accent); border-radius: 50%;
+    vertical-align: baseline; margin-left: 0.08em;
+    transform: translateY(-0.05em);
+  }
+  .hero h1 .h1-sub { display: none; }
+
+  .hero h1 .h1-brand {
+    display: block;
+    margin-top: 0.35em;
+    font-family: "Noto Sans KR", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 62px;
+    letter-spacing: -0.025em;
+    line-height: 1.1;
+    color: var(--ink);
+    position: relative;
+    padding-bottom: 0.25em;
+  }
+
+  /* compact signature line (replaces oversized brand) */
+  .hero h1 .h1-sig {
+    display: flex;
+    align-items: baseline;
+    gap: 14px;
+    word-break: keep-all;
+    margin-top: 1.1em;
+    padding-top: 14px;
+    border-top: 1px solid color-mix(in srgb, var(--ink) 18%, transparent);
+    font-family: "Noto Sans KR", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+    color: var(--ink);
+  }
+  .hero h1 .h1-sig em {
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+    padding-right: 14px;
+    border-right: 1px solid color-mix(in srgb, var(--ink) 25%, transparent);
+  }
+  .hero h1 .h1-sig .accent-dot {
+    width: 0.5em; height: 0.5em;
+    margin-left: 4px;
+    transform: translateY(-0.02em);
+  }
+  .hero h1 .h1-brand .accent-dot {
+    width: 0.35em; height: 0.35em;
+    margin-left: 0.12em;
+    transform: translateY(-0.02em);
+  }
+  .hero h1 .h1-brand::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 3.2em;
+    height: 2px;
+    background: var(--ink);
+    transform: scaleX(0);
+    transform-origin: left center;
+    animation: heroUnderline 900ms cubic-bezier(.2,.7,.2,1) 900ms forwards;
+  }
+
+  .h1-rotator {
+    display: inline-block; position: relative;
+    height: 1em; vertical-align: baseline; overflow: hidden;
+    min-width: 4.5ch;
+  }
+  .h1-rotator span {
+    position: absolute; left: 0; top: 0;
+    opacity: 0; transform: translateY(40%);
+    transition: opacity .5s, transform .5s;
+    color: var(--accent);
+    font-style: italic;
+    font-weight: 500;
+    white-space: nowrap;
+  }
+  .h1-rotator span.on { opacity: 1; transform: translateY(0); }
+  .h1-rotator span.out { opacity: 0; transform: translateY(-40%); }
+
+  .hero-meta {
+    display: grid;
+    grid-template-columns: 1.1fr 1fr;
+    gap: 48px;
+    align-items: end;
+    margin-top: -8px;
+  }
+  .hero .lede {
+    max-width: 480px;
+    color: var(--ink-2);
+    font-size: 15px; line-height: 1.75;
+    margin: 0;
+    padding-left: 20px;
+    border-left: 2px solid var(--ink);
+  }
+  .hero .lede .quote {
+    display: block;
+    font-family: "Fraunces", "Pretendard", serif;
+    font-style: italic;
+    color: var(--ink);
+    margin-bottom: 10px;
+    font-size: 17px;
+    font-weight: 400;
+  }
+  .hero .lede strong {
+    font-weight: 700;
+    color: var(--ink);
+    border-bottom: 1px solid var(--accent);
+    padding-bottom: 1px;
+  }
+  .hero .cta-col { justify-self: end; text-align: right; }
+
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 48px 0 0; max-width: 100%; }
+  .chip {
+    border: 1px solid var(--line);
+    padding: 7px 14px;
+    font-size: 12.5px; font-weight: 500;
+    color: var(--muted);
+    background: color-mix(in srgb, var(--paper) 60%, transparent);
+    border-radius: 100px;
+    transition: all .2s;
+  }
+  .chip:hover { border-color: var(--ink); color: var(--ink); background: var(--paper); }
+
+  @media (max-width: 860px) {
+    .hero-meta { grid-template-columns: 1fr; gap: 28px; }
+    .hero .cta-col { justify-self: start; text-align: left; }
+    .hero h1 .h1-main.indent { padding-left: 20px; }
+    .hero h1 { font-size: clamp(34px, 9vw, 58px); }
+    .hero h1 .h1-brand { font-size: clamp(32px, 8.5vw, 54px); }
+  }
+  @media (max-width: 480px) {
+    .hero h1 { font-size: clamp(30px, 8.6vw, 40px); }
+    .hero h1 .h1-brand { font-size: clamp(28px, 8vw, 38px); }
+  }
+
+  /* marquee */
+  .marquee {
+    padding: 24px 0 40px;
+    overflow: hidden;
+    position: relative;
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+  }
+  .marquee-track {
+    display: flex; gap: 20px; width: max-content;
+    animation: slide 48s linear infinite;
+  }
+  .marquee:hover .marquee-track { animation-play-state: paused; }
+  .marquee-item {
+    width: 360px; height: 240px;
+    background-size: cover; background-position: center;
+    flex-shrink: 0;
+  }
+  @keyframes slide {
+    from { transform: translateX(0); }
+    to { transform: translateX(calc(-50% - 10px)); }
+  }
+  @media (prefers-reduced-motion: reduce) { .marquee-track { animation: none; } }
+
+  /* ---------- trust strip ---------- */
+  .trust {
+    border-bottom: 1px solid var(--line);
+    padding: 72px 0 80px;
+  }
+  [data-density="compact"] .trust { padding: 48px 0 56px; }
+  .trust .label {
+    font-family: Inter, sans-serif;
+    font-size: 12px; letter-spacing: 0.18em; text-transform: uppercase;
+    color: var(--muted); margin-bottom: 48px;
+  }
+  .trust-grid {
+    display: grid; grid-template-columns: repeat(4, 1fr);
+    gap: 0;
+  }
+  .trust-item {
+    padding: 4px 32px 4px 0;
+    border-left: 1px solid var(--line);
+    padding-left: 32px;
+  }
+  .trust-item:first-child { border-left: none; padding-left: 0; }
+  .trust-num {
+    font-family: "Fraunces", "Pretendard", serif;
+    font-size: 68px; font-weight: 400;
+    line-height: 1;
+    letter-spacing: -0.04em;
+    color: var(--ink);
+    margin-bottom: 20px;
+  }
+  .trust-num sup {
+    font-size: 30px; font-weight: 400; color: var(--muted);
+    vertical-align: super; margin-left: 2px;
+  }
+  .trust-title {
+    font-size: 15px; font-weight: 600; color: var(--ink); margin-bottom: 6px;
+  }
+  .trust-desc { font-size: 13px; color: var(--muted); line-height: 1.6; }
+  @media (max-width: 860px) {
+    .trust-grid { grid-template-columns: repeat(2, 1fr); row-gap: 40px; }
+    .trust-item:nth-child(3) { border-left: none; padding-left: 0; }
+  }
+
+  /* ---------- section scaffolding ---------- */
+  section.block {
+    padding: 120px 0;
+    border-bottom: 1px solid var(--line);
+  }
+  [data-density="compact"] section.block { padding: 80px 0; }
+  .sec-head { margin-bottom: 64px; display: flex; align-items: flex-end; justify-content: space-between; gap: 40px; flex-wrap: wrap; }
+  .sec-eyebrow {
+    font-family: Inter, sans-serif;
+    font-size: 12px; letter-spacing: 0.18em; text-transform: uppercase;
+    color: var(--muted); margin-bottom: 18px;
+  }
+  .sec-title {
+    font-family: "Fraunces", "Pretendard", serif;
+    font-size: clamp(34px, 4.4vw, 58px);
+    font-weight: 400;
+    line-height: 1.1;
+    letter-spacing: -0.03em;
+    margin: 0;
+    color: var(--ink);
+    max-width: 780px;
+  }
+  .sec-aside { font-size: 14px; color: var(--muted); max-width: 320px; line-height: 1.7; }
+  .link-arrow {
+    display: inline-flex; align-items: center; gap: 8px;
+    color: var(--ink); text-decoration: none;
+    font-size: 14px; font-weight: 500;
+    border-bottom: 1px solid var(--ink);
+    padding-bottom: 2px;
+    transition: gap .2s;
+  }
+  .link-arrow:hover { gap: 14px; }
+
+  /* ---------- portfolio grid ---------- */
+  .port-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 32px 24px;
+  }
+  .port-item { grid-column: span 2; }
+  .port-item.wide { grid-column: span 3; }
+  .port-item.full { grid-column: span 6; }
+  .port-visual {
+    aspect-ratio: 4/3;
+    background-color: var(--paper-2);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid var(--line);
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 18px;
+    transition: transform .4s ease;
+  }
+  .port-item:hover .port-visual { transform: translateY(-4px); }
+  .port-visual .tag {
+    position: absolute; top: 14px; left: 14px;
+    background: var(--paper);
+    font-family: Inter, sans-serif;
+    font-size: 10px; font-weight: 600; letter-spacing: 0.1em;
+    padding: 5px 10px; color: var(--ink);
+    text-transform: uppercase;
+  }
+  .port-num {
+    font-family: "Fraunces", "Pretendard", serif;
+    font-size: 13px; color: var(--muted); margin-right: 10px;
+  }
+  .port-cat { font-size: 12px; color: var(--muted); letter-spacing: 0.06em; text-transform: uppercase; font-family: Inter, sans-serif; margin-bottom: 6px; }
+  .port-title { font-family: "Pretendard", "Fraunces", sans-serif; font-size: 20px; font-weight: 600; color: var(--ink); letter-spacing: -0.02em; margin-bottom: 4px; word-break: keep-all; }
+  .port-meta, .trust-title, .trust-desc, .review-body { word-break: keep-all; }
+  .port-meta { font-size: 13px; color: var(--muted); }
+  .port-item.wide .port-title { font-size: 24px; }
+  .port-item.full .port-visual { aspect-ratio: 21/9; }
+  .port-item.full .port-title { font-size: 28px; }
+  @media (max-width: 860px) {
+    .port-grid { grid-template-columns: repeat(2, 1fr); }
+    .port-item, .port-item.wide, .port-item.full { grid-column: span 2; }
+  }
+
+  /* ---------- process ---------- */
+  .process {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0;
+  }
+  .proc-step {
+    border-left: 1px solid var(--line);
+    padding: 0 24px 32px 24px;
+    position: relative;
+  }
+  .proc-step:first-child { border-left: none; padding-left: 0; }
+  .proc-num {
+    font-family: Inter, monospace;
+    font-size: 11px; color: var(--muted);
+    letter-spacing: 0.1em; margin-bottom: 20px;
+  }
+  .proc-title {
+    font-family: "Pretendard", sans-serif;
+    font-size: 22px; font-weight: 600;
+    margin-bottom: 14px; color: var(--ink);
+    letter-spacing: -0.02em;
+  }
+  .proc-desc { font-size: 13px; color: var(--muted); line-height: 1.7; }
+  @media (max-width: 860px) {
+    .process { grid-template-columns: repeat(2, 1fr); row-gap: 40px; }
+    .proc-step:nth-child(odd) { border-left: none; padding-left: 0; }
+  }
+
+  /* ---------- reviews ---------- */
+  .reviews-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
+    border-top: 1px solid var(--line);
+  }
+  .review {
+    border-right: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+    padding: 40px 36px;
+    display: flex; flex-direction: column;
+    min-height: 320px;
+  }
+  .review:nth-child(3n) { border-right: none; }
+  .review-stars {
+    font-family: Inter, sans-serif;
+    color: var(--accent);
+    font-size: 14px; letter-spacing: 3px;
+    margin-bottom: 24px;
+  }
+  .review-body {
+    font-family: "Fraunces", "Pretendard", serif;
+    font-size: 17px; line-height: 1.7;
+    font-weight: 400;
+    color: var(--ink-2);
+    letter-spacing: -0.015em;
+    flex: 1;
+    margin-bottom: 28px;
+  }
+  .review-author {
+    font-size: 12px; color: var(--muted);
+    letter-spacing: 0.08em; text-transform: uppercase;
+    font-family: Inter, sans-serif;
+    padding-top: 16px;
+    border-top: 1px solid var(--line);
+  }
+  @media (max-width: 860px) {
+    .reviews-grid { grid-template-columns: 1fr; }
+    .review { border-right: none; }
+  }
+
+  /* ---------- blog / insights ---------- */
+  .blog-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 48px 32px;
+  }
+  .blog-card { cursor: pointer; }
+  .blog-meta {
+    display: flex; align-items: center; gap: 12px;
+    margin-bottom: 20px;
+    font-family: Inter, sans-serif;
+    font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase;
+    color: var(--muted);
+  }
+  .blog-meta .cat {
+    background: var(--ink); color: var(--paper);
+    padding: 4px 9px; letter-spacing: 0.1em;
+    font-weight: 500;
+  }
+  .blog-title {
+    font-family: "Fraunces", "Pretendard", serif;
+    font-size: 22px; font-weight: 400;
+    line-height: 1.35;
+    letter-spacing: -0.02em;
+    color: var(--ink);
+    margin-bottom: 16px;
+  }
+  .blog-card:hover .blog-title { color: var(--accent); }
+  .blog-excerpt { font-size: 14px; color: var(--muted); line-height: 1.65; margin-bottom: 20px; }
+  .blog-more { font-size: 13px; color: var(--ink); font-weight: 500; font-family: Inter, sans-serif; }
+  @media (max-width: 860px) { .blog-grid { grid-template-columns: 1fr; } }
+
+  /* ---------- visit / 찾아오는 길 ---------- */
+  section.visit {
+    padding: 120px 0;
+    border-bottom: 1px solid var(--line);
+    background: transparent;
+  }
+  [data-density="compact"] section.visit { padding: 80px 0; }
+  .visit-grid {
+    display: grid;
+    grid-template-columns: 0.85fr 1.15fr;
+    gap: 56px;
+    align-items: stretch;
+  }
+  .visit-info {
+    display: flex; flex-direction: column;
+    padding: 4px 0;
+  }
+  .visit-info .v-eyebrow {
+    font-family: Inter, sans-serif;
+    font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase;
+    color: var(--muted); margin-bottom: 18px;
+    display: flex; align-items: center; gap: 14px;
+  }
+  .visit-info .v-eyebrow::before {
+    content: ""; width: 28px; height: 1px; background: var(--ink);
+  }
+  .visit-info h2 {
+    font-family: "Fraunces", "Pretendard", serif;
+    font-size: clamp(34px, 4.4vw, 56px);
+    font-weight: 400;
+    line-height: 1.08;
+    letter-spacing: -0.025em;
+    margin: 0 0 28px;
+    color: var(--ink);
+  }
+  .visit-info h2 em {
+    font-style: italic; font-weight: 300;
+    color: var(--accent);
+  }
+  .visit-info .v-lede {
+    font-size: 15px; line-height: 1.75;
+    color: var(--muted);
+    margin: 0 0 36px;
+    max-width: 420px;
+  }
+  .visit-rows {
+    display: flex; flex-direction: column;
+    border-top: 1px solid var(--line);
+  }
+  .visit-row {
+    display: grid;
+    grid-template-columns: 110px 1fr;
+    gap: 24px;
+    padding: 18px 0;
+    border-bottom: 1px solid var(--line);
+    align-items: baseline;
+  }
+  .visit-row .k {
+    font-family: Inter, sans-serif;
+    font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase;
+    color: var(--muted);
+  }
+  .visit-row .v {
+    font-size: 15px;
+    color: var(--ink);
+    line-height: 1.6;
+  }
+  .visit-row .v .sub {
+    display: block; font-size: 13px; color: var(--muted); margin-top: 4px;
+  }
+  .visit-row .v a {
+    color: var(--ink); text-decoration: none; border-bottom: 1px solid var(--line);
+    transition: border-color .2s;
+  }
+  .visit-row .v a:hover { border-bottom-color: var(--ink); }
+  .visit-actions {
+    margin-top: 36px;
+    display: flex; gap: 12px; flex-wrap: wrap;
+  }
+  .visit-actions a {
+    font-family: Inter, "Pretendard", sans-serif;
+    font-size: 13px; font-weight: 500;
+    padding: 12px 20px;
+    border: 1px solid var(--ink);
+    color: var(--ink);
+    text-decoration: none;
+    transition: all .2s;
+    display: inline-flex; align-items: center; gap: 8px;
+  }
+  .visit-actions a:hover { background: var(--ink); color: var(--paper); }
+  .visit-actions a.primary { background: var(--ink); color: var(--paper); }
+  .visit-actions a.primary:hover { background: var(--accent); border-color: var(--accent); }
+
+  .visit-map {
+    position: relative;
+    background: var(--paper-2);
+    overflow: hidden;
+    min-height: 480px;
+    border: 1px solid var(--line);
+  }
+  .visit-map iframe {
+    width: 100%; height: 100%; border: 0;
+    filter: sepia(0.18) saturate(0.75) contrast(0.98);
+    position: absolute; inset: 0;
+  }
+  .visit-map .map-pin-card {
+    position: absolute;
+    bottom: 24px; left: 24px;
+    background: var(--paper);
+    padding: 16px 20px;
+    border: 1px solid var(--line);
+    max-width: 280px;
+    z-index: 2;
+    pointer-events: none;
+  }
+  .visit-map .map-pin-card .pin-label {
+    font-family: Inter, sans-serif;
+    font-size: 10px; letter-spacing: 0.16em; text-transform: uppercase;
+    color: var(--muted); margin-bottom: 6px;
+  }
+  .visit-map .map-pin-card .pin-name {
+    font-family: "Fraunces", "Pretendard", serif;
+    font-size: 17px; font-weight: 500;
+    color: var(--ink); letter-spacing: -0.01em;
+  }
+  .visit-map .map-pin-card .pin-addr {
+    font-size: 12px; color: var(--muted); margin-top: 4px; line-height: 1.5;
+  }
+
+  @media (max-width: 860px) {
+    .visit-grid { grid-template-columns: 1fr; gap: 40px; }
+    .visit-map { min-height: 360px; }
+    .visit-row { grid-template-columns: 90px 1fr; gap: 16px; }
+  }
+
+  /* ---------- CTA / contact ---------- */
+  section.cta-block {
+    background: var(--ink);
+    color: var(--paper);
+    padding: 140px 0;
+    border-bottom: none;
+  }
+  [data-density="compact"] section.cta-block { padding: 96px 0; }
+  .cta-grid {
+    display: grid; grid-template-columns: 1.2fr 1fr; gap: 80px; align-items: center;
+  }
+  .cta-grid .cta-title {
+    font-family: "Fraunces", "Pretendard", serif;
+    font-size: clamp(36px, 4.8vw, 64px);
+    font-weight: 400;
+    line-height: 1.1;
+    letter-spacing: -0.03em;
+    margin: 0 0 32px;
+    color: var(--paper);
+  }
+  .cta-grid .cta-title em { font-style: normal; color: var(--muted-2); font-weight: 300; }
+  .cta-grid .cta-desc {
+    font-size: 15px; line-height: 1.8;
+    color: color-mix(in srgb, var(--paper) 75%, transparent);
+    max-width: 440px;
+  }
+  .contact-list { display: flex; flex-direction: column; gap: 18px; }
+  .contact-card {
+    background: color-mix(in srgb, var(--paper) 8%, transparent);
+    border: 1px solid color-mix(in srgb, var(--paper) 18%, transparent);
+    padding: 28px 32px;
+    transition: all .2s;
+    text-decoration: none;
+    color: var(--paper);
+    display: flex; align-items: center; justify-content: space-between;
+  }
+  .contact-card:hover {
+    background: color-mix(in srgb, var(--paper) 14%, transparent);
+    border-color: var(--paper);
+  }
+  .contact-card .label {
+    font-family: Inter, sans-serif;
+    font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase;
+    color: color-mix(in srgb, var(--paper) 60%, transparent);
+    margin-bottom: 8px;
+  }
+  .contact-card .value {
+    font-family: "Fraunces", "Pretendard", serif;
+    font-size: 22px; font-weight: 400;
+  }
+  .contact-card .meta {
+    font-size: 12px; color: color-mix(in srgb, var(--paper) 55%, transparent); margin-top: 4px;
+  }
+  .contact-card .arrow { color: color-mix(in srgb, var(--paper) 55%, transparent); font-size: 22px; }
+  @media (max-width: 860px) { .cta-grid { grid-template-columns: 1fr; gap: 48px; } }
+
+  /* ---------- footer ---------- */
+  footer {
+    background: var(--ink-2);
+    color: color-mix(in srgb, var(--paper) 70%, transparent);
+    padding: 80px 0 40px;
+  }
+  .foot-grid {
+    display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 60px;
+    padding-bottom: 60px;
+    border-bottom: 1px solid color-mix(in srgb, var(--paper) 15%, transparent);
+    margin-bottom: 32px;
+  }
+  footer h4 {
+    font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase;
+    color: var(--paper); margin: 0 0 18px; font-family: Inter, sans-serif; font-weight: 600;
+  }
+  footer ul { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 10px; }
+  footer a { color: color-mix(in srgb, var(--paper) 70%, transparent); text-decoration: none; font-size: 13px; }
+  footer a:hover { color: var(--paper); }
+  .foot-brand {
+    font-family: "Fraunces", "Pretendard", serif;
+    font-size: 22px; font-weight: 400; color: var(--paper);
+    margin-bottom: 20px;
+  }
+  .foot-addr { font-size: 13px; line-height: 1.8; }
+  .foot-intra {
+    display: inline-block;
+    margin-top: 18px;
+    padding: 7px 14px;
+    font-size: 12.5px;
+    letter-spacing: 0.02em;
+    color: color-mix(in srgb, var(--accent) 80%, var(--paper)) !important;
+    border: 1px solid color-mix(in srgb, var(--accent) 55%, transparent);
+    border-radius: 999px;
+    transition: background .2s, color .2s, border-color .2s;
+  }
+  .foot-intra:hover {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: var(--accent-ink) !important;
+  }
+  .foot-bottom {
+    display: flex; justify-content: space-between; flex-wrap: wrap; gap: 16px;
+    font-size: 12px;
+    color: color-mix(in srgb, var(--paper) 45%, transparent);
+    font-family: Inter, sans-serif;
+    letter-spacing: 0.04em;
+  }
+  @media (max-width: 860px) { .foot-grid { grid-template-columns: 1fr 1fr; } }
+
+  /* ---------- tweaks panel ---------- */
+  #tweaks {
+    position: fixed; bottom: 24px; right: 24px;
+    width: 280px;
+    background: #fff;
+    border: 1px solid #000;
+    padding: 18px 20px 20px;
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.15);
+    z-index: 200;
+    display: none;
+    color: #000;
+  }
+  #tweaks.on { display: block; }
+  #tweaks h5 {
+    margin: 0 0 16px; font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase;
+    font-weight: 600;
+  }
+  #tweaks .group { margin-bottom: 16px; }
+  #tweaks .glabel {
+    font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase;
+    color: #666; margin-bottom: 8px;
+  }
+  #tweaks .opts { display: flex; gap: 6px; flex-wrap: wrap; }
+  #tweaks button.opt {
+    flex: 1 1 auto;
+    background: #fff; border: 1px solid #ddd;
+    padding: 8px 10px; font-size: 11px;
+    cursor: pointer; font-family: inherit;
+    transition: all .15s;
+  }
+  #tweaks button.opt:hover { border-color: #000; }
+  #tweaks button.opt.active { background: #000; color: #fff; border-color: #000; }
+  #tweaks .swatches { display: flex; gap: 6px; }
+  #tweaks .sw { flex: 1; height: 36px; cursor: pointer; position: relative; border: 1px solid #ddd; }
+  #tweaks .sw.active { border: 2px solid #000; }
+  #tweaks .sw .sw-name {
+    position: absolute; bottom: -16px; left: 0;
+    font-size: 9px; letter-spacing: 0.1em; text-transform: uppercase;
+  }
+  #tweaks .group.swatchgroup { margin-bottom: 28px; }
+</style>
+</head>
+<body data-palette="ink" data-hero="split" data-density="airy">
+
+<!-- Dynamic background -->
+<div class="bg-dynamic" aria-hidden="true">
+  <div class="blob b1"></div>
+  <div class="blob b2"></div>
+  <div class="blob b3"></div>
+  <div class="grain"></div>
+</div>
+
+<!-- ============ NAV ============ -->
+<nav class="top">
+  <div class="wrap inner">
+    <a href="#" class="brand">
+      <img class="logo-mark" src="images/weitzmann-wordmark.png" alt="WEITZMANN" />
+      <span class="brand-badge"><em>25·26 연속</em>한샘시공협력사 계약</span>
+    </a>
+    <ul>
+      <li><a href="#portfolio">시공사례</a></li>
+      <li><a href="#process">공정 안내</a></li>
+      <li><a href="#reviews">후기</a></li>
+      <li><a href="#visit">찾아오는 길</a></li>
+      <li><a href="/quote/inquiry.html" class="cta">견적 문의 →</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- ============ HERO ============ -->
+<header class="hero">
+  <div class="hero-ambient" aria-hidden="true">
+    <span class="blob blob-a"></span>
+    <span class="blob blob-b"></span>
+    <span class="blob blob-c"></span>
+  </div>
+  <div class="wrap">
+    <div class="hero-copy">
+    <h1>
+            <span class="h1-main reveal-line" data-text="나에게 딱 맞춘"></span>
+            <span class="h1-main reveal-line" data-text="싱크대,"></span>
+            <span class="h1-main reveal-line" data-text="누가 만들어줄까"></span>
+            <span class="h1-sig"><em>Since 2011</em>와이즈만가구연구소<span class="accent-dot"></span></span>
+    </h1>
+
+    <div class="hero-meta">
+      <p class="lede">
+        <span class="quote">&quot;업체마다 견적이 너무 달라요.&quot;</span>
+        같은 도면에도 수십만원씩 차이가 납니다. <strong>1분 자동견적</strong>으로 내 조건에 맞는 기준 가격부터 확인해보세요.      </p>
+      <div class="cta-col">
+        <a href="quote/start.php" class="btn-primary">셀프견적 내기 <span class="arrow">→</span></a>
+        <div class="btn-meta" style="margin-top:14px">수도권 전 지역 상담</div>
+      </div>
+    </div>
+
+    <div class="chips">
+            <span class="chip">싱크대</span>
+            <span class="chip">냉장고장</span>
+            <span class="chip">붙박이장</span>
+            <span class="chip">신발장</span>
+            <span class="chip">세탁실장</span>
+            <span class="chip">베란다장</span>
+            <span class="chip">도배/장판/마루</span>
+          </div>
+    </div>
+    <div class="hero-visual" id="heroVisual">
+            <div class="hv-layer is-on" style="background-image:url('images/hero/hero-01-r1.jpg')"></div>
+            <div class="hv-layer" style="background-image:url('images/hero/hero-02-r1.jpg')"></div>
+            <div class="hv-layer" style="background-image:url('images/hero/hero-05-r1.jpg')"></div>
+            <div class="hv-tags" style="display:none">
+                <div class="visual-tag is-on"><strong>01 / Kitchen</strong>ㄱ자 주방 리모델링</div>
+                <div class="visual-tag"><strong>02 / Fridge</strong>매립 냉장고장 + 홈바</div>
+                <div class="visual-tag"><strong>05 / Storage</strong>키큰수납장 + 가전장</div>
+              </div>
+      <div class="hv-counter"><span id="hvNow">01</span> / 03</div>
+      <div class="hv-partner">
+        <div class="hv-partner-label">Official Partner<span class="hv-partner-yrs">2025 · 2026</span></div>
+        <img src="images/hanssem-logo.png" alt="한샘 HANSSEM" />
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="marquee" aria-hidden="true">
+  <div class="marquee-track">
+        <div class="marquee-item" style="background-image:url('images/work/kitchen-01-r1.jpg')"></div>
+        <div class="marquee-item" style="background-image:url('images/work/fridge-01-r1.jpg')"></div>
+        <div class="marquee-item" style="background-image:url('images/work/kitchen-03-r1.jpg')"></div>
+        <div class="marquee-item" style="background-image:url('images/work/bookshelf-01-r1.jpg')"></div>
+        <div class="marquee-item" style="background-image:url('images/work/dressroom-01-r1.jpg')"></div>
+        <div class="marquee-item" style="background-image:url('images/gallery-03-r1.jpg')"></div>
+        <div class="marquee-item" style="background-image:url('images/work/yongin-01-r1.jpg')"></div>
+        <div class="marquee-item" style="background-image:url('images/work/kitchen-01-r1.jpg')"></div>
+        <div class="marquee-item" style="background-image:url('images/work/fridge-01-r1.jpg')"></div>
+        <div class="marquee-item" style="background-image:url('images/work/kitchen-03-r1.jpg')"></div>
+        <div class="marquee-item" style="background-image:url('images/work/bookshelf-01-r1.jpg')"></div>
+        <div class="marquee-item" style="background-image:url('images/work/dressroom-01-r1.jpg')"></div>
+        <div class="marquee-item" style="background-image:url('images/gallery-03-r1.jpg')"></div>
+        <div class="marquee-item" style="background-image:url('images/work/yongin-01-r1.jpg')"></div>
+      </div>
+</section>
+
+<!-- ============ TRUST ============ -->
+<section class="trust">
+  <div class="wrap">
+    <div class="label">왜 와이즈만인가</div>
+    <div class="trust-grid">
+            <div class="trust-item">
+        <div class="trust-num">15<sup>년</sup></div>
+        <div class="trust-title">현장 경력</div>
+        <div class="trust-desc">10년 이상 베테랑 시공팀 보유<br />
+25·26 연속 한샘 시공협력 정식계약업체<br />
+대리석 공장 보유 · 아티잔/OKEE 본사 직거래<br />
+합리적 가격 제공</div>
+      </div>
+            <div class="trust-item">
+        <div class="trust-num">1800<sup>건+</sup></div>
+        <div class="trust-title">누적 시공 건수</div>
+        <div class="trust-desc">수도권 아파트/주택/상가 등<br />
+다수의 시공으로 쌓인 특급 노하우</div>
+      </div>
+            <div class="trust-item">
+        <div class="trust-num">5억<sup>원</sup></div>
+        <div class="trust-title">PL 책임보험 가입</div>
+        <div class="trust-desc">삼성화재 제조물 책임보험<br />
+고객 안심 보장</div>
+      </div>
+            <div class="trust-item">
+        <div class="trust-num">1<sup>년</sup></div>
+        <div class="trust-title">A/S 보증</div>
+        <div class="trust-desc">1년 보증 + 무한책임<br />
+하자 발생 시 끝까지 책임 보수</div>
+      </div>
+          </div>
+  </div>
+</section>
+
+<!-- ============ REVIEWS ============ -->
+<section class="block" id="reviews">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="sec-eyebrow">Customer Voice · 고객 후기</div>
+        <h2 class="sec-title">실제 고객의 말.</h2>
+      </div>
+      <div class="sec-aside">
+        숨고, 네이버 블로그, 카카오톡 채널, 직접 전달받은 후기 중 허락을 받은 내용만 옮겨 적었습니다.
+      </div>
+    </div>
+    <div class="reviews-grid">
+            <div class="review">
+        <div class="review-stars">★★★★★</div>
+        <div class="review-body">냉장고장 오픈형 라운드 홈바 그리고 싱크 상하부장까지 디자인 퀄리티 마음에 듭니다. 중간 중간 수정사항·요청사항 많았는데 전부 잘 반영해주시고 마지막까지 신경써서 마무리 잘 해주셨어요. 감사합니다</div>
+        <div class="review-author">광명시 아파트 · 싱크대+냉장고장</div>
+      </div>
+            <div class="review">
+        <div class="review-stars">★★★★★</div>
+        <div class="review-body">부분 인테리어 진행하면서 제일 걱정이 많았던 공사였는데 바라는 대로 너무 예쁘게 리모델링 잘되었어요. 요청사항 잘 반영해 주시고 서비스도 여기저기 넣어주셔서 주방 쓸 때마다 기분이 좋아요</div>
+        <div class="review-author">수원시 아파트 · 주방 리모델링</div>
+      </div>
+            <div class="review">
+        <div class="review-stars">★★★★★</div>
+        <div class="review-body">처음 상담부터 견적까지 확실한 규칙을 가지고 잘 설명해주셨고, 진행사항에 있어서도 소통이 잘 되어서 바라는대로 맞춤가구를 잘 만들어주셨습니다. 마지막까지 A/S 부분도 잘 처리해주시기 바랍니다</div>
+        <div class="review-author">성남시 아파트 · 맞춤가구</div>
+      </div>
+            <div class="review">
+        <div class="review-stars">★★★★★</div>
+        <div class="review-body">다른 곳에서 본 세라믹 상판 시공이 맘에 안 들어서 다시 알아보다 찾은 곳. 가공 단면이 깔끔하고 마감 처리가 확실히 다릅니다.</div>
+        <div class="review-author">성남시 아파트 · 세라믹 상판</div>
+      </div>
+            <div class="review">
+        <div class="review-stars">★★★★★</div>
+        <div class="review-body">세탁실장 맞춤으로 만들었는데, 세제 놓는 자리까지 세세하게 물어봐주셨어요. 수납이 확실하게 해결됐습니다.</div>
+        <div class="review-author">시흥시 아파트 · 세탁실장</div>
+      </div>
+            <div class="review">
+        <div class="review-stars">★★★★★</div>
+        <div class="review-body">입주 전 일주일 남은 상황에서 급하게 부탁드렸는데, 일정 맞춰 깔끔하게 설치해주셨습니다. A/S도 빠르게 응대해 주셔서 든든합니다.</div>
+        <div class="review-author">광명시 신축 · 주방 일체</div>
+      </div>
+          </div>
+  </div>
+</section>
+
+<!-- ============ PORTFOLIO ============ -->
+<section class="block" id="portfolio">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="sec-eyebrow">Selected Work · 시공 사례</div>
+        <h2 class="sec-title">직접 실측, 직접 만든<br/>주방과 수납 공간.</h2>
+      </div>
+      <div class="sec-aside">
+        모든 사례는 와이즈만 대표와 시공팀이 현장을 방문해 측정하고,
+        자체 공장에서 제작한 뒤 설치까지 완료한 작업입니다.
+      </div>
+    </div>
+
+    <div class="port-grid">
+            <div class="port-item wide">
+        <div class="port-visual" style="background-image:url('images/work/fridge-01-r1.jpg')"><span class="tag">데코 냉장고장</span></div>
+        <div class="port-cat"><span class="port-num">01</span>Fridge Cabinet</div>
+        <div class="port-title">광명 소하 데코형 냉장고장 + LED 조명</div>
+        <div class="port-meta">키큰장 · LED 라인조명 · 맞춤 수납</div>
+      </div>
+            <div class="port-item wide">
+        <div class="port-visual" style="background-image:url('images/gallery-03-r1.jpg')"><span class="tag">싱크볼 교체</span></div>
+        <div class="port-cat"><span class="port-num">02</span>Sink Replace</div>
+        <div class="port-title">둔촌 올림픽파크포레온 싱크볼 교체</div>
+        <div class="port-meta">아티잘 엠보 + 그로헤 수전</div>
+      </div>
+            <div class="port-item">
+        <div class="port-visual" style="background-image:url('images/work/kitchen-02-u-r1.jpg')"><span class="tag">ㄷ자 주방</span></div>
+        <div class="port-cat"><span class="port-num">03</span>Kitchen · U-Shape</div>
+        <div class="port-title">김포고촌롯데 ㄷ자 세라믹 주방 리모델링</div>
+        <div class="port-meta">세라믹 상판 · 인덕션 매립</div>
+      </div>
+            <div class="port-item">
+        <div class="port-visual" style="background-image:url('images/work/kitchen-03-r1.jpg')"><span class="tag">아일랜드 세라믹</span></div>
+        <div class="port-cat"><span class="port-num">04</span>Island Kitchen</div>
+        <div class="port-title">아일랜드 세라믹 주방</div>
+        <div class="port-meta">세라믹 상판 · 아일랜드 수납</div>
+      </div>
+            <div class="port-item">
+        <div class="port-visual" style="background-image:url('images/work/kitchen-04-herringbone-r1.jpg')"><span class="tag">헤링본 주방</span></div>
+        <div class="port-cat"><span class="port-num">05</span>Kitchen · Herringbone</div>
+        <div class="port-title">광명 헤링본 패턴 주방 리모델링</div>
+        <div class="port-meta">헤링본 타일 · 우드 상부장</div>
+      </div>
+            <div class="port-item full">
+        <div class="port-visual" style="background-image:url('images/work/bookshelf-01-r1.jpg')"><span class="tag">대형 책장</span></div>
+        <div class="port-cat"><span class="port-num">06</span>Built-in Library</div>
+        <div class="port-title">광명 철산 거실벽 전체 오크 책장 + 수납장</div>
+        <div class="port-meta">간접조명 · 오크 파티션 · 하부 수납</div>
+      </div>
+            <div class="port-item wide">
+        <div class="port-visual" style="background-image:url('images/work/dressroom-01-r1.jpg')"><span class="tag">붙박이장</span></div>
+        <div class="port-cat"><span class="port-num">07</span>Built-in Wardrobe</div>
+        <div class="port-title">용인 드레스룸 전체 붙박이장</div>
+        <div class="port-meta">서랍장 일체 · 하단 수납 설계</div>
+      </div>
+            <div class="port-item wide">
+        <div class="port-visual" style="background-image:url('images/work/sohaone-01-r1.jpg')"><span class="tag">소하원 주방</span></div>
+        <div class="port-cat"><span class="port-num">08</span>Full Kitchen</div>
+        <div class="port-title">광명 소하원 ㄱ자 주방 전체 리모델링</div>
+        <div class="port-meta">화이트 + 우드 투톤 · 매립후드</div>
+      </div>
+          </div>
+
+  </div>
+</section>
+
+<!-- ============ PROCESS ============ -->
+<section class="block" id="process">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="sec-eyebrow">How we work · 공정 안내</div>
+        <h2 class="sec-title">문의부터 A/S까지,<br/>한 팀이 끝까지 책임집니다.</h2>
+      </div>
+      <div class="sec-aside">
+        하도급 없이, 대표가 처음부터 끝까지 책임관리합니다.
+        모든 단계는 기록을 남기며 사전 확정된 일정에 따라 진행됩니다.
+      </div>
+    </div>
+    <div class="process">
+      <div class="proc-step">
+        <div class="proc-num">01 / 문의</div>
+        <div class="proc-title">카카오톡 · 전화 상담</div>
+        <div class="proc-desc">사진을 보내주시면 1차 예상 범위를 당일 안에 회신드립니다. 고민 단계의 질문도 환영합니다.</div>
+      </div>
+      <div class="proc-step">
+        <div class="proc-num">02 / 실측</div>
+        <div class="proc-title">현장 방문 측정</div>
+        <div class="proc-desc">대표가 직접 방문해 현장을 실측합니다. 자재 샘플과 도면으로 구성안을 설명드립니다.</div>
+      </div>
+      <div class="proc-step">
+        <div class="proc-num">03 / 견적</div>
+        <div class="proc-title">항목별 투명 견적</div>
+        <div class="proc-desc">자재 · 공정 · 설치비를 분리해 안내드립니다. 비교 가능한 기준을 제공합니다.</div>
+      </div>
+      <div class="proc-step">
+        <div class="proc-num">04 / 제작</div>
+        <div class="proc-title">자체 공장 제작</div>
+        <div class="proc-desc">외주 없이 자체 공방에서 치수 맞춤으로 제작합니다. 제작 과정 사진을 공유드립니다.</div>
+      </div>
+      <div class="proc-step">
+        <div class="proc-num">05 / 설치 & A/S</div>
+        <div class="proc-title">시공 후 1년 보증</div>
+        <div class="proc-desc">설치 후 체크리스트로 완료 점검. 계약서에 명시된 1년 A/S로 사후 관리합니다.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 사회공헌 ============ -->
+<style>
+  .give-band { background:#f3efe7; border-top:1px solid #e8e2d6; border-bottom:1px solid #e8e2d6; padding:48px 0; text-align:center; }
+  .give-band .give-eyebrow { font-size:12px; letter-spacing:.18em; text-transform:uppercase; color:#a08a6a; margin-bottom:14px; }
+  .give-band .give-title { font-size:22px; font-weight:700; letter-spacing:-0.02em; color:#2a2018; margin:0 0 10px; }
+  .give-band .give-sub { font-size:15px; line-height:1.7; color:#5a4f40; margin:0; }
+  .give-band .give-sub strong { color:#2a2018; font-weight:600; }
+  .give-logos { display:flex; justify-content:center; align-items:center; gap:18px; margin-top:24px; flex-wrap:wrap; }
+  .give-logo { background:#fff; border:1px solid #e8e2d6; border-radius:10px; padding:12px 20px; display:flex; align-items:center; box-shadow:0 2px 8px rgba(0,0,0,.03); }
+  .give-logo img { height:34px; width:auto; display:block; }
+  @media (max-width:640px){ .give-band { padding:36px 0; } .give-band .give-title { font-size:19px; } .give-logo img { height:28px; } }
+</style>
+<section class="give-band">
+  <div class="wrap">
+    <div class="give-eyebrow">Social Contribution · 사회공헌</div>
+    <h3 class="give-title">어린이와 저소득층을 위한 집짓기</h3>
+    <p class="give-sub">와이즈만은 <strong>한국해비타트</strong> · <strong>초록우산어린이재단</strong>을 후원합니다.</p>
+    <div class="give-logos">
+      <span class="give-logo"><img src="images/habitat-logo.jpg" alt="한국해비타트 Habitat for Humanity Korea"></span>
+      <span class="give-logo"><img src="images/chorok-logo.jpg" alt="초록우산어린이재단"></span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ VISIT / 찾아오는 길 ============ -->
+<section class="visit" id="visit">
+  <div class="wrap">
+    <div class="visit-grid">
+      <div class="visit-info">
+        <div class="v-eyebrow">Visit · 찾아오는 길</div>
+        <h2>광명 <em>매장</em>에서<br/>직접 만나보세요.</h2>
+        <p class="v-lede">
+          자재 샘플과 시공 사례를 직접 확인하실 수 있습니다.
+          방문 전 연락 주시면 상담 시간을 따로 비워두겠습니다.
+        </p>
+
+        <div class="visit-rows">
+          <div class="visit-row">
+            <div class="k">Address</div>
+            <div class="v">
+              경기도 광명시 현대테라타워광명 227호
+              <span class="sub">광명사거리역 도보 7분 · 주차 가능</span>
+            </div>
+          </div>
+          <div class="visit-row">
+            <div class="k">Hours</div>
+            <div class="v">
+              출장이 잦으므로 <strong>방문 전 연락주세요</strong>
+              <span class="sub">상담 시간을 따로 비워두겠습니다</span>
+            </div>
+          </div>
+          <div class="visit-row">
+            <div class="k">Tel</div>
+            <div class="v">
+              <a href="tel:1544-3923">1544-3923</a> · <a href="tel:010-2867-7575">010-2867-7575</a>
+              <span class="sub">통화 어려우시면 카카오톡 채널로</span>
+            </div>
+          </div>
+          <div class="visit-row">
+            <div class="k">Visit</div>
+            <div class="v">
+              매장 방문 환영<br/>
+              <span class="sub">방문이 어려우시면 사진·도면으로도 상담 가능합니다</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="visit-actions">
+          <a class="primary" href="https://map.naver.com/p/search/현대테라타워광명" target="_blank" rel="noopener">네이버 지도 길찾기 →</a>
+          <a href="https://share.google/4V16W3VOpDauvotVB" target="_blank" rel="noopener">구글 지도</a>
+          <a href="https://pf.kakao.com/_jNxixmn" target="_blank" rel="noopener">카카오톡 상담</a>
+        </div>
+      </div>
+
+      <div class="visit-map">
+        <iframe
+          src="https://www.google.com/maps?q=37.458935,126.875515&z=17&output=embed&hl=ko"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="와이즈만가구연구소 위치"
+        ></iframe>
+        <div class="map-pin-card">
+          <div class="pin-label">Studio</div>
+          <div class="pin-name">와이즈만가구연구소</div>
+          <div class="pin-addr">경기도 광명시 현대테라타워광명 227호</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA ============ -->
+<section class="cta-block" id="cta">
+  <div class="wrap">
+    <div class="cta-grid">
+      <div>
+        <h2 class="cta-title">견적은 무료입니다.<br/><em>항목별로 나눠서</em><br/>설명해 드립니다.</h2>
+        <p class="cta-desc">
+          업체마다 가격이 다른 건 항목 구성이 달라서예요.
+          자재 · 공정 · 설치 항목별로 투명하게 안내드립니다.
+          당일 답변, 현장 방문 측정 후 확정 견적 제공.
+        </p>
+      </div>
+      <div class="contact-list">
+        <a href="/quote/inquiry.html" class="contact-card">
+          <div>
+            <div class="label">Inquiry</div>
+            <div class="value">견적 문의하기</div>
+            <div class="meta">사진 첨부하고 편하게 문의 · 2일 내 답변</div>
+          </div>
+          <div class="arrow">→</div>
+        </a>
+        <a href="https://pf.kakao.com/_jNxixmn" class="contact-card" target="_blank" rel="noopener">
+          <div>
+            <div class="label">Kakao Channel</div>
+            <div class="value">카카오톡 채널</div>
+            <div class="meta">빠른 답변 · 사진 전송 가능</div>
+          </div>
+          <div class="arrow">→</div>
+        </a>
+        <a href="tel:010-2867-7575" class="contact-card">
+          <div>
+            <div class="label">Call</div>
+            <div class="value">1544-3923<br/>010-2867-7575</div>
+            <div class="meta">직통 · 즉시 상담</div>
+          </div>
+          <div class="arrow">→</div>
+        </a>
+        <a href="quote/start.php" class="contact-card">
+          <div>
+            <div class="label">Self Quote</div>
+            <div class="value">싱크대 셀프견적</div>
+            <div class="meta">1분 간편 · 정밀 견적 · 바로 확인</div>
+          </div>
+          <div class="arrow">→</div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <img class="foot-brand-logo" src="images/weitzmann-wordmark.png" alt="WEITZMANN" />
+        <div class="foot-brand">와이즈만가구연구소</div>
+        <div class="foot-addr">
+          대표 최규훈<br/>
+          경기도 광명시 현대테라타워광명 227호<br/>
+          사업자등록번호 103-24-01774<br/>
+          대표번호 1544-3923 · 직통 010-2867-7575
+        </div>
+        <a class="foot-intra" href="/staff/">인트라넷 (임직원용)</a>
+      </div>
+      <div>
+        <h4>Work</h4>
+        <ul>
+          <li><a href="#portfolio">시공사례</a></li>
+          <li><a href="#process">공정 안내</a></li>
+          <li><a href="#reviews">고객 후기</a></li>
+          <li><a href="#visit">찾아오는 길</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Quote</h4>
+        <ul>
+          <li><a href="/quote/start.php">1분 셀프견적</a></li>
+          <li><a href="/quote/inquiry.html">견적 문의</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Channel</h4>
+        <ul>
+          <li><a href="https://blog.naver.com/eyretail" target="_blank" rel="noopener">네이버 블로그</a></li>
+          <li><a href="https://soomgo.com/profile/users/13713462" target="_blank" rel="noopener">숨고</a></li>
+          <li><a href="https://pf.kakao.com/_jNxixmn" target="_blank" rel="noopener">카카오채널</a></li>
+          <li><a href="https://share.google/4V16W3VOpDauvotVB" target="_blank" rel="noopener">구글지도</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <div>&copy; 2026 WEITZMANN Furniture Lab. All rights reserved.</div>
+      <div>이용약관 · 개인정보처리방침</div>
+    </div>
+  </div>
+</footer>
+
+<script>
+/* 간편견적(quote) 접근 비밀번호 게이트 — 비번은 코드에 평문으로 두지 않고 SHA-256 해시로만 비교 */
+(function(){
+  var HASH='3aa8d6c09c0adf085477bd2324ccf86d6f9ecca316b18d523dafae285708cc79';
+  function sha256(s){
+    return crypto.subtle.digest('SHA-256', new TextEncoder().encode(s)).then(function(buf){
+      return Array.from(new Uint8Array(buf)).map(function(b){return b.toString(16).padStart(2,'0');}).join('');
+    });
+  }
+  document.addEventListener('click', function(e){
+    var a = e.target.closest('.js-quote-gate'); if(!a) return;
+    if(sessionStorage.getItem('quote_ok')==='1') return;            // 이번 방문에 이미 통과
+    e.preventDefault();
+    var pw = prompt('간편견적 이용 비밀번호를 입력하세요\n\n비번문의: 010-2867-7575');
+    if(pw===null) return;                                           // 취소
+    sha256(pw).then(function(h){
+      if(h===HASH){ sessionStorage.setItem('quote_ok','1'); location.href = a.getAttribute('href'); }
+      else alert('비밀번호가 올바르지 않습니다.\n\n비번문의: 010-2867-7575');
+    }).catch(function(){ alert('확인 중 오류가 발생했어요. 다시 시도해 주세요.'); });
+  });
+})();
+</script>
+<!-- ============ TWEAKS ============ -->
+<div id="tweaks">
+  <h5>Tweaks</h5>
+  <div class="group swatchgroup">
+    <div class="glabel">Palette</div>
+    <div class="swatches" data-key="palette">
+      <div class="sw" data-val="ink"    style="background: linear-gradient(to right, #1A1A1A 0 50%, #FAFAF7 50% 100%);"><span class="sw-name">Ink</span></div>
+      <div class="sw" data-val="forest" style="background: linear-gradient(to right, #5B8A6E 0 50%, #F3F6EF 50% 100%);"><span class="sw-name">Mint</span></div>
+      <div class="sw" data-val="brick"  style="background: linear-gradient(to right, #C96846 0 50%, #F6F1EB 50% 100%);"><span class="sw-name">Coral</span></div>
+    </div>
+  </div>
+  <div class="group">
+    <div class="glabel">Hero layout</div>
+    <div class="opts" data-key="heroLayout">
+      <button class="opt" data-val="editorial">Editorial</button>
+      <button class="opt" data-val="poster">Poster</button>
+      <button class="opt" data-val="split">Split</button>
+    </div>
+  </div>
+  <div class="group">
+    <div class="glabel">Density</div>
+    <div class="opts" data-key="density">
+      <button class="opt" data-val="airy">Airy</button>
+      <button class="opt" data-val="compact">Compact</button>
+    </div>
+  </div>
+</div>
+
+<script>
+(function(){
+  const state = { ...TWEAK_DEFAULS };
+
+  function apply(){
+    const b = document.body;
+    b.setAttribute('data-palette', state.palette);
+    b.setAttribute('data-hero', state.heroLayout);
+    b.setAttribute('data-density', state.density);
+    // reflect in UI
+    document.querySelectorAll('#tweaks .sw').forEach(el=>{
+      el.classList.toggle('active', el.dataset.val === state.palette);
+    });
+    document.querySelectorAll('#tweaks .opts').forEach(g=>{
+      const key = g.dataset.key;
+      g.querySelectorAll('.opt').forEach(b=>{
+        b.classList.toggle('active', b.dataset.val === state[key]);
+      });
+    });
+  }
+
+  // listen first, then announce
+  window.addEventListener('message', (e)=>{
+    const d = e.data || {};
+    if (d.type === '__activate_edit_mode') document.getElementById('tweaks').classList.add('on');
+    if (d.type === '__deactivate_edit_mode') document.getElementById('tweaks').classList.remove('on');
+  });
+  try { window.parent.postMessage({type: '__edit_mode_available'}, '*'); } catch(e){}
+
+  // tweak interactions
+  document.querySelectorAll('#tweaks .sw').forEach(el=>{
+    el.addEventListener('click', ()=>{
+      state.palette = el.dataset.val;
+      apply();
+      try { window.parent.postMessage({type:'__edit_mode_set_keys', edits:{palette: state.palette}}, '*'); } catch(e){}
+    });
+  });
+  document.querySelectorAll('#tweaks .opts').forEach(g=>{
+    const key = g.dataset.key;
+    g.querySelectorAll('.opt').forEach(b=>{
+      b.addEventListener('click', ()=>{
+        state[key] = b.dataset.val;
+        apply();
+        try { window.parent.postMessage({type:'__edit_mode_set_keys', edits:{[key]: state[key]}}, '*'); } catch(e){}
+      });
+    });
+  });
+
+  apply();
+
+  const rot = document.getElementById('rotator');
+  if (rot) {
+    const items = Array.from(rot.children);
+    let i = 0;
+    setInterval(()=>{
+      const cur = items[i];
+      i = (i + 1) % items.length;
+      const nxt = items[i];
+      cur.classList.remove('on'); cur.classList.add('out');
+      nxt.classList.remove('out'); nxt.classList.add('on');
+      setTimeout(()=>cur.classList.remove('out'), 600);
+    }, 2400);
+  }
+
+  // --- char reveal for h1 lines ---
+  document.querySelectorAll('.hero h1 .reveal-line').forEach((line, li)=>{
+    const text = line.dataset.text || line.textContent;
+    line.textContent = '';
+    const baseDelay = 160 + li * 140; // stagger between lines
+    let ci = 0;
+    // \uB2E8\uC5B4(\uACF5\uBC31 \uAD6C\uBD84) \uB2E8\uC704\uB85C \uBB36\uC5B4 \uB2E8\uC5B4 \uC911\uAC04 \uC904\uBC14\uAFC8 \uBC29\uC9C0 \u2014 \uB2E8\uC5B4 \uC0AC\uC774\uC5D0\uC11C\uB9CC \uC904\uBC14\uAFC8
+    text.split(' ').forEach((word, wi)=>{
+      if (wi > 0) { line.appendChild(document.createTextNode(' ')); } // \uC904\uBC14\uAFC8 \uAC00\uB2A5\uD55C \uC2E4\uC81C \uACF5\uBC31
+      const w = document.createElement('span');
+      w.className = 'word';
+      Array.from(word).forEach((ch)=>{
+        const s = document.createElement('span');
+        s.className = 'char';
+        s.textContent = ch;
+        s.style.animationDelay = (baseDelay + ci * 28) + 'ms';
+        w.appendChild(s); ci++;
+      });
+      line.appendChild(w);
+    });
+  });
+
+  // --- hero-visual cross-fade swapper ---
+  const hv = document.getElementById('heroVisual');
+  if (hv) {
+    const layers = hv.querySelectorAll('.hv-layer');
+    const tags   = hv.querySelectorAll('.hv-tags .visual-tag');
+    const now    = document.getElementById('hvNow');
+    const total  = layers.length;
+    let idx = 0;
+    if (now) {
+      const tot = hv.querySelector('.hv-counter');
+      if (tot) tot.innerHTML = '<span id="hvNow">01</span> / ' + String(total).padStart(2,'0');
+    }
+    setInterval(()=>{
+      layers[idx].classList.remove('is-on');
+      if (tags[idx]) tags[idx].classList.remove('is-on');
+      idx = (idx + 1) % total;
+      layers[idx].classList.add('is-on');
+      if (tags[idx]) tags[idx].classList.add('is-on');
+      const n = document.getElementById('hvNow');
+      if (n) n.textContent = String(idx + 1).padStart(2,'0');
+    }, 5000);
+  }
+})();
+</script>
+
+<!-- 방문 통계 비콘 (자체 접근 통계 — hit.php) -->
+<script>
+(function(){
+  try{
+    var d=document, nav=navigator;
+    function send(ev){
+      try{
+        var body='p='+encodeURIComponent(location.pathname)
+          +'&r='+encodeURIComponent(d.referrer||'')
+          +'&t='+encodeURIComponent((d.title||'').slice(0,120))
+          +'&e='+encodeURIComponent(ev||'view')
+          +'&sw='+(screen&&screen.width||0);
+        if(nav.sendBeacon){ nav.sendBeacon('/hit.php', new Blob([body],{type:'application/x-www-form-urlencoded'})); }
+        else{ var x=new XMLHttpRequest(); x.open('POST','/hit.php',true); x.setRequestHeader('Content-Type','application/x-www-form-urlencoded'); x.send(body); }
+      }catch(e){}
+    }
+    send('view');
+    d.addEventListener('click',function(e){
+      var a=e.target&&e.target.closest?e.target.closest('a'):null; if(!a) return;
+      if(a.classList&&a.classList.contains('js-quote-gate')) send('quote_click');
+      else if(a.href&&(a.href.indexOf('form.naver.com')>=0||a.href.indexOf('/quote/inquiry')>=0)) send('inquiry_click');
+    },true);
+  }catch(e){}
+})();
+</script>
+
+<!-- 콘텐츠 보호(약한 억지용): 우클릭·이미지 드래그·길게눌러 저장 방지. 글자 선택(전화번호 복사 등)은 유지. -->
+<style>
+  img{-webkit-user-drag:none;-khtml-user-drag:none;-moz-user-drag:none;user-drag:none;-webkit-touch-callout:none}
+</style>
+<script>
+(function(){
+  try{
+    document.addEventListener('contextmenu',function(e){ e.preventDefault(); }, {capture:true});
+    document.addEventListener('dragstart',function(e){
+      if(e.target && e.target.tagName==='IMG') e.preventDefault();
+    }, {capture:true});
+  }catch(e){}
+})();
+</script>
+
+</body>
+</html>
