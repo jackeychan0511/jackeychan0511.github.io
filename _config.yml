@@ -6,7 +6,7 @@
 title: "40대 라이프"
 tagline: "40대를 위한 실용 라이프 매거진"
 description: >-
-  40대의 재테크, 여행, 커리어(AI), 자녀교육, 이슈제품까지.
+  40대의 재테크, 여행, 커리어(AI), 자녀교육, 이슈제품, 맛집까지.
   같은 40대로서 경험하고 분석한 실용적인 정보를 공유합니다.
 url: "https://jackeychan0511.github.io"
 baseurl: ""
@@ -31,6 +31,7 @@ category_order:
   - career
   - education
   - products
+  - food
 
 category_names:
   finance: "💰 재테크"
@@ -38,6 +39,7 @@ category_names:
   career: "💼 커리어 & AI"
   education: "📚 자녀교육"
   products: "🚀 이슈제품"
+  food: "🍽️ 맛집"
 
 category_descriptions:
   finance: "40대를 위한 현실적인 재테크 전략 — 주식, 부동산, 세금, 연금, 저축"
@@ -45,12 +47,13 @@ category_descriptions:
   career: "AI 시대, 40대 커리어의 생존과 도약을 위한 인사이트"
   education: "유아·초등 자녀교육 — 학습법, 독서, 사교육, 입시 준비"
   products: "테슬라, MAC, 게임기 등 40대가 주목할 이슈 제품 리뷰"
+  food: "40대 입맛 저격! 현실적인 맛집 추천 — 가족 외식, 혼밥, 데이트"
 
 # ── Author ──
 author:
   name: "40대 블로거"
   email: ""
-  bio: "40대. 재테크, 여행, 커리어, 교육, 제품까지. 같은 나이의 고민을 나누고 실질적인 해답을 찾습니다."
+  bio: "40대. 재테크, 여행, 커리어, 교육, 제품, 맛집까지. 같은 나이의 고민을 나누고 실질적인 해답을 찾습니다."
 
 # ── Social ──
 social:
