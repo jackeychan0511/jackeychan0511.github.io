@@ -128,3 +128,4 @@ image: /assets/images/posts/food-torikawa/hero.jpg
 ---
 
 *이 글은 실제 방문 후 작성한 솔직 후기입니다. 가격과 메뉴는 변동될 수 있습니다.*
+*대표 이미지: Wikimedia Commons (CC BY-SA)*
