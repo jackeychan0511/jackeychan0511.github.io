@@ -68,9 +68,12 @@ img { max-width: 100%; height: auto; border-radius: var(--radius-sm); }
   text-decoration: none;
 }
 .logo-img {
-  height: 40px;
-  width: auto;
+  height: 40px !important;
+  width: auto !important;
+  max-height: 40px !important;
+  max-width: 200px !important;
   border-radius: 6px;
+  object-fit: contain;
 }
 .logo-text {
   font-size: 1.3rem;
@@ -368,12 +371,12 @@ img { max-width: 100%; height: auto; border-radius: var(--radius-sm); }
 
 .sidebar-profile { text-align: center; }
 .profile-img {
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin: 0 auto 12px;
-  display: block;
+  width: 80px !important;
+  height: 80px !important;
+  border-radius: 50% !important;
+  object-fit: cover !important;
+  margin: 0 auto 12px !important;
+  display: block !important;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 .profile-name { font-size: 1rem; font-weight: 700; margin-bottom: 8px; }

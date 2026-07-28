@@ -4,7 +4,7 @@ title: "40대 라이프 블로그를 시작합니다"
 date: 2026-07-28 09:00:00 +0900
 categories: [career]
 tags: [시작, 40대, 블로그]
-image: /assets/images/default-og.png
+image: /assets/images/logo-symbol.png
 ---
 
 안녕하세요. **40대 라이프**의 첫 글을 시작합니다.
