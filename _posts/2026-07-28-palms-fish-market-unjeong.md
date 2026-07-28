@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "운정 팜스활어직판장 솔직 후기 | 가성비 포장 횟집 줄돔 회 맛집"
-date: 2026-07-28 14:00:00 +0900
+date: 2026-07-28 10:00:00 +0900
 categories: [food]
 tags: [운정맛집, 팜스활어직판장, 파주횟집, 줄돔, 포장횟집, 가성비회]
 image: /assets/images/posts/food-palms/01.jpg
