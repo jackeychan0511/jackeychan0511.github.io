@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "후쿠오카 하카타역 꼬치 맛집: 토리카와다이진 KITTE점 닭껍질꼬치와 구운주먹밥"
-date: 2026-07-28 12:00:00 +0900
+date: 2026-07-23 17:00:00 +0900
 categories: [food]
 tags: [후쿠오카맛집, 하카타역맛집, 토리카와다이진, 닭껍질꼬치, 야키토리, 주먹밥, KITTE하카타]
 image: /assets/images/posts/food-torikawa/hero.jpg

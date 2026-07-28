@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "OpenClaw 설치 가이드: OpenAI 뇌로 Telegram AI 비서 만들기 (2026)"
-date: 2026-07-28 11:00:00 +0900
+date: 2026-07-26 14:00:00 +0900
 categories: [career]
 tags: [OpenClaw, ChatGPT, OpenAI, 텔레그램봇, AI에이전트, AI자동화, 개인비서]
 image: /assets/images/posts/openclaw-guide/hero.png

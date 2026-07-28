@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "40대 라이프 블로그를 시작합니다"
-date: 2026-07-28 09:00:00 +0900
+date: 2026-07-28 10:00:00 +0900
 categories: [career]
 tags: [시작, 40대, 블로그]
 image: /assets/images/logo-symbol.png

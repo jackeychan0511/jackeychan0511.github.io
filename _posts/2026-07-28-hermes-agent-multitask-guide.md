@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Hermes Agent 업무 자동화 고급 활용법 — 다중 작업(Multi-Task) 완벽 가이드"
-date: 2026-07-28 14:00:00 +0900
+date: 2026-07-25 11:00:00 +0900
 categories: [career]
 tags: [HermesAgent, AI에이전트, 업무자동화, 다중작업, 멀티태스킹, 크론잡, 서브에이전트]
 image: /assets/images/posts/hermes-multitask.jpg

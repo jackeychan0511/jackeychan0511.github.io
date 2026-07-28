@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "후쿠오카 히타 진격의 거인 뮤지엄 완벽 가이드 | 버스투어 당일치기"
-date: 2026-07-28 13:00:00 +0900
+date: 2026-07-23 15:00:00 +0900
 categories: [travel]
 tags: [후쿠오카, 히타, 진격의거인, AttackonTitan, 성지순례, 버스투어, 가족여행]
 image: /assets/images/posts/aot-museum/hero.jpg

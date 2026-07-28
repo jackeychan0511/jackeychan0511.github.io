@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[7/28 코인 브리핑] 비트코인 $63K 하락 · CLARITY Act 상원 표결 임박 · 빗썸 O(오원익스체인지) 신규 상장"
-date: 2026-07-28 06:45:00 +0900
+date: 2026-07-22 12:00:00 +0900
 categories: [finance]
 tags: [비트코인, 가상화폐, 코인, BTC, CLARITYAct, 빗썸, 업비트, 오원익스체인지, 연준, 코스피, 암호화폐]
 author: "40대 블로거"

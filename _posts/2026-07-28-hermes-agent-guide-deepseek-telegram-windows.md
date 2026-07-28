@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Hermes Agent 설치 가이드: DeepSeek부터 텔레그램 연동까지 (윈도우 완벽 정리)"
-date: 2026-07-28 11:00:00 +0900
+date: 2026-07-24 10:00:00 +0900
 categories: [career]
 tags: [HermesAgent, NousResearch, AI에이전트, DeepSeek, 텔레그램봇, AI설치, 윈도우]
 image: /assets/images/posts/hermes-guide/hero-real.jpg

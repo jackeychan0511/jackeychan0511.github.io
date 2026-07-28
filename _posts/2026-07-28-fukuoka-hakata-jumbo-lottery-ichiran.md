@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "후쿠오카 하카타역 점보복권 도전 & 이치란라멘 혼행기 (feat. 더운날 커피한잔)"
-date: 2026-07-28 11:30:00 +0900
+date: 2026-07-22 14:00:00 +0900
 categories: [travel]
 tags: [후쿠오카, 하카타역, 점보복권, 이치란라멘, 혼자여행, 일본여행, 후쿠오카맛집]
 image: /assets/images/posts/fukuoka-trip/hero.jpg

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "OpenClaw v2026.7.2 출시! 원격 코딩 세션, Linux 패키지, GPT-5.6 기본탑재"
-date: 2026-07-28 11:00:00 +0900
+date: 2026-07-26 15:00:00 +0900
 categories: [career]
 tags: [OpenClaw, AI에이전트, 업데이트, GPT-5.6, 오픈소스AI]
 image: /assets/images/posts/openclaw-release/hero-coder.jpg
