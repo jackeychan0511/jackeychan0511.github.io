@@ -111,15 +111,6 @@ image: /assets/images/posts/haruyoshi-yuuchan-fukuoka/01.jpg
 
 ---
 
-## 📹 이자카야 분위기 영상
-
-<video controls width="100%">
-  <source src="/assets/images/posts/haruyoshi-yuuchan-fukuoka/20260507_232030.mp4" type="video/mp4">
-  (동영상을 지원하지 않는 브라우저입니다)
-</video>
-
----
-
 ## 💰 가격 정보
 
 | 메뉴 | 가격 |
