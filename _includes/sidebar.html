@@ -1,0 +1,45 @@
+<aside class="sidebar">
+  <div class="sidebar-widget sidebar-profile">
+    <div class="profile-avatar">
+      <div class="avatar-placeholder">40</div>
+    </div>
+    <h3 class="profile-name">{{ site.author.name }}</h3>
+    <p class="profile-bio">{{ site.author.bio }}</p>
+  </div>
+
+  <div class="sidebar-widget sidebar-categories">
+    <h3 class="widget-title">카테고리</h3>
+    <ul class="category-list">
+      {% for cat in site.category_order %}
+      {% assign count = site.categories[cat] | size %}
+      <li>
+        <a href="{{ '/category/' | append: cat | relative_url }}">
+          <span class="cat-name">{{ site.category_names[cat] }}</span>
+          <span class="cat-count">({{ count }})</span>
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div class="sidebar-widget sidebar-recent">
+    <h3 class="widget-title">최신 글</h3>
+    <ul class="recent-list">
+      {% for post in site.posts limit:5 %}
+      <li>
+        <a href="{{ post.url }}">
+          <span class="recent-title">{{ post.title }}</span>
+          <span class="recent-date">{{ post.date | date: "%Y.%m.%d" }}</span>
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  {% if site.adsense.enabled %}
+  <div class="sidebar-widget sidebar-ad">
+    <!-- AdSense 광고 영역 -->
+    <div class="ad-placeholder">광고</div>
+  </div>
+  {% endif %}
+</aside>

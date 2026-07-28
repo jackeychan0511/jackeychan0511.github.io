@@ -1,0 +1,35 @@
+---
+layout: default
+---
+<div class="category-page">
+  <header class="category-header">
+    <h1 class="category-title">{{ site.category_names[page.category] | default: page.title }}</h1>
+    <p class="category-description">{{ site.category_descriptions[page.category] | default: page.description }}</p>
+  </header>
+
+  <div class="post-list">
+    {% if site.categories[page.category] %}
+      {% for post in site.categories[page.category] %}
+      <article class="post-card">
+        {% if post.image %}
+        <a href="{{ post.url }}" class="post-card-image">
+          <img src="{{ post.image }}" alt="{{ post.title }}" loading="lazy">
+        </a>
+        {% endif %}
+        <div class="post-card-body">
+          <span class="post-card-date">{{ post.date | date: "%Y.%m.%d" }}</span>
+          <h2 class="post-card-title">
+            <a href="{{ post.url }}">{{ post.title }}</a>
+          </h2>
+          <p class="post-card-excerpt">{{ post.excerpt | strip_html | truncate: 120 }}</p>
+          <a href="{{ post.url }}" class="post-card-more">자세히 보기 →</a>
+        </div>
+      </article>
+      {% endfor %}
+    {% else %}
+      <div class="empty-category">
+        <p>아직 작성된 글이 없습니다.</p>
+      </div>
+    {% endif %}
+  </div>
+</div>

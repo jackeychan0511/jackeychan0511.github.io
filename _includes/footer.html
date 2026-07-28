@@ -1,0 +1,41 @@
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-about">
+        <h3>{{ site.title }}</h3>
+        <p>{{ site.description }}</p>
+      </div>
+      <div class="footer-categories">
+        <h4>카테고리</h4>
+        <ul>
+          {% for cat in site.category_order %}
+          <li><a href="{{ '/category/' | append: cat | relative_url }}">{{ site.category_names[cat] }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="footer-social">
+        <h4>함께하기</h4>
+        <ul>
+          {% if site.social.github %}
+          <li><a href="https://github.com/{{ site.social.github }}" target="_blank" rel="noopener">GitHub</a></li>
+          {% endif %}
+          <li><a href="{{ '/feed.xml' | relative_url }}" target="_blank">RSS 피드</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}. All rights reserved.</p>
+      <p class="footer-credit">
+        Powered by <a href="https://jekyllrb.com" target="_blank" rel="noopener">Jekyll</a> &amp;
+        <a href="https://pages.github.com" target="_blank" rel="noopener">GitHub Pages</a>
+      </p>
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.querySelector('.nav-toggle')?.addEventListener('click', function() {
+    document.querySelector('.nav-list').classList.toggle('open');
+    this.classList.toggle('active');
+  });
+</script>

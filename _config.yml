@@ -1,0 +1,112 @@
+# ─────────────────────────────────────────────
+# 40대 라이프 — 실용 라이프 매거진
+# Jekyll Configuration
+# ─────────────────────────────────────────────
+
+title: "40대 라이프"
+tagline: "40대를 위한 실용 라이프 매거진"
+description: >-
+  40대의 재테크, 여행, 커리어(AI), 자녀교육, 이슈제품까지.
+  같은 40대로서 경험하고 분석한 실용적인 정보를 공유합니다.
+url: "https://jackeychan0511.github.io"
+baseurl: ""
+
+# ── Language & Time ──
+lang: ko
+timezone: Asia/Seoul
+
+# ── Theme ──
+# Using custom theme (no external gem)
+# ── Build Settings ──
+markdown: kramdown
+highlighter: rouge
+permalink: /:year/:month/:day/:title/
+paginate: 10
+paginate_path: "/page/:num/"
+
+# ── Categories ──
+category_order:
+  - finance
+  - travel
+  - career
+  - education
+  - products
+
+category_names:
+  finance: "💰 재테크"
+  travel: "✈️ 여행"
+  career: "💼 커리어 & AI"
+  education: "📚 자녀교육"
+  products: "🚀 이슈제품"
+
+category_descriptions:
+  finance: "40대를 위한 현실적인 재테크 전략 — 주식, 부동산, 세금, 연금, 저축"
+  travel: "가족과 함께하는 국내외 여행지 추천, 꿀팁, 실전 리뷰"
+  career: "AI 시대, 40대 커리어의 생존과 도약을 위한 인사이트"
+  education: "유아·초등 자녀교육 — 학습법, 독서, 사교육, 입시 준비"
+  products: "테슬라, MAC, 게임기 등 40대가 주목할 이슈 제품 리뷰"
+
+# ── Author ──
+author:
+  name: "40대 블로거"
+  email: ""
+  bio: "40대. 재테크, 여행, 커리어, 교육, 제품까지. 같은 나이의 고민을 나누고 실질적인 해답을 찾습니다."
+
+# ── Social ──
+social:
+  github: jackeychan0511
+
+# ── Comments (Disqus or Utterances) ──
+comments:
+  provider: utterances
+  utterances_repo: "jackeychan0511/jackeychan0511.github.io"
+
+# ── Google Analytics ──
+google_analytics: ""
+
+# ── SEO ──
+twitter:
+  username:
+facebook:
+  app_id:
+og_image: /assets/images/og-default.png
+
+# ── Adsense (추후 활성화) ──
+adsense:
+  enabled: false
+  publisher_id: ""
+
+# ── Exclude ──
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md
+  - CNAME
+
+# ── Defaults ──
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true
+      author: "40대 블로거"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/default-og.png
+
+# ── Plugins ──
+plugins:
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed

@@ -1,0 +1,27 @@
+<header class="site-header">
+  <div class="container">
+    <div class="header-inner">
+      <div class="site-brand">
+        <a href="{{ '/' | relative_url }}" class="site-logo">{{ site.title }}</a>
+        <span class="site-tagline">{{ site.tagline }}</span>
+      </div>
+
+      <nav class="site-nav">
+        <button class="nav-toggle" aria-label="메뉴 열기">
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-list">
+          {% for cat in site.category_order %}
+          <li>
+            <a href="{{ '/category/' | append: cat | relative_url }}"
+               class="nav-link {% if page.category == cat %}active{% endif %}">
+              {{ site.category_names[cat] }}
+            </a>
+          </li>
+          {% endfor %}
+          <li><a href="{{ '/about' | relative_url }}" class="nav-link">소개</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>

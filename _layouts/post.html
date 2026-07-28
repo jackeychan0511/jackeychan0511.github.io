@@ -1,0 +1,55 @@
+---
+layout: default
+---
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header class="post-header">
+    <div class="post-meta-top">
+      <span class="post-category {{ page.categories[0] }}">{{ site.category_names[page.categories[0]] | default: page.categories[0] }}</span>
+      <time class="post-date" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {{ page.date | date: "%Y년 %m월 %d일" }}
+      </time>
+    </div>
+    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+    {% if page.subtitle %}
+    <p class="post-subtitle">{{ page.subtitle }}</p>
+    {% endif %}
+  </header>
+
+  {% if page.image %}
+  <div class="post-hero-image">
+    <img src="{{ page.image }}" alt="{{ page.title }}" loading="lazy">
+  </div>
+  {% endif %}
+
+  <div class="post-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+  <footer class="post-footer">
+    {% if page.tags %}
+    <div class="post-tags">
+      {% for tag in page.tags %}
+      <span class="tag">#{{ tag }}</span>
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    <div class="post-share">
+      <strong>이 글 공유하기:</strong>
+      <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" target="_blank" rel="noopener">Facebook</a>
+      <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}" target="_blank" rel="noopener">Twitter</a>
+    </div>
+
+    {% if site.comments.provider == "utterances" and page.comments != false %}
+    <div class="post-comments">
+      <script src="https://utteranc.es/client.js"
+        repo="{{ site.comments.utterances_repo }}"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+      </script>
+    </div>
+    {% endif %}
+  </footer>
+</article>
