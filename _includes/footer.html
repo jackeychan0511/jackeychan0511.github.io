@@ -40,4 +40,16 @@
     document.querySelector('.nav-list').classList.toggle('open');
     this.classList.toggle('active');
   });
+
+  function addBookmark() {
+    var url = window.location.href;
+    var title = document.title;
+    if (window.sidebar && window.sidebar.addPanel) { // Firefox
+      window.sidebar.addPanel(title, url, '');
+    } else if (window.external && window.external.AddFavorite) { // IE/Edge Legacy
+      window.external.AddFavorite(url, title);
+    } else {
+      alert('즐겨찾기에 추가하려면 Ctrl+D (Windows) 또는 Cmd+D (Mac)를 눌러주세요.');
+    }
+  }
 </script>

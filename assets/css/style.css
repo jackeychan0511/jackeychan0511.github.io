@@ -506,6 +506,30 @@ img { max-width: 100%; height: auto; border-radius: var(--radius-sm); }
 }
 
 .sidebar-profile { text-align: center; }
+
+.sidebar-bookmark { text-align: center; }
+.bookmark-btn {
+  display: inline-block;
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 24px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  width: 100%;
+}
+.bookmark-btn:hover {
+  background: #d63031;
+  transform: translateY(-1px);
+}
+.bookmark-tip {
+  margin-top: 8px;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
 .profile-img {
   width: 80px !important;
   height: 80px !important;
