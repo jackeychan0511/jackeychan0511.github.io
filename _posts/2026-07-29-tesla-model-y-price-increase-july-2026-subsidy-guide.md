@@ -5,14 +5,14 @@ date: 2026-07-29 08:00:00 +0900
 categories: [products]
 tags: [테슬라, 전기차, 모델Y, 모델3, 보조금, 전기차보조금, 신차, 자동차, IT, 가전, 이슈제품]
 author: "40대 블로거"
-image: /assets/images/posts/tesla-model-y-price-increase/model-y-hero.jpg
+image: /assets/images/posts/tesla-model-y-price-increase/model-y-exterior.jpg
 description: "2026년 7월 1일, 테슬라코리아가 모델3·모델Y 가격을 최대 700만 원 인상했습니다. 같은 날 시행된 전기차 보조금 개편안까지 반영한 트림별 실구매가를 정리했습니다."
 ---
 
 > **📌 한줄 요약:** 2026년 7월 1일, 테슬라코리아가 모델3·모델Y 가격을 최대 700만 원까지 인상했습니다. 같은 날 전기차 보조금 개편안도 시행되면서 트림별 실구매가가 크게 달라졌습니다. 지금 사는 게 유리한지, 기다리는 게 나은지 — 최신 가격표와 보조금 기준으로 따져봤습니다.
 
-![테슬라 모델Y](/assets/images/posts/tesla-model-y-price-increase/model-y-hero.jpg)
-*테슬라 모델Y — 2026년 7월 가격 인상 전기차 보조금 개편 반영 (출처: Google Hotels)*
+![테슬라 모델Y](/assets/images/posts/tesla-model-y-price-increase/model-y-exterior.jpg)
+*테슬라 모델Y — 전기차 보조금 개편 후 최적의 선택 (출처: Wikimedia Commons, CC BY-SA)*
 
 ---
 
