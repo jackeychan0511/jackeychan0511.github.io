@@ -9,6 +9,9 @@ image: /assets/images/posts/crypto-briefing-am/crypto-bitcoin.jpg
 description: "7월 29일 오전 코인 브리핑. FOMC D-DAY, 비트코인 $63,362. 154억 달러 대규모 롱 청산 쇼크. 워시 의장 인상 확률 50% 급등. 비트코인 보안 컨소시엄 출범. 사이토어 BIP-110 반대 110가지 이유"
 ---
 
+![비트코인·블록체인](/assets/images/posts/crypto-briefing-am/crypto-bitcoin.jpg)
+*비트코인 블록체인 — FOMC D-DAY, 비트코인 $63,362 (출처: Wikimedia Commons)*
+
 ## 🔴 오늘의 코인 시장 (7/29 오전)
 
 7월 29일, **FOMC 회의 마지막 날**입니다. 연준은 오늘 14:00 ET(한국시간 7/30 03:00) 금리 결정을 발표하고 케빈 워시 의장의 기자회견이 이어집니다.
