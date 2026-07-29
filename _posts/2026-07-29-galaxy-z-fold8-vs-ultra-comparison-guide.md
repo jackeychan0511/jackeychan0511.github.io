@@ -5,11 +5,14 @@ date: 2026-07-29 12:00:00 +0900
 categories: [products]
 tags: [삼성, 갤럭시, 폴더블, Z폴드8, Z폴드8울트라, IT, 신제품, 모바일, 구매가이드, 사전예약]
 author: "40대 블로거"
-image: /assets/images/posts/galaxy-fold8-vs-ultra/z-fold8.png
+image: /assets/images/posts/galaxy-z-fold8-vs-ultra/fold8-ultra-hero.jpg
 description: "갤럭시 Z 폴드8(227만 원)과 Z 폴드8 울트라(257만 원), 30만 원 차이의 실질적인 의미를 따져봤습니다. 40대 직장인 관점에서 카메라·화면·배터리·S펜을 실제 사용 기준으로 비교하고, 사전예약 혜택까지 고려한 구매 가이드를 정리했습니다."
 ---
 
 > **📌 한줄 요약:** 갤럭시 Z 폴드8(227만 원)과 Z 폴드8 울트라(257만 원)의 차이는 단순한 스펙 이상입니다. 30만 원 더 주면 2억 화소 카메라·8인치 대화면·16GB RAM·S펜 기본 지원을 얻지만, 무게와 휴대성에서 타협해야 합니다. **사전예약(7/28~8/6)은 오늘부터, 더블 스토리지 혜택 놓치지 마세요.**
+
+![갤럭시 Z 폴드8 울트라](/assets/images/posts/galaxy-z-fold8-vs-ultra/fold8-ultra-hero.jpg)
+*삼성 갤럭시 Z 폴드8 울트라 — 8인치 대화면, 200MP 카메라, S펜 내장 (출처: 삼성전자)*
 
 ---
 

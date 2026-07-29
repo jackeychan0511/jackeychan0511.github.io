@@ -5,7 +5,7 @@ date: 2026-07-29 07:30:00 +0900
 categories: [finance]
 tags: [비트코인, 가상화폐, 코인, BTC, 암호화폐, FOMC, 연준, KevinWarsh, 청산, BIP110]
 author: "40대 블로거"
-image: /assets/images/posts/crypto-briefing-main.png
+image: /assets/images/posts/crypto-briefing-am/crypto-market.jpg
 description: "7월 29일 오전 코인 브리핑. FOMC D-DAY, 비트코인 $63,362. 154억 달러 대규모 롱 청산 쇼크. 워시 의장 인상 확률 50% 급등. 비트코인 보안 컨소시엄 출범. 사이토어 BIP-110 반대 110가지 이유"
 ---
 
