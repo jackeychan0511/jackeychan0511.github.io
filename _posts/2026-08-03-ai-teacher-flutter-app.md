@@ -189,140 +189,34 @@ String buildTeacherSystemPrompt(String grade) {
 ### 3-2. Gemini 호출 (사진/비전 질문용)
 
 ```dart
-import 'dart:convert';
-import 'dart:typed_data';
-import 'package:http/http.dart' as http;
-import '../models/question.dart';
-
-/// Google Gemini API 호출 서비스 (사진/비전 질문용)
+// Gemini API 호출 서비스 (사진/비전 질문용)
 class AiService {
   final String apiKey;
   final String model; // 예: gemini-2.5-flash
   final String grade; // 예: 중2, 고3
-  final http.Client _client;
 
   AiService({
     required this.apiKey,
     this.model = 'gemini-2.5-flash',
     this.grade = '중2',
-    http.Client? client,
-  }) : _client = client ?? http.Client();
-
-  static const String _baseUrl =
-      'https://generativelanguage.googleapis.com/v1beta/models';
+  });
 
   /// 질문을 보내고 풀이를 받아온다.
-  ///
   /// 응답이 maxOutputTokens 한도에 걸려 잘렸으면(finishReason == 'MAX_TOKENS')
   /// 이전 대화를 컨텍스트로 유지한 채 자동으로 이어서 생성한다.
   Future<String> ask(Question question) async {
-    final uri = Uri.parse('$_baseUrl/$model:generateContent?key=$apiKey');
+    // ─── 핵심 구현 (API 호출부) ───
+    // generateContent 엔드포인트 호출
+    // 사진은 base64로 인코딩 → inline_data로 전송
+    // finishReason == 'MAX_TOKENS' 감지 → 이어서 생성 (최대 4회)
+    // (전체 코드는 공개하지 않습니다 🙏)
+    return _buildAnswerWithContinuation(question);
+  }
 
-    // 사용자 질문 텍스트
-    final userText = StringBuffer();
-    if (question.text.trim().isNotEmpty) {
-      userText.write('문제: ${question.text.trim()}\n');
-    } else {
-      userText.write('문제: [첨부한 사진 속 문제]\n');
-    }
-    userText.write('위 문제를 $grade 수준으로 풀이해주세요.');
-
-    // 대화 컨텍스트: 첫 턴(질문+사진)으로 시작해 잘리면 이어붙인다
-    final contents = <Map<String, dynamic>>[
-      {
-        'role': 'user',
-        'parts': [
-          {'text': userText.toString()},
-          if (question.hasImage)
-            {
-              'inline_data': {
-                'mime_type': question.imageMimeType ?? 'image/jpeg',
-                'data': base64Encode(question.imageBytes!),
-              }
-            },
-        ],
-      }
-    ];
-
-    final allText = StringBuffer();
-    var truncated = false;
-
-    // 잘린 응답은 최대 3회까지 이어서 생성한다 (총 4회 호출)
-    for (var attempt = 0; attempt < 4; attempt++) {
-      final body = jsonEncode({
-        'contents': contents,
-        'system_instruction': {
-          'parts': [
-            {'text': buildTeacherSystemPrompt(grade)}
-          ]
-        },
-        'generationConfig': {
-          'temperature': 0.7,
-          'maxOutputTokens': 8192,
-        },
-      });
-
-      final response = await _client
-          .post(
-            uri,
-            headers: {'Content-Type': 'application/json'},
-            body: body,
-          )
-          .timeout(const Duration(seconds: 90));
-
-      if (response.statusCode != 200) {
-        throw AiException(
-          'Gemini API 오류 (${response.statusCode}): ${response.body}',
-        );
-      }
-
-      final json = jsonDecode(utf8.decode(response.bodyBytes));
-      final candidates = json['candidates'] as List?;
-      if (candidates == null || candidates.isEmpty) {
-        throw AiException('AI 응답이 비어 있습니다. 문제가 너무 어렵거나 사진이 흐릴 수 있어요.');
-      }
-
-      final parts = candidates[0]['content']?['parts'] as List?;
-      if (parts == null || parts.isEmpty) {
-        throw AiException('AI 응답을 해석할 수 없습니다.');
-      }
-
-      final text = parts.map((p) => p['text'] as String? ?? '').join('\n');
-      if (text.trim().isEmpty) {
-        throw AiException('AI가 답변을 생성하지 못했어요. 다시 시도해주세요.');
-      }
-      allText.write(text);
-
-      // 잘렸는지 확인: 'MAX_TOKENS'면 토큰 한도에 걸려 끊긴 것
-      final finishReason = candidates[0]['finishReason'] as String?;
-      if (finishReason != 'MAX_TOKENS') {
-        truncated = false;
-        break;
-      }
-      truncated = true;
-
-      // 이어서 생성: 지금까지의 답변을 대화에 넣고 계속 요청
-      contents.add({
-        'role': 'model',
-        'parts': [
-          {'text': text}
-        ],
-      });
-      contents.add({
-        'role': 'user',
-        'parts': [
-          {
-            'text': '방금 설명을 중간에 끊었어. 끊긴 부분부터 이어서 계속 설명해줘. 처음부터 다시 쓰지 말고. 마지막에 **답**을 반드시 포함해줘.',
-          }
-        ],
-      });
-    }
-
-    var result = allText.toString().trim();
-    if (truncated) {
-      result += '\n\n> 💡 답변이 길어 일부만 표시됐어요. 다시 물어보면 더 길게 설명해줘요.';
-    }
-    return result;
+  // 잘림 감지 → 자동 이어받기 로직 (최대 4회 반복)
+  Future<String> _buildAnswerWithContinuation(Question question) async {
+    // ... (이어서 생성하는 핵심 로직 생략)
+    throw UnimplementedError('코드 공개 제한');
   }
 }
 ```
@@ -335,99 +229,28 @@ class DeepSeekService {
   final String apiKey;
   final String model;
   final String grade; // 예: 중2, 고3
-  final http.Client _client;
 
   DeepSeekService({
     required this.apiKey,
     this.model = 'deepseek-v4-flash',
     this.grade = '중2',
-    http.Client? client,
-  }) : _client = client ?? http.Client();
-
-  static const String _baseUrl = 'https://api.deepseek.com/v1';
+  });
 
   /// 텍스트 질문을 보내고 풀이를 받아온다.
-  ///
   /// 응답이 max_tokens 한도에 걸려 잘렸으면(finish_reason == 'length')
   /// 이전 대화를 컨텍스트로 유지한 채 자동으로 이어서 생성한다.
   Future<String> ask(Question question) async {
-    final uri = Uri.parse('$_baseUrl/chat/completions');
+    // ─── 핵심 구현 (API 호출부) ───
+    // chat/completions 엔드포인트 호출 (OpenAI 호환)
+    // finish_reason == 'length' 감지 → 이어서 생성 (최대 4회)
+    // (전체 코드는 공개하지 않습니다 🙏)
+    return _buildAnswerWithContinuation(question);
+  }
 
-    final userText = StringBuffer();
-    if (question.text.trim().isNotEmpty) {
-      userText.write('문제: ${question.text.trim()}\n');
-    } else {
-      userText.write('문제: [첨부한 사진 속 문제]\n');
-    }
-    userText.write('위 문제를 $grade 수준으로 풀이해주세요.');
-
-    final messages = <Map<String, String>>[
-      {'role': 'system', 'content': buildTeacherSystemPrompt(grade)},
-      {'role': 'user', 'content': userText.toString()},
-    ];
-
-    final allText = StringBuffer();
-    var truncated = false;
-
-    // 잘린 응답은 최대 3회까지 이어서 생성한다 (총 4회 호출)
-    for (var attempt = 0; attempt < 4; attempt++) {
-      final body = jsonEncode({
-        'model': model,
-        'messages': messages,
-        'temperature': 0.7,
-        'max_tokens': 8192,
-      });
-
-      final response = await _client
-          .post(
-            uri,
-            headers: {
-              'Content-Type': 'application/json',
-              'Authorization': 'Bearer $apiKey',
-            },
-            body: body,
-          )
-          .timeout(const Duration(seconds: 90));
-
-      if (response.statusCode != 200) {
-        throw AiException(
-          'DeepSeek API 오류 (${response.statusCode}): ${response.body}',
-        );
-      }
-
-      final json = jsonDecode(utf8.decode(response.bodyBytes));
-      final choices = json['choices'] as List?;
-      if (choices == null || choices.isEmpty) {
-        throw AiException('AI 응답이 비어 있습니다. 다시 시도해주세요.');
-      }
-
-      final text = choices[0]['message']?['content'] as String? ?? '';
-      if (text.trim().isEmpty) {
-        throw AiException('AI가 답변을 생성하지 못했어요. 다시 시도해주세요.');
-      }
-      allText.write(text);
-
-      // 잘렸는지 확인: 'length'면 토큰 한도에 걸려 끊긴 것
-      final finishReason = choices[0]['finish_reason'] as String?;
-      if (finishReason != 'length') {
-        truncated = false;
-        break;
-      }
-      truncated = true;
-
-      // 이어서 생성: 지금까지의 답변을 대화에 넣고 계속 요청
-      messages.add({'role': 'assistant', 'content': text});
-      messages.add({
-        'role': 'user',
-        'content': '방금 설명을 중간에 끊었어. 끊긴 부분부터 이어서 계속 설명해줘. 처음부터 다시 쓰지 말고. 마지막에 **답**을 반드시 포함해줘.',
-      });
-    }
-
-    var result = allText.toString().trim();
-    if (truncated) {
-      result += '\n\n> 💡 답변이 길어 일부만 표시됐어요. 다시 물어보면 더 길게 설명해줘요.';
-    }
-    return result;
+  // 잘림 감지 → 자동 이어받기 로직 (최대 4회 반복)
+  Future<String> _buildAnswerWithContinuation(Question question) async {
+    // ... (이어서 생성하는 핵심 로직 생략)
+    throw UnimplementedError('코드 공개 제한');
   }
 }
 
@@ -456,83 +279,10 @@ class AppState extends ChangeNotifier {
   String _geminiModel = 'gemini-2.5-flash';
   String _grade = '중2';
 
-  bool get hasGeminiApiKey => _geminiApiKey.trim().isNotEmpty;
-  bool get hasDeepSeekApiKey => _deepSeekApiKey.trim().isNotEmpty;
-
-  /// 현재 질문 방식에 필요한 키가 있는지 (사진 → Gemini, 텍스트 → DeepSeek)
-  bool get hasRequiredApiKey => hasImage ? hasGeminiApiKey : hasDeepSeekApiKey;
-
-  // --- 현재 질문 ---
-  String _questionText = '';
-  Uint8List? _imageBytes;
-  String? _imageMimeType;
-
-  bool get hasImage => _imageBytes != null && _imageBytes!.isNotEmpty;
-
-  // --- 답변 상태 ---
-  bool _isLoading = false;
-  String? _answer;
-  String? _error;
-  String? _usedModel; // 이번 답변에 사용된 모델 (표시용)
-
-  /// AI에게 질문하고 답변을 받아온다.
-  /// 사진이 있으면 Gemini(비전), 텍스트만 있으면 DeepSeek를 사용한다.
-  Future<void> askQuestion() async {
-    final question = Question(
-      text: _questionText,
-      imageBytes: _imageBytes,
-      imageMimeType: _imageMimeType,
-    );
-
-    if (!question.isValid) {
-      _error = '문제를 텍스트로 입력하거나 사진을 첨부해주세요.';
-      notifyListeners();
-      return;
-    }
-
-    if (question.hasImage && !hasGeminiApiKey) {
-      _error = '사진 질문에는 Gemini API 키가 필요해요. 설정에서 입력해주세요.';
-      notifyListeners();
-      return;
-    }
-    if (!question.hasImage && !hasDeepSeekApiKey) {
-      _error = '텍스트 질문에는 DeepSeek API 키가 필요해요. 설정에서 입력해주세요.';
-      notifyListeners();
-      return;
-    }
-
-    _isLoading = true;
-    _error = null;
-    _answer = null;
-    _usedModel = null;
-    notifyListeners();
-
-    try {
-      if (question.hasImage) {
-        // 사진 질문 → Gemini (비전)
-        final service = AiService(
-          apiKey: _geminiApiKey,
-          model: _geminiModel,
-          grade: _grade,
-        );
-        _answer = await service.ask(question);
-        _usedModel = 'Gemini $_geminiModel';
-      } else {
-        // 텍스트 질문 → DeepSeek
-        final service = DeepSeekService(
-          apiKey: _deepSeekApiKey,
-          grade: _grade,
-        );
-        _answer = await service.ask(question);
-        _usedModel = 'DeepSeek ${service.model}';
-      }
-    } catch (e) {
-      _error = e.toString();
-    } finally {
-      _isLoading = false;
-      notifyListeners();
-    }
-  }
+  // ─── 핵심 구현 (상태 관리부) ───
+  // API 키·학년 영구저장 (shared_preferences)
+  // 사진 유무에 따른 라우팅 판정 (사진 → Gemini, 텍스트 → DeepSeek)
+  // (전체 코드는 공개하지 않습니다 🙏)
 }
 ```
 
@@ -543,187 +293,15 @@ class AppState extends ChangeNotifier {
 텍스트 입력 + 사진 첨부 + 질문하기 버튼으로 구성됩니다.
 
 ```dart
-import 'package:flutter/material.dart';
-import 'package:image_picker/image_picker.dart';
-import 'package:provider/provider.dart';
-
-import '../services/app_state.dart';
-import 'answer_screen.dart';
-
-class HomeScreen extends StatefulWidget {
-  const HomeScreen({super.key});
-
-  @override
-  State<HomeScreen> createState() => _HomeScreenState();
-}
-
 class _HomeScreenState extends State<HomeScreen> {
   final _picker = ImagePicker();
   final _textController = TextEditingController();
 
-  @override
-  void dispose() {
-    _textController.dispose();
-    super.dispose();
-  }
-
-  Future<void> _pickImage(ImageSource source) async {
-    try {
-      final file = await _picker.pickImage(
-        source: source,
-        maxWidth: 1600, // 전송 크기 제한
-        imageQuality: 85,
-      );
-      if (file == null) return;
-
-      final bytes = await file.readAsBytes();
-      if (!mounted) return;
-      final appState = context.read<AppState>();
-      appState.setQuestionImage(bytes, file.mimeType ?? 'image/jpeg');
-    } catch (e) {
-      if (mounted) {
-        ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(content: Text('사진을 불러오지 못했어요: $e')),
-        );
-      }
-    }
-  }
-
-  void _showImageSourceSheet() {
-    showModalBottomSheet(
-      context: context,
-      builder: (ctx) => SafeArea(
-        child: Column(
-          mainAxisSize: MainAxisSize.min,
-          children: [
-            ListTile(
-              leading: const Icon(Icons.photo_camera),
-              title: const Text('카메라로 촬영'),
-              onTap: () {
-                Navigator.pop(ctx);
-                _pickImage(ImageSource.camera);
-              },
-            ),
-            ListTile(
-              leading: const Icon(Icons.photo_library),
-              title: const Text('갤러리에서 선택'),
-              onTap: () {
-                Navigator.pop(ctx);
-                _pickImage(ImageSource.gallery);
-              },
-            ),
-          ],
-        ),
-      ),
-    );
-  }
-
-  Future<void> _askQuestion() async {
-    final appState = context.read<AppState>();
-    if (!appState.hasRequiredApiKey) return; // 키가 없으면 안내 (생략)
-    await appState.askQuestion();
-    if (!mounted) return;
-    if (appState.error == null) {
-      await Navigator.push(
-        context,
-        MaterialPageRoute(
-          builder: (_) => const AnswerScreen(),
-        ),
-      );
-      // 답변 화면에서 돌아오면 사진 첨부를 초기화해서
-      // 다음 문제에 이전 사진이 남지 않게 한다.
-      if (mounted) {
-        appState.setQuestionImage(null);
-      }
-    }
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    final appState = context.watch<AppState>();
-
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('AI 선생님'),
-        centerTitle: true,
-      ),
-      body: SingleChildScrollView(
-        padding: const EdgeInsets.all(16),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.stretch,
-          children: [
-            // 문제 입력
-            Text('모르는 문제를 물어보세요', style: Theme.of(context).textTheme.titleMedium),
-            const SizedBox(height: 8),
-            TextField(
-              controller: _textController,
-              maxLines: 5,
-              decoration: const InputDecoration(
-                hintText: '예) 2x + 5 = 13일 때 x의 값을 구하시오.\n또는 사진으로 문제를 찍어 올려도 돼요!',
-                border: OutlineInputBorder(),
-              ),
-              onChanged: appState.setQuestionText,
-            ),
-            const SizedBox(height: 12),
-
-            // 사진 첨부
-            Row(
-              children: [
-                OutlinedButton.icon(
-                  icon: const Icon(Icons.add_photo_alternate),
-                  label: const Text('사진 첨부'),
-                  onPressed: _showImageSourceSheet,
-                ),
-                const SizedBox(width: 12),
-                if (appState.hasImage)
-                  Expanded(
-                    child: Text(
-                      '사진 첨부됨 ✓',
-                      style: TextStyle(
-                        color: Theme.of(context).colorScheme.primary,
-                      ),
-                    ),
-                  ),
-              ],
-            ),
-            const SizedBox(height: 16),
-
-            // 질문하기 버튼
-            FilledButton.icon(
-              icon: appState.isLoading
-                  ? const SizedBox(
-                      width: 20,
-                      height: 20,
-                      child: CircularProgressIndicator(strokeWidth: 2),
-                    )
-                  : const Icon(Icons.send),
-              label: Text(appState.isLoading ? '선생님이 생각 중...' : '선생님께 질문하기'),
-              style: FilledButton.styleFrom(
-                padding: const EdgeInsets.symmetric(vertical: 14),
-              ),
-              onPressed: appState.isLoading ? null : _askQuestion,
-            ),
-            if (appState.error != null) ...[
-              const SizedBox(height: 12),
-              Container(
-                padding: const EdgeInsets.all(12),
-                decoration: BoxDecoration(
-                  color: Theme.of(context).colorScheme.errorContainer,
-                  borderRadius: BorderRadius.circular(8),
-                ),
-                child: Text(
-                  appState.error!,
-                  style: TextStyle(
-                    color: Theme.of(context).colorScheme.onErrorContainer,
-                  ),
-                ),
-              ),
-            ],
-          ],
-        ),
-      ),
-    );
-  }
+  // ─── 핵심 구현 (질문 입력부) ───
+  // 텍스트 입력 + 사진 첨부(카메라/갤러리) + 질문하기 버튼
+  // 사진은 maxWidth 1600, quality 85로 압축 후 전송
+  // 답변 화면에서 돌아오면 사진 첨부 자동 초기화
+  // (전체 코드는 공개하지 않습니다 🙏)
 }
 ```
 
@@ -734,117 +312,12 @@ class _HomeScreenState extends State<HomeScreen> {
 AI의 마크다운 답변을 카드 형태로 보여줍니다. `flutter_markdown`으로 수식·목록·굵은 글씨가 그대로 렌더링됩니다.
 
 ```dart
-import 'package:flutter/material.dart';
-import 'package:flutter_markdown/flutter_markdown.dart';
-import 'package:provider/provider.dart';
-
-import '../services/app_state.dart';
-
 class AnswerScreen extends StatelessWidget {
-  const AnswerScreen({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    final appState = context.watch<AppState>();
-
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('선생님의 풀이'),
-        centerTitle: true,
-      ),
-      body: _buildBody(appState, context),
-    );
-  }
-
-  Widget _buildBody(AppState appState, BuildContext context) {
-    // 로딩 중
-    if (appState.isLoading) {
-      return const Center(
-        child: Column(
-          mainAxisSize: MainAxisSize.min,
-          children: [
-            CircularProgressIndicator(),
-            SizedBox(height: 16),
-            Text('선생님이 문제를 읽고 있어요...'),
-          ],
-        ),
-      );
-    }
-
-    // 에러
-    if (appState.error != null) {
-      return Center(
-        child: Padding(
-          padding: const EdgeInsets.all(24),
-          child: Column(
-            mainAxisSize: MainAxisSize.min,
-            children: [
-              Icon(
-                Icons.error_outline,
-                size: 56,
-                color: Theme.of(context).colorScheme.error,
-              ),
-              const SizedBox(height: 16),
-              Text('문제가 생겼어요', style: Theme.of(context).textTheme.titleLarge),
-              const SizedBox(height: 8),
-              Text(
-                appState.error!,
-                textAlign: TextAlign.center,
-              ),
-              const SizedBox(height: 24),
-              FilledButton.icon(
-                icon: const Icon(Icons.refresh),
-                label: const Text('다시 시도'),
-                onPressed: () => appState.askQuestion(),
-              ),
-            ],
-          ),
-        ),
-      );
-    }
-
-    // 답변 표시
-    final answer = appState.answer;
-    if (answer == null) {
-      return const Center(child: Text('아직 답변이 없어요.'));
-    }
-
-    return SingleChildScrollView(
-      padding: const EdgeInsets.all(16),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.stretch,
-        children: [
-          // 풀이 카드
-          Card(
-            elevation: 0,
-            color: Theme.of(context).colorScheme.surfaceContainerHighest,
-            shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(12),
-            ),
-            child: Padding(
-              padding: const EdgeInsets.all(16),
-              child: MarkdownBody(
-                data: answer,
-                selectable: true,
-                styleSheet: MarkdownStyleSheet.fromTheme(Theme.of(context)),
-              ),
-            ),
-          ),
-          const SizedBox(height: 16),
-
-          // 다시 질문하기
-          FilledButton.icon(
-            icon: const Icon(Icons.replay),
-            label: const Text('다른 문제 물어보기'),
-            onPressed: () {
-              appState.reset();
-              Navigator.pop(context);
-            },
-          ),
-        ],
-      ),
-    );
-  }
+  // ─── 핵심 구현 (답변 표시부) ───
+  // 로딩 / 에러 / 답변 3가지 상태 처리
+  // flutter_markdown으로 AI 답변(마크다운) 렌더링
+  // "다른 문제 물어보기" → 상태 초기화 후 홈으로
+  // (전체 코드는 공개하지 않습니다 🙏)
 }
 ```
 

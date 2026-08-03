@@ -118,19 +118,10 @@ theme: ThemeData(
 가장 먼저 **텍스트 질문**부터 만들었습니다. DeepSeek는 OpenAI 호환 API라 `chat/completions` 엔드포인트를 그대로 사용할 수 있어 연동이 쉬웠습니다.
 
 ```dart
-final response = await http.post(
-  Uri.parse('https://api.deepseek.com/v1/chat/completions'),
-  headers: {
-    'Content-Type': 'application/json',
-    'Authorization': 'Bearer $apiKey',
-  },
-  body: jsonEncode({
-    'model': 'deepseek-v4-flash',
-    'messages': messages,   // 시스템 + 사용자 프롬프트
-    'temperature': 0.7,
-    'max_tokens': 8192,
-  }),
-);
+// ─── 핵심 구현 (DeepSeek API 호출부) ───
+// chat/completions 엔드포인트 호출 (OpenAI 호환)
+// 학년 맞춤 시스템 프롬프트 + 사용자 질문 전송
+// (전체 코드는 공개하지 않습니다 🙏)
 ```
 
 ### 🎓 학년 맞춤 프롬프트 — 이 앱의 차별점
@@ -162,27 +153,11 @@ String _gradeLevelNote(String grade) {
 텍스트가 되니 이제 **사진으로 문제를 찍어 올리는 기능**을 추가했습니다. `image_picker`로 사진을 고르면, `base64`로 인코딩해서 Gemini의 `generateContent`에 `inline_data`로 넘겨주는 방식입니다.
 
 ```dart
-final body = jsonEncode({
-  'contents': [
-    {
-      'role': 'user',
-      'parts': [
-        {'text': userText},
-        {
-          'inline_data': {
-            'mime_type': 'image/jpeg',
-            'data': base64Encode(imageBytes),  // 사진을 base64로
-          }
-        }
-      ]
-    }
-  ],
-  'system_instruction': {'parts': [{'text': buildTeacherSystemPrompt(grade)}]},
-  'generationConfig': {
-    'temperature': 0.7,
-    'maxOutputTokens': 8192,
-  },
-});
+// ─── 핵심 구현 (Gemini 비전 호출부) ───
+// generateContent 엔드포인트 호출
+// 사진은 base64 인코딩 → inline_data로 전송
+// system_instruction에 학년 맞춤 프롬프트 주입
+// (전체 코드는 공개하지 않습니다 🙏)
 ```
 
 ### 🚦 라우팅 판정 — 사진이 있으면 Gemini, 없으면 DeepSeek
@@ -307,12 +282,10 @@ if (finishReason != 'length') {
 }
 truncated = true;
 
-// 이어서 생성: 지금까지의 답변을 대화에 넣고 계속 요청
-messages.add({'role': 'assistant', 'content': text});
-messages.add({
-  'role': 'user',
-  'content': '방금 설명을 중간에 끊었어. 끊긴 부분부터 이어서 계속 설명해줘. 처음부터 다시 쓰지 말고. 마지막에 **답**을 반드시 포함해줘.',
-});
+// ─── 핵심 구현 (이어서 생성 로직) ───
+// 지금까지의 답변을 대화 컨텍스트로 유지한 채
+// "끊긴 부분부터 이어서 설명해줘" 재요청 (최대 4회)
+// (전체 코드는 공개하지 않습니다 🙏)
 ```
 
 > 💡 **배운 점**: AI 응답은 "성공했다"는 것만 확인하면 안 됩니다. **"제대로 완성됐는지"** 까지 확인해야 해요. 응답이 잘렸는지, 비어 있는지, 에러인지 — 모든 경우를 코드로 검사하는 습관이 중요하다는 걸 배웠습니다.
