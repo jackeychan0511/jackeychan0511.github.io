@@ -28,6 +28,7 @@ category_order:
   - products
   - food
   - startup
+  - ai-teacher
 
 category_names:
   finance: "💰 재테크"
@@ -37,6 +38,7 @@ category_names:
   products: "🚀 이슈제품"
   food: "🍽️ 맛집"
   startup: "📦 창업의고수 창고!"
+  ai-teacher: "🧑‍🏫 AI 선생님"
 
 author:
   name: "재찬키"
