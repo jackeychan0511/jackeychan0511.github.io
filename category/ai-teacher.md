@@ -1,6 +1,6 @@
 ---
 layout: category
-title: "🧑‍🏫 AI 선생님"
+title: "✍️ AI 제작일지"
 category: ai-teacher
 permalink: /category/ai-teacher/
 author_profile: false
