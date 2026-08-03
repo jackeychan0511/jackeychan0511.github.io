@@ -6,7 +6,7 @@
 title: "40대 라이프"
 tagline: "40대를 위한 실용 라이프 매거진"
 description: >-
-  40대의 재테크, 여행, 커리어(AI), 자녀교육, 이슈제품, 맛집까지.
+  40대의 재테크, 여행, AI이슈, 자녀교육, 이슈제품, 맛집까지.
   같은 40대로서 경험하고 분석한 실용적인 정보를 공유합니다.
 url: "https://jackeychan0511.github.io"
 baseurl: ""
@@ -32,7 +32,7 @@ category_order:
 category_names:
   finance: "💰 재테크"
   travel: "✈️ 여행"
-  career: "💼 커리어 & AI"
+  career: "🤖 AI이슈"
   education: "📚 자녀교육"
   products: "🚀 이슈제품"
   food: "🍽️ 맛집"

@@ -1,6 +1,6 @@
 ---
 layout: category
-title: 커리어 & AI
+title: AI이슈
 category: career
 permalink: /category/career/
 ---
