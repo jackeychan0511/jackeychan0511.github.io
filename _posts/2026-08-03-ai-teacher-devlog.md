@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Flutter로 'AI 선생님' 앱 만들기 개발일지 — 아이 문제 풀이 앱을 8단계로 완성한 과정 (코드 공유)"
-date: 2026-08-03 22:00:00 +0900
+date: 2026-08-03 10:00:00 +0900
 categories: [ai-teacher]
 tags: [Flutter, 개발일지, AI, 앱개발, 자녀교육, DeepSeek, Gemini, 안드로이드, 코딩, 문제풀이, 앱개발후기, 2026년8월]
 author: "40대 블로거"

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Flutter로 만든 'AI 선생님' 앱 — 문제 찍으면 풀이해주는 자녀교육 앱 (코드 공유)"
-date: 2026-08-03 21:30:00 +0900
+date: 2026-08-03 09:30:00 +0900
 categories: [ai-teacher]
 tags: [Flutter, AI, 자녀교육, 문제풀이, 앱개발, DeepSeek, Gemini, 안드로이드, 학습앱, 코딩, 2026년8월]
 author: "40대 블로거"
