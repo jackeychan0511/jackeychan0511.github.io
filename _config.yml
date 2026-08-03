@@ -27,7 +27,6 @@ category_order:
   - education
   - products
   - food
-  - startup
   - ai-teacher
 
 category_names:
@@ -37,7 +36,6 @@ category_names:
   education: "📚 자녀교육"
   products: "🚀 이슈제품"
   food: "🍽️ 맛집"
-  startup: "📦 창업의고수 창고!"
   ai-teacher: "🧑‍🏫 AI 선생님"
 
 author:
