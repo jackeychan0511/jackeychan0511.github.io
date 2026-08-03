@@ -130,3 +130,7 @@ description: "Flutter로 만든 'AI 선생님' 앱을 스마트폰에 직접 설
 - [Flutter로 'AI 선생님' 앱 만들기 개발일지 — 8단계로 완성한 과정](/2026/08/03/ai-teacher-devlog/)
 
 직접 설치해보고 싶으시다면 [앱 소개 글](/2026/08/03/ai-teacher-flutter-app/)에서 APK를 다운로드할 수 있습니다. 아이와 함께 써보시고 궁금한 점은 댓글로 남겨주세요! 🙌
+
+---
+
+<p style="color:#000000; font-weight:bold; margin-top:24px;">개발자: 심종주 (2026.08.03 기준)</p>

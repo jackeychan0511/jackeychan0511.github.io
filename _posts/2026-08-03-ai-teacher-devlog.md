@@ -325,3 +325,7 @@ flutter build apk --release
 혼자서 Flutter + AI 앱을 만들어보고 싶다면, 이 글의 단계를 하나씩 따라 해보시길 추천합니다. **완성된 앱의 전체 코드와 화면 구성**이 궁금하시면 [아까 올린 앱 소개 글](/2026/08/03/ai-teacher-flutter-app/)을 함께 봐주세요! 🙌
 
 질문이나 궁금한 점은 댓글로 남겨주세요.
+
+---
+
+<p style="color:#000000; font-weight:bold; margin-top:24px;">개발자: 심종주 (2026.08.03 기준)</p>

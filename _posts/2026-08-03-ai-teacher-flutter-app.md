@@ -366,3 +366,7 @@ flutter build apk --release
 3. **잘림 자동 복구** — 응답이 길어 토큰 한도에 걸리면 이어서 계속 생성
 
 Flutter 하나로 Android/iOS 모두 대응할 수 있고, AI API만 있으면 누구나 비슷한 "AI 과외 선생님" 앱을 만들 수 있습니다. 궁금한 점은 댓글로 남겨주세요! 🙌
+
+---
+
+<p style="color:#000000; font-weight:bold; margin-top:24px;">개발자: 심종주 (2026.08.03 기준)</p>
