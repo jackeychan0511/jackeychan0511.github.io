@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Hermes Agent v0.20.0 Herald 출시 총정리 — 음성 대화·A2A·웹훅, 드디어 나왔다 (2026.8.4)"
-date: 2026-08-04 09:30:00 +0900
+date: 2026-08-04 09:00:00 +0900
 categories: [career]
 tags: [HermesAgent, NousResearch, AI에이전트, v0.20.0, Herald, 오픈소스, 음성AI, A2A, 웹훅, AI업데이트]
 author: "40대 블로거"
