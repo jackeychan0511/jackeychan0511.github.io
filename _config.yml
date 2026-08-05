@@ -19,6 +19,7 @@ naver_analytics: "18053a3640e3d30"
 
 lang: ko
 timezone: Asia/Seoul
+future: true
 
 markdown: kramdown
 highlighter: rouge
