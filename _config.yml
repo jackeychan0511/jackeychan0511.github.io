@@ -14,6 +14,9 @@ baseurl: ""
 # Google Analytics 4 (GA4) — 방문자 추적 (대시보드는 본인 로그인 시에만 공개)
 google_analytics: "G-SM4HBHCL65"
 
+# Naver Analytics (네이버 애널리틱스) — 웹로그 ID
+naver_analytics: "18053a3640e3d30"
+
 lang: ko
 timezone: Asia/Seoul
 
