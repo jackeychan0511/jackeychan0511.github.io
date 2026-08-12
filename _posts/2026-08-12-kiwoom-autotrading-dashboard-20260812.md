@@ -106,7 +106,7 @@ def get_global_indices():
 ![관심목록 화면](/assets/images/posts/kiwoom-autotrading-dashboard-20260812/11.jpg)
 *관심목록 — 저장한 종목들이 시세와 함께 표시*
 
-![수동매매 화면](/assets/images/posts/kiwoom-autotrading-dashboard-20260812/5.jpg)
+![수동매매 화면](/assets/images/posts/kiwoom-autotrading-dashboard-20260812/11.jpg)
 *수동매매 화면 — 직접 종목을 골라 주문을 낼 수 있는 페이지*
 
 차트 페이지에서는 일봉/분봉 캔들 + 보조지표(이동평균, RSI, MACD 등)를 함께 볼 수 있습니다.
