@@ -103,7 +103,7 @@ def get_global_indices():
 
 관심목록 → 종목 클릭 → 차트 페이지 (종목코드 + 이름 전달)
 
-![관심목록 화면](/assets/images/posts/kiwoom-autotrading-dashboard-20260812/2.jpg)
+![관심목록 화면](/assets/images/posts/kiwoom-autotrading-dashboard-20260812/11.jpg)
 *관심목록 — 저장한 종목들이 시세와 함께 표시*
 
 ![수동매매 화면](/assets/images/posts/kiwoom-autotrading-dashboard-20260812/5.jpg)
