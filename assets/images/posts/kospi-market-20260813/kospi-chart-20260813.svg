@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="Apple SD Gothic Neo, NanumGothic, Noto Sans KR, Malgun Gothic, sans-serif">
+<rect width="1200" height="630" fill="#ffffff"/>
+<text x="80" y="52" font-size="38" font-weight="bold" fill="#111827">코스피(KOSPI) 최근 19거래일</text>
+<text x="80" y="84" font-size="22" fill="#6b7280">2026.07.20 ~ 2026.08.13 · 종가 기준 · 8/13 마감시황</text>
+<line x1="80" y1="533.6" x2="1160" y2="533.6" stroke="#e5e7eb" stroke-width="1"/>
+<text x="68" y="540.6" font-size="18" fill="#9ca3af" text-anchor="end">5,600</text>
+<line x1="80" y1="482.4" x2="1160" y2="482.4" stroke="#e5e7eb" stroke-width="1"/>
+<text x="68" y="489.4" font-size="18" fill="#9ca3af" text-anchor="end">5,800</text>
+<line x1="80" y1="431.3" x2="1160" y2="431.3" stroke="#e5e7eb" stroke-width="1"/>
+<text x="68" y="438.3" font-size="18" fill="#9ca3af" text-anchor="end">6,000</text>
+<line x1="80" y1="380.1" x2="1160" y2="380.1" stroke="#e5e7eb" stroke-width="1"/>
+<text x="68" y="387.1" font-size="18" fill="#9ca3af" text-anchor="end">6,200</text>
+<line x1="80" y1="329.0" x2="1160" y2="329.0" stroke="#e5e7eb" stroke-width="1"/>
+<text x="68" y="336.0" font-size="18" fill="#9ca3af" text-anchor="end">6,400</text>
+<line x1="80" y1="277.8" x2="1160" y2="277.8" stroke="#e5e7eb" stroke-width="1"/>
+<text x="68" y="284.8" font-size="18" fill="#9ca3af" text-anchor="end">6,600</text>
+<line x1="80" y1="226.7" x2="1160" y2="226.7" stroke="#e5e7eb" stroke-width="1"/>
+<text x="68" y="233.7" font-size="18" fill="#9ca3af" text-anchor="end">6,800</text>
+<line x1="80" y1="175.5" x2="1160" y2="175.5" stroke="#e5e7eb" stroke-width="1"/>
+<text x="68" y="182.5" font-size="18" fill="#9ca3af" text-anchor="end">7,000</text>
+<text x="80" y="600" font-size="17" fill="#9ca3af" text-anchor="middle">07.20</text>
+<text x="260" y="600" font-size="17" fill="#9ca3af" text-anchor="middle">07.23</text>
+<text x="440" y="600" font-size="17" fill="#9ca3af" text-anchor="middle">07.28</text>
+<text x="620" y="600" font-size="17" fill="#9ca3af" text-anchor="middle">07.31</text>
+<text x="800" y="600" font-size="17" fill="#9ca3af" text-anchor="middle">08.05</text>
+<text x="980" y="600" font-size="17" fill="#9ca3af" text-anchor="middle">08.10</text>
+<text x="1160" y="600" font-size="17" fill="#9ca3af" text-anchor="middle">08.13</text>
+<polygon points="80.0,299.2 140.0,240.0 200.0,227.2 260.0,150.7 320.0,254.6 380.0,238.0 440.0,425.2 500.0,517.4 560.0,535.2 620.0,279.0 680.0,365.4 740.0,339.5 800.0,278.3 860.0,355.5 920.0,365.1 980.0,354.6 1040.0,342.9 1100.0,283.2 1160.0,223.2 1160.0,566.0 80.0,566.0" fill="url(#grad)" opacity="0.55"/>
+<polyline points="80.0,299.2 140.0,240.0 200.0,227.2 260.0,150.7 320.0,254.6 380.0,238.0 440.0,425.2 500.0,517.4 560.0,535.2 620.0,279.0 680.0,365.4 740.0,339.5 800.0,278.3 860.0,355.5 920.0,365.1 980.0,354.6 1040.0,342.9 1100.0,283.2 1160.0,223.2" fill="none" stroke="#dc2626" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="1160.0" cy="223.2" r="7" fill="#dc2626" stroke="#ffffff" stroke-width="3"/>
+<text x="1146.0" y="203.2" font-size="26" font-weight="bold" fill="#dc2626" text-anchor="end">6,813.34</text>
+<text x="1146.0" y="231.2" font-size="19" fill="#dc2626" text-anchor="end">▲ +234.30 (+3.56%)</text>
+<text x="560" y="565" font-size="17" fill="#6b7280" text-anchor="middle">7/30 저점 5,593</text>
+<defs>
+<linearGradient id="grad" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0%" stop-color="#dc2626" stop-opacity="0.35"/>
+  <stop offset="100%" stop-color="#dc2626" stop-opacity="0.02"/>
+</linearGradient>
+</defs>
+<text x="80" y="616" font-size="15" fill="#9ca3af">출처: 한국거래소(KRX) 종가 기준 · 본 블로그 작성</text>
+</svg>
