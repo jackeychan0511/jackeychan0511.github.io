@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" font-family="Apple SD Gothic Neo, NanumGothic, Noto Sans KR, Malgun Gothic, sans-serif">
+<rect width="1200" height="420" fill="#ffffff"/>
+<text x="80" y="52" font-size="34" font-weight="bold" fill="#111827">크레버스(096240) 최근 종가 추이</text>
+<text x="80" y="84" font-size="22" fill="#6b7280">2026.08.18 ~ 08.21 · 종가 기준 · 8/21 종가 8,380원</text>
+<line x1="80" y1="300" x2="1120" y2="300" stroke="#e5e7eb" stroke-width="1"/>
+<text x="68" y="307" font-size="18" fill="#9ca3af" text-anchor="end">8,300</text>
+<line x1="80" y1="258" x2="1120" y2="258" stroke="#e5e7eb" stroke-width="1"/>
+<text x="68" y="265" font-size="18" fill="#9ca3af" text-anchor="end">8,400</text>
+<line x1="80" y1="216" x2="1120" y2="216" stroke="#e5e7eb" stroke-width="1"/>
+<text x="68" y="223" font-size="18" fill="#9ca3af" text-anchor="end">8,500</text>
+<line x1="80" y1="174" x2="1120" y2="174" stroke="#e5e7eb" stroke-width="1"/>
+<text x="68" y="181" font-size="18" fill="#9ca3af" text-anchor="end">8,600</text>
+<line x1="80" y1="132" x2="1120" y2="132" stroke="#e5e7eb" stroke-width="1"/>
+<text x="68" y="139" font-size="18" fill="#9ca3af" text-anchor="end">8,700</text>
+
+<line x1="80" y1="100" x2="1120" y2="100" stroke="#f3f4f6" stroke-width="1"/>
+
+<circle cx="280" cy="236" r="7" fill="#dc2626"/>
+<circle cx="560" cy="236" r="7" fill="#dc2626"/>
+<circle cx="840" cy="252" r="7" fill="#dc2626"/>
+<circle cx="1120" cy="278" r="7" fill="#dc2626"/>
+<polyline points="280,236 560,236 840,252 1120,278" fill="none" stroke="#dc2626" stroke-width="4"/>
+
+<text x="280" y="330" font-size="20" fill="#111827" text-anchor="middle">8/18</text>
+<text x="280" y="358" font-size="20" font-weight="bold" fill="#111827" text-anchor="middle">8,500</text>
+<text x="560" y="330" font-size="20" fill="#111827" text-anchor="middle">8/19</text>
+<text x="560" y="358" font-size="20" font-weight="bold" fill="#111827" text-anchor="middle">8,500</text>
+<text x="840" y="330" font-size="20" fill="#111827" text-anchor="middle">8/20</text>
+<text x="840" y="358" font-size="20" font-weight="bold" fill="#111827" text-anchor="middle">8,470</text>
+<text x="1120" y="330" font-size="20" fill="#111827" text-anchor="middle">8/21</text>
+<text x="1120" y="358" font-size="20" font-weight="bold" fill="#111827" text-anchor="middle">8,380</text>
+
+<text x="80" y="400" font-size="18" fill="#9ca3af">출처: 네이버 금융 일봉 데이터 (096240)</text>
+</svg>
