@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="Apple SD Gothic Neo, NanumGothic, Noto Sans KR, Malgun Gothic, sans-serif">
+<rect width="1200" height="630" fill="#ffffff"/>
+<text x="80" y="52" font-size="38" font-weight="bold" fill="#111827">코스피(KOSPI) 7/28 이후 종가 추이</text>
+<text x="80" y="84" font-size="22" fill="#6b7280">2026.07.28 ~ 2026.08.25 · 종가 기준 · 8/25 마감시황</text>
+<line x1="80" y1="476.2" x2="1160" y2="476.2" stroke="#e5e7eb" stroke-width="1"/>
+<text x="68" y="481.2" font-size="18" fill="#9ca3af" text-anchor="end">5,600</text>
+<line x1="80" y1="428.8" x2="1160" y2="428.8" stroke="#e5e7eb" stroke-width="1"/>
+<text x="68" y="433.8" font-size="18" fill="#9ca3af" text-anchor="end">5,800</text>
+<line x1="80" y1="381.2" x2="1160" y2="381.2" stroke="#e5e7eb" stroke-width="1"/>
+<text x="68" y="386.2" font-size="18" fill="#9ca3af" text-anchor="end">6,000</text>
+<line x1="80" y1="333.8" x2="1160" y2="333.8" stroke="#e5e7eb" stroke-width="1"/>
+<text x="68" y="338.8" font-size="18" fill="#9ca3af" text-anchor="end">6,200</text>
+<line x1="80" y1="286.2" x2="1160" y2="286.2" stroke="#e5e7eb" stroke-width="1"/>
+<text x="68" y="291.2" font-size="18" fill="#9ca3af" text-anchor="end">6,400</text>
+<line x1="80" y1="238.8" x2="1160" y2="238.8" stroke="#e5e7eb" stroke-width="1"/>
+<text x="68" y="243.8" font-size="18" fill="#9ca3af" text-anchor="end">6,600</text>
+<line x1="80" y1="191.2" x2="1160" y2="191.2" stroke="#e5e7eb" stroke-width="1"/>
+<text x="68" y="196.2" font-size="18" fill="#9ca3af" text-anchor="end">6,800</text>
+<line x1="80" y1="143.8" x2="1160" y2="143.8" stroke="#e5e7eb" stroke-width="1"/>
+<text x="68" y="148.8" font-size="18" fill="#9ca3af" text-anchor="end">7,000</text>
+<text x="80" y="528" font-size="17" fill="#9ca3af" text-anchor="middle"></text>
+<polyline points="80.0,375.8 147.5,477.9 215.0,239.9 282.5,320.2 350.0,296.2 417.5,310.9 485.0,320.0 552.5,299.3 620.0,243.7 687.5,188.1 755.0,149.0 822.5,174.7 890.0,269.3 957.5,178.8 1025.0,164.4 1092.5,215.7 1160.0,204.8" fill="none" stroke="#2563eb" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="1160.0" cy="204.8" r="7" fill="#2563eb" stroke="#ffffff" stroke-width="3"/>
+<rect x="1042.0" y="152.8" width="240" height="40" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="1062.0" y="180.8" font-size="21" font-weight="bold" fill="#1d4ed8">8/25 6,742.74 (▲+45.78)</text>
+<text x="80.0" y="528" font-size="17" fill="#9ca3af" text-anchor="middle">07/28</text>
+<text x="350.0" y="528" font-size="17" fill="#9ca3af" text-anchor="middle">08/04</text>
+<text x="620.0" y="528" font-size="17" fill="#9ca3af" text-anchor="middle">08/12</text>
+<text x="890.0" y="528" font-size="17" fill="#9ca3af" text-anchor="middle">08/19</text>
+<text x="1160.0" y="528" font-size="17" fill="#9ca3af" text-anchor="middle">08/25</text>
+</svg>
