@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640" font-family="Apple SD Gothic Neo, NanumGothic, Noto Sans KR, Malgun Gothic, sans-serif">
+<rect width="1200" height="640" fill="#ffffff"/>
+<text x="60" y="58" font-size="40" font-weight="bold" fill="#111827">크레버스(CREVERSE) 주간 업데이트 스냅샷</text>
+<text x="60" y="94" font-size="22" fill="#6b7280">2026년 8월 18일~24일 · 증권사 리포트·지분 공시·가을학기 공지 종합</text>
+<line x1="60" y1="118" x2="1140" y2="118" stroke="#e5e7eb" stroke-width="2"/>
+
+<g>
+<rect x="60" y="150" width="340" height="230" rx="16" fill="#eef2ff"/>
+<text x="90" y="196" font-size="22" fill="#6b7280">한국투자증권 리포트 (8/21)</text>
+<text x="90" y="248" font-size="30" font-weight="bold" fill="#111827">"오랜 실적 부진을</text>
+<text x="90" y="288" font-size="30" font-weight="bold" fill="#111827">끊어내고"</text>
+<text x="90" y="326" font-size="20" fill="#4b5563">Not Rated (신규 커버리지)</text>
+<text x="90" y="356" font-size="20" fill="#dc2626">영업익 턴어라운드 · 재원생 수 반등</text>
+</g>
+
+<g>
+<rect x="430" y="150" width="340" height="230" rx="16" fill="#ecfdf5"/>
+<text x="460" y="196" font-size="22" fill="#6b7280">김영화 회장 지분 확대 (8/24 공시)</text>
+<text x="460" y="248" font-size="52" font-weight="bold" fill="#111827">+3,650<text font-size="30" fill="#6b7280">주</text></text>
+<text x="460" y="300" font-size="26" font-weight="bold" fill="#059669">17.15%<text font-size="20" fill="#6b7280"> (+0.04%p)</text></text>
+<text x="460" y="340" font-size="20" fill="#4b5563">총 1,755,775주 · 책임경영 유지</text>
+</g>
+
+<g>
+<rect x="800" y="150" width="340" height="230" rx="16" fill="#fffbeb"/>
+<text x="830" y="196" font-size="22" fill="#6b7280">가을학기 개강 준비 (9/1)</text>
+<text x="830" y="248" font-size="30" font-weight="bold" fill="#111827">학사일정·신입생 OT</text>
+<text x="830" y="288" font-size="26" font-weight="bold" fill="#b45309">설명회 안내 (8/20~21 게시)</text>
+<text x="830" y="326" font-size="20" fill="#4b5563">CMS사고력관 9/1 개강</text>
+<text x="830" y="356" font-size="20" fill="#6b7280">마포공덕 OT · HME 평가 안내</text>
+</g>
+
+<text x="60" y="440" font-size="22" font-weight="bold" fill="#111827">체크 포인트</text>
+<text x="60" y="478" font-size="20" fill="#374151">① 2분기 영업이익 +53.9%에 이어 증권사 첫 공식 리포트 — "하반기는 더 좋아질 수 있다"</text>
+<text x="60" y="512" font-size="20" fill="#374151">② 오너 지분 추가 매수 — 지배구조 안정성 시그널</text>
+<text x="60" y="546" font-size="20" fill="#374151">③ 8/31~9/1 가을학기 개강 — 신입생 모집·설명회 시즌 본격화</text>
+<text x="60" y="596" font-size="18" fill="#9ca3af">출처: 뉴스핌(8/21) · DART 공시(8/24) · 크레버스 공식 채널(8/18~8/24)</text>
+</svg>
