@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640" font-family="Apple SD Gothic Neo, NanumGothic, Noto Sans KR, Malgun Gothic, sans-serif">
+<rect width="1200" height="640" fill="#ffffff"/>
+<text x="60" y="58" font-size="40" font-weight="bold" fill="#111827">크레버스(CREVERSE) 가을학기 개강 D-5</text>
+<text x="60" y="94" font-size="22" fill="#6b7280">2026년 8월 26일 · 공식 학사일정 기준 개강일 8/31(월) 확정</text>
+<line x1="60" y1="118" x2="1140" y2="118" stroke="#e5e7eb" stroke-width="2"/>
+
+<g>
+<rect x="60" y="150" width="340" height="230" rx="16" fill="#eef2ff"/>
+<text x="90" y="196" font-size="22" fill="#6b7280">가을학기 개강일 (공식 학사일정)</text>
+<text x="90" y="260" font-size="48" font-weight="bold" fill="#111827">8월 31일(월)</text>
+<text x="90" y="308" font-size="24" fill="#dc2626" font-weight="bold">개강 D-5</text>
+<text x="90" y="348" font-size="20" fill="#4b5563">학기: 2026.8.31 ~ 11.29</text>
+</g>
+
+<g>
+<rect x="430" y="150" width="340" height="230" rx="16" fill="#ecfdf5"/>
+<text x="460" y="196" font-size="22" fill="#6b7280">일제 개강 브랜드 (8/31)</text>
+<text x="460" y="248" font-size="24" font-weight="bold" fill="#111827">CMS사고력수학관</text>
+<text x="460" y="286" font-size="24" font-weight="bold" fill="#111827">씨큐브코딩</text>
+<text x="460" y="324" font-size="24" font-weight="bold" fill="#111827">청담어학원 · April어학원</text>
+<text x="460" y="356" font-size="19" fill="#4b5563">THE OPEN Prime · April α 포함</text>
+</g>
+
+<g>
+<rect x="800" y="150" width="340" height="230" rx="16" fill="#fffbeb"/>
+<text x="830" y="196" font-size="22" fill="#6b7280">개강 전 체험수업·설명회</text>
+<text x="830" y="248" font-size="24" font-weight="bold" fill="#111827">CMS사고력수학관</text>
+<text x="830" y="284" font-size="20" fill="#4b5563">체험수업·입학설명회 일정 안내</text>
+<text x="830" y="322" font-size="24" font-weight="bold" fill="#111827">씨큐브코딩</text>
+<text x="830" y="358" font-size="20" fill="#4b5563">개별 체험수업 (1:1 상담)</text>
+</g>
+
+<g>
+<rect x="60" y="410" width="340" height="170" rx="16" fill="#fef2f2"/>
+<text x="90" y="456" font-size="22" fill="#6b7280">주가 (8/26 장중)</text>
+<text x="90" y="510" font-size="44" font-weight="bold" fill="#111827">8,600<text font-size="26" fill="#6b7280">원</text></text>
+<text x="90" y="552" font-size="24" fill="#dc2626" font-weight="bold">▼ 150원 (-1.71%)</text>
+</g>
+
+<g>
+<rect x="430" y="410" width="340" height="170" rx="16" fill="#f0fdf4"/>
+<text x="460" y="456" font-size="22" fill="#6b7280">신입생 모집 시즌</text>
+<text x="460" y="510" font-size="28" font-weight="bold" fill="#111827">가을학기 당일 등록 이벤트</text>
+<text x="460" y="552" font-size="20" fill="#4b5563">청담어학원 · April어학원 (8/31 개강일)</text>
+</g>
+
+<g>
+<rect x="800" y="410" width="340" height="170" rx="16" fill="#f5f3ff"/>
+<text x="830" y="456" font-size="22" fill="#6b7280">투자 관점</text>
+<text x="830" y="508" font-size="24" font-weight="bold" fill="#111827">9월 신입생 유치 성과가</text>
+<text x="830" y="546" font-size="24" font-weight="bold" fill="#111827">하반기 실적 분수령</text>
+</g>
+</svg>
