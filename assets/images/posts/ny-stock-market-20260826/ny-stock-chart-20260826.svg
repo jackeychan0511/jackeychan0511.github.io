@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <rect width="800" height="450" rx="16" fill="#0f172a"/>
+  <text x="400" y="52" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="26" font-weight="700" fill="#f8fafc" text-anchor="middle">뉴욕증시 3대 지수 마감 (2026.08.26)</text>
+  <text x="400" y="82" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#94a3b8" text-anchor="middle">PCE·엔비디아 대기 속 약보합 마감</text>
+
+  <line x1="90" y1="360" x2="710" y2="360" stroke="#334155" stroke-width="2"/>
+
+  <rect x="150" y="210" width="100" height="150" rx="8" fill="url(#g1)"/>
+  <rect x="350" y="315" width="100" height="45" rx="8" fill="url(#g2)"/>
+  <rect x="550" y="285" width="100" height="75" rx="8" fill="url(#g3)"/>
+
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f87171"/>
+      <stop offset="100%" stop-color="#dc2626"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f87171"/>
+      <stop offset="100%" stop-color="#dc2626"/>
+    </linearGradient>
+    <linearGradient id="g3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f87171"/>
+      <stop offset="100%" stop-color="#dc2626"/>
+    </linearGradient>
+  </defs>
+
+  <text x="200" y="195" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="20" font-weight="700" fill="#fca5a5" text-anchor="middle">-0.21%</text>
+  <text x="200" y="395" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" font-weight="700" fill="#f8fafc" text-anchor="middle">다우</text>
+  <text x="200" y="418" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#94a3b8" text-anchor="middle">53,463.88</text>
+
+  <text x="400" y="300" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="20" font-weight="700" fill="#fca5a5" text-anchor="middle">-0.02%</text>
+  <text x="400" y="395" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" font-weight="700" fill="#f8fafc" text-anchor="middle">S&amp;P 500</text>
+  <text x="400" y="418" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#94a3b8" text-anchor="middle">7,675.70</text>
+
+  <text x="600" y="270" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="20" font-weight="700" fill="#fca5a5" text-anchor="middle">-0.08%</text>
+  <text x="600" y="395" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" font-weight="700" fill="#f8fafc" text-anchor="middle">나스닥</text>
+  <text x="600" y="418" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#94a3b8" text-anchor="middle">26,130.20</text>
+
+  <text x="400" y="440" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="12" fill="#64748b" text-anchor="middle">전일 대비 등락률 기준 (출처: 연합뉴스·로이터 마감 보도)</text>
+</svg>
