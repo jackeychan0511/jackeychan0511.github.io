@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640" font-family="Apple SD Gothic Neo, NanumGothic, Noto Sans KR, Malgun Gothic, sans-serif">
+<rect width="1200" height="640" fill="#ffffff"/>
+<text x="60" y="58" font-size="40" font-weight="bold" fill="#111827">크레버스 '허밍고', 2026 에듀플러스어워드 동상 수상</text>
+<text x="60" y="94" font-size="22" fill="#6b7280">2026년 8월 27일 · AI 영어 에세이 평가·피드백 플랫폼 (서울신문 8/24 보도)</text>
+<line x1="60" y1="118" x2="1140" y2="118" stroke="#e5e7eb" stroke-width="2"/>
+
+<g>
+<rect x="60" y="150" width="340" height="230" rx="16" fill="#eef2ff"/>
+<text x="90" y="196" font-size="22" fill="#6b7280">수상 내역</text>
+<text x="90" y="248" font-size="26" font-weight="bold" fill="#111827">2026 에듀플러스</text>
+<text x="90" y="284" font-size="26" font-weight="bold" fill="#111827">어워드 <tspan font-size="34" fill="#4f46e5">동상</tspan></text>
+<text x="90" y="330" font-size="19" fill="#4b5563">제17회 에듀플러스위크 (8/12~14, 코엑스)</text>
+<text x="90" y="360" font-size="19" fill="#4b5563">15개국 180개 기업·기관 참가</text>
+</g>
+
+<g>
+<rect x="430" y="150" width="340" height="230" rx="16" fill="#ecfdf5"/>
+<text x="460" y="196" font-size="22" fill="#6b7280">허밍고(HUMMINGo)란?</text>
+<text x="460" y="248" font-size="22" font-weight="bold" fill="#111827">K-12 교사용 AI 영어 에세이</text>
+<text x="460" y="282" font-size="22" font-weight="bold" fill="#111827">평가·피드백 솔루션</text>
+<text x="460" y="330" font-size="19" fill="#4b5563">1분 이내 루브릭 기반 정밀 분석</text>
+<text x="460" y="360" font-size="19" fill="#4b5563">문법·어휘·구조·논리 진단</text>
+</g>
+
+<g>
+<rect x="800" y="150" width="340" height="230" rx="16" fill="#fffbeb"/>
+<text x="830" y="196" font-size="22" fill="#6b7280">현장 검증 성과</text>
+<text x="830" y="248" font-size="22" font-weight="bold" fill="#111827">누적 평가 55만 건+</text>
+<text x="830" y="284" font-size="22" font-weight="bold" fill="#111827">월 3만 명+ 학생 이용</text>
+<text x="830" y="330" font-size="19" fill="#059669" font-weight="bold">채점·첨삭 시간 97.2% 절감</text>
+<text x="830" y="360" font-size="19" fill="#4b5563">피드백 후 재제출 86%</text>
+</g>
+
+<g>
+<rect x="60" y="410" width="340" height="170" rx="16" fill="#fef2f2"/>
+<text x="90" y="456" font-size="22" fill="#6b7280">주가 (8/27 장중)</text>
+<text x="90" y="510" font-size="44" font-weight="bold" fill="#111827">8,450<text font-size="26" fill="#6b7280">원</text></text>
+<text x="90" y="552" font-size="24" fill="#dc2626" font-weight="bold">▼ 70원 (-0.82%)</text>
+</g>
+
+<g>
+<rect x="430" y="410" width="340" height="170" rx="16" fill="#f0fdf4"/>
+<text x="460" y="456" font-size="22" fill="#6b7280">수상 의미</text>
+<text x="460" y="508" font-size="24" font-weight="bold" fill="#111827">현직 교사 100여 명</text>
+<text x="460" y="546" font-size="19" fill="#4b5563">공개 심사 통과 — 현장 실효성 검증</text>
+</g>
+
+<g>
+<rect x="800" y="410" width="340" height="170" rx="16" fill="#f5f3ff"/>
+<text x="830" y="456" font-size="22" fill="#6b7280">글로벌 확장</text>
+<text x="830" y="508" font-size="22" font-weight="bold" fill="#111827">BETT UK 유효 리드 300건+</text>
+<text x="830" y="546" font-size="19" fill="#4b5563">11월 EDUtech Asia·GESS Dubai</text>
+</g>
+</svg>
