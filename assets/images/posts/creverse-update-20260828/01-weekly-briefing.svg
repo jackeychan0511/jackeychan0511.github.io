@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640" font-family="Apple SD Gothic Neo, NanumGothic, Noto Sans KR, Malgun Gothic, sans-serif">
+<rect width="1200" height="640" fill="#ffffff"/>
+<text x="60" y="58" font-size="40" font-weight="bold" fill="#111827">크레버스 주간 브리핑 (8/28) — 3대 뉴스</text>
+<text x="60" y="94" font-size="22" fill="#6b7280">2026년 8월 28일 · 크레버스 공식 채널 공지 기준 (8/21~8/27 게시)</text>
+<line x1="60" y1="118" x2="1140" y2="118" stroke="#e5e7eb" stroke-width="2"/>
+
+<!-- Card 1 -->
+<rect x="60" y="150" width="520" height="200" rx="14" fill="#eef2ff" stroke="#c7d2fe" stroke-width="1.5"/>
+<text x="84" y="188" font-size="21" font-weight="bold" fill="#4338ca">① 청담어학원 '예비 중학생 속성반' 신설</text>
+<text x="84" y="220" font-size="18" fill="#374151">8/31 가을학기부터 초6 Mega~Giga 레벨 대상</text>
+<text x="84" y="248" font-size="18" fill="#374151">Reading/Writing 강화 + 중등 문법·독해</text>
+<text x="84" y="276" font-size="18" fill="#374151">TOEFL Jr. LC 실전 교재 추가 (19,000원)</text>
+<text x="84" y="310" font-size="16" fill="#6b7280">공식 채널 8/25 공지 · 개강 D-3</text>
+
+<!-- Card 2 -->
+<rect x="620" y="150" width="520" height="200" rx="14" fill="#ecfdf5" stroke="#a7f3d0" stroke-width="1.5"/>
+<text x="644" y="188" font-size="21" font-weight="bold" fill="#047857">② CMS KIMO·KJMO '전국 최다 입상' 홍보</text>
+<text x="644" y="220" font-size="18" fill="#374151">'2026 KIMO 나의 예상 점수 확인' 서비스</text>
+<text x="644" y="248" font-size="18" fill="#374151">2025 KJMO 입상 297명 · 전국 압도적 최다</text>
+<text x="644" y="276" font-size="18" fill="#374151">CMS영재관 KMO 1차 348명 입상 (홈 뉴스)</text>
+<text x="644" y="310" font-size="16" fill="#6b7280">공식 채널 8/25 공지 · 8/27 갱신</text>
+
+<!-- Card 3 -->
+<rect x="60" y="380" width="520" height="200" rx="14" fill="#fff7ed" stroke="#fed7aa" stroke-width="1.5"/>
+<text x="84" y="418" font-size="21" font-weight="bold" fill="#c2410c">③ 교과수학 포털 '매쏠로지' 약관 반영</text>
+<text x="84" y="450" font-size="18" fill="#374151">이용약관 개정 8/31 적용 (8/21 공지)</text>
+<text x="84" y="478" font-size="18" fill="#374151">러닝포털에 MATHOLOGY(매쏠로지) 신규 포함</text>
+<text x="84" y="506" font-size="18" fill="#374151">THE OPEN Prime 서비스 공식화</text>
+<text x="84" y="540" font-size="16" fill="#6b7280">교과수학 온라인 포털 본격 가동 신호</text>
+
+<!-- Card 4: stock -->
+<rect x="620" y="380" width="520" height="200" rx="14" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="644" y="418" font-size="21" font-weight="bold" fill="#0f172a">주가 현황 (8/28 장중)</text>
+<text x="644" y="456" font-size="30" font-weight="bold" fill="#dc2626">8,550원 ▼ 1.38%</text>
+<text x="644" y="490" font-size="18" fill="#374151">8/25 8,750 → 8/26 8,520 → 8/27 8,670</text>
+<text x="644" y="518" font-size="18" fill="#374151">거래대금 소액 · 초저유동성 종목</text>
+<text x="644" y="552" font-size="16" fill="#6b7280">네이버 금융 8/28 11:45 기준</text>
+</svg>
