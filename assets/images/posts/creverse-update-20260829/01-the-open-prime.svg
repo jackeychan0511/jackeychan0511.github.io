@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640" font-family="Apple SD Gothic Neo, NanumGothic, Noto Sans KR, Malgun Gothic, sans-serif">
+<rect width="1200" height="640" fill="#ffffff"/>
+<text x="60" y="58" font-size="40" font-weight="bold" fill="#111827">청담어학원 'THE OPEN Prime' 본격 운영</text>
+<text x="60" y="94" font-size="22" fill="#6b7280">2026년 8월 29일 · 세계일보 8/25 보도 기준</text>
+<line x1="60" y1="118" x2="1140" y2="118" stroke="#e5e7eb" stroke-width="2"/>
+
+<!-- Card 1: 입학테스트 증가 -->
+<rect x="60" y="150" width="520" height="210" rx="14" fill="#eef2ff" stroke="#c7d2fe" stroke-width="1.5"/>
+<text x="84" y="188" font-size="21" font-weight="bold" fill="#4338ca">① 입학테스트 인원 증가 (전년比)</text>
+<text x="84" y="228" font-size="30" font-weight="bold" fill="#111827">봄학기 +12.6%</text>
+<text x="84" y="262" font-size="30" font-weight="bold" fill="#111827">여름학기 +27.1%</text>
+<text x="84" y="300" font-size="17" fill="#6b7280">THE OPEN 관심↑ … 재원생 회복 신호</text>
+<text x="84" y="330" font-size="16" fill="#9ca3af">출처: 세계일보 2026.08.25</text>
+
+<!-- Card 2: THE OPEN Prime -->
+<rect x="620" y="150" width="520" height="210" rx="14" fill="#ecfdf5" stroke="#a7f3d0" stroke-width="1.5"/>
+<text x="644" y="188" font-size="21" font-weight="bold" fill="#047857">② THE OPEN Prime 본격 도입</text>
+<text x="644" y="224" font-size="18" fill="#374151">예비 중학생~예비 고등학생 대상</text>
+<text x="644" y="252" font-size="18" fill="#374151">지필평가·수행평가 + 수능·생기부 연계</text>
+<text x="644" y="280" font-size="18" fill="#374151">ESL 프로젝트 수업 + 문해력 학습 결합</text>
+<text x="644" y="314" font-size="16" fill="#6b7280">8/31 가을학기부터 본격 운영</text>
+
+<!-- Bottom bar -->
+<rect x="60" y="392" width="1080" height="90" rx="14" fill="#fffbeb" stroke="#fde68a" stroke-width="1.5"/>
+<text x="84" y="428" font-size="20" font-weight="bold" fill="#92400e">THE OPEN = ESL(사고력·표현력) + EFL(문해력) 결합</text>
+<text x="84" y="462" font-size="17" fill="#78350f">중등 이후 내신·수능·수행평가까지 고려한 학부모 수요 증가</text>
+
+<!-- Stock -->
+<rect x="60" y="510" width="1080" height="100" rx="14" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.5"/>
+<text x="84" y="548" font-size="20" font-weight="bold" fill="#0f172a">크레버스 주가 (096240) — 8/28 종가 8,500원</text>
+<text x="84" y="582" font-size="17" fill="#475569">8/24 8,420 → 8/25 8,750 → 8/26 8,520 → 8/27 8,670 → 8/28 8,500원</text>
+</svg>
