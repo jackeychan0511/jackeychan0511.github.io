@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640" font-family="Apple SD Gothic Neo, NanumGothic, Noto Sans KR, Malgun Gothic, sans-serif">
+<rect width="1200" height="640" fill="#ffffff"/>
+<text x="60" y="58" font-size="40" font-weight="bold" fill="#111827">청담어학원 · April어학원 검단국제 동시 오픈</text>
+<text x="60" y="94" font-size="22" fill="#6b7280">2026년 8월 30일 · 크레버스 공식 블로그(8/26) 기준</text>
+<line x1="60" y1="118" x2="1140" y2="118" stroke="#e5e7eb" stroke-width="2"/>
+
+<!-- Card 1: 오픈 개요 -->
+<rect x="60" y="150" width="520" height="210" rx="14" fill="#eef2ff" stroke="#c7d2fe" stroke-width="1.5"/>
+<text x="84" y="188" font-size="21" font-weight="bold" fill="#4338ca">① 8/31(월) 동시 오픈</text>
+<text x="84" y="226" font-size="28" font-weight="bold" fill="#111827">청담어학원 + April어학원</text>
+<text x="84" y="260" font-size="18" fill="#374151">가을학기 개강일과 같은 날 오픈</text>
+<text x="84" y="288" font-size="18" fill="#374151">한 건물(메가타워 5층) 동시 입점</text>
+<text x="84" y="322" font-size="16" fill="#9ca3af">입학시험 예약 시작 · 등록번호 제2894호</text>
+
+<!-- Card 2: 위치 -->
+<rect x="620" y="150" width="520" height="210" rx="14" fill="#ecfdf5" stroke="#a7f3d0" stroke-width="1.5"/>
+<text x="644" y="188" font-size="21" font-weight="bold" fill="#047857">② 위치 · 연락처</text>
+<text x="644" y="224" font-size="17" fill="#374151">인천광역시 검단구 발산로 17</text>
+<text x="644" y="250" font-size="17" fill="#374151">메가타워 5층 502호</text>
+<text x="644" y="282" font-size="17" fill="#374151">☎ 032-716-9407</text>
+<text x="644" y="316" font-size="16" fill="#6b7280">검단신도시(약 7.5만 호) — 올해 7월 검단구 출범</text>
+
+<!-- Bottom bar -->
+<rect x="60" y="392" width="1080" height="90" rx="14" fill="#fffbeb" stroke="#fde68a" stroke-width="1.5"/>
+<text x="84" y="428" font-size="20" font-weight="bold" fill="#92400e">초등 영어(April) + 주니어·중등 영어(청담) 학습 사다리 한곳에</text>
+<text x="84" y="462" font-size="17" fill="#78350f">개강일 = 오픈일 전략… 9월 신입생 유치 정조준</text>
+
+<!-- Stock -->
+<rect x="60" y="510" width="1080" height="100" rx="14" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.5"/>
+<text x="84" y="548" font-size="20" font-weight="bold" fill="#0f172a">크레버스 주가 (096240) — 8/28 종가 8,500원 (-1.96%)</text>
+<text x="84" y="582" font-size="17" fill="#475569">8/25 8,750 → 8/26 8,520 → 8/27 8,670 → 8/28 8,500원</text>
+</svg>
