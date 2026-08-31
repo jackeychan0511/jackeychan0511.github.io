@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640" font-family="Apple SD Gothic Neo, NanumGothic, Noto Sans KR, Malgun Gothic, sans-serif">
+<rect width="1200" height="640" fill="#ffffff"/>
+<text x="60" y="58" font-size="40" font-weight="bold" fill="#111827">April어학원 'THE OPEN Rise' 가을학기 첫선</text>
+<text x="60" y="94" font-size="22" fill="#6b7280">2026년 8월 31일 개강 · 전자신문·경향신문 8/25 보도 기준</text>
+<line x1="60" y1="118" x2="1140" y2="118" stroke="#e5e7eb" stroke-width="2"/>
+
+<!-- Card 1: 프로그램 소개 -->
+<rect x="60" y="150" width="520" height="230" rx="14" fill="#eef2ff" stroke="#c7d2fe" stroke-width="1.5"/>
+<text x="84" y="188" font-size="21" font-weight="bold" fill="#4338ca">① THE OPEN Rise 신규 도입</text>
+<text x="84" y="226" font-size="18" fill="#374151">ESL 표현력 + EFL 문해력 결합</text>
+<text x="84" y="254" font-size="18" fill="#374151">'양손잡이 영어' — 수행평가·지필평가 대비</text>
+<text x="84" y="282" font-size="18" fill="#374151">표현·사고·문해 3대 핵심 역량 육성</text>
+<text x="84" y="318" font-size="16" fill="#6b7280">전국 32개 캠퍼스 우선 도입 (향후 확대)</text>
+<text x="84" y="348" font-size="16" fill="#9ca3af">출처: 전자신문 2026.08.25</text>
+
+<!-- Card 2: 성장 로드맵 -->
+<rect x="620" y="150" width="520" height="230" rx="14" fill="#ecfdf5" stroke="#a7f3d0" stroke-width="1.5"/>
+<text x="644" y="188" font-size="21" font-weight="bold" fill="#047857">② 초등→중등 성장 로드맵</text>
+<rect x="644" y="208" width="140" height="52" rx="10" fill="#d1fae5"/>
+<text x="714" y="233" font-size="17" font-weight="bold" fill="#065f46" text-anchor="middle">Rise</text>
+<text x="714" y="251" font-size="13" fill="#065f46" text-anchor="middle">초등 (Sapling~)</text>
+<text x="800" y="238" font-size="22" fill="#059669">→</text>
+<rect x="826" y="208" width="140" height="52" rx="10" fill="#d1fae5"/>
+<text x="896" y="233" font-size="17" font-weight="bold" fill="#065f46" text-anchor="middle">Bridge</text>
+<text x="896" y="251" font-size="13" fill="#065f46" text-anchor="middle">초5~</text>
+<text x="982" y="238" font-size="22" fill="#059669">→</text>
+<rect x="1008" y="208" width="120" height="52" rx="10" fill="#a7f3d0"/>
+<text x="1068" y="233" font-size="17" font-weight="bold" fill="#065f46" text-anchor="middle">Prime</text>
+<text x="1068" y="251" font-size="13" fill="#065f46" text-anchor="middle">중등</text>
+<text x="644" y="300" font-size="17" fill="#374151">April(초등) → 청담어학원(중등)으로</text>
+<text x="644" y="326" font-size="17" fill="#374151">영어 역량이 자연스럽게 연결</text>
+<text x="644" y="356" font-size="16" fill="#6b7280">THE OPEN Prime 8/31 본격 운영(8/29 포스팅)</text>
+
+<!-- Bottom bar -->
+<rect x="60" y="412" width="1080" height="96" rx="14" fill="#fffbeb" stroke="#fde68a" stroke-width="1.5"/>
+<text x="84" y="452" font-size="20" font-weight="bold" fill="#92400e">오늘(8/31) 크레버스 가을학기 일제 개강 + 검단국제 청담·April 동시 오픈</text>
+<text x="84" y="484" font-size="17" fill="#78350f">Rise → Bridge → Prime 로드맵으로 초·중등 영어 '사다리' 완성 … 신입생 유치 기대</text>
+
+<!-- Stock -->
+<rect x="60" y="536" width="1080" height="78" rx="14" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.5"/>
+<text x="84" y="572" font-size="20" font-weight="bold" fill="#0f172a">크레버스 주가 (096240) — 8/31 오전 장중 8,530원 (+0.35%)</text>
+<text x="84" y="600" font-size="16" fill="#475569">8/28 종가 8,500원 → 8/31 장중 8,530원 (11:45 기준)</text>
+</svg>
