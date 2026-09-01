@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="660" viewBox="0 0 1200 660" font-family="Apple SD Gothic Neo, NanumGothic, Noto Sans KR, Malgun Gothic, sans-serif">
+<rect width="1200" height="660" fill="#ffffff"/>
+<text x="60" y="58" font-size="38" font-weight="bold" fill="#111827">청담어학원, 제17회 YTN·한국외대 영어토론대회 EFL 리그 팀·개인 1위</text>
+<text x="60" y="94" font-size="22" fill="#6b7280">2026년 9월 1일 보도 · 서울신문·조선비즈·한국일보 기준</text>
+<line x1="60" y1="118" x2="1140" y2="118" stroke="#e5e7eb" stroke-width="2"/>
+
+<!-- Card 1: 팀 부문 -->
+<rect x="60" y="150" width="520" height="200" rx="14" fill="#eef2ff" stroke="#c7d2fe" stroke-width="1.5"/>
+<text x="84" y="188" font-size="21" font-weight="bold" fill="#4338ca">① 팀 부문 — EFL 리그 우승</text>
+<text x="84" y="226" font-size="18" fill="#374151">분당브랜치 '인페르노(Inferno)' 팀</text>
+<text x="84" y="254" font-size="18" fill="#374151">2년 연속 팀 정상 (전년도 우승 이어)</text>
+<text x="84" y="290" font-size="16" fill="#6b7280">3인 1팀 의회식 영어토론 · 예선 4경기 → 토너먼트</text>
+<text x="84" y="318" font-size="16" fill="#9ca3af">출처: 서울신문 2026.09.01</text>
+
+<!-- Card 2: 개인 부문 -->
+<rect x="620" y="150" width="520" height="200" rx="14" fill="#ecfdf5" stroke="#a7f3d0" stroke-width="1.5"/>
+<text x="644" y="188" font-size="21" font-weight="bold" fill="#047857">② 개인 부문 — 베스트 스피커</text>
+<text x="644" y="226" font-size="18" fill="#374151">목동브랜치 박윤민 학생 선정</text>
+<text x="644" y="254" font-size="18" fill="#374151">팀·개인 동시 석권 → EFL 리그 전 부문 우승</text>
+<text x="644" y="290" font-size="16" fill="#6b7280">논리 구성·근거 제시·반박·설득력 종합 평가</text>
+<text x="644" y="318" font-size="16" fill="#9ca3af">분당 + 목동 브랜치 재원생 활약</text>
+
+<!-- Card 3: 대회 개요 -->
+<rect x="60" y="378" width="1080" height="96" rx="14" fill="#fffbeb" stroke="#fde68a" stroke-width="1.5"/>
+<text x="84" y="416" font-size="20" font-weight="bold" fill="#92400e">제17회 대회 개요 — 8/16~17 한국외대 서울캠퍼스 · 총 96팀 288명 출전</text>
+<text x="84" y="448" font-size="17" fill="#78350f">General 리그 70팀 + EFL 리그 26팀 · YTN·한국외국어대학교 공동 주최</text>
+
+<!-- Bottom bar: 목동 양도 -->
+<rect x="60" y="502" width="1080" height="76" rx="14" fill="#fef2f2" stroke="#fecaca" stroke-width="1.5"/>
+<text x="84" y="536" font-size="20" font-weight="bold" fill="#991b1b">재무 — 목동 토지·건물 250억원 양도 공시 (8/28, 자산총액 13.94%)</text>
+<text x="84" y="564" font-size="17" fill="#7f1d1d">부채비율 개선 목적 · 잔금 10/30 수령 후 차입금 40억 전액 상환 예정</text>
+
+<!-- Stock -->
+<rect x="60" y="600" width="1080" height="46" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.5"/>
+<text x="84" y="630" font-size="18" font-weight="bold" fill="#0f172a">크레버스 주가 (096240) — 9/1 오전 장중 8,550원 (+0.23%)</text>
+</svg>
