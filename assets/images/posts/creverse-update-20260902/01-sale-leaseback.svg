@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="660" viewBox="0 0 1200 660" font-family="Apple SD Gothic Neo, NanumGothic, Noto Sans KR, Malgun Gothic, sans-serif">
+<rect width="1200" height="660" fill="#ffffff"/>
+<text x="60" y="58" font-size="38" font-weight="bold" fill="#111827">크레버스, '세일즈앤리스백'으로 부채비율 개선 — 3연속 빌딩 매각 후 재임차</text>
+<text x="60" y="94" font-size="22" fill="#6b7280">2026년 9월 2일 · 더벨 Company Watch (9/1 발행, 9/2 무료 공개) 기준</text>
+<line x1="60" y1="118" x2="1140" y2="118" stroke="#e5e7eb" stroke-width="2"/>
+
+<!-- Card 1: 개념 -->
+<rect x="60" y="145" width="520" height="150" rx="14" fill="#eef2ff" stroke="#c7d2fe" stroke-width="1.5"/>
+<text x="84" y="183" font-size="21" font-weight="bold" fill="#4338ca">① 세일즈앤리스백(Sale &amp; Leaseback)</text>
+<text x="84" y="221" font-size="18" fill="#374151">보유 부동산을 매각하고, 그 자리에서</text>
+<text x="84" y="249" font-size="18" fill="#374151">계속 임차해 사용하는 재무구조 개선 기법</text>
+<text x="84" y="277" font-size="16" fill="#6b7280">매매계약 + 임대차 계약 동시 체결 → 학원 운영 유지</text>
+
+<!-- Card 2: 3연속 매각 -->
+<rect x="620" y="145" width="520" height="150" rx="14" fill="#ecfdf5" stroke="#a7f3d0" stroke-width="1.5"/>
+<text x="644" y="183" font-size="21" font-weight="bold" fill="#047857">② 3연속 매각 이력 (모두 재임차)</text>
+<text x="644" y="221" font-size="18" fill="#374151">2025.7 대치 CMS S빌딩 320억 → 방배 CMS M빌딩 160억</text>
+<text x="644" y="249" font-size="18" fill="#374151">2026.10 목동 CMS W빌딩 250억 (예정)</text>
+<text x="644" y="277" font-size="16" fill="#6b7280">누적 매각 약 730억 · 목동은 CMS 목동 영재관으로 계속 사용</text>
+
+<!-- Card 3: 목동 거래 조건 -->
+<rect x="60" y="323" width="1080" height="120" rx="14" fill="#fffbeb" stroke="#fde68a" stroke-width="1.5"/>
+<text x="84" y="361" font-size="20" font-weight="bold" fill="#92400e">목동 CMS W빌딩 거래 조건 — 양천구 목동 905-27, 250억원 (자산총액 13.94%)</text>
+<text x="84" y="393" font-size="17" fill="#78350f">계약금 25억 (8/28 지급) → 잔금 10/30 수령 · 차입금 40억 전액 상환 예정</text>
+<text x="84" y="421" font-size="16" fill="#a16207">거래상대: 박*순 외 2인 · 외부평가기관 적정 의견 (지안회계법인)</text>
+
+<!-- Card 4: 부채비율 배경 -->
+<rect x="60" y="471" width="1080" height="100" rx="14" fill="#fef2f2" stroke="#fecaca" stroke-width="1.5"/>
+<text x="84" y="509" font-size="20" font-weight="bold" fill="#991b1b">부채비율 배경 — 123.1% (2021년 말) → 319.6% (2022년 1분기 말) 급등</text>
+<text x="84" y="541" font-size="17" fill="#7f1d1d">2022.3 씨엠에스에듀 흡수합병 당시 주식매수청구권 행사 → 자사주 매입, 자본총계 1030억→539억</text>
+
+<!-- Stock -->
+<rect x="60" y="599" width="1080" height="46" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.5"/>
+<text x="84" y="629" font-size="18" font-weight="bold" fill="#0f172a">크레버스 주가 (096240) — 9/1 종가 8,690원 (+1.88%) · 9/2 장중 8,650원</text>
+</svg>
