@@ -7,14 +7,15 @@ title: "40대 라이프"
   <div class="container">
     <h1 class="hero-title">동시대를 살고있는 모두를 위한<br>현실적인 라이프 매거진</h1>
     <p class="hero-desc">
-      재테크, 여행, AI 커리어, 자녀교육, 이슈제품, 맛집까지.<br>
+      재테크, 여행, AI·업무자동화, 제품비교·가이드, 맛집까지.<br>
       같은 40대로서 경험하고 분석한 정보를 나눕니다.
     </p>
   </div>
 </div>
 
 <div class="container">
-  {% assign latest_post = site.posts | first %}
+  {% assign visible_posts = site.posts | where_exp: "p", "p.noindex != true" %}
+  {% assign latest_post = visible_posts | first %}
   {% if latest_post %}
   <div class="featured-section">
     <span class="featured-badge">🔥 오늘의 핫!</span>
@@ -45,7 +46,7 @@ title: "40대 라이프"
   {% endif %}
   <h2 class="section-title">📋 최신 글</h2>
   <div class="post-list">
-    {% assign remaining = site.posts | shift %}
+    {% assign remaining = visible_posts | shift %}
     {% if remaining.size > 0 %}
       {% for post in remaining limit:9 %}
       <article class="post-card">
