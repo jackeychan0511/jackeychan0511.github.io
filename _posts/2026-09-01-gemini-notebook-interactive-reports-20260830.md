@@ -7,6 +7,8 @@ tags: [Gemini, Google, GeminiNotebook, NotebookLM, 인터랙티브리포트, AI�
 author: "40대 블로거"
 description: "2026년 8월 30일 TestingCatalog가 Gemini Notebook(전 NotebookLM)에 '인터랙티브 리포트(Interactive Reports)' 기능이 준비되고 있다고 보도했습니다. 스튜디오(Studio) 패널에 '대화형 보고서를 만들 수 있습니다' 안내가 등장했고, '스튜디오 콘텐츠를 포함한 인터랙티브 보고서'라는 새 프리셋이 확인됐습니다. 여기에 채팅 창에서 바로 PDF·Word·Excel·PowerPoint로 내보내기가 이미 지원된다는 소식까지. 리서치 툴에서 '구조화된 연구 워크스페이스'로 진화하는 Gemini Notebook의 움직임을 이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망 순서로 정리했습니다."
 image: /assets/images/posts/gemini-notebook-interactive-reports-20260830/gemini-notebook-official-cover.png
+sitemap: false
+noindex: true
 ---
 
 요즘 저처럼 **"자료 수집은 AI가 하고, 보고서 정리는 여전히 내 손으로"** 하시는 분들 많으시죠? 솔직히 저도 회사 보고서 쓸 때마다 Gemini Notebook(전 NotebookLM)에 자료를 올려 요약을 뽑고, 그걸 다시 워드·PPT로 옮겨 붙이느라 시간을 꽤 썼는데요. 그런데 이번 주, 그 '옮겨 붙이기' 단계가 통째로 사라질 조짐이 보입니다.

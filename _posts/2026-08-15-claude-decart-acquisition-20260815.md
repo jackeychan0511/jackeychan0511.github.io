@@ -7,6 +7,8 @@ tags: [Anthropic, Claude, Decart, 인수합병, M&A, AI인프라, 추론최적�
 author: "40대 블로거"
 image: /assets/images/posts/claude-decart-acquisition-20260815/anthropic-og.jpg
 description: "Bloomberg가 2026년 8월 13일 보도한 Anthropic의 Decart AI 인수 협상(약 60억 달러)을 정리했습니다. 성사 시 Anthropic 사상 최대 규모 인수로, 이스라엘 AI 스타트업 Decart의 추론 최적화 기술(DOS)과 월드 모델, NVIDIA 투자 배경, IPO를 앞둔 컴퓨팅 효율화 전략까지 이슈 요약·상세 분석·영향·전망 순으로 다룹니다."
+sitemap: false
+noindex: true
 ---
 
 요즘 저처럼 **"AI가 아무리 똑똑해져도 결국 '돌리는 비용'이 승부를 가른다"**고 생각하시는 분들 많으시죠? 모델 성능이 비슷해지면 결국 남는 건 **추론(inference) 속도와 가격**입니다. 그래서 저는 AI 뉴스를 볼 때 성능 발표보다 **"어느 회사가 컴퓨팅 비용을 어떻게 줄이려는가"**를 더 유심히 보게 되는데요.

@@ -6,6 +6,8 @@ categories: [career]
 tags: [Gemini, Google, DeepMind, DemisHassabis, KorayKavukcuoglu, JeffDean, Gemini4, 구글AI, AI뉴스, 2026년8월, 리더십개편]
 author: "40대 블로거"
 description: "Google DeepMind가 8월 5일 대대적인 리더십 개편을 발표했습니다. Demis Hassabis가 CEO에서 물러나 회장 겸 Alphabet 최고과학자로, Koray Kavukcuoglu가 SVP로 일상 운영을 총괄하게 됐고, Jeff Dean은 퇴사해 Discovery Loop를 창업합니다. Gemini 3.5 Pro 지연 속에서 Gemini 4로 전략을 집중하는 이번 개편의 의미를 요약·분석·전망 순서로 정리했습니다."
+sitemap: false
+noindex: true
 ---
 
 요즘 저처럼 **AI 뉴스**를 매일 챙겨보시는 분들, 그리고 "구글의 차세대 모델은 언제 나올까" 궁금하신 분들 많으시죠? 특히 지난주 Gemini 4 사전학습 소식(8월 5일 포스팅)을 보신 분이라면, 이번 소식이 더 궁금하실 텐데요.

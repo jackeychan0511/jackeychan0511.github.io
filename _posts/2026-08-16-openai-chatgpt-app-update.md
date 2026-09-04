@@ -7,6 +7,8 @@ tags: [ChatGPT, OpenAI, GPT, 인터랙티브퀴즈, 프로젝트메모리, Think
 author: "40대 블로거"
 image: /assets/images/posts/openai-chatgpt-app-update-20260816/openai-logo-1280.png
 description: "2026년 8월 14일 OpenAI가 발표한 ChatGPT 앱 업데이트를 정리했습니다. 공부할 때 유용한 인터랙티브 퀴즈, 프로젝트 메모리 설정 변경, 무료·Go 사용자 대상 Think 기능의 웹 확대, Android 받아쓰기·컴포저 개선, 리눅스 앱 공개 프리뷰까지 사용자·개발자 관점에서 분석합니다."
+sitemap: false
+noindex: true
 ---
 
 > **📌 한줄 요약:** 지난 8월 14일, OpenAI가 **ChatGPT 앱 전반의 업데이트**를 발표했습니다. "ChatGPT에게 퀴즈를 내달라고 하면 대화창에서 바로 풀 수 있는" **인터랙티브 퀴즈**, 생성 후에도 바꿀 수 있는 **프로젝트 메모리 설정**, 무료·Go 사용자의 **Think 기능 웹 확대**가 핵심이고, Android 받아쓰기·컴포저 개선과 **리눅스 데스크톱 앱 공개 프리뷰**까지 담긴 알찬 업데이트입니다.

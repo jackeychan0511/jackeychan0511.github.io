@@ -7,6 +7,8 @@ tags: [Gemini, Google, GeminiEnterprise, 법률AI, 로펌, 에이전트AI, Googl
 author: "40대 블로거"
 description: "2026년 8월 25일 Google Cloud가 법률 특화 에이전트 AI 'Gemini Enterprise for Legal'을 발표했습니다. 사전 구축 AI 에이전트·법률 시스템 연동(MCP), 기존 RBAC 보안 상속, Cleary Gottlieb·Freshfields 등 로펌 참여, Thomson Reuters 파트너십까지. OpenAI·Anthropic과의 법률 AI 경쟁 구도를 이슈 요약 → 상세 분석 → 영향 → 전망 순서로 정리했습니다."
 image: /assets/images/posts/gemini-enterprise-legal-20260826/gemini-enterprise-legal-hero.jpg
+sitemap: false
+noindex: true
 ---
 
 요즘 저처럼 **"AI가 전문직 일자리를 어떻게 바꿀까"** 궁금하신 분들 많으시죠? 솔직히 저도 법률·금융처럼 규제와 기밀이 중요한 분야는 AI가 함부로 못 들어올 줄 알았는데, 구글이 어제(8월 25일) 그 예상을 깨는 발표를 내놨습니다.

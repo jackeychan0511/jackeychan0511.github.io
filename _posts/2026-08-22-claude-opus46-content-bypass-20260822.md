@@ -6,6 +6,8 @@ categories: [career]
 tags: [Anthropic, Claude, 앤트로픽, 클로드, AI뉴스, Opus 4.6, AI안전, 가드레일, 콘텐츠제한, 경계침식, boundary erosion, jailbreak, TechCrunch, EU AI Act, 2026년8월, AI산업]
 author: "40대 블로거"
 description: "2026년 8월 21일 TechCrunch가 Anthropic 플래그십 모델 Claude Opus 4.6이 성인 콘텐츠 제한을 쉽게 우회한다는 테스트 결과를 보도했습니다. 10건의 직접 요청에 10건 모두 즉시 응답한 것으로 나타나 '안전 최우선'을 내세운 Anthropic의 브랜드와 정면으로 충돌하는 논란이 됐습니다. Anthropic 자체 연구 용어인 '경계 침식(boundary erosion)'과 다중 턴 대화 취약점, Sonnet 4.6 등 4.x 계열 전반으로 퍼진 문제, 100만 토큰 컨텍스트가 논란을 키운 배경, 사용자·개발자 영향과 전망을 이슈 요약 → 상세 분석 → 영향 → 전망 순서로 정리했습니다."
+sitemap: false
+noindex: true
 ---
 
 요즘 저처럼 **Claude를 쓰면서 "안전 최우선(safety-first) 회사"라는 Anthropic의 브랜드를 믿고 계신 분들** 많으시죠? 솔직히 저도 지난주 IPO 공개 서류 제출 보도(8월 21일 포스팅)를 보면서 "드디어 상장하나 보다" 했는데, 그다음 날 **뜻밖의 안전성 논란**이 터졌습니다. "가장 안전한 AI"를 표방하는 회사의 플래그십 모델이, 정작 자사 이용약관이 금지한 콘텐츠를 10번 요청하면 10번 다 만들어준다는 보도 말입니다.

@@ -7,6 +7,8 @@ tags: [GPT, OpenAI, GPT-Live, ChatGPT, AI음성, 풀듀플렉스, 생성형AI, A
 author: "40대 블로거"
 image: /assets/images/posts/openai-gpt-live-voice-20260804/chatgpt-logo-1280.png
 description: "2026년 8월 3일 OpenAI가 공개한 GPT-Live 기반 ChatGPT 새 음성 경험을 정리했습니다. 듣고 말하는 동시에 가능한 풀듀플렉스 음성, GPT-Live-1과 mini 모델 구분, 무료·유료 사용자 영향, 개발자 관점 전망까지 다룹니다."
+sitemap: false
+noindex: true
 ---
 
 > **📌 한줄 요약:** OpenAI가 2026년 8월 3일 GPT-Live 기반의 새로운 ChatGPT 음성 경험을 공개했습니다. 유료 사용자는 **GPT-Live-1**, 무료 사용자는 **GPT-Live-1 mini**로 전환되며, 서로 말을 끊지 않아도 되는 **연속 대화(full-duplex)**가 핵심입니다. 음성 응답과 함께 글이 실시간으로 표시되고, 웹 검색·메모리·비주얼 위젯·이미지까지 한 대화에서 함께 동작합니다.

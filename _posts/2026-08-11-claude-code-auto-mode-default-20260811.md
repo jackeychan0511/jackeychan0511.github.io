@@ -6,6 +6,8 @@ categories: [career]
 tags: [Anthropic, Claude, ClaudeCode, AutoMode, AI코딩, 에이전트, 프롬프트인젝션, AI뉴스, 2026년8월, 개발자도구]
 author: "40대 블로거"
 description: "Anthropic이 2026년 8월 14일부터 Claude Code의 Auto Mode를 Pro·Max·Team 요금제 기본값으로 전환한다고 발표했습니다. 1,053명 실험에서 사람이 위험 명령을 잡아낸 비율 13.6% vs Auto Mode 89%, Trajectory Labs의 프롬프트 인젝션 720회 공격 전부 차단 등 공식 안전성 데이터와 개발자 영향, 전망을 정리합니다."
+sitemap: false
+noindex: true
 ---
 
 요즘 저처럼 **"AI 코딩 에이전트한테 '이거 실행해도 돼?' 승인 버튼을 하루에 수십 번 누르는 게 과연 안전한 건지"** 고민하시는 개발자 분들 많으시죠?

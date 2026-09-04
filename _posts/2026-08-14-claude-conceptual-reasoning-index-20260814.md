@@ -6,6 +6,8 @@ categories: [career]
 tags: [Anthropic, Claude, ClaudeOpus5, CRI, ConceptualReasoningIndex, AI안전, AI정렬, RedwoodResearch, 벤치마크, AI뉴스, 2026년8월, AI평가]
 author: "40대 블로거"
 description: "Anthropic이 Redwood Research와 함께 8월 12일 공개한 '개념 추론 지수(CRI)'를 정리했습니다. 검증이 어려운 AI 안전·정렬 문제를 다루는 모델의 개념 추론 능력을 세 가지 벤치마크(LMCA·ACCoRD·DTBench)로 측정했고, 최고 점수는 Claude Opus 5의 73.6점(추정 상한 91점)입니다."
+sitemap: false
+noindex: true
 ---
 
 요즘 저처럼 **"AI가 점점 똑똑해지는데, 정말 안전한 방향으로 가고 있는 걸까?"** 궁금하신 분들 많으시죠? 그런데 AI 성능을 재는 벤치마크는 대부분 코딩·수학처럼 **정답이 명확한 문제** 위주라, "AI가 우리를 이해하고 위험을 피하는 능력"은 제대로 측정할 길이 없었습니다.

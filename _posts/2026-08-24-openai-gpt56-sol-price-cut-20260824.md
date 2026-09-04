@@ -7,6 +7,8 @@ tags: [GPT, OpenAI, GPT-5.6, Sol, API가격, 가격인하, AI가격전쟁, Claud
 author: "40대 블로거"
 image: /assets/images/posts/openai-gpt56-sol-price-cut-20260824/openai-logo-2025-wikimedia.png
 description: "2026년 8월 21일(미국 현지) OpenAI가 플래그십 모델 GPT-5.6 Sol의 API·크레딧 가격을 3개월간 20% 이상 인하한다고 발표했습니다. 8월 22일부터 표준 API 기준 입력 토큰 100만 개당 5달러→4달러, 출력 30달러→20달러로 조정되며, 최소 11월 21일까지 적용되는 프로모션입니다. 7월 출시 이후 처음으로 최상위 모델 가격을 내린 이번 결정의 배경(Anthropic·DeepSeek·Moonshot AI와의 가격 전쟁), 개발자·사용자에게 미치는 영향, 그리고 같은 주 불거진 GPT-5.6 Sol 고사양 모드 성능 회귀 논란까지 정리했습니다."
+sitemap: false
+noindex: true
 ---
 
 > **📌 한줄 요약:** OpenAI가 2026년 8월 21일(금, 미국 현지시간) **플래그십 모델 GPT-5.6 Sol의 API·크레딧 가격을 3개월간 20% 이상 인하**한다고 발표했습니다. 8월 22일부터 적용되는 이번 프로모션으로 표준 API 기준 **입력 토큰 100만 개당 5달러 → 4달러, 출력 토큰 100만 개당 30달러 → 20달러**로 내려갑니다. GPT-5.6 시리즈가 7월 9일 정식 출시된 이후 **최상위 모델 가격이 내려간 것은 이번이 처음**입니다. 경쟁사인 Anthropic(Claude Opus)과 중국의 DeepSeek·Moonshot AI가 가격을 낮추며 압박해 온 상황에서 나온 결정으로, 업계 'AI 가격 전쟁'이 플래그십 영역까지 번졌다는 해석이 나옵니다.

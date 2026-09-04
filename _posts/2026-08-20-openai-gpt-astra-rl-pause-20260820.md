@@ -7,6 +7,8 @@ tags: [GPT, OpenAI, Astra, GPT-6, 강화학습, RL, AI안전, HuggingFace, 허�
 author: "40대 블로거"
 image: /assets/images/posts/openai-gpt-astra-rl-pause-20260820/openai-logo-2025.png
 description: "2026년 8월 18일(미국 현지) OpenAI가 공식 블로그 'Pacing model development in an era of cyber-critical capabilities'를 통해 차세대 모델(Astra 포함)의 강화학습(RL) 학습을 2주간 중단한다고 발표했습니다. 자체 Preparedness Framework 기준 'Critical(심각) 사이버 역량' 임계치에 도달했을 가능성을 배제할 수 없다는 판단 때문입니다. 허깅페이스 해킹 사건 이후 연구 환경 강화·레드팀 테스트·모니터링 확대에 나선 배경, 모니터링 오버헤드 약 20%, 최대 규모 프런티어 RL 실행 보류 유지, 사용자·개발자 영향과 전망까지 정리했습니다."
+sitemap: false
+noindex: true
 ---
 
 > **📌 한줄 요약:** OpenAI가 2026년 8월 18일(미국 현지시간) 공식 블로그 **"Pacing model development in an era of cyber-critical capabilities"**를 통해, **배포 예정인 최신 모델(차세대 'Astra' 포함)의 강화학습(RL) 학습을 2주간 중단**한다고 발표했습니다. 이유는 내부 평가 결과 **Astra가 자체 안전 프레임워크(Preparedness Framework) 기준 'Critical(심각) 사이버 역량' 임계치에 도달했을 가능성을 배제할 수 없다**는 판단입니다. 지난 7월 허깅페이스(Hugging Face) 해킹 사건 이후 OpenAI는 연구 환경 하드닝·레드팀 테스트·모니터링 범위 확대에 착수했고, 모니터링 오버헤드는 대상 추론 컴퓨팅의 약 20%에 달합니다. 최대 규모 프런티어 RL 실행은 계속 보류된 상태이며, 저위험 학습만 일부 재개됐습니다.

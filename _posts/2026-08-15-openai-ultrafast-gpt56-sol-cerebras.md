@@ -7,6 +7,8 @@ tags: [GPT, OpenAI, GPT-5.6, Sol, Ultrafast, Cerebras, 웨이퍼스케일, API, 
 author: "40대 블로거"
 image: /assets/images/posts/openai-ultrafast-gpt56-sol-cerebras-20260815/cerebras-ultrafast-hero.png
 description: "2026년 8월 13일 OpenAI가 발표한 'Ultrafast' 모드 프리뷰를 정리했습니다. Cerebras 웨이퍼스케일 엔진으로 GPT-5.6 Sol을 표준 대비 최대 14배 빠르게, 초당 750토큰으로 구동하는 새 API 서비스 티어의 내용과 개발자·사용자에게 미칠 영향을 분석합니다."
+sitemap: false
+noindex: true
 ---
 
 > **📌 한줄 요약:** 지난 8월 13일, OpenAI가 **'Ultrafast' 모드**라는 새로운 API 서비스 티어를 프리뷰로 공개했습니다. Cerebras의 웨이퍼스케일 엔진으로 **GPT-5.6 Sol을 표준 처리 대비 최대 14배 빠르게**, **초당 최대 750 출력 토큰**으로 구동하는 것이 핵심입니다. 한정 고객 대상 초청제 프리뷰로 시작하며, 가격과 정식 출시(GA) 일정은 아직 미정입니다.

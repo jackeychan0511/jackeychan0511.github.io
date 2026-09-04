@@ -7,6 +7,8 @@ tags: [GPT, OpenAI, Jalapeño, 할라페뇨, AI칩, 추론칩, Broadcom, 엔비�
 author: "40대 블로거"
 image: /assets/images/posts/openai-gpt-jalapeno-20260826/openai-jalapeno-chip.jpg
 description: "2026년 8월 25일(미국 현지시간) Hot Chips 컨퍼런스에서 OpenAI가 첫 자체 설계 AI 추론 칩 'Jalapeño(할라페뇨)'의 첫 공식 벤치마크 결과를 공개했습니다. SemiAnalysis의 공개 벤치마크 InferenceX 기준 GPT-OSS 120B·DeepSeek R1 670B·Kimi K2.5 1T 세 모델에서 엔비디아 GB200/GB300 대비 전력당 처리량 1.5~1.9배, 종단 간 지연시간 1.7~3.6배 단축을 달성했다고 합니다. Broadcom과 공동 개발·TSMC 3nm로 제조된 이 칩이 GPT 추론 비용과 속도에 어떤 변화를 가져올지, 사용자·개발자에게 미치는 영향과 전망까지 정리했습니다."
+sitemap: false
+noindex: true
 ---
 
 > **📌 한줄 요약:** OpenAI가 2026년 8월 25일(화, 미국 현지시간) **자체 설계 첫 AI 추론 칩 'Jalapeño(할라페뇨)'의 첫 공식 벤치마크 결과**를 공개했습니다. SemiAnalysis가 만든 공개 벤치마크 **InferenceX**로 GPT-OSS 120B·DeepSeek R1 670B·Kimi K2.5 1T 등 공개 모델 3종을 돌린 결과, 엔비디아 **GB200/GB300 대비 전력당 처리량 1.5~1.9배, 종단 간 응답 지연시간 1.7~3.6배 단축**을 달성했다고 합니다. 지난 6월 24일 Broadcom과 공동 개발·TSMC 3nm 공정 소식으로 처음 공개된 이 칩은, **연내 OpenAI 인프라에 배포를 시작**해 GPT 추론 속도와 비용을 직접 바꿀 예정입니다. 모델(소프트웨어)에 이어 '칩(하드웨어)'까지 직접 만드는 OpenAI의 수직 통합 전략이 첫 성적표를 낸 셈입니다.

@@ -7,6 +7,8 @@ tags: [Gemini, Google, 제미나이, 구글, FindHub, 파인드허브, AndroidDr
 author: "40대 블로거"
 description: "2026년 9월 1일 구글이 'September 2026 Android Drop'을 공식 발표하며, Gemini가 트래커 태그가 없는 물건(여권·여분 열쇠 등)의 위치를 기억해 Find Hub에 저장하는 'Remembered' 기능을 선보였습니다. 'Hey Google, 여권을 침실 서랍에 뒀어'라고 말하면 위치를 기억하고, 사진까지 첨부할 수 있으며, 나중에 '어디 뒀지?'라고 물어보면 바로 알려줍니다. 저시력·시각장애인을 위한 Gemini Live 'Guided Vision' 정식 지원(Android 9+ 확대)과 차량 멀미 완화 'Motion Assist', Google Messages 내 Google Keep 공동 편집까지. 이번 업데이트를 이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망 순서로 정리했습니다."
 image: /assets/images/posts/gemini-find-hub-remembered-20260902/gemini-findhub-android-drop-official.jpg
+sitemap: false
+noindex: true
 ---
 
 요즘 저처럼 **"열쇠는 어디에 뒀더라, 여권은 또 어느 서랍에…"** 하시는 분들 많으시죠? 솔직히 저도 외출 직전에 지갑·여권 뒤지다가 시간을 많이 까먹는데요. 그런데 이제 **AI한테 "어디에 뒀는지"를 말로 저장해 두면, 나중에 물어볼 때 바로 찾아주는 시대**가 왔습니다. 트래커 태그 하나 없이요.

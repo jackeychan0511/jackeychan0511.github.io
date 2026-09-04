@@ -6,6 +6,8 @@ categories: [career]
 tags: [Gemini, Google, 제미나이, 구글, GuidedVision, GeminiLive, 접근성, Accessibility, 시각장애인, 안드로이드, APK분석, AndroidAuthority, AI뉴스, 2026년8월, 구글AI]
 author: "40대 블로거"
 description: "2026년 8월 19일(수) Android Authority가 구글 Gemini 앱 v1.0.954677852 분석을 통해 Gemini Live 'Guided Vision'(카메라로 텍스트 읽기·라벨 번역·사물 식별)을 한 번에 실행하는 접근성 단축키를 개발 중임을 포착했습니다. 화면 가장자리 플로팅 아이콘 또는 볼륨 버튼 두 개 동시 길게 누르기 방식으로, 시각 장애·저시력 사용자의 실사용성을 크게 높일 예정 기능입니다. 8월 21일 해외 매체의 재보도까지 이어진 이슈로, 요약 → 상세 분석 → 사용자·개발자 영향 → 전망 순서로 정리했습니다."
+sitemap: false
+noindex: true
 ---
 
 요즘 저처럼 **"AI가 눈이 돼 주면 좋겠다"**고 생각하시는 분들, 꽤 많으시죠? 솔직히 저도 지하철에서 외국어 안내판 보면서 "폰 카메라만 들이대면 바로 번역해 주는 AI, 진짜 편하겠다" 싶었는데, 구글이 정확히 그 사용성을 노린 업데이트를 준비하고 있습니다.

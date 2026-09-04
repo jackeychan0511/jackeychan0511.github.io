@@ -6,6 +6,8 @@ categories: [career]
 tags: [Gemini, Google, 제미나이, 구글클래스룸, GoogleClassroom, 교육AI, 에듀테크, AI튜터, LearnWithGemini, K12, GoogleWorkspace, AI뉴스, 2026년8월, 구글AI]
 author: "40대 블로거"
 description: "2026년 8월 10일(웹)부터 구글이 Google Classroom의 Gemini를 만 18세 이상 고등교육 학생에서 K-12 포함 전 연령 학생으로 확대했습니다. 학생 Gemini 탭이 기본 켜짐으로 제공되고, 수업 자료로 플래시카드·연습 퀴즈·학습 가이드를 만들 수 있으며, 'Learn with Gemini'로 과제별 맞춤 도움을 받을 수 있게 됐는데요. 다만 기본 ON 정책과 미성년자 데이터 우려(Common Sense Media '고위험' 평가) 논란도 함께 있습니다. 이슈 요약 → 상세 분석 → 사용자·개발자 영향 → 전망 순서로 정리했습니다."
+sitemap: false
+noindex: true
 ---
 
 요즘 저처럼 **"아이 숙제 봐주다가 AI가 대신 해주면 얼마나 좋을까"** 생각해보신 분들 많으시죠? 솔직히 저도 초등학생 아이를 키우면서 "학교에서 AI를 어떻게 쓰게 할까"가 요즘 가장 큰 관심사인데, 이번에 구글이 그 질문에 아주 직접적인 답을 내놨습니다.

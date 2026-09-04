@@ -7,6 +7,8 @@ tags: [GPT, OpenAI, Astra, GPT-6, ultima-alpha, mozaik-alpha-fdm, 출시일, 파
 author: "40대 블로거"
 image: /assets/images/posts/openai-gpt-astra-partner-test-20260901/openai-magnifier-logo.jpg
 description: "2026년 8월 29~31일, OpenAI 차세대 모델 'Astra(GPT-6급)'가 내부 도그푸딩 단계를 마치고 일부 파트너 대상 테스트로 전환됐다는 제보가 잇따랐습니다. 파트너 화면에 노출된 코드명은 'ultima-alpha', 광범위 출시 목표는 9월 3일(목)부터 다음 주 말 사이로 알려졌습니다. GPT-Image 2 업데이트 동시 출시설과 Anthropic Fable 5.1 견제 구도, OpenAI의 공식 입장(GPT-6 vs GPT-5.7 네이밍 미정), 예측시장 베팅까지 정리했습니다."
+sitemap: false
+noindex: true
 ---
 
 > **📌 한줄 요약:** OpenAI의 차세대 모델 **Astra(GPT-6급)** 가 지난 8월 29일(현지시각)을 기점으로 **내부 도그푸딩(dogfooding) 단계를 끝내고 일부 파트너 대상 테스트로 전환**됐다는 제보가 나왔습니다. 파트너 화면에 노출된 코드명은 **'ultima-alpha'**, 유출 체크포인트는 **'mozaik-alpha-fdm'** 이며, **광범위 출시 목표는 9월 3일(목)~다음 주 말 사이**로 전해집니다. 같은 시점에 **GPT-Image 2 업데이트 동시 출시설**과 Anthropic **Fable 5.1** 출시를 견제하는 구도까지 겹치며, 9월 첫째 주 AI 업계가 술렁이고 있습니다.

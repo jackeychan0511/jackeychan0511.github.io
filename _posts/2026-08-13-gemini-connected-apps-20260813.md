@@ -6,6 +6,8 @@ categories: [career]
 tags: [Gemini, Google, 연결앱, ConnectedApps, 메이드바이구글, MadeByGoogle, Zocdoc, AI에이전트, AgenticAI, AI뉴스, 2026년8월, 구글AI]
 author: "40대 블로거"
 description: "2026년 8월 12일(현지시간) 뉴욕에서 열린 Made by Google 2026에서 구글이 Gemini 앱의 새 연결 앱(connected apps) 14종을 발표했습니다. 미팅 요약(Granola·Otter.ai)·웹사이트 편집(Wix)·식당 예약(OpenTable UK)·이벤트 티켓(Ticketmaster)·음악(iHeartRadio·Pandora)·집 수리 업체(Angi·Thumbtack)에 이어, 최초로 의사 예약(Zocdoc)까지 Gemini 안에서 끝낼 수 있게 됐는데요. 이슈 요약 → 상세 분석 → 사용자·개발자 영향 → 전망까지 정리했습니다."
+sitemap: false
+noindex: true
 ---
 
 요즘 저처럼 **"AI 비서에게 말로 일을 시키는 게 일상"**이 되신 분들 많으시죠? 솔직히 저도 지난주 Gemini 앱 10억 사용자 소식(8월 12일 포스팅)을 쓰면서 "이제 사용자 수는 따라잡았으니, 다음은 뭘 하지?" 궁금했는데, 그 답이 하루 만에 나왔습니다.

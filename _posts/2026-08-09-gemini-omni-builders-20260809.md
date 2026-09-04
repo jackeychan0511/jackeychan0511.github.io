@@ -6,6 +6,8 @@ categories: [career]
 tags: [Gemini, Google, GeminiOmni, GeminiOmniFlash, AI영상, 영상생성, AI빌더, GoogleFlow, AIStudio, AI뉴스, 2026년8월, 구글AI]
 author: "40대 블로거"
 description: "구글이 8월 7일 공식 블로그에서 Gemini Omni Flash로 만든 빌더 5팀의 창작 사례를 공개했습니다. 카메라 앵글 전환, 장면 변환, 낙서 애니메이션, 스타일 전환, 아이디어 시각화까지 — 대화만 하면 영상을 만들어 주는 Gemini Omni Flash의 실제 활용 사례와 영향, 전망을 정리했습니다."
+sitemap: false
+noindex: true
 ---
 
 요즘 저처럼 **AI 영상 생성 도구**에 관심이 많으신 분들, 그리고 "이제 AI로 영상 만드는 게 어디까지 왔을까" 궁금하신 분들 많으시죠? 특히 지난주 Gemini Omni 무료 이벤트(8월 4일 포스팅)를 보신 분이라면, 이번 소식이 더 반가우실 텐데요.

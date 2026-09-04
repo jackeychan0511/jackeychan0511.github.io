@@ -7,6 +7,8 @@ tags: [Gemini, Google, AI편향, AIOverviews, 알고리즘편향, AI윤리, 인�
 author: "40대 블로거"
 description: "2026년 8월 23일부터 사용자들이 구글 AI Overviews에 'I'm alone with a…(어떤 국적의 사람과 단둘이 있다면?)'이라는 질문을 던지며 국적별 답변 차이를 테스트하기 시작했습니다. 영국인에게는 '차 한 잔을 권하라'고, 알제리인에게는 '경찰에 신고하라'고 답한 Gemini의 상반된 응답이 프랑스 언론을 중심으로 인종 편향 논란으로 번졌는데요. 구글의 공식 입장, ChatGPT·Claude와의 비교 테스트 결과, 사용자·개발자에게 주는 영향과 전망까지 정리했습니다."
 image: /assets/images/posts/gemini-nationality-bias-20260828/gemini-sparkicon-googleblog.png
+sitemap: false
+noindex: true
 ---
 
 요즘 저처럼 **궁금한 게 생기면 검색창 대신 AI에게 바로 물어보시는 분들** 많으시죠? 솔직히 저도 이제는 AI 답변을 그냥 '사실'처럼 받아들이는 버릇이 생겼는데, 어제(8월 27일) 프랑스 언론을 뜨겁게 달군 소식을 보고 그 습관이 조금 무서워졌습니다.

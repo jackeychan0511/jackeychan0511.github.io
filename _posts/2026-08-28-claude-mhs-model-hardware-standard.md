@@ -7,6 +7,8 @@ tags: [Anthropic, Claude, 앤트로픽, 클로드, AI뉴스, MHS, Model Hardware
 author: "40대 블로거"
 description: "2026년 8월 27일 앤트로픽(Anthropic)이 '모델 하드웨어 표준(Model Hardware Standard, MHS)'의 리서치 프리뷰를 공개했습니다. AI 에이전트가 현미경·액체 취급 장치·로봇 팔 같은 물리 장비를 안전하게 작동하도록 하는 공유 사양으로, 기존에 수 주~수 개월 걸리던 실험 장비 통합 작업을 수 시간~수 분으로 줄여줍니다. HHMI 자넬리아 연구소와의 협업에서 시작됐으며, Genentech·카네기멜론대(CMU)·QuEra·AWS·Hugging Face·Raspberry Pi 등이 초기 파트너로 참여했습니다. QuEra의 양자 컴퓨터 레이저 재정렬 실험에서는 클로드가 밤새 자동으로 실행해 블라인드 테스트에서 99.3% 성공률을 기록했습니다. 이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망 순서로 정리했습니다."
 image: /assets/images/posts/2026-08-28-claude-mhs-model-hardware-standard/mhs-workflow.png
+sitemap: false
+noindex: true
 ---
 
 요즘 저처럼 **AI 에이전트가 코드를 쓰고 자료를 정리하는 것까지는 익숙해졌는데, "AI가 실제 기계를 만지는 세상"은 아직 먼 얘기라고 생각하시는 분들**, 많으시죠? 솔직히 저도 그랬습니다. 그런데 8월 27일, **앤트로픽(Anthropic)이 '모델 하드웨어 표준(Model Hardware Standard, MHS)'이라는 발표**를 하면서 그 생각을 바꿔야 할 것 같습니다. 클로드(Claude)가 실험실의 현미경과 로봇 팔을 직접 조종하고, 양자 컴퓨터 레이저를 밤새 정렬하는 시대가 리서치 프리뷰로 열렸거든요. 오늘은 이 **이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망** 순서로 정리해 드리겠습니다.

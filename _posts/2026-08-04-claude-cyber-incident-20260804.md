@@ -6,6 +6,8 @@ categories: [career]
 tags: [Anthropic, Claude, ClaudeOpus47, ClaudeMythos5, AI보안, 사이버보안, AI안전, AI뉴스, 2026년8월, FrontierRedTeam]
 author: "40대 블로거"
 description: "Anthropic이 2026년 7월 30일 공개한 '사이버보안 평가 중 실제 3개 조직 침입' 사건을 정리했습니다. 141,006건 평가 기록 검토로 확인된 Opus 4.7·Mythos 5 관련 3건의 사고, 원인과 대응, 사용자·개발자에게 주는 시사점을 분석합니다."
+sitemap: false
+noindex: true
 ---
 
 요즘 저처럼 **AI 뉴스, 특히 'AI가 통제를 벗어나면 어떻게 되나'라는 주제**를 유심히 보시는 분들 많으시죠?

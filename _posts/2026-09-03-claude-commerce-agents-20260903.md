@@ -7,6 +7,8 @@ tags: [Anthropic, Claude, 앤트로픽, 클로드, CommerceAgents, 쇼핑에이�
 author: "40대 블로거"
 description: "Anthropic이 2026년 9월 2일 상거래 AI 에이전트 구축용 오픈소스 블루프린트 'Commerce Agents'를 공개했습니다. 쇼핑 에이전트(고객용)와 머천트 에이전트(점주·운영진용) 2종의 레퍼런스 구현을 Apache 2.0으로 GitHub에 공개하고, 리테일·여행·통신·티켓팅 4개 업종 데모와 Claude Code 플러그인을 함께 제공합니다. 실제 도입 리테일러 기준 장바구니 최대 35% 증가·구매 완료 확률 60% 상승 효과가 확인됐으며, Visa·Mastercard·Accenture·Shopify·Priceline 등이 파트너로 참여했습니다. 블루프린트 구성(쇼핑/머천트 에이전트, 3가지 실행 경로, 안전장치) → 업계 반응 → 영향(사용자·개발자) → 전망 순서로 정리했습니다."
 image: /assets/images/posts/claude-commerce-agents-20260903/claude-commerce-retail-demo.jpg
+sitemap: false
+noindex: true
 ---
 
 요즘 저처럼 **"AI가 실제로 돈을 벌어주는 곳이 어디일까?"** 궁금하신 분들 많으시죠? 솔직히 저는 지난 9월 1일 Fable 5.1·Mythos 5.1 같은 플래그십 모델 발표만 봐도 정신이 없었는데, **하루 만인 9월 2일(수), Anthropic이 이번엔 '돈 버는 AI'의 실전 설계도를 공개했습니다.** 바로 **상거래 에이전트 'Commerce Agents' 오픈소스 블루프린트**입니다.

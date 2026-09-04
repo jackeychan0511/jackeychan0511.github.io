@@ -7,6 +7,8 @@ tags: [ChatGPT, OpenAI, Linux, Codex, 리눅스, 데스크톱앱, 우분투, 페
 author: "40대 블로거"
 image: /assets/images/posts/chatgpt-linux-app-20260812/chatgpt-logo.png
 description: "2026년 8월 11일 OpenAI가 ChatGPT 데스크톱 앱 리눅스 프리뷰를 전 세계에 공개했습니다. Ubuntu 24.04/26.04 LTS, Debian 13, Fedora 43/44를 지원하며 ChatGPT·ChatGPT Work·Codex가 하나의 네이티브 앱에 담깁니다. 지원 배포판, 설치 방법, 개발자에게 주는 의미와 전망까지 정리했습니다."
+sitemap: false
+noindex: true
 ---
 
 > **📌 한줄 요약:** 2026년 8월 11일(화), OpenAI가 **ChatGPT 데스크톱 앱 리눅스 버전을 프리뷰로 전 세계 공개**했습니다. Ubuntu 24.04/26.04 LTS, Debian 13, Fedora 43/44를 지원하고, **ChatGPT·ChatGPT Work·Codex가 하나의 네이티브 앱**에 담깁니다. 그동안 macOS·Windows에만 있던 공식 앱이 드디어 리눅스에도 온 것입니다.

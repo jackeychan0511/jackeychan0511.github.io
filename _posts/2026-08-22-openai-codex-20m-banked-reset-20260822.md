@@ -7,6 +7,8 @@ tags: [GPT, OpenAI, Codex, ChatGPTWork, 2000만사용자, BankedReset, RateLimit
 author: "40대 블로거"
 image: /assets/images/posts/openai-codex-20m-banked-reset-20260822/openai-logo-2025-wikimedia.png
 description: "2026년 8월 21일(미국 현지) OpenAI의 Codex·ChatGPT 엔지니어링 리드 티보 소티오(Tibo Sottiaux)가 X(트위터)를 통해 Codex가 활성 사용자 2,000만 명을 돌파했고, 이를 기념해 모든 Codex·ChatGPT Work 유료 사용자에게 'Banked Reset'(사용자가 원하는 시점에 쓸 수 있는 적립식 한도 리셋)을 지급하겠다고 발표했습니다. 7월 14일 800만 명 → 8월 13일 1,500만 명 → 8월 21일 2,000만 명으로 한 달여 만에 2.5배 성장한 성장 타임라인, Banked Reset의 의미, 같은 날 아침 불거진 sub2api(구독→API 전환) 한도 논란, 그리고 8월 22일 현재 '8pm PST 데드라인'까지 지급되지 않아 커진 미지급 논란까지 정리했습니다."
+sitemap: false
+noindex: true
 ---
 
 > **📌 한줄 요약:** OpenAI의 AI 코딩 에이전트 **Codex가 2026년 8월 21일(금, 미국 현지시간) 활성 사용자 2,000만 명을 돌파**했습니다. Codex·ChatGPT 엔지니어링 리드 **티보 소티오(Tibo Sottiaux)** 는 X(트위터)를 통해 이 소식을 알리며, 기념으로 **모든 Codex·ChatGPT Work 유료 사용자에게 'Banked Reset'(사용자가 원하는 시점에 적용할 수 있는 적립식 한도 리셋)을 지급**하겠다고 밝혔습니다. 다만 **8월 22일(오늘) 현재 약속된 8pm PST(한국시간 8/22 정오) 데드라인을 넘겨도 많은 계정에 리셋이 지급되지 않아** 사용자들의 불만과 '한도 축소 은폐' 의혹까지 불거진 상황입니다.

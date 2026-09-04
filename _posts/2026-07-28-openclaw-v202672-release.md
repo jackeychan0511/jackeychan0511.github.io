@@ -5,6 +5,8 @@ date: 2026-07-28 15:00:00 +0900
 categories: [career]
 tags: [OpenClaw, AI에이전트, 업데이트, GPT-5.6, 오픈소스AI]
 image: /assets/images/posts/openclaw-release/hero-coder.jpg
+sitemap: false
+noindex: true
 ---
 
 AI 에이전트 오픈소스 플랫폼 **OpenClaw**가 7월 27일, v2026.7.2 프리릴리즈를 공개했습니다. 불과 2주 전인 7월 13일에 v2026.7.1(Control UI 대개편, GPT-5.6 지원)이 나온 직후라 놀라운 속도입니다.

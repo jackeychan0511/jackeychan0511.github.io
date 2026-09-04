@@ -7,6 +7,8 @@ tags: [GPT, OpenAI, Astra, AGI, 샘알트만, SamAltman, TIME, 마크첸, 파촉
 author: "40대 블로거"
 image: /assets/images/posts/openai-agi-astra-time-interview-20260828/sam-altman-wikimedia.jpg
 description: "2026년 8월 26일 TIME지가 공개한 심층 보도 'Inside OpenAI's Reboot'에서 샘 알트만 CEO가 '연내(2026년 말까지) 내부 AGI 달성'을 선언했습니다. 차세대 모델군 'Astra'는 이미 내부 기준 '자동 연구 인턴' 벤치마크를 통과해, 실험 아이디어를 받으면 자사 코드베이스에 직접 구현·실행·결과 반환까지 수행하고, 연구자 1주일치 작업을 처리하는 수준이라고 합니다. 슈퍼휴먼 속도로 컴퓨터를 조작하는 '지속형 에이전트' 데모, 허깅페이스 사건 이후의 안전 우선 리부트, 그리고 사용자·개발자에게 미치는 영향과 전망까지 정리했습니다."
+sitemap: false
+noindex: true
 ---
 
 > **📌 한줄 요약:** TIME지가 2026년 8월 26일 공개한 심층 보도 **"Inside OpenAI's Reboot(OpenAI의 리부트)"**에서 샘 알트만 CEO가 **"2026년 말까지 내부적으로 AGI(범용 인공지능)로 볼 수 있는 시스템을 달성하겠다"**고 선언했습니다. 핵심은 차세대 모델군 **Astra**입니다. OpenAI 최고과학자 파촉키(Jakub Pachocki)는 **Astra가 이미 '자동 연구 인턴(automated research intern)' 내부 벤치마크를 통과**했다고 밝혔는데, 실험 아이디어를 받으면 자사 코드베이스에 직접 코드를 구현하고, 실험을 돌려 결과까지 반환하는 수준입니다. 외신은 **연구자 1주일치 작업을 처리**한다고 전했습니다. '슈퍼휴먼' 속도로 컴퓨터를 조작하며 며칠씩 일하는 **지속형 에이전트(persistent agents)**라는 콘셉트와 함께, 지난 1년간 Anthropic에 주도권을 내줬던 OpenAI가 '안전 우선'으로 재정비하는 과정이 담겼습니다.

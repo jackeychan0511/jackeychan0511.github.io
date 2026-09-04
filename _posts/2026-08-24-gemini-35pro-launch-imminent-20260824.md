@@ -6,6 +6,8 @@ categories: [career]
 tags: [Gemini, Google, Gemini35Pro, AI뉴스, 모델출시, 출시루머, LMArena, 2M컨텍스트, GoogleDeepMind, 2026년8월, 구글AI]
 author: "40대 블로거"
 description: "8월 11일 '조용한 취소' 보도가 나왔던 Gemini 3.5 Pro가 8월 23일 다시 '출시 임박' 보도로 부활했습니다. 2M 토큰 컨텍스트·에이전트 특화·풀스택 코딩 등 유출 스펙을 사실과 루머로 구분해 정리하고, 사용자·개발자에게 미칠 영향과 전망을 분석했습니다."
+sitemap: false
+noindex: true
 ---
 
 요즘 저처럼 **Gemini 3.5 Pro** 출시 소식을 손꼽아 기다리시는 분들, 그리고 지난주(8월 11일)에 나온 **"3.5 Pro 조용히 취소됐다"는 SemiAnalysis 보도**를 보고 "결국 안 나오나 보다" 싶으셨던 분들 많으시죠?

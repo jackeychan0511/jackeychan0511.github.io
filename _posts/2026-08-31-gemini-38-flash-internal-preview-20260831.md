@@ -7,6 +7,8 @@ tags: [Gemini, Google, Gemini3.8Flash, GeminiFlash, Jetski, AI모델, LLM, Gemin
 author: "40대 블로거"
 description: "2026년 8월 28일, Business Insider가 구글 직원들이 내부 코딩 플랫폼 'Jetski'에서 'Gemini 3.8 Flash Preview'를 테스트 중인 정황을 보도했습니다. 3.7 Flash 출시(8월 13일) 불과 2주 만에 후속 모델 테스트가 시작된 것인데요. 1M 토큰 컨텍스트·가격 경쟁력 중심의 Flash 라인 전략, 아직 지연 중인 플래그십 3.5 Pro와의 대비까지 이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망 순서로 정리했습니다."
 image: /assets/images/posts/gemini-3-8-flash-internal-preview-20260831/gemini-flash-official-1.jpg
+sitemap: false
+noindex: true
 ---
 
 요즘 저처럼 **AI 모델 API 비용**에 민감하신 개발자 분들 많으시죠? 솔직히 저도 Gemini 3.7 Flash가 출시 기념가로 3.6 Flash 대비 **절반 가격**에 나왔다는 소식 듣고 "이제 좀 쓸만해졌다" 싶었는데, 그 3.7 Flash가 나온 지 **불과 2주 만에** 후속 모델 테스트 소식이 터졌습니다.

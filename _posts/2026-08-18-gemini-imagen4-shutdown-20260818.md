@@ -6,6 +6,8 @@ categories: [career]
 tags: [Gemini, Google, 제미나이, Imagen4, 이미지생성, NanoBanana, 나노바나나, GeminiAPI, VertexAI, AI이미지, 개발자, AI뉴스, 2026년8월, 구글AI]
 author: "40대 블로거"
 description: "2026년 8월 17일(미국 현지) 구글이 Gemini API의 Imagen 4 모델 3종(imagen-4.0-generate·ultra·fast)을 공식 종료했습니다. Firebase 경유 종료(6월 24일)에 이어 마지막 남은 Imagen API까지 닫히면서, 구글의 AI 이미지 생성은 '나노 바나나(Nano Banana)'라 불리는 Gemini 이미지 모델로 완전히 통합되는데요. 이슈 요약 → 상세 분석 → 사용자·개발자 영향 → 전망 순서로 정리했습니다."
+sitemap: false
+noindex: true
 ---
 요즘 저처럼 **"AI 이미지 생성 API로 서비스나 블로그 기능을 만드시는 분들"** 많으시죠? 솔직히 저도 Gemini 이미지 모델(나노 바나나) 소식을 쓰면서도, 구글의 오랜 이미지 생성 라인업 **Imagen 4**를 여전히 쓰는 개발자분들이 꽤 있을 거라고 생각했는데, 이번에 그 '마지막 불씨'까지 꺼졌습니다.
 

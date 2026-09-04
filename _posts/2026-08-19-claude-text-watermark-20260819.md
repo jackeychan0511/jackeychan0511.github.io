@@ -6,6 +6,8 @@ categories: [career]
 tags: [Anthropic, Claude, 클로드, 앤트로픽, 워터마크, watermark, EUAI법, EUAIAct, SynthIDText, AI투명성, AI탐지, Gruber, DaringFireball, Stratechery, AI뉴스, 2026년8월]
 author: "40대 블로거"
 description: "Anthropic이 EU AI법 준수를 위해 Claude가 생성하는 모든 텍스트에 보이지 않는 통계적 워터마크를 적용한다고 발표했습니다. 8월 11~12일 발표, 14일 공식 상세 설명, 이후 존 그루버·벤 톰슨 등이 가세한 품질 논란과 사용자 해지 러시까지 — 워터마크 원리(SynthID-Text), 기술적 한계, 사용자·개발자 영향과 전망을 이슈 요약 → 상세 분석 → 영향 → 전망 순서로 정리합니다."
+sitemap: false
+noindex: true
 ---
 
 요즘 저처럼 **Claude로 블로그 초안부터 업무 문서, 심지어 코드까지** 맡기시는 분들 많으시죠? 저도 이 블로그 글의 절반 이상을 Claude와 함께 쓰고 있어서, "**AI가 쓴 글인지 사람이 쓴 글인지**"가 점점 애매해지는 시대를 몸소 느끼고 있습니다.

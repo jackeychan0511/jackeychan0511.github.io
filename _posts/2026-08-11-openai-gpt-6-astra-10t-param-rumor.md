@@ -7,6 +7,8 @@ tags: [GPT, OpenAI, GPT-6, Astra, 10조파라미터, Doug, 수학문제, AI뉴�
 author: "40대 블로거"
 image: /assets/images/posts/openai-gpt-6-astra-20260811/openai-logo-2025.png
 description: "2026년 8월 10일 유출된 GPT-6 'Astra' 10조 파라미터 8월 출시설과, 8월 6일 OpenAI가 공식 확인한 '미해결 수학 문제 10개 해결' 소식을 정리했습니다. Astra의 멀티에이전트 구조, 연말 대형 모델 Doug 루머, Anthropic과의 경쟁 구도, 사용자·개발자 영향과 전망까지 다룹니다."
+sitemap: false
+noindex: true
 ---
 
 > **📌 한줄 요약:** 2026년 8월 10일, AI 전문 리포터 ChrisGPT가 X(트위터)를 통해 **OpenAI의 차세대 모델 GPT-6(코드명 'Astra')가 10조(兆) 파라미터 규모로 8월 중 출시될 예정**이라고 전했습니다. 정부의 규제 압박으로 출시가 일시 보류됐다는 소식까지 겹치면서 AI 업계가 술렁이고 있습니다. 여기에 지난 8월 6일 OpenAI는 자체 보고서에서 **Astra가 수학·이론컴퓨터과학 분야의 미해결 난제 10개를 풀었다**고 공식 확인해, '과학적 추론'의 새 시대를 예고하고 있습니다.

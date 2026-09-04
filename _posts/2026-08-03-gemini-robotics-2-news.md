@@ -6,6 +6,8 @@ categories: [career]
 tags: [Gemini, Google, GoogleDeepMind, GeminiRobotics2, 물리AI, 휴머노이드, 로봇AI, AI뉴스, 2026년8월, Apptronik]
 author: "40대 블로거"
 description: "Google DeepMind가 2026년 7월 30일 발표한 Gemini Robotics 2를 정리했습니다. 휴머노이드 전신 제어, 고급 손재주, 멀티 로봇 협업을 가능하게 한 3종 모델(주력 VLA·ER 2·On-Device 2)의 핵심과 개발자·사용자에게 미칠 영향을 분석합니다."
+sitemap: false
+noindex: true
 ---
 
 요즘 저처럼 **AI 뉴스, 특히 로봇과 결합되는 '물리 AI(Physical AI)' 흐름**을 눈여겨보시는 분들 많으시죠?

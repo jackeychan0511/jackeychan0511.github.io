@@ -6,6 +6,8 @@ categories: [career]
 tags: [Anthropic, Claude, ClaudeCode, DeepSeek, AI코딩, 코딩에이전트, AI에이전트, 블룸버그, AI뉴스, 2026년8월, 개발자도구]
 author: "40대 블로거"
 description: "블룸버그(2026.8.12) 보도로 DeepSeek가 Claude Code에 도전할 AI 에이전트 전용 팀을 꾸리기 위해 위챗 공식 계정을 개설하고 채용 공고를 냈습니다. 코딩 에이전트 시장을 둘러싼 한-중-미 경쟁 구도와 개발자에게 미칠 영향, 전망을 정리합니다."
+sitemap: false
+noindex: true
 ---
 
 요즘 저처럼 **"AI 코딩 에이전트, 이제 뭘 써야 하나"** 고민하시는 개발자 분들 많으시죠? Claude Code의 Auto Mode 기본 전환(8/14) 소식에 이어, 이번엔 **중국발 도전장**이 날아왔습니다.

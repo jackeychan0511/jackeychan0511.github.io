@@ -7,6 +7,8 @@ tags: [Gemini, Google, Pixel11Pro, DeviceHelp, 제미나이, 픽셀11프로, Gem
 author: "40대 블로거"
 description: "9to5Google(8월 24일)이 Gemini 앱에서 새 'Device help' 도구를 발견했습니다. Pixel 11 Pro에서만 테스트 중인 이 기능은 대화로 설정을 관리하고 Wi-Fi·배터리 같은 문제를 진단해 줍니다. 이슈 요약부터 사용자·개발자 영향, 전망까지 정리했습니다."
 image: /assets/images/posts/gemini-device-help-pixel-11-pro-20260825/gemini-icon-2025-wikimedia.png
+sitemap: false
+noindex: true
 ---
 
 요즘 저처럼 **스마트폰 설정 때문에 헤매시는 분들** 많으시죠? "Wi-Fi가 왜 자꾸 끊기지?", "배터리가 유난히 빨리 닳는데 뭘 건드려야 하지?" 하면서 설정 앱 여기저기 뒤적이다가 결국 검색하고, 그래도 모르겠으면 서비스센터를 찾게 되잖아요. 솔직히 저만 해도 지난주에 픽셀 폰 배터리 절약 설정 찾느라 10분을 헤맸습니다.

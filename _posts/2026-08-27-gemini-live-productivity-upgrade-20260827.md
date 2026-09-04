@@ -7,6 +7,8 @@ tags: [Gemini, Google, GeminiLive, Spark, DailyBrief, Gmail, AI뉴스, 에이전
 author: "40대 블로거"
 description: "2026년 8월 26일 구글이 Gemini Live의 대규모 생산성 업그레이드를 발표했습니다. 음성만으로 Spark 에이전트·Gmail·Daily Brief·개인 기억(Personal Intelligence)을 실행할 수 있게 된 것인데요. 같은 날 TechCrunch는 '채팅·Spark·Daily Brief가 각자 브랜드로 분리돼 오히려 혼란스럽다'는 날카로운 비판을 내놨습니다. 발표 내용과 브랜딩 논란을 이슈 요약 → 상세 분석 → 영향 → 전망 순서로 정리했습니다."
 image: /assets/images/posts/gemini-live-productivity-upgrade-20260827/gemini-live-9to5google.jpg
+sitemap: false
+noindex: true
 ---
 
 요즘 저처럼 **AI 비서에게 말로 지시만 하면 일이 처리되는 시대**를 기대하시는 분들 많으시죠? 솔직히 저도 지난주까지는 "음성 AI는 아직 대화나 하고 앉아 있는 수준 아니냐"고 생각했는데, 어제(8월 26일) 구글이 그 기대를 확 끌어올리는 발표를 내놨습니다.

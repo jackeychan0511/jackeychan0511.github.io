@@ -6,6 +6,8 @@ categories: [career]
 tags: [Gemini, Google, GeminiOmni, AI영상, 영상생성, 무료이벤트, Veo, AI뉴스, 2026년8월, 구글AI]
 author: "40대 블로거"
 description: "구글이 Gemini Omni로 유료 구독 없이 하루 10개 영상을 무료로 만들 수 있는 한시 이벤트를 진행 중입니다. 한국 시간 8월 5일 오후 3시 59분에 종료되는 이번 프로모션의 내용, 사용 방법, 영향과 전망을 정리했습니다."
+sitemap: false
+noindex: true
 ---
 
 요즘 저처럼 **AI 영상 생성 도구**에 관심이 많으신 분들, 그리고 "유료 구독 없이 AI 영상을 한번 만들어 보고 싶다" 하시는 분들 많으시죠?

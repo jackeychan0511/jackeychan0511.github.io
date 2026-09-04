@@ -7,6 +7,8 @@ tags: [Anthropic, Claude, 앤트로픽, 클로드, AI뉴스, Salesforce, 세일�
 author: "40대 블로거"
 description: "2026년 8월 26일 세일즈포스(Salesforce)가 Q2 FY27 실적 발표와 함께 앤트로픽(Anthropic)과의 확장 파트너십 '클라우드포스(Claudeforce)'를 발표했습니다. 핵심은 CRM 전체를 클로드(Claude) 안으로 가져오는 'Salesforce in Claude' 플러그인으로, 미팅 준비·딜 헬스 리뷰·파이프라인 리뷰 등 37개의 사전 구축 영업 스킬을 갖춰 영업 담당자에게 'AI CRO' 역할을 합니다. 슬랙(Slack)에는 클로드가 기본 모델로 탑재되고, 에이전트포스(Agentforce)와 Amazon Bedrock 기반 Trust Boundary 통합도 포함됩니다. 오픈 베타는 2026년 9월 예정이며, 발표 직후 CRM 주가는 애프터마켓에서 13% 급등했습니다. 이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망 순서로 정리했습니다."
 image: /assets/images/posts/2026-08-27-claudeforce-salesforce-partnership/claudeforce-official.png
+sitemap: false
+noindex: true
 ---
 
 요즘 저처럼 **Claude Cowork에 업무를 맡겨보신 분들**, 많으시죠? 솔직히 저는 에이전트가 자료를 정리하고 일정을 잡아주는 게 너무 편해서, 이제는 회사 CRM에 일부러 로그인해서 화면을 클릭클릭하는 게 오히려 번거롭게 느껴지기 시작했습니다. 그런데 8월 26일, **세일즈포스(Salesforce)와 앤트로픽(Anthropic)이 '클라우드포스(Claudeforce)'라는 파트너십을 발표**하면서 이 불편이 싹 사라질 전망입니다. CRM 데이터를 클로드 안에서 바로 읽고, 업데이트하고, 실행까지 할 수 있게 됐거든요. 오늘은 이 **이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망** 순서로 정리해 드리겠습니다.

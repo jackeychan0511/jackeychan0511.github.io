@@ -6,6 +6,8 @@ categories: [career]
 tags: [Qwen, 로컬LLM, MacStudio, M5, 애플, AI하드웨어, 멀티GPU]
 author: 재찬키
 description: "Qwen 3.8 Flash Next(125B MOE) 출시 예고와 애플 M5 Max/Ultra Mac Studio 공개 소식. 로컬 LLM 구축에 필요한 하드웨어 스펙과 가성비를 정리했습니다."
+sitemap: false
+noindex: true
 ---
 
 이번 주 로컬 LLM 커뮤니티가 들썩일 만한 소식이 세 가지나 겹쳤습니다. 대형 언어 모델 Qwen 3.8 Flash Next 출시 예고, B70 멀티 GPU 구성 성공, 그리고 애플의 신형 Mac Studio 공개까지. 하나씩 정리해드릴게요.

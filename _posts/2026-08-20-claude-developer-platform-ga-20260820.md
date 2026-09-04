@@ -6,6 +6,8 @@ categories: [career]
 tags: [Anthropic, Claude, 클로드, 앤트로픽, 개발자플랫폼, DeveloperPlatform, FilesAPI, AgentSkills, AdminAPI, ManagedAgents, ClaudeConsole, Playground, ClaudeCode, API, AI뉴스, 2026년8월]
 author: "40대 블로거"
 description: "Anthropic이 8월 19일 Claude Developer Platform의 대규모 GA(정식 출시) 업데이트를 발표했습니다. Admin API 유저 관리, Files API, Agent Skills API가 정식 버전으로 전환되고, Claude Managed Agents에는 웹 접근 도메인 제한·셀프호스티드 샌드박스 메모리 스토어가 추가됐으며, Console 세션 뷰어도 전면 개편됐습니다. 8월 18일 Workbench→Playground 개편과 8월 20일 Claude Code 업데이트까지 — 이슈 요약 → 상세 분석 → 영향 → 전망 순서로 정리합니다."
+sitemap: false
+noindex: true
 ---
 
 요즘 저처럼 **Claude API로 업무 자동화나 AI 서비스를 만드시는 분들**, 그리고 **Claude Code로 개발하시는 분들** 많으시죠? 저도 이 블로그를 Claude와 함께 쓰면서, 자연스럽게 **Anthropic의 개발자 플랫폼(Developer Platform)이 어떻게 변하는지** 매주 눈여겨보고 있습니다. 베타 기능이었다가 정식(GA)으로 바뀌는 순간이 언제인지가, 실제 서비스에 적용할지 말지를 결정하는 기준이 되니까요.

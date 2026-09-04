@@ -7,6 +7,8 @@ tags: [GPT, OpenAI, Astra, GPT-6, 사이버보안, Critical, PreparednessFramewo
 author: "40대 블로거"
 image: /assets/images/posts/openai-astra-critical-20260903/openai-logo-2025-symbol.png
 description: "2026년 9월 1일(화, 미국 현지시간), OpenAI가 공식 블로그 'Path to Astra: critical capabilities and frontier safeguards'를 통해 차세대 모델 'Astra'가 자체 Preparedness Framework 기준 사이버보안 부문 'Critical(심각)' 임계치를 충족한 최초의 모델임을 공식 확인했습니다. 평가에서 Astra는 ExploitBench 100%를 기록했고, 하드닝된 브라우저·OS를 상대로 한 전문가 주도 평가에서 미지의 취약점(제로데이)을 발견해 실제로 동작하는 익스플로잇 체인까지 구성했습니다. OpenAI는 출시를 위해 일반 사용자용 안전장치 강화 버전과 승인된 방어 보안 조직 전용 'Daybreak Blue'로 접근을 분할하는 정책을 발표했습니다. 8/7 가능성 첫 언급 → 8/18 RL 학습 2주 중단 → 9/1 공식 판정으로 이어지는 흐름과 사용자·개발자·보안 전문가에게 미칠 영향을 정리했습니다."
+sitemap: false
+noindex: true
 ---
 > **📌 한줄 요약:** OpenAI가 **2026년 9월 1일(화, 미국 현지시간)** 공식 블로그 **"Path to Astra: critical capabilities and frontier safeguards"** 를 통해, 차세대 모델 **Astra**가 자체 안전 프레임워크(Preparedness Framework) 기준 **사이버보안 부문 'Critical(심각)' 임계치를 충족한 첫 번째 모델**임을 공식 확인했습니다. 평가에서 Astra는 **ExploitBench 100%**를 기록했고, 보안이 강화된(하드닝) 브라우저·OS를 상대로 한 전문가 주도 평가에서 **아직 알려지지 않은 취약점(제로데이)을 발견해 실제 동작하는 익스플로잇 체인**까지 만들었습니다. OpenAI는 이에 대응해 **일반 사용자용 '안전장치 강화 버전'과 승인된 보안 전문가·조직 전용 'Daybreak Blue'로 접근을 분할**하는 새 출시 정책을 공개했습니다. 지난 8월 18일 RL 학습 2주 중단(직전 포스팅)으로 이어지던 '사이버 Critical 논란'이, 드디어 **공식 판정과 구체적 안전장치**로 마무리되는 분위기입니다.
 

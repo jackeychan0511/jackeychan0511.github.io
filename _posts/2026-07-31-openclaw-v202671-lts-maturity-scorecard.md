@@ -5,6 +5,8 @@ date: 2026-07-31 20:00:00 +0900
 categories: [career]
 tags: [OpenClaw, AI에이전트, v2026.7.1, LTS, MaturityScorecard, ControlUI, GPT-5.6, 오픈소스AI, 엔터프라이즈]
 image: /assets/images/posts/openclaw-july-2026-update/hero-openclaw.png
+sitemap: false
+noindex: true
 ---
 
 요즘 저처럼 **오픈소스 AI 에이전트** 생태계를 주시하고 계신 분들, OpenClaw 소식 정말 뜨겁죠.

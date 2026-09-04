@@ -6,6 +6,8 @@ categories: [career]
 tags: [Gemini, Google, Gemini35Pro, Gemini4, SemiAnalysis, AI뉴스, GoogleDeepMind, AI모델, TPU, 2026년8월, 구글AI]
 author: "40대 블로거"
 description: "SemiAnalysis가 8월 7일 보고서에서 Google이 Gemini 3.5 Pro를 조용히 취소하고 Gemini 4 홍보로 전환했다고 주장했습니다. 3연속 일정 지연과 베이스 아키텍처 재구축 끝에 나온 이 보도의 근거와 반박, 사용자·개발자에게 미칠 영향, 그리고 아직 진행 중인 Gemini Omni 무료 영상 이벤트(8월 12일 오후 3시 59분 종료)까지 정리했습니다."
+sitemap: false
+noindex: true
 ---
 
 요즘 저처럼 **Gemini 3.5 Pro** 출시를 손꼽아 기다리셨던 분들, 그리고 지난주(8월 5일)에 돌았던 "3.5 Pro가 8월 12일에 나온다"는 출시설을 보시고 설레셨던 분들 많으시죠? 솔직히 저도 이번 주 안에 나올 줄 알고 있었는데, 그 사이에 꽤 충격적인 보도가 나왔습니다.

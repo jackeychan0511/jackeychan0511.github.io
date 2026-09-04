@@ -6,6 +6,8 @@ categories: [career]
 tags: [Gemini, Google, 제미나이, MediaWatermark, 워터마크, SynthID, C2PA, NanoBanana, Flow, AI이미지, 생성형AI, AI뉴스, 2026년8월, 구글AI]
 author: "40대 블로거"
 description: "2026년 8월 14일(미국 현지) 구글이 Gemini 앱과 AI 비디오 생성기 Flow에 'Media Watermark' 설정을 도입했습니다. AI로 만든 이미지·영상·음악에 찍히던 '보이는 워터마크(스파클 로고)'를 끌 수 있게 된 대신, 보이지 않는 SynthID 워터마크와 C2PA 메타데이터는 그대로 남습니다. 이슈 요약 → 상세 분석 → 사용자·개발자 영향 → 전망 순서로 정리했습니다."
+sitemap: false
+noindex: true
 ---
 요즘 저처럼 **"AI로 이미지도 만들고, 영상도 만들고, 블로그 썸네일도 뚝딱"** 만드시는 분들 많으시죠? 솔직히 저도 Gemini로 썸네일을 만들 때마다 **모서리에 찍히는 반짝이(스파클) 로고**가 좀 거슬렸는데, 이번에 구글이 그 고민을 해결해줄 설정을 내놨습니다.
 

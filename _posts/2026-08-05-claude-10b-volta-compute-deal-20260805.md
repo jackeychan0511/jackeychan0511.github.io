@@ -6,6 +6,8 @@ categories: [career]
 tags: [Anthropic, Claude, Volta, Bitdeer, AI인프라, 데이터센터, NVIDIA, VeraRubin, AI뉴스, 2026년8월, AI컴퓨팅]
 author: "40대 블로거"
 description: "Bloomberg가 2026년 8월 4일 보도한 Anthropic의 100억 달러 규모 컴퓨팅 계약을 정리했습니다. 6년 계약으로 노르웨이 티달 데이터센터 133MW 용량을 확보하고, 엔비디아 최신 Vera Rubin 칩을 사용할 예정입니다. 이슈 요약, 상세 분석, 사용자·개발자 영향, 전망을 다룹니다."
+sitemap: false
+noindex: true
 ---
 
 요즘 저처럼 **AI 뉴스, 특히 '어느 회사가 컴퓨팅 인프라를 얼마에 확보했는가'**를 유심히 보시는 분들 많으시죠?

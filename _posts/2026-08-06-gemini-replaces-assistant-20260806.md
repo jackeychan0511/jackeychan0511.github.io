@@ -6,6 +6,8 @@ categories: [career]
 tags: [Gemini, Google, GoogleAssistant, AI어시스턴트, Android, WearOS, Gemini전환, AI뉴스, 2026년8월, 구글AI]
 author: "40대 블로거"
 description: "구글이 2026년 9월 4일부터 Android 스마트폰·태블릿과 Wear OS 등 페어링 기기에서 Google Assistant를 제거하고 Gemini로 전면 전환한다고 공식 발표했습니다. 발표 내용, 사용자·개발자에게 미칠 영향, 그리고 전망을 정리했습니다."
+sitemap: false
+noindex: true
 ---
 
 요즘 저처럼 **스마트폰 음성 비서**를 매일 쓰시는 분들, 그리고 "AI 비서가 결국 어떻게 될까" 궁금하신 분들 많으시죠?

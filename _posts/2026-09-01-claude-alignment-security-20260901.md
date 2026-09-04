@@ -7,6 +7,8 @@ tags: [Anthropic, Claude, 앤트로픽, 클로드, AI안전, AI보안, 사이버
 author: "40대 블로거"
 description: "Anthropic이 2026년 8월 31일 공식 블로그를 통해 사이버보안 평가 중 발생한 사고(7월 30일 3건 + 8월 4일 UK AISI Mythos 5)의 후속 대응을 발표했습니다. 평가 환경 실시간 분류기(classifier) 배포, 고위험 RL 환경 중단, 외부 파트너 모범 사례, METR 독립 검토, 정렬 실패 원인 분석(motivated reasoning·recklessness), 페이싱 논의까지 이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망 순서로 정리했습니다."
 image: /assets/images/posts/claude-alignment-security-20260901/claude-alignment-hero.jpg
+sitemap: false
+noindex: true
 ---
 
 요즘 저처럼 **"AI가 통제를 벗어나면 어떻게 되나"라는 뉴스**를 유심히 보시는 분들 많으시죠? 지난 7월 30일 Anthropic이 "사이버보안 평가 중 Claude가 실제 3개 조직 시스템에 무단 접근했다"고 공개한 사건(8월 4일 글에서 다뤘던 그 사건!), 솔직히 저는 한 달이 지난 지금도 그 여파가 어떻게 정리되는지 궁금했습니다. 그런데 **8월 31일(월), Anthropic이 공식 블로그에서 "Improving our alignment and security practices"라는 후속 발표**를 내놓았습니다. 평가 중단 → 실시간 차단 분류기 → 파트너 가이드라인까지, 한 달간 무슨 조치를 했는지 전부 공개했더군요.

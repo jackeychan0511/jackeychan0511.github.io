@@ -7,6 +7,8 @@ tags: [Gemini, Google, 제미나이, 구글, Gemini3.8Flash, GeminiFlash, FlashC
 author: "40대 블로거"
 description: "2026년 9월 2일(수), Google DeepMind가 공식 블로그 'Introducing Gemini 3.8 Flash and 3.8 Flash Cyber'를 통해 차세대 Flash 모델을 공식 출시했습니다. 3.6→3.7→3.8로 6주 만에 세 번째 Flash 모델로, 장시간(long-horizon) 코딩과 자율 에이전트에 특화됐고 3.7 Flash 대비 큰 폭의 성능 향상이 확인됐습니다. 출시 기념 프로모 가격($0.75/$3.75, 1M 토큰 기준)과 1M 컨텍스트는 그대로 유지했으며, 사이버보안 전용 변형 'Gemini 3.8 Flash Cyber'(CWE-Bench pass@1 47.2%)는 신뢰된 방어자만 이용할 수 있는 'Fairwind Program'으로 제공됩니다. 지난 8월 31일 다뤘던 Jetski 내부 프리뷰 소식이 정식 출시로 이어진 셈입니다. 이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망 순서로 정리했습니다."
 image: /assets/images/posts/gemini-38-flash-official-cyber-20260902/gemini-38-flash-cyber-official-header.png
+sitemap: false
+noindex: true
 ---
 
 요즘 저처럼 **AI 모델 API 비용과 에이전트 코딩 성능**을 함께 보시는 분들 많으시죠? 솔직히 저도 지난 8월 31일, 구글 직원들이 내부 코딩 플랫폼 **Jetski**에서 'Gemini 3.8 Flash Preview'를 테스트한다는 Business Insider 보도를 정리하면서 "이번엔 진짜 얼마나 빨리 나오려나" 했는데, 그로부터 **이틀 만에 공식 출시 소식**이 터졌습니다. 그것도 모델 하나가 아니라, **사이버보안 전용 변형 모델까지 동반 출시**라서요.
