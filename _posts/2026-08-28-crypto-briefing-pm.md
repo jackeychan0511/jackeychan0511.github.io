@@ -7,6 +7,8 @@ tags: [비트코인, 가상화폐, 코인, BTC, 암호화폐]
 author: "40대 블로거"
 image: /assets/images/posts/crypto-briefing-20260828-pm/bitcoin-price-chart.png
 description: "8월 28일 오후 코인 브리핑. 비트코인이 8만 달러 안착에 실패한 채 7.9만 달러대에서 등락하고 있습니다. 오후 5시 64억 달러 규모 BTC 옵션 만기를 무난히 소화했고, 블랙록 ETF 연계 지갑에는 9시간 만에 약 3000억 원이 유입됐습니다. BTC·ETH 현물 ETF는 9거래일 연속 동반 순유입, 그레이스케일은 비트코인-금 상관관계가 0%→50%로 급등했다고 분석했습니다. 국내에서는 국민의힘의 가상자산 과세 2년 유예 법안 추가 발의와 업비트·빗썸의 SNX 상폐·ICX 거래유의종목 지정 소식이 있었습니다. 오늘 밤 11시 워시 연준 의장의 잭슨홀 첫 기조연설이 최대 변수입니다."
+sitemap: false
+noindex: true
 ---
 
 ![비트코인 7일 가격 차트](/assets/images/posts/crypto-briefing-20260828-pm/bitcoin-price-chart.png)

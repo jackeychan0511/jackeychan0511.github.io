@@ -7,6 +7,8 @@ tags: [비트코인, 가상화폐, 코인, BTC, 암호화폐]
 author: "40대 블로거"
 image: /assets/images/posts/crypto-briefing-20260816-am/bitcoin-price-chart.png
 description: "8월 16일 오전 코인 브리핑. 비트코인 현물 ETF가 8/14 하루 5,763만 달러 순유출로 3일 연속 유출을 이어갔지만 BTC는 6.3만 달러(업비트 8,928만 원)에서 주말 보합을 지켰다. 렉트 캐피털은 주간 마감 6만3,220달러 여부를 분수령으로 제시했다. 업비트는 8월 들어 하루 한 건꼴 신규 상장을 이어가고 있고, 갤럭시디지털 노보그라츠 CEO는 미국 재정적자를 비트코인 강세 논거로 꼽았다."
+sitemap: false
+noindex: true
 ---
 
 ![비트코인 72시간 가격 차트](/assets/images/posts/crypto-briefing-20260816-am/bitcoin-price-chart.png)

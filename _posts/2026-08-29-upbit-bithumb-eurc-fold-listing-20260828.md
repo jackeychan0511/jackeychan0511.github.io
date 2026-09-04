@@ -7,6 +7,8 @@ tags: [신규상장, 업비트, 빗썸, EURC, 이유알코인, 유로코인, FOL
 author: "40대 블로거"
 image: /assets/images/posts/upbit-bithumb-eurc-fold-listing-20260828/eurc-hero.jpg
 description: "8/28 업비트와 빗썸에 이유알코인(EURC)과 인터폴드(FOLD)가 동시에 상장됐습니다. 서클(Circle)이 발행한 유로 스테이블코인 EURC는 국내 거래소 최초 상장으로 업비트가 14시(KRW·BTC·USDT), 빗썸이 15시(KRW)에 거래를 시작했고, FOLD는 빗썸 원화마켓에 14시부터 추가됐습니다. 상장 정보·프로젝트·시세·주의사항을 정리했습니다."
+sitemap: false
+noindex: true
 ---
 
 어제(8/28)는 유독 **상장 소식이 풍성한 날**이었어요. 서클(Circle)의 유로 스테이블코인 **이유알코인(EURC)** 이 업비트와 빗썸에 같은 날 나란히 상장됐고, 인터폴드(FOLD)도 빗썸 원화마켓에 새로 들어왔습니다. 특히 EURC는 **국내 거래소 최초 상장**이라 시장의 관심이 컸는데요, 상장 정보와 프로젝트, 현재 시세까지 한 번에 정리해 드릴게요.

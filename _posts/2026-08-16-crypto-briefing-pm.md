@@ -7,6 +7,8 @@ tags: [비트코인, 가상화폐, 코인, BTC, 암호화폐]
 author: "40대 블로거"
 image: /assets/images/posts/crypto-briefing-20260816-pm/bitcoin-price-chart.png
 description: "8월 16일 오후 코인 브리핑. 러시아가 전력난을 이유로 모스크바 등 수도권 비트코인 채굴을 2032년 말까지 전면 금지했고, UBS는 2분기 13F에서 IBIT 콜옵션을 24배 늘린 것으로 나타났다. 피터 토드와 아담 백의 2100만개 상한 논쟁도 재점화. BTC는 6.3만 달러(업비트 8,923만 원) 보합."
+sitemap: false
+noindex: true
 ---
 
 ![비트코인 7일 가격 차트](/assets/images/posts/crypto-briefing-20260816-pm/bitcoin-price-chart.png)

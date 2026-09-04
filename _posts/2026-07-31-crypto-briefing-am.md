@@ -7,6 +7,8 @@ tags: [비트코인, 가상화폐, 코인, BTC, 암호화폐, FOMC, 연준, 케�
 author: "40대 블로거"
 image: /assets/images/posts/crypto-briefing-20260731/crypto-bitcoin.jpg
 description: "7월 31일 오전 코인 브리핑. FOMC 5연속 금리 동결(3.50~3.75%), 3명 반대표라는 이례적 결과. 케빈 워시 의장 체제 매파 신호 강화. BTC $64,747, 미·이란 긴장에 중동 리스크 재부각. 9월 인상 확률 50% 상회."
+sitemap: false
+noindex: true
 ---
 
 ![비트코인·암호화폐](/assets/images/posts/crypto-briefing-20260731/crypto-bitcoin.jpg)

@@ -7,6 +7,8 @@ tags: [비트코인, 가상화폐, 코인, BTC, 암호화폐, 콜드카드, 하�
 author: "40대 블로거"
 image: /assets/images/posts/crypto-briefing-20260801/crypto-bitcoin.jpg
 description: "8월 1일 오전 코인 브리핑. 콜드카드 Mk3 하드웨어 지갑 시드 결함으로 약 594 BTC(약 5,470억원)가 25분 만에 탈취되는 사건 발생. BTC는 $64,200선으로 소폭 반등, 원화 약 9,080만원. 8월 징크스 관심과 함께 하드웨어 지갑 보안 점검이 필요한 시점."
+sitemap: false
+noindex: true
 ---
 
 ![비트코인 차트](/assets/images/posts/crypto-briefing-20260801/crypto-bitcoin.jpg)

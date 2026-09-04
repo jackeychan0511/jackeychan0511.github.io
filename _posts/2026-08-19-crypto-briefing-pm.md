@@ -7,6 +7,8 @@ tags: [비트코인, 가상화폐, 코인, BTC, 암호화폐]
 author: "40대 블로거"
 image: /assets/images/posts/crypto-briefing-20260819-pm/bitcoin-price-chart.png
 description: "8월 19일 오후 코인 브리핑. 비트코인 6.4만 달러대 횡보(업비트 8,986만 원). 금감원 전자공시로 공개된 반기 보고서에서 두나무 자체 보유 가상자산 평가가치가 1조3,779억 원으로 작년 말 대비 39.6% 급감했다. 반면 회원 위탁 비트코인은 17만3,911개로 늘며 '저가 매수·장기 보유' 수요는 이어지는 모습. 오늘 밤 백악관 암호화폐 정상회의와 내일 새벽 FOMC 의사록이 최대 변수다."
+sitemap: false
+noindex: true
 ---
 
 ![비트코인 7일 가격 차트](/assets/images/posts/crypto-briefing-20260819-pm/bitcoin-price-chart.png)

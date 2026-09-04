@@ -7,6 +7,8 @@ tags: [비트코인, 가상화폐, 코인, BTC, 암호화폐, 콜드카드, 하�
 author: "40대 블로거"
 image: /assets/images/posts/crypto-briefing-20260801/crypto-bitcoin.jpg
 description: "8월 1일 오후 코인 브리핑. 콜드카드 Mk3 탈취 피해가 기존 594 BTC에서 1,000 BTC 이상(약 7,000만 달러)으로 약 2배 확대. Chainalysis는 공격자가 잔액이 큰 지갑부터 우선 공격, 첫 10분에 약 3,000만 달러를 탈취한 것으로 분석. BTC는 $63,000선으로 후퇴하며 9,000만원선 등락."
+sitemap: false
+noindex: true
 ---
 
 ![비트코인 차트](/assets/images/posts/crypto-briefing-20260801/crypto-bitcoin.jpg)

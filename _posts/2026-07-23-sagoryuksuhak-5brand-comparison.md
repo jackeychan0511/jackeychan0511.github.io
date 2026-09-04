@@ -5,6 +5,8 @@ date: 2026-07-23 09:00:00 +0900
 categories: [education]
 tags: [사고력수학, 시매쓰, 크레버스, CMS, 와이즈만, 황소수학, 씨투엠, 초등수학, 학원비교]
 image: /assets/images/posts/education-math.jpg
+sitemap: false
+noindex: true
 ---
 
 초등학생 자녀를 둔 부모라면 한 번쯤 **사고력수학 학원**을 고민해보셨을 겁니다. 문제는 브랜드가 너무 많아서 어디가 우리 아이에게 맞을지 판단하기 어렵다는 점이죠.

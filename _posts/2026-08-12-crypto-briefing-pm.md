@@ -7,6 +7,8 @@ tags: [비트코인, 가상화폐, 코인, BTC, 암호화폐]
 author: "40대 블로거"
 image: /assets/images/posts/crypto-briefing-20260812-pm/bitcoin-laptop-keyboard.jpg
 description: "8월 12일 오후 코인 브리핑. 미국 비트코인 현물 ETF가 하루 만에 순유입으로 전환(8/11 총 +488만 달러, IBIT +5,020만 달러)했다. 라이엇 플랫폼즈가 500 BTC(약 3,000만 달러)를 매도했고, CryptoQuant 애널리스트는 변동성이 2년래 최저 수준(3.8%)까지 압축됐다며 큰 움직임을 경고했다. 오늘 밤 21:30 美 7월 CPI 발표가 분수령."
+sitemap: false
+noindex: true
 ---
 
 ![노트북 키보드 위 비트코인 실물 코인](/assets/images/posts/crypto-briefing-20260812-pm/bitcoin-laptop-keyboard.jpg)

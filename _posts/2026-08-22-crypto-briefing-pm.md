@@ -7,6 +7,8 @@ tags: [비트코인, 가상화폐, 코인, BTC, 암호화폐]
 author: "40대 블로거"
 image: /assets/images/posts/crypto-briefing-20260822-pm/bitcoin-price-chart.png
 description: "8월 22일 오후 코인 브리핑. 어제 장중 1억 950만원까지 치솟았던 비트코인이 차익실현 매물에 1억 540만원대(-1.9%)로 숨고르기에 들어갔습니다. 글래스노드는 시장 평균 매입가(약 7만 8,100달러) 회복을 확인했고, 현물 ETF는 4거래일 연속 순유입(IBIT 이틀 연속 5억 달러+)으로 기관 수요가 이어지고 있습니다. 이더리움은 오늘 아침 2,500달러를 돌파했다가 2,420달러로 후퇴. 다음주 잭슨홀(8/27~29) 워시 의장 첫 기조연설이 다음 변수입니다."
+sitemap: false
+noindex: true
 ---
 
 ![비트코인 7일 가격 차트](/assets/images/posts/crypto-briefing-20260822-pm/bitcoin-price-chart.png)

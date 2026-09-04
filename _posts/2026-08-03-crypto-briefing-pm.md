@@ -7,6 +7,8 @@ tags: [비트코인, 가상화폐, 코인, BTC, 암호화폐, 콜드카드, 클�
 author: "40대 블로거"
 image: /assets/images/posts/crypto-briefing-20260801/crypto-bitcoin.jpg
 description: "8월 3일 오후 코인 브리핑. 콜드카드 공격 피해가 약 8,900만 달러(1,367 BTC)로 확대되고 Galaxy Research가 4차 공격 가능성을 경고. Coldcard는 출하 중단과 재고 폐기를 결정. 미 상원은 이번 주 의사일정에서 클래리티법 표결을 제외해 오늘 표결이 불발. BTC는 업비트 기준 8,945만원(-1.58%)."
+sitemap: false
+noindex: true
 ---
 
 ![비트코인 차트](/assets/images/posts/crypto-briefing-20260801/crypto-bitcoin.jpg)

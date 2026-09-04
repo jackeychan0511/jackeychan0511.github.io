@@ -7,6 +7,8 @@ tags: [비트코인, 가상화폐, 코인, BTC, 암호화폐]
 author: "40대 블로거"
 image: /assets/images/posts/crypto-briefing-20260814-pm/bitcoin-price-chart.png
 description: "8월 14일 오후 코인 브리핑. SEC가 'Regulation Crypto' 제안을 앞둔 8월 14일 정례회의를 '예기치 못한 일정 문제'로 돌연 취소했다. 재일정은 미정이며, 백악관은 8월 19일 업계 라운드테이블을, CFTC 혁신자문위는 8월 20일 회의를 예정하고 있다. 비트코인은 6.28만 달러로 밀리며 6.3만 달러선을 이탈했고, 미국 스팟 BTC ETF는 8월 13일 1억 3,110만 달러 순유출을 기록했다. 업비트는 8월 들어 하루 한 건꼴로 신규 상장을 이어가고 있다."
+sitemap: false
+noindex: true
 ---
 
 ![비트코인 48시간 가격 차트](/assets/images/posts/crypto-briefing-20260814-pm/bitcoin-price-chart.png)

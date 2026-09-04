@@ -7,6 +7,8 @@ tags: [비트코인, 가상화폐, 코인, BTC, 암호화폐, 클래리티법, C
 author: "40대 블로거"
 image: /assets/images/posts/crypto-briefing-20260801/crypto-bitcoin.jpg
 description: "8월 3일 오전 코인 브리핑. 미 상원이 지난주 클래리티법 표결을 미루면서 8월 3~7일이 휴회 전 마지막 주가 됐고, 이르면 오늘(미 동부 8/3) 본회의 표결이 예상된다. Kalshi 통과 확률 43%(8/2 기준). BTC는 8/2 오전 $62,474까지 하락하며 ETF 순유출 압력 속 6.2만달러대에 머물고 있다."
+sitemap: false
+noindex: true
 ---
 
 ![비트코인 차트](/assets/images/posts/crypto-briefing-20260801/crypto-bitcoin.jpg)

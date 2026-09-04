@@ -7,6 +7,8 @@ tags: [비트코인, 가상화폐, 코인, BTC, 암호화폐]
 author: "40대 블로거"
 image: /assets/images/posts/crypto-briefing-20260825-pm/bitcoin-price-chart.png
 description: "8월 25일 오후 코인 브리핑. 비트코인이 5개월 만에 8만 달러를 재돌파하며 24시간 숏 청산 2.2억 달러가 터졌습니다. 어제 전망했던 8만 달러 돌파가 새벽에 실제로 이뤄졌어요. 미국 현물 ETF는 6거래일 연속 순유입(누적 22.6억 달러)을 이어갔고, 미 재무부는 이란 암호화폐 부문 제재를 확대했습니다. 현재 BTC 7만 9,700달러(업비트 1억 1,021만원), ETH 2,480달러. 잭슨홀 미팅(8/27~29)이 다음 변수입니다."
+sitemap: false
+noindex: true
 ---
 ![비트코인 7일 가격 차트](/assets/images/posts/crypto-briefing-20260825-pm/bitcoin-price-chart.png)
 *BTC 7일 가격 추이 (CoinGecko, 8/25 18:00 KST 기준)*

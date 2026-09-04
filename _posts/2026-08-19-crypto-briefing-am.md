@@ -7,6 +7,8 @@ tags: [비트코인, 가상화폐, 코인, BTC, 암호화폐]
 author: "40대 블로거"
 image: /assets/images/posts/crypto-briefing-20260819-am/bitcoin-price-chart.png
 description: "8월 19일 오전 코인 브리핑. 비트코인이 뉴욕장에서 장중 6만5000달러를 터치한 뒤 6만4500달러대에서 숨고르기를 이어갔다(업비트 9,072만 원). 미국 SEC가 폴 앳킨스 위원장 취임 후 첫 디지털자산 규제안 'Regulation Crypto Assets'을 제안, 조건부로 최대 7,500만 달러 규모 토큰 발행까지 증권 등록을 면제하는 내용을 담았다. 오늘(8/19)은 트럼프 대통령 주재 백악관 암호화폐 정상회의가 예정된 날이다. 씨티의 연내 BTC 커스터디 진출, 고래의 60일간 4.3만 BTC 매수 등 기관·온체인 동향도 주목된다."
+sitemap: false
+noindex: true
 ---
 
 ![비트코인 7일 가격 차트](/assets/images/posts/crypto-briefing-20260819-am/bitcoin-price-chart.png)

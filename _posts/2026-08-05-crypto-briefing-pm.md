@@ -7,6 +7,8 @@ tags: [비트코인, 가상화폐, 코인, BTC, 암호화폐, 클래리티법, �
 author: "40대 블로거"
 image: /assets/images/posts/crypto-briefing-20260801/crypto-bitcoin.jpg
 description: "8월 5일 오후 코인 브리핑. 상원 민주당이 윤리 합의 교착을 이유로 클래리티법 토론종결 부결 방침을 밝혀 통과 확률이 23%로 하락. 스트래터지 연계 지갑에서 1,030 BTC(약 6,614만 달러) 유출로 연내 4번째 매각 가능성. 워런·블루멘탈 의원, 트럼프 밈코인 SEC 조사 요구. BTC 6.4만달러대 등락."
+sitemap: false
+noindex: true
 ---
 
 ![비트코인](/assets/images/posts/crypto-briefing-20260801/crypto-bitcoin.jpg)

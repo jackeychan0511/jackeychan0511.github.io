@@ -7,6 +7,8 @@ tags: [비트코인, 가상화폐, 코인, BTC, 암호화폐, 가상자산과세
 author: "40대 블로거"
 image: /assets/images/posts/crypto-briefing-20260801/crypto-bitcoin.jpg
 description: "8월 4일 오후 코인 브리핑. 미·이란 협상 기대에 BTC 6.35만달러대 반등, 거래량 54% 급증. 정부 2026년 세제개편안에 가상자산 과세 추가 유예 제외…2027년 1월 예정대로 과세. 업비트 디파이앱(HOME) 신규 상장, 클래리티법 통과 확률 31%로 하락."
+sitemap: false
+noindex: true
 ---
 
 ![비트코인 차트](/assets/images/posts/crypto-briefing-20260801/crypto-bitcoin.jpg)

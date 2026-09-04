@@ -7,6 +7,8 @@ tags: [비트코인, 가상화폐, 코인, BTC, 암호화폐]
 author: "40대 블로거"
 image: /assets/images/posts/crypto-briefing-20260806-pm/bitcoin-holding.jpg
 description: "8월 6일 오후 코인 브리핑. 미국 BTC·ETH 현물 ETF에 하루 3억520만달러 순유입, 클래리티법은 상원 의사일정에 또 오르지 못하며 지연. 연준 6월 PCE 전망 3.6% 상향 여파에 금 4,235달러. BTC 6만4792달러(+0.92%), 업비트 약 9,175만 원."
+sitemap: false
+noindex: true
 ---
 
 ![손에 쥔 비트코인 실물 코인](/assets/images/posts/crypto-briefing-20260806-pm/bitcoin-holding.jpg)

@@ -7,6 +7,8 @@ tags: [비트코인, 가상화폐, 코인, BTC, 암호화폐]
 author: "40대 블로거"
 image: /assets/images/posts/crypto-briefing-20260903-pm/bitcoin-price-chart.png
 description: "9월 3일 오후 코인 브리핑. 트럼프의 이란 전쟁 종료 선언 검토 보도로 유가가 꺾이며 비트코인이 7만8000달러를 재돌파했습니다. 8월 ADP 고용은 7개월 만에 최저를 기록했고, G20 규제 공조 재확인과 21개 글로벌 금융기관의 스테이블코인 공동 발행 추진 소식이 겹쳤습니다."
+sitemap: false
+noindex: true
 ---
 
 ![비트코인 10일 가격 차트](/assets/images/posts/crypto-briefing-20260903-pm/bitcoin-price-chart.png)

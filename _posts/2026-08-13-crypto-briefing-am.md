@@ -7,6 +7,8 @@ tags: [비트코인, 가상화폐, 코인, BTC, 암호화폐]
 author: "40대 블로거"
 image: /assets/images/posts/crypto-briefing-20260813-am/bitcoin-challenge-coin.jpg
 description: "8월 13일 오전 코인 브리핑. 미국 7월 CPI(헤드라인 3.4%·코어 2.5%)가 예상에 부합했지만 비트코인은 6.4만 달러 아래로 밀렸다. 골드만삭스가 NEOS를 22억 5000만 달러에 인수하며 비트코인 수익형 ETF 시장에 진출했고, 하모니 ONE은 40억 개 토큰 무단 민팅 의혹에 26% 급락했다."
+sitemap: false
+noindex: true
 ---
 
 ![비트코인 챌린지 코인](/assets/images/posts/crypto-briefing-20260813-am/bitcoin-challenge-coin.jpg)

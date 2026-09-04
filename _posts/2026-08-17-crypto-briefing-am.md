@@ -7,6 +7,8 @@ tags: [비트코인, 가상화폐, 코인, BTC, 암호화폐]
 author: "40대 블로거"
 image: /assets/images/posts/crypto-briefing-20260817-am/bitcoin-price-chart.png
 description: "8월 17일 오전 코인 브리핑. 미국 BTC 현물 ETF가 지난주(8/10~14) 약 3.9억 달러 순유출로 재전환했고, ETH 현물 ETF도 5주 연속 순유입 행진을 마감했다. 직전 주 4월 이후 최대 순유입(+8.5억 달러)의 되돌림이다. 비트코인은 6.3만 달러(업비트 약 8,900만 원) 보합, 리플은 1달러 목전. 윈터뮤트는 '강세 전환 판단은 아직 이르다'고 분석했다."
+sitemap: false
+noindex: true
 ---
 
 ![비트코인 7일 가격 차트](/assets/images/posts/crypto-briefing-20260817-am/bitcoin-price-chart.png)

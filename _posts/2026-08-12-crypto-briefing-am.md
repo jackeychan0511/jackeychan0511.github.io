@@ -7,6 +7,8 @@ tags: [비트코인, 가상화폐, 코인, BTC, 암호화폐]
 author: "40대 블로거"
 image: /assets/images/posts/crypto-briefing-20260812/bitcoin-golden-coin.jpg
 description: "8월 12일 오전 코인 브리핑. 러시아 중앙은행이 비트코인·이더리움·USDT를 공개 거래 가능 자산으로 지정하는 제안을 내놨다(일반 투자자 연 30만 루블 한도, 8/24 의견수렴). BIP-110 포크 중단 여파로 루크 대시주니어가 BIP 편집팀에서 제외됐고, 트럼프 미디어는 2분기 2억3810만달러 순손실을 기록했다. 오늘 밤 21:30 美 7월 CPI 발표가 분수령."
+sitemap: false
+noindex: true
 ---
 
 ![금색 비트코인 실물 코인](/assets/images/posts/crypto-briefing-20260812/bitcoin-golden-coin.jpg)

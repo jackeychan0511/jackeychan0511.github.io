@@ -7,6 +7,8 @@ tags: [비트코인, 가상화폐, 코인, BTC, 암호화폐]
 author: "40대 블로거"
 image: /assets/images/posts/crypto-briefing-20260902-pm/bitcoin-price-chart.png
 description: "9월 2일 오후 코인 브리핑. 미군의 이란 재공습과 이란의 보복으로 중동 긴장이 고조되며 비트코인이 7만7000달러선을 위협받고 있습니다. 미 비트코인 현물 ETF는 하루 만에 2억3000만 달러 순유출로 다시 돌아섰고, 호르무즈 해협에서 한국 선사 유조선 피격 보도까지 나오며 유가·금리 급등이 위험자산을 짓눌렀습니다."
+sitemap: false
+noindex: true
 ---
 
 ![비트코인 7일 가격 차트](/assets/images/posts/crypto-briefing-20260902-pm/bitcoin-price-chart.png)

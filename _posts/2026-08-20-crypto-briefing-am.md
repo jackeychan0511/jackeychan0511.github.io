@@ -7,6 +7,8 @@ tags: [비트코인, 가상화폐, 코인, BTC, 암호화폐]
 author: "40대 블로거"
 image: /assets/images/posts/crypto-briefing-20260820-am/bitcoin-price-chart.png
 description: "8월 20일 오전 코인 브리핑. 비트코인 6.9만 달러 돌파(업비트 9,442만 원), 이더리움 18% 급등. 어젯밤 백악관 크립토 서밋에서 트럼프가 의회에 시장구조 법안 통과를 촉구했고, SEC는 첫 공식 암호화폐 룰메이킹 'Regulation Crypto Assets'을 제안했다. 오늘 새벽 공개된 FOMC 의사록은 9-3 매파적 스플릿(3인 인상 주장)이었지만 9월 인상 확률은 35%로 하락했다."
+sitemap: false
+noindex: true
 ---
 
 ![비트코인 7일 가격 차트](/assets/images/posts/crypto-briefing-20260820-am/bitcoin-price-chart.png)

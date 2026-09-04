@@ -3,6 +3,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="naver-site-verification" content="87a6cd8096bbd3c7a2ced02960db8efff0bfcfe2" />
 
+{% if page.noindex %}
+<meta name="robots" content="noindex, nofollow">
+{% endif %}
+
 {% seo %}
 
 <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">

@@ -7,6 +7,8 @@ tags: [비트코인, 가상화폐, 코인, BTC, 암호화폐]
 author: "40대 블로거"
 image: /assets/images/posts/crypto-briefing-20260827-pm/bitcoin-price-chart.png
 description: "8월 27일 오후 코인 브리핑. 비트코인이 15주 만에 8만 달러를 돌파했지만 7월 PCE(헤드라인 예상 상회)에 상승분을 반납하며 7.8만 달러대까지 밀렸다가 7.9만 달러대를 회복했습니다. 단기 보유자 차익실현 물량이 6만 BTC(8/20)에서 1.63만 BTC로 급감했고, 코인베이스 BTC 담보 주택담보대출 확대·자오창펑 발언·박현주 회장의 알트코인 상장 비판까지 정리했습니다. 내일(8/28) 워시 연준 의장 잭슨홀 연설과 64억 달러 규모 BTC 옵션 만기가 분수령입니다."
+sitemap: false
+noindex: true
 ---
 
 ![비트코인 7일 가격 차트](/assets/images/posts/crypto-briefing-20260827-pm/bitcoin-price-chart.png)

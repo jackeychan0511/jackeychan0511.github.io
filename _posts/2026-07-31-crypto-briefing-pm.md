@@ -7,6 +7,8 @@ tags: [비트코인, 가상화폐, 코인, BTC, 암호화폐, BTCETF, 코스피,
 author: "40대 블로거"
 image: /assets/images/posts/crypto-briefing-20260731/crypto-bitcoin.jpg
 description: "7월 31일 오후 코인 브리핑. BTC 현물 ETF 7/30 +2억3315만달러 순유입(블랙록 IBIT 1.83억달러 주도), 7월 누적 순유입을 하루 만에 초과. 코스피 사상 최대 +17.91% 폭등에도 BTC는 6만3600달러 숨고르기. 월말 옵션 만기 소화 국면."
+sitemap: false
+noindex: true
 ---
 
 ![비트코인 차트](/assets/images/posts/crypto-briefing-20260731/crypto-bitcoin.jpg)

@@ -7,6 +7,8 @@ tags: [코스피, 코스닥, 한국증시, 증시폭락, 블랙화요일, 외국
 author: "40대 블로거"
 image: /assets/images/posts/kospi-crash-main.png
 description: "7월 28일 코스피가 10.84% 폭락하며 장중 6,000선이 붕괴됐다. 외국인 5.7조 순매도, 사이드카 발동, IMF 때보다 월간 낙폭更大. SK하이닉스 16.7% 급락, 중동 리스크와 반도주 충격이 겹친 '블랙 화요일'을 종합 정리."
+sitemap: false
+noindex: true
 ---
 
 ## 🔴 '블랙 화요일' — 코스피 역사적 폭락

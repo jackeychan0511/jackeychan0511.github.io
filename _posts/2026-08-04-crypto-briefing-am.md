@@ -7,6 +7,8 @@ tags: [비트코인, 가상화폐, 코인, BTC, 암호화폐, 이란, ETF]
 author: "40대 블로거"
 image: /assets/images/posts/crypto-briefing-20260801/crypto-bitcoin.jpg
 description: "8월 4일 오전 코인 브리핑. 트럼프 대통령이 이란 공습을 보류하면서 주말 미 증시 선물이 급등했고, 비트코인도 반등을 시도해 6.3만달러대를 회복했다. 다만 ETF 순유출과 산티먼트 투자심리 역대 최저치가 상단을 제한하는 모습. BTC 업비트 기준 9,045만원(-0.48%)."
+sitemap: false
+noindex: true
 ---
 
 ![비트코인 차트](/assets/images/posts/crypto-briefing-20260801/crypto-bitcoin.jpg)

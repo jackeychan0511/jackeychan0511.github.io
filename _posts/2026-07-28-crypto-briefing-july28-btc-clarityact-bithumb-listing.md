@@ -7,6 +7,8 @@ tags: [비트코인, 가상화폐, 코인, BTC, CLARITYAct, 빗썸, 업비트, �
 author: "40대 블로거"
 image: /assets/images/posts/crypto-briefing-main.png
 description: "7월 28일 코인 시장 핵심 요약. 비트코인 $63K 하락, 공포지수 29 지속. CLARITY Act 상원 표결 임박, 빗썸 오원익스체인지(O) 원화마켓 상장, 연준 FOMC 회의 결과 대기, 한국 코스피 10% 폭락 등 최신 동향 정리."
+sitemap: false
+noindex: true
 ---
 
 ## 📉 오늘의 코인 시장 (7월 28일)

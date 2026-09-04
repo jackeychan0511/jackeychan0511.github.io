@@ -7,6 +7,8 @@ tags: [비트코인, 가상화폐, 코인, BTC, 암호화폐]
 author: "40대 블로거"
 image: /assets/images/posts/crypto-briefing-20260826-pm/bitcoin-price-chart.png
 description: "8월 26일 오후 코인 브리핑. 비트코인이 8만 달러를 두고 줄다리기를 이어가고 있습니다. 어제 아시아 장중 8만 1,200달러까지 치솟았다가 후퇴한 데 이어, 오늘 한국 장중 8만 달러를 재탈환(15:30 기준 8만 731달러)했지만 오후 들어 7만 8,800달러로 다시 밀렸습니다. 8/25 비트코인·이더리움 현물 ETF는 4억 5,313만 달러 순유입으로 6거래일 연속 유입을 이어갔고, 내일(8/27) 시작되는 잭슨홀 미팅과 8/28 PCE·6.4억 달러 BTC 옵션 만기가 분수령입니다."
+sitemap: false
+noindex: true
 ---
 ![비트코인 7일 가격 차트](/assets/images/posts/crypto-briefing-20260826-pm/bitcoin-price-chart.png)
 *BTC 7일 가격 추이 (CoinGecko, 8/26 18:00 KST 기준)*

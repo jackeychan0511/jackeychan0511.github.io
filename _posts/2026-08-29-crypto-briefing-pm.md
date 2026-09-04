@@ -7,6 +7,8 @@ tags: [비트코인, 가상화폐, 코인, BTC, 암호화폐]
 author: "40대 블로거"
 image: /assets/images/posts/crypto-briefing-20260829-pm/bitcoin-price-chart.png
 description: "8월 29일 오후 코인 브리핑. 어제 밤 워시 연준 의장의 잭슨홀 첫 기조연설이 매파적 톤으로 전해지며 비트코인이 7.7만 달러대로 후퇴했습니다. 온체인에서는 10년 넘게 잠자던 BTC 지갑 6개가 약 4,015만 달러어치를 움직였고, 리플은 XRP 원장 양자내성 4단계 로드맵을 공개했습니다. 미국 연방항소법원은 예측시장 업체 칼시에 대해 주 정부의 영업 금지 권한을 인정하는 판결을 내렸습니다."
+sitemap: false
+noindex: true
 ---
 
 ![비트코인 7일 가격 차트](/assets/images/posts/crypto-briefing-20260829-pm/bitcoin-price-chart.png)

@@ -7,6 +7,8 @@ tags: [비트코인, 가상화폐, 코인, BTC, 암호화폐]
 author: "40대 블로거"
 image: /assets/images/posts/crypto-briefing-20260815-am/bitcoin-price-chart.png
 description: "8월 15일 오전 코인 브리핑. 테더가 KPMG U.S.로부터 첫 전체 재무감사 '적정' 의견을 받았다. 잉여금 68.1억 달러, 금괴 실물 점검까지 포함된 감사였다. 국내에서는 바이빗·MEXC·HTX 앱의 구글플레이 퇴출 이후 1,000만 원 이상 해외 이체에 자금 출처 증빙을 요구하는 규제가 강화됐다. 비트코인은 업비트 기준 전일 52주 신저가(8,834만 원)를 기록한 뒤 8,890만 원 안팎에서 등락 중이다."
+sitemap: false
+noindex: true
 ---
 
 ![비트코인 48시간 가격 차트](/assets/images/posts/crypto-briefing-20260815-am/bitcoin-price-chart.png)

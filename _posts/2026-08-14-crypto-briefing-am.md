@@ -7,6 +7,8 @@ tags: [비트코인, 가상화폐, 코인, BTC, 암호화폐]
 author: "40대 블로거"
 image: /assets/images/posts/crypto-briefing-20260814-am/bitcoin-price-chart.png
 description: "8월 14일 오전 코인 브리핑. 7월 PPI가 보합(0.0%)을 기록하며 시장 예상(+0.2%)을 밑돌아 9월 금리 인상 확률이 35%로 낮아지고 동결 확률은 65%로 높아졌다. 비트코인은 중동발 지정학적 불확실성과 롱 포지션 청산 부담 속에 6.3만 달러 안팎에서 등락했다. 메타플래닛은 첫 '비트본드'를 발행했고, UBS는 IBIT 보유 규모를 상반기 230% 늘렸다."
+sitemap: false
+noindex: true
 ---
 
 ![비트코인 일봉 캔들 차트](/assets/images/posts/crypto-briefing-20260814-am/bitcoin-price-chart.png)

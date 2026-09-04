@@ -7,6 +7,8 @@ tags: [비트코인, 가상화폐, 코인, BTC, 암호화폐]
 author: "40대 블로거"
 image: /assets/images/posts/crypto-briefing-20260830-pm/bitcoin-price-chart.png
 description: "8월 30일 오후 코인 브리핑. 비트코인이 3개월 최고치 8.15만 달러를 찍은 뒤 7.8만 달러대로 되돌림 받았습니다. 미국 현물 BTC ETF는 8월 28일 2억 달러 규모 순유출을 기록하며 9거래일 연속 순유입 행진을 마감했는데, 같은 날 이더리움 ETF는 블랙록 상품을 중심으로 유입세를 이어가며 기관 자금의 알트코인 로테이션 신호를 보내고 있습니다."
+sitemap: false
+noindex: true
 ---
 
 ![비트코인 7일 가격 차트](/assets/images/posts/crypto-briefing-20260830-pm/bitcoin-price-chart.png)

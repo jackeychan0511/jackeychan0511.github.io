@@ -7,6 +7,8 @@ tags: [비트코인, 가상화폐, 코인, BTC, 암호화폐]
 author: "40대 블로거"
 image: /assets/images/posts/crypto-briefing-20260811/bitcoin-wallet-security.jpg
 description: "8월 11일 오후 코인 브리핑. 6.5만달러 회복 하루 만에 비트코인이 6.4만달러 아래로 후퇴. 세계 최대 BTC 보유 기업 스트래티지가 1,690 BTC를 추가 매각했고, BTCPay 서버 해킹·BIP 110 포크 지연 등 인프라 악재도 겹쳤다. 내일(8/12) 美 7월 CPI가 분수령."
+sitemap: false
+noindex: true
 ---
 
 ![하드웨어 지갑(트레저)과 카사시우스 5BTC 실물 코인](/assets/images/posts/crypto-briefing-20260811/bitcoin-wallet-security.jpg)

@@ -7,6 +7,8 @@ tags: [비트코인, 가상화폐, 코인, BTC, 암호화폐]
 author: "40대 블로거"
 image: /assets/images/posts/crypto-briefing-20260821-pm/bitcoin-price-chart.png
 description: "8월 21일 오후 코인 브리핑. 트럼프 대통령의 클래리티법(CLARITY Act) 통과 압박과 재무부 국채 바이백 확대 여파로 비트코인이 두 달 만에 1억원을 돌파했습니다(장중 1억 950만원). 장중 7만 5천 달러를 넘어 5월 이후 최고치를 경신했고, 24시간 새 공매도 포지션 30억 달러가 청산되며 역대 두 번째로 큰 숏스퀴즈가 발생했습니다. 상원 9/15 표결 일정 확정과 관련주 급등(메타플래닛 +20%) 소식도 정리했습니다."
+sitemap: false
+noindex: true
 ---
 
 ![비트코인 7일 가격 차트](/assets/images/posts/crypto-briefing-20260821-pm/bitcoin-price-chart.png)

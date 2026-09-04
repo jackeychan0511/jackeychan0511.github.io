@@ -7,6 +7,8 @@ tags: [비트코인, 가상화폐, 코인, BTC, 암호화폐]
 author: "40대 블로거"
 image: /assets/images/posts/crypto-briefing-20260901-pm/bitcoin-price-chart.png
 description: "9월 1일 오후 코인 브리핑. 비트코인이 7만8000달러 안팎에서 혼조세를 보인 가운데, 미국 비트코인 현물 ETF가 하루 만에 2억1670만 달러 순유입으로 전환했습니다. 스트래티지가 약 2개월 만에 비트코인 4603개를 매수했고, 국세청은 USDT 고시환율 과세 기준을 안내했습니다."
+sitemap: false
+noindex: true
 ---
 
 ![비트코인 7일 가격 차트](/assets/images/posts/crypto-briefing-20260901-pm/bitcoin-price-chart.png)

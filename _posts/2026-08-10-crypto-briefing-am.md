@@ -7,6 +7,8 @@ tags: [비트코인, 가상화폐, 코인, BTC, 암호화폐]
 author: "40대 블로거"
 image: /assets/images/posts/crypto-briefing-20260810/bitcoin-coin-packaging.jpg
 description: "8월 10일 오전 코인 브리핑. 美 7월 고용 쇼크(-2.3만)로 금리인상 우려 완화, 현물 BTC ETF 주간 8.5억달러 순유입(4월 중순 이후 최대)에 비트코인이 6.5만달러선을 회복. BIP 110 하드포크 논쟁·고래 매집(약 1,975 BTC)도 관심. 업비트 9,128만 원, 바이낸스 6만4,987달러."
+sitemap: false
+noindex: true
 ---
 
 ![투명 캡슐에 담긴 금색 비트코인 실물 코인](/assets/images/posts/crypto-briefing-20260810/bitcoin-coin-packaging.jpg)

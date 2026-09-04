@@ -7,6 +7,8 @@ tags: [와이즈만, 와이즈만영재교육, 사고력수학, 창의와탐구,
 author: "40대 블로거"
 image: /assets/images/posts/wise-man-main.png
 description: "1998년 설립, 수학과 과학을 통합한 창의사고력 교육으로 영재교육원 합격자 25,000명을 배출한 와이즈만 영재교육. GT·GT Advanced·WMO·Math Power 등 프로그램 라인업, 후츠파 융합 프로그램, 전국 94개 가맹점 정보까지 상세 분석합니다."
+sitemap: false
+noindex: true
 ---
 
 ## 수학 + 과학, 두 마리 토끼를 잡는 브랜드

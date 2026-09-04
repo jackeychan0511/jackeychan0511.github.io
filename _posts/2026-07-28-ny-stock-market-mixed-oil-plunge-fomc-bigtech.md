@@ -7,6 +7,8 @@ tags: [뉴욕증시, 다우지수, S&P500, 나스닥, FOMC, 연준, 유가, WTI,
 author: "40대 블로거"
 image: /assets/images/posts/ny-stock-main.png
 description: "7월 27일 뉴욕증시, 미·이란 공격 중단에 유가 8% 폭락하며 다우 262p 상승. 그러나 반도체·기술주 약세에 나스닥 하락. FOMC 금리 결정과 애플·아마존·메타 실발 앞둔 '슈퍼 위크'. 주요 지수와 업종별 흐름, 향후 전망까지 정리."
+sitemap: false
+noindex: true
 ---
 
 ## 🏛️ 7/27(월) 뉴욕증시 — 혼조 마감
