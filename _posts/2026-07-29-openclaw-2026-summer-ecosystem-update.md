@@ -5,6 +5,8 @@ date: 2026-07-29 10:00:00 +0900
 categories: [career]
 tags: [OpenClaw, AI에이전트, 모바일앱, ControlUI, GPT-5.6, 오픈소스AI, IOS, Android]
 image: /assets/images/posts/openclaw-2026-summer/hero-openclaw.png
+sitemap: false
+noindex: true
 ---
 
 요즘 저처럼 AI 에이전트에 관심 가지시는 분들, **OpenClaw** 소식 놓치고 계신 거 아니죠?

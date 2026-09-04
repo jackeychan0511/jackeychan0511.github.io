@@ -7,6 +7,8 @@ tags: [OpenClaw, 오픈클로, AI에이전트, Claw Chain, 보안, 취약점, v2
 author: "40대 블로거"
 image: /assets/images/posts/openclaw-aug7-20260807/openclaw-official-site.png
 description: "2026년 8월 7일 기준 오픈소스 AI 에이전트 OpenClaw의 최신 소식입니다. 커뮤니티 뉴스 'The Claw Report'가 8월 7일자로 'Claw Chain' 다단계 공격 경로를 다시 조명했고, TechRadar(8/5)는 ThreatLocker CEO 명의로 'OpenClaw 공격 이후 방어 재설계' 오피니언을 게재했습니다. 같은 기간 메인브랜치에는 P0 워크트리 데이터 손실 수정(#119691/#119709)을 포함한 보안·안정성 수정이 봇물처럼 합류했으며, GitHub 스타 385,392개(+132), npm 채널 현황(latest 2026.7.1-2 / extended-stable 2026.6.34 / beta 2026.7.2-beta.7)을 정리했습니다."
+sitemap: false
+noindex: true
 ---
 
 요즘 저처럼 **오픈소스 AI 에이전트 OpenClaw** 소식을 매일 챙겨보시는 분들, 계시죠? 지난 8월 6일 글([v2026.7.1-1·7.1-2 핫픽스 총정리](/2026/08/06/openclaw-aug6-hotfix-20260806/))에서 "정식 v2026.7.2만 기다리면 된다"고 말씀드렸는데, **하루 사이에 챙길 소식이 또 쌓였습니다.**

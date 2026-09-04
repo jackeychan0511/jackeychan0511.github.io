@@ -5,6 +5,8 @@ date: 2026-08-01 10:25:00 +0900
 categories: [career]
 tags: [OpenClaw, AI에이전트, v2026.7.2, 베타, SessionBranching, WearOS, MCP, 데이터안전성, 오픈소스AI, GPTLive]
 image: /assets/images/posts/openclaw-v202672-preview/hero-openclaw-screenshot.png
+sitemap: false
+noindex: true
 ---
 
 요즘 저처럼 **오픈소스 AI 에이전트 OpenClaw**의 업데이트를 매주 챙겨보시는 분들, 7월 한 달이 정말 정신없었죠.

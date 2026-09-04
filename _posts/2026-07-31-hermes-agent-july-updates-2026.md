@@ -5,6 +5,8 @@ date: 2026-07-31 18:00:00 +0900
 categories: [career]
 tags: [HermesAgent, NousResearch, AI에이전트, AsyncSubagents, BlankSlate, SmartApproval, 오픈소스, AI업데이트, SelfEvolution]
 image: /assets/images/posts/hermes-agent-july-2026/hermes-agent-logo.png
+sitemap: false
+noindex: true
 ---
 
 요즘 저처럼 AI 에이전트 생태계를 계속 주시하고 계신 분들, Hermes Agent 얘기를 정말 자주 접하실 거예요. Nous Research에서 만든 이 오픈소스 에이전트가 **7월 한 달 동안만 무려 3개의 주요 업데이트**를 쏟아냈거든요.

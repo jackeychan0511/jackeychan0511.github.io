@@ -7,6 +7,8 @@ tags: [OpenClaw, 오픈클로, AI에이전트, v2026.7.2, 베타, GPTLive, Autom
 author: "40대 블로거"
 image: /assets/images/posts/openclaw-v202672-beta7-20260802/openclaw-og-image.png
 description: "오픈소스 AI 에이전트 OpenClaw가 8월 1일 베타.6, 8월 2일 베타.7을 잇달아 배포했습니다. GPT Live 인증 방식 변경(Codex OAuth 폴백 제거·Platform API 키 필수), cron→Automations 개명, DuckDuckGo 검색의 플러그인 분리, 그리고 정식 릴리즈를 앞둔 릴리즈 검증 절차 도입까지 v2026.7.2 베타의 최신 상황을 총정리했습니다."
+sitemap: false
+noindex: true
 ---
 
 > **📌 한줄 요약:** 오픈소스 AI 에이전트 **OpenClaw**가 8월 1일 **v2026.7.2 베타.6**, 8월 2일 **베타.7**을 이틀 연속 배포하며 안정화 국면에 들어섰습니다. 이번 베타에서는 **GPT Live 인증 방식이 바뀌어** 이제 OpenAI **Platform API 키가 필수**이고, **cron 도구가 Automations로 개명**, **DuckDuckGo 검색이 플러그인으로 분리**됐습니다. 베타.7부터는 **릴리즈 검증(Release Verification) 절차**까지 도입돼 정식 릴리즈가 멀지 않았다는 신호로 읽힙니다.

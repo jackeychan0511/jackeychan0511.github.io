@@ -7,6 +7,8 @@ tags: [HermesAgent, NousResearch, AI에이전트, 오픈소스AI, AI도구, AI�
 author: "40대 블로거"
 image: /assets/images/posts/hermes-agent-v019-quicksilver-20260805/hermes-agent-hero.jpg
 description: "2026년 7월 20일 발표된 오픈소스 AI 에이전트 Hermes Agent v0.19.0 퀵실버 릴리스를 정리했습니다. 첫 응답(첫 토큰) 시간 80% 단축, Bitwarden·1Password 연동, 스마트 승인, 데스크톱 앱 속도 개선 등 핵심 업데이트와 함께 10만 GitHub 스타, 1.5조원대 밸류 펀딩 보도까지 다룹니다."
+sitemap: false
+noindex: true
 ---
 
 > **📌 한줄 요약:** Nous Research의 오픈소스 AI 에이전트 **Hermes Agent v0.19.0 '퀵실버 릴리스'**가 2026년 7월 20일 공개됐습니다. 콜드 스타트 첫 응답 시간이 **약 4.3초 → 0.9초로 80% 단축**됐고, 비밀번호 관리자(Bitwarden·1Password) 연동, 스마트 명령 승인 기본 적용, 데스크톱 앱 대대적 속도 개선까지 담겼습니다. GitHub 스타 10만 개를 넘긴 오픈소스 프로젝트로, 최근 1.5조원(1.5B 달러) 밸류에이션 펀딩 보도(로봇벤처스 주도)까지 나온 바로 그 AI 에이전트입니다.

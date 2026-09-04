@@ -7,6 +7,8 @@ tags: [HermesAgent, NousResearch, AI에이전트, 오픈소스, v0.19.0, Quicksi
 author: "40대 블로거"
 image: /assets/images/posts/hermes-agent-aug2026-20260802/hermes-agent-og-official.png
 description: "2026년 8월 2일 기준 Hermes Agent 최신 소식을 정리했습니다. GitHub 스타 22만 개 돌파, Nous Research의 15억 달러(약 2조 원) 밸류에이션 투자 유치 보도, 7월 30일 v0.19.1 패치 릴리즈 이후 상황, 그리고 다음 정식 릴리즈 v0.20.0 예고까지 한 자리에 모았습니다."
+sitemap: false
+noindex: true
 ---
 
 요즘 저처럼 오픈소스 AI 에이전트에 꽂혀서 소식을 매일 체크하시는 분들, Hermes Agent 근황 궁금하시죠? 지난주에 [7월 업데이트 총정리](/2026/07/31/hermes-agent-july-updates-2026/)와 [v0.19.1 패치 + 펫 마스코트](/2026/08/01/hermes-agent-v0191-pets-update/) 글을 올렸는데, 그 사이에 **확실히 짚고 넘어가야 할 큰 소식**이 두 개나 나왔습니다.

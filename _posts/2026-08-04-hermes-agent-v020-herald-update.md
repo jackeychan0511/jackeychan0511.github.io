@@ -7,6 +7,8 @@ tags: [HermesAgent, NousResearch, AI에이전트, v0.20.0, Herald, 오픈소스,
 author: "40대 블로거"
 image: /assets/images/posts/hermes-v020-20260804/hermes-agent-hero.webp
 description: "2026년 8월 3일 출시된 Hermes Agent v0.20.0 'The Herald Release'를 총정리했습니다. 실시간 음성 대화, A2A v1.0 에이전트 간 통신, HMAC 서명 웹훅, 인용 검증 리서치까지. v0.19.0 이후 약 3,650개 커밋과 647명의 기여자가 만든 이번 업데이트의 핵심을 실제 사용자 관점에서 정리했습니다."
+sitemap: false
+noindex: true
 ---
 
 요즘 저처럼 오픈소스 AI 에이전트 소식을 매일 체크하시는 분들, 드디어 기다리던 그 버전이 나왔습니다. 지난주 [v0.19.1 정리 글](/2026/08/02/hermes-agent-quicksilver-update/)에서 "다음 정식 릴리즈는 v0.20.0, 8월 안에 나올 가능성이 높다"고 말씀드렸는데, **8월 3일 v0.20.0이 실제로 출시**됐어요. 코드네임은 **"The Herald Release"**.

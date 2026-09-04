@@ -6,6 +6,8 @@ categories: [career]
 tags: [Anthropic, Claude, AI칩, 커스텀실리콘, ASIC, co-design, NVIDIA, OpenAI, Jalapeño, 삼성전자, AI뉴스, 2026년8월, AI인프라]
 author: "40대 블로거"
 description: "Anthropic이 2026년 8월 5일 Claude용 자체 AI 칩 설계팀(custom silicon team) 구축을 공식 확인했습니다. 소프트웨어-하드웨어 공동 설계(co-design) 전략과 추론 비용 50% 절감 목표, 연봉 최대 48만 5천 달러 채용, 삼성 2nm 파운드리 논의까지 정리합니다."
+sitemap: false
+noindex: true
 ---
 
 요즘 저처럼 **"AI 서비스 요금은 왜 점점 비싸지는지"**, 혹은 반대로 **"AI 회사들은 어떻게 비용을 줄일 수 있는지"** 궁금해하시는 분들 많으시죠?

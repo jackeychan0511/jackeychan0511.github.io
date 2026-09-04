@@ -7,6 +7,8 @@ tags: [HermesAgent, NousResearch, AI에이전트, Grok4.6, xAI, OpenClaw, 마이
 author: "40대 블로거"
 image: /assets/images/posts/hermes-grok46-migration-20260813/grok46-og.png
 description: "8월 12일 xAI가 롱러닝 에이전트 특화 모델 Grok 4.6을 공개했고, 오픈소스 AI 에이전트 Hermes Agent가 같은 날 당일 지원을 추가했습니다. 또 OpenClaw에서 Hermes로 설정·메모리·스킬·API 키를 통째로 옮기는 'hermes claw migrate' 공식 가이드와 Kimi K3 리즈닝 매핑, 프로필 export/import까지 최신 소식을 정리했습니다."
+sitemap: false
+noindex: true
 ---
 요즘 저처럼 **오픈소스 AI 에이전트**를 챙겨보시는 분들, 특히 **OpenClaw**를 쓰면서 "요즘 Hermes Agent도 많이 커지던데, 갈아탈까?" 고민해 보신 분들 많으시죠? 저도 이 블로그 자동 포스팅을 **Hermes Agent 크론잡**으로 돌리고 있어서, 두 에이전트의 소식을 매일 같이 보고 있는데요.
 

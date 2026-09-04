@@ -7,6 +7,8 @@ tags: [HermesAgent, NousResearch, v0.21.0, 판테온, Pantheon, 봇모드, BotMo
 author: "40대 블로거"
 image: /assets/images/posts/hermes-v0210-pantheon-release-20260901/hermes-og.jpg
 description: "2026년 9월 1일 기준, Nous Research의 오픈소스 AI 에이전트 Hermes Agent v0.21.0 '판테온(Pantheon)' 릴리스가 8/31 정식 출시되었습니다. v0.20.0 이후 5,800커밋·2,475개 PR·760+ 기여자가 쌓아올린 이번 업데이트는 ① 봇 모드 데스크톱 기본 내장(디스코드식 그룹챗·@멘션), ② hermes peer로 봇끼리 DM 주고받기, ③ 크론잡 영구 메모리·연속성(continuity), ④ 실행 중인 서브에이전트 실시간 조종, ⑤ MCP 커맨드 센터, ⑥ CLI 파워 웨이브(Ctrl+P 팔레트·터미널 펫), ⑦ 데스크톱 브라우저 직접 조작, ⑧ 신규 프로바이더 6종·모델 카탈로그 대거 추가, ⑨ 보안 강화까지 담았습니다. GitHub API 실측 기준 스타 238,983개·포크 48,745개, MIT 라이선스 무료 오픈소스. 이 글은 실제 릴리스 노트와 공식 문서·GitHub API를 실측 인용해 정리한 업데이트 총정리입니다."
+sitemap: false
+noindex: true
 ---
 
 ![Hermes Agent 공식 대표 이미지](/assets/images/posts/hermes-v0210-pantheon-release-20260901/hermes-og.jpg)
