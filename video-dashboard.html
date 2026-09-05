@@ -1,0 +1,433 @@
+---
+layout: page
+title: "📺 중학생 무료 유튜브 강의 대시보드"
+permalink: /video-dashboard/
+---
+
+<p class="vd-intro">
+  학년·학기·과목·교과서 출판사를 선택하면, 그 조건에 맞는 무료 유튜브 강의를 찾아드려요.
+  카드를 클릭하면 바로 이 페이지에서 영상을 재생할 수 있어요.
+</p>
+
+<div class="vd-wrap">
+
+  <form class="vd-form" id="vdForm">
+    <div class="vd-field">
+      <label for="vdGrade">학년</label>
+      <select id="vdGrade">
+        <option value="1">중학교 1학년</option>
+        <option value="2">중학교 2학년</option>
+        <option value="3">중학교 3학년</option>
+      </select>
+    </div>
+
+    <div class="vd-field">
+      <label for="vdSemester">학기</label>
+      <select id="vdSemester">
+        <option value="1">1학기</option>
+        <option value="2">2학기</option>
+      </select>
+    </div>
+
+    <div class="vd-field">
+      <label for="vdSubject">과목</label>
+      <select id="vdSubject"></select>
+    </div>
+
+    <div class="vd-field">
+      <label for="vdPublisher">교과서 출판사</label>
+      <select id="vdPublisher"></select>
+    </div>
+
+    <button type="submit" class="vd-btn vd-btn-primary">🔍 무료강의 찾기</button>
+  </form>
+
+  <div class="vd-results" id="vdResults" hidden>
+
+    <p class="vd-summary" id="vdSummary"></p>
+
+    <div class="vd-card vd-ebs-card">
+      <div class="vd-card-icon">🟥</div>
+      <div class="vd-card-body">
+        <h3>EBS 중학에서 전 강좌 무료로 듣기</h3>
+        <p>
+          EBS 중학은 국어·영어·수학·사회·역사·도덕·과학 등 전 과목·전 학년 강의를
+          무료로 제공하고 있어요(무료 정책은 EBS 사정에 따라 변경될 수 있어요).
+          선택한 학년·학기·과목 강좌를 사이트에서 바로 검색해 보세요.
+        </p>
+        <a class="vd-btn" href="https://mid.ebs.co.kr/" target="_blank" rel="noopener">EBS 중학 바로가기 →</a>
+      </div>
+    </div>
+
+    <h3 class="vd-section-title">▶️ 지금 볼 수 있는 무료 영상</h3>
+    <div class="vd-video-grid" id="vdVideoGrid"></div>
+    <p class="vd-empty" id="vdEmptyMsg" hidden>
+      이 조건에 딱 맞는 큐레이션 영상은 아직 준비 중이에요. 아래 버튼으로 유튜브에서 바로 찾아보세요!
+    </p>
+
+    <div class="vd-actions">
+      <a class="vd-btn vd-btn-accent" id="vdSearchLink" href="#" target="_blank" rel="noopener">
+        🎬 유튜브에서 &ldquo;<span id="vdSearchLabel"></span>&rdquo; 검색하기
+      </a>
+      <a class="vd-btn" id="vdPublisherLink" href="#" target="_blank" rel="noopener" hidden>
+        🏢 <span id="vdPublisherLabel"></span> 공식 채널 보기
+      </a>
+    </div>
+
+  </div>
+
+</div>
+
+<div class="vd-modal" id="vdModal" hidden>
+  <div class="vd-modal-backdrop" id="vdModalBackdrop"></div>
+  <div class="vd-modal-body">
+    <button type="button" class="vd-modal-close" id="vdModalClose" aria-label="닫기">✕</button>
+    <div class="vd-modal-frame">
+      <iframe id="vdModalIframe" src="" title="유튜브 강의 재생"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </div>
+  </div>
+</div>
+
+<p class="vd-disclaimer">
+  ※ 실제 학교에서 채택한 교과서 출판사는 학교마다 다를 수 있어요. 출판사는 검색어를 더 정확하게 만드는 데 사용돼요.<br>
+  ※ 큐레이션 영상은 <a href="https://www.youtube.com/channel/UC-B17kqPiZgzeLq86X9RjTw" target="_blank" rel="noopener">EBS 중학프리미엄</a> 공식 유튜브 채널에서 가져왔어요.
+</p>
+
+<style>
+.vd-intro { color: var(--text-light); margin-bottom: 24px; }
+
+.vd-wrap { display: flex; flex-direction: column; gap: 28px; }
+
+.vd-form {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 20px;
+}
+.vd-field { display: flex; flex-direction: column; gap: 6px; }
+.vd-field label { font-size: 0.85rem; font-weight: 700; color: var(--text-light); }
+.vd-field select {
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: #fff;
+  font-family: var(--font);
+  font-size: 0.95rem;
+  color: var(--text);
+}
+.vd-form .vd-btn-primary { grid-column: 1 / -1; }
+
+.vd-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 12px 18px;
+  border: none;
+  border-radius: var(--radius-sm);
+  background: var(--primary);
+  color: #fff !important;
+  font-weight: 700;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.1s;
+  text-decoration: none;
+}
+.vd-btn:hover { background: var(--primary-light); transform: translateY(-1px); }
+.vd-btn-primary { background: var(--accent); }
+.vd-btn-primary:hover { background: var(--accent-hover); }
+.vd-btn-accent { background: var(--accent); }
+.vd-btn-accent:hover { background: var(--accent-hover); }
+
+.vd-summary {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--text);
+  padding: 4px 0;
+}
+
+.vd-card {
+  display: flex;
+  gap: 16px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 20px;
+}
+.vd-card-icon { font-size: 1.8rem; line-height: 1; }
+.vd-card-body h3 { margin-bottom: 8px; font-size: 1.05rem; }
+.vd-card-body p { color: var(--text-light); font-size: 0.9rem; margin-bottom: 14px; line-height: 1.6; }
+
+.vd-section-title { font-size: 1.05rem; margin-top: 4px; }
+
+.vd-video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 16px;
+}
+.vd-video-card {
+  display: block;
+  width: 100%;
+  text-align: left;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+  cursor: pointer;
+  padding: 0;
+  font-family: var(--font);
+  transition: box-shadow 0.2s, transform 0.15s;
+}
+.vd-video-card:hover { box-shadow: var(--shadow-hover); transform: translateY(-2px); }
+.vd-video-thumb-wrap { position: relative; aspect-ratio: 16 / 9; background: var(--primary); }
+.vd-video-thumb-wrap img { width: 100%; height: 100%; object-fit: cover; border-radius: 0; display: block; }
+.vd-video-play {
+  position: absolute; inset: 0;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 2.2rem; color: #fff;
+  background: rgba(0,0,0,0.15);
+}
+.vd-video-title {
+  padding: 12px 14px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text);
+  line-height: 1.5;
+}
+.vd-video-tag {
+  display: inline-block;
+  margin: 10px 14px 0;
+  font-size: 0.75rem;
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.vd-empty {
+  color: var(--text-light);
+  background: var(--bg);
+  border: 1px dashed var(--border);
+  border-radius: var(--radius-sm);
+  padding: 16px;
+  font-size: 0.9rem;
+}
+
+.vd-actions { display: flex; flex-wrap: wrap; gap: 12px; }
+
+.vd-disclaimer {
+  margin-top: 32px;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  line-height: 1.7;
+}
+
+.vd-modal { position: fixed; inset: 0; z-index: 999; display: flex; align-items: center; justify-content: center; padding: 20px; }
+.vd-modal[hidden] { display: none; }
+.vd-modal-backdrop { position: absolute; inset: 0; background: rgba(0,0,0,0.75); }
+.vd-modal-body { position: relative; width: 100%; max-width: 880px; }
+.vd-modal-frame { position: relative; width: 100%; aspect-ratio: 16 / 9; background: #000; border-radius: var(--radius-sm); overflow: hidden; }
+.vd-modal-frame iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+.vd-modal-close {
+  position: absolute; top: -44px; right: 0;
+  background: none; border: none; color: #fff;
+  font-size: 1.4rem; cursor: pointer; padding: 8px;
+}
+
+@media (max-width: 640px) {
+  .vd-form { grid-template-columns: 1fr 1fr; }
+  .vd-card { flex-direction: column; }
+}
+</style>
+
+<script>
+(function () {
+  var SUBJECTS = [
+    { id: 'korean',   name: '국어',    publishers: ['미래엔', '천재교과서', '비상교육', '동아출판', '지학사', '금성출판사', '창비교육'] },
+    { id: 'math',     name: '수학',    publishers: ['천재교과서', '미래엔', '비상교육', '동아출판', '금성출판사', '지학사'] },
+    { id: 'english',  name: '영어',    publishers: ['천재교과서', 'NE능률', '미래엔', '동아출판', '지학사', 'YBM'] },
+    { id: 'social',   name: '사회',    publishers: ['미래엔', '천재교과서', '비상교육', '동아출판', '금성출판사', '지학사'] },
+    { id: 'history',  name: '역사',    publishers: ['미래엔', '천재교과서', '비상교육', '동아출판', '금성출판사'] },
+    { id: 'moral',    name: '도덕',    publishers: ['천재교과서', '미래엔', '비상교육', '동아출판', '지학사'] },
+    { id: 'science',  name: '과학',    publishers: ['미래엔', '천재교과서', '비상교육', 'YBM', '동아출판', '금성출판사'] },
+    { id: 'techhome', name: '기술·가정', publishers: ['천재교과서', '미래엔', '비상교육', '지학사'] },
+    { id: 'info',     name: '정보',    publishers: ['천재교과서', '미래엔', '비상교육'] }
+  ];
+
+  var OFFICIAL_CHANNELS = {
+    '천재교육': 'https://www.youtube.com/@chunjaeworld',
+    '천재교과서': 'https://www.youtube.com/@chunjaetext',
+    '미래엔': 'https://www.youtube.com/c/miraen_official'
+  };
+
+  // 실제 존재가 확인된 EBS 중학프리미엄 공식 유튜브 채널의 영상만 큐레이션했습니다.
+  var VIDEOS = {
+    math: [
+      { id: 'j67nVQcOPzg', title: '[수상한 수학자 이야기] 직각삼각형의 비밀을 증명한 수학자', grade: 'all', semester: 'all' },
+      { id: 'IETbKU4gq-A', title: '[수상한 수학자 이야기] 진실을 말한 대가로 바다에 던져진 수학자', grade: 'all', semester: 'all' },
+      { id: 'jZvsA_bsc1w', title: '하늘의 자로 땅의 거인을 재다', grade: 'all', semester: 'all' },
+      { id: 'MmHZTurBxJ8', title: '같은 시간, 다른 움직임 - 시계 바늘이 이루는 각', grade: 'all', semester: 'all' },
+      { id: '6WYasdmyYLU', title: '접선과 현이 이루는 각의 성질 이야기', grade: 'all', semester: 'all' }
+    ],
+    social: [
+      { id: 'iHivIZLhD3g', title: '[헌법채널e] 01 법의 탄생', grade: 'all', semester: 'all' },
+      { id: 'Zl6PofTTebQ', title: '[헌법채널e] 02 민주주의', grade: 'all', semester: 'all' },
+      { id: '8RiW1Bh1_tA', title: '[헌법채널e] 03 헌법 질서의 기본 원리', grade: 'all', semester: 'all' },
+      { id: 'SzvS8zNGotY', title: '[헌법채널e] 04 기본권의 다섯 퍼즐', grade: 'all', semester: 'all' },
+      { id: 'zgqXs0FRYkw', title: '[헌법채널e] 05 헌법 속 권력 구조', grade: 'all', semester: 'all' },
+      { id: 'gag3JwCKP9w', title: '[헌법채널e] 06 법은 어떻게 현실이 되는가', grade: 'all', semester: 'all' }
+    ],
+    science: [
+      { id: 'aEH67k_pLp4', title: '[오늘의 과학자] 알레산드로 볼타', grade: 'all', semester: 'all' },
+      { id: 'Qwf2IwkC__I', title: '[오늘의 과학자] 앙드레마리 앙페르', grade: 'all', semester: 'all' },
+      { id: 'q3Ar4nToEq8', title: '[오늘의 과학자] 어니스트 러더퍼드', grade: 'all', semester: 'all' },
+      { id: 'DkEqjO5g6Lw', title: '[오늘의 과학자] 앙투안 라부아지에', grade: 'all', semester: 'all' },
+      { id: '-BOoQdbEu1c', title: '[오늘의 과학자] 존 돌턴', grade: 'all', semester: 'all' }
+    ],
+    english: [
+      { id: 'rT5IEku0OPU', title: '2026 제1회 중학영어듣기평가 1학년 해설 (1~10번)', grade: 1, semester: 1 },
+      { id: 'k-xr2SzL234', title: '2026 제1회 중학영어듣기평가 1학년 해설 (11~20번)', grade: 1, semester: 1 },
+      { id: 'DVk2BZDjwR8', title: '2026 제2회 중학영어듣기평가 1학년 해설 (1~10번)', grade: 1, semester: 2 },
+      { id: 'aMBoxaHw5aA', title: '2026 제2회 중학영어듣기평가 1학년 해설 (11~20번)', grade: 1, semester: 2 },
+      { id: 'eFxKA-C0o_E', title: '2026 제1회 중학영어듣기평가 2학년 해설 (1~10번)', grade: 2, semester: 1 },
+      { id: 'ur_ER4jB45E', title: '2026 제1회 중학영어듣기평가 2학년 해설 (11~20번)', grade: 2, semester: 1 },
+      { id: 'VN9s3B0c4yQ', title: '2026 제2회 중학영어듣기평가 2학년 해설 (1~10번)', grade: 2, semester: 2 },
+      { id: 'xpRY5LnjBwk', title: '2026 제2회 중학영어듣기평가 2학년 해설 (11~20번)', grade: 2, semester: 2 },
+      { id: 'tQD7jY8gFrk', title: '2026 제1회 중학영어듣기평가 3학년 해설 (1~10번)', grade: 3, semester: 1 },
+      { id: 'CM05OQKmJ7g', title: '2026 제1회 중학영어듣기평가 3학년 해설 (11~20번)', grade: 3, semester: 1 },
+      { id: 'b4d6_CIoXic', title: '2026 제2회 중학영어듣기평가 3학년 해설 (1~10번)', grade: 3, semester: 2 },
+      { id: 'DR5hAHZcWk0', title: '2026 제2회 중학영어듣기평가 3학년 해설 (11~20번)', grade: 3, semester: 2 }
+    ]
+  };
+
+  var gradeSel = document.getElementById('vdGrade');
+  var semesterSel = document.getElementById('vdSemester');
+  var subjectSel = document.getElementById('vdSubject');
+  var publisherSel = document.getElementById('vdPublisher');
+  var form = document.getElementById('vdForm');
+  var results = document.getElementById('vdResults');
+  var summary = document.getElementById('vdSummary');
+  var videoGrid = document.getElementById('vdVideoGrid');
+  var emptyMsg = document.getElementById('vdEmptyMsg');
+  var searchLink = document.getElementById('vdSearchLink');
+  var searchLabel = document.getElementById('vdSearchLabel');
+  var publisherLink = document.getElementById('vdPublisherLink');
+  var publisherLabel = document.getElementById('vdPublisherLabel');
+  var modal = document.getElementById('vdModal');
+  var modalIframe = document.getElementById('vdModalIframe');
+
+  function findSubject(id) {
+    for (var i = 0; i < SUBJECTS.length; i++) {
+      if (SUBJECTS[i].id === id) return SUBJECTS[i];
+    }
+    return SUBJECTS[0];
+  }
+
+  function populateSubjects() {
+    subjectSel.innerHTML = '';
+    SUBJECTS.forEach(function (s) {
+      var opt = document.createElement('option');
+      opt.value = s.id;
+      opt.textContent = s.name;
+      subjectSel.appendChild(opt);
+    });
+  }
+
+  function populatePublishers() {
+    var subject = findSubject(subjectSel.value);
+    publisherSel.innerHTML = '';
+    subject.publishers.forEach(function (p) {
+      var opt = document.createElement('option');
+      opt.value = p;
+      opt.textContent = p;
+      publisherSel.appendChild(opt);
+    });
+  }
+
+  function openModal(videoId) {
+    modalIframe.src = 'https://www.youtube.com/embed/' + videoId + '?autoplay=1';
+    modal.hidden = false;
+  }
+
+  function closeModal() {
+    modal.hidden = true;
+    modalIframe.src = '';
+  }
+
+  document.getElementById('vdModalClose').addEventListener('click', closeModal);
+  document.getElementById('vdModalBackdrop').addEventListener('click', closeModal);
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && !modal.hidden) closeModal();
+  });
+
+  function renderVideos(subjectId, grade, semester) {
+    var list = VIDEOS[subjectId] || [];
+    var matched = list.filter(function (v) {
+      var gradeOk = v.grade === 'all' || v.grade === grade;
+      var semesterOk = v.semester === 'all' || v.semester === semester;
+      return gradeOk && semesterOk;
+    });
+
+    videoGrid.innerHTML = '';
+    if (matched.length === 0) {
+      emptyMsg.hidden = false;
+      return;
+    }
+    emptyMsg.hidden = true;
+
+    matched.forEach(function (v) {
+      var card = document.createElement('button');
+      card.type = 'button';
+      card.className = 'vd-video-card';
+      card.innerHTML =
+        '<div class="vd-video-thumb-wrap">' +
+          '<img src="https://i.ytimg.com/vi/' + v.id + '/hqdefault.jpg" alt="" loading="lazy">' +
+          '<div class="vd-video-play">▶</div>' +
+        '</div>' +
+        '<div class="vd-video-title">' + v.title + '</div>' +
+        (v.grade !== 'all' ? '<span class="vd-video-tag">' + v.grade + '학년 · ' + v.semester + '학기 대비</span>' : '<span class="vd-video-tag">전 학년 공통 참고 영상</span>');
+      card.addEventListener('click', function () { openModal(v.id); });
+      videoGrid.appendChild(card);
+    });
+  }
+
+  function handleSubmit(e) {
+    if (e) e.preventDefault();
+    var grade = parseInt(gradeSel.value, 10);
+    var semester = parseInt(semesterSel.value, 10);
+    var subject = findSubject(subjectSel.value);
+    var publisher = publisherSel.value;
+
+    summary.textContent = '중학교 ' + grade + '학년 ' + semester + '학기 · ' + subject.name + ' (' + publisher + ') 무료강의 결과예요';
+
+    renderVideos(subject.id, grade, semester);
+
+    var query = '중학교 ' + grade + '학년 ' + semester + '학기 ' + subject.name + ' ' + publisher + ' 개념강의';
+    searchLabel.textContent = query;
+    searchLink.href = 'https://www.youtube.com/results?search_query=' + encodeURIComponent(query);
+
+    if (OFFICIAL_CHANNELS[publisher]) {
+      publisherLabel.textContent = publisher;
+      publisherLink.href = OFFICIAL_CHANNELS[publisher];
+      publisherLink.hidden = false;
+    } else {
+      publisherLink.hidden = true;
+    }
+
+    results.hidden = false;
+    results.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
+  subjectSel.addEventListener('change', populatePublishers);
+  form.addEventListener('submit', handleSubmit);
+
+  populateSubjects();
+  populatePublishers();
+})();
+</script>
