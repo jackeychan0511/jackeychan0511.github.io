@@ -6,7 +6,7 @@ categories: [career]
 tags: [HermesAgent, NousResearch, 크론잡, cron, 자동화, 자동포스팅, 블로그자동화, no-agent, bot-chat, 연속성, continuity, 봇모드, 스킬, AI에이전트, 오픈소스AI, AI툴추천, 2026년9월]
 author: "40대 블로거"
 image: /assets/images/posts/hermes-agent-cron-automation-20260902/hermes-desktop-showcase.jpg
-description: "2026년 9월 2일 기준, Nous Research의 오픈소스 AI 에이전트 Hermes Agent의 크론잡(cron) 자동화를 30일 넘게 실사용하며 정리한 실전 가이드입니다. 지금 이 블로그가 매일 자동 포스팅되는 파이프라인 자체가 Hermes 크론잡으로 돌아가고 있습니다. 자연어로 예약하는 세 가지 방법(/cron, hermes cron create, 그냥 말하기), 스킬을 붙이는 멀티스킬 워크플로, 웹사이트 변경 감시·주간 리포트·GitHub 감시·데이터 수집 파이프라인 등 공식 가이드의 5가지 실전 패턴, 그리고 v0.21.0 판테온에서 새로워진 영구 메모리·연속성(continuity)·스크래치패드·LLM 없는 no-agent 모드·봇 채팅(bot-chat) 전달까지 다룹니다. GitHub API 실측 기준 스타 239,498개·포크 48,928개, MIT 라이선스 무료 오픈소스. 커뮤니티 실사용 사례(28개 크론잡, $175 미니PC 24시간 운영 등)도 함께 정리했습니다.\"
+description: "2026년 9월 2일 기준, Nous Research의 오픈소스 AI 에이전트 Hermes Agent의 크론잡(cron) 자동화를 30일 넘게 실사용하며 정리한 실전 가이드입니다. 지금 이 블로그가 매일 자동 포스팅되는 파이프라인 자체가 Hermes 크론잡으로 돌아가고 있습니다. 자연어로 예약하는 세 가지 방법(/cron, hermes cron create, 그냥 말하기), 스킬을 붙이는 멀티스킬 워크플로, 웹사이트 변경 감시·주간 리포트·GitHub 감시·데이터 수집 파이프라인 등 공식 가이드의 5가지 실전 패턴, 그리고 v0.21.0 판테온에서 새로워진 영구 메모리·연속성(continuity)·스크래치패드·LLM 없는 no-agent 모드·봇 채팅(bot-chat) 전달까지 다룹니다. GitHub API 실측 기준 스타 239,498개·포크 48,928개, MIT 라이선스 무료 오픈소스. 커뮤니티 실사용 사례(28개 크론잡, $175 미니PC 24시간 운영 등)도 함께 정리했습니다."
 ---
 ![Hermes Agent 데스크톱 앱 공식 쇼케이스 이미지](/assets/images/posts/hermes-agent-cron-automation-20260902/hermes-desktop-showcase.jpg)
 *Hermes Agent 데스크톱 앱 공식 쇼케이스 — 크론잡·봇 모드·메모리·메시징 게이트웨이가 한 앱에 (출처: hermes-agent.nousresearch.com 공식 홈페이지)*
