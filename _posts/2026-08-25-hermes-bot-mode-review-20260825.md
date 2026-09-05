@@ -3,7 +3,7 @@ layout: post
 title: "Hermes Agent Bot Mode 추천 — AI 직원 팀 만들기 후기, 프로필→봇 명단 전환·그룹챗 3라운드·@멘션 업무 인계 실제 사용기 (2026.8.25)"
 date: 2026-08-25 09:00:00 +0900
 categories: [career]
-tags: [HermesAgent, NousResearch, BotMode, 봇모드, 멀티에이전트, AI에이전트, 오픈소스AI, v0.20.3, 그룹챗, AI협업, @멘션, 루틴, 크론잡, 2026년8월, AI뉴스, AI툴추천]
+tags: [HermesAgent, NousResearch, BotMode, 봇모드, 멀티에이전트, AI에이전트, 오픈소스AI, v0.20.3, 그룹챗, AI협업, "@멘션", 루틴, 크론잡, 2026년8월, AI뉴스, AI툴추천]
 author: "40대 블로거"
 image: /assets/images/posts/hermes-bot-mode-review-20260825/botmode-roster-main.png
 description: "2026년 8월, Nous Research의 오픈소스 AI 에이전트 Hermes Agent에 'Bot Mode'가 정식 탑재됐습니다. 8/13 하루 만에 공개 베타에서 번들 플러그인으로 승격됐고, v0.20.3부터는 Hermes Desktop에 기본 내장(default-on)입니다. 핵심은 '봇 = Hermes 프로필'이라는 단순한 원리 위에 명단(로스터)·그룹챗(2~6봇, 최대 3라운드)·@멘션 업무 인계·봇간 직접 메시징(message_agent)·봇별 루틴(크론)이라는 팀 인터페이스를 얹은 것. '프로필은 분리된 뇌, Bot Mode는 그 뇌들에 얼굴과 방을 주는 층'이라는 설명이 가장 정확합니다. 이 글에서는 실제 해외 사용자가 3개 봇(리서처→리스크 분석가→편집자)으로 파이프라인을 돌린 실험 사례와 공식 문서 실측을 바탕으로, 핵심 기능 → 실제 사용감 → 장점 → 단점 순으로 솔직하게 정리했습니다."
