@@ -695,6 +695,19 @@ img { max-width: 100%; height: auto; border-radius: var(--radius-sm); }
 .category-header { margin-bottom: 32px; }
 .category-title { font-size: 1.8rem; font-weight: 800; margin-bottom: 8px; }
 .category-description { color: var(--text-light); font-size: 1rem; }
+.category-intro {
+  margin-top: 16px;
+  padding: 16px 18px;
+  background: var(--bg-card);
+  border-left: 4px solid var(--accent);
+  border-radius: var(--radius-sm);
+  color: var(--text-light);
+  font-size: 0.95rem;
+  line-height: 1.8;
+}
+.category-intro p { margin-bottom: 8px; }
+.category-intro p:last-child { margin-bottom: 0; }
+.category-intro strong { color: var(--primary); font-weight: 700; }
 
 /* ── Footer ── */
 .site-footer {
