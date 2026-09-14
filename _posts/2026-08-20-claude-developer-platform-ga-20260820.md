@@ -10,7 +10,7 @@ sitemap: false
 noindex: true
 ---
 
-요즘 저처럼 **Claude API로 업무 자동화나 AI 서비스를 만드시는 분들**, 그리고 **Claude Code로 개발하시는 분들** 많으시죠? 저도 이 블로그를 Claude와 함께 쓰면서, 자연스럽게 **Anthropic의 개발자 플랫폼(Developer Platform)이 어떻게 변하는지** 매주 눈여겨보고 있습니다. 베타 기능이었다가 정식(GA)으로 바뀌는 순간이 언제인지가, 실제 서비스에 적용할지 말지를 결정하는 기준이 되니까요.
+요즘 저처럼 **Claude API로 업무 자동화나 AI 서비스를 만드시는 분들**, 그리고 **Claude Code로 개발하시는 분들** 많으시죠? 저도 Claude를 업무에 쓰면서, 자연스럽게 **Anthropic의 개발자 플랫폼(Developer Platform)이 어떻게 변하는지** 매주 눈여겨보고 있습니다. 베타 기능이었다가 정식(GA)으로 바뀌는 순간이 언제인지가, 실제 서비스에 적용할지 말지를 결정하는 기준이 되니까요.
 
 그런데 어제(8월 19일), **Claude Developer Platform에 대규모 GA 업데이트**가 한꺼번에 쏟아졌습니다. **Admin API 유저 관리, Files API, Agent Skills API**까지 한 번에 정식 출시되고, **Claude Managed Agents**에는 웹 접근 도메인 제한과 셀프호스티드 샌드박스 메모리 스토어가 추가됐으며, **Console 세션 뷰어도 전면 개편**됐습니다. 하루 전인 8월 18일에는 Workbench가 **Playground**로 새로 태어나기도 했죠. 오늘은 이번 업데이트를 **이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망** 순서로 정리해 드립니다.
 

@@ -3,15 +3,15 @@ layout: post
 title: "Hermes Agent 무료로 쓰는 법 추천 — Nous Portal 한 계정으로 월 구독비 0원 만들기: DeepSeek V4 Flash 반값·무료 모델·Ollama 로컬·Hermes 4.3 36B 총정리 (2026.9.4)"
 date: 2026-09-04 09:00:00 +0900
 categories: [career]
-tags: [HermesAgent, NousResearch, NousPortal, DeepSeek, DeepSeekV4Flash, 무료AI, Ollama, Hermes4.3, 오픈소스AI, AI에이전트, AI툴추천, 구독할인, 가성비, 자동포스팅, 크론잡, 2026년9월]
+tags: [HermesAgent, NousResearch, NousPortal, DeepSeek, DeepSeekV4Flash, 무료AI, Ollama, Hermes4.3, 오픈소스AI, AI에이전트, AI툴추천, 구독할인, 가성비, 자동화 작업, 크론잡, 2026년9월]
 author: "40대 블로거"
 image: /assets/images/posts/hermes-agent-nous-portal-free-guide-20260904/hero-one-account.jpg
-description: "2026년 9월 4일 기준, 오픈소스 AI 에이전트 Hermes Agent를 '돈 거의 안 내고' 쓰는 법을 30일 실사용 비용과 함께 정리한 가이드입니다. 핵심은 Nous Research의 통합 구독 게이트웨이 'Nous Portal' 하나로 끝난다는 것. OAuth 한 번이면 Hermes Agent·Inference API·Hermes Cloud를 모두 쓰고, 300개 이상 모델(Claude·GPT·Gemini·DeepSeek 등)과 각종 툴이 포함됩니다. 무료로 시작(free to start)할 수 있고, 이 블로그의 자동 포스팅 엔진이기도 한 DeepSeek V4 Flash(284B/13B MoE, 1M 컨텍스트)는 포털 공식 카드 기준 $0.08/$0.15(리스트의 절반 수준)에 쓰며, 8월 초에는 Novita Labs와 함께 7일간 90% 할인 프로모도 진행했습니다. 여기에 OpenRouter 무료 모델 라운드로빈, Ollama 로컬 무료 + Hermes 4.3 36B(512K 컨텍스트, RefusalBench SOTA, Psyche 분산 학습) 조합까지, '무료로 AI 에이전트 굴리는 4가지 길'을 실제 사용기 관점에서 솔직하게 정리했습니다. GitHub 스타 24만 개 돌파(9/3 실측)한 Hermes Agent v0.21.0 판테온 기준입니다."
+description: "2026년 9월 4일 기준, 오픈소스 AI 에이전트 Hermes Agent를 '돈 거의 안 내고' 쓰는 법을 30일 실사용 비용과 함께 정리한 가이드입니다. 핵심은 Nous Research의 통합 구독 게이트웨이 'Nous Portal' 하나로 끝난다는 것. OAuth 한 번이면 Hermes Agent·Inference API·Hermes Cloud를 모두 쓰고, 300개 이상 모델(Claude·GPT·Gemini·DeepSeek 등)과 각종 툴이 포함됩니다. 무료로 시작(free to start)할 수 있고, 자동화 파이프라인 엔진으로도 쓰이는 DeepSeek V4 Flash(284B/13B MoE, 1M 컨텍스트)는 포털 공식 카드 기준 $0.08/$0.15(리스트의 절반 수준)에 쓰며, 8월 초에는 Novita Labs와 함께 7일간 90% 할인 프로모도 진행했습니다. 여기에 OpenRouter 무료 모델 라운드로빈, Ollama 로컬 무료 + Hermes 4.3 36B(512K 컨텍스트, RefusalBench SOTA, Psyche 분산 학습) 조합까지, '무료로 AI 에이전트 굴리는 4가지 길'을 실제 사용기 관점에서 솔직하게 정리했습니다. GitHub 스타 24만 개 돌파(9/3 실측)한 Hermes Agent v0.21.0 판테온 기준입니다."
 ---
 ![Nous Portal 공식 랜딩 이미지 — One account, everywhere](/assets/images/posts/hermes-agent-nous-portal-free-guide-20260904/hero-one-account.jpg)
 *Nous Portal 공식 랜딩 이미지 — "하나의 계정으로 어디서나(Hermes Agent·Inference API·Hermes Cloud)" (출처: portal.nousresearch.com 공식 홈페이지)*
 
-> **📌 한줄 요약:** 요즘 저처럼 **"AI 에이전트는 쓰고 싶은데, 클로드·챗GPT 구독비가 부담"** 되시는 분들을 위한 실전 가이드입니다. Nous Research의 Hermes Agent는 **MIT 라이선스 무료 오픈소스**라 프로그램 자체는 0원이고, 모델 비용만 잘 고르면 됩니다. **Nous Portal**에 OAuth 한 번으로 로그인하면 300개 이상 모델과 툴이 따라오고, 가성비 끝판왕 **DeepSeek V4 Flash**는 포털 공식 카드 기준 $0.08/$0.15(리스트의 절반 수준), 완전 무료를 원하면 **OpenRouter 무료 모델** 또는 **Ollama 로컬 + Hermes 4.3 36B** 조합이 정답입니다. **지금 이 블로그의 매일 자동 포스팅도 Hermes 크론잡 + DeepSeek V4 Flash 조합으로 돌아가고 있고, 한 달 실비용은 거의 0원입니다.**
+> **📌 한줄 요약:** 요즘 저처럼 **"AI 에이전트는 쓰고 싶은데, 클로드·챗GPT 구독비가 부담"** 되시는 분들을 위한 실전 가이드입니다. Nous Research의 Hermes Agent는 **MIT 라이선스 무료 오픈소스**라 프로그램 자체는 0원이고, 모델 비용만 잘 고르면 됩니다. **Nous Portal**에 OAuth 한 번으로 로그인하면 300개 이상 모델과 툴이 따라오고, 가성비 끝판왕 **DeepSeek V4 Flash**는 포털 공식 카드 기준 $0.08/$0.15(리스트의 절반 수준), 완전 무료를 원하면 **OpenRouter 무료 모델** 또는 **Ollama 로컬 + Hermes 4.3 36B** 조합이 정답입니다. **매일 자동화 작업도 Hermes 크론잡 + DeepSeek V4 Flash 조합으로 돌릴 수 있고, 한 달 실비용은 거의 0원입니다.**
 
 ---
 
@@ -21,14 +21,14 @@ description: "2026년 9월 4일 기준, 오픈소스 AI 에이전트 Hermes Agen
 - **Nous Portal이 뭔지** — 모델 300개+·툴 포함·무료로 시작 가능한 Nous Research 공식 통합 구독 게이트웨이 (9/4 기준)
 - **DeepSeek V4 Flash를 반값에 쓰는 법** — 284B/13B MoE·1M 컨텍스트 스펙과 포털 카드 가격($0.08/$0.15), 90% 할인 프로모 실측
 - **진짜 0원 루트 3가지** — Portal 무료 시작 / OpenRouter 무료 모델 / Ollama 로컬 + Hermes 4.3 36B
-- **이 블로그의 실제 운영 조합과 월 비용** — 30일 자동포스팅을 돌리며 기록한 솔직한 실사용 후기
+- **실제 운영 조합과 월 비용** — 30일 실사용하며 기록한 솔직한 후기
 - **솔직한 장단점** — "이건 무조건 해"와 "이건 아직 글쎄"
 
 ---
 
 ## 도입: "저처럼 AI 에이전트에 월 3만 원씩 내기 아까우신 분들"
 
-요즘 저처럼 **AI 에이전트를 하루도 안 빼고 쓰는데, 구독비가 쌓이는 게 신경 쓰이시는 분들** 많으시죠? 저도 한 달 전까지는 클로드·챗GPT 구독을 몇 개씩 걸쳐 두며 "이거 하나만 있으면 되는데…" 하는 생각을 매달 반복했습니다. 그런데 8월부터 이 블로그를 **Hermes Agent 크론잡으로 100% 자동 포스팅**하면서 문득 계산기를 두드려 봤습니다. "지금 이 자동화 시스템을 유지하는 데 한 달에 얼마가 들까?"
+요즘 저처럼 **AI 에이전트를 하루도 안 빼고 쓰는데, 구독비가 쌓이는 게 신경 쓰이시는 분들** 많으시죠? 저도 한 달 전까지는 클로드·챗GPT 구독을 몇 개씩 걸쳐 두며 "이거 하나만 있으면 되는데…" 하는 생각을 매달 반복했습니다. 그런데 8월부터 **Hermes Agent 크론잡으로 자동화 작업**을 돌리면서 문득 계산기를 두드려 봤습니다. "이 자동화 시스템을 유지하는 데 한 달에 얼마가 들까?"
 
 정답은 **사실상 0원에 가깝다**였습니다. 본체(Hermes Agent)는 MIT 라이선스 무료 오픈소스고, 모델은 Nous Portal 안에서 가성비가 가장 좋은 **DeepSeek V4 Flash**로 돌리고 있는데, 이 조합이 놀라울 정도로 쌉니다. 오늘은 제가 실제로 쓰면서 확인한 **"Hermes Agent를 돈 거의 안 내고 쓰는 4가지 길"**을, 최근 업데이트(v0.21.0 판테온) 상황과 함께 정리해 드릴게요.
 
@@ -56,7 +56,7 @@ Hermes Agent는 Nous Research가 만든 오픈소스 AI 에이전트입니다. �
 
 ---
 
-## 핵심 ② DeepSeek V4 Flash — 이 블로그의 엔진, 포털에서 반값
+## 핵심 ② DeepSeek V4 Flash — 자동화 파이프라인의 엔진, 포털에서 반값
 
 이제 제가 가장 많이 쓰는 모델입니다. **DeepSeek V4 Flash**는 총 284B(활성 13B) Mixture-of-Experts 구조에 **1M(100만) 토큰 컨텍스트**를 가진 효율형 모델로, 추론 성능이 V4 Pro에 근접하면서 속도는 훨씬 빠르고 가격은 크게 낮습니다. 4월 프리뷰 공개 후 **7/31 '0731' 정식 릴리스**가 나오면서 에이전트(도구 사용) 능력이 대폭 강화됐고, Terminal Bench 2.1에서 82.7%를 기록하며 V4 Pro와 GLM-5.2를 제쳤다는 보도까지 나왔습니다.
 
@@ -65,7 +65,7 @@ Hermes Agent는 Nous Research가 만든 오픈소스 AI 에이전트입니다. �
 
 가격이 핵심인데, **Nous Portal 공식 가격 카드 기준 입력 $0.08 / 출력 $0.15(1M 토큰당)**입니다. DeepSeek 공식 리스트($0.14/$0.28)와 비교하면 **절반 수준**이에요. 게다가 8월 초에는 Novita Labs와 손잡고 **7일 한정 90% 할인 프로모**를 진행해 "포털에서 DeepSeek V4 Flash가 무료/거의 공짜"라는 크리에이터 영상이 한동안 화제가 되기도 했습니다.
 
-솔직히 이 모델+포털 조합이 얼마나 효율적인지는 **이 블로그가 증명하고 있습니다.** 지금 이 글을 쓰고 있는 크론잡도 Hermes Agent + Nous Portal의 DeepSeek V4 Flash로 돌아가는데, 아침 브리핑·리서치·이미지 검색·포스팅·검증을 하루에 여러 번 돌려도 **월 비용이 커피 한 잔 값이 안 됩니다.** 리서치용으로 비싼 모델을 쓰고, 일상 자동화는 V4 Flash에 맡기는 '라우팅'이 정답이라는 걸 몸으로 체득하는 중입니다.
+솔직히 이 모델+포털 조합의 효율은 **30일 실사용 기록이 증명합니다.** Hermes Agent + Nous Portal의 DeepSeek V4 Flash로 아침 브리핑·리서치·이미지 검색·검증 작업을 하루에 여러 번 돌려도 **월 비용이 커피 한 잔 값이 안 됩니다.** 리서치용으로 비싼 모델을 쓰고, 일상 자동화는 V4 Flash에 맡기는 '라우팅'이 정답이라는 걸 몸으로 체득하는 중입니다.
 
 ---
 
@@ -135,7 +135,7 @@ Hermes Agent는 Nous Research가 만든 오픈소스 AI 에이전트입니다. �
 
 ## 마무리: "가성비 좋은 AI 에이전트 찾는 분께 추천"
 
-요즘 저처럼 **"AI 에이전트를 진짜 내 업무에 붙이고 싶은데, 매달 나가는 구독비가 아까운"** 분들께 이 조합을 추천합니다. Hermes Agent는 본체가 MIT 무료 오픈소스라 '기능 제한으로 업그레이드 강요'가 없고, Nous Portal 하나면 모델 300개+를 계정 하나로 비교하며 쓸 수 있습니다. 거기에 가성비 왕 DeepSeek V4 Flash를 메인으로 얹으면, **이 블로그처럼 매일 자동으로 리서치→포스팅→배포까지 돌려도 실비용이 거의 0원**입니다.
+요즘 저처럼 **"AI 에이전트를 진짜 내 업무에 붙이고 싶은데, 매달 나가는 구독비가 아까운"** 분들께 이 조합을 추천합니다. Hermes Agent는 본체가 MIT 무료 오픈소스라 '기능 제한으로 업그레이드 강요'가 없고, Nous Portal 하나면 모델 300개+를 계정 하나로 비교하며 쓸 수 있습니다. 거기에 가성비 왕 DeepSeek V4 Flash를 메인으로 얹으면, **매일 리서치→정리→배포까지 돌려도 실비용이 거의 0원**입니다.
 
 무엇보다 지금이 재미있는 시점입니다. v0.21.0 판테온으로 **봇 모드·기억하는 크론잡**까지 갖춘 Hermes Agent가 24만 스타를 돌파했고, 모델 쪽은 DeepSeek V4 Flash의 0731 정식 릴리스, Nous의 Hermes 4.3 36B, Portal의 각종 프로모까지 '무료로 잘 쓰기' 조건이 역대급으로 갖춰져 있어요. **가성비 좋은 AI 에이전트를 찾으셨다면, 오늘 소개한 4가지 길 중 하나쯤은 분명 답이 될 겁니다.**
 
@@ -143,6 +143,6 @@ Hermes Agent는 Nous Research가 만든 오픈소스 AI 에이전트입니다. �
 
 ---
 **함께 보면 좋은 글**
-- [Hermes Agent 크론잡 자동화 — 블로그 자동 포스팅 30일 실사용 후기](https://jackeychan0511.github.io/2026/09/02/hermes-agent-cron-automation-20260902/)
+- [Hermes Agent 크론잡 자동화 — 콘텐츠 자동화 30일 실사용 후기](https://jackeychan0511.github.io/2026/09/02/hermes-agent-cron-automation-20260902/)
 - [Hermes Agent v0.21.0 판테온 정식 출시 총정리](https://jackeychan0511.github.io/2026/09/01/hermes-v0210-pantheon-release-20260901/)
 - [Hermes Agent, OpenRouter서 하루 1.5조 토큰 처리 기록](https://jackeychan0511.github.io/2026/08/12/hermes-openrouter-20260812/)

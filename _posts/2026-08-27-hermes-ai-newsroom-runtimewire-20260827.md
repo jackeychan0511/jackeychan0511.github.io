@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "AI 에이전트 1인 뉴스룸 만들기 추천 — WIRED보다 3시간 빠른 RuntimeWire 스쿱 사례 + Hermes Agent 크론잡 자동포스팅 실전 가이드 (2026.8.27)"
+title: "AI 에이전트 1인 뉴스룸 만들기 추천 — WIRED보다 3시간 빠른 RuntimeWire 스쿱 사례 + Hermes Agent 크론잡 자동화 작업 실전 가이드 (2026.8.27)"
 date: 2026-08-27 09:00:00 +0900
 categories: [career]
-tags: [HermesAgent, NousResearch, RuntimeWire, AI뉴스룸, 자동포스팅, 크론잡, cron, 스킬, skills, 메모리, memory, BlackHat, WIRED, RyanMerket, AI에이전트, 오픈소스AI, 2026년8월, AI뉴스, AI툴추천]
+tags: [HermesAgent, NousResearch, RuntimeWire, AI뉴스룸, 자동화 작업, 크론잡, cron, 스킬, skills, 메모리, memory, BlackHat, WIRED, RyanMerket, AI에이전트, 오픈소스AI, 2026년8월, AI뉴스, AI툴추천]
 author: "40대 블로거"
 image: /assets/images/posts/hermes-ai-newsroom-runtimewire/hermes-og-image.png
-description: "2026년 8월 27일, 1인 AI 뉴스룸 RuntimeWire가 Black Hat에서 WIRED보다 3시간 이상 빠르게 OpenAI 해킹 스쿱을 터뜨린 사건을 실측 분석하고, 같은 구조를 오픈소스 AI 에이전트 Hermes Agent로 재현하는 방법을 정리했습니다. RuntimeWire는 하루 약 100달러 운영비로 5월 이후 2,000개 가까운 기사를 발행했고, 창업자 Ryan Merket은 라이브스트림 트랜스크립트를 에이전트에 넣은 지 약 6분 만에 기사를 완성했습니다. 이 글에서는 ① 스쿱이 어떻게 가능했는지 에이전트 루프(발견→초안→편집→팩트체크→이미지→발행)로 분해하고, ② Hermes Agent의 크론잡·스킬·영구 메모리를 활용한 자동포스팅 실전 가이드(/cron add, cronjob 툴, --workdir, 잡별 reasoning effort), ③ 8/26 기준 GitHub 스타 236,881개를 돌파한 Hermes Agent의 최신 개발 상황(MiniMax H3 Max FAL 비디오 픽커, skill_manage 토큰 다이어트 924→518 tok/call 등), ④ 솔직한 장단점(품질 논란·책임성 문제)까지 실제 크론잡 자동포스팅을 돌리는 사용자 관점에서 정리했습니다."
+description: "2026년 8월 27일, 1인 AI 뉴스룸 RuntimeWire가 Black Hat에서 WIRED보다 3시간 이상 빠르게 OpenAI 해킹 스쿱을 터뜨린 사건을 실측 분석하고, 같은 구조를 오픈소스 AI 에이전트 Hermes Agent로 재현하는 방법을 정리했습니다. RuntimeWire는 하루 약 100달러 운영비로 5월 이후 2,000개 가까운 기사를 발행했고, 창업자 Ryan Merket은 라이브스트림 트랜스크립트를 에이전트에 넣은 지 약 6분 만에 기사를 완성했습니다. 이 글에서는 ① 스쿱이 어떻게 가능했는지 에이전트 루프(발견→초안→편집→팩트체크→이미지→발행)로 분해하고, ② Hermes Agent의 크론잡·스킬·영구 메모리를 활용한 자동화 작업 실전 가이드(/cron add, cronjob 툴, --workdir, 잡별 reasoning effort), ③ 8/26 기준 GitHub 스타 236,881개를 돌파한 Hermes Agent의 최신 개발 상황(MiniMax H3 Max FAL 비디오 픽커, skill_manage 토큰 다이어트 924→518 tok/call 등), ④ 솔직한 장단점(품질 논란·책임성 문제)까지 실제 크론잡 자동화 작업을 돌리는 사용자 관점에서 정리했습니다."
 ---
 
 ![Hermes Agent 공식 OG 이미지](/assets/images/posts/hermes-ai-newsroom-runtimewire/hermes-og-image.png)
@@ -18,7 +18,7 @@ description: "2026년 8월 27일, 1인 AI 뉴스룸 RuntimeWire가 Black Hat에�
 
 - **RuntimeWire 스쿱 사건** — 1인 AI 뉴스룸이 WIRED보다 3시간 이상 빠르게 OpenAI 해킹 기사를 낸 과정
 - **에이전트 루프 분해** — 발견→초안→편집→팩트체크→이미지→발행, 6분짜리 파이프라인의 정체
-- **Hermes Agent 재현 가이드** — 크론잡·스킬·영구 메모리로 나만의 자동포스팅 시스템 만들기
+- **Hermes Agent 재현 가이드** — 크론잡·스킬·영구 메모리로 나만의 자동화 작업 시스템 만들기
 - **최신 개발 상황** — 8/26 기준 ⭐236,881개, v0.21.0을 향한 어제까지의 커밋 실측
 - **솔직한 장단점** — "이건 따라 해도 돼"인 부분과 "이건 조심해야 해"인 부분
 
@@ -26,7 +26,7 @@ description: "2026년 8월 27일, 1인 AI 뉴스룸 RuntimeWire가 Black Hat에�
 
 ## 1. 요즘 저처럼 "AI 에이전트가 기사를 쓰는 세상"이 궁금하시던 분들
 
-요즘 저처럼 **AI 에이전트에게 블로그 포스팅을 맡겨서 자동으로 돌리시는 분들**, 많으시죠. 저도 지금 이 글을 **Hermes Agent의 크론잡(자동 예약 작업)**으로 쓰고 있습니다. 매일 아침 8시가 되면 에이전트가 깨어나서 최신 뉴스를 조사하고, 글을 쓰고, 이미지를 넣고, git에 커밋해서 GitHub Pages에 배포하기까지 — 전 과정을 사람 손 없이 돌리는 거죠.
+요즘 저처럼 **AI 에이전트로 반복 작업을 자동화하시는 분들**, 많으시죠. 저도 **Hermes Agent의 크론잡(자동 예약 작업)** 을 돌리고 있습니다. 매일 아침 8시가 되면 에이전트가 깨어나서 최신 뉴스를 조사하고, 내용을 정리하고, 이미지를 찾고, 결과물을 정리해 전달하기까지 — 전 과정을 사람 손 없이 돌리는 방식이죠.
 
 그런데 지난주, 이 방식을 **한 단계 더 극단으로** 밀어붙인 뉴스가 나왔습니다. 미국 라스베이거스의 보안 콘퍼런스 **Black Hat**에서 OpenAI가 최근 해킹 사건의 새 사실을 공개했는데, 현장에 기자를 보낸 WIRED보다 **3시간 이상 먼저** 그 내용을 기사로 발행한 매체가 있었다는 겁니다. 그것도 기자가 단 **한 명**인, 그것도 **하루 운영비 약 100달러(약 13만 원)**짜리 AI 뉴스룸이요.
 
@@ -117,7 +117,7 @@ hermes cron create "every 1h" "피드 확인하고 새 내용 요약" \
   --skill blogwatcher --skill maps --name "Skill combo"
 ```
 
-제 블로그의 실제 크론잡 설정도 거의 이 패턴입니다. 스케줄 `0 8 * * *`(매일 오전 8시), 스킬 3개(`blogger-style-franky`, `image-research-subagent`, `final-verification-before-report`), 작업 디렉토리는 블로그 저장소로 지정해두었죠. 크론잡이 실행되면 **AGENTS.md(블로그 게시 규칙)를 읽고, 그 규칙대로 조사→작성→이미지→커밋→푸시**까지 완료합니다.
+예를 들어 스케줄 `0 8 * * *`(매일 오전 8시)로 잡을 만들고, 스타일·이미지 리서치·최종 검증 스킬 3개를 붙인 뒤 작업 디렉토리를 프로젝트 폴더로 지정해두면 됩니다. 크론잡이 실행되면 **AGENTS.md(작업 규칙)를 읽고, 그 규칙대로 조사→작성→이미지→정리**까지 완료합니다.
 
 ### 4-3. 잡별 reasoning effort — 비싼 잡, 싼 잡을 나눠라
 
@@ -157,7 +157,7 @@ RuntimeWire의 "하우스 스타일" 역할을 하는 게 Hermes의 **스킬(Ski
 /learn ~/books/designing-data-intensive-applications.pdf
 ```
 
-제 블로그도 이 원리로 돌아갑니다. "프랭키 스타일로 제품 후기 쓰기", "이미지 3순위 리서치", "최종 검증 후 보고" 같은 스킬들이 크론잡에 묶여 있어서, 매번 같은 규칙을 설명할 필요가 없어요.
+이 원리로 돌리면 "제품 후기 스타일", "이미지 3순위 리서치", "최종 검증 후 보고" 같은 스킬을 크론잡에 묶어둘 수 있어서, 매번 같은 규칙을 설명할 필요가 없습니다.
 
 ### 4-5. 영구 메모리 — "지난번에 여기까지 했으니 오늘은 그다음부터"
 
@@ -168,7 +168,7 @@ RuntimeWire의 "하우스 스타일" 역할을 하는 게 Hermes의 **스킬(Ski
 | **MEMORY.md** | 에이전트의 개인 메모 — 환경·관례·배운 것 | 2,200자 (~800토큰) |
 | **USER.md** | 사용자 프로필 — 선호·기대치 | 1,375자 (~500토큰) |
 
-세션 시작 때 **얼려진 스냅샷(frozen snapshot)**으로 시스템 프롬프트에 주입되고, v0.20.5부터는 **크론잡 단위로도 영구 메모리**가 적용됩니다. "이 블로그는 한국어로 써", "이미지는 AI 생성 금지" 같은 규칙을 한 번 메모에 넣어두면 다음 크론 실행에서도 기억합니다.
+세션 시작 때 **얼려진 스냅샷(frozen snapshot)**으로 시스템 프롬프트에 주입되고, v0.20.5부터는 **크론잡 단위로도 영구 메모리**가 적용됩니다. 한국어로 쓰기, 이미지는 AI 생성 금지 같은 규칙을 한 번 메모에 넣어두면 다음 크론 실행에서도 기억합니다.
 
 ![Hermes Agent 메모리 기능 이미지](/assets/images/posts/hermes-ai-newsroom-runtimewire/hermes-feature-memory.webp)
 *Hermes Agent 공식 홈페이지의 'Remember — Persistent Memory' 기능 소개 — 프로젝트를 학습하고 스킬을 자동 생성하며 문제 해결 방법을 잊지 않는다 (출처: hermes-agent.nousresearch.com 공식 홈페이지, 2026-08-27 확인)*
@@ -193,7 +193,7 @@ RuntimeWire의 "하우스 스타일" 역할을 하는 게 Hermes의 **스킬(Ski
 
 ### 👍 이건 따라 해도 좋아요
 
-- **1인 뉴스룸/자동포스팅은 이미 현실** — RuntimeWire 사례가 증명했듯, 발견→작성→발행 루프는 개인도 만들 수 있습니다
+- **1인 뉴스룸/자동화 작업은 이미 현실** — RuntimeWire 사례가 증명했듯, 발견→작성→발행 루프는 개인도 만들 수 있습니다
 - **Hermes Agent는 그 재현 비용을 0원으로** — MIT 라이선스 무료 오픈소스, 자연어 크론잡, `/learn` 스킬, 영구 메모리까지 갖추면 사실상 "나만의 RuntimeWire" 시작점이 됩니다
 - **잡별 reasoning effort** — 가벼운 잡은 `minimal`, 무거운 잡은 `high`로 나누면 비용 관리가 됩니다
 - **`--workdir`로 프로젝트 규칙 주입** — 크론잡이 AGENTS.md를 읽고 그 규칙대로 일하게 할 수 있습니다
@@ -221,8 +221,8 @@ RuntimeWire의 "하우스 스타일" 역할을 하는 게 Hermes의 **스킬(Ski
 1. **스킬부터** — 자신의 글쓰기 스타일을 `/learn`으로 스킬화하세요. 이게 "하우스 스타일"입니다
 2. **메모리에 규칙을** — "한국어로 써", "AI 이미지 금지" 같은 상수(常數)를 메모리에 넣으세요
 3. **작게 시작** — 하루 1개 잡, `minimal` reasoning effort로 시작해서 비용 감을 익히세요
-4. **검증 단계를 넣으세요** — 제 블로그처럼 "최종 점검 후 보고" 스킬을 크론잡에 달아두면 무인 발행의 리스크가 줄어듭니다
+4. **검증 단계를 넣으세요** — "최종 점검 후 보고" 스킬을 크론잡에 달아두면 무인 발행의 리스크가 줄어듭니다
 
-RuntimeWire가 보여준 미래의 가장 좋은 점은 "이제 이런 걸 **혼자서도** 만들 수 있다"는 거고, Hermes Agent는 그 시작점을 **무료**로 열어줍니다. 솔직히 한 달 전만 해도 "블로그가 사람 없이 매일 포스팅된다"는 상상을 어떻게 설명해야 할지 막막했는데, 지금은 이 글 자체가 그 증거입니다. **가성비 좋은 AI 도구를 찾으시는 분, 그리고 자동화의 재미를 느껴보고 싶은 분께 Hermes Agent 추천합니다.**
+RuntimeWire가 보여준 미래의 가장 좋은 점은 "이제 이런 걸 **혼자서도** 만들 수 있다"는 거고, Hermes Agent는 그 시작점을 **무료**로 열어줍니다. 솔직히 한 달 전만 해도 "콘텐츠 운영이 사람 손을 거의 타지 않는다"는 상상을 어떻게 설명해야 할지 막막했는데, 지금은 이 글 자체가 그 증거입니다. **가성비 좋은 AI 도구를 찾으시는 분, 그리고 자동화의 재미를 느껴보고 싶은 분께 Hermes Agent 추천합니다.**
 
 *※ 본 포스트는 Hermes Agent 공식 문서(hermes-agent.nousresearch.com/docs), GitHub 릴리스·커밋 API(8/27 실측), RuntimeWire 공식 사이트 및 Santage·Developments Today·Gizmodo 보도를 실측 인용하여 2026-08-27에 Hermes Agent 크론잡으로 작성했습니다.*
