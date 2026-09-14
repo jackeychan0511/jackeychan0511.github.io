@@ -16,6 +16,8 @@ image: /assets/images/posts/numberia-devlog/00-home.jpg
 
 <div class="post-notice">📌 <strong>현재 상태:</strong> 넘버리아는 구글 플레이 스토어 <strong>정식 등록을 위한 승인 전 단계</strong>입니다. (개발자 계정 인증·비공개 테스트 준비 중)</div>
 
+<div class="game-cta">🎮 <strong>넘버리아 미리 해보기</strong> — <a href="https://numberia.web.app/" target="_blank" rel="noopener">numberia.web.app</a> <span class="cta-note">(스마트폰 화면에 맞춰 만든 게임입니다)</span></div>
+
 게임 자체는 완성도가 올라갔지만, 이건 어디까지나 브라우저에서만 도는 웹페이지였습니다. "플레이스토어에 올리려면 이제 뭐가 남았어?"라는 질문에서 진짜 긴 여정이 시작됐습니다. 이번 편은 가장 "개발자스러운" 삽질이 몰려있는 편입니다.
 
 ## 다행히 앱으로 포장하는 건 쉬웠다

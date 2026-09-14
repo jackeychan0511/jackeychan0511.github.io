@@ -508,6 +508,20 @@ img { max-width: 100%; height: auto; border-radius: var(--radius-sm); }
   color: var(--text);
 }
 
+/* 게임 링크 CTA */
+.game-cta {
+  margin: 0 0 24px;
+  padding: 14px 16px;
+  background: linear-gradient(135deg, #1a1a2e, #16213e);
+  color: #fff;
+  border-radius: var(--radius-sm);
+  font-size: 0.92rem;
+  line-height: 1.7;
+}
+.game-cta strong { color: #fff; }
+.game-cta a { color: var(--gold) !important; font-weight: 700; text-decoration: underline; }
+.game-cta .cta-note { color: rgba(255,255,255,0.65); font-size: 0.82rem; }
+
 /* 본문 이미지 & 캡션 */
 .post-content p > img {
   display: block;

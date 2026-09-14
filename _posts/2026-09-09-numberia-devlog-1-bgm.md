@@ -16,6 +16,8 @@ image: /assets/images/posts/numberia-devlog/00-home.jpg
 
 <div class="post-notice">📌 <strong>현재 상태:</strong> 넘버리아는 구글 플레이 스토어 <strong>정식 등록을 위한 승인 전 단계</strong>입니다. (개발자 계정 인증·비공개 테스트 준비 중)</div>
 
+<div class="game-cta">🎮 <strong>넘버리아 미리 해보기</strong> — <a href="https://numberia.web.app/" target="_blank" rel="noopener">numberia.web.app</a> <span class="cta-note">(스마트폰 화면에 맞춰 만든 게임입니다)</span></div>
+
 넘버리아 대륙은 7세 아이를 위한 수학 모험 게임입니다. 화면은 어느 정도 완성됐는데, 정작 켜보면 너무 조용했어요. 그래서 배경음악과 효과음을 처음부터 만들기로 했습니다. AI로 뚝딱 만들 줄 알았는데, 실제로는 생각보다 훨씬 긴 싸움이었습니다.
 
 ## 소리를 "생성"이 아니라 "합성"했다

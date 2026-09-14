@@ -16,6 +16,8 @@ image: /assets/images/posts/numberia-devlog/01-hero-select.jpg
 
 <div class="post-notice">📌 <strong>현재 상태:</strong> 넘버리아는 구글 플레이 스토어 <strong>정식 등록을 위한 승인 전 단계</strong>입니다. (개발자 계정 인증·비공개 테스트 준비 중)</div>
 
+<div class="game-cta">🎮 <strong>넘버리아 미리 해보기</strong> — <a href="https://numberia.web.app/" target="_blank" rel="noopener">numberia.web.app</a> <span class="cta-note">(스마트폰 화면에 맞춰 만든 게임입니다)</span></div>
+
 수학 문제를 풀며 모으는 '별가루'로 펫을 키우는 기능이 있었는데, 아이들이 게임을 처음 시작하자마자 펫을 살 수 있다 보니 등장 타이밍이 어색했습니다. "언제, 어떻게 펫을 처음 만나게 할 것인가"부터 다시 설계했습니다.
 
 ## 첫 만남은 선물처럼

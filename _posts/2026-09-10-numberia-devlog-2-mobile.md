@@ -16,6 +16,8 @@ image: /assets/images/posts/numberia-devlog/03-battle.jpg
 
 <div class="post-notice">📌 <strong>현재 상태:</strong> 넘버리아는 구글 플레이 스토어 <strong>정식 등록을 위한 승인 전 단계</strong>입니다. (개발자 계정 인증·비공개 테스트 준비 중)</div>
 
+<div class="game-cta">🎮 <strong>넘버리아 미리 해보기</strong> — <a href="https://numberia.web.app/" target="_blank" rel="noopener">numberia.web.app</a> <span class="cta-note">(스마트폰 화면에 맞춰 만든 게임입니다)</span></div>
+
 넘버리아 대륙은 애초에 스마트폰 전용으로 만든 게임입니다. 그런데 정작 화면을 하나씩 넘겨보니, 컴퓨터 화면 기준으로 짜인 요소들이 좁은 스마트폰 화면에선 잘리거나 스크롤이 생기는 곳이 한둘이 아니었어요. 이번 편은 그 범인 찾기 이야기입니다.
 
 ## 스크린샷 한 장이면 될 줄 알았는데
