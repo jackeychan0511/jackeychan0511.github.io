@@ -562,18 +562,49 @@ img { max-width: 100%; height: auto; border-radius: var(--radius-sm); }
 /* ── Pagination ── */
 .pagination {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  gap: 8px;
-  margin: 40px 0;
+  align-items: center;
+  gap: 6px;
+  margin: 40px 0 48px;
 }
-.pagination a, .pagination span {
-  padding: 10px 16px;
-  border-radius: var(--radius-sm);
-  font-size: 0.9rem;
-  font-weight: 500;
+.pagination .page-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 40px;
+  height: 40px;
+  padding: 0 13px;
+  border-radius: 999px;
+  font-size: 0.86rem;
+  font-weight: 600;
+  color: var(--text);
+  background: var(--bg-card);
+  box-shadow: var(--shadow);
+  white-space: nowrap;
+  transition: background 0.18s, color 0.18s, transform 0.18s;
 }
-.pagination a { background: var(--bg-card); box-shadow: var(--shadow); }
-.pagination .current { background: var(--accent); color: #fff; }
+.pagination a.page-link:hover {
+  background: var(--accent);
+  color: #fff;
+  transform: translateY(-1px);
+}
+.pagination .page-link.current {
+  background: var(--accent);
+  color: #fff;
+  box-shadow: var(--shadow-hover);
+}
+.pagination .page-disabled {
+  opacity: 0.4;
+  box-shadow: none;
+  cursor: not-allowed;
+}
+.pagination .page-gap {
+  color: var(--text-muted);
+  padding: 0 2px;
+  user-select: none;
+}
+.pagination .page-nav { padding: 0 16px; }
 
 /* ── Sidebar ── */
 .sidebar { position: sticky; top: 84px; align-self: start; }

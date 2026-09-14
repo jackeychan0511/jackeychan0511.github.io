@@ -70,20 +70,44 @@ title: "40대 라이프"
     {% endif %}
   </div>
   {% if paginator.total_pages > 1 %}
-  <div class="pagination">
+  {% assign cur = paginator.page %}
+  {% assign total = paginator.total_pages %}
+  {% assign win_start = cur | minus: 2 %}
+  {% assign win_end = cur | plus: 2 %}
+  {% if win_start < 1 %}{% assign win_start = 1 %}{% endif %}
+  {% if win_end > total %}{% assign win_end = total %}{% endif %}
+  <nav class="pagination" aria-label="페이지 이동">
     {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}">← 이전</a>
+    <a class="page-link page-nav" href="{{ paginator.previous_page_path }}">← 이전</a>
+    {% else %}
+    <span class="page-link page-nav page-disabled">← 이전</span>
     {% endif %}
-    {% for page in (1..paginator.total_pages) %}
-      {% if page == paginator.page %}
-      <span class="current">{{ page }}</span>
+
+    {% if win_start > 1 %}
+    <a class="page-link" href="/">1</a>
+    {% if win_start > 2 %}<span class="page-gap">…</span>{% endif %}
+    {% endif %}
+
+    {% for p in (win_start..win_end) %}
+      {% if p == cur %}
+      <span class="page-link current" aria-current="page">{{ p }}</span>
+      {% elsif p == 1 %}
+      <a class="page-link" href="/">1</a>
       {% else %}
-      <a href="{{ site.paginate_path | replace: ':num', page }}">{{ page }}</a>
+      <a class="page-link" href="{{ site.paginate_path | replace: ':num', p }}">{{ p }}</a>
       {% endif %}
     {% endfor %}
-    {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}">다음 →</a>
+
+    {% if win_end < total %}
+    {% if win_end < total | minus: 1 %}<span class="page-gap">…</span>{% endif %}
+    <a class="page-link" href="{{ site.paginate_path | replace: ':num', total }}">{{ total }}</a>
     {% endif %}
-  </div>
+
+    {% if paginator.next_page %}
+    <a class="page-link page-nav" href="{{ paginator.next_page_path }}">다음 →</a>
+    {% else %}
+    <span class="page-link page-nav page-disabled">다음 →</span>
+    {% endif %}
+  </nav>
   {% endif %}
 </div>
