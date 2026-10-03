@@ -214,8 +214,10 @@ function vib(p){if(S.vib&&navigator.vibrate)try{navigator.vibrate(p)}catch(e){}}
 /* ───────── 몽글이 그리기 ───────── */
 function drawBlob(ctx,x,y,r,l,o){
   o=o||{};const th=THEMES[S.theme].levels[l];
-  const sq=o.sq||0;
-  ctx.save();ctx.translate(x,y);ctx.rotate(o.a||0);ctx.scale(1+sq*.06,1-sq*.06);
+  const k=o.k||0,sc=o.s==null?1:o.s;
+  ctx.save();ctx.translate(x,y);ctx.scale(sc,sc);
+  if(k){ctx.rotate(o.ka||0);ctx.scale(1-k,1+k*.9);ctx.rotate(-(o.ka||0))}
+  ctx.rotate(o.a||0);
   const g=ctx.createRadialGradient(-r*.35,-r*.4,r*.1,0,0,r);
   g.addColorStop(0,th[1]);g.addColorStop(1,th[2]);
   ctx.fillStyle=g;ctx.beginPath();ctx.arc(0,0,r,0,7);ctx.fill();
@@ -330,7 +332,7 @@ window.addEventListener('resize',resize);
 function newGame(m){
   mode=m;over=false;score=0;combo=0;comboT=0;fx=[];usedRevive=false;bombMode=false;maxLevel=0;runMerged=0;shakeT=0;
   blobs=[];
-  engine=Engine.create({enableSleeping:false});engine.gravity.y=1.1;
+  engine=Engine.create({enableSleeping:false,positionIterations:10,velocityIterations:8});engine.gravity.y=1.0;
   const o={isStatic:true,friction:.2,restitution:.05};
   World.add(engine.world,[Bodies.rectangle(W/2,H+WALL/2,W+200,WALL,o),Bodies.rectangle(-WALL/2,H/2,WALL,H*3,o),Bodies.rectangle(W+WALL/2,H/2,WALL,H*3,o)]);
   Events.on(engine,'collisionStart',onCollide);
@@ -344,20 +346,29 @@ function pull(){return Math.floor(rng()*5*.999)} // 0~4 단계
 function bestFor(){return mode==='daily'?store.get('daily_'+todayKey(),0):S.best}
 
 function addBlob(x,y,l,vy){
-  const b=Bodies.circle(x,y,RAD[l],{restitution:.18,friction:.15,frictionAir:.002,density:.001+l*.00004,label:'blob'});
-  b.lvl=l;b.born=performance.now();b.merging=false;b.sq=0;
+  const b=Bodies.circle(x,y,RAD[l],{restitution:.08,friction:.45,frictionStatic:.6,frictionAir:.012,slop:RAD[l]*.06,density:.001+l*.00004,label:'blob'});
+  b.lvl=l;b.born=performance.now();b.merging=false;b.k=0;b.kv=0;b.ka=0;b.s=1;b.sv=0;
   if(vy)Body.setVelocity(b,{x:0,y:vy});
   World.add(engine.world,b);blobs.push(b);return b;
 }
+function squash(b,nx,ny,rv){const k=Math.min(.3,rv*.035);if(k<.03)return;if(k>b.k){b.k=k;b.kv=0;b.ka=Math.atan2(ny,nx)}}
+let shake=0;
 function removeBlob(b){World.remove(engine.world,b);const i=blobs.indexOf(b);if(i>=0)blobs.splice(i,1)}
 
 function onCollide(ev){
   for(const p of ev.pairs){
-    const a=p.bodyA,b=p.bodyB;
+    const a=p.bodyA,b=p.bodyB,n=p.collision.normal;
+    const rv=Math.hypot(a.velocity.x-b.velocity.x,a.velocity.y-b.velocity.y);
+    if(a.label==='blob')squash(a,n.x,n.y,rv);
+    if(b.label==='blob')squash(b,n.x,n.y,rv);
+    if(rv>3&&a.label==='blob'&&b.label==='blob')tone(200+Math.random()*60,.08,'sine',Math.min(.1,rv*.01));
     if(a.label!=='blob'||b.label!=='blob')continue;
-    a.sq=b.sq=1;
     if(a.lvl!==b.lvl||a.merging||b.merging)continue;
     a.merging=b.merging=true;
+    // 합체 직전 서로 끌어당기는 쫀득한 연출
+    {const dx=b.position.x-a.position.x,dy=b.position.y-a.position.y,d=Math.hypot(dx,dy)||1;
+     Body.setVelocity(a,{x:dx/d*3,y:dy/d*3});Body.setVelocity(b,{x:-dx/d*3,y:-dy/d*3});
+     a.sv+=.03;b.sv+=.03;}
     const l=a.lvl,x=(a.position.x+b.position.x)/2,y=(a.position.y+b.position.y)/2;
     setTimeout(()=>{ if(over)return;
       removeBlob(a);removeBlob(b);
@@ -366,7 +377,7 @@ function onCollide(ev){
       if(l===N-1){ // 최종체 둘이 만나면 팡!
         score+=SCORE[l]*4;burst(x,y,l,40);sfxMerge(l,combo+4);vib([30,40,60]);
       }else{
-        const nb=addBlob(x,y,l+1);nb.sq=1;
+        const nb=addBlob(x,y,l+1);nb.s=.55;nb.sv=.09;nb.k=.22;nb.ka=Math.random()*3;shake=Math.min(7,2+l*.7);
         score+=SCORE[l+1]*(1+Math.floor((combo-1)/2)*.5);
         if(l+1>maxLevel){maxLevel=l+1;unlock(l+1)}
         burst(x,y,l+1,10+l*3);sfxMerge(l+1,combo);vib(combo>2?[15,20,25]:12);
@@ -377,7 +388,7 @@ function onCollide(ev){
       if(combo>=3)say(['와아! 대박!','연쇄 폭발!','멋져요!'][combo%3],'happy',1400);
       if(combo>=2){const c=$('combo');c.className='';c.textContent=combo+' COMBO!';c.classList.add('show');clearTimeout(c._t);c._t=setTimeout(()=>c.classList.remove('show'),700)}
       score=Math.round(score);updateScore();
-    },0);
+    },85);
   }
 }
 function burst(x,y,l,n){const c=THEMES[S.theme].levels[l][1];
@@ -492,6 +503,7 @@ function frame(now){
 }
 function render(now){
   ctx.setTransform(scale*dpr,0,0,scale*dpr,0,0);const _th=THEMES[S.theme];SCENES[_th.scene](ctx,now,_th);drawMascot(ctx,now);
+  shake*=.86;if(shake>.2)ctx.translate((Math.random()-.5)*shake,(Math.random()-.5)*shake);
   // 위험선
   const warn=blobs.some(b=>b.overT);if(warn&&now>mascot.until)say('앗, 위험해요!','scared',1000);
   ctx.setLineDash([8,8]);ctx.strokeStyle=warn?'#ff5470':'#ffffff44';ctx.lineWidth=warn&&Math.floor(now/200)%2?3:2;
@@ -503,9 +515,10 @@ function render(now){
     drawBlob(ctx,x,r+8,r,curLevel,{});
   }else if(!over&&!bombMode){const r=RAD[curLevel];ctx.globalAlpha=.35;drawBlob(ctx,Math.max(r+2,Math.min(W-r-2,aimX)),r+8,r,curLevel,{});ctx.globalAlpha=1}
   for(const b of blobs){
-    b.sq*=.9;
+    b.kv+=-.22*b.k-.1*b.kv;b.k+=b.kv;if(Math.abs(b.k)<.001&&Math.abs(b.kv)<.001)b.k=b.kv=0;
+    b.sv+=-.18*(b.s-1)-.12*b.sv;b.s+=b.sv;
     const near=Math.hypot(b.velocity.x,b.velocity.y)>2;
-    drawBlob(ctx,b.position.x,b.position.y,RAD[b.lvl],b.lvl,{a:b.angle,sq:b.sq,happy:b.sq>.2||near&&b.lvl>3});
+    drawBlob(ctx,b.position.x,b.position.y,RAD[b.lvl],b.lvl,{a:b.angle,k:b.k+Math.sin(now/500+b.id)*.008,ka:b.ka,s:b.s,happy:Math.abs(b.k)>.06||near&&b.lvl>3});
     if(bombMode){ctx.strokeStyle='#ff547088';ctx.lineWidth=2;ctx.beginPath();ctx.arc(b.position.x,b.position.y,RAD[b.lvl]+3,0,7);ctx.stroke()}
   }
   for(let i=fx.length-1;i>=0;i--){const p=fx[i];p.x+=p.vx;p.y+=p.vy;p.vy+=.12;p.life-=.025;
