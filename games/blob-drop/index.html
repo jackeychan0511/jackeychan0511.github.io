@@ -20,6 +20,7 @@ html,body{margin:0;height:100%;background:var(--bg);color:var(--ink);font-family
 #stage{position:relative;flex:1;width:100%;max-width:440px;min-height:0}
 #c{position:absolute;left:50%;top:0;transform:translateX(-50%);border-radius:14px;background:linear-gradient(#2d2560,#211a47)}
 #combo{position:absolute;left:0;right:0;top:12%;text-align:center;font-size:34px;font-weight:900;color:var(--acc);text-shadow:0 3px 0 #0006;pointer-events:none;opacity:0;transition:opacity .2s,transform .2s}
+#combo.sm{font-size:18px;padding:0 20px;top:22%}
 #combo.show{opacity:1;transform:scale(1.15)}
 #bar{width:100%;max-width:440px;display:flex;gap:6px;padding:8px 0}
 button{font:inherit;color:var(--ink);background:var(--panel);border:0;border-radius:12px;padding:10px 6px;flex:1;font-weight:700;font-size:13px;cursor:pointer}
@@ -110,15 +111,65 @@ const THEMES={
     ['왕별몽','#ff6b6b','#c93c3c','👑','모든 몽글이의 존경을 받는 별의 임금님.'],
     ['별의 정령','#fff1a8','#f5b700','🌈','모두가 하나로 합쳐져 마침내 하늘로 돌아가는 전설의 몽글이.']]},
   space:{name:'우주 정거장',scene:'space',bg:['#101a3d','#0a1129'],levels:[
-    ['먼지','#9aa5c4','#6c7899','·'],['운석','#b08968','#7f5d41','☄️'],['달조각','#e5e5e5','#a9a9a9','🌑'],
-    ['위성','#7ec8e3','#4a9cba','🛰️'],['화성','#ff7b54','#c9512c','🔴'],['목성','#f2b66d','#c68a3c','🟠'],
-    ['토성','#f6e27f','#c8b24e','🪐'],['푸른별','#4f9dff','#2a6ed1','🌍'],['항성','#ffd23f','#e09b00','☀️'],
-    ['성운','#d36bff','#9a3bd1','🌌'],['은하','#ffffff','#a0b4ff','🌀']]},
+    ['먼지몽','#9aa5c4','#6c7899','·','별똥이 우주로 흩어지며 생긴 반짝이는 먼지.'],
+    ['운석몽','#b08968','#7f5d41','☄️','딱딱해 보여도 속은 말랑한 떠돌이 운석.'],
+    ['달조각몽','#e5e5e5','#a9a9a9','🌑','달에서 떨어져 나온 조각. 늘 달이 그립대요.'],
+    ['위성몽','#7ec8e3','#4a9cba','🛰️','정거장 주위를 빙글빙글 도는 수다쟁이.'],
+    ['화성몽','#ff7b54','#c9512c','🔴','붉은 볼이 매력인 불꽃 같은 성격.'],
+    ['목성몽','#f2b66d','#c68a3c','🟠','줄무늬 배가 자랑인 덩치 큰 형님.'],
+    ['토성몽','#f6e27f','#c8b24e','🪐','고리를 돌리며 노는 걸 좋아해요.'],
+    ['푸른별몽','#4f9dff','#2a6ed1','🌍','바다와 구름을 품은 포근한 별.'],
+    ['항성몽','#ffd23f','#e09b00','☀️','스스로 빛나는 따뜻한 몽글이.'],
+    ['성운몽','#d36bff','#9a3bd1','🌌','별이 태어나는 요람을 지키는 몽글이.'],
+    ['은하의 정령','#ffffff','#a0b4ff','🌀','모든 별을 품고 하늘로 돌아가는 전설의 몽글이.']]},
   food:{name:'몽글 식당',scene:'food',bg:['#4a2a2a','#321c1c'],levels:[
-    ['깨알','#d9c7a3','#a8946b','·'],['콩','#a3c76e','#74994a','🫘'],['방울토마토','#ff6b5a','#c93f31','🍅'],
-    ['당근','#ff9f43','#d0741b','🥕'],['달걀','#fff2cc','#d9c27a','🥚'],['만두','#f3e1c4','#c9a96e','🥟'],
-    ['김밥','#5b7f4a','#3c5a2f','🍙'],['피자','#ffc857','#d99a1f','🍕'],['케이크','#ffadd2','#d96fa3','🍰'],
-    ['잔치상','#e85d75','#b73a50','🍱'],['황금식탁','#ffe27a','#e0a800','🏆']]}
+    ['깨알몽','#d9c7a3','#a8946b','·','별똥 부스러기가 깨소금이 된 몽글이.'],
+    ['콩몽','#a3c76e','#74994a','🫘','밭에서 데굴데굴 굴러온 콩.'],
+    ['토마토몽','#ff6b5a','#c93f31','🍅','새빨간 볼이 터질 것 같아요.'],
+    ['당근몽','#ff9f43','#d0741b','🥕','토끼들의 인기 스타.'],
+    ['달걀몽','#fff2cc','#d9c27a','🥚','아침마다 병아리 꿈을 꿔요.'],
+    ['만두몽','#f3e1c4','#c9a96e','🥟','속이 꽉 찬 든든한 친구.'],
+    ['김밥몽','#5b7f4a','#3c5a2f','🍙','소풍 날의 주인공.'],
+    ['피자몽','#ffc857','#d99a1f','🍕','치즈가 쭉 늘어나는 파티 대장.'],
+    ['케이크몽','#ffadd2','#d96fa3','🍰','생일마다 불려 나오는 달콤한 몽글이.'],
+    ['잔치몽','#e85d75','#b73a50','🍱','한 상 가득 차려진 마을 잔치의 사회자.'],
+    ['황금식탁의 정령','#ffe27a','#e0a800','🏆','모두가 배불러지면 하늘로 돌아가는 전설의 몽글이.']]},
+  winter:{name:'눈꽃 겨울밤',scene:'winter',bg:['#16294f','#0c1730'],levels:[
+    ['눈알몽','#e6f2ff','#a9c7e6','·','눈송이가 처음 내려앉은 작은 알갱이.'],
+    ['눈송이몽','#cfe8ff','#8fb9e0','❄️','하늘에서 천천히 내려온 첫 번째 친구.'],
+    ['털장갑몽','#ff8a8a','#d65a5a','🧤','언제나 손을 따뜻하게 해줘요.'],
+    ['목도리몽','#ffb347','#d98a1f','🧣','길쭉한 목도리가 자랑이에요.'],
+    ['귤몽','#ffa94d','#d6791a','🍊','겨울엔 역시 귤! 상큼 달콤.'],
+    ['눈사람몽','#ffffff','#b9cde0','⛄','당근 코가 살짝 삐뚤어졌어요.'],
+    ['트리몽','#5fcf80','#2f9c54','🎄','반짝이는 전구를 두르고 있어요.'],
+    ['종소리몽','#ffd966','#d9a91f','🔔','딸랑딸랑 겨울밤을 깨워요.'],
+    ['선물몽','#ff6b81','#c93c52','🎁','안에 뭐가 들었는지 아무도 몰라요.'],
+    ['오로라몽','#7ef0d0','#2fb59a','🌌','겨울 하늘에 초록 커튼을 드리워요.'],
+    ['겨울별의 정령','#fff7c2','#f5c542','🌟','첫눈이 내리는 밤, 하늘로 돌아가는 전설의 몽글이.']]},
+  spring:{name:'벚꽃 봄밤',scene:'spring',bg:['#3b2a5e','#24173f'],levels:[
+    ['꽃가루몽','#ffe0ec','#e6a9c2','·','봄바람에 날아온 아주 작은 꽃가루.'],
+    ['꽃봉오리몽','#ffc2d9','#e68fb2','🌱','아직은 수줍어서 꽃을 못 피웠어요.'],
+    ['벚꽃몽','#ffb3cf','#e0709c','🌸','살랑살랑 춤추며 떨어지는 꽃잎.'],
+    ['나비몽','#c7a6ff','#9a73e0','🦋','꽃잎 사이를 팔랑팔랑 날아다녀요.'],
+    ['새싹몽','#b4e87a','#7fbb3e','🌿','쑥쑥 자라는 중이에요.'],
+    ['도시락몽','#ffd28a','#d99a3e','🍱','꽃놀이의 든든한 동반자.'],
+    ['딸기몽','#ff6b7d','#c93c4f','🍓','봄 한정 새콤달콤 아이돌.'],
+    ['무지개몽','#8fd8ff','#4aa3d6','🌈','비 온 뒤 하늘에 걸려 있던 친구.'],
+    ['튤립몽','#ff8fb8','#d6527f','🌷','꽃밭의 사회자.'],
+    ['봄바람몽','#9ef0c0','#4fbf8a','🍃','모든 꽃잎을 한 번에 날려요.'],
+    ['봄의 정령','#fff0b3','#f5b942','🌼','벚꽃비가 내리는 날 하늘로 돌아가는 전설의 몽글이.']]},
+  halloween:{name:'오싹 할로윈',scene:'halloween',bg:['#2b1236','#150a1c'],levels:[
+    ['먼지몽','#c9b6d9','#8f7aa6','·','다락방 구석에서 깨어난 먼지 뭉치.'],
+    ['거미몽','#7d6b8f','#4f405e','🕷️','실은 겁이 많은 거미.'],
+    ['박쥐몽','#6b5b95','#3f3466','🦇','밤하늘을 퍼덕이는 날쌘돌이.'],
+    ['사탕몽','#ff7eb6','#d4488a','🍬','"트릭 오어 트릿!" 하며 구르는 사탕.'],
+    ['유령몽','#f2f2ff','#b9b9e0','👻','깜짝 놀래키려다 본인이 먼저 놀라요.'],
+    ['호박몽','#ff9a3c','#d0680f','🎃','웃는 얼굴에 촛불을 품었어요.'],
+    ['마녀모자몽','#8a5cd6','#5a329e','🧙','뾰족모자 아래 장난기가 가득해요.'],
+    ['해골몽','#f5f5f0','#c4c4b8','💀','무서워 보여도 춤을 제일 잘 춰요.'],
+    ['물약몽','#6cf0a0','#2fb36a','🧪','보글보글 끓는 비밀 레시피.'],
+    ['보름달몽','#ffe27a','#d9a91f','🌕','할로윈 밤을 환하게 밝혀요.'],
+    ['한밤의 정령','#ffd9ff','#d98aff','🪄','보름달이 뜨는 밤 하늘로 돌아가는 전설의 몽글이.']]}
 };
 const N=11;
 const RAD=[15,21,28,36,45,55,66,78,91,105,120];
@@ -191,6 +242,11 @@ function drawBlob(ctx,x,y,r,l,o){
 
 /* ───────── 배경 장면 (이미지 파일 없이 코드로 그림 · 테마별 교체) ───────── */
 const STARS=Array.from({length:60},(_,i)=>({x:(i*97%360),y:(i*53%420),r:.6+(i%4)*.4,p:i*.7}));
+function fall(c,now,col,n,size,speed,petal){
+  c.fillStyle=col;
+  for(let i=0;i<n;i++){const x=((i*71)%W+Math.sin(now/900+i)*18+W)%W,y=(i*131+now*speed*.05*(1+(i%3)*.4))%(H+20)-10,r=size*(.1+(i%4)*.05);
+    c.beginPath();if(petal)c.ellipse(x,y,r*1.4,r*.8,now/700+i,0,7);else c.arc(x,y,Math.max(1,r*.3),0,7);c.fill()}
+}
 const SCENES={
   night(c,now,th){
     const g=c.createLinearGradient(0,0,0,H);g.addColorStop(0,'#2a2466');g.addColorStop(.6,th.bg[1]);g.addColorStop(1,'#0e0b26');c.fillStyle=g;c.fillRect(0,0,W,H);
@@ -205,12 +261,56 @@ const SCENES={
     c.fillStyle='#fff';STARS.forEach(s=>{c.globalAlpha=.3+.7*Math.abs(Math.sin(now/700+s.p));c.fillRect(s.x,s.y*1.3,s.r,s.r)});c.globalAlpha=1;
     c.fillStyle='#ffffff14';c.beginPath();c.arc(W-30,H-50,90,0,7);c.fill();
   },
+  winter(c,now,th){
+    const g=c.createLinearGradient(0,0,0,H);g.addColorStop(0,th.bg[0]);g.addColorStop(1,th.bg[1]);c.fillStyle=g;c.fillRect(0,0,W,H);
+    c.fillStyle='#fff';STARS.slice(0,30).forEach(s=>{c.globalAlpha=.3+.5*Math.abs(Math.sin(now/1000+s.p));c.fillRect(s.x,s.y*.7,s.r,s.r)});c.globalAlpha=1;
+    c.fillStyle='#e9f3ff22';c.beginPath();c.moveTo(0,H);c.lineTo(0,H-60);c.quadraticCurveTo(100,H-100,200,H-55);c.quadraticCurveTo(290,H-25,W,H-70);c.lineTo(W,H);c.fill();
+    fall(c,now,'#ffffffcc',40,22,1.8);
+  },
+  spring(c,now,th){
+    const g=c.createLinearGradient(0,0,0,H);g.addColorStop(0,th.bg[0]);g.addColorStop(.7,'#4a2b66');g.addColorStop(1,th.bg[1]);c.fillStyle=g;c.fillRect(0,0,W,H);
+    const m=c.createRadialGradient(80,90,5,80,90,70);m.addColorStop(0,'#fff2c8');m.addColorStop(1,'#0000');c.fillStyle=m;c.fillRect(0,0,W,200);
+    c.strokeStyle='#1c1030';c.lineWidth=14;c.lineCap='round';c.beginPath();c.moveTo(W+10,H);c.quadraticCurveTo(W-70,H-220,W-20,H-380);c.stroke();
+    c.fillStyle='#ffb3cf55';[[300,200,40],[260,250,34],[330,300,30],[290,150,28]].forEach(p=>{c.beginPath();c.arc(p[0],p[1],p[2],0,7);c.fill()});
+    fall(c,now,'#ffc2d9',28,16,1.3,true);
+  },
+  halloween(c,now,th){
+    const g=c.createLinearGradient(0,0,0,H);g.addColorStop(0,th.bg[0]);g.addColorStop(1,th.bg[1]);c.fillStyle=g;c.fillRect(0,0,W,H);
+    c.fillStyle='#ffd27a';c.beginPath();c.arc(90,100,44,0,7);c.fill();c.fillStyle='#e8b95a55';[[78,90,10],[100,110,7],[70,115,5]].forEach(k=>{c.beginPath();c.arc(k[0],k[1],k[2],0,7);c.fill()});
+    c.fillStyle='#0c0512';[[250,120],[300,160],[200,70]].forEach((p,i)=>{const w=8*Math.sin(now/180+i);c.beginPath();c.moveTo(p[0],p[1]);c.quadraticCurveTo(p[0]-12,p[1]-8+w,p[0]-22,p[1]);c.quadraticCurveTo(p[0]-12,p[1]+4,p[0],p[1]+8);c.quadraticCurveTo(p[0]+12,p[1]+4,p[0]+22,p[1]);c.quadraticCurveTo(p[0]+12,p[1]-8+w,p[0],p[1]);c.fill()});
+    c.fillStyle='#0c0512';c.beginPath();c.moveTo(0,H);c.lineTo(0,H-90);c.lineTo(30,H-90);c.lineTo(40,H-130);c.lineTo(50,H-90);c.lineTo(90,H-90);c.lineTo(90,H-60);c.quadraticCurveTo(200,H-90,W,H-50);c.lineTo(W,H);c.fill();
+    fall(c,now,'#ff9a3c55',10,10,.5);
+  },
   food(c,now,th){
     c.fillStyle=th.bg[1];c.fillRect(0,0,W,H);
     const s=40;for(let y=0;y<H;y+=s)for(let x=0;x<W;x+=s)if(((x+y)/s)%2===0){c.fillStyle='#ffffff0d';c.fillRect(x,y,s,s)}
     for(let i=0;i<8;i++){const x=(i*61+now/40)%W,y=(i*83)%H;c.fillStyle='#ffd16622';c.beginPath();c.arc(x,y,16+(i%3)*8,0,7);c.fill()}
   }
 };
+
+
+/* ───────── 마스코트 '별똥이' ───────── */
+const mascot={text:'',until:0,mood:'idle'};
+function say(t,mood,ms){mascot.text=t;mascot.mood=mood||'idle';mascot.until=performance.now()+(ms||1800)}
+function drawMascot(c,now){
+  const x=W-30,y=44+Math.sin(now/600)*3,r=19,m=now<mascot.until?mascot.mood:'idle';
+  c.save();c.translate(x,y);
+  const g=c.createRadialGradient(-6,-8,2,0,0,r);g.addColorStop(0,'#fff3a8');g.addColorStop(1,'#f5b700');c.fillStyle=g;c.beginPath();c.arc(0,0,r,0,7);c.fill();
+  c.strokeStyle='#0003';c.lineWidth=1.5;c.stroke();
+  // 별 더듬이
+  c.fillStyle='#ffe066';c.save();c.translate(0,-r-6);c.rotate(Math.sin(now/400)*.3);c.beginPath();for(let i=0;i<10;i++){const rr=i%2?3:7,a=i/10*Math.PI*2-Math.PI/2;c.lineTo(Math.cos(a)*rr,Math.sin(a)*rr)}c.closePath();c.fill();c.restore();
+  c.strokeStyle='#2b1d3a';c.fillStyle='#2b1d3a';c.lineWidth=2;c.lineCap='round';
+  const blink=Math.floor(now/200)%18===0;
+  if(m==='happy'||blink){[-1,1].forEach(s=>{c.beginPath();c.arc(s*7,-2+(blink&&m!=='happy'?2:0),3,blink&&m!=='happy'?0:Math.PI*1.1,blink&&m!=='happy'?Math.PI:Math.PI*1.9);c.stroke()})}
+  else{[-1,1].forEach(s=>{c.beginPath();c.arc(s*7,-2,m==='scared'?4:2.8,0,7);c.fill()})}
+  c.beginPath();if(m==='scared'){c.arc(0,8,3,0,7);c.stroke()}else if(m==='sad'){c.arc(0,10,4,Math.PI*1.15,Math.PI*1.85);c.stroke()}else{c.arc(0,4,5,.15*Math.PI,.85*Math.PI);c.stroke()}
+  c.restore();
+  if(now<mascot.until&&mascot.text){
+    c.font='bold 12px sans-serif';const w=c.measureText(mascot.text).width+16,bx=x-r-6-w,by=y-14;
+    c.fillStyle='#fffffff0';c.beginPath();c.roundRect(bx,by,w,26,10);c.fill();
+    c.beginPath();c.moveTo(bx+w,by+8);c.lineTo(bx+w+7,by+13);c.lineTo(bx+w,by+18);c.fill();
+    c.fillStyle='#2b1d3a';c.textAlign='left';c.textBaseline='middle';c.fillText(mascot.text,bx+8,by+13)}
+}
 
 /* ───────── 게임 상태 ───────── */
 const cv=document.getElementById('c'),ctx=cv.getContext('2d');
@@ -235,7 +335,7 @@ function newGame(m){
   World.add(engine.world,[Bodies.rectangle(W/2,H+WALL/2,W+200,WALL,o),Bodies.rectangle(-WALL/2,H/2,WALL,H*3,o),Bodies.rectangle(W+WALL/2,H/2,WALL,H*3,o)]);
   Events.on(engine,'collisionStart',onCollide);
   rng=mode==='daily'?mulberry(dateSeed(todayKey())):Math.random;
-  queue=[];curLevel=pull();nextLevel=pull();aimX=W/2;dropReady=true;t0=performance.now();
+  say(mode==='daily'?'오늘의 별똥이 떨어졌어요!':'같은 친구끼리 합쳐요!','happy',2500);queue=[];curLevel=pull();nextLevel=pull();aimX=W/2;dropReady=true;t0=performance.now();
   document.documentElement.style.setProperty('--x','0');
     $('bestl').textContent=mode==='daily'?'오늘 최고':'BEST';
   refreshUI();
@@ -274,7 +374,8 @@ function onCollide(ev){
         for(const o of blobs){if(o===nb)continue;const dx=o.position.x-x,dy=o.position.y-y,d=Math.hypot(dx,dy)||1;
           if(d<RAD[l+1]*2.2){const f=.0006*o.mass*(1-d/(RAD[l+1]*2.2));Body.applyForce(o,o.position,{x:dx/d*f,y:dy/d*f})}}
       }
-      if(combo>=2){const c=$('combo');c.textContent=combo+' COMBO!';c.classList.add('show');clearTimeout(c._t);c._t=setTimeout(()=>c.classList.remove('show'),700)}
+      if(combo>=3)say(['와아! 대박!','연쇄 폭발!','멋져요!'][combo%3],'happy',1400);
+      if(combo>=2){const c=$('combo');c.className='';c.textContent=combo+' COMBO!';c.classList.add('show');clearTimeout(c._t);c._t=setTimeout(()=>c.classList.remove('show'),700)}
       score=Math.round(score);updateScore();
     },0);
   }
@@ -283,8 +384,8 @@ function burst(x,y,l,n){const c=THEMES[S.theme].levels[l][1];
   for(let i=0;i<n;i++){const a=Math.random()*7,s=1+Math.random()*3.5;fx.push({x,y,vx:Math.cos(a)*s,vy:Math.sin(a)*s-1,life:1,c,r:2+Math.random()*3})}}
 
 /* ───────── 도감 ───────── */
-function unlock(l){const k=S.theme;S.dex[k]=S.dex[k]||[];if(!S.dex[k].includes(l)){S.dex[k].push(l);store.set('dex',S.dex);toast('🎉 새 몽글이 발견: '+THEMES[k].levels[l][0])}}
-function toast(t){const c=$('combo');c.textContent=t;c.classList.add('show');clearTimeout(c._t);c._t=setTimeout(()=>c.classList.remove('show'),1400)}
+function unlock(l){const k=S.theme;S.dex[k]=S.dex[k]||[];if(!S.dex[k].includes(l)){S.dex[k].push(l);store.set('dex',S.dex);toast('🎉 새 몽글이 발견: '+THEMES[k].levels[l][0]);say('새 친구다! '+THEMES[k].levels[l][0],'happy',2200)}}
+function toast(t){const c=$('combo');c.className='sm';c.textContent=t;c.classList.add('show');clearTimeout(c._t);c._t=setTimeout(()=>c.classList.remove('show'),1400)}
 function openDex(){
   const k=S.theme,got=S.dex[k]||[0,1,2,3,4].filter(()=>false);
   const known=new Set(got.concat([0]));
@@ -366,7 +467,7 @@ function end(){
   over=true;
   if(mode==='daily'){const k='daily_'+todayKey();if(score>store.get(k,0))store.set(k,score)}
   else if(score>S.best){S.best=score;store.set('best',score)}
-  vib([80,40,80]);tone(150,.6,'sawtooth',.15);
+  vib([80,40,80]);tone(150,.6,'sawtooth',.15);say('괜찮아, 다시 해봐요!','sad',9999);
   $('overInfo').innerHTML=`<span class="tag">${mode==='daily'?'📅 '+todayKey():'일반'}</span><br><b style="font-size:30px;color:var(--acc)">${score}</b> 점<br>최고 단계: ${THEMES[S.theme].levels[maxLevel][0]} · 합체 ${runMerged}회`;
   $('bRevive').style.display=usedRevive?'none':'';
   show('ovOver');updateScore();
@@ -375,7 +476,7 @@ function revive(){
   // 위쪽 3분의 1에 걸친 몽글이를 비운다
   blobs.filter(b=>b.position.y-RAD[b.lvl]<LINE+60).forEach(b=>{burst(b.position.x,b.position.y,b.lvl,12);removeBlob(b)});
   usedRevive=true;over=false;hide('ovOver');
-  blobs.forEach(b=>{b.overT=0;b.born=performance.now()});
+  blobs.forEach(b=>{b.overT=0;b.born=performance.now()});say('휴, 살았다!','happy',1800);
 }
 
 /* ───────── 메인 루프 ───────── */
@@ -390,9 +491,9 @@ function frame(now){
   render(now);
 }
 function render(now){
-  ctx.setTransform(scale*dpr,0,0,scale*dpr,0,0);const _th=THEMES[S.theme];SCENES[_th.scene](ctx,now,_th);
+  ctx.setTransform(scale*dpr,0,0,scale*dpr,0,0);const _th=THEMES[S.theme];SCENES[_th.scene](ctx,now,_th);drawMascot(ctx,now);
   // 위험선
-  const warn=blobs.some(b=>b.overT);
+  const warn=blobs.some(b=>b.overT);if(warn&&now>mascot.until)say('앗, 위험해요!','scared',1000);
   ctx.setLineDash([8,8]);ctx.strokeStyle=warn?'#ff5470':'#ffffff44';ctx.lineWidth=warn&&Math.floor(now/200)%2?3:2;
   ctx.beginPath();ctx.moveTo(0,LINE);ctx.lineTo(W,LINE);ctx.stroke();ctx.setLineDash([]);
   // 조준
