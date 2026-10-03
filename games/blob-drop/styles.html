@@ -1,0 +1,43 @@
+<!DOCTYPE html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Blob Drop 그림체 후보</title>
+<style>body{margin:0;background:#1b1535;color:#fff;font-family:-apple-system,"Noto Sans KR",sans-serif;padding:16px}
+h1{font-size:20px;margin:0 0 12px}.s{background:#2a2250;border-radius:16px;padding:12px;margin-bottom:14px}
+.s h2{margin:0 0 2px;font-size:16px}.s p{margin:0 0 8px;color:#b9b0e6;font-size:12px}canvas{width:100%;display:block;border-radius:10px}</style></head><body>
+<h1>🎨 Blob Drop 그림체 후보</h1><div id="o"></div>
+<script>
+const COL=[['#ff9aa2','#e0707c'],['#ffe066','#d9b72a'],['#6fe3c1','#38b393'],['#8d8cff','#5c5bd6'],['#ff8bd8','#d654aa'],['#fff1a8','#f5b700']];
+const LV=[0,2,4,6,8,10],R=[18,26,34,42,50,58];
+function face(c,r,o){o=o||{};const ex=r*.32,ey=-r*.05,er=Math.max(2,r*.12);c.fillStyle=o.ink||'#2b1d3a';c.strokeStyle=o.ink||'#2b1d3a';c.lineCap='round';c.lineWidth=Math.max(1.5,r*.06)
+ if(o.dots){[-1,1].forEach(s=>{c.beginPath();c.arc(s*ex,ey,er*.8,0,7);c.fill()})}
+ else[-1,1].forEach(s=>{c.fillStyle=o.ink||'#2b1d3a';c.beginPath();c.arc(s*ex,ey,er,0,7);c.fill();c.fillStyle='#fff';c.beginPath();c.arc(s*ex+er*.3,ey-er*.3,er*.35,0,7);c.fill()})
+ c.beginPath();c.arc(0,r*.18,r*.14,.15*Math.PI,.85*Math.PI);c.stroke()}
+const styles=[
+['A. 말랑 젤리 (현재)','광택 그라데이션 + 볼터치. 귀엽고 무난한 카와이 스타일. 가장 대중적.',(c,r,i)=>{
+ const g=c.createRadialGradient(-r*.35,-r*.4,r*.1,0,0,r);g.addColorStop(0,COL[i][0]);g.addColorStop(1,COL[i][1]);c.fillStyle=g;c.beginPath();c.arc(0,0,r,0,7);c.fill();
+ c.strokeStyle='#0003';c.lineWidth=r*.05;c.stroke();c.fillStyle='#fff6';c.beginPath();c.ellipse(-r*.4,-r*.5,r*.22,r*.12,-.6,0,7);c.fill();
+ face(c,r);c.fillStyle='#ff6b9d55';[-1,1].forEach(s=>{c.beginPath();c.ellipse(s*r*.55,r*.2,r*.12,r*.08,0,0,7);c.fill()})}],
+['B. 플랫 스티커','단색 + 굵은 외곽선 + 점눈. 그림자 없이 선명해서 작은 화면에서도 구분이 잘 됨. 모바일 게임 정석.',(c,r,i)=>{
+ c.fillStyle=COL[i][0];c.beginPath();c.arc(0,0,r,0,7);c.fill();c.strokeStyle='#2b1d3a';c.lineWidth=Math.max(3,r*.1);c.stroke();
+ c.fillStyle='#fff';c.beginPath();c.arc(-r*.4,-r*.45,r*.12,0,7);c.fill();face(c,r,{dots:true})}],
+['C. 픽셀 레트로','16비트 도트 느낌. 레트로 감성, 에셋 제작이 쉽고 파일이 가벼움.',(c,r,i)=>{
+ const p=Math.max(3,Math.round(r/7));c.fillStyle='#2b1d3a';
+ for(let y=-r;y<r;y+=p)for(let x=-r;x<r;x+=p){const d=Math.hypot(x+p/2,y+p/2);
+  if(d<r){c.fillStyle=d>r-p*1.2?'#2b1d3a':(x+y<-r*.5?'#fff':(y>r*.35?COL[i][1]:COL[i][0]));c.fillRect(x,y,p,p)}}
+ c.fillStyle='#2b1d3a';[-1,1].forEach(s=>c.fillRect(s*r*.32-p/2,-r*.1,p,p*1.5));c.fillRect(-p,r*.2,p*2,p)}],
+['D. 손그림 크레용','흔들리는 선 + 물감 번짐 질감. 따뜻하고 동화 같은 분위기로 IP 개성이 강함.',(c,r,i)=>{
+ const pts=[];for(let k=0;k<=40;k++){const a=k/40*Math.PI*2,w=1+Math.sin(a*3+i)*.04+Math.sin(a*5+i*2)*.03;pts.push([Math.cos(a)*r*w,Math.sin(a)*r*w])}
+ c.beginPath();pts.forEach((p,k)=>k?c.lineTo(p[0],p[1]):c.moveTo(p[0],p[1]));c.closePath();c.fillStyle=COL[i][0];c.fill();
+ c.save();c.clip();c.strokeStyle=COL[i][1]+'88';c.lineWidth=r*.07;for(let y=-r;y<r;y+=r*.16){c.beginPath();c.moveTo(-r,y);c.lineTo(r,y+r*.3);c.stroke()}c.restore();
+ c.strokeStyle='#5a3d2b';c.lineWidth=r*.07;c.lineJoin='round';c.beginPath();pts.forEach((p,k)=>k?c.lineTo(p[0]*1.02,p[1]*1.02):c.moveTo(p[0],p[1]));c.closePath();c.stroke();
+ face(c,r,{dots:true,ink:'#5a3d2b'})}],
+['E. 네온 글로우','어두운 배경에 빛나는 선. 우주·사이버 테마에 잘 어울리고 합체 이펙트가 화려해 보임.',(c,r,i)=>{
+ c.shadowColor=COL[i][0];c.shadowBlur=r*.5;c.strokeStyle=COL[i][0];c.lineWidth=Math.max(2.5,r*.08);c.fillStyle=COL[i][0]+'33';c.beginPath();c.arc(0,0,r*.95,0,7);c.fill();c.stroke();
+ c.shadowBlur=r*.2;face(c,r,{dots:true,ink:COL[i][0]})}]
+];
+const o=document.getElementById('o');
+styles.forEach(([t,d,fn])=>{const w=document.createElement('div');w.className='s';w.innerHTML=`<h2>${t}</h2><p>${d}</p>`;
+ const cv=document.createElement('canvas');const dpr=2;cv.width=720*dpr;cv.height=150*dpr;const c=cv.getContext('2d');c.scale(dpr,dpr);
+ c.fillStyle=t[0]==='E'?'#0a0820':'#211a47';c.fillRect(0,0,720,150);
+ LV.forEach((l,k)=>{c.save();c.translate(60+k*120,78);fn(c,R[k],k);c.restore()});
+ w.appendChild(cv);o.appendChild(w)});
+</script></body></html>
