@@ -485,13 +485,30 @@ function pull(){return Math.floor(rng()*5*.999)} // 0~4 단계
 function bestFor(){return mode==='daily'?store.get('daily_'+todayKey(),0):S.best}
 
 function addBlob(x,y,l,vy){
-  const b=Bodies.circle(x,y,RAD[l],{restitution:.08,friction:.45,frictionStatic:.6,frictionAir:.012,slop:RAD[l]*.06,density:.001+l*.00004,label:'blob'});
+  const b=Bodies.circle(x,y,RAD[l],{restitution:.08,friction:.45,frictionStatic:.6,frictionAir:.012,slop:RAD[l]*.06,density:.001*Math.sqrt(RAD[l]/15),label:'blob'});
   b.lvl=l;b.born=performance.now();b.merging=false;b.k=0;b.kv=0;b.ka=0;b.s=1;b.sv=0;
   if(vy)Body.setVelocity(b,{x:0,y:vy});
   World.add(engine.world,b);blobs.push(b);return b;
 }
 function squash(b,nx,ny,rv){const k=Math.min(.3,rv*.035);if(k<.03)return;if(k>b.k){b.k=k;b.kv=0;b.ka=Math.atan2(ny,nx)}}
 let shake=0;
+// 큰 몽글이가 떨어져 부딪히면 작은 몽글이를 크기(질량) 비율만큼 밀어낸다
+function shove(a,b,rv){
+  const big=a.lvl>b.lvl?a:b,sm=big===a?b:a,ratio=big.mass/(big.mass+sm.mass);
+  let dx=sm.position.x-big.position.x,dy=sm.position.y-big.position.y;const d=Math.hypot(dx,dy)||1;dx/=d;dy/=d;
+  if(Math.abs(dx)<.35)dx=(dx||Math.random()-.5)>0?.35:-.35; // 바로 아래면 옆으로 미끄러지게
+  const p=Math.min(14,rv*ratio*1.8);
+  Body.setVelocity(sm,{x:sm.velocity.x+dx*p*1.2,y:sm.velocity.y+Math.max(0,dy)*p*.5});
+  Body.setVelocity(big,{x:big.velocity.x*.8-dx*p*.5*(1-ratio),y:big.velocity.y*.8}); // 큰 쪽은 감속하며 반대쪽으로 비껴 미끄러짐
+  // 충격파: 주변 몽글이도 큰 몽글이 크기·속도에 비례해 밀려난다
+  if(big.lvl>=3){const R=RAD[big.lvl]*2.4,cx=(big.position.x+sm.position.x)/2,cy=(big.position.y+sm.position.y)/2;
+    for(const o of blobs){if(o===big||o===sm||o.merging)continue;
+      let ox=o.position.x-cx,oy=o.position.y-cy;const od=Math.hypot(ox,oy)||1;if(od>R)continue;
+      const f=Math.min(7,rv*.9*(big.mass/(big.mass+o.mass))*(1-od/R));
+      Body.setVelocity(o,{x:o.velocity.x+ox/od*f,y:o.velocity.y+oy/od*f*.4});o.k=Math.max(o.k,Math.min(.25,f*.06));o.ka=Math.atan2(oy,ox)}}
+  sm.k=Math.max(sm.k,Math.min(.35,p*.05));sm.ka=Math.atan2(dy,dx);
+  if(big.lvl>=4&&rv>4){shake=Math.max(shake,Math.min(6,rv*big.lvl*.1));vib(Math.min(40,10+big.lvl*3));tone(110-big.lvl*4,.18,'sine',.1)}
+}
 function removeBlob(b){World.remove(engine.world,b);const i=blobs.indexOf(b);if(i>=0)blobs.splice(i,1)}
 
 function onCollide(ev){
@@ -502,6 +519,7 @@ function onCollide(ev){
     if(b.label==='blob')squash(b,n.x,n.y,rv);
     if(rv>3&&a.label==='blob'&&b.label==='blob')tone(200+Math.random()*60,.08,'sine',Math.min(.1,rv*.01));
     if(a.label!=='blob'||b.label!=='blob')continue;
+    if(a.lvl!==b.lvl&&rv>1.5)shove(a,b,rv);
     if(a.lvl!==b.lvl||a.merging||b.merging)continue;
     a.merging=b.merging=true;
     // 합체 직전 서로 끌어당기는 쫀득한 연출
