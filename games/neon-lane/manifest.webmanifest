@@ -1,0 +1,16 @@
+{
+  "name": "네온 레인",
+  "short_name": "네온 레인",
+  "description": "빨주노초 4개 차선을 달리는 네온 리듬 러너. 일일 랭킹과 명예의 전당에 도전하세요.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#05010d",
+  "theme_color": "#05010d",
+  "lang": "ko",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

@@ -1,0 +1,50 @@
+rules_version = '2';
+// 네온 레인 랭킹 보안 규칙 (Orbit Hop 등 같은 프로젝트의 다른 컬렉션 규칙은 그대로 두고, 아래 3개 match 블록만 추가하세요)
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function okName(n) { return n is string && n.size() >= 2 && n.size() <= 10; }
+    function okRec(d) {
+      return d.keys().hasOnly(['uid','name','score','dist','combo','day','ts'])
+        && d.uid == request.auth.uid
+        && okName(d.name)
+        && d.score is int && d.score >= 0 && d.score <= 2000000
+        && d.dist  is int && d.dist  >= 0 && d.dist  <= 100000
+        && d.combo is int && d.combo >= 0 && d.combo <= 100000
+        && d.day   is int && d.day > 20200101 && d.day < 21001231
+        && d.ts    is int;
+    }
+
+    // 일일 랭킹: 문서 ID = {day}_{uid} (플레이어당 하루 1개, 최고 점수만 갱신)
+    match /neonlane_scores/{id} {
+      allow read: if true;
+      allow create: if request.auth != null && okRec(request.resource.data)
+                    && id == string(request.resource.data.day) + '_' + request.auth.uid;
+      allow update: if request.auth != null && okRec(request.resource.data)
+                    && resource.data.uid == request.auth.uid
+                    && request.resource.data.day == resource.data.day
+                    && request.resource.data.score > resource.data.score;
+      allow delete: if false;
+    }
+
+    // 명예의 전당(역대 최고): 문서 ID = uid
+    match /neonlane_hof/{uid} {
+      allow read: if true;
+      allow create: if request.auth != null && uid == request.auth.uid && okRec(request.resource.data);
+      allow update: if request.auth != null && uid == request.auth.uid && okRec(request.resource.data)
+                    && request.resource.data.score > resource.data.score;
+      allow delete: if false;
+    }
+
+    // 일일 챔피언: 문서 ID = day. 더 높은 점수를 낸 사람이 왕관을 가져감
+    match /neonlane_champs/{day} {
+      allow read: if true;
+      allow create: if request.auth != null && okRec(request.resource.data)
+                    && day == string(request.resource.data.day);
+      allow update: if request.auth != null && okRec(request.resource.data)
+                    && request.resource.data.day == resource.data.day
+                    && request.resource.data.score > resource.data.score;
+      allow delete: if false;
+    }
+  }
+}
