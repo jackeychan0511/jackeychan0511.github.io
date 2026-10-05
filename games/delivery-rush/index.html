@@ -70,8 +70,9 @@ html,body{margin:0;height:100%;background:var(--bg);color:var(--ink);font-family
     <div class="sub">DELIVERY RUSH</div>
     <ul class="how">
       <li>◀ ▶ 버튼으로 <b>4개 차선</b>을 이동! 장애물은 피하고 <b>📦 박스</b>를 먹으면 시간 +1초</li>
-      <li>약 260m마다 <b>피트 구간(체크포인트)</b> — 지나가면 <b>시간 +7초!</b> ⛽주유 / 소프트 타이어 체인지 / 하드 타이어 체인지 / 통과 중 <b>한 차선</b>을 골라 진입</li>
-      <li><b>소프트 타이어 체인지</b>는 빠르지만 빨리 닳고, <b>하드 타이어 체인지</b>는 느리지만 오래가요. 연료·타이어는 서서히 닳으니 <b>번갈아 정비</b>하면 끝까지 갈 수 있어요. 바닥나면 속도가 크게 떨어집니다</li>
+      <li>약 260m마다 <b>피트 구간(체크포인트)</b> — 지나가면 <b>시간 +6초!</b> ⛽주유 / 소프트 타이어 체인지 / 하드 타이어 체인지 / 통과 중 <b>한 차선</b>을 골라 진입</li>
+      <li><b>소프트 타이어 체인지</b>는 빠르지만 빨리 닳고, <b>하드 타이어 체인지</b>는 느리지만 오래가요. 연료·타이어는 천천히 닳아서 <b>매번 정비하지 않아도</b> 돼요. 바닥나면 속도가 크게 떨어집니다</li>
+      <li>⚡ 일부 구간은 <b>이벤트</b>! 러시아워(차량이 차선 변경)·폭우·공사·터보 — 어렵지만 클리어하면 <b>보너스 시간</b>. 다음 구간 이벤트는 피트 앞에서 미리 알려줘요</li>
     </ul>
     <div class="row">
       <button class="btn" id="goDaily">오늘의 코스<small>모두 같은 맵 · 기록 도전</small></button>
@@ -90,7 +91,7 @@ html,body{margin:0;height:100%;background:var(--bg);color:var(--ink);font-family
     <div class="big"><span id="rD">0</span><small>m</small></div>
     <div id="rBadge"></div>
     <div class="tier" id="rTier"></div>
-    <div class="stat"><span>🏁 스테이지 <b id="rS">1</b></span><span>📦 박스 <b id="rB">0</b></span><span>🔧 피트 <b id="rP">0</b></span><span>💥 충돌 <b id="rC">0</b></span></div>
+    <div class="stat"><span>🏁 스테이지 <b id="rS">1</b></span><span>⚡ 이벤트 <b id="rE">0</b></span><span>📦 박스 <b id="rB">0</b></span><span>🔧 피트 <b id="rP">0</b></span><span>💥 충돌 <b id="rC">0</b></span></div>
     <div class="lab" id="rRankLab">오늘의 코스 · 내 기록 TOP 5</div>
     <ol class="top5" id="rTop5"></ol>
     <div class="row">
@@ -105,7 +106,13 @@ html,body{margin:0;height:100%;background:var(--bg);color:var(--ink);font-family
 'use strict';
 /* ============================ 상수 ============================ */
 const W=160,H=288,K=2,ROW=44,LANE=28,RX=24,RW=LANE*4,PY=H-62;   // K: 렌더 배율(논리 1px = 네이티브 K px)
-const CHECK_BONUS=7;                           // 피트 게이트(체크포인트) 통과 시간 보너스
+const CHECK_BONUS=6;                           // 피트 게이트(체크포인트) 통과 시간 보너스
+const EVENTS={
+  rush:{n:'러시아워',d:'차량이 차선을 바꿔요',bonus:5,col:'#ffb703'},
+  rain:{n:'폭우',d:'조향이 둔해지고 타이어가 빨리 닳아요',bonus:4,col:'#8ad4ff'},
+  work:{n:'공사 구간',d:'콘이 빽빽하게 깔려 있어요',bonus:4,col:'#ff9f40'},
+  turbo:{n:'터보 구간',d:'속도 +20% · 연료 소모 증가',bonus:4,col:'#ff6f86'}};
+const EVKEYS=Object.keys(EVENTS);
 const PIT_FIRST=60,PIT_GAP=60;               // 피트 게이트 행 번호(약 260m 간격)
 const lx=l=>RX+LANE*l+LANE/2;
 const clamp=(v,a,b)=>v<a?a:v>b?b:v;
@@ -242,27 +249,35 @@ const SFX={box(){beep(660,.07,'square',.05);setTimeout(()=>beep(990,.09,'square'
   ready(){beep(440,.12,'square',.05)},go(){beep(880,.3,'square',.06)},done(){beep(523,.1,'square',.05);setTimeout(()=>beep(784,.18,'square',.05),110)},end(){beep(392,.2,'triangle',.07);setTimeout(()=>beep(262,.4,'triangle',.07),200)},warn(){beep(900,.05,'square',.03)}};
 
 /* ============================ 월드 생성(시드 기반) ============================ */
-let seed=1,rowsCache=[],gs=null,pitCache={};
-function resetWorld(s){seed=s;rowsCache=[];pitCache={};gs={prev:[0,1,2,3],next:0}}
+let seed=1,rowsCache=[],gs=null,pitCache={},evCache={};
+function resetWorld(s){seed=s;rowsCache=[];pitCache={};evCache={};gs={prev:[0,1,2,3],next:0}}
 const gateRow=k=>PIT_FIRST+k*PIT_GAP;
 function pitOf(i){const k=Math.round((i-PIT_FIRST)/PIT_GAP);if(k<0)return null;const g=gateRow(k);return(i>=g-10&&i<=g+3)?{k,g}:null}
 function pitOrder(k){if(!pitCache[k]){const r=mulberry32(hash(seed,1000+k)),a=['fuel','soft','hard','go'];for(let i=3;i>0;i--){const j=Math.floor(r()*(i+1));[a[i],a[j]]=[a[j],a[i]]}pitCache[k]=a}return pitCache[k]}
+const stageOfRow=i=>i<=PIT_FIRST?0:Math.ceil((i-PIT_FIRST)/PIT_GAP);
+function eventOf(st){if(st<1)return null;if(!(st in evCache)){const r=mulberry32(hash(seed,5000+st));let e=r()<.22?null:EVKEYS[Math.floor(r()*EVKEYS.length)];
+  if(e&&e===eventOf(st-1))e=EVKEYS[(EVKEYS.indexOf(e)+1)%EVKEYS.length];evCache[st]=e}return evCache[st]}
+function pickType(ev,q){if(ev==='work')return q<.82?'cone':'pot';if(ev==='rush')return q<.9?'car':'cone';
+  if(ev==='rain')return q<.28?'cone':q<.5?'car':q<.86?'oil':'pot';return q<.34?'cone':q<.64?'car':q<.8?'oil':'pot'}
+function moveCars(cand,blocked){const used=new Set(blocked);cand.forEach(c=>{if(c.t!=='car')return;for(const d of[c.dir,-c.dir]){const to=c.lane+d;if(to>=0&&to<=3&&!used.has(to)){c.to=to;used.add(to);return}}})}
+const itemX=it=>RX+LANE*(it.pl!==undefined?it.pl:it.lane)+LANE/2;
 const expand=set=>{const o=new Set();set.forEach(l=>{o.add(l);if(l>0)o.add(l-1);if(l<3)o.add(l+1)});return[...o]};
 const BLOCK={cone:1,car:1};
 function genRow(i){
   const items=[],r=mulberry32(hash(seed,i)),p=pitOf(i),wy=i*ROW;
   if(p){const gl=pitOrder(p.k).indexOf('go');if(i===p.g-5||i===p.g-2)items.push({t:'box',lane:gl,wy});gs.prev=[0,1,2,3];return items}
-  const reach=expand(gs.prev);let nextPrev=reach;
+  const reach=expand(gs.prev),ev=eventOf(stageOfRow(i));let nextPrev=reach;
   if(i>=8){
-    const diff=Math.min(1,i*ROW/12000);
-    if(i%2===0&&r()<.5+.3*diff){
+    const diff=Math.min(1,i*ROW/16000);
+    const pObs=ev==='work'?.84:ev==='rush'?.62:.5+.35*diff,pBox=ev==='turbo'?.26:.13;
+    if(i%2===0&&r()<pObs){
       for(let tr=0;tr<6;tr++){
-        const n=r()<.2+.35*diff?2:1,lanes=[0,1,2,3].sort(()=>r()-.5).slice(0,n),cand=[];
-        lanes.forEach(l=>{const q=r();cand.push({t:q<.34?'cone':q<.64?'car':q<.8?'oil':'pot',lane:l,wy,dir:r()<.5?-1:1,v:Math.floor(r()*6)})});
+        const n=r()<.2+.4*diff+(ev==='work'?.25:0)?2:1,lanes=[0,1,2,3].sort(()=>r()-.5).slice(0,n),cand=[];
+        lanes.forEach(l=>{const q=r();cand.push({t:pickType(ev,q),lane:l,wy,dir:r()<.5?-1:1,v:Math.floor(r()*6)})});
         const blocked=cand.filter(c=>BLOCK[c.t]).map(c=>c.lane),free=reach.filter(l=>!blocked.includes(l));
-        if(free.length){items.push(...cand);nextPrev=free;break}
+        if(free.length){if(ev==='rush')moveCars(cand,blocked);items.push(...cand);nextPrev=free;break}
       }
-    }else if(r()<.13)items.push({t:'box',lane:Math.floor(r()*4),wy});
+    }else if(r()<pBox)items.push({t:'box',lane:Math.floor(r()*4),wy});
   }
   gs.prev=nextPrev;return items;
 }
@@ -271,14 +286,14 @@ const HB={cone:{w:8,h:7},car:{w:13,h:20},oil:{w:22,h:12},pot:{w:11,h:7},box:{w:1
 
 /* ============================ 게임 상태 ============================ */
 let mode='menu',run=null,hold={},lastT=0,pendingOver=0;
-const baseSpd=d=>125+95*(1-Math.exp(-d/9000));
+const baseSpd=d=>125+150*(1-Math.exp(-d/11000));
 const dayKey=()=>{const n=new Date();return n.getFullYear()*10000+(n.getMonth()+1)*100+n.getDate()};
 let skinSel=store.get('dr_skin',0),bestM=store.get('dr_best',0);
 
 function newRun(daily){
   const s=daily?dayKey():(Math.random()*1e9|0);resetWorld(s);
-  return{daily,seed:s,time:45,scroll:0,speed:0,fuel:100,tire:100,comp:'hard',tl:1,x:lx(1),lock:0,inv:0,shake:0,cd:3.6,pit:null,nextPit:0,
-    boxes:0,stops:0,crashes:0,parts:[],pops:[],exh:0,t:0,final:0,lastCd:4,warnT:0,skin:skinSel};
+  return{daily,seed:s,time:50,scroll:0,speed:0,fuel:100,tire:100,comp:'hard',tl:1,x:lx(1),lock:0,inv:0,shake:0,cd:3.6,pit:null,nextPit:0,
+    boxes:0,stops:0,crashes:0,evClear:0,ev:null,banner:null,parts:[],pops:[],exh:0,t:0,final:0,lastCd:4,warnT:0,skin:skinSel};
 }
 function startRun(daily){ac();run=newRun(daily);mode='ready';hold={};document.getElementById('menu').classList.remove('on');document.getElementById('over').classList.remove('on');pendingOver=0;engineOn()}
 function toMenu(){run=newRun(true);run.cd=0;mode='menu';engineOff();document.getElementById('over').classList.remove('on');document.getElementById('menu').classList.add('on');buildMenu()}
@@ -305,27 +320,37 @@ function update(dt){
   if(mode==='menu'){R.scroll+=70*dt;R.x=lx(1);return}
   // 홀드 반복 이동
   for(const k in hold){hold[k]-=dt;if(hold[k]<=0){moveLane(+k);hold[k]=.13}}
-  const rate=R.tire>35?22:R.tire>0?13:8;R.x+=(lx(R.tl)-R.x)*Math.min(1,dt*rate);R.lock=Math.max(0,R.lock-dt);R.inv=Math.max(0,R.inv-dt);
+  const ev=eventOf(R.nextPit);R.ev=ev;if(R.banner){R.banner.t-=dt;if(R.banner.t<=0)R.banner=null}
+  const rate=(8+14*clamp(R.tire/45,0,1))*(ev==='rain'?.7:1);R.x+=(lx(R.tl)-R.x)*Math.min(1,dt*rate);R.lock=Math.max(0,R.lock-dt);R.inv=Math.max(0,R.inv-dt);
   if(mode==='ready'){R.cd-=dt;const n=Math.ceil(R.cd-.6);if(n!==R.lastCd){R.lastCd=n;if(n>0)SFX.ready();else if(n===0)SFX.go()}if(R.cd<=0)mode='play';return}
   if(mode==='play'||mode==='over'){
     const playing=mode==='play';
-    const fuelM=R.fuel>0?1:.35,tireM=R.tire>35?1:R.tire>0?.88:.5,compM=R.comp==='soft'?1.12:1;
-    const target=(!playing||R.pit)?0:baseSpd(R.scroll)*fuelM*tireM*compM;
+    const fuelM=R.fuel>0?1:.35,tireM=R.tire>35?1:R.tire>0?.88:.5,compM=R.comp==='soft'?1.1:1;
+    const target=(!playing||R.pit)?0:baseSpd(R.scroll)*fuelM*tireM*compM*(ev==='turbo'?1.2:1);
     R.brake=R.speed>target+8;
     if(R.speed<target)R.speed=Math.min(target,R.speed+150*dt);else R.speed=Math.max(target,R.speed-(R.pit?900:playing?500:260)*dt);
     const ds=R.speed*dt;R.scroll+=ds;
     if(playing){
-      R.tire=Math.max(0,R.tire-ds*(R.comp==='soft'?.021:.0105));if(R.speed>1)R.fuel=Math.max(0,R.fuel-1.5*dt);
+      R.tire=Math.max(0,R.tire-ds*(R.comp==='soft'?.0149:.0062)*(ev==='rain'?1.5:1));if(R.speed>1)R.fuel=Math.max(0,R.fuel-.9*(ev==='turbo'?1.4:1)*dt);
       R.time-=dt;
       // 배기 연기
       R.exh-=dt;if(R.exh<=0&&R.speed>40){R.exh=.07;R.parts.push({x:R.x+(Math.random()<.5?-4:3),y:PY+12,vx:0,vy:35,life:.35,max:.35,c:'#9a9aae',s:1})}
       // 충돌
+      // 러시아워: 차량이 한 칸씩 차선 변경 (신호 → 이동)
+      const m0=Math.max(0,Math.floor((R.scroll-40)/ROW)),m1=Math.ceil((R.scroll+300)/ROW);
+      for(let i=m0;i<=m1;i++)for(const it of getRow(i)){if(it.to===undefined||it.hit)continue;const d=it.wy-R.scroll;
+        if(it.sig===undefined&&d<250)it.sig=R.t;if(it.mv0===undefined&&d<135)it.mv0=R.t;
+        if(it.mv0!==undefined)it.pl=it.lane+(it.to-it.lane)*clamp((R.t-it.mv0)/.34,0,1)}
+      // 충돌
       const i0=Math.max(0,Math.floor((R.scroll-30)/ROW)),i1=Math.ceil((R.scroll+30)/ROW);
       for(let i=i0;i<=i1;i++)for(const it of getRow(i)){if(it.hit)continue;const hb=HB[it.t];
-        if(Math.abs(lx(it.lane)-R.x)<(12+hb.w)/2&&Math.abs(it.wy-R.scroll)<(18+hb.h)/2)hitItem(R,it)}
+        if(Math.abs(itemX(it)-R.x)<(12+hb.w)/2&&Math.abs(it.wy-R.scroll)<(18+hb.h)/2)hitItem(R,it)}
       // 피트
       if(!R.pit){const gw=gateRow(R.nextPit)*ROW;
-        if(R.scroll>=gw){const lane=clamp(Math.round((R.x-lx(0))/LANE),0,3),ty=pitOrder(R.nextPit)[lane];R.nextPit++;R.time=Math.min(99,R.time+CHECK_BONUS);pop(R.x,PY-48,'체크포인트 +'+CHECK_BONUS+'초','#ffd23f');
+        if(R.scroll>=gw){const lane=clamp(Math.round((R.x-lx(0))/LANE),0,3),ty=pitOrder(R.nextPit)[lane];const done=eventOf(R.nextPit);R.nextPit++;const eb=done?EVENTS[done].bonus:0;R.time=Math.min(99,R.time+CHECK_BONUS+eb);
+          pop(R.x,PY-48,'체크포인트 +'+CHECK_BONUS+'초','#ffd23f');
+          if(done){R.evClear++;pop(R.x,PY-58,EVENTS[done].n+' 클리어 +'+eb+'초',EVENTS[done].col)}
+          const nx=eventOf(R.nextPit);if(nx)R.banner={ev:nx,t:4.6};
           if(ty==='go'){pop(R.x,PY-20,'통과!','#2ec4b6');SFX.pit()}else{R.pit={ty,t:0,dur:1.5};R.stops++;SFX.pit()}}}
       else if(R.speed<4){R.pit.t+=dt;if(R.pit.t>=R.pit.dur){const ty=R.pit.ty;
         if(ty==='fuel')R.fuel=100;else{R.tire=100;R.comp=ty}
@@ -345,13 +370,13 @@ function finishRun(){
   const R=run,m=R.final;let rank=0,newBest=false;
   if(m>bestM){bestM=m;newBest=true;store.set('dr_best',m)}
   if(R.daily){const key='dr_daily_'+R.seed,list=store.get(key,[]);rank=list.filter(v=>v>m).length+1;list.push(m);list.sort((a,b)=>b-a);store.set(key,list.slice(0,5))}
-  lastResult={m,rank,newBest,daily:R.daily,stage:R.nextPit+1,boxes:R.boxes,stops:R.stops,crashes:R.crashes,seed:R.seed};
+  lastResult={m,rank,newBest,daily:R.daily,stage:R.nextPit+1,evClear:R.evClear,boxes:R.boxes,stops:R.stops,crashes:R.crashes,seed:R.seed};
 }
 function fillTop5(el,highlight){const list=store.get('dr_daily_'+dayKey(),[]);el.innerHTML='';
   for(let i=0;i<5;i++){const li=document.createElement('li');if(highlight&&list[i]===highlight)li.className='me';
     li.innerHTML='<span>'+(i+1)+'위</span><span>'+(list[i]!==undefined?list[i]+'m':'-')+'</span>';el.appendChild(li)}}
 function showOver(){
-  const r=lastResult;document.getElementById('rD').textContent=r.m;document.getElementById('rS').textContent=r.stage;document.getElementById('rB').textContent=r.boxes;document.getElementById('rP').textContent=r.stops;document.getElementById('rC').textContent=r.crashes;
+  const r=lastResult;document.getElementById('rD').textContent=r.m;document.getElementById('rS').textContent=r.stage;document.getElementById('rE').textContent=r.evClear;document.getElementById('rB').textContent=r.boxes;document.getElementById('rP').textContent=r.stops;document.getElementById('rC').textContent=r.crashes;
   document.getElementById('rTier').textContent='칭호 · '+tierOf(r.m);
   document.getElementById('rBadge').innerHTML=r.newBest?'<span class="badge">NEW RECORD!</span>':'';
   document.getElementById('rRankLab').textContent=r.daily?'오늘의 코스 · 내 기록 TOP 5 (이번 '+r.rank+'위)':'오늘의 코스 · 내 기록 TOP 5';
@@ -421,14 +446,18 @@ function drawItems(R){
   const i0=Math.max(0,Math.floor((R.scroll-(H-PY)-30)/ROW)),i1=Math.ceil((R.scroll+PY+30)/ROW);
   for(let pass=0;pass<2;pass++)for(let i=i1;i>=i0;i--)for(const it of getRow(i)){
     const ground=it.t==='oil'||it.t==='pot';if((pass===0)!==ground)continue;
-    if(it.hit&&!ground)continue;const sy=PY-(it.wy-R.scroll),x=lx(it.lane);
+    if(it.hit&&!ground)continue;const sy=PY-(it.wy-R.scroll),x=itemX(it);
     if(it.t==='oil')put(sOil,x-12,sy-7);
     else if(it.t==='pot')put(sPot,x-6,sy-4);
     else if(it.t==='cone'){shadow(x+.8,sy+1.2,5,3.4,.32);put(sConeS,x-5,sy-5)}
     else if(it.t==='box'){const bob=Math.sin(R.t*5+i);glow(x,sy,11,'255,206,70',.32+.12*Math.sin(R.t*6+i));shadow(x+.8,sy+4,5,2.6,.28);put(sBox,x-6,sy-6+bob);
       if(((R.t*6+i)|0)%3===0){cx.fillStyle='#fff';cx.fillRect(snap(x+5.5),snap(sy-6.5+bob),.8,.8);cx.fillRect(snap(x-7),snap(sy+2+bob),.8,.8)}}
     else if(it.t==='car'){shadow(x+1,sy+3,8.4,12.4,.32);put(trafficSpr[it.v===skinColor(R)?(it.v+1)%6:it.v],x-8,sy-11.5);
-      if(((R.t*2.5)|0)%2===0){glow(x-5.5,sy+9,5,'255,170,30',.7);glow(x+5.5,sy+9,5,'255,170,30',.7)}}
+      if(it.sig!==undefined&&it.pl!==it.to){          // 차선 변경 예고: 진행 방향 깜빡이 + 화살표
+        const sd=it.to>it.lane?1:-1,on=((R.t*8)|0)%2===0;
+        if(on){glow(x+sd*7,sy-8,5,'255,176,0',.95);glow(x+sd*7,sy+9,5,'255,176,0',.95);
+          cx.fillStyle='rgba(255,196,40,.95)';cx.beginPath();cx.moveTo(x+sd*14,sy-14);cx.lineTo(x+sd*9,sy-17.5);cx.lineTo(x+sd*9,sy-10.5);cx.closePath();cx.fill()}}
+      else if(((R.t*2.5)|0)%2===0){glow(x-5.5,sy+9,5,'255,170,30',.7);glow(x+5.5,sy+9,5,'255,170,30',.7)}}
   }
 }
 function drawPlayer(R){
@@ -455,7 +484,7 @@ function drawHud(R){
   T('TIME',5,1.8,{s:4.4,c:'#9fb4ff',lw:1.1});const lowT=R.time<10&&mode==='play'&&((R.t*4|0)%2);
   T(Math.max(0,R.time).toFixed(1),5,6.2,{s:12,g:lowT?['#ffb3c0','#ff4d6d']:['#fff3b0','#ffb703'],lw:2.4});
   T('DIST',W-5,1.8,{s:4.4,a:'right',c:'#9fb4ff',lw:1.1});T(Math.floor(R.scroll/10)+'m',W-5,6.2,{s:12,a:'right',g:['#ffffff','#b9c6ff'],lw:2.4});
-  T('STAGE '+(R.nextPit+1),80,2,{s:5.4,a:'center',g:['#ffe29a','#ffa51f'],lw:1.4});T(Math.round(R.speed*1.15)+' km/h',80,9.6,{s:5,a:'center',c:'#bff2ff',lw:1.2});
+  T('STAGE '+(R.nextPit+1),80,2,{s:5.4,a:'center',g:['#ffe29a','#ffa51f'],lw:1.4});if(R.ev)T(EVENTS[R.ev].n,80,9.6,{s:5.2,a:'center',c:EVENTS[R.ev].col,lw:1.3});else T(Math.round(R.speed*1.15)+' km/h',80,9.6,{s:5,a:'center',c:'#bff2ff',lw:1.2});
   const fc=R.fuel>50?['#a6f7ad','#2fae44']:R.fuel>25?['#ffeaa6','#e0a317']:['#ffa0ae','#d9304a'];
   const tc=R.tire<=35?['#ffa0ae','#d9304a']:R.comp==='soft'?['#ffb3ba','#e63946']:['#eef3fa','#8aa0b8'];
   gauge(2,'FUEL',R.fuel,fc,R.fuel<25);gauge(W-18,'TIRE',R.tire,tc,R.tire<35);
@@ -463,13 +492,23 @@ function drawHud(R){
   if(R.fuel<=0)T('연료 부족!',80,48,{s:7,a:'center',c:(R.t*5|0)%2?'#ff6f86':'#fff'});
   else if(R.tire<=0)T('타이어 펑크!',80,48,{s:7,a:'center',c:(R.t*5|0)%2?'#ff6f86':'#fff'});
   const k=R.nextPit,gw=gateRow(k)*ROW,dm=(gw-R.scroll)/10;
-  if(!R.pit&&dm>-5&&dm<90)T('PIT '+Math.max(0,Math.ceil(dm))+'m',80,23.5,{s:5.6,a:'center',c:(R.t*4|0)%2?'#ffd23f':'#fff'});
+  if(!R.pit&&dm>-5&&dm<90){T('PIT '+Math.max(0,Math.ceil(dm))+'m',80,23.5,{s:5.6,a:'center',c:(R.t*4|0)%2?'#ffd23f':'#fff'});
+    const nx=eventOf(R.nextPit+1);T(nx?'다음 구간: '+EVENTS[nx].n:'다음 구간: 일반',80,30.5,{s:5,a:'center',c:nx?EVENTS[nx].col:'#aeb6dc',lw:1.3})}
   if(!R.pit&&dm>26&&dm<75){const order=pitOrder(k);cx.globalAlpha=.92;for(let l=0;l<4;l++)panel(order[l],RX+LANE*l+2,34,LANE-4,25);cx.globalAlpha=1}
 }
 function drawFx(R){
   for(const p of R.parts){cx.globalAlpha=clamp(p.life/p.max,0,1);cx.fillStyle=p.c;cx.fillRect(snap(p.x),snap(p.y),p.s,p.s)}cx.globalAlpha=1;
   for(const p of R.pops)T(p.t,p.x,p.y,{s:5.8,a:'center',c:p.c,lw:1.6});
 }
+function drawRain(R){cx.fillStyle='rgba(18,28,64,.24)';cx.fillRect(0,0,W,H);cx.strokeStyle='rgba(208,226,255,.4)';cx.lineWidth=.6;cx.beginPath();
+  for(let i=0;i<70;i++){const sp=300+(i%5)*40,y=((i*53.7+R.t*sp)%(H+30))-15,x=(((i*29.31-y*.12)%W)+W)%W;cx.moveTo(x,y);cx.lineTo(x-1.6,y+7)}cx.stroke()}
+function drawTurbo(R){cx.strokeStyle='rgba(255,255,255,.28)';cx.lineWidth=.8;cx.beginPath();
+  for(let i=0;i<16;i++){const y=((i*71+R.t*760)%(H+70))-35,x=RX+3+((i*37)%(RW-6));cx.moveTo(x,y);cx.lineTo(x,y+22)}cx.stroke();
+  if(R.speed>100){glow(R.x-4,PY+13,6,'255,150,40',.9);glow(R.x+4,PY+13,6,'255,150,40',.9)}}
+function drawBanner(R){const b=R.banner;if(!b)return;const e=EVENTS[b.ev],a=Math.min(1,b.t/.5,(4.6-b.t)/.25+.2);cx.globalAlpha=clamp(a,0,1);
+  rr(cx,14,62,132,36,3);cx.fillStyle=lg(cx,0,62,0,98,[[0,'rgba(20,14,56,.95)'],[1,'rgba(8,6,28,.95)']]);cx.fill();cx.lineWidth=1;cx.strokeStyle=e.col;cx.stroke();
+  T('이벤트 구간',80,64.5,{s:4.6,a:'center',c:'#cfd6ff',lw:1.1});T(e.n,80,70.5,{s:11,a:'center',c:e.col,lw:2.2});T(e.d,80,86.5,{s:4.6,a:'center',c:'#e8ecff',lw:1.1});
+  T('클리어 시 보너스 +'+e.bonus+'초',80,92.4,{s:3.8,a:'center',c:'#ffe29a',lw:1});cx.globalAlpha=1}
 function render(){
   const R=run,sc=R.scroll;lampPts.length=0;cx.save();
   if(R.shake>0)cx.translate(((Math.random()*3-1)|0)/K,((Math.random()*3-1)|0)/K);
@@ -478,6 +517,7 @@ function render(){
   drawItems(R);drawPlayer(R);
   if(mode!=='menu')drawGate(R);
   drawFx(R);cx.restore();
+  if(mode!=='menu'){if(R.ev==='rain')drawRain(R);else if(R.ev==='turbo')drawTurbo(R)}
   // 낮→밤 순환 + 조명
   const dark=.44*(.5-.5*Math.cos(Math.PI*2*sc/9000));
   if(dark>.03){cx.fillStyle='rgba(8,6,42,'+dark.toFixed(3)+')';cx.fillRect(0,0,W,H);
@@ -486,7 +526,7 @@ function render(){
     if(dark>.12){cx.fillStyle=lg(cx,0,PY-8,0,PY-130,[[0,'rgba(255,240,170,'+(dark*.55).toFixed(3)+')'],[1,'rgba(255,240,170,0)']]);
       cx.beginPath();cx.moveTo(R.x-5,PY-9);cx.lineTo(R.x+5,PY-9);cx.lineTo(R.x+26,PY-130);cx.lineTo(R.x-26,PY-130);cx.closePath();cx.fill()}
     cx.globalCompositeOperation=o}
-  if(mode!=='menu')drawHud(R);
+  if(mode!=='menu'){drawHud(R);drawBanner(R)}
   if(mode==='ready'){const n=Math.ceil(R.cd-.6);
     if(n>0)T(String(n),80,78,{s:46,a:'center',g:['#fff3b0','#ffa51f'],lw:7});else T('GO!',80,82,{s:38,a:'center',g:['#c9fff7','#2ec4b6'],lw:7});
     T('차선을 선택하세요',80,150,{s:6.5,a:'center'})}
