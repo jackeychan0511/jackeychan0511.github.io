@@ -70,8 +70,8 @@ html,body{margin:0;height:100%;background:var(--bg);color:var(--ink);font-family
     <div class="sub">DELIVERY RUSH</div>
     <ul class="how">
       <li>◀ ▶ 버튼으로 <b>4개 차선</b>을 이동! 장애물은 피하고 <b>📦 박스</b>를 먹으면 시간 +1초</li>
-      <li>약 260m마다 <b>피트 구간</b>: ⛽주유 / 소프트 타이어 / 하드 타이어 / 통과 중 <b>한 차선</b>을 골라 진입</li>
-      <li>소프트는 <b>빠르지만 빨리 닳고</b>, 하드는 느리지만 오래가요. 연료·타이어가 바닥나면 속도가 크게 떨어집니다</li>
+      <li>약 260m마다 <b>피트 구간</b>: ⛽주유 / 소프트 타이어 체인지 / 하드 타이어 체인지 / 통과 중 <b>한 차선</b>을 골라 진입</li>
+      <li><b>소프트 타이어 체인지</b>는 빠르지만 빨리 닳고, <b>하드 타이어 체인지</b>는 느리지만 오래가요. 연료·타이어가 바닥나면 속도가 크게 떨어집니다</li>
     </ul>
     <div class="row">
       <button class="btn" id="goDaily">오늘의 코스<small>모두 같은 맵 · 기록 도전</small></button>
@@ -177,7 +177,7 @@ const sBush=mk(10,8,(g,w,h)=>{for(let y=0;y<h;y++)for(let x=0;x<w;x++){const e=(
 const sLamp=mk(5,5,(g)=>{g.fillStyle='#161022';g.fillRect(1,0,3,5);g.fillRect(0,1,5,3);g.fillStyle='#ffe9a0';g.fillRect(1,1,3,3);g.fillStyle='#fff';g.fillRect(2,2,1,1)});
 const sAsphalt=mk(RW,64,(g)=>{g.fillStyle='#3a3a4a';g.fillRect(0,0,RW,64);const r=mulberry32(7);for(let i=0;i<260;i++){g.fillStyle=r()<.5?'#444458':'#2e2e3b';g.fillRect(r()*RW|0,r()*64|0,1+(r()*2|0),1)}});
 
-const PIT={fuel:{c:'#ff8a1f',d:'#a24d00',l:'FUEL'},soft:{c:'#e63946',d:'#8f1523',l:'SOFT'},hard:{c:'#8aa0b8',d:'#4a5a70',l:'HARD'},go:{c:'#2ec4b6',d:'#17756c',l:'GO'}};
+const PIT={fuel:{c:'#ff8a1f',d:'#a24d00',l:['REFUEL'],n:'REFUEL'},soft:{c:'#e63946',d:'#8f1523',l:['SOFT','TIRE','CHANGE'],n:'SOFT TIRE CHANGE'},hard:{c:'#8aa0b8',d:'#4a5a70',l:['HARD','TIRE','CHANGE'],n:'HARD TIRE CHANGE'},go:{c:'#2ec4b6',d:'#17756c',l:['GO'],n:'GO'}};
 function tireIcon(band){return mk(14,14,(g)=>{for(let y=0;y<14;y++)for(let x=0;x<14;x++){const d=Math.hypot(x-6.5,y-6.5);
   if(d<=6.6){g.fillStyle=d<=1.4?'#e8eef5':d<=3.2?'#9aa5b3':d<=4.4?band:d<=5.6?'#2a2a38':'#10101a';g.fillRect(x,y,1,1)}}})}
 const ICON={
@@ -287,7 +287,7 @@ function update(dt){
           if(ty==='go'){pop(R.x,PY-16,'PASS','#2ec4b6');SFX.pit()}else{R.pit={ty,t:0,dur:1.5};R.stops++;SFX.pit()}}}
       else if(R.speed<4){R.pit.t+=dt;if(R.pit.t>=R.pit.dur){const ty=R.pit.ty;
         if(ty==='fuel')R.fuel=100;else{R.tire=100;R.comp=ty}
-        pop(R.x,PY-20,ty==='fuel'?'FUEL 100%':ty==='soft'?'SOFT TIRE':'HARD TIRE',PIT[ty].c);SFX.done();R.pit=null}}
+        pop(R.x,PY-20,ty==='fuel'?'FUEL 100%':PIT[ty].n,PIT[ty].c);SFX.done();R.pit=null}}
       // 경고음
       R.warnT-=dt;if((R.fuel<=0||R.tire<=0||R.time<5)&&R.warnT<=0){R.warnT=.6;SFX.warn()}
       if(R.time<=0){R.time=0;mode='over';R.final=Math.floor(R.scroll/10);R.pit=null;SFX.end();pendingOver=.9;finishRun()}
@@ -344,7 +344,8 @@ function drawRoad(sc){
   cx.fillStyle='#e8e8d0';cx.fillRect(RX,0,2,H);cx.fillRect(RX+RW-2,0,2,H);
   const lo=sc%28;for(let k=1;k<4;k++)for(let y=-28+lo;y<H;y+=28)cx.fillRect(RX+LANE*k-1,y|0,2,14);
 }
-function panel(ty,x,y,w,h){const p=PIT[ty];cx.fillStyle='#10101a';cx.fillRect(x-1,y-1,w+2,h+2);cx.fillStyle=p.c;cx.fillRect(x,y,w,h-2);cx.fillStyle=p.d;cx.fillRect(x,y+h-2,w,2);text(p.l,x+w/2,y+((h-7)>>1),'#fff',1,'c')}
+function panel(ty,x,y,w,h){const p=PIT[ty],L=p.l;cx.fillStyle='#10101a';cx.fillRect(x-1,y-1,w+2,h+2);cx.fillStyle=p.c;cx.fillRect(x,y,w,h-2);cx.fillStyle=p.d;cx.fillRect(x,y+h-2,w,2);
+  const y0=y+((h-2-(L.length*6-1))>>1);L.forEach((t,i)=>text(t,x+w/2,y0+i*6,'#fff',1,'c'))}
 function drawPitPads(R){for(let k=Math.max(0,R.nextPit-1);k<=R.nextPit;k++)drawPads(R,k)}
 function drawPads(R,k){
   const g=gateRow(k),order=pitOrder(k),syOf=wy=>PY-(wy-R.scroll);
@@ -357,8 +358,8 @@ function drawGate(R){for(let k=Math.max(0,R.nextPit-1);k<=R.nextPit;k++)drawGate
 function drawGateK(R,k){
   const g=gateRow(k),y=PY-(g*ROW-R.scroll);if(y<-20||y>H+20)return;const order=pitOrder(k);
   cx.fillStyle='#10101a';cx.fillRect(RX-8,(y-2)|0,RW+16,4);cx.fillStyle='#d8d8e8';cx.fillRect(RX-8,(y-1)|0,RW+16,2);
-  cx.fillStyle='#10101a';cx.fillRect(RX-9,(y-6)|0,4,26);cx.fillRect(RX+RW+5,(y-6)|0,4,26);
-  for(let l=0;l<4;l++)panel(order[l],RX+LANE*l+2,(y+4)|0,LANE-4,13);
+  cx.fillStyle='#10101a';cx.fillRect(RX-9,(y-6)|0,4,38);cx.fillRect(RX+RW+5,(y-6)|0,4,38);
+  for(let l=0;l<4;l++)panel(order[l],RX+LANE*l+2,(y+4)|0,LANE-4,25);
 }
 function drawItems(R){
   const i0=Math.max(0,Math.floor((R.scroll-(H-PY)-30)/ROW)),i1=Math.ceil((R.scroll+PY+30)/ROW);
@@ -381,7 +382,7 @@ function drawPlayer(R){
   cx.drawImage(skinSpr[R.skin],x-8,PY-11);
   if(R.pit&&R.speed<4){const bob=(Math.sin(R.t*22)>0)?1:0;cx.drawImage(sCrew,x-17,PY-6+bob);cx.drawImage(sCrew,x+11,PY-2-bob);cx.drawImage(sCrew,x-17,PY+4-bob);
     const pr=R.pit.t/R.pit.dur,bx=x-14;cx.fillStyle='#10101a';cx.fillRect(bx-1,PY-20,30,6);cx.fillStyle=PIT[R.pit.ty].c;cx.fillRect(bx,PY-19,(28*pr)|0,4);
-    text(R.pit.ty==='fuel'?'REFUEL':'TIRES',x,PY-31,'#fff',1,'c')}
+    text(PIT[R.pit.ty].n,x,PY-31,'#fff',1,'c')}
 }
 function gauge(x,label,val,col,low){
   cx.fillStyle='rgba(8,6,30,.7)';cx.fillRect(x,28,16,86);cx.fillStyle='#fff3';cx.fillRect(x,28,16,1);
@@ -398,13 +399,13 @@ function drawHud(R){
   text('BOX '+R.boxes,80,2,'#e6b36a',1,'c');text(Math.round(R.speed*1.15)+'KMH',80,9,'#bfe',1,'c');
   const fc=R.fuel>50?'#5ee06a':R.fuel>25?'#ffd166':'#ff4d6d',tc=R.comp==='soft'?'#ff5a66':'#b8c7da';
   gauge(2,'FUEL',R.fuel,fc,R.fuel<25);gauge(W-18,'TIRE',R.tire,R.tire>35?tc:'#ff4d6d',R.tire<35);
-  text(R.comp==='soft'?'SOFT':'HARD',W-10,116,tc,1,'c');
+  cx.drawImage(ICON[R.comp],W-17,116);
   if(R.fuel<=0)text('NO FUEL!',80,50,(R.t*5|0)%2?'#ff4d6d':'#fff',1,'c');
   else if(R.tire<=0)text('FLAT TIRE!',80,50,(R.t*5|0)%2?'#ff4d6d':'#fff',1,'c');
   // 피트 예고
   const k=R.nextPit,gw=gateRow(k)*ROW,dm=(gw-R.scroll)/10;
   if(!R.pit&&dm>-5&&dm<90){text('PIT '+Math.max(0,Math.ceil(dm))+'M',80,24,(R.t*4|0)%2?'#ffd23f':'#fff',1,'c')}
-  if(!R.pit&&dm>26&&dm<75){const order=pitOrder(k);cx.globalAlpha=.9;for(let l=0;l<4;l++)panel(order[l],RX+LANE*l+2,34,LANE-4,13);cx.globalAlpha=1}
+  if(!R.pit&&dm>26&&dm<75){const order=pitOrder(k);cx.globalAlpha=.9;for(let l=0;l<4;l++)panel(order[l],RX+LANE*l+2,34,LANE-4,25);cx.globalAlpha=1}
 }
 function drawFx(R){
   for(const p of R.parts){cx.globalAlpha=clamp(p.life/p.max,0,1);cx.fillStyle=p.c;cx.fillRect(p.x|0,p.y|0,p.s,p.s)}cx.globalAlpha=1;
