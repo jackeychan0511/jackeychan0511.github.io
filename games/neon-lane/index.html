@@ -25,7 +25,10 @@ html,body{margin:0;height:100%;background:var(--bg);color:var(--ink);font-family
 .card{background:linear-gradient(#10082a,#08031a);width:100%;max-width:400px;padding:18px 16px;text-align:center;border:1px solid #7a2bff;border-radius:16px;box-shadow:0 0 30px #7a2bff66,0 0 60px #27f3ff22 inset}
 .logo{font-family:"Courier New",monospace;font-weight:900;font-size:34px;letter-spacing:2px;margin:2px 0 0;background:linear-gradient(90deg,#ff2d55,#ff9500,#ffe600,#30ff7a);-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 0 10px #ff2bd688)}
 .sub{font-family:"Courier New",monospace;font-weight:700;font-size:12px;letter-spacing:7px;color:var(--cy);margin:2px 0 10px;text-shadow:0 0 8px var(--cy)}
-.team{font-family:"Courier New",monospace;font-weight:700;font-size:12px;letter-spacing:2px;color:#c9b8ff;margin:-4px 0 10px;text-shadow:0 0 8px #7a2bff}
+.team{display:inline-flex;align-items:center;gap:10px;margin:16px auto 2px;padding:6px 18px 6px 8px;border:1px solid #4a3a8a;border-radius:999px;background:linear-gradient(#1a1238,#0c0722);box-shadow:0 0 14px #7a2bff44}
+.team img{width:28px;height:28px;border-radius:50%;background:#050b2a;border:1px solid #3a2f7a;object-fit:cover}
+.team span{font-size:11px;letter-spacing:2px;color:#b9b0e6;font-weight:700}
+.team b{font-size:15px;color:#fff;font-style:italic;letter-spacing:.5px;text-shadow:0 0 8px #7a2bff}
 .how{text-align:left;font-size:12.5px;line-height:1.5;color:#dcd6ff;margin:0 0 12px;padding:0;list-style:none}
 .how li{word-break:keep-all;padding:5px 9px;margin-bottom:5px;background:#0a0418;border-left:3px solid var(--pk);border-radius:0 6px 6px 0}
 .how b{color:var(--acc)}
@@ -63,7 +66,6 @@ html,body{margin:0;height:100%;background:var(--bg);color:var(--ink);font-family
   <div class="card">
     <h1 class="logo">네온 레인</h1>
     <div class="sub">NEON LANE</div>
-    <div class="team">team. jackeychankey</div>
     <ul class="how">
       <li>빛이 <b>빨·주·노·초 4개 차선</b>을 달려요. ◀ ▶ 로 차선을 옮기고 <b>JUMP</b>로 낮은 바를 넘어요</li>
       <li><b>박자에 맞춰</b> 움직이면 PERFECT! 콤보와 점수 배수가 올라가요. 박자를 놓쳐도 죽지 않아요</li>
@@ -79,6 +81,7 @@ html,body{margin:0;height:100%;background:var(--bg);color:var(--ink);font-family
     <div class="sync"><button id="syM">−</button><b id="syV">0ms</b><button id="syP">+</button></div>
     <div class="lab">오늘의 곡 · 내 기록 TOP 5</div>
     <ol class="top5" id="top5"></ol>
+    <div class="team"><img src="team-logo.png" alt="" width="28" height="28"><span>TEAM</span><b>Jackeychankey</b></div>
   </div>
 </div>
 
