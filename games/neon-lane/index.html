@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<meta name="theme-color" content="#05010d">
+<title>네온 레인 — 4색 리듬 러너</title>
+<meta name="description" content="검은 사이버 공간, 빨주노초 4개 차선을 달리는 빛. 박자에 맞춰 차선을 바꾸고 점프로 장애물을 피하세요. 한 번 부딪히면 끝, 달릴수록 BPM이 올라갑니다.">
+<style>
+:root{--bg:#05010d;--panel:#0d0720;--ink:#fff;--sub:#a79de0;--cy:#27f3ff;--pk:#ff2bd6;--acc:#ffe600}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent;user-select:none;-webkit-user-select:none;-webkit-touch-callout:none}
+html,body{margin:0;height:100%;background:var(--bg);color:var(--ink);font-family:"Apple SD Gothic Neo","Noto Sans KR",system-ui,sans-serif;overflow:hidden;touch-action:none;overscroll-behavior:none}
+#app{position:fixed;inset:0;display:flex;flex-direction:column;padding:env(safe-area-inset-top) 0 env(safe-area-inset-bottom)}
+#stage{flex:1;min-height:0;position:relative;display:flex;align-items:center;justify-content:center}
+#g{background:#000;box-shadow:0 0 0 1px #3a1d6e,0 0 24px #7a2bff55}
+#pad{display:flex;gap:10px;padding:8px 12px 12px;align-items:stretch;height:clamp(96px,17vh,150px)}
+.key{border:2px solid #7a2bff;border-radius:14px;padding:0;background:linear-gradient(#150a30,#0b0520);color:#fff;cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:0 0 14px #7a2bff55 inset,0 0 10px #7a2bff44}
+.key.arrow{flex:1}
+.key.arrow svg{width:44px;height:44px;fill:var(--cy);filter:drop-shadow(0 0 6px var(--cy))}
+.key.jump{flex:1.15;border-color:#ff2bd6;box-shadow:0 0 14px #ff2bd655 inset,0 0 10px #ff2bd655;font-weight:900;font-size:20px;letter-spacing:3px;color:#ff8ae9;text-shadow:0 0 10px #ff2bd6;font-family:"Courier New",monospace}
+.key.on{transform:scale(.97);filter:brightness(1.5)}
+#mute{position:absolute;right:6px;bottom:6px;opacity:.7;width:36px;height:36px;border:1px solid #3a1d6e;background:#0d0720cc;color:#fff;font-size:16px;border-radius:8px;cursor:pointer;z-index:2}
+.ov{position:fixed;inset:0;background:rgba(3,0,10,.88);display:none;align-items:center;justify-content:center;z-index:5;padding:14px;overflow:auto}
+.ov.on{display:flex}
+.card{background:linear-gradient(#10082a,#08031a);width:100%;max-width:400px;padding:18px 16px;text-align:center;border:1px solid #7a2bff;border-radius:16px;box-shadow:0 0 30px #7a2bff66,0 0 60px #27f3ff22 inset}
+.logo{font-family:"Courier New",monospace;font-weight:900;font-size:34px;letter-spacing:2px;margin:2px 0 0;background:linear-gradient(90deg,#ff2d55,#ff9500,#ffe600,#30ff7a);-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 0 10px #ff2bd688)}
+.sub{font-family:"Courier New",monospace;font-weight:700;font-size:12px;letter-spacing:7px;color:var(--cy);margin:2px 0 10px;text-shadow:0 0 8px var(--cy)}
+.how{text-align:left;font-size:12.5px;line-height:1.5;color:#dcd6ff;margin:0 0 12px;padding:0;list-style:none}
+.how li{word-break:keep-all;padding:5px 9px;margin-bottom:5px;background:#0a0418;border-left:3px solid var(--pk);border-radius:0 6px 6px 0}
+.how b{color:var(--acc)}
+.row{display:flex;gap:8px;margin-top:8px}
+.btn{flex:1;border:0;border-radius:10px;padding:13px 6px;font:inherit;font-weight:900;font-size:15px;color:#05010d;background:linear-gradient(90deg,#27f3ff,#7affc8);cursor:pointer;box-shadow:0 0 16px #27f3ff66}
+.btn:active{transform:scale(.97)}
+.btn.alt{background:linear-gradient(90deg,#ff2bd6,#ff8a5c);color:#fff;box-shadow:0 0 16px #ff2bd666}
+.btn.ghost{background:#150a30;color:#fff;box-shadow:none;border:1px solid #3a1d6e}
+.btn small{display:block;font-weight:600;font-size:10px;opacity:.8;margin-top:2px}
+.lab{font-size:11px;color:var(--sub);margin:12px 0 4px;letter-spacing:1px}
+.sync{display:flex;align-items:center;justify-content:center;gap:10px;font-size:13px;color:#dcd6ff}
+.sync button{width:34px;height:30px;border:1px solid #3a1d6e;background:#150a30;color:#fff;border-radius:8px;font-size:16px;cursor:pointer}
+.sync b{min-width:64px;color:var(--cy)}
+.top5{font-family:"Courier New",monospace;font-size:13px;color:#dcd6ff;margin:0;padding:0;list-style:none}
+.top5 li{display:flex;justify-content:space-between;padding:2px 14px}
+.top5 li.me{color:var(--acc);text-shadow:0 0 8px var(--acc)}
+.big{font-family:"Courier New",monospace;font-weight:900;font-size:50px;line-height:1.05;color:#fff;text-shadow:0 0 14px var(--cy),0 0 30px var(--pk)}
+.stat{display:flex;justify-content:center;flex-wrap:wrap;gap:6px 14px;font-size:13px;color:#dcd6ff;margin:10px 0 4px}
+.stat b{color:#fff}
+.badge{display:inline-block;background:var(--pk);color:#fff;font-weight:900;font-size:12px;padding:3px 10px;margin:6px 0 0;border-radius:6px;box-shadow:0 0 12px var(--pk)}
+.tier{font-weight:900;font-size:15px;color:var(--cy);margin-top:8px;text-shadow:0 0 8px var(--cy)}
+</style>
+</head>
+<body>
+<div id="app">
+  <div id="stage"><canvas id="g"></canvas><button id="mute" aria-label="소리">🔊</button></div>
+  <div id="pad">
+    <button class="key arrow" id="bl" aria-label="왼쪽 차선"><svg viewBox="0 0 16 16"><polygon points="1,8 8,1 8,5 15,5 15,11 8,11 8,15"/></svg></button>
+    <button class="key jump" id="bj" aria-label="점프">JUMP</button>
+    <button class="key arrow" id="br" aria-label="오른쪽 차선"><svg viewBox="0 0 16 16"><polygon points="15,8 8,1 8,5 1,5 1,11 8,11 8,15"/></svg></button>
+  </div>
+</div>
+
+<div class="ov on" id="menu">
+  <div class="card">
+    <h1 class="logo">네온 레인</h1>
+    <div class="sub">NEON LANE</div>
+    <ul class="how">
+      <li>빛이 <b>빨·주·노·초 4개 차선</b>을 달려요. ◀ ▶ 로 차선을 옮기고 <b>JUMP</b>로 낮은 바를 넘어요</li>
+      <li><b>박자에 맞춰</b> 움직이면 PERFECT! 콤보와 점수 배수가 올라가요. 박자를 놓쳐도 죽지 않아요</li>
+      <li>장애물에 <b>한 번 부딪히면 끝</b>. 달릴수록 <b>BPM이 점점 빨라져요</b></li>
+      <li>차선 위 <b>◆ 노트</b>를 따라가면 보너스! 지나온 길은 네온 잔상으로 남아요</li>
+    </ul>
+    <div class="row">
+      <button class="btn" id="goDaily">오늘의 곡<small>모두 같은 곡 · 기록 도전</small></button>
+      <button class="btn alt" id="goFree">프리 플레이<small>매번 새로운 곡</small></button>
+    </div>
+    <div class="lab">싱크 보정 (소리가 늦게 들리면 +)</div>
+    <div class="sync"><button id="syM">−</button><b id="syV">0ms</b><button id="syP">+</button></div>
+    <div class="lab">오늘의 곡 · 내 기록 TOP 5</div>
+    <ol class="top5" id="top5"></ol>
+  </div>
+</div>
+
+<div class="ov" id="over">
+  <div class="card">
+    <div class="sub" style="margin-top:0">GAME OVER</div>
+    <div class="big" id="rS">0</div>
+    <div id="rBadge"></div>
+    <div class="tier" id="rTier"></div>
+    <div class="stat" id="rStat"></div>
+    <div class="lab" id="rLab">오늘의 곡 · 내 기록 TOP 5</div>
+    <ol class="top5" id="rTop5"></ol>
+    <div class="row">
+      <button class="btn" id="again">다시 도전</button>
+      <button class="btn alt" id="share">공유</button>
+    </div>
+    <div class="row"><button class="btn ghost" id="toMenu" style="padding:9px">메뉴로</button></div>
+  </div>
+</div>
+
+<script>
+'use strict';
+/* ============================ 상수 ============================ */
+const W=160,H=288,RX=20,LW=30,PY=H-60,BP=52,JB=.85;           // 논리 해상도 / 레인 / 플레이어 y / 1박당 px / 점프 길이(박)
+const LC=['#ff2d55','#ff9500','#ffe600','#30ff7a'],LRGB=[[255,45,85],[255,149,0],[255,230,0],[48,255,122]];
+const LANE_MIDI=[69,72,76,79];
+const lx=l=>RX+LW*l+LW/2;
+const clamp=(v,a,b)=>v<a?a:v>b?b:v;
+const cv=document.getElementById('g'),cx=cv.getContext('2d');
+let SC=2;
+function mulberry32(a){return function(){a|=0;a=a+0x6D2B79F5|0;let t=Math.imul(a^a>>>15,1|a);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296}}
+function hash(a,b){let h=(Math.imul(a|0,0x9E3779B1)^Math.imul(b|0,0x85EBCA6B))>>>0;h^=h>>>15;h=Math.imul(h,0x2C1B3C6D)>>>0;h^=h>>>12;return h>>>0}
+const store={get(k,d){try{const v=localStorage.getItem(k);return v===null?d:JSON.parse(v)}catch(e){return d}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
+const UI='"Apple SD Gothic Neo","Noto Sans KR","Malgun Gothic","Arial Black",sans-serif';
+function T(str,x,y,o){o=o||{};const s=o.s||6;cx.font=(o.w||'900')+' '+s+'px '+UI;cx.textAlign=o.a||'left';cx.textBaseline='top';cx.lineJoin='round';
+  if(o.glow){cx.shadowColor=o.glow;cx.shadowBlur=o.gb||8}
+  const lw=o.lw===undefined?0:o.lw;if(lw){cx.lineWidth=lw;cx.strokeStyle='rgba(3,0,10,.9)';cx.strokeText(str,x,y)}
+  cx.fillStyle=o.g?(()=>{const g=cx.createLinearGradient(0,y,0,y+s);g.addColorStop(0,o.g[0]);g.addColorStop(1,o.g[1]);return g})():(o.c||'#fff');cx.fillText(str,x,y);cx.shadowBlur=0}
+function laneColor(x,a){const f=clamp((x-RX-LW/2)/LW,0,3),i=Math.min(2,Math.floor(f)),t=f-i,A=LRGB[i],B=LRGB[i+1];
+  return 'rgba('+Math.round(A[0]+(B[0]-A[0])*t)+','+Math.round(A[1]+(B[1]-A[1])*t)+','+Math.round(A[2]+(B[2]-A[2])*t)+','+a+')'}
+
+/* ============================ 사운드 (합성 음악) ============================ */
+let AC=null,master=null,noiseBuf=null,muted=store.get('nl_mute',false),nextStep=-8;
+function initAudio(){if(AC){if(AC.state==='suspended')AC.resume();return}
+  try{AC=new(window.AudioContext||window.webkitAudioContext)();master=AC.createGain();master.gain.value=muted?0:.55;master.connect(AC.destination);
+    const len=AC.sampleRate*.5,buf=AC.createBuffer(1,len,AC.sampleRate),d=buf.getChannelData(0);for(let i=0;i<len;i++)d[i]=Math.random()*2-1;noiseBuf=buf}catch(e){AC=null}}
+const mf=m=>440*Math.pow(2,(m-69)/12);
+function tone(type,f,when,dur,vol,f2){if(!AC||muted)return;try{const o=AC.createOscillator(),g=AC.createGain();o.type=type;o.frequency.setValueAtTime(f,when);if(f2)o.frequency.exponentialRampToValueAtTime(f2,when+dur);
+  g.gain.setValueAtTime(vol,when);g.gain.exponentialRampToValueAtTime(.001,when+dur);o.connect(g);g.connect(master);o.start(when);o.stop(when+dur+.02)}catch(e){}}
+function noise(when,dur,vol,hp,type){if(!AC||muted)return;try{const s=AC.createBufferSource(),g=AC.createGain(),f=AC.createBiquadFilter();s.buffer=noiseBuf;f.type=type||'highpass';f.frequency.value=hp;
+  g.gain.setValueAtTime(vol,when);g.gain.exponentialRampToValueAtTime(.001,when+dur);s.connect(f);f.connect(g);g.connect(master);s.start(when);s.stop(when+dur+.02)}catch(e){}}
+const CH=[{r:33,t:[57,60,64,69]},{r:29,t:[53,57,60,65]},{r:36,t:[60,64,67,72]},{r:31,t:[55,59,62,67]}];   // Am F C G
+function playStep(k,when,R){
+  const beat=k/2,onBeat=k%2===0,bi=((Math.floor(beat)%4)+4)%4,bar=Math.floor(beat/4),ch=CH[((bar%4)+4)%4],n=Math.max(0,beat);
+  if(onBeat){tone('sine',150,when,.16,.55,42);if(bi===1||bi===3){noise(when,.12,.16,1800);tone('triangle',190,when,.08,.1,110)}
+    if(beat>=0){tone('sawtooth',mf(ch.r),when,.26,.16);if(bi===0)tone('sine',mf(ch.r+12),when,.5,.1)}}
+  else{noise(when,.04,.07,7000);if(beat>=8)tone('sawtooth',mf(ch.r+12),when,.12,.07)}
+  if(n>=16&&beat>=0){const tn=ch.t[((k%8)+8)%8%4];tone('square',mf(tn+(k%4<2?0:12)),when,.12,.035)}
+  if(n>=64&&onBeat&&bi===0)tone('triangle',mf(ch.t[2]+12),when,.9,.08);
+}
+function sched(R){while(nextStep*.5<R.beat+.4){const b=nextStep*.5,when=AC?AC.currentTime+Math.max(0,(b-R.beat)*60/R.bpm):0;if(AC&&!muted)playStep(nextStep,when,R);nextStep++}}
+const SFX={move(l,perfect){if(!AC)return;const t=AC.currentTime;tone('triangle',mf(LANE_MIDI[l]),t,.22,.17);if(perfect)tone('sine',mf(LANE_MIDI[l]+12),t,.14,.08)},
+  jump(){if(!AC)return;const t=AC.currentTime;tone('square',300,t,.18,.07,720)},orb(l){if(!AC)return;const t=AC.currentTime;tone('sine',mf(LANE_MIDI[l]+24),t,.2,.09)},
+  die(){if(!AC)return;const t=AC.currentTime;noise(t,.5,.4,400,'lowpass');tone('sawtooth',220,t,.7,.2,35)}};
+
+/* ============================ 채보 생성 (시드 기반) ============================ */
+let seed=1,rows=[],gsn={s:1,next:0,hold:false};
+function resetChart(sd){seed=sd;rows=[];gsn={s:1,next:0,hold:false}}
+const isBar=n=>n>=16&&n%8===0&&(hash(seed,n+999)%100)<62;
+function genBeat(n){
+  const out=[],r=mulberry32(hash(seed,n)),d=Math.min(1,n/420);
+  if(n<8)return out;
+  if(isBar(n)){out.push({t:'bar',b:n});return out}
+  if(isBar(n-1)||isBar(n+1))return out;
+  if(r()<.62+.3*d){
+    let s=gsn.s;if(!gsn.hold&&r()<.55){const ns=s+(r()<.5?-1:1);if(ns>=0&&ns<=3)s=ns}
+    gsn.hold=false;
+    const k=d<.25?(r()<.5?1:2):d<.6?2+(r()<.4?1:0):3,blocked=[0,1,2,3].filter(l=>l!==s).sort(()=>r()-.5).slice(0,k);
+    blocked.forEach(l=>out.push({t:'block',b:n,lane:l}));
+    if(r()<.85)out.push({t:'orb',b:n,lane:s});
+    gsn.s=s;
+    if(d>.3&&r()<.25*d&&!isBar(n+1)){const l2=[0,1,2,3].filter(l=>l!==s).sort(()=>r()-.5).slice(0,1+(r()<.4?1:0));l2.forEach(l=>out.push({t:'block',b:n+.5,lane:l}));gsn.hold=true}
+  }
+  return out}
+function getBeat(n){while(gsn.next<=n){rows[gsn.next]=genBeat(gsn.next);gsn.next++}return rows[n]}
+
+/* ============================ 상태 ============================ */
+let mode='menu',run=null,lastT=0,pendingOver=0,sync=store.get('nl_sync',0),lastResult=null;
+const dayKey=()=>{const n=new Date();return n.getFullYear()*10000+(n.getMonth()+1)*100+n.getDate()};
+const bpmAt=b=>Math.min(190,100+Math.max(0,b)*.25);
+function newRun(daily){
+  resetChart(daily?(dayKey()^0x4e4c):(Math.random()*1e9|0));
+  return{daily,beat:-4,bpm:100,lane:1,x:lx(1),tj:-1,score:0,combo:0,maxCombo:0,perfect:0,good:0,miss:0,orbs:0,trail:[],parts:[],pops:[],jd:null,shake:0,flash:0,dead:false,lastBeatInt:-5,t:0,final:0}
+}
+function startRun(daily){initAudio();run=newRun(daily);nextStep=-8;mode='ready';pendingOver=0;document.getElementById('menu').classList.remove('on');document.getElementById('over').classList.remove('on')}
+function toMenu(){run=newRun(true);mode='menu';document.getElementById('over').classList.remove('on');document.getElementById('menu').classList.add('on');buildMenu()}
+const mult=R=>Math.min(8,1+Math.floor(R.combo/8));
+function pop(R,x,y,t,c,s){R.pops.push({x,y,t,c,s:s||6,life:.8})}
+function burst(R,x,y,cols,n,sp){for(let i=0;i<n;i++){const a=Math.random()*6.283,v=sp*(.3+Math.random());R.parts.push({x,y,vx:Math.cos(a)*v,vy:Math.sin(a)*v,life:.4+Math.random()*.5,max:.9,c:cols[i%cols.length],s:.7+Math.random()*1.3})}}
+
+function judge(R){
+  const b=R.beat-sync*R.bpm/60000,off=Math.abs(b*2-Math.round(b*2))/2,ms=off*60000/R.bpm;
+  let j='MISS';if(ms<=60)j='PERFECT';else if(ms<=120)j='GOOD';
+  if(j==='MISS'){R.combo=0;R.miss++;R.jd={t:.5,txt:'MISS',c:'#8a8fb0'}}
+  else{R.combo++;R.maxCombo=Math.max(R.maxCombo,R.combo);const m=mult(R);if(j==='PERFECT'){R.perfect++;R.score+=100*m;R.jd={t:.5,txt:'PERFECT',c:'#27f3ff'}}else{R.good++;R.score+=50*m;R.jd={t:.5,txt:'GOOD',c:'#7affc8'}}}
+  return j}
+function moveLane(d){const R=run;if(!R||(mode!=='play'&&mode!=='ready'))return;const n=clamp(R.lane+d,0,3);if(n===R.lane)return;R.lane=n;
+  const j=mode==='play'?judge(R):'MISS';SFX.move(n,j==='PERFECT');burst(R,lx(n),PY,[LC[n],'#fff'],5,40)}
+function doJump(){const R=run;if(!R||(mode!=='play'&&mode!=='ready')||R.tj>=0)return;R.tj=0;if(mode==='play')judge(R);SFX.jump()}
+
+function die(R){
+  R.dead=true;mode='over';R.final=Math.floor(R.beat*3);R.shake=.9;R.flash=1;burst(R,R.x,PY,LC.concat(['#fff']),46,150);SFX.die();pendingOver=1.1;finishRun()}
+function update(dt){
+  const R=run;R.t+=dt;
+  for(let i=R.parts.length-1;i>=0;i--){const p=R.parts[i];p.life-=dt;p.x+=p.vx*dt;p.y+=p.vy*dt;if(p.life<=0)R.parts.splice(i,1)}
+  for(let i=R.pops.length-1;i>=0;i--){const p=R.pops[i];p.life-=dt;p.y-=18*dt;if(p.life<=0)R.pops.splice(i,1)}
+  R.shake=Math.max(0,R.shake-dt);R.flash=Math.max(0,R.flash-dt*2.2);if(R.jd){R.jd.t-=dt;if(R.jd.t<=0)R.jd=null}
+  if(mode==='over'){pendingOver-=dt;if(pendingOver<=0&&pendingOver>-5){pendingOver=-9;showOver()}return}
+  R.bpm=mode==='ready'?100:bpmAt(R.beat);
+  R.beat+=dt*R.bpm/60;
+  R.x+=(lx(R.lane)-R.x)*Math.min(1,dt*30);
+  if(R.tj>=0){R.tj+=dt*R.bpm/60;if(R.tj>JB)R.tj=-1}
+  const h=R.tj>=0?Math.sin(Math.PI*R.tj/JB)*14:0;R.trail.push({b:R.beat,x:R.x,h});while(R.trail.length&&R.trail[0].b<R.beat-5)R.trail.shift();
+  sched(R);
+  if(mode==='ready'){if(R.beat>=0)mode='play';return}
+  // 박마다 생존 점수
+  const bi=Math.floor(R.beat);if(bi!==R.lastBeatInt){if(R.lastBeatInt>=0)R.score+=5*mult(R);R.lastBeatInt=bi}
+  const air=R.tj>=.04&&R.tj<JB-.04;
+  for(let n=Math.max(0,Math.floor(R.beat-.6));n<=Math.ceil(R.beat+.6)&&mode==='play';n++)for(const it of getBeat(n)){
+    const d=it.b-R.beat;
+    if(it.t==='block'){if(it.lane===R.lane&&Math.abs(d)<.16&&!it.hit){die(R);break}}
+    else if(it.t==='bar'){if(Math.abs(d)<.16&&!air){die(R);break}}
+    else if(it.t==='orb'){if(!it.got&&it.lane===R.lane&&Math.abs(d)<.24){it.got=true;R.orbs++;R.score+=30*mult(R);SFX.orb(it.lane);burst(R,lx(it.lane),PY,[LC[it.lane],'#fff'],10,70);pop(R,lx(it.lane),PY-14,'+'+30*mult(R),LC[it.lane],5)}}
+  }
+}
+
+/* ============================ 기록 / 결과 ============================ */
+function tierOf(s){return s<1500?'네온 입문자':s<5000?'비트 러너':s<12000?'사이버 댄서':s<25000?'리듬 마스터':'네온 레전드'}
+function finishRun(){
+  const R=run;let rank=0,newBest=false;const best=store.get('nl_best',0);
+  if(R.score>best){newBest=true;store.set('nl_best',R.score)}
+  if(R.daily){const key='nl_daily_'+dayKey(),list=store.get(key,[]);rank=list.filter(v=>v>R.score).length+1;list.push(R.score);list.sort((a,b)=>b-a);store.set(key,list.slice(0,5))}
+  lastResult={daily:R.daily,score:R.score,dist:R.final,maxCombo:R.maxCombo,perfect:R.perfect,good:R.good,orbs:R.orbs,rank,newBest,bpm:Math.round(R.bpm)}
+}
+function fillTop5(el,highlight){const list=store.get('nl_daily_'+dayKey(),[]);el.innerHTML='';
+  for(let i=0;i<5;i++){const li=document.createElement('li');if(highlight&&list[i]===highlight)li.className='me';li.innerHTML='<span>'+(i+1)+'위</span><span>'+(list[i]!==undefined?list[i].toLocaleString():'-')+'</span>';el.appendChild(li)}}
+function showOver(){
+  const r=lastResult,$=id=>document.getElementById(id);$('rS').textContent=r.score.toLocaleString();
+  $('rBadge').innerHTML=r.newBest?'<span class="badge">NEW RECORD!</span>':'';$('rTier').textContent='칭호 · '+tierOf(r.score);
+  $('rStat').innerHTML='<span>🏃 거리 <b>'+r.dist+'</b>m</span><span>🔥 최대 콤보 <b>'+r.maxCombo+'</b></span><span>✨ PERFECT <b>'+r.perfect+'</b></span><span>◆ 노트 <b>'+r.orbs+'</b></span><span>🎵 BPM <b>'+r.bpm+'</b></span>';
+  $('rLab').textContent='오늘의 곡 · 내 기록 TOP 5'+(r.daily?' (이번 '+r.rank+'위)':'');fillTop5($('rTop5'),r.daily?r.score:0);$('over').classList.add('on')}
+function buildMenu(){fillTop5(document.getElementById('top5'),0);document.getElementById('syV').textContent=(sync>0?'+':'')+sync+'ms'}
+
+/* ============================ 렌더링 ============================ */
+const yOf=(R,b)=>PY-(b-R.beat)*BP;
+function glowLine(x0,y0,x1,y1,col,w,blur){cx.strokeStyle=col;cx.lineWidth=w;cx.shadowColor=col;cx.shadowBlur=blur;cx.beginPath();cx.moveTo(x0,y0);cx.lineTo(x1,y1);cx.stroke();cx.shadowBlur=0}
+function drawBg(R){
+  cx.fillStyle='#04010b';cx.fillRect(0,0,W,H);
+  const pulse=1-(((R.beat%1)+1)%1);
+  let g=cx.createRadialGradient(80,40,5,80,60,190);g.addColorStop(0,'rgba(90,30,170,'+(.28+.12*pulse)+')');g.addColorStop(.5,'rgba(20,60,120,.12)');g.addColorStop(1,'rgba(0,0,0,0)');cx.fillStyle=g;cx.fillRect(0,0,W,H);
+  // 사이드 데이터 스트림
+  const sp=R.beat*BP;cx.fillStyle='rgba(39,243,255,.14)';
+  for(let i=0;i<14;i++){const x=(i<7?2+i*2.6:RX+4*LW+3+(i-7)*2.6),y=((i*83+sp*(1+(i%3)*.4))%(H+40))-20;cx.fillRect(x,y,.7,10+(i%4)*6)}
+  // 차선
+  for(let l=0;l<4;l++){const x=RX+l*LW;g=cx.createLinearGradient(0,0,0,H);const c=LRGB[l];
+    g.addColorStop(0,'rgba('+c+',.015)');g.addColorStop(1,'rgba('+c+','+(.13+.08*pulse)+')');cx.fillStyle=g;cx.fillRect(x,0,LW,H)}
+  for(let l=0;l<=4;l++){const x=RX+l*LW,col=l===0?LC[0]:l===4?LC[3]:laneColor(RX+l*LW-LW/2,1);cx.strokeStyle=col;cx.globalAlpha=.55;cx.lineWidth=.8;cx.shadowColor=col;cx.shadowBlur=5;cx.beginPath();cx.moveTo(x,0);cx.lineTo(x,H);cx.stroke()}
+  cx.globalAlpha=1;cx.shadowBlur=0;
+  // 박자선
+  for(let b=Math.ceil(R.beat-1);b<=R.beat+5;b++){const y=yOf(R,b),down=((b%4)+4)%4===0;if(y<-2||y>H+2)continue;
+    cx.strokeStyle='rgba(180,160,255,'+(down?.34:.12)+')';cx.lineWidth=down?.9:.5;cx.beginPath();cx.moveTo(RX,y);cx.lineTo(RX+4*LW,y);cx.stroke()}
+}
+function drawChart(R){
+  const n0=Math.max(0,Math.floor(R.beat-1)),n1=Math.ceil(R.beat+(PY+10)/BP+1);
+  // 노트 경로선(한붓그리기 가이드)
+  let prev=null;cx.setLineDash([2,3]);cx.lineWidth=.6;cx.strokeStyle='rgba(255,255,255,.22)';cx.beginPath();
+  for(let n=n0;n<=n1;n++)for(const it of getBeat(n))if(it.t==='orb'&&!it.got){const x=lx(it.lane),y=yOf(R,it.b);if(prev)cx.lineTo(x,y);else cx.moveTo(x,y);if(prev===null)prev=1}
+  cx.stroke();cx.setLineDash([]);
+  for(let n=n0;n<=n1;n++)for(const it of getBeat(n)){const y=yOf(R,it.b);if(y<-14||y>H+14)continue;
+    if(it.t==='block'){const x=RX+it.lane*LW+3,c=LC[it.lane];cx.fillStyle='rgba(8,2,20,.92)';cx.strokeStyle=c;cx.lineWidth=1.4;cx.shadowColor=c;cx.shadowBlur=9;
+      cx.beginPath();cx.roundRect(x,y-5.5,LW-6,11,2.5);cx.fill();cx.stroke();cx.shadowBlur=0;cx.strokeStyle=c;cx.globalAlpha=.8;cx.lineWidth=1;cx.beginPath();cx.moveTo(x+5,y-3);cx.lineTo(x+LW-11,y+3);cx.moveTo(x+LW-11,y-3);cx.lineTo(x+5,y+3);cx.stroke();cx.globalAlpha=1}
+    else if(it.t==='bar'){const g=cx.createLinearGradient(RX,0,RX+4*LW,0);LC.forEach((c,i)=>g.addColorStop(i/3,c));cx.strokeStyle=g;cx.lineWidth=4;cx.shadowColor='#ffffff';cx.shadowBlur=12;
+      cx.beginPath();cx.moveTo(RX,y);cx.lineTo(RX+4*LW,y);cx.stroke();cx.shadowBlur=0;cx.strokeStyle='#fff';cx.lineWidth=1;cx.beginPath();cx.moveTo(RX,y);cx.lineTo(RX+4*LW,y);cx.stroke();
+      if(it.b-R.beat<3.2&&it.b-R.beat>0)T('JUMP!',80,y-13,{s:7,a:'center',c:'#ffe600',glow:'#ffe600',lw:0})}
+    else if(it.t==='orb'&&!it.got){const x=lx(it.lane),c=LC[it.lane],s=3.6+Math.sin(R.t*8+n)*.5;cx.fillStyle=c;cx.shadowColor=c;cx.shadowBlur=10;
+      cx.beginPath();cx.moveTo(x,y-s);cx.lineTo(x+s,y);cx.lineTo(x,y+s);cx.lineTo(x-s,y);cx.closePath();cx.fill();cx.shadowBlur=0;cx.fillStyle='#fff';cx.fillRect(x-.7,y-.7,1.4,1.4)}}
+}
+function drawTrail(R){
+  const tr=R.trail;if(tr.length<2)return;cx.lineCap='round';
+  for(let i=1;i<tr.length;i++){const a=tr[i-1],b=tr[i],age=clamp((R.beat-b.b)/5,0,1),y0=yOf(R,a.b)-a.h,y1=yOf(R,b.b)-b.h;if(y1>H)continue;
+    const col=laneColor(b.x,(1-age)*.95);cx.strokeStyle=col;cx.lineWidth=3.2*(1-age*.7)+.4;cx.shadowColor=col;cx.shadowBlur=10*(1-age);cx.beginPath();cx.moveTo(a.x,y0);cx.lineTo(b.x,y1);cx.stroke()}
+  cx.shadowBlur=0;
+}
+function drawPlayer(R){
+  if(R.dead)return;const hgt=R.tj>=0?Math.sin(Math.PI*R.tj/JB)*14:0,x=R.x,y=PY-hgt,col=laneColor(x,1);
+  if(hgt>0){cx.strokeStyle=col;cx.globalAlpha=.5;cx.lineWidth=.8;cx.beginPath();cx.ellipse(x,PY+1,6+hgt*.2,2.4,0,0,6.283);cx.stroke();cx.globalAlpha=1}
+  const g=cx.createRadialGradient(x,y,0,x,y,15);g.addColorStop(0,laneColor(x,.9));g.addColorStop(1,laneColor(x,0));cx.fillStyle=g;cx.fillRect(x-15,y-15,30,30);
+  cx.strokeStyle=col;cx.lineWidth=1.3;cx.shadowColor=col;cx.shadowBlur=12;cx.beginPath();cx.arc(x,y,5.6,0,6.283);cx.stroke();cx.shadowBlur=0;
+  cx.fillStyle='#fff';cx.shadowColor='#fff';cx.shadowBlur=8;cx.beginPath();cx.arc(x,y,3.2,0,6.283);cx.fill();cx.shadowBlur=0}
+function drawHud(R){
+  T(R.score.toLocaleString(),80,4,{s:13,a:'center',g:['#ffffff','#9ff3ff'],glow:'#27f3ff',gb:10});
+  T('BPM '+Math.round(R.bpm),5,5,{s:5,c:'#a79de0'});T(Math.floor(Math.max(0,R.beat)*3)+'m',W-5,5,{s:5,a:'right',c:'#a79de0'});
+  if(R.combo>1){const m=mult(R);T(R.combo+' COMBO',80,19.5,{s:6.4,a:'center',c:m>=4?'#ffe600':'#27f3ff',glow:m>=4?'#ffe600':'#27f3ff',gb:8});if(m>1)T('x'+m,80,27,{s:5,a:'center',c:'#ff8ae9',glow:'#ff2bd6'})}
+  if(R.jd){const a=clamp(R.jd.t/.5,0,1);cx.globalAlpha=a;T(R.jd.txt,80,PY-34-(1-a)*6,{s:8,a:'center',c:R.jd.c,glow:R.jd.c,gb:10});cx.globalAlpha=1}
+  for(const p of R.pops){cx.globalAlpha=clamp(p.life/.8,0,1);T(p.t,p.x,p.y,{s:p.s,a:'center',c:p.c,glow:p.c,gb:6});cx.globalAlpha=1}
+}
+function render(){
+  const R=run;cx.save();if(R.shake>0)cx.translate((Math.random()-.5)*4*R.shake,(Math.random()-.5)*4*R.shake);
+  drawBg(R);if(mode!=='menu'){drawChart(R);drawTrail(R)}drawPlayer(R);
+  for(const p of R.parts){cx.globalAlpha=clamp(p.life/p.max,0,1);cx.fillStyle=p.c;cx.shadowColor=p.c;cx.shadowBlur=5;cx.fillRect(p.x,p.y,p.s,p.s)}cx.globalAlpha=1;cx.shadowBlur=0;
+  cx.restore();
+  if(R.flash>0){cx.fillStyle='rgba(255,255,255,'+(R.flash*.5)+')';cx.fillRect(0,0,W,H)}
+  const vg=cx.createRadialGradient(80,H/2,90,80,H/2,200);vg.addColorStop(0,'rgba(0,0,0,0)');vg.addColorStop(1,'rgba(0,0,0,.55)');cx.fillStyle=vg;cx.fillRect(0,0,W,H);
+  if(mode!=='menu')drawHud(R);
+  if(mode==='ready'){const n=Math.ceil(-R.beat);const lab=n>=4?'READY':n===3?'3':n===2?'2':n===1?'1':'GO!';T(lab,80,96,{s:lab==='READY'?18:40,a:'center',g:['#ffffff','#27f3ff'],glow:'#27f3ff',gb:16});T('박자에 맞춰 ◀ ▶',80,160,{s:6.4,a:'center',c:'#dcd6ff'})}
+  if(mode==='over')T('GAME OVER',80,112,{s:17,a:'center',g:['#ffd0e8','#ff2bd6'],glow:'#ff2bd6',gb:16})
+}
+
+/* ============================ 루프 / 입력 ============================ */
+function fit(){const st=document.getElementById('stage'),aw=st.clientWidth-8,ah=st.clientHeight-8,dpr=Math.min(window.devicePixelRatio||1,3);
+  const s=Math.min(aw/W,ah/H,3);const cw=Math.floor(W*s),ch=Math.floor(H*s);cv.style.width=cw+'px';cv.style.height=ch+'px';cv.width=Math.round(cw*dpr);cv.height=Math.round(ch*dpr);SC=cv.width/W;cx.setTransform(SC,0,0,SC,0,0)}
+addEventListener('resize',fit);fit();
+function loop(t){const dt=Math.min(.05,(t-lastT)/1000||0);lastT=t;if(mode==='menu'){run.beat+=dt*1.6;run.bpm=100}else update(dt);render();requestAnimationFrame(loop)}
+function bindBtn(id,fn){const b=document.getElementById(id);
+  b.addEventListener('pointerdown',e=>{e.preventDefault();b.classList.add('on');fn()});
+  ['pointerup','pointercancel','pointerleave'].forEach(ev=>b.addEventListener(ev,()=>b.classList.remove('on')));b.addEventListener('contextmenu',e=>e.preventDefault())}
+bindBtn('bl',()=>moveLane(-1));bindBtn('br',()=>moveLane(1));bindBtn('bj',doJump);
+const KEYS={ArrowLeft:'bl',a:'bl',A:'bl',ArrowRight:'br',d:'br',D:'br',' ':'bj',ArrowUp:'bj',w:'bj',W:'bj'};
+addEventListener('keydown',e=>{if(e.repeat)return;const id=KEYS[e.key];if(!id)return;e.preventDefault();document.getElementById(id).classList.add('on');id==='bl'?moveLane(-1):id==='br'?moveLane(1):doJump()});
+addEventListener('keyup',e=>{const id=KEYS[e.key];if(id)document.getElementById(id).classList.remove('on')});
+const muteBtn=document.getElementById('mute');
+function paintMute(){muteBtn.textContent=muted?'🔇':'🔊';if(master)master.gain.value=muted?0:.55}
+muteBtn.onclick=()=>{muted=!muted;store.set('nl_mute',muted);paintMute()};paintMute();
+document.getElementById('goDaily').onclick=()=>startRun(true);
+document.getElementById('goFree').onclick=()=>startRun(false);
+document.getElementById('again').onclick=()=>startRun(lastResult?lastResult.daily:true);
+document.getElementById('toMenu').onclick=toMenu;
+document.getElementById('syM').onclick=()=>{sync=clamp(sync-10,-300,300);store.set('nl_sync',sync);buildMenu()};
+document.getElementById('syP').onclick=()=>{sync=clamp(sync+10,-300,300);store.set('nl_sync',sync);buildMenu()};
+document.getElementById('share').onclick=async()=>{const r=lastResult,txt='🌈 네온 레인 '+r.score.toLocaleString()+'점! 최대 콤보 '+r.maxCombo+' ('+tierOf(r.score)+') 당신도 도전해보세요 → '+location.href;
+  try{if(navigator.share){await navigator.share({text:txt})}else{await navigator.clipboard.writeText(txt);document.getElementById('share').textContent='복사됨!'}}catch(e){}};
+document.addEventListener('contextmenu',e=>e.preventDefault());
+toMenu();requestAnimationFrame(loop);
+</script>
+</body>
+</html>
