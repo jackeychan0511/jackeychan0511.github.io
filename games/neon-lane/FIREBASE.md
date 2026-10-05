@@ -9,7 +9,7 @@ Orbit Hop 과 같은 방식(Firestore + 익명 로그인)입니다. 설정이 �
 - 프리 플레이는 랭킹에 반영되지 않습니다
 
 ## 설정 순서
-1. **`firebase-config.js`**: Orbit Hop 의 `.env.local` 에 있는 `VITE_FIREBASE_*` 4개 값(apiKey, authDomain, projectId, appId)을 옮겨 적고 배포
+1. **`firebase-config.js`**: ✅ 입력 완료 (Orbit Hop 의 `VITE_FIREBASE_*` 4개 값). 비활성화하려면 `window.NL_FIREBASE = null;`
 2. **규칙 게시** — ⚠️ Orbit Hop 의 현재 규칙은 `scores` 외 컬렉션을 모두 막고 있어서, 규칙을 게시하기 전에는 네온 레인의 서버 저장이 거부됩니다(앱은 이 기기 기록으로 자동 폴백).
    이 폴더의 `firestore.rules` 는 **Orbit Hop 의 기존 규칙 + 네온 레인 블록**을 합친 파일입니다. Orbit Hop 의 `firebase/firestore.rules` 에 덮어쓴 뒤:
    ```bash
