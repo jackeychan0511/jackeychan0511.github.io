@@ -248,7 +248,7 @@ function buildMenu(){fillTop5(document.getElementById('top5'),0);document.getEle
 /* ============================ 렌더링 ============================ */
 /* 좌표 변환: lane(실수 가능), b(박) → 화면. R.o: 0=세로, 1=좌→우, 2=우→좌 / R.e: 전환 진행도 */
 function pp(R,lane,b){const f=b-R.beat,t=ease(R.e),vx=RX+LW*lane+LW/2,vy=PY-f*BP;let hx,hy;
-  if(R.o===3){hx=W-vx;hy=H-vy}else{hy=HY0+lane*HLH+HLH/2;hx=R.o===2?W-HPX-f*HBP:HPX+f*HBP}
+  if(R.o===3){hx=W-vx;hy=H-vy}else{hy=HY0+(R.o===2?3-lane:lane)*HLH+HLH/2;hx=R.o===2?W-HPX-f*HBP:HPX+f*HBP}   // 이벤트2는 이벤트1을 180° 회전: 진행 방향 기준 ◀=왼쪽이 되도록 빨강이 아래
   return[vx+(hx-vx)*t,vy+(hy-vy)*t]}
 const PP=(R,lane)=>pp(R,lane,R.beat);
 const laneSp=R=>R.o===3?LW:LW+(HLH-LW)*ease(R.e);
@@ -278,7 +278,10 @@ function drawChart(R){
   for(let n=n0;n<=n1;n++)for(const it of getBeat(n)){const c=it.t==='bar'?pp(R,1.5,it.b):pp(R,it.lane,it.b);if(c[0]<-30||c[0]>W+30||c[1]<-30||c[1]>H+30)continue;
     if(it.t==='block'){const col=LC[it.lane],lat=sp-6;cx.save();cx.translate(c[0],c[1]);cx.rotate(R.o===3?0:t*Math.PI/2);
       cx.fillStyle='rgba(8,2,20,.92)';cx.strokeStyle=col;cx.lineWidth=1.4;cx.shadowColor=col;cx.shadowBlur=9;cx.beginPath();cx.roundRect(-lat/2,-5.5,lat,11,2.5);cx.fill();cx.stroke();cx.shadowBlur=0;
-      cx.globalAlpha=.8;cx.lineWidth=1;cx.beginPath();cx.moveTo(-lat/2+5,-3);cx.lineTo(lat/2-5,3);cx.moveTo(lat/2-5,-3);cx.lineTo(-lat/2+5,3);cx.stroke();cx.restore()}
+      cx.rotate(-(R.o===3?0:t*Math.PI/2));                 // 음표는 항상 바로 서 있게
+      cx.strokeStyle=col;cx.fillStyle=col;cx.shadowColor=col;cx.shadowBlur=6;cx.lineWidth=1.1;cx.lineCap='round';
+      cx.beginPath();cx.ellipse(-1.6,2.3,2.2,1.55,-.45,0,6.283);cx.fill();
+      cx.beginPath();cx.moveTo(.4,1.8);cx.lineTo(.4,-3.9);cx.quadraticCurveTo(1.2,-3.2,3.3,-1.2);cx.stroke();cx.shadowBlur=0;cx.restore()}
     else if(it.t==='bar'){const A=pp(R,-.5,it.b),B=pp(R,3.5,it.b),g=cx.createLinearGradient(A[0],A[1],B[0],B[1]);LC.forEach((cc,i)=>g.addColorStop(i/3,cc));
       cx.strokeStyle=g;cx.lineWidth=4;cx.shadowColor='#fff';cx.shadowBlur=12;cx.beginPath();cx.moveTo(A[0],A[1]);cx.lineTo(B[0],B[1]);cx.stroke();cx.shadowBlur=0;
       cx.strokeStyle='#fff';cx.lineWidth=1;cx.beginPath();cx.moveTo(A[0],A[1]);cx.lineTo(B[0],B[1]);cx.stroke();
@@ -305,7 +308,7 @@ function drawHud(R){
   if(R.jd){const a=clamp(R.jd.t/.5,0,1);cx.globalAlpha=a;T(R.jd.txt,80,PY-34+((R.o===3?H-(PY-34)-8:HY0+4*HLH+8)-(PY-34))*ease(R.e)-(1-a)*6,{s:8,a:'center',c:R.jd.c,glow:R.jd.c,gb:10});cx.globalAlpha=1}
   {const nx=orientAt(R.beat+3);if(R.o===0&&nx&&mode==='play'&&((R.beat*2)|0)%2===0)T(nx===1?'곧 가로 전환 ▶':nx===2?'곧 가로 전환 ◀':'곧 화면 뒤집힘!  ◀▶ 반전',80,34,{s:7,a:'center',c:'#ff8ae9',glow:'#ff2bd6',gb:10})}
   if(R.banner){const b=R.banner,a=clamp(Math.min(b.t/.5,(2.8-b.t)/.2),0,1);cx.globalAlpha=a;const by=b.k===3?66:0;T('EVENT '+b.k,80,38+by,{s:11,a:'center',g:['#ffffff','#ff8ae9'],glow:'#ff2bd6',gb:12});
-    T(b.k===1?'좌 → 우 진행   ◀ = 위   ▶ = 아래':b.k===2?'우 → 좌 진행   ◀ = 위   ▶ = 아래':'상하 반전   ◀ ▶ 버튼도 반전!',80,52+by,{s:5.6,a:'center',c:'#dcd6ff',glow:'#27f3ff',gb:6});cx.globalAlpha=1}
+    T(b.k===1?'좌 → 우 진행   ◀ = 위   ▶ = 아래':b.k===2?'우 → 좌 진행   ◀ = 아래   ▶ = 위':'상하 반전   ◀ = 오른쪽   ▶ = 왼쪽',80,52+by,{s:5.6,a:'center',c:'#dcd6ff',glow:'#27f3ff',gb:6});cx.globalAlpha=1}
   for(const p of R.pops){cx.globalAlpha=clamp(p.life/.8,0,1);T(p.t,p.x,p.y,{s:p.s,a:'center',c:p.c,glow:p.c,gb:6});cx.globalAlpha=1}
 }
 function render(){
