@@ -48,7 +48,7 @@ html,body{margin:0;height:100%;background:var(--bg);color:var(--ink);font-family
 .top5 li.me{color:var(--acc)}
 .big{font-family:"Courier New",monospace;font-weight:900;font-size:56px;line-height:1;color:var(--acc);text-shadow:4px 4px 0 #d6336c}
 .big small{font-size:22px}
-.stat{display:flex;justify-content:center;gap:16px;font-size:13px;color:#dcd6ff;margin:10px 0 4px}
+.stat{display:flex;justify-content:center;flex-wrap:wrap;gap:6px 14px;font-size:13px;color:#dcd6ff;margin:10px 0 4px}
 .stat b{color:#fff}
 .badge{display:inline-block;background:var(--hot);color:#fff;font-weight:900;font-size:12px;padding:3px 10px;margin:6px 0 0}
 .tier{font-weight:900;font-size:15px;color:var(--ok);margin-top:8px}
@@ -70,8 +70,8 @@ html,body{margin:0;height:100%;background:var(--bg);color:var(--ink);font-family
     <div class="sub">DELIVERY RUSH</div>
     <ul class="how">
       <li>◀ ▶ 버튼으로 <b>4개 차선</b>을 이동! 장애물은 피하고 <b>📦 박스</b>를 먹으면 시간 +1초</li>
-      <li>약 260m마다 <b>피트 구간</b>: ⛽주유 / 소프트 타이어 체인지 / 하드 타이어 체인지 / 통과 중 <b>한 차선</b>을 골라 진입</li>
-      <li><b>소프트 타이어 체인지</b>는 빠르지만 빨리 닳고, <b>하드 타이어 체인지</b>는 느리지만 오래가요. 연료·타이어가 바닥나면 속도가 크게 떨어집니다</li>
+      <li>약 260m마다 <b>피트 구간(체크포인트)</b> — 지나가면 <b>시간 +7초!</b> ⛽주유 / 소프트 타이어 체인지 / 하드 타이어 체인지 / 통과 중 <b>한 차선</b>을 골라 진입</li>
+      <li><b>소프트 타이어 체인지</b>는 빠르지만 빨리 닳고, <b>하드 타이어 체인지</b>는 느리지만 오래가요. 연료·타이어는 서서히 닳으니 <b>번갈아 정비</b>하면 끝까지 갈 수 있어요. 바닥나면 속도가 크게 떨어집니다</li>
     </ul>
     <div class="row">
       <button class="btn" id="goDaily">오늘의 코스<small>모두 같은 맵 · 기록 도전</small></button>
@@ -90,7 +90,7 @@ html,body{margin:0;height:100%;background:var(--bg);color:var(--ink);font-family
     <div class="big"><span id="rD">0</span><small>m</small></div>
     <div id="rBadge"></div>
     <div class="tier" id="rTier"></div>
-    <div class="stat"><span>📦 박스 <b id="rB">0</b></span><span>🔧 피트 <b id="rP">0</b></span><span>💥 충돌 <b id="rC">0</b></span></div>
+    <div class="stat"><span>🏁 스테이지 <b id="rS">1</b></span><span>📦 박스 <b id="rB">0</b></span><span>🔧 피트 <b id="rP">0</b></span><span>💥 충돌 <b id="rC">0</b></span></div>
     <div class="lab" id="rRankLab">오늘의 코스 · 내 기록 TOP 5</div>
     <ol class="top5" id="rTop5"></ol>
     <div class="row">
@@ -105,6 +105,7 @@ html,body{margin:0;height:100%;background:var(--bg);color:var(--ink);font-family
 'use strict';
 /* ============================ 상수 ============================ */
 const W=160,H=288,ROW=44,LANE=28,RX=24,RW=LANE*4,PY=H-62;
+const CHECK_BONUS=7;                           // 피트 게이트(체크포인트) 통과 시간 보너스
 const PIT_FIRST=60,PIT_GAP=60;               // 피트 게이트 행 번호(약 260m 간격)
 const lx=l=>RX+LANE*l+LANE/2;
 const clamp=(v,a,b)=>v<a?a:v>b?b:v;
@@ -273,7 +274,7 @@ function update(dt){
     if(R.speed<target)R.speed=Math.min(target,R.speed+150*dt);else R.speed=Math.max(target,R.speed-(R.pit?900:playing?500:260)*dt);
     const ds=R.speed*dt;R.scroll+=ds;
     if(playing){
-      R.tire=Math.max(0,R.tire-ds*(R.comp==='soft'?.03:.017));if(R.speed>1)R.fuel=Math.max(0,R.fuel-2.4*dt);
+      R.tire=Math.max(0,R.tire-ds*(R.comp==='soft'?.021:.0105));if(R.speed>1)R.fuel=Math.max(0,R.fuel-1.5*dt);
       R.time-=dt;
       // 배기 연기
       R.exh-=dt;if(R.exh<=0&&R.speed>40){R.exh=.07;R.parts.push({x:R.x+(Math.random()<.5?-4:3),y:PY+12,vx:0,vy:35,life:.35,max:.35,c:'#9a9aae',s:1})}
@@ -283,7 +284,7 @@ function update(dt){
         if(Math.abs(lx(it.lane)-R.x)<(12+hb.w)/2&&Math.abs(it.wy-R.scroll)<(18+hb.h)/2)hitItem(R,it)}
       // 피트
       if(!R.pit){const gw=gateRow(R.nextPit)*ROW;
-        if(R.scroll>=gw){const lane=clamp(Math.round((R.x-lx(0))/LANE),0,3),ty=pitOrder(R.nextPit)[lane];R.nextPit++;
+        if(R.scroll>=gw){const lane=clamp(Math.round((R.x-lx(0))/LANE),0,3),ty=pitOrder(R.nextPit)[lane];R.nextPit++;R.time=Math.min(99,R.time+CHECK_BONUS);pop(R.x,PY-44,'CHECKPOINT +'+CHECK_BONUS+'S','#ffd23f');
           if(ty==='go'){pop(R.x,PY-16,'PASS','#2ec4b6');SFX.pit()}else{R.pit={ty,t:0,dur:1.5};R.stops++;SFX.pit()}}}
       else if(R.speed<4){R.pit.t+=dt;if(R.pit.t>=R.pit.dur){const ty=R.pit.ty;
         if(ty==='fuel')R.fuel=100;else{R.tire=100;R.comp=ty}
@@ -303,13 +304,13 @@ function finishRun(){
   const R=run,m=R.final;let rank=0,newBest=false;
   if(m>bestM){bestM=m;newBest=true;store.set('dr_best',m)}
   if(R.daily){const key='dr_daily_'+R.seed,list=store.get(key,[]);rank=list.filter(v=>v>m).length+1;list.push(m);list.sort((a,b)=>b-a);store.set(key,list.slice(0,5))}
-  lastResult={m,rank,newBest,daily:R.daily,boxes:R.boxes,stops:R.stops,crashes:R.crashes,seed:R.seed};
+  lastResult={m,rank,newBest,daily:R.daily,stage:R.nextPit+1,boxes:R.boxes,stops:R.stops,crashes:R.crashes,seed:R.seed};
 }
 function fillTop5(el,highlight){const list=store.get('dr_daily_'+dayKey(),[]);el.innerHTML='';
   for(let i=0;i<5;i++){const li=document.createElement('li');if(highlight&&list[i]===highlight)li.className='me';
     li.innerHTML='<span>'+(i+1)+'위</span><span>'+(list[i]!==undefined?list[i]+'m':'-')+'</span>';el.appendChild(li)}}
 function showOver(){
-  const r=lastResult;document.getElementById('rD').textContent=r.m;document.getElementById('rB').textContent=r.boxes;document.getElementById('rP').textContent=r.stops;document.getElementById('rC').textContent=r.crashes;
+  const r=lastResult;document.getElementById('rD').textContent=r.m;document.getElementById('rS').textContent=r.stage;document.getElementById('rB').textContent=r.boxes;document.getElementById('rP').textContent=r.stops;document.getElementById('rC').textContent=r.crashes;
   document.getElementById('rTier').textContent='칭호 · '+tierOf(r.m);
   document.getElementById('rBadge').innerHTML=r.newBest?'<span class="badge">NEW RECORD!</span>':'';
   document.getElementById('rRankLab').textContent=r.daily?'오늘의 코스 · 내 기록 TOP 5 (이번 '+r.rank+'위)':'오늘의 코스 · 내 기록 TOP 5';
@@ -396,7 +397,7 @@ function drawHud(R){
   text('TIME',4,2,'#9fb4ff');const lowT=R.time<10&&mode==='play'&&((R.t*4|0)%2);
   text(Math.max(0,R.time).toFixed(1),4,8,lowT?'#ff4d6d':'#ffd23f',2);
   text('DIST',W-4,2,'#9fb4ff',1,'r');text(Math.floor(R.scroll/10)+'M',W-4,8,'#fff',2,'r');
-  text('BOX '+R.boxes,80,2,'#e6b36a',1,'c');text(Math.round(R.speed*1.15)+'KMH',80,9,'#bfe',1,'c');
+  text('STAGE '+(R.nextPit+1),80,2,'#e6b36a',1,'c');text(Math.round(R.speed*1.15)+'KMH',80,9,'#bfe',1,'c');
   const fc=R.fuel>50?'#5ee06a':R.fuel>25?'#ffd166':'#ff4d6d',tc=R.comp==='soft'?'#ff5a66':'#b8c7da';
   gauge(2,'FUEL',R.fuel,fc,R.fuel<25);gauge(W-18,'TIRE',R.tire,R.tire>35?tc:'#ff4d6d',R.tire<35);
   cx.drawImage(ICON[R.comp],W-17,116);
