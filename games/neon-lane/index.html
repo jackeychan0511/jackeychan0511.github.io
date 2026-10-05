@@ -423,33 +423,38 @@ const Local={
   async daily(day){return bestBy(this.runs().filter(r=>r.day===day)).slice(0,50)},
   async hof(){const all=this.runs(),days=[...new Set(all.map(r=>r.day))].sort((a,b)=>b-a);
     return{top:bestBy(all).slice(0,20),champs:days.slice(0,30).map(d=>bestBy(all.filter(r=>r.day===d))[0])}}};
-function makeFirebase(cfg){
+// Orbit Hop 과 같은 패턴: 컬렉션 하나(neonlane_scores), 문서 ID = '<board>__<uid>' (플레이어당 보드별 1행), board = 'dYYYYMMDD'(일일) | 'all'(명예의 전당)
+const recentDays=n=>{const o=[],d=new Date();for(let i=0;i<n;i++){const x=new Date(d.getFullYear(),d.getMonth(),d.getDate()-i);o.push(x.getFullYear()*10000+(x.getMonth()+1)*100+x.getDate())}return o};
+async function loadFirebaseSdk(){const base='https://www.gstatic.com/firebasejs/10.12.2/';
+  const [app,auth,fs]=await Promise.all([import(base+'firebase-app.js'),import(base+'firebase-auth.js'),import(base+'firebase-firestore.js')]);return{app,auth,fs}}
+function makeFirebase(cfg,sdkLoader){
   let fb=null;
   async function load(){if(fb)return fb;
-    const base='https://www.gstatic.com/firebasejs/10.12.2/';
-    const [app,auth,fs]=await Promise.all([import(base+'firebase-app.js'),import(base+'firebase-auth.js'),import(base+'firebase-firestore.js')]);
+    const {app,auth,fs}=await (sdkLoader||loadFirebaseSdk)();
     const a=app.initializeApp(cfg,'neonlane'),au=auth.getAuth(a);
-    if(au.authStateReady)await au.authStateReady();if(!au.currentUser)await auth.signInAnonymously(au);
-    fb={fs,db:fs.getFirestore(a),uid:au.currentUser.uid};return fb}
-  const pick=d=>({id:d.id,...d.data()});
+    if(au.authStateReady)await au.authStateReady();
+    const user=au.currentUser||(await auth.signInAnonymously(au)).user;
+    fb={fs,db:fs.getFirestore(a),uid:user.uid};return fb}
+  const COL='neonlane_scores';
+  const pick=d=>{const x=d.data(),b=String(x.board||'');return{id:d.id,uid:d.id.split('__')[1],name:x.name,score:x.score,dist:x.dist,combo:x.combo,day:x.day||(b[0]==='d'?+b.slice(1):0)}};
+  const q=(f,board,n)=>f.fs.getDocs(f.fs.query(f.fs.collection(f.db,COL),f.fs.where('board','==',board),f.fs.orderBy('score','desc'),f.fs.orderBy('ts','asc'),f.fs.limit(n)));
   return{
     async uid(){return(await load()).uid},
-    async submit(rec){const f=await load(),{doc,getDoc,setDoc}=f.fs,uid=f.uid,
-        base={uid,name:rec.name,score:rec.score,dist:rec.dist,combo:rec.combo,day:rec.day,ts:rec.ts};
-      const best=async ref=>{const s=await getDoc(ref);if(!s.exists()||s.data().score<rec.score){await setDoc(ref,base)}};   // 더 높을 때만 갱신(규칙에서도 강제)
-      await best(doc(f.db,'neonlane_scores',rec.day+'_'+uid));
-      await best(doc(f.db,'neonlane_hof',uid));
-      await best(doc(f.db,'neonlane_champs',String(rec.day)))},
-    async daily(day){const f=await load(),{collection,query,where,orderBy,limit,getDocs}=f.fs;
-      return(await getDocs(query(collection(f.db,'neonlane_scores'),where('day','==',day),orderBy('score','desc'),limit(50)))).docs.map(pick)},
-    async hof(){const f=await load(),{collection,query,orderBy,limit,getDocs}=f.fs;
-      const [t,c]=await Promise.all([getDocs(query(collection(f.db,'neonlane_hof'),orderBy('score','desc'),limit(20))),getDocs(query(collection(f.db,'neonlane_champs'),orderBy('day','desc'),limit(30)))]);
-      return{top:t.docs.map(pick),champs:c.docs.map(pick)}}}}
+    async submit(rec){const f=await load(),{doc,getDoc,setDoc,serverTimestamp}=f.fs;
+      for(const board of['d'+rec.day,'all']){const ref=doc(f.db,COL,board+'__'+f.uid),s=await getDoc(ref);
+        if(!s.exists()||s.data().score<rec.score)await setDoc(ref,{board,name:rec.name,score:rec.score,dist:rec.dist,combo:rec.combo,day:rec.day,ts:serverTimestamp()})}},   // 더 높을 때만 갱신(규칙에서도 강제)
+    async rename(name,day){const f=await load(),{doc,getDoc,updateDoc}=f.fs;
+      for(const board of['d'+day,'all']){const ref=doc(f.db,COL,board+'__'+f.uid);if((await getDoc(ref)).exists())await updateDoc(ref,{name})}},
+    async daily(day){const f=await load();return(await q(f,'d'+day,50)).docs.map(pick)},
+    async hof(){const f=await load();
+      const [top,...days]=await Promise.all([q(f,'all',20),...recentDays(14).map(d=>q(f,'d'+d,1))]);   // 챔피언 = 최근 14일 각 일일 보드의 1위
+      return{top:top.docs.map(pick),champs:days.map(s=>s.docs[0]&&pick(s.docs[0])).filter(Boolean)}}}}
 const Rank={remote:null,uid:null,mode:'local',   // mode: local(미설정) | firebase(연결됨) | offline(연결 실패, 로컬 표시)
   runs(){return Local.runs()},
   init(){const c=window.NL_FIREBASE;if(c&&c.projectId&&c.apiKey){this.remote=makeFirebase(c);this.mode='firebase';this.remote.uid().then(u=>{this.uid=u;this.flush()}).catch(()=>{this.mode='offline'})}},
   isMe(r){return r.uid?r.uid===this.uid:r.name===player},
   async submit(rec){await Local.submit(rec);if(!this.remote)return;try{await this.remote.submit(rec);this.uid=await this.remote.uid();this.mode='firebase'}catch(e){this.mode='offline';const q=store.get('nl_pending',[]);q.push(rec);store.set('nl_pending',q.slice(-20))}},
+  rename(){if(this.remote&&player)this.remote.rename(player,dayKey()).catch(()=>{})},
   async flush(){const q=store.get('nl_pending',[]);if(!q.length||!this.remote)return;const rest=[];for(const r of q){try{await this.remote.submit(r)}catch(e){rest.push(r)}}store.set('nl_pending',rest)},
   async daily(day){if(this.remote){try{const l=await this.remote.daily(day);this.uid=await this.remote.uid();this.mode='firebase';return l}catch(e){this.mode='offline'}}return Local.daily(day)},
   async hof(){if(this.remote){try{const h=await this.remote.hof();this.uid=await this.remote.uid();this.mode='firebase';return h}catch(e){this.mode='offline'}}return Local.hof()}};
@@ -484,7 +489,7 @@ async function refreshHome(){
   $('hBest').textContent=fmtNum(store.get('nl_best',0));$('hName').textContent=player||'미설정';
   const mine=Rank.runs().filter(r=>r.day===dayKey()&&r.name===player).map(r=>r.score);$('hToday').textContent=mine.length?fmtNum(Math.max(...mine)):'-'}
 function askName(cb){const m=$('nameModal');$('nameInput').value=player||'';$('nameErr').textContent='';m.classList.add('on');
-  $('nameOk').onclick=()=>{const v=$('nameInput').value.trim().replace(/[<>&"']/g,'').slice(0,10);if(v.length<2){$('nameErr').textContent='2~10자로 입력해 주세요';return}player=v;store.set('nl_name',v);m.classList.remove('on');refreshHome();cb&&cb()};
+  $('nameOk').onclick=()=>{const v=$('nameInput').value.trim().replace(/[<>&"']/g,'').slice(0,10);if(v.length<2){$('nameErr').textContent='2~10자로 입력해 주세요';return}player=v;store.set('nl_name',v);Rank.rename();m.classList.remove('on');refreshHome();cb&&cb()};
   $('nameCancel').onclick=()=>m.classList.remove('on')}
 function startRun(daily){
   if(daily&&!player){askName(()=>startRun(true));return}
@@ -526,7 +531,7 @@ async function renderRank(){
 /* 설정 */
 function refreshSettings(){$('setName').value=player;$('syV').textContent=(sync>0?'+':'')+sync+'ms';paintMute()}
 function paintMute(){$('muteBtn').textContent=muted?'🔇 OFF':'🔊 ON';if(master)master.gain.value=muted?0:.55}
-function saveName(){const v=$('setName').value.trim().replace(/[<>&"']/g,'').slice(0,10);if(v.length>=2){player=v;store.set('nl_name',v)}else $('setName').value=player}
+function saveName(){const v=$('setName').value.trim().replace(/[<>&"']/g,'').slice(0,10);if(v.length>=2){const ch=v!==player;player=v;store.set('nl_name',v);if(ch)Rank.rename()}else $('setName').value=player}
 
 /* ============================ 루프 / 입력 ============================ */
 function fit(){const st=$('stage'),aw=st.clientWidth-8,ah=st.clientHeight-8,dpr=Math.min(window.devicePixelRatio||1,3);if(aw<=0||ah<=0)return;
