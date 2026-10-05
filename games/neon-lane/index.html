@@ -206,6 +206,7 @@ input{font:inherit;user-select:text;-webkit-user-select:text}
 <div class="modal" id="nameModal"><div class="mcard"><h3>닉네임을 정해주세요</h3><p>랭킹에 표시됩니다 (2~10자)</p><input id="nameInput" maxlength="10" autocomplete="off" placeholder="예: 네온러너"><div class="err" id="nameErr"></div><div class="mrow"><button class="btn" id="nameOk">확인</button><button class="btn ghost" id="nameCancel">취소</button></div></div></div>
 <div class="modal" id="pauseModal"><div class="mcard"><h3>일시정지</h3><p>잠시 쉬어가세요</p><div class="mrow"><button class="btn" id="pResume">계속하기</button><button class="btn alt" id="pRestart">다시 시작</button><button class="btn ghost" id="pHome">홈으로</button></div></div></div>
 
+<script src="firebase-config.js"></script>
 <script>
 'use strict';
 /* ============================ 상수 ============================ */
@@ -412,15 +413,47 @@ function render(){
   if(mode==='over')T('GAME OVER',80,112,{s:17,a:'center',g:['#ffd0e8','#ff2bd6'],glow:'#ff2bd6',gb:16})
 }
 
-/* ============================ 랭킹 (저장소 어댑터) ============================
-   지금은 이 기기에 저장하는 로컬 구현입니다. 서버를 연결하면 같은 인터페이스(submit/daily/hof)를 가진
-   원격 구현으로 교체하면 화면 코드는 그대로 쓸 수 있습니다. 랭킹에는 '오늘의 곡' 플레이만 반영됩니다. */
-const Rank={mode:'local',
+/* ============================ 랭킹 (로컬 + Firebase) ============================
+   - 내 기록은 항상 이 기기에도 저장합니다(오프라인/미설정 시 폴백).
+   - firebase-config.js 에 설정이 있으면 Firestore(익명 로그인)로 전체 랭킹을 사용합니다.
+   - 랭킹에는 '오늘의 곡' 플레이만 반영됩니다. 컬렉션: neonlane_scores / neonlane_hof / neonlane_champs */
+const Local={
   runs(){return store.get('nl_runs',[])},
   async submit(rec){const a=this.runs();a.push(rec);store.set('nl_runs',a.slice(-600))},
   async daily(day){return bestBy(this.runs().filter(r=>r.day===day)).slice(0,50)},
   async hof(){const all=this.runs(),days=[...new Set(all.map(r=>r.day))].sort((a,b)=>b-a);
     return{top:bestBy(all).slice(0,20),champs:days.slice(0,30).map(d=>bestBy(all.filter(r=>r.day===d))[0])}}};
+function makeFirebase(cfg){
+  let fb=null;
+  async function load(){if(fb)return fb;
+    const base='https://www.gstatic.com/firebasejs/10.12.2/';
+    const [app,auth,fs]=await Promise.all([import(base+'firebase-app.js'),import(base+'firebase-auth.js'),import(base+'firebase-firestore.js')]);
+    const a=app.initializeApp(cfg,'neonlane'),au=auth.getAuth(a);
+    if(au.authStateReady)await au.authStateReady();if(!au.currentUser)await auth.signInAnonymously(au);
+    fb={fs,db:fs.getFirestore(a),uid:au.currentUser.uid};return fb}
+  const pick=d=>({id:d.id,...d.data()});
+  return{
+    async uid(){return(await load()).uid},
+    async submit(rec){const f=await load(),{doc,getDoc,setDoc}=f.fs,uid=f.uid,
+        base={uid,name:rec.name,score:rec.score,dist:rec.dist,combo:rec.combo,day:rec.day,ts:rec.ts};
+      const best=async ref=>{const s=await getDoc(ref);if(!s.exists()||s.data().score<rec.score){await setDoc(ref,base)}};   // 더 높을 때만 갱신(규칙에서도 강제)
+      await best(doc(f.db,'neonlane_scores',rec.day+'_'+uid));
+      await best(doc(f.db,'neonlane_hof',uid));
+      await best(doc(f.db,'neonlane_champs',String(rec.day)))},
+    async daily(day){const f=await load(),{collection,query,where,orderBy,limit,getDocs}=f.fs;
+      return(await getDocs(query(collection(f.db,'neonlane_scores'),where('day','==',day),orderBy('score','desc'),limit(50)))).docs.map(pick)},
+    async hof(){const f=await load(),{collection,query,orderBy,limit,getDocs}=f.fs;
+      const [t,c]=await Promise.all([getDocs(query(collection(f.db,'neonlane_hof'),orderBy('score','desc'),limit(20))),getDocs(query(collection(f.db,'neonlane_champs'),orderBy('day','desc'),limit(30)))]);
+      return{top:t.docs.map(pick),champs:c.docs.map(pick)}}}}
+const Rank={remote:null,uid:null,mode:'local',   // mode: local(미설정) | firebase(연결됨) | offline(연결 실패, 로컬 표시)
+  runs(){return Local.runs()},
+  init(){const c=window.NL_FIREBASE;if(c&&c.projectId&&c.apiKey){this.remote=makeFirebase(c);this.mode='firebase';this.remote.uid().then(u=>{this.uid=u;this.flush()}).catch(()=>{this.mode='offline'})}},
+  isMe(r){return r.uid?r.uid===this.uid:r.name===player},
+  async submit(rec){await Local.submit(rec);if(!this.remote)return;try{await this.remote.submit(rec);this.uid=await this.remote.uid();this.mode='firebase'}catch(e){this.mode='offline';const q=store.get('nl_pending',[]);q.push(rec);store.set('nl_pending',q.slice(-20))}},
+  async flush(){const q=store.get('nl_pending',[]);if(!q.length||!this.remote)return;const rest=[];for(const r of q){try{await this.remote.submit(r)}catch(e){rest.push(r)}}store.set('nl_pending',rest)},
+  async daily(day){if(this.remote){try{const l=await this.remote.daily(day);this.uid=await this.remote.uid();this.mode='firebase';return l}catch(e){this.mode='offline'}}return Local.daily(day)},
+  async hof(){if(this.remote){try{const h=await this.remote.hof();this.uid=await this.remote.uid();this.mode='firebase';return h}catch(e){this.mode='offline'}}return Local.hof()}};
+let lastSubmit=Promise.resolve();
 function bestBy(list){const m={};for(const r of list)if(!m[r.name]||r.score>m[r.name].score)m[r.name]=r;return Object.values(m).sort((a,b)=>b.score-a.score||a.ts-b.ts)}
 const fmtDay=d=>{const s=String(d);return s.slice(0,4)+'.'+s.slice(4,6)+'.'+s.slice(6,8)};
 const fmtNum=n=>Number(n).toLocaleString();
@@ -431,15 +464,15 @@ function finishRun(){
   const R=run;let newBest=false;const best=store.get('nl_best',0);
   if(R.score>best){newBest=true;store.set('nl_best',R.score)}
   const rec={id:Date.now()+'-'+Math.random().toString(36).slice(2,6),name:player||'러너',score:R.score,dist:R.final,combo:R.maxCombo,day:dayKey(),ts:Date.now()};
-  if(R.daily)Rank.submit(rec);
-  lastResult={daily:R.daily,score:R.score,dist:R.final,maxCombo:R.maxCombo,perfect:R.perfect,good:R.good,orbs:R.orbs,newBest,bpm:Math.round(R.bpm),name:rec.name}
+  lastSubmit=R.daily?Rank.submit(rec):Promise.resolve();
+  lastResult={fresh:true,daily:R.daily,score:R.score,dist:R.final,maxCombo:R.maxCombo,perfect:R.perfect,good:R.good,orbs:R.orbs,newBest,bpm:Math.round(R.bpm),name:rec.name}
 }
 async function showOver(){
   const r=lastResult;$('rS').textContent=fmtNum(r.score);
   $('rBadge').innerHTML=r.newBest?'<span class="badge">NEW RECORD!</span>':'';$('rTier').textContent='칭호 · '+tierOf(r.score);
   $('rStat').innerHTML='<span>🏃 거리 <b>'+r.dist+'</b>m</span><span>🔥 최대 콤보 <b>'+r.maxCombo+'</b></span><span>✨ PERFECT <b>'+r.perfect+'</b></span><span>◆ 노트 <b>'+r.orbs+'</b></span><span>🎵 BPM <b>'+r.bpm+'</b></span>';
-  if(r.daily){const list=await Rank.daily(dayKey()),idx=list.findIndex(x=>x.name===r.name);
-    $('rRank').innerHTML='오늘의 곡 <b>'+(idx+1)+'위</b> / '+list.length+'명'+(Rank.mode==='local'?' <span style="color:#8a7fc0;font-size:11px">(이 기기 기준)</span>':'')}
+  if(r.daily){await Promise.race([lastSubmit,new Promise(res=>setTimeout(res,4000))]);const list=await Rank.daily(dayKey()),idx=list.findIndex(x=>Rank.isMe(x));
+    $('rRank').innerHTML='오늘의 곡 <b>'+(idx>=0?(idx+1)+'위':'순위권 밖')+'</b>'+(idx>=0?' / '+list.length+'명':'')+(Rank.mode!=='firebase'?' <span style="color:#8a7fc0;font-size:11px">('+(Rank.mode==='offline'?'서버 연결 실패 · 이 기기 기준':'이 기기 기준')+')</span>':'')}
   else $('rRank').textContent='프리 플레이는 랭킹에 반영되지 않아요';
   show('result')}
 
@@ -470,23 +503,24 @@ function untilMidnight(){const n=new Date(),m=new Date(n.getFullYear(),n.getMont
 async function renderRank(){
   $('tabD').classList.toggle('on',rankTab==='daily');$('tabH').classList.toggle('on',rankTab==='hof');
   const body=$('rankBody'),me=$('rankMe');body.innerHTML='';me.innerHTML='';
-  if(Rank.mode==='local'){const n=document.createElement('div');n.className='note';n.textContent='현재는 이 기기에 저장된 기록으로 순위를 매깁니다. 서버가 연결되면 모든 플레이어의 전체 랭킹으로 바뀌어요.';body.append(n)}
+  const dispatch=rankTab==='daily'?await Rank.daily(dayKey()):await Rank.hof();
+  if(Rank.mode!=='firebase'){const n=document.createElement('div');n.className='note';n.textContent=Rank.mode==='offline'?'서버에 연결할 수 없어 이 기기에 저장된 기록을 보여드려요. 연결되면 전체 랭킹이 표시됩니다.':'현재는 이 기기에 저장된 기록으로 순위를 매깁니다. 서버가 연결되면 모든 플레이어의 전체 랭킹으로 바뀌어요.';body.append(n)}
   if(rankTab==='daily'){
-    const list=await Rank.daily(dayKey());
+    const list=dispatch;
     const info=document.createElement('div');info.className='rinfo';info.innerHTML='<span>'+fmtDay(dayKey())+' · 오늘의 곡</span><span>마감까지 <b id="rkLeft">'+untilMidnight()+'</b></span>';body.append(info);
     if(!list.length){const e=document.createElement('div');e.className='empty';e.innerHTML='아직 오늘의 기록이 없어요.<br>첫 번째 기록의 주인공이 되어보세요!';body.append(e)}
-    else{const ol=document.createElement('ol');ol.className='rl';list.forEach((r,i)=>ol.append(rowHtml(i+1,r.name,r.score,r.name===player)));body.append(ol)}
-    const idx=list.findIndex(r=>r.name===player);
+    else{const ol=document.createElement('ol');ol.className='rl';list.forEach((r,i)=>ol.append(rowHtml(i+1,r.name,r.score,Rank.isMe(r))));body.append(ol)}
+    const idx=list.findIndex(r=>Rank.isMe(r));
     if(player){const ol=document.createElement('ol');ol.className='rl';ol.append(idx>=0?rowHtml(idx+1,player+' (나)',list[idx].score,true):rowHtml('-',player+' (나)',0,true));me.append(ol)}
     clearInterval(rankTimer);rankTimer=setInterval(()=>{const el=$('rkLeft');if(el&&screen==='rank'&&rankTab==='daily')el.textContent=untilMidnight();else clearInterval(rankTimer)},1000)}
   else{
-    const h=await Rank.hof();
+    const h=dispatch;
     const t1=document.createElement('div');t1.className='sec';t1.textContent='🏆 역대 최고 기록 TOP 20';body.append(t1);
     if(!h.top.length){const e=document.createElement('div');e.className='empty';e.textContent='아직 명예의 전당에 오른 기록이 없어요';body.append(e)}
-    else{const ol=document.createElement('ol');ol.className='rl';h.top.forEach((r,i)=>ol.append(rowHtml(i+1,r.name,r.score,r.name===player,fmtDay(r.day).slice(2))));body.append(ol)}
+    else{const ol=document.createElement('ol');ol.className='rl';h.top.forEach((r,i)=>ol.append(rowHtml(i+1,r.name,r.score,Rank.isMe(r),fmtDay(r.day).slice(2))));body.append(ol)}
     const t2=document.createElement('div');t2.className='sec';t2.textContent='👑 일일 챔피언 (최근 30일)';body.append(t2);
     if(!h.champs.length){const e=document.createElement('div');e.className='empty';e.textContent='아직 챔피언이 없어요';body.append(e)}
-    else{const ol=document.createElement('ol');ol.className='rl';h.champs.forEach(r=>{const li=rowHtml('👑',r.name,r.score,r.name===player,fmtDay(r.day).slice(2));ol.append(li)});body.append(ol)}
+    else{const ol=document.createElement('ol');ol.className='rl';h.champs.forEach(r=>{ol.append(rowHtml('👑',r.name,r.score,Rank.isMe(r),fmtDay(r.day).slice(2)))});body.append(ol)}
     clearInterval(rankTimer)}
 }
 /* 설정 */
@@ -530,7 +564,7 @@ $('installBtn').onclick=async()=>{if(!deferredPrompt)return;deferredPrompt.promp
 addEventListener('appinstalled',()=>{$('installRow').style.display='none'});
 if('serviceWorker' in navigator&&(location.protocol==='https:'||location.hostname==='localhost')){addEventListener('load',()=>navigator.serviceWorker.register('sw.js').catch(()=>{}))}
 
-run=newRun(true);refreshHome();requestAnimationFrame(loop);
+Rank.init();run=newRun(true);refreshHome();requestAnimationFrame(loop);
 </script>
 </body>
 </html>
