@@ -278,7 +278,10 @@ function drawChart(R){
   for(let n=n0;n<=n1;n++)for(const it of getBeat(n)){const c=it.t==='bar'?pp(R,1.5,it.b):pp(R,it.lane,it.b);if(c[0]<-30||c[0]>W+30||c[1]<-30||c[1]>H+30)continue;
     if(it.t==='block'){const col=LC[it.lane],lat=sp-6;cx.save();cx.translate(c[0],c[1]);cx.rotate(R.o===3?0:t*Math.PI/2);
       cx.fillStyle='rgba(8,2,20,.92)';cx.strokeStyle=col;cx.lineWidth=1.4;cx.shadowColor=col;cx.shadowBlur=9;cx.beginPath();cx.roundRect(-lat/2,-5.5,lat,11,2.5);cx.fill();cx.stroke();cx.shadowBlur=0;
-      cx.globalAlpha=.8;cx.lineWidth=1;cx.beginPath();cx.moveTo(-lat/2+5,-3);cx.lineTo(lat/2-5,3);cx.moveTo(lat/2-5,-3);cx.lineTo(-lat/2+5,3);cx.stroke();cx.restore()}
+      cx.rotate(-(R.o===3?0:t*Math.PI/2));                 // 음표는 항상 바로 서 있게
+      cx.strokeStyle=col;cx.fillStyle=col;cx.shadowColor=col;cx.shadowBlur=6;cx.lineWidth=1.1;cx.lineCap='round';
+      cx.beginPath();cx.ellipse(-1.6,2.3,2.2,1.55,-.45,0,6.283);cx.fill();
+      cx.beginPath();cx.moveTo(.4,1.8);cx.lineTo(.4,-3.9);cx.quadraticCurveTo(1.2,-3.2,3.3,-1.2);cx.stroke();cx.shadowBlur=0;cx.restore()}
     else if(it.t==='bar'){const A=pp(R,-.5,it.b),B=pp(R,3.5,it.b),g=cx.createLinearGradient(A[0],A[1],B[0],B[1]);LC.forEach((cc,i)=>g.addColorStop(i/3,cc));
       cx.strokeStyle=g;cx.lineWidth=4;cx.shadowColor='#fff';cx.shadowBlur=12;cx.beginPath();cx.moveTo(A[0],A[1]);cx.lineTo(B[0],B[1]);cx.stroke();cx.shadowBlur=0;
       cx.strokeStyle='#fff';cx.lineWidth=1;cx.beginPath();cx.moveTo(A[0],A[1]);cx.lineTo(B[0],B[1]);cx.stroke();
