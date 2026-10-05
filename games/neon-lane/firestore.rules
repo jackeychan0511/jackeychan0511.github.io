@@ -1,49 +1,90 @@
 rules_version = '2';
-// 네온 레인 랭킹 보안 규칙 (Orbit Hop 등 같은 프로젝트의 다른 컬렉션 규칙은 그대로 두고, 아래 3개 match 블록만 추가하세요)
 service cloud.firestore {
   match /databases/{database}/documents {
 
-    function okName(n) { return n is string && n.size() >= 2 && n.size() <= 10; }
-    function okRec(d) {
-      return d.keys().hasOnly(['uid','name','score','dist','combo','day','ts'])
-        && d.uid == request.auth.uid
-        && okName(d.name)
-        && d.score is int && d.score >= 0 && d.score <= 2000000
-        && d.dist  is int && d.dist  >= 0 && d.dist  <= 100000
-        && d.combo is int && d.combo >= 0 && d.combo <= 100000
-        && d.day   is int && d.day > 20200101 && d.day < 21001231
-        && d.ts    is int;
-    }
-
-    // 일일 랭킹: 문서 ID = {day}_{uid} (플레이어당 하루 1개, 최고 점수만 갱신)
-    match /neonlane_scores/{id} {
+    // One row per player per board. Doc id = "<board>__<uid>", where board is "all"
+    // (random-map best) or "dYYYYMMDD" (daily challenge). uid = anonymous auth uid.
+    match /scores/{docId} {
       allow read: if true;
-      allow create: if request.auth != null && okRec(request.resource.data)
-                    && id == string(request.resource.data.day) + '_' + request.auth.uid;
-      allow update: if request.auth != null && okRec(request.resource.data)
-                    && resource.data.uid == request.auth.uid
-                    && request.resource.data.day == resource.data.day
-                    && request.resource.data.score > resource.data.score;
+
+      function okBoard(b) {
+        return b == 'all' || b.matches('d[0-9]{8}');
+      }
+      function okRow(d) {
+        return d.keys().hasOnly(['board', 'name', 'score', 'timeMs', 'ts'])
+          && d.board is string && okBoard(d.board)
+          && d.name is string && d.name.size() >= 1 && d.name.size() <= 12
+          && d.score is int && d.score >= 1 && d.score <= 5000
+          && d.timeMs is int
+          // each hop needs roughly >= 0.3 s of orbiting + flight; anything faster is implausible
+          && d.timeMs >= d.score * 300 && d.timeMs <= 21600000
+          && d.ts == request.time;
+      }
+
+      allow create: if request.auth != null
+        && okRow(request.resource.data)
+        && docId == request.resource.data.board + '__' + request.auth.uid;
+
+      allow update: if request.auth != null
+        && docId == resource.data.board + '__' + request.auth.uid
+        && (
+          // rename only
+          (request.resource.data.diff(resource.data).affectedKeys().hasOnly(['name'])
+            && request.resource.data.name is string
+            && request.resource.data.name.size() >= 1 && request.resource.data.name.size() <= 12)
+          ||
+          // or a strictly better result on the same board
+          (okRow(request.resource.data)
+            && request.resource.data.board == resource.data.board
+            && (request.resource.data.score > resource.data.score
+              || (request.resource.data.score == resource.data.score
+                  && request.resource.data.timeMs < resource.data.timeMs)))
+        );
+
       allow delete: if false;
     }
 
-    // 명예의 전당(역대 최고): 문서 ID = uid
-    match /neonlane_hof/{uid} {
+    // ===== 네온 레인 (추가) =====
+    // 한 행 = 플레이어 × 보드. 문서 ID = "<board>__<uid>", board = "all"(명예의 전당: 오늘의 곡 역대 최고) 또는 "dYYYYMMDD"(일일 랭킹).
+    // Orbit Hop 의 scores 규칙과 같은 방식(본인 행만, 더 높은 점수로만 갱신, 서버 시간, 이름 변경 허용)이며 점수 범위만 다릅니다.
+    match /neonlane_scores/{docId} {
       allow read: if true;
-      allow create: if request.auth != null && uid == request.auth.uid && okRec(request.resource.data);
-      allow update: if request.auth != null && uid == request.auth.uid && okRec(request.resource.data)
-                    && request.resource.data.score > resource.data.score;
-      allow delete: if false;
-    }
 
-    // 일일 챔피언: 문서 ID = day. 더 높은 점수를 낸 사람이 왕관을 가져감
-    match /neonlane_champs/{day} {
-      allow read: if true;
-      allow create: if request.auth != null && okRec(request.resource.data)
-                    && day == string(request.resource.data.day);
-      allow update: if request.auth != null && okRec(request.resource.data)
-                    && request.resource.data.day == resource.data.day
-                    && request.resource.data.score > resource.data.score;
+      function nlOkBoard(b) {
+        return b == 'all' || b.matches('d[0-9]{8}');
+      }
+      function nlOkRow(d) {
+        return d.keys().hasOnly(['board', 'name', 'score', 'dist', 'combo', 'day', 'ts'])
+          && d.board is string && nlOkBoard(d.board)
+          && d.name is string && d.name.size() >= 2 && d.name.size() <= 10
+          && d.score is int && d.score >= 1 && d.score <= 2000000
+          && d.dist is int && d.dist >= 0 && d.dist <= 100000
+          && d.combo is int && d.combo >= 0 && d.combo <= 100000
+          && d.day is int && d.day > 20200101 && d.day < 21001231
+          && (d.board == 'all' || d.board == 'd' + string(d.day))
+          // 거리 1m 당 얻을 수 있는 점수에는 상한이 있음: 비현실적인 점수는 거부
+          && d.score <= d.dist * 700 + 1000
+          && d.ts == request.time;
+      }
+
+      allow create: if request.auth != null
+        && nlOkRow(request.resource.data)
+        && docId == request.resource.data.board + '__' + request.auth.uid;
+
+      allow update: if request.auth != null
+        && docId == resource.data.board + '__' + request.auth.uid
+        && (
+          // 이름 변경만
+          (request.resource.data.diff(resource.data).affectedKeys().hasOnly(['name'])
+            && request.resource.data.name is string
+            && request.resource.data.name.size() >= 2 && request.resource.data.name.size() <= 10)
+          ||
+          // 또는 같은 보드에서 더 높은 점수
+          (nlOkRow(request.resource.data)
+            && request.resource.data.board == resource.data.board
+            && request.resource.data.score > resource.data.score)
+        );
+
       allow delete: if false;
     }
   }
