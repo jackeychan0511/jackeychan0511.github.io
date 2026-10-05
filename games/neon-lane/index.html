@@ -65,7 +65,7 @@ html,body{margin:0;height:100%;background:var(--bg);color:var(--ink);font-family
     <ul class="how">
       <li>빛이 <b>빨·주·노·초 4개 차선</b>을 달려요. ◀ ▶ 로 차선을 옮기고 <b>JUMP</b>로 낮은 바를 넘어요</li>
       <li><b>박자에 맞춰</b> 움직이면 PERFECT! 콤보와 점수 배수가 올라가요. 박자를 놓쳐도 죽지 않아요</li>
-      <li>장애물에 <b>한 번 부딪히면 끝</b>. 달릴수록 <b>BPM이 점점 빨라져요</b></li>
+      <li>장애물에 <b>한 번 부딪히면 끝</b>. 달릴수록 <b>BPM과 속도가 점점 빨라져요</b></li>
       <li>차선 위 <b>◆ 노트</b>를 따라가면 보너스! 지나온 길은 네온 잔상으로 남아요</li>
     </ul>
     <div class="row">
@@ -165,10 +165,10 @@ function getBeat(n){while(gsn.next<=n){rows[gsn.next]=genBeat(gsn.next);gsn.next
 /* ============================ 상태 ============================ */
 let mode='menu',run=null,lastT=0,pendingOver=0,sync=store.get('nl_sync',0),lastResult=null;
 const dayKey=()=>{const n=new Date();return n.getFullYear()*10000+(n.getMonth()+1)*100+n.getDate()};
-const bpmAt=b=>Math.min(190,100+Math.max(0,b)*.25);
+const bpmAt=b=>Math.min(220,100+Math.max(0,b)*.4);          // 박마다 점점 빨라짐: 100 → 220 BPM
 function newRun(daily){
   resetChart(daily?(dayKey()^0x4e4c):(Math.random()*1e9|0));
-  return{daily,beat:-4,bpm:100,lane:1,x:lx(1),tj:-1,score:0,combo:0,maxCombo:0,perfect:0,good:0,miss:0,orbs:0,trail:[],parts:[],pops:[],jd:null,shake:0,flash:0,dead:false,lastBeatInt:-5,t:0,final:0}
+  return{daily,beat:-4,bpm:100,lane:1,x:lx(1),tj:-1,score:0,combo:0,maxCombo:0,perfect:0,good:0,miss:0,orbs:0,trail:[],parts:[],pops:[],jd:null,shake:0,flash:0,dead:false,lastBeatInt:-5,tier:10,t:0,final:0}
 }
 function startRun(daily){initAudio();run=newRun(daily);nextStep=-8;mode='ready';pendingOver=0;document.getElementById('menu').classList.remove('on');document.getElementById('over').classList.remove('on')}
 function toMenu(){run=newRun(true);mode='menu';document.getElementById('over').classList.remove('on');document.getElementById('menu').classList.add('on');buildMenu()}
@@ -196,6 +196,7 @@ function update(dt){
   if(mode==='over'){pendingOver-=dt;if(pendingOver<=0&&pendingOver>-5){pendingOver=-9;showOver()}return}
   R.bpm=mode==='ready'?100:bpmAt(R.beat);
   R.beat+=dt*R.bpm/60;
+  if(mode==='play'){const tr=Math.floor(R.bpm/10);if(tr>R.tier){R.tier=tr;R.speedUp=1;pop(R,80,PY-70,'SPEED UP!  '+tr*10+' BPM','#ffe600',7);if(AC)tone('square',440,AC.currentTime,.12,.08,880)}}
   R.x+=(lx(R.lane)-R.x)*Math.min(1,dt*30);
   if(R.tj>=0){R.tj+=dt*R.bpm/60;if(R.tj>JB)R.tj=-1}
   const h=R.tj>=0?Math.sin(Math.PI*R.tj/JB)*14:0;R.trail.push({b:R.beat,x:R.x,h});while(R.trail.length&&R.trail[0].b<R.beat-5)R.trail.shift();
