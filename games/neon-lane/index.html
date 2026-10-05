@@ -25,6 +25,10 @@ html,body{margin:0;height:100%;background:var(--bg);color:var(--ink);font-family
 .card{background:linear-gradient(#10082a,#08031a);width:100%;max-width:400px;padding:18px 16px;text-align:center;border:1px solid #7a2bff;border-radius:16px;box-shadow:0 0 30px #7a2bff66,0 0 60px #27f3ff22 inset}
 .logo{font-family:"Courier New",monospace;font-weight:900;font-size:34px;letter-spacing:2px;margin:2px 0 0;background:linear-gradient(90deg,#ff2d55,#ff9500,#ffe600,#30ff7a);-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 0 10px #ff2bd688)}
 .sub{font-family:"Courier New",monospace;font-weight:700;font-size:12px;letter-spacing:7px;color:var(--cy);margin:2px 0 10px;text-shadow:0 0 8px var(--cy)}
+.team{display:inline-flex;align-items:center;gap:10px;margin:16px auto 2px;padding:6px 18px 6px 8px;border:1px solid #4a3a8a;border-radius:999px;background:linear-gradient(#1a1238,#0c0722);box-shadow:0 0 14px #7a2bff44}
+.team img{width:28px;height:28px;border-radius:50%;background:#050b2a;border:1px solid #3a2f7a;object-fit:cover}
+.team span{font-size:11px;letter-spacing:2px;color:#b9b0e6;font-weight:700}
+.team b{font-size:15px;color:#fff;font-style:italic;letter-spacing:.5px;text-shadow:0 0 8px #7a2bff}
 .how{text-align:left;font-size:12.5px;line-height:1.5;color:#dcd6ff;margin:0 0 12px;padding:0;list-style:none}
 .how li{word-break:keep-all;padding:5px 9px;margin-bottom:5px;background:#0a0418;border-left:3px solid var(--pk);border-radius:0 6px 6px 0}
 .how b{color:var(--acc)}
@@ -66,6 +70,7 @@ html,body{margin:0;height:100%;background:var(--bg);color:var(--ink);font-family
       <li>빛이 <b>빨·주·노·초 4개 차선</b>을 달려요. ◀ ▶ 로 차선을 옮기고 <b>JUMP</b>로 낮은 바를 넘어요</li>
       <li><b>박자에 맞춰</b> 움직이면 PERFECT! 콤보와 점수 배수가 올라가요. 박자를 놓쳐도 죽지 않아요</li>
       <li>장애물에 <b>한 번 부딪히면 끝</b>. 달릴수록 <b>BPM과 속도가 점점 빨라져요</b></li>
+      <li>⚡ 가끔 <b>이벤트</b>! 화면이 <b>가로로 회전</b>(좌→우 / 우→좌)하거나 <b>위아래로 뒤집혀요</b>. 뒤집히면 ◀ ▶ 도 반전!</li>
       <li>차선 위 <b>◆ 노트</b>를 따라가면 보너스! 지나온 길은 네온 잔상으로 남아요</li>
     </ul>
     <div class="row">
@@ -76,6 +81,7 @@ html,body{margin:0;height:100%;background:var(--bg);color:var(--ink);font-family
     <div class="sync"><button id="syM">−</button><b id="syV">0ms</b><button id="syP">+</button></div>
     <div class="lab">오늘의 곡 · 내 기록 TOP 5</div>
     <ol class="top5" id="top5"></ol>
+    <div class="team"><img src="team-logo.png" alt="" width="28" height="28"><span>TEAM</span><b>Jackeychankey</b></div>
   </div>
 </div>
 
@@ -103,6 +109,11 @@ const W=160,H=288,RX=20,LW=30,PY=H-60,BP=52,JB=.85;           // 논리 해상�
 const LC=['#ff2d55','#ff9500','#ffe600','#30ff7a'],LRGB=[[255,45,85],[255,149,0],[255,230,0],[48,255,122]];
 const LANE_MIDI=[69,72,76,79];
 const lx=l=>RX+LW*l+LW/2;
+const HY0=68,HLH=38,HPX=28,HBP=34;                            // 가로 모드: 밴드 시작 y / 레인 두께 / 플레이어 x / 1박당 px
+const ease=t=>t*t*(3-2*t);
+function evWin(m){if(m<1||hash(seed,m+7)%100>=70)return null;return{s:64*m+24,e:64*m+40,o:((m-1)%3)+1}}   // 64박 블록마다 약 70% 확률로 16박짜리 회전 이벤트: 1=좌→우, 2=우→좌, 3=상하 반전(순서대로 순환)
+function orientAt(b){if(b<0)return 0;const w=evWin(Math.floor(b/64));return w&&b>=w.s&&b<w.e?w.o:0}
+function nearXfer(n){const m=Math.floor(n/64),w=evWin(m);if(!w)return false;return Math.abs(n-w.s)<=1||Math.abs(n-w.e)<=1}
 const clamp=(v,a,b)=>v<a?a:v>b?b:v;
 const cv=document.getElementById('g'),cx=cv.getContext('2d');
 let SC=2;
@@ -147,7 +158,7 @@ function resetChart(sd){seed=sd;rows=[];gsn={s:1,next:0,hold:false}}
 const isBar=n=>n>=16&&n%8===0&&(hash(seed,n+999)%100)<62;
 function genBeat(n){
   const out=[],r=mulberry32(hash(seed,n)),d=Math.min(1,n/420);
-  if(n<8)return out;
+  if(n<8||nearXfer(n))return out;
   if(isBar(n)){out.push({t:'bar',b:n});return out}
   if(isBar(n-1)||isBar(n+1))return out;
   if(r()<.62+.3*d){
@@ -168,7 +179,7 @@ const dayKey=()=>{const n=new Date();return n.getFullYear()*10000+(n.getMonth()+
 const bpmAt=b=>Math.min(220,100+Math.max(0,b)*.4);          // 박마다 점점 빨라짐: 100 → 220 BPM
 function newRun(daily){
   resetChart(daily?(dayKey()^0x4e4c):(Math.random()*1e9|0));
-  return{daily,beat:-4,bpm:100,lane:1,x:lx(1),tj:-1,score:0,combo:0,maxCombo:0,perfect:0,good:0,miss:0,orbs:0,trail:[],parts:[],pops:[],jd:null,shake:0,flash:0,dead:false,lastBeatInt:-5,tier:10,t:0,final:0}
+  return{daily,beat:-4,bpm:100,lane:1,lf:1,o:0,e:0,banner:null,tj:-1,score:0,combo:0,maxCombo:0,perfect:0,good:0,miss:0,orbs:0,trail:[],parts:[],pops:[],jd:null,shake:0,flash:0,dead:false,lastBeatInt:-5,tier:10,t:0,final:0}
 }
 function startRun(daily){initAudio();run=newRun(daily);nextStep=-8;mode='ready';pendingOver=0;document.getElementById('menu').classList.remove('on');document.getElementById('over').classList.remove('on')}
 function toMenu(){run=newRun(true);mode='menu';document.getElementById('over').classList.remove('on');document.getElementById('menu').classList.add('on');buildMenu()}
@@ -183,11 +194,11 @@ function judge(R){
   else{R.combo++;R.maxCombo=Math.max(R.maxCombo,R.combo);const m=mult(R);if(j==='PERFECT'){R.perfect++;R.score+=100*m;R.jd={t:.5,txt:'PERFECT',c:'#27f3ff'}}else{R.good++;R.score+=50*m;R.jd={t:.5,txt:'GOOD',c:'#7affc8'}}}
   return j}
 function moveLane(d){const R=run;if(!R||(mode!=='play'&&mode!=='ready'))return;const n=clamp(R.lane+d,0,3);if(n===R.lane)return;R.lane=n;
-  const j=mode==='play'?judge(R):'MISS';SFX.move(n,j==='PERFECT');burst(R,lx(n),PY,[LC[n],'#fff'],5,40)}
+  const j=mode==='play'?judge(R):'MISS';SFX.move(n,j==='PERFECT');{const q=PP(R,n);burst(R,q[0],q[1],[LC[n],'#fff'],5,40)}}
 function doJump(){const R=run;if(!R||(mode!=='play'&&mode!=='ready')||R.tj>=0)return;R.tj=0;if(mode==='play')judge(R);SFX.jump()}
 
 function die(R){
-  R.dead=true;mode='over';R.final=Math.floor(R.beat*3);R.shake=.9;R.flash=1;burst(R,R.x,PY,LC.concat(['#fff']),46,150);SFX.die();pendingOver=1.1;finishRun()}
+  R.dead=true;mode='over';R.final=Math.floor(R.beat*3);R.shake=.9;R.flash=1;{const q=PP(R,R.lf);burst(R,q[0],q[1],LC.concat(['#fff']),46,150)}SFX.die();pendingOver=1.1;finishRun()}
 function update(dt){
   const R=run;R.t+=dt;
   for(let i=R.parts.length-1;i>=0;i--){const p=R.parts[i];p.life-=dt;p.x+=p.vx*dt;p.y+=p.vy*dt;if(p.life<=0)R.parts.splice(i,1)}
@@ -197,9 +208,13 @@ function update(dt){
   R.bpm=mode==='ready'?100:bpmAt(R.beat);
   R.beat+=dt*R.bpm/60;
   if(mode==='play'){const tr=Math.floor(R.bpm/10);if(tr>R.tier){R.tier=tr;R.speedUp=1;pop(R,80,PY-70,'SPEED UP!  '+tr*10+' BPM','#ffe600',7);if(AC)tone('square',440,AC.currentTime,.12,.08,880)}}
-  R.x+=(lx(R.lane)-R.x)*Math.min(1,dt*30);
+  R.lf+=(R.lane-R.lf)*Math.min(1,dt*30);
+  {const tg=orientAt(R.beat+.25);
+    if(tg){if(R.o!==tg&&R.o===0){R.o=tg;R.banner={k:tg,t:2.8};R.flash=.55;R.shake=.35;if(AC)tone('square',200,AC.currentTime,.25,.1,900)}R.e=Math.min(1,R.e+dt*1.8)}
+    else{R.e=Math.max(0,R.e-dt*1.8);if(R.e===0)R.o=0}
+    if(R.banner){R.banner.t-=dt;if(R.banner.t<=0)R.banner=null}}
   if(R.tj>=0){R.tj+=dt*R.bpm/60;if(R.tj>JB)R.tj=-1}
-  const h=R.tj>=0?Math.sin(Math.PI*R.tj/JB)*14:0;R.trail.push({b:R.beat,x:R.x,h});while(R.trail.length&&R.trail[0].b<R.beat-5)R.trail.shift();
+  const h=R.tj>=0?Math.sin(Math.PI*R.tj/JB)*14:0;R.trail.push({b:R.beat,lf:R.lf,h});while(R.trail.length&&R.trail[0].b<R.beat-5)R.trail.shift();
   sched(R);
   if(mode==='ready'){if(R.beat>=0)mode='play';return}
   // 박마다 생존 점수
@@ -209,7 +224,7 @@ function update(dt){
     const d=it.b-R.beat;
     if(it.t==='block'){if(it.lane===R.lane&&Math.abs(d)<.16&&!it.hit){die(R);break}}
     else if(it.t==='bar'){if(Math.abs(d)<.16&&!air){die(R);break}}
-    else if(it.t==='orb'){if(!it.got&&it.lane===R.lane&&Math.abs(d)<.24){it.got=true;R.orbs++;R.score+=30*mult(R);SFX.orb(it.lane);burst(R,lx(it.lane),PY,[LC[it.lane],'#fff'],10,70);pop(R,lx(it.lane),PY-14,'+'+30*mult(R),LC[it.lane],5)}}
+    else if(it.t==='orb'){if(!it.got&&it.lane===R.lane&&Math.abs(d)<.24){it.got=true;R.orbs++;R.score+=30*mult(R);SFX.orb(it.lane);{const q=PP(R,it.lane);burst(R,q[0],q[1],[LC[it.lane],'#fff'],10,70);pop(R,q[0],q[1]-14,'+'+30*mult(R),LC[it.lane],5)}}}
   }
 }
 
@@ -231,56 +246,66 @@ function showOver(){
 function buildMenu(){fillTop5(document.getElementById('top5'),0);document.getElementById('syV').textContent=(sync>0?'+':'')+sync+'ms'}
 
 /* ============================ 렌더링 ============================ */
-const yOf=(R,b)=>PY-(b-R.beat)*BP;
+/* 좌표 변환: lane(실수 가능), b(박) → 화면. R.o: 0=세로, 1=좌→우, 2=우→좌 / R.e: 전환 진행도 */
+function pp(R,lane,b){const f=b-R.beat,t=ease(R.e),vx=RX+LW*lane+LW/2,vy=PY-f*BP;let hx,hy;
+  if(R.o===3){hx=W-vx;hy=H-vy}else{hy=HY0+lane*HLH+HLH/2;hx=R.o===2?W-HPX-f*HBP:HPX+f*HBP}
+  return[vx+(hx-vx)*t,vy+(hy-vy)*t]}
+const PP=(R,lane)=>pp(R,lane,R.beat);
+const laneSp=R=>R.o===3?LW:LW+(HLH-LW)*ease(R.e);
+const laneCol=(lf,a)=>laneColor(RX+LW*lf+LW/2,a);
 function glowLine(x0,y0,x1,y1,col,w,blur){cx.strokeStyle=col;cx.lineWidth=w;cx.shadowColor=col;cx.shadowBlur=blur;cx.beginPath();cx.moveTo(x0,y0);cx.lineTo(x1,y1);cx.stroke();cx.shadowBlur=0}
 function drawBg(R){
   cx.fillStyle='#04010b';cx.fillRect(0,0,W,H);
-  const pulse=1-(((R.beat%1)+1)%1);
+  const pulse=1-(((R.beat%1)+1)%1),t=ease(R.e);
   let g=cx.createRadialGradient(80,40,5,80,60,190);g.addColorStop(0,'rgba(90,30,170,'+(.28+.12*pulse)+')');g.addColorStop(.5,'rgba(20,60,120,.12)');g.addColorStop(1,'rgba(0,0,0,0)');cx.fillStyle=g;cx.fillRect(0,0,W,H);
-  // 사이드 데이터 스트림
-  const sp=R.beat*BP;cx.fillStyle='rgba(39,243,255,.14)';
-  for(let i=0;i<14;i++){const x=(i<7?2+i*2.6:RX+4*LW+3+(i-7)*2.6),y=((i*83+sp*(1+(i%3)*.4))%(H+40))-20;cx.fillRect(x,y,.7,10+(i%4)*6)}
-  // 차선
-  for(let l=0;l<4;l++){const x=RX+l*LW;g=cx.createLinearGradient(0,0,0,H);const c=LRGB[l];
-    g.addColorStop(0,'rgba('+c+',.015)');g.addColorStop(1,'rgba('+c+','+(.13+.08*pulse)+')');cx.fillStyle=g;cx.fillRect(x,0,LW,H)}
-  for(let l=0;l<=4;l++){const x=RX+l*LW,col=l===0?LC[0]:l===4?LC[3]:laneColor(RX+l*LW-LW/2,1);cx.strokeStyle=col;cx.globalAlpha=.55;cx.lineWidth=.8;cx.shadowColor=col;cx.shadowBlur=5;cx.beginPath();cx.moveTo(x,0);cx.lineTo(x,H);cx.stroke()}
-  cx.globalAlpha=1;cx.shadowBlur=0;
-  // 박자선
-  for(let b=Math.ceil(R.beat-1);b<=R.beat+5;b++){const y=yOf(R,b),down=((b%4)+4)%4===0;if(y<-2||y>H+2)continue;
-    cx.strokeStyle='rgba(180,160,255,'+(down?.34:.12)+')';cx.lineWidth=down?.9:.5;cx.beginPath();cx.moveTo(RX,y);cx.lineTo(RX+4*LW,y);cx.stroke()}
+  // 데이터 스트림 (세로 ↔ 가로)
+  const sp=R.beat*BP*(R.o===3?-1:1),dir=R.o===2?-1:1,hz=R.o===1||R.o===2,va=hz?1-t:1;
+  if(va>.01){cx.fillStyle='rgba(39,243,255,'+(.14*va).toFixed(3)+')';
+    for(let i=0;i<14;i++){const x=(i<7?2+i*2.6:RX+4*LW+3+(i-7)*2.6),y=(((i*83+sp*(1+(i%3)*.4))%(H+40))+H+40)%(H+40)-20;cx.fillRect(x,y,.7,10+(i%4)*6)}}
+  if(hz&&t>.01){cx.fillStyle='rgba(39,243,255,'+(.16*t).toFixed(3)+')';
+    for(let i=0;i<16;i++){const y=i%2?8+(i*7)%40:HY0+4*HLH+10+(i*11)%50,x=(((i*61+dir*R.beat*HBP*(1+(i%3)*.4))%(W+50))+W+50)%(W+50)-25;cx.fillRect(x,y,10+(i%4)*7,.7)}}
+  const b0=R.beat-1.6,b1=R.beat+7;
+  for(let l=0;l<4;l++){const A=pp(R,l,b1),B=pp(R,l,b0),c=LRGB[l];g=cx.createLinearGradient(A[0],A[1],B[0],B[1]);
+    g.addColorStop(0,'rgba('+c+',.015)');g.addColorStop(1,'rgba('+c+','+(.13+.08*pulse)+')');cx.fillStyle=g;
+    const p1=pp(R,l-.5,b0),p2=pp(R,l+.5,b0),p3=pp(R,l+.5,b1),p4=pp(R,l-.5,b1);cx.beginPath();cx.moveTo(p1[0],p1[1]);cx.lineTo(p2[0],p2[1]);cx.lineTo(p3[0],p3[1]);cx.lineTo(p4[0],p4[1]);cx.closePath();cx.fill()}
+  for(let l=0;l<=4;l++){const A=pp(R,l-.5,b0),B=pp(R,l-.5,b1),col=l===0?LC[0]:l===4?LC[3]:laneCol(l-1,1);cx.globalAlpha=.55;glowLine(A[0],A[1],B[0],B[1],col,.8,5)}
+  cx.globalAlpha=1;
+  for(let b=Math.ceil(R.beat-1.5);b<=R.beat+7;b++){const down=((b%4)+4)%4===0,A=pp(R,-.5,b),B=pp(R,3.5,b);
+    cx.strokeStyle='rgba(180,160,255,'+(down?.34:.12)+')';cx.lineWidth=down?.9:.5;cx.beginPath();cx.moveTo(A[0],A[1]);cx.lineTo(B[0],B[1]);cx.stroke()}
 }
 function drawChart(R){
-  const n0=Math.max(0,Math.floor(R.beat-1)),n1=Math.ceil(R.beat+(PY+10)/BP+1);
-  // 노트 경로선(한붓그리기 가이드)
-  let prev=null;cx.setLineDash([2,3]);cx.lineWidth=.6;cx.strokeStyle='rgba(255,255,255,.22)';cx.beginPath();
-  for(let n=n0;n<=n1;n++)for(const it of getBeat(n))if(it.t==='orb'&&!it.got){const x=lx(it.lane),y=yOf(R,it.b);if(prev)cx.lineTo(x,y);else cx.moveTo(x,y);if(prev===null)prev=1}
-  cx.stroke();cx.setLineDash([]);
-  for(let n=n0;n<=n1;n++)for(const it of getBeat(n)){const y=yOf(R,it.b);if(y<-14||y>H+14)continue;
-    if(it.t==='block'){const x=RX+it.lane*LW+3,c=LC[it.lane];cx.fillStyle='rgba(8,2,20,.92)';cx.strokeStyle=c;cx.lineWidth=1.4;cx.shadowColor=c;cx.shadowBlur=9;
-      cx.beginPath();cx.roundRect(x,y-5.5,LW-6,11,2.5);cx.fill();cx.stroke();cx.shadowBlur=0;cx.strokeStyle=c;cx.globalAlpha=.8;cx.lineWidth=1;cx.beginPath();cx.moveTo(x+5,y-3);cx.lineTo(x+LW-11,y+3);cx.moveTo(x+LW-11,y-3);cx.lineTo(x+5,y+3);cx.stroke();cx.globalAlpha=1}
-    else if(it.t==='bar'){const g=cx.createLinearGradient(RX,0,RX+4*LW,0);LC.forEach((c,i)=>g.addColorStop(i/3,c));cx.strokeStyle=g;cx.lineWidth=4;cx.shadowColor='#ffffff';cx.shadowBlur=12;
-      cx.beginPath();cx.moveTo(RX,y);cx.lineTo(RX+4*LW,y);cx.stroke();cx.shadowBlur=0;cx.strokeStyle='#fff';cx.lineWidth=1;cx.beginPath();cx.moveTo(RX,y);cx.lineTo(RX+4*LW,y);cx.stroke();
-      if(it.b-R.beat<3.2&&it.b-R.beat>0)T('JUMP!',80,y-13,{s:7,a:'center',c:'#ffe600',glow:'#ffe600',lw:0})}
-    else if(it.t==='orb'&&!it.got){const x=lx(it.lane),c=LC[it.lane],s=3.6+Math.sin(R.t*8+n)*.5;cx.fillStyle=c;cx.shadowColor=c;cx.shadowBlur=10;
-      cx.beginPath();cx.moveTo(x,y-s);cx.lineTo(x+s,y);cx.lineTo(x,y+s);cx.lineTo(x-s,y);cx.closePath();cx.fill();cx.shadowBlur=0;cx.fillStyle='#fff';cx.fillRect(x-.7,y-.7,1.4,1.4)}}
+  const n0=Math.max(0,Math.floor(R.beat-1.5)),n1=Math.ceil(R.beat+7),t=ease(R.e),sp=laneSp(R);
+  for(let n=n0;n<=n1;n++)for(const it of getBeat(n)){const c=it.t==='bar'?pp(R,1.5,it.b):pp(R,it.lane,it.b);if(c[0]<-30||c[0]>W+30||c[1]<-30||c[1]>H+30)continue;
+    if(it.t==='block'){const col=LC[it.lane],lat=sp-6;cx.save();cx.translate(c[0],c[1]);cx.rotate(R.o===3?0:t*Math.PI/2);
+      cx.fillStyle='rgba(8,2,20,.92)';cx.strokeStyle=col;cx.lineWidth=1.4;cx.shadowColor=col;cx.shadowBlur=9;cx.beginPath();cx.roundRect(-lat/2,-5.5,lat,11,2.5);cx.fill();cx.stroke();cx.shadowBlur=0;
+      cx.globalAlpha=.8;cx.lineWidth=1;cx.beginPath();cx.moveTo(-lat/2+5,-3);cx.lineTo(lat/2-5,3);cx.moveTo(lat/2-5,-3);cx.lineTo(-lat/2+5,3);cx.stroke();cx.restore()}
+    else if(it.t==='bar'){const A=pp(R,-.5,it.b),B=pp(R,3.5,it.b),g=cx.createLinearGradient(A[0],A[1],B[0],B[1]);LC.forEach((cc,i)=>g.addColorStop(i/3,cc));
+      cx.strokeStyle=g;cx.lineWidth=4;cx.shadowColor='#fff';cx.shadowBlur=12;cx.beginPath();cx.moveTo(A[0],A[1]);cx.lineTo(B[0],B[1]);cx.stroke();cx.shadowBlur=0;
+      cx.strokeStyle='#fff';cx.lineWidth=1;cx.beginPath();cx.moveTo(A[0],A[1]);cx.lineTo(B[0],B[1]);cx.stroke();
+      const d=it.b-R.beat;if(d<3.2&&d>0){const tp=pp(R,1.5,it.b+(t>.5?-.7:.25));T('JUMP!',tp[0],tp[1]-3.5,{s:7,a:'center',c:'#ffe600',glow:'#ffe600'})}}
+    else if(it.t==='orb'&&!it.got){const col=LC[it.lane],s=3.6+Math.sin(R.t*8+n)*.5;cx.fillStyle=col;cx.shadowColor=col;cx.shadowBlur=10;
+      cx.beginPath();cx.moveTo(c[0],c[1]-s);cx.lineTo(c[0]+s,c[1]);cx.lineTo(c[0],c[1]+s);cx.lineTo(c[0]-s,c[1]);cx.closePath();cx.fill();cx.shadowBlur=0;cx.fillStyle='#fff';cx.fillRect(c[0]-.7,c[1]-.7,1.4,1.4)}}
 }
 function drawTrail(R){
   const tr=R.trail;if(tr.length<2)return;cx.lineCap='round';
-  for(let i=1;i<tr.length;i++){const a=tr[i-1],b=tr[i],age=clamp((R.beat-b.b)/5,0,1),y0=yOf(R,a.b)-a.h,y1=yOf(R,b.b)-b.h;if(y1>H)continue;
-    const col=laneColor(b.x,(1-age)*.95);cx.strokeStyle=col;cx.lineWidth=3.2*(1-age*.7)+.4;cx.shadowColor=col;cx.shadowBlur=10*(1-age);cx.beginPath();cx.moveTo(a.x,y0);cx.lineTo(b.x,y1);cx.stroke()}
+  for(let i=1;i<tr.length;i++){const a=tr[i-1],b=tr[i],age=clamp((R.beat-b.b)/5,0,1),A=pp(R,a.lf,a.b),B=pp(R,b.lf,b.b);A[1]-=a.h;B[1]-=b.h;
+    const col=laneCol(b.lf,(1-age)*.95);cx.strokeStyle=col;cx.lineWidth=3.2*(1-age*.7)+.4;cx.shadowColor=col;cx.shadowBlur=10*(1-age);cx.beginPath();cx.moveTo(A[0],A[1]);cx.lineTo(B[0],B[1]);cx.stroke()}
   cx.shadowBlur=0;
 }
 function drawPlayer(R){
-  if(R.dead)return;const hgt=R.tj>=0?Math.sin(Math.PI*R.tj/JB)*14:0,x=R.x,y=PY-hgt,col=laneColor(x,1);
-  if(hgt>0){cx.strokeStyle=col;cx.globalAlpha=.5;cx.lineWidth=.8;cx.beginPath();cx.ellipse(x,PY+1,6+hgt*.2,2.4,0,0,6.283);cx.stroke();cx.globalAlpha=1}
-  const g=cx.createRadialGradient(x,y,0,x,y,15);g.addColorStop(0,laneColor(x,.9));g.addColorStop(1,laneColor(x,0));cx.fillStyle=g;cx.fillRect(x-15,y-15,30,30);
+  if(R.dead)return;const hgt=R.tj>=0?Math.sin(Math.PI*R.tj/JB)*14:0,q=PP(R,R.lf),x=q[0],y=q[1]-hgt,col=laneCol(R.lf,1);
+  if(hgt>0){cx.strokeStyle=col;cx.globalAlpha=.5;cx.lineWidth=.8;cx.beginPath();cx.ellipse(x,q[1]+1,6+hgt*.2,2.4,0,0,6.283);cx.stroke();cx.globalAlpha=1}
+  const g=cx.createRadialGradient(x,y,0,x,y,15);g.addColorStop(0,laneCol(R.lf,.9));g.addColorStop(1,laneCol(R.lf,0));cx.fillStyle=g;cx.fillRect(x-15,y-15,30,30);
   cx.strokeStyle=col;cx.lineWidth=1.3;cx.shadowColor=col;cx.shadowBlur=12;cx.beginPath();cx.arc(x,y,5.6,0,6.283);cx.stroke();cx.shadowBlur=0;
   cx.fillStyle='#fff';cx.shadowColor='#fff';cx.shadowBlur=8;cx.beginPath();cx.arc(x,y,3.2,0,6.283);cx.fill();cx.shadowBlur=0}
 function drawHud(R){
   T(R.score.toLocaleString(),80,4,{s:13,a:'center',g:['#ffffff','#9ff3ff'],glow:'#27f3ff',gb:10});
   T('BPM '+Math.round(R.bpm),5,5,{s:5,c:'#a79de0'});T(Math.floor(Math.max(0,R.beat)*3)+'m',W-5,5,{s:5,a:'right',c:'#a79de0'});
   if(R.combo>1){const m=mult(R);T(R.combo+' COMBO',80,19.5,{s:6.4,a:'center',c:m>=4?'#ffe600':'#27f3ff',glow:m>=4?'#ffe600':'#27f3ff',gb:8});if(m>1)T('x'+m,80,27,{s:5,a:'center',c:'#ff8ae9',glow:'#ff2bd6'})}
-  if(R.jd){const a=clamp(R.jd.t/.5,0,1);cx.globalAlpha=a;T(R.jd.txt,80,PY-34-(1-a)*6,{s:8,a:'center',c:R.jd.c,glow:R.jd.c,gb:10});cx.globalAlpha=1}
+  if(R.jd){const a=clamp(R.jd.t/.5,0,1);cx.globalAlpha=a;T(R.jd.txt,80,PY-34+((R.o===3?H-(PY-34)-8:HY0+4*HLH+8)-(PY-34))*ease(R.e)-(1-a)*6,{s:8,a:'center',c:R.jd.c,glow:R.jd.c,gb:10});cx.globalAlpha=1}
+  {const nx=orientAt(R.beat+3);if(R.o===0&&nx&&mode==='play'&&((R.beat*2)|0)%2===0)T(nx===1?'곧 가로 전환 ▶':nx===2?'곧 가로 전환 ◀':'곧 화면 뒤집힘!  ◀▶ 반전',80,34,{s:7,a:'center',c:'#ff8ae9',glow:'#ff2bd6',gb:10})}
+  if(R.banner){const b=R.banner,a=clamp(Math.min(b.t/.5,(2.8-b.t)/.2),0,1);cx.globalAlpha=a;const by=b.k===3?66:0;T('EVENT '+b.k,80,38+by,{s:11,a:'center',g:['#ffffff','#ff8ae9'],glow:'#ff2bd6',gb:12});
+    T(b.k===1?'좌 → 우 진행   ◀ = 위   ▶ = 아래':b.k===2?'우 → 좌 진행   ◀ = 위   ▶ = 아래':'상하 반전   ◀ ▶ 버튼도 반전!',80,52+by,{s:5.6,a:'center',c:'#dcd6ff',glow:'#27f3ff',gb:6});cx.globalAlpha=1}
   for(const p of R.pops){cx.globalAlpha=clamp(p.life/.8,0,1);T(p.t,p.x,p.y,{s:p.s,a:'center',c:p.c,glow:p.c,gb:6});cx.globalAlpha=1}
 }
 function render(){
