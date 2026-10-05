@@ -4,103 +4,207 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
 <meta name="theme-color" content="#05010d">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="네온 레인">
 <title>네온 레인 — 4색 리듬 러너</title>
-<meta name="description" content="검은 사이버 공간, 빨주노초 4개 차선을 달리는 빛. 박자에 맞춰 차선을 바꾸고 점프로 장애물을 피하세요. 한 번 부딪히면 끝, 달릴수록 BPM이 올라갑니다.">
+<meta name="description" content="검은 사이버 공간, 빨주노초 4개 차선을 달리는 빛. 박자에 맞춰 차선을 바꾸고 점프로 장애물을 피하세요. 일일 랭킹과 명예의 전당에 도전하세요.">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
 <style>
-:root{--bg:#05010d;--panel:#0d0720;--ink:#fff;--sub:#a79de0;--cy:#27f3ff;--pk:#ff2bd6;--acc:#ffe600}
+:root{--bg:#05010d;--panel:#0d0720;--ink:#fff;--sub:#a79de0;--cy:#27f3ff;--pk:#ff2bd6;--acc:#ffe600;--line:#3a1d6e}
 *{box-sizing:border-box;-webkit-tap-highlight-color:transparent;user-select:none;-webkit-user-select:none;-webkit-touch-callout:none}
-html,body{margin:0;height:100%;background:var(--bg);color:var(--ink);font-family:"Apple SD Gothic Neo","Noto Sans KR",system-ui,sans-serif;overflow:hidden;touch-action:none;overscroll-behavior:none}
-#app{position:fixed;inset:0;display:flex;flex-direction:column;padding:env(safe-area-inset-top) 0 env(safe-area-inset-bottom)}
+html,body{margin:0;height:100%;background:var(--bg);color:var(--ink);font-family:"Apple SD Gothic Neo","Noto Sans KR",system-ui,sans-serif;overflow:hidden;touch-action:manipulation;overscroll-behavior:none}
+button{font:inherit;color:inherit;cursor:pointer}
+input{font:inherit;user-select:text;-webkit-user-select:text}
+.screen{position:fixed;inset:0;display:none;flex-direction:column;padding:env(safe-area-inset-top) 0 env(safe-area-inset-bottom);background:var(--bg);overflow:hidden}
+.screen.on{display:flex}
+/* ---------- 홈 ---------- */
+.lanes{position:absolute;inset:0;display:flex;justify-content:center;pointer-events:none}
+.lanes i{flex:0 0 22%;max-width:96px;height:100%;border-left:1px solid var(--c);background:linear-gradient(to top,color-mix(in srgb,var(--c) 38%,transparent),transparent 72%);opacity:.5;animation:lp 1.6s ease-in-out infinite;animation-delay:var(--d)}
+.lanes i:last-child{border-right:1px solid var(--c)}
+@keyframes lp{0%,100%{opacity:.28}50%{opacity:.62}}
+.orb{position:absolute;bottom:13%;left:50%;width:22px;height:22px;margin-left:-11px;border-radius:50%;background:#fff;box-shadow:0 0 0 5px #ff950055,0 0 26px 8px #ff9500;animation:hop 4.8s steps(1) infinite;pointer-events:none}
+@keyframes hop{0%{transform:translateX(-144%);box-shadow:0 0 0 5px #ff2d5555,0 0 26px 8px #ff2d55}25%{transform:translateX(-48%);box-shadow:0 0 0 5px #ff950055,0 0 26px 8px #ff9500}50%{transform:translateX(48%);box-shadow:0 0 0 5px #ffe60055,0 0 26px 8px #ffe600}75%{transform:translateX(144%);box-shadow:0 0 0 5px #30ff7a55,0 0 26px 8px #30ff7a}100%{transform:translateX(-144%)}}
+.vig{position:absolute;inset:0;background:radial-gradient(ellipse at 50% 38%,rgba(5,1,13,.15),rgba(5,1,13,.86) 78%);pointer-events:none}
+.top{position:relative;z-index:2;display:flex;justify-content:space-between;align-items:center;padding:14px 16px 0}
+.chip{border:1px solid var(--line);background:#0d0720cc;border-radius:999px;padding:6px 14px;font-size:13px;font-weight:800;color:#dcd6ff}
+.chip b{color:var(--acc)}
+.icon{width:40px;height:40px;border-radius:50%;border:1px solid var(--line);background:#0d0720cc;font-size:18px}
+.center{position:relative;z-index:2;flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:0 22px;text-align:center;min-height:0}
+.logo{font-family:"Courier New",monospace;font-weight:900;font-size:clamp(38px,12vw,56px);letter-spacing:2px;margin:0;background:linear-gradient(90deg,#ff2d55,#ff9500,#ffe600,#30ff7a);-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 0 14px #ff2bd699)}
+.sub{font-family:"Courier New",monospace;font-weight:700;font-size:13px;letter-spacing:9px;color:var(--cy);margin:4px 0 8px;text-shadow:0 0 10px var(--cy)}
+.tag{color:#c9c2f0;font-size:14px;margin:0 0 18px}
+.today{display:flex;gap:18px;margin-bottom:16px;font-size:13px;color:var(--sub)}
+.today b{display:block;font-size:20px;color:#fff;font-family:"Courier New",monospace;text-shadow:0 0 10px var(--cy)}
+.play{width:100%;max-width:340px;border:0;border-radius:18px;padding:16px 10px;font-weight:900;font-size:24px;letter-spacing:2px;color:#05010d;background:linear-gradient(90deg,#27f3ff,#7affc8);box-shadow:0 0 28px #27f3ff77;margin-top:10px}
+.play small{display:block;font-size:11px;font-weight:700;letter-spacing:0;opacity:.8;margin-top:3px}
+.play.alt{font-size:17px;padding:12px 10px;color:#fff;background:linear-gradient(90deg,#ff2bd6,#ff8a5c);box-shadow:0 0 22px #ff2bd666}
+.play:active{transform:scale(.97)}
+.pills{display:flex;gap:8px;width:100%;max-width:340px;margin-top:16px}
+.pills button{flex:1;border:1px solid var(--line);background:#0d0720cc;border-radius:999px;padding:10px 4px;font-size:13px;font-weight:800;color:#dcd6ff}
+.foot{position:relative;z-index:2;display:flex;justify-content:center;padding:6px 0 16px}
+.team{display:inline-flex;align-items:center;gap:10px;padding:6px 18px 6px 8px;border:1px solid #4a3a8a;border-radius:999px;background:linear-gradient(#1a1238,#0c0722);box-shadow:0 0 14px #7a2bff44}
+.team img{width:28px;height:28px;border-radius:50%;background:#050b2a;border:1px solid #3a2f7a;object-fit:cover}
+.team span{font-size:11px;letter-spacing:2px;color:#b9b0e6;font-weight:700}
+.team b{font-size:15px;color:#fff;font-style:italic;letter-spacing:.5px;text-shadow:0 0 8px #7a2bff}
+/* ---------- 공통 서브 화면 ---------- */
+.bar{display:flex;align-items:center;gap:10px;padding:12px 14px;border-bottom:1px solid #1d1240;flex:none}
+.bar h2{margin:0;font-size:18px;flex:1;text-align:center;padding-right:40px}
+.back{width:40px;height:40px;border-radius:12px;border:1px solid var(--line);background:#0d0720;font-size:18px}
+.body{flex:1;overflow-y:auto;overscroll-behavior:contain;padding:14px 16px 20px;-webkit-overflow-scrolling:touch;touch-action:pan-y}
+.sec{margin:0 0 6px;font-size:12px;letter-spacing:1px;color:var(--sub)}
+.how{margin:0 0 14px;padding:0;list-style:none;font-size:14px;line-height:1.55;color:#dcd6ff}
+.how li{word-break:keep-all;padding:9px 12px;margin-bottom:8px;background:#0a0418;border-left:3px solid var(--pk);border-radius:0 8px 8px 0}
+.how b{color:var(--acc)}
+.field{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:14px 4px;border-bottom:1px solid #1d1240;font-size:15px}
+.field small{display:block;color:var(--sub);font-size:11px;margin-top:2px}
+.field input{width:150px;padding:9px 12px;border-radius:10px;border:1px solid var(--line);background:#0a0418;color:#fff;font-size:15px;text-align:center}
+.step{display:flex;align-items:center;gap:8px}
+.step button{width:38px;height:34px;border:1px solid var(--line);background:#150a30;border-radius:8px;font-size:18px}
+.step b{min-width:62px;text-align:center;color:var(--cy)}
+.sw{border:1px solid var(--line);background:#150a30;border-radius:999px;padding:8px 18px;font-weight:800}
+.btn{border:0;border-radius:12px;padding:13px 16px;font-weight:900;font-size:15px;color:#05010d;background:linear-gradient(90deg,#27f3ff,#7affc8);box-shadow:0 0 16px #27f3ff55}
+.btn.alt{background:linear-gradient(90deg,#ff2bd6,#ff8a5c);color:#fff;box-shadow:0 0 16px #ff2bd655}
+.btn.ghost{background:#150a30;color:#fff;border:1px solid var(--line);box-shadow:none}
+.btn:active{transform:scale(.97)}
+.ver{text-align:center;color:#6f64a8;font-size:11px;margin-top:18px}
+/* ---------- 랭킹 ---------- */
+.tabs{display:flex;gap:8px;padding:12px 14px 0;flex:none}
+.tabs button{flex:1;border:1px solid var(--line);background:#0d0720;border-radius:12px;padding:11px 4px;font-weight:900;font-size:14px;color:var(--sub)}
+.tabs button.on{color:#05010d;background:linear-gradient(90deg,#27f3ff,#7affc8);border-color:transparent;box-shadow:0 0 14px #27f3ff55}
+.rinfo{display:flex;justify-content:space-between;align-items:center;font-size:12px;color:var(--sub);margin-bottom:10px}
+.rinfo b{color:var(--acc);font-family:"Courier New",monospace}
+.note{font-size:11.5px;line-height:1.45;color:#b9a85a;background:#1a1505;border:1px solid #4a3d10;border-radius:10px;padding:8px 10px;margin-bottom:12px}
+.rl{list-style:none;margin:0 0 16px;padding:0}
+.rl li{display:flex;align-items:center;gap:10px;padding:11px 12px;margin-bottom:6px;background:#0a0418;border:1px solid #1d1240;border-radius:12px;font-size:15px}
+.rl li.me{border-color:var(--acc);background:#1a1605;box-shadow:0 0 12px #ffe60033}
+.rl .rk{width:34px;text-align:center;font-weight:900;font-family:"Courier New",monospace;color:#cfc8f5;font-size:16px}
+.rl .nm{flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-weight:700}
+.rl .dt{font-size:11px;color:var(--sub)}
+.rl .sc{font-family:"Courier New",monospace;font-weight:900;color:var(--cy);text-shadow:0 0 8px #27f3ff66}
+.empty{text-align:center;color:var(--sub);padding:34px 10px;font-size:14px;line-height:1.6}
+.me-row{flex:none;padding:10px 14px 12px;border-top:1px solid #1d1240;background:#07020f}
+.me-row .rl{margin:0}
+/* ---------- 게임 ---------- */
 #stage{flex:1;min-height:0;position:relative;display:flex;align-items:center;justify-content:center}
-#g{background:#000;box-shadow:0 0 0 1px #3a1d6e,0 0 24px #7a2bff55}
-#pad{display:flex;gap:10px;padding:8px 12px 12px;align-items:stretch;height:clamp(96px,17vh,150px)}
-.key{border:2px solid #7a2bff;border-radius:14px;padding:0;background:linear-gradient(#150a30,#0b0520);color:#fff;cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:0 0 14px #7a2bff55 inset,0 0 10px #7a2bff44}
+#g{background:#000;box-shadow:0 0 0 1px var(--line),0 0 24px #7a2bff55}
+#pauseBtn{position:absolute;left:8px;top:8px;width:38px;height:38px;border:1px solid var(--line);background:#0d0720cc;border-radius:10px;font-weight:900;font-size:15px;z-index:2;letter-spacing:-2px}
+#pad{display:flex;gap:10px;padding:8px 12px 12px;align-items:stretch;height:clamp(96px,17vh,150px);flex:none}
+.key{border:2px solid #7a2bff;border-radius:14px;padding:0;background:linear-gradient(#150a30,#0b0520);color:#fff;display:flex;align-items:center;justify-content:center;box-shadow:0 0 14px #7a2bff55 inset,0 0 10px #7a2bff44;touch-action:none}
 .key.arrow{flex:1}
 .key.arrow svg{width:44px;height:44px;fill:var(--cy);filter:drop-shadow(0 0 6px var(--cy))}
 .key.jump{flex:1.15;border-color:#ff2bd6;box-shadow:0 0 14px #ff2bd655 inset,0 0 10px #ff2bd655;font-weight:900;font-size:20px;letter-spacing:3px;color:#ff8ae9;text-shadow:0 0 10px #ff2bd6;font-family:"Courier New",monospace}
 .key.on{transform:scale(.97);filter:brightness(1.5)}
-#mute{position:absolute;right:6px;bottom:6px;opacity:.7;width:36px;height:36px;border:1px solid #3a1d6e;background:#0d0720cc;color:#fff;font-size:16px;border-radius:8px;cursor:pointer;z-index:2}
-.ov{position:fixed;inset:0;background:rgba(3,0,10,.88);display:none;align-items:center;justify-content:center;z-index:5;padding:14px;overflow:auto}
-.ov.on{display:flex}
-.card{background:linear-gradient(#10082a,#08031a);width:100%;max-width:400px;padding:18px 16px;text-align:center;border:1px solid #7a2bff;border-radius:16px;box-shadow:0 0 30px #7a2bff66,0 0 60px #27f3ff22 inset}
-.logo{font-family:"Courier New",monospace;font-weight:900;font-size:34px;letter-spacing:2px;margin:2px 0 0;background:linear-gradient(90deg,#ff2d55,#ff9500,#ffe600,#30ff7a);-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 0 10px #ff2bd688)}
-.sub{font-family:"Courier New",monospace;font-weight:700;font-size:12px;letter-spacing:7px;color:var(--cy);margin:2px 0 10px;text-shadow:0 0 8px var(--cy)}
-.team{display:inline-flex;align-items:center;gap:10px;margin:16px auto 2px;padding:6px 18px 6px 8px;border:1px solid #4a3a8a;border-radius:999px;background:linear-gradient(#1a1238,#0c0722);box-shadow:0 0 14px #7a2bff44}
-.team img{width:28px;height:28px;border-radius:50%;background:#050b2a;border:1px solid #3a2f7a;object-fit:cover}
-.team span{font-size:11px;letter-spacing:2px;color:#b9b0e6;font-weight:700}
-.team b{font-size:15px;color:#fff;font-style:italic;letter-spacing:.5px;text-shadow:0 0 8px #7a2bff}
-.how{text-align:left;font-size:12.5px;line-height:1.5;color:#dcd6ff;margin:0 0 12px;padding:0;list-style:none}
-.how li{word-break:keep-all;padding:5px 9px;margin-bottom:5px;background:#0a0418;border-left:3px solid var(--pk);border-radius:0 6px 6px 0}
-.how b{color:var(--acc)}
-.row{display:flex;gap:8px;margin-top:8px}
-.btn{flex:1;border:0;border-radius:10px;padding:13px 6px;font:inherit;font-weight:900;font-size:15px;color:#05010d;background:linear-gradient(90deg,#27f3ff,#7affc8);cursor:pointer;box-shadow:0 0 16px #27f3ff66}
-.btn:active{transform:scale(.97)}
-.btn.alt{background:linear-gradient(90deg,#ff2bd6,#ff8a5c);color:#fff;box-shadow:0 0 16px #ff2bd666}
-.btn.ghost{background:#150a30;color:#fff;box-shadow:none;border:1px solid #3a1d6e}
-.btn small{display:block;font-weight:600;font-size:10px;opacity:.8;margin-top:2px}
-.lab{font-size:11px;color:var(--sub);margin:12px 0 4px;letter-spacing:1px}
-.sync{display:flex;align-items:center;justify-content:center;gap:10px;font-size:13px;color:#dcd6ff}
-.sync button{width:34px;height:30px;border:1px solid #3a1d6e;background:#150a30;color:#fff;border-radius:8px;font-size:16px;cursor:pointer}
-.sync b{min-width:64px;color:var(--cy)}
-.top5{font-family:"Courier New",monospace;font-size:13px;color:#dcd6ff;margin:0;padding:0;list-style:none}
-.top5 li{display:flex;justify-content:space-between;padding:2px 14px}
-.top5 li.me{color:var(--acc);text-shadow:0 0 8px var(--acc)}
-.big{font-family:"Courier New",monospace;font-weight:900;font-size:50px;line-height:1.05;color:#fff;text-shadow:0 0 14px var(--cy),0 0 30px var(--pk)}
-.stat{display:flex;justify-content:center;flex-wrap:wrap;gap:6px 14px;font-size:13px;color:#dcd6ff;margin:10px 0 4px}
+/* ---------- 결과 ---------- */
+.res{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:0 20px;text-align:center;overflow-y:auto}
+.big{font-family:"Courier New",monospace;font-weight:900;font-size:clamp(44px,14vw,60px);line-height:1.05;text-shadow:0 0 14px var(--cy),0 0 30px var(--pk)}
+.badge{display:inline-block;background:var(--pk);color:#fff;font-weight:900;font-size:12px;padding:3px 10px;margin:8px 0 0;border-radius:6px;box-shadow:0 0 12px var(--pk)}
+.tier{font-weight:900;font-size:16px;color:var(--cy);margin-top:10px;text-shadow:0 0 8px var(--cy)}
+.rrank{margin:12px 0 4px;padding:10px 16px;border:1px solid var(--line);border-radius:12px;background:#0d0720;font-size:14px;color:#dcd6ff}
+.rrank b{color:var(--acc);font-size:18px}
+.stat{display:flex;justify-content:center;flex-wrap:wrap;gap:6px 14px;font-size:13px;color:#dcd6ff;margin:10px 0 6px}
 .stat b{color:#fff}
-.badge{display:inline-block;background:var(--pk);color:#fff;font-weight:900;font-size:12px;padding:3px 10px;margin:6px 0 0;border-radius:6px;box-shadow:0 0 12px var(--pk)}
-.tier{font-weight:900;font-size:15px;color:var(--cy);margin-top:8px;text-shadow:0 0 8px var(--cy)}
+.rbtns{display:flex;flex-direction:column;gap:8px;width:100%;max-width:340px;margin-top:14px}
+.rbtns .row{display:flex;gap:8px}.rbtns .row .btn{flex:1}
+/* ---------- 모달 ---------- */
+.modal{position:fixed;inset:0;background:rgba(3,0,10,.86);display:none;align-items:center;justify-content:center;z-index:20;padding:20px}
+.modal.on{display:flex}
+.mcard{width:100%;max-width:340px;background:linear-gradient(#10082a,#08031a);border:1px solid #7a2bff;border-radius:18px;padding:20px 18px;text-align:center;box-shadow:0 0 30px #7a2bff66}
+.mcard h3{margin:0 0 6px;font-size:20px}
+.mcard p{margin:0 0 14px;color:var(--sub);font-size:13px;line-height:1.5}
+.mcard input{width:100%;padding:12px;border-radius:12px;border:1px solid var(--line);background:#0a0418;color:#fff;font-size:17px;text-align:center}
+.err{color:#ff6f86;font-size:12px;min-height:16px;margin-top:6px}
+.mrow{display:flex;flex-direction:column;gap:8px;margin-top:10px}
 </style>
 </head>
 <body>
-<div id="app">
-  <div id="stage"><canvas id="g"></canvas><button id="mute" aria-label="소리">🔊</button></div>
+
+<!-- 홈 -->
+<section class="screen on" id="home">
+  <div class="lanes"><i style="--c:#ff2d55;--d:0s"></i><i style="--c:#ff9500;--d:.4s"></i><i style="--c:#ffe600;--d:.8s"></i><i style="--c:#30ff7a;--d:1.2s"></i></div>
+  <div class="orb"></div><div class="vig"></div>
+  <header class="top"><div class="chip">★ BEST <b id="hBest">0</b></div><button class="icon" id="goSet" aria-label="설정">⚙</button></header>
+  <main class="center">
+    <h1 class="logo">네온 레인</h1>
+    <div class="sub">NEON LANE</div>
+    <p class="tag">박자에 맞춰 네온 위를 달리세요</p>
+    <div class="today"><div>오늘의 내 최고<b id="hToday">-</b></div><div>닉네임<b id="hName" style="font-size:16px">-</b></div></div>
+    <button class="play" id="goDaily">▶ PLAY<small>오늘의 곡 · 랭킹 반영</small></button>
+    <button class="play alt" id="goFree">프리 플레이<small>랭킹 미반영 · 매번 새로운 곡</small></button>
+    <div class="pills"><button id="goRank">🏆 랭킹</button><button id="goHelp">❓ 게임 방법</button></div>
+  </main>
+  <footer class="foot"><div class="team"><img src="team-logo.png" alt="" width="28" height="28"><span>TEAM</span><b>Jackeychankey</b></div></footer>
+</section>
+
+<!-- 게임 -->
+<section class="screen" id="game">
+  <div id="stage"><canvas id="g"></canvas><button id="pauseBtn" aria-label="일시정지">II</button></div>
   <div id="pad">
     <button class="key arrow" id="bl" aria-label="왼쪽 차선"><svg viewBox="0 0 16 16"><polygon points="1,8 8,1 8,5 15,5 15,11 8,11 8,15"/></svg></button>
     <button class="key jump" id="bj" aria-label="점프">JUMP</button>
     <button class="key arrow" id="br" aria-label="오른쪽 차선"><svg viewBox="0 0 16 16"><polygon points="15,8 8,1 8,5 1,5 1,11 8,11 8,15"/></svg></button>
   </div>
-</div>
+</section>
 
-<div class="ov on" id="menu">
-  <div class="card">
-    <h1 class="logo">네온 레인</h1>
-    <div class="sub">NEON LANE</div>
-    <ul class="how">
-      <li>빛이 <b>빨·주·노·초 4개 차선</b>을 달려요. ◀ ▶ 로 차선을 옮기고 <b>JUMP</b>로 낮은 바를 넘어요</li>
-      <li><b>박자에 맞춰</b> 움직이면 PERFECT! 콤보와 점수 배수가 올라가요. 박자를 놓쳐도 죽지 않아요</li>
-      <li>장애물에 <b>한 번 부딪히면 끝</b>. 달릴수록 <b>BPM과 속도가 점점 빨라져요</b>(느리게 시작)</li>
-      <li>⚡ 가끔 <b>이벤트</b>! 화면이 <b>가로로 회전</b>(좌→우 / 우→좌)하거나 <b>위아래로 뒤집혀요</b>. 뒤집히면 ◀ ▶ 도 반전!</li>
-      <li>차선 위 <b>◆ 노트</b>를 따라가면 보너스! 지나온 길은 네온 잔상으로 남아요</li>
-    </ul>
-    <div class="row">
-      <button class="btn" id="goDaily">오늘의 곡<small>모두 같은 곡 · 기록 도전</small></button>
-      <button class="btn alt" id="goFree">프리 플레이<small>매번 새로운 곡</small></button>
-    </div>
-    <div class="lab">싱크 보정 (소리가 늦게 들리면 +)</div>
-    <div class="sync"><button id="syM">−</button><b id="syV">0ms</b><button id="syP">+</button></div>
-    <div class="lab">오늘의 곡 · 내 기록 TOP 5</div>
-    <ol class="top5" id="top5"></ol>
-    <div class="team"><img src="team-logo.png" alt="" width="28" height="28"><span>TEAM</span><b>Jackeychankey</b></div>
-  </div>
-</div>
-
-<div class="ov" id="over">
-  <div class="card">
-    <div class="sub" style="margin-top:0">GAME OVER</div>
+<!-- 결과 -->
+<section class="screen" id="result">
+  <div class="res">
+    <div class="sub" style="margin:0 0 6px" id="rTitle">GAME OVER</div>
     <div class="big" id="rS">0</div>
     <div id="rBadge"></div>
     <div class="tier" id="rTier"></div>
+    <div class="rrank" id="rRank"></div>
     <div class="stat" id="rStat"></div>
-    <div class="lab" id="rLab">오늘의 곡 · 내 기록 TOP 5</div>
-    <ol class="top5" id="rTop5"></ol>
-    <div class="row">
+    <div class="rbtns">
       <button class="btn" id="again">다시 도전</button>
-      <button class="btn alt" id="share">공유</button>
+      <div class="row"><button class="btn alt" id="rGoRank">🏆 랭킹 보기</button><button class="btn ghost" id="share">공유</button></div>
+      <button class="btn ghost" id="rHome">홈으로</button>
     </div>
-    <div class="row"><button class="btn ghost" id="toMenu" style="padding:9px">메뉴로</button></div>
   </div>
-</div>
+</section>
+
+<!-- 랭킹 -->
+<section class="screen" id="rank">
+  <div class="bar"><button class="back" id="rankBack" aria-label="뒤로">←</button><h2>랭킹</h2></div>
+  <div class="tabs"><button id="tabD" class="on">일일 랭킹</button><button id="tabH">명예의 전당</button></div>
+  <div class="body" id="rankBody"></div>
+  <div class="me-row" id="rankMe"></div>
+</section>
+
+<!-- 설정 -->
+<section class="screen" id="settings">
+  <div class="bar"><button class="back" id="setBack" aria-label="뒤로">←</button><h2>설정</h2></div>
+  <div class="body">
+    <div class="field"><div>닉네임<small>랭킹에 표시되는 이름 (2~10자)</small></div><input id="setName" maxlength="10" autocomplete="off"></div>
+    <div class="field"><div>사운드<small>음악과 효과음</small></div><button class="sw" id="muteBtn">🔊 ON</button></div>
+    <div class="field"><div>싱크 보정<small>소리가 늦게 들리면 +</small></div><div class="step"><button id="syM">−</button><b id="syV">0ms</b><button id="syP">+</button></div></div>
+    <div class="field" id="installRow" style="display:none"><div>앱 설치<small>홈 화면에 추가해서 앱처럼 실행</small></div><button class="btn" id="installBtn" style="padding:10px 16px">설치</button></div>
+    <div class="ver">NEON LANE v1.0 · team. Jackeychankey</div>
+  </div>
+</section>
+
+<!-- 도움말 -->
+<section class="screen" id="help">
+  <div class="bar"><button class="back" id="helpBack" aria-label="뒤로">←</button><h2>게임 방법</h2></div>
+  <div class="body">
+    <ul class="how">
+      <li>빛이 <b>빨·주·노·초 4개 차선</b>을 달려요. ◀ ▶ 로 차선을 옮기고 <b>JUMP</b>로 낮은 바를 넘어요</li>
+      <li><b>박자에 맞춰</b> 움직이면 PERFECT! 콤보와 점수 배수가 올라가요. 박자를 놓쳐도 죽지 않아요</li>
+      <li>음표 블록에 <b>한 번 부딪히면 끝</b>. 달릴수록 <b>BPM과 속도가 점점 빨라져요</b>(느리게 시작)</li>
+      <li>⚡ <b>이벤트</b>: 화면이 가로로 돌아가거나(좌→우 / 우→좌) 위아래로 뒤집혀요. 버튼은 <b>진행 방향 기준 ◀=왼쪽</b>이에요 (이벤트1 ◀=위, 이벤트2 ◀=아래, 이벤트3 ◀=오른쪽)</li>
+      <li>차선 위 <b>◆ 노트</b>를 먹으면 보너스!</li>
+      <li>🏆 <b>오늘의 곡</b>은 모두 같은 곡이라 <b>일일 랭킹</b>에 반영돼요. 일일 1위 기록은 <b>명예의 전당</b>에 남아요. 프리 플레이는 랭킹에 반영되지 않아요</li>
+      <li>📲 <b>앱으로 설치</b>: Android는 설정의 [설치] 버튼, iPhone은 Safari 공유 버튼 → [홈 화면에 추가]</li>
+    </ul>
+  </div>
+</section>
+
+<!-- 모달: 닉네임 / 일시정지 -->
+<div class="modal" id="nameModal"><div class="mcard"><h3>닉네임을 정해주세요</h3><p>랭킹에 표시됩니다 (2~10자)</p><input id="nameInput" maxlength="10" autocomplete="off" placeholder="예: 네온러너"><div class="err" id="nameErr"></div><div class="mrow"><button class="btn" id="nameOk">확인</button><button class="btn ghost" id="nameCancel">취소</button></div></div></div>
+<div class="modal" id="pauseModal"><div class="mcard"><h3>일시정지</h3><p>잠시 쉬어가세요</p><div class="mrow"><button class="btn" id="pResume">계속하기</button><button class="btn alt" id="pRestart">다시 시작</button><button class="btn ghost" id="pHome">홈으로</button></div></div></div>
 
 <script>
 'use strict';
@@ -185,8 +289,6 @@ function newRun(daily){
   resetChart(daily?(dayKey()^0x4e4c):(Math.random()*1e9|0));
   return{daily,beat:-4,bpm:100,lane:1,lf:1,o:0,e:0,banner:null,tj:-1,score:0,combo:0,maxCombo:0,perfect:0,good:0,miss:0,orbs:0,trail:[],parts:[],pops:[],jd:null,shake:0,flash:0,dead:false,lastBeatInt:-5,tier:8,t:0,final:0}
 }
-function startRun(daily){initAudio();run=newRun(daily);nextStep=-8;mode='ready';pendingOver=0;document.getElementById('menu').classList.remove('on');document.getElementById('over').classList.remove('on')}
-function toMenu(){run=newRun(true);mode='menu';document.getElementById('over').classList.remove('on');document.getElementById('menu').classList.add('on');buildMenu()}
 const mult=R=>Math.min(8,1+Math.floor(R.combo/8));
 function pop(R,x,y,t,c,s){R.pops.push({x,y,t,c,s:s||6,life:.8})}
 function burst(R,x,y,cols,n,sp){for(let i=0;i<n;i++){const a=Math.random()*6.283,v=sp*(.3+Math.random());R.parts.push({x,y,vx:Math.cos(a)*v,vy:Math.sin(a)*v,life:.4+Math.random()*.5,max:.9,c:cols[i%cols.length],s:.7+Math.random()*1.3})}}
@@ -231,23 +333,6 @@ function update(dt){
     else if(it.t==='orb'){if(!it.got&&it.lane===R.lane&&Math.abs(d)<.24){it.got=true;R.orbs++;R.score+=30*mult(R);SFX.orb(it.lane);{const q=PP(R,it.lane);burst(R,q[0],q[1],[LC[it.lane],'#fff'],10,70);pop(R,q[0],q[1]-14,'+'+30*mult(R),LC[it.lane],5)}}}
   }
 }
-
-/* ============================ 기록 / 결과 ============================ */
-function tierOf(s){return s<1500?'네온 입문자':s<5000?'비트 러너':s<12000?'사이버 댄서':s<25000?'리듬 마스터':'네온 레전드'}
-function finishRun(){
-  const R=run;let rank=0,newBest=false;const best=store.get('nl_best',0);
-  if(R.score>best){newBest=true;store.set('nl_best',R.score)}
-  if(R.daily){const key='nl_daily_'+dayKey(),list=store.get(key,[]);rank=list.filter(v=>v>R.score).length+1;list.push(R.score);list.sort((a,b)=>b-a);store.set(key,list.slice(0,5))}
-  lastResult={daily:R.daily,score:R.score,dist:R.final,maxCombo:R.maxCombo,perfect:R.perfect,good:R.good,orbs:R.orbs,rank,newBest,bpm:Math.round(R.bpm)}
-}
-function fillTop5(el,highlight){const list=store.get('nl_daily_'+dayKey(),[]);el.innerHTML='';
-  for(let i=0;i<5;i++){const li=document.createElement('li');if(highlight&&list[i]===highlight)li.className='me';li.innerHTML='<span>'+(i+1)+'위</span><span>'+(list[i]!==undefined?list[i].toLocaleString():'-')+'</span>';el.appendChild(li)}}
-function showOver(){
-  const r=lastResult,$=id=>document.getElementById(id);$('rS').textContent=r.score.toLocaleString();
-  $('rBadge').innerHTML=r.newBest?'<span class="badge">NEW RECORD!</span>':'';$('rTier').textContent='칭호 · '+tierOf(r.score);
-  $('rStat').innerHTML='<span>🏃 거리 <b>'+r.dist+'</b>m</span><span>🔥 최대 콤보 <b>'+r.maxCombo+'</b></span><span>✨ PERFECT <b>'+r.perfect+'</b></span><span>◆ 노트 <b>'+r.orbs+'</b></span><span>🎵 BPM <b>'+r.bpm+'</b></span>';
-  $('rLab').textContent='오늘의 곡 · 내 기록 TOP 5'+(r.daily?' (이번 '+r.rank+'위)':'');fillTop5($('rTop5'),r.daily?r.score:0);$('over').classList.add('on')}
-function buildMenu(){fillTop5(document.getElementById('top5'),0);document.getElementById('syV').textContent=(sync>0?'+':'')+sync+'ms'}
 
 /* ============================ 렌더링 ============================ */
 /* 좌표 변환: lane(실수 가능), b(박) → 화면. R.o: 0=세로, 1=좌→우, 2=우→좌 / R.e: 전환 진행도 */
@@ -307,7 +392,7 @@ function drawPlayer(R){
   cx.fillStyle='#fff';cx.shadowColor='#fff';cx.shadowBlur=8;cx.beginPath();cx.arc(x,y,3.2,0,6.283);cx.fill();cx.shadowBlur=0}
 function drawHud(R){
   T(R.score.toLocaleString(),80,4,{s:13,a:'center',g:['#ffffff','#9ff3ff'],glow:'#27f3ff',gb:10});
-  T('BPM '+Math.round(R.bpm),5,5,{s:5,c:'#a79de0'});T(Math.floor(Math.max(0,R.beat)*3)+'m',W-5,5,{s:5,a:'right',c:'#a79de0'});
+  T('BPM '+Math.round(R.bpm),24,5,{s:5,c:'#a79de0'});T(Math.floor(Math.max(0,R.beat)*3)+'m',W-5,5,{s:5,a:'right',c:'#a79de0'});
   if(R.combo>1){const m=mult(R);T(R.combo+' COMBO',80,19.5,{s:6.4,a:'center',c:m>=4?'#ffe600':'#27f3ff',glow:m>=4?'#ffe600':'#27f3ff',gb:8});if(m>1)T('x'+m,80,27,{s:5,a:'center',c:'#ff8ae9',glow:'#ff2bd6'})}
   if(R.jd){const a=clamp(R.jd.t/.5,0,1);cx.globalAlpha=a;T(R.jd.txt,80,PY-34+((R.o===3?H-(PY-34)-8:HY0+4*HLH+8)-(PY-34))*ease(R.e)-(1-a)*6,{s:8,a:'center',c:R.jd.c,glow:R.jd.c,gb:10});cx.globalAlpha=1}
   {const nx=orientAt(R.beat+3);if(R.o===0&&nx&&mode==='play'&&((R.beat*2)|0)%2===0)T(nx===1?'곧 가로 전환 ▶':nx===2?'곧 가로 전환 ◀':'곧 화면 뒤집힘!  ◀▶ 반전',80,34,{s:7,a:'center',c:'#ff8ae9',glow:'#ff2bd6',gb:10})}
@@ -327,31 +412,125 @@ function render(){
   if(mode==='over')T('GAME OVER',80,112,{s:17,a:'center',g:['#ffd0e8','#ff2bd6'],glow:'#ff2bd6',gb:16})
 }
 
+/* ============================ 랭킹 (저장소 어댑터) ============================
+   지금은 이 기기에 저장하는 로컬 구현입니다. 서버를 연결하면 같은 인터페이스(submit/daily/hof)를 가진
+   원격 구현으로 교체하면 화면 코드는 그대로 쓸 수 있습니다. 랭킹에는 '오늘의 곡' 플레이만 반영됩니다. */
+const Rank={mode:'local',
+  runs(){return store.get('nl_runs',[])},
+  async submit(rec){const a=this.runs();a.push(rec);store.set('nl_runs',a.slice(-600))},
+  async daily(day){return bestBy(this.runs().filter(r=>r.day===day)).slice(0,50)},
+  async hof(){const all=this.runs(),days=[...new Set(all.map(r=>r.day))].sort((a,b)=>b-a);
+    return{top:bestBy(all).slice(0,20),champs:days.slice(0,30).map(d=>bestBy(all.filter(r=>r.day===d))[0])}}};
+function bestBy(list){const m={};for(const r of list)if(!m[r.name]||r.score>m[r.name].score)m[r.name]=r;return Object.values(m).sort((a,b)=>b.score-a.score||a.ts-b.ts)}
+const fmtDay=d=>{const s=String(d);return s.slice(0,4)+'.'+s.slice(4,6)+'.'+s.slice(6,8)};
+const fmtNum=n=>Number(n).toLocaleString();
+
+/* ============================ 기록 / 결과 ============================ */
+function tierOf(s){return s<1500?'네온 입문자':s<5000?'비트 러너':s<12000?'사이버 댄서':s<25000?'리듬 마스터':'네온 레전드'}
+function finishRun(){
+  const R=run;let newBest=false;const best=store.get('nl_best',0);
+  if(R.score>best){newBest=true;store.set('nl_best',R.score)}
+  const rec={id:Date.now()+'-'+Math.random().toString(36).slice(2,6),name:player||'러너',score:R.score,dist:R.final,combo:R.maxCombo,day:dayKey(),ts:Date.now()};
+  if(R.daily)Rank.submit(rec);
+  lastResult={daily:R.daily,score:R.score,dist:R.final,maxCombo:R.maxCombo,perfect:R.perfect,good:R.good,orbs:R.orbs,newBest,bpm:Math.round(R.bpm),name:rec.name}
+}
+async function showOver(){
+  const r=lastResult;$('rS').textContent=fmtNum(r.score);
+  $('rBadge').innerHTML=r.newBest?'<span class="badge">NEW RECORD!</span>':'';$('rTier').textContent='칭호 · '+tierOf(r.score);
+  $('rStat').innerHTML='<span>🏃 거리 <b>'+r.dist+'</b>m</span><span>🔥 최대 콤보 <b>'+r.maxCombo+'</b></span><span>✨ PERFECT <b>'+r.perfect+'</b></span><span>◆ 노트 <b>'+r.orbs+'</b></span><span>🎵 BPM <b>'+r.bpm+'</b></span>';
+  if(r.daily){const list=await Rank.daily(dayKey()),idx=list.findIndex(x=>x.name===r.name);
+    $('rRank').innerHTML='오늘의 곡 <b>'+(idx+1)+'위</b> / '+list.length+'명'+(Rank.mode==='local'?' <span style="color:#8a7fc0;font-size:11px">(이 기기 기준)</span>':'')}
+  else $('rRank').textContent='프리 플레이는 랭킹에 반영되지 않아요';
+  show('result')}
+
+/* ============================ 화면 / 앱 UI ============================ */
+const $=id=>document.getElementById(id);
+let screen='home',paused=false,player=store.get('nl_name','');
+function show(id){screen=id;document.querySelectorAll('.screen').forEach(s=>s.classList.toggle('on',s.id===id));if(id==='game')requestAnimationFrame(fit);if(id==='rank')renderRank();if(id==='settings')refreshSettings();if(id==='home')refreshHome()}
+async function refreshHome(){
+  $('hBest').textContent=fmtNum(store.get('nl_best',0));$('hName').textContent=player||'미설정';
+  const mine=Rank.runs().filter(r=>r.day===dayKey()&&r.name===player).map(r=>r.score);$('hToday').textContent=mine.length?fmtNum(Math.max(...mine)):'-'}
+function askName(cb){const m=$('nameModal');$('nameInput').value=player||'';$('nameErr').textContent='';m.classList.add('on');
+  $('nameOk').onclick=()=>{const v=$('nameInput').value.trim().replace(/[<>&"']/g,'').slice(0,10);if(v.length<2){$('nameErr').textContent='2~10자로 입력해 주세요';return}player=v;store.set('nl_name',v);m.classList.remove('on');refreshHome();cb&&cb()};
+  $('nameCancel').onclick=()=>m.classList.remove('on')}
+function startRun(daily){
+  if(daily&&!player){askName(()=>startRun(true));return}
+  initAudio();run=newRun(daily);nextStep=-8;mode='ready';pendingOver=0;paused=false;$('pauseModal').classList.remove('on');show('game')}
+function toMenu(){mode='menu';paused=false;$('pauseModal').classList.remove('on');show('home')}
+function pause(){if(paused||(mode!=='play'&&mode!=='ready'))return;paused=true;if(AC&&AC.state==='running')AC.suspend();$('pauseModal').classList.add('on')}
+function resume(){if(!paused)return;paused=false;$('pauseModal').classList.remove('on');if(AC)AC.resume();lastT=performance.now()}
+
+/* 랭킹 화면 */
+let rankTab='daily',rankTimer=null;
+const MEDAL=['🥇','🥈','🥉'];
+function rowHtml(rk,name,sc,me,dt){const li=document.createElement('li');if(me)li.className='me';
+  const a=document.createElement('span');a.className='rk';a.textContent=rk<=3?MEDAL[rk-1]:rk;const b=document.createElement('span');b.className='nm';b.textContent=name;
+  li.append(a,b);if(dt){const d=document.createElement('span');d.className='dt';d.textContent=dt;li.append(d)}const c=document.createElement('span');c.className='sc';c.textContent=fmtNum(sc);li.append(c);return li}
+function untilMidnight(){const n=new Date(),m=new Date(n.getFullYear(),n.getMonth(),n.getDate()+1),s=Math.floor((m-n)/1000),p=x=>String(x).padStart(2,'0');return p(Math.floor(s/3600))+':'+p(Math.floor(s%3600/60))+':'+p(s%60)}
+async function renderRank(){
+  $('tabD').classList.toggle('on',rankTab==='daily');$('tabH').classList.toggle('on',rankTab==='hof');
+  const body=$('rankBody'),me=$('rankMe');body.innerHTML='';me.innerHTML='';
+  if(Rank.mode==='local'){const n=document.createElement('div');n.className='note';n.textContent='현재는 이 기기에 저장된 기록으로 순위를 매깁니다. 서버가 연결되면 모든 플레이어의 전체 랭킹으로 바뀌어요.';body.append(n)}
+  if(rankTab==='daily'){
+    const list=await Rank.daily(dayKey());
+    const info=document.createElement('div');info.className='rinfo';info.innerHTML='<span>'+fmtDay(dayKey())+' · 오늘의 곡</span><span>마감까지 <b id="rkLeft">'+untilMidnight()+'</b></span>';body.append(info);
+    if(!list.length){const e=document.createElement('div');e.className='empty';e.innerHTML='아직 오늘의 기록이 없어요.<br>첫 번째 기록의 주인공이 되어보세요!';body.append(e)}
+    else{const ol=document.createElement('ol');ol.className='rl';list.forEach((r,i)=>ol.append(rowHtml(i+1,r.name,r.score,r.name===player)));body.append(ol)}
+    const idx=list.findIndex(r=>r.name===player);
+    if(player){const ol=document.createElement('ol');ol.className='rl';ol.append(idx>=0?rowHtml(idx+1,player+' (나)',list[idx].score,true):rowHtml('-',player+' (나)',0,true));me.append(ol)}
+    clearInterval(rankTimer);rankTimer=setInterval(()=>{const el=$('rkLeft');if(el&&screen==='rank'&&rankTab==='daily')el.textContent=untilMidnight();else clearInterval(rankTimer)},1000)}
+  else{
+    const h=await Rank.hof();
+    const t1=document.createElement('div');t1.className='sec';t1.textContent='🏆 역대 최고 기록 TOP 20';body.append(t1);
+    if(!h.top.length){const e=document.createElement('div');e.className='empty';e.textContent='아직 명예의 전당에 오른 기록이 없어요';body.append(e)}
+    else{const ol=document.createElement('ol');ol.className='rl';h.top.forEach((r,i)=>ol.append(rowHtml(i+1,r.name,r.score,r.name===player,fmtDay(r.day).slice(2))));body.append(ol)}
+    const t2=document.createElement('div');t2.className='sec';t2.textContent='👑 일일 챔피언 (최근 30일)';body.append(t2);
+    if(!h.champs.length){const e=document.createElement('div');e.className='empty';e.textContent='아직 챔피언이 없어요';body.append(e)}
+    else{const ol=document.createElement('ol');ol.className='rl';h.champs.forEach(r=>{const li=rowHtml('👑',r.name,r.score,r.name===player,fmtDay(r.day).slice(2));ol.append(li)});body.append(ol)}
+    clearInterval(rankTimer)}
+}
+/* 설정 */
+function refreshSettings(){$('setName').value=player;$('syV').textContent=(sync>0?'+':'')+sync+'ms';paintMute()}
+function paintMute(){$('muteBtn').textContent=muted?'🔇 OFF':'🔊 ON';if(master)master.gain.value=muted?0:.55}
+function saveName(){const v=$('setName').value.trim().replace(/[<>&"']/g,'').slice(0,10);if(v.length>=2){player=v;store.set('nl_name',v)}else $('setName').value=player}
+
 /* ============================ 루프 / 입력 ============================ */
-function fit(){const st=document.getElementById('stage'),aw=st.clientWidth-8,ah=st.clientHeight-8,dpr=Math.min(window.devicePixelRatio||1,3);
+function fit(){const st=$('stage'),aw=st.clientWidth-8,ah=st.clientHeight-8,dpr=Math.min(window.devicePixelRatio||1,3);if(aw<=0||ah<=0)return;
   const s=Math.min(aw/W,ah/H,3);const cw=Math.floor(W*s),ch=Math.floor(H*s);cv.style.width=cw+'px';cv.style.height=ch+'px';cv.width=Math.round(cw*dpr);cv.height=Math.round(ch*dpr);SC=cv.width/W;cx.setTransform(SC,0,0,SC,0,0)}
-addEventListener('resize',fit);fit();
-function loop(t){const dt=Math.min(.05,(t-lastT)/1000||0);lastT=t;if(mode==='menu'){run.beat+=dt*1.4;run.bpm=84}else update(dt);render();requestAnimationFrame(loop)}
-function bindBtn(id,fn){const b=document.getElementById(id);
-  b.addEventListener('pointerdown',e=>{e.preventDefault();b.classList.add('on');fn()});
+addEventListener('resize',fit);
+function loop(t){const dt=Math.min(.05,(t-lastT)/1000||0);lastT=t;if(mode!=='menu'&&run){if(!paused)update(dt);if(screen==='game')render()}requestAnimationFrame(loop)}
+function bindBtn(id,fn){const b=$(id);
+  b.addEventListener('pointerdown',e=>{e.preventDefault();b.classList.add('on');if(!paused)fn()});
   ['pointerup','pointercancel','pointerleave'].forEach(ev=>b.addEventListener(ev,()=>b.classList.remove('on')));b.addEventListener('contextmenu',e=>e.preventDefault())}
 bindBtn('bl',()=>moveLane(-1));bindBtn('br',()=>moveLane(1));bindBtn('bj',doJump);
 const KEYS={ArrowLeft:'bl',a:'bl',A:'bl',ArrowRight:'br',d:'br',D:'br',' ':'bj',ArrowUp:'bj',w:'bj',W:'bj'};
-addEventListener('keydown',e=>{if(e.repeat)return;const id=KEYS[e.key];if(!id)return;e.preventDefault();document.getElementById(id).classList.add('on');id==='bl'?moveLane(-1):id==='br'?moveLane(1):doJump()});
-addEventListener('keyup',e=>{const id=KEYS[e.key];if(id)document.getElementById(id).classList.remove('on')});
-const muteBtn=document.getElementById('mute');
-function paintMute(){muteBtn.textContent=muted?'🔇':'🔊';if(master)master.gain.value=muted?0:.55}
-muteBtn.onclick=()=>{muted=!muted;store.set('nl_mute',muted);paintMute()};paintMute();
-document.getElementById('goDaily').onclick=()=>startRun(true);
-document.getElementById('goFree').onclick=()=>startRun(false);
-document.getElementById('again').onclick=()=>startRun(lastResult?lastResult.daily:true);
-document.getElementById('toMenu').onclick=toMenu;
-document.getElementById('syM').onclick=()=>{sync=clamp(sync-10,-300,300);store.set('nl_sync',sync);buildMenu()};
-document.getElementById('syP').onclick=()=>{sync=clamp(sync+10,-300,300);store.set('nl_sync',sync);buildMenu()};
-document.getElementById('share').onclick=async()=>{const r=lastResult,txt='🌈 네온 레인 '+r.score.toLocaleString()+'점! 최대 콤보 '+r.maxCombo+' ('+tierOf(r.score)+') 당신도 도전해보세요 → '+location.href;
-  try{if(navigator.share){await navigator.share({text:txt})}else{await navigator.clipboard.writeText(txt);document.getElementById('share').textContent='복사됨!'}}catch(e){}};
+addEventListener('keydown',e=>{if(e.repeat)return;if(e.key==='Escape'||e.key==='p'||e.key==='P'){if(screen==='game')paused?resume():pause();return}
+  if(screen!=='game'||paused)return;const id=KEYS[e.key];if(!id)return;e.preventDefault();$(id).classList.add('on');id==='bl'?moveLane(-1):id==='br'?moveLane(1):doJump()});
+addEventListener('keyup',e=>{const id=KEYS[e.key];if(id)$(id).classList.remove('on')});
+document.addEventListener('visibilitychange',()=>{if(document.hidden&&screen==='game')pause()});
 document.addEventListener('contextmenu',e=>e.preventDefault());
-toMenu();requestAnimationFrame(loop);
+
+$('goDaily').onclick=()=>startRun(true);$('goFree').onclick=()=>startRun(false);
+$('goRank').onclick=()=>{rankTab='daily';show('rank')};$('goHelp').onclick=()=>show('help');$('goSet').onclick=()=>show('settings');
+$('rankBack').onclick=()=>{clearInterval(rankTimer);show('home')};$('helpBack').onclick=()=>show('home');$('setBack').onclick=()=>{saveName();show('home')};
+$('tabD').onclick=()=>{rankTab='daily';renderRank()};$('tabH').onclick=()=>{rankTab='hof';renderRank()};
+$('pauseBtn').onclick=pause;$('pResume').onclick=resume;$('pRestart').onclick=()=>{const d=run.daily;startRun(d)};$('pHome').onclick=toMenu;
+$('again').onclick=()=>startRun(lastResult?lastResult.daily:true);$('rHome').onclick=toMenu;$('rGoRank').onclick=()=>{rankTab='daily';show('rank')};
+$('muteBtn').onclick=()=>{muted=!muted;store.set('nl_mute',muted);paintMute()};
+$('syM').onclick=()=>{sync=clamp(sync-10,-300,300);store.set('nl_sync',sync);refreshSettings()};
+$('syP').onclick=()=>{sync=clamp(sync+10,-300,300);store.set('nl_sync',sync);refreshSettings()};
+$('setName').addEventListener('change',saveName);
+$('share').onclick=async()=>{const r=lastResult,txt='🌈 네온 레인 '+fmtNum(r.score)+'점! 최대 콤보 '+r.maxCombo+' ('+tierOf(r.score)+') 당신도 도전해보세요 → '+location.href.split('?')[0];
+  try{if(navigator.share){await navigator.share({text:txt})}else{await navigator.clipboard.writeText(txt);$('share').textContent='복사됨!'}}catch(e){}};
+
+/* PWA: 설치 버튼 / 서비스워커 */
+let deferredPrompt=null;
+addEventListener('beforeinstallprompt',e=>{e.preventDefault();deferredPrompt=e;$('installRow').style.display=''});
+$('installBtn').onclick=async()=>{if(!deferredPrompt)return;deferredPrompt.prompt();try{await deferredPrompt.userChoice}catch(e){}deferredPrompt=null;$('installRow').style.display='none'};
+addEventListener('appinstalled',()=>{$('installRow').style.display='none'});
+if('serviceWorker' in navigator&&(location.protocol==='https:'||location.hostname==='localhost')){addEventListener('load',()=>navigator.serviceWorker.register('sw.js').catch(()=>{}))}
+
+run=newRun(true);refreshHome();requestAnimationFrame(loop);
 </script>
 </body>
 </html>
