@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">네온 레인</string>
+    <string name="title_activity_main">네온 레인</string>
+    <string name="package_name">com.jackeychankey.neonlane</string>
+    <string name="custom_url_scheme">com.jackeychankey.neonlane</string>
+</resources>

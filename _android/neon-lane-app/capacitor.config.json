@@ -1,0 +1,8 @@
+{
+  "appId": "com.jackeychankey.neonlane",
+  "appName": "네온 레인",
+  "webDir": "www",
+  "backgroundColor": "#05010d",
+  "appendUserAgent": "NeonLaneApp/1.0",
+  "android": { "allowMixedContent": false }
+}
