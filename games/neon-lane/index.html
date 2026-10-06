@@ -181,6 +181,7 @@ input{font:inherit;user-select:text;-webkit-user-select:text}
   <div class="body">
     <div class="field"><div>닉네임<small>랭킹에 표시되는 이름 (2~10자)</small></div><input id="setName" maxlength="10" autocomplete="off"></div>
     <div class="field"><div>사운드<small>음악과 효과음</small></div><button class="sw" id="muteBtn">🔊 ON</button></div>
+    <div class="field"><div>눈 편한 모드<small>화면 흔들림·번쩍임·배경 깜빡임 줄이기</small></div><button class="sw" id="calmBtn">🌙 ON</button></div>
     <div class="field"><div>싱크 보정<small>소리가 늦게 들리면 +</small></div><div class="step"><button id="syM">−</button><b id="syV">0ms</b><button id="syP">+</button></div></div>
     <div class="field" id="adPrivRow" style="display:none"><div>광고 개인정보 설정<small>광고 동의 선택을 변경</small></div><button class="btn" id="adPrivBtn" style="padding:10px 16px">변경</button></div>
     <div class="field" id="installRow" style="display:none"><div>앱 설치<small>홈 화면에 추가해서 앱처럼 실행</small></div><button class="btn" id="installBtn" style="padding:10px 16px">설치</button></div>
@@ -195,7 +196,7 @@ input{font:inherit;user-select:text;-webkit-user-select:text}
     <ul class="how">
       <li>빛이 <b>빨·주·노·초 4개 차선</b>을 달려요. ◀ ▶ 로 차선을 옮기고 <b>JUMP</b>로 낮은 바를 넘어요</li>
       <li><b>박자에 맞춰</b> 움직이면 PERFECT! 콤보와 점수 배수가 올라가요. 박자를 놓쳐도 죽지 않아요</li>
-      <li>음표 블록에 <b>한 번 부딪히면 끝</b>. 달릴수록 <b>BPM과 속도가 점점 빨라져요</b>(느리게 시작)</li>
+      <li>음표 블록에 <b>한 번 부딪히면 끝</b>. 달릴수록 <b>BPM과 속도가 점점 빨라져요</b>(적당한 속도로 시작)</li>
       <li>⚡ <b>이벤트</b>: 화면이 가로로 돌아가거나(좌→우 / 우→좌) 위아래로 뒤집혀요. 버튼은 <b>진행 방향 기준 ◀=왼쪽</b>이에요 (이벤트1 ◀=위, 이벤트2 ◀=아래, 이벤트3 ◀=오른쪽)</li>
       <li>차선 위 <b>◆ 노트</b>를 먹으면 보너스!</li>
       <li>🏆 <b>오늘의 곡</b>은 모두 같은 곡이라 <b>일일 랭킹</b>에 반영돼요. 일일 1위 기록은 <b>명예의 전당</b>에 남아요. 프리 플레이는 랭킹에 반영되지 않아요</li>
@@ -241,7 +242,7 @@ function laneColor(x,a){const f=clamp((x-RX-LW/2)/LW,0,3),i=Math.min(2,Math.floo
   return 'rgba('+Math.round(A[0]+(B[0]-A[0])*t)+','+Math.round(A[1]+(B[1]-A[1])*t)+','+Math.round(A[2]+(B[2]-A[2])*t)+','+a+')'}
 
 /* ============================ 사운드 (합성 음악) ============================ */
-let AC=null,master=null,noiseBuf=null,muted=store.get('nl_mute',false),nextStep=-8;
+let AC=null,master=null,noiseBuf=null,muted=store.get('nl_mute',false),calm=store.get('nl_calm',true),nextStep=-8;
 function initAudio(){if(AC){if(AC.state==='suspended')AC.resume();return}
   try{AC=new(window.AudioContext||window.webkitAudioContext)();master=AC.createGain();master.gain.value=muted?0:.55;master.connect(AC.destination);
     const len=AC.sampleRate*.5,buf=AC.createBuffer(1,len,AC.sampleRate),d=buf.getChannelData(0);for(let i=0;i<len;i++)d[i]=Math.random()*2-1;noiseBuf=buf}catch(e){AC=null}}
@@ -307,10 +308,10 @@ const Ads=(()=>{
   }})();
 let mode='menu',run=null,lastT=0,pendingOver=0,sync=store.get('nl_sync',0),lastResult=null;
 const dayKey=()=>{const n=new Date();return n.getFullYear()*10000+(n.getMonth()+1)*100+n.getDate()};
-const bpmAt=b=>Math.min(200,84+Math.max(0,b)*.3);            // 느리게 시작해서 점점 빨라짐: 84 → 200 BPM
+const BPM0=112,bpmAt=b=>Math.min(200,BPM0+Math.max(0,b)*.4);   // 112 BPM 에서 시작해 점점 빨라짐 (beat 220 부근에서 200 BPM)
 function newRun(daily){
   resetChart(daily?(dayKey()^0x4e4c):(Math.random()*1e9|0));
-  return{daily,beat:-4,bpm:100,lane:1,lf:1,o:0,e:0,banner:null,tj:-1,score:0,combo:0,maxCombo:0,perfect:0,good:0,miss:0,orbs:0,trail:[],parts:[],pops:[],jd:null,shake:0,flash:0,dead:false,lastBeatInt:-5,tier:8,t:0,final:0}
+  return{daily,beat:-4,bpm:100,lane:1,lf:1,o:0,e:0,banner:null,tj:-1,score:0,combo:0,maxCombo:0,perfect:0,good:0,miss:0,orbs:0,trail:[],parts:[],pops:[],jd:null,shake:0,flash:0,dead:false,lastBeatInt:-5,tier:11,t:0,final:0}
 }
 const mult=R=>Math.min(8,1+Math.floor(R.combo/8));
 function pop(R,x,y,t,c,s){R.pops.push({x,y,t,c,s:s||6,life:.8})}
@@ -334,13 +335,13 @@ function update(dt){
   for(let i=R.pops.length-1;i>=0;i--){const p=R.pops[i];p.life-=dt;p.y-=18*dt;if(p.life<=0)R.pops.splice(i,1)}
   R.shake=Math.max(0,R.shake-dt);R.flash=Math.max(0,R.flash-dt*2.2);if(R.jd){R.jd.t-=dt;if(R.jd.t<=0)R.jd=null}
   if(mode==='over'){pendingOver-=dt;if(pendingOver<=0&&pendingOver>-5){pendingOver=-9;showOver()}return}
-  R.bpm=mode==='ready'?84:bpmAt(R.beat)*(1-.1*ease(R.e));      // 회전 이벤트 중에는 BPM을 10% 낮춤
+  R.bpm=mode==='ready'?BPM0:bpmAt(R.beat)*(1-.1*ease(R.e));      // 회전 이벤트 중에는 BPM을 10% 낮춤
   R.beat+=dt*R.bpm/60;
   if(mode==='play'){const tr=Math.floor(R.bpm/10);if(tr>R.tier){R.tier=tr;R.speedUp=1;pop(R,80,PY-70,'SPEED UP!  '+tr*10+' BPM','#ffe600',7);if(AC)tone('square',440,AC.currentTime,.12,.08,880)}}
   R.lf+=(R.lane-R.lf)*Math.min(1,dt*30);
   {const tg=orientAt(R.beat+.25);
-    if(tg){if(R.o!==tg&&R.o===0){R.o=tg;R.banner={k:tg,t:2.8};R.flash=.55;R.shake=.35;if(AC)tone('square',200,AC.currentTime,.25,.1,900)}R.e=Math.min(1,R.e+dt*1.8)}
-    else{R.e=Math.max(0,R.e-dt*1.8);if(R.e===0)R.o=0}
+    if(tg){if(R.o!==tg&&R.o===0){R.o=tg;R.banner={k:tg,t:2.8};R.flash=.55;R.shake=.35;if(AC)tone('square',200,AC.currentTime,.25,.1,900)}R.e=Math.min(1,R.e+dt*(calm?1.1:1.8))}
+    else{R.e=Math.max(0,R.e-dt*(calm?1.1:1.8));if(R.e===0)R.o=0}
     if(R.banner){R.banner.t-=dt;if(R.banner.t<=0)R.banner=null}}
   if(R.tj>=0){R.tj+=dt*R.bpm/60;if(R.tj>JB)R.tj=-1}
   const h=R.tj>=0?Math.sin(Math.PI*R.tj/JB)*14:0;R.trail.push({b:R.beat,lf:R.lf,h});while(R.trail.length&&R.trail[0].b<R.beat-5)R.trail.shift();
@@ -368,7 +369,7 @@ const laneCol=(lf,a)=>laneColor(RX+LW*lf+LW/2,a);
 function glowLine(x0,y0,x1,y1,col,w,blur){cx.strokeStyle=col;cx.lineWidth=w;cx.shadowColor=col;cx.shadowBlur=blur;cx.beginPath();cx.moveTo(x0,y0);cx.lineTo(x1,y1);cx.stroke();cx.shadowBlur=0}
 function drawBg(R){
   cx.fillStyle='#04010b';cx.fillRect(0,0,W,H);
-  const pulse=1-(((R.beat%1)+1)%1),t=ease(R.e);
+  const pulse=(1-(((R.beat%1)+1)%1))*(calm?.3:1),t=ease(R.e);
   let g=cx.createRadialGradient(80,40,5,80,60,190);g.addColorStop(0,'rgba(90,30,170,'+(.28+.12*pulse)+')');g.addColorStop(.5,'rgba(20,60,120,.12)');g.addColorStop(1,'rgba(0,0,0,0)');cx.fillStyle=g;cx.fillRect(0,0,W,H);
   // 데이터 스트림 (세로 ↔ 가로)
   const sp=R.beat*BP*(R.o===3?-1:1),dir=R.o===2?-1:1,hz=R.o===1||R.o===2,va=hz?1-t:1;
@@ -424,11 +425,11 @@ function drawHud(R){
   for(const p of R.pops){cx.globalAlpha=clamp(p.life/.8,0,1);T(p.t,p.x,p.y,{s:p.s,a:'center',c:p.c,glow:p.c,gb:6});cx.globalAlpha=1}
 }
 function render(){
-  const R=run;cx.save();if(R.shake>0)cx.translate((Math.random()-.5)*4*R.shake,(Math.random()-.5)*4*R.shake);
+  const R=run;cx.save();if(R.shake>0&&!calm)cx.translate((Math.random()-.5)*4*R.shake,(Math.random()-.5)*4*R.shake);
   drawBg(R);if(mode!=='menu'){drawChart(R);drawTrail(R)}drawPlayer(R);
   for(const p of R.parts){cx.globalAlpha=clamp(p.life/p.max,0,1);cx.fillStyle=p.c;cx.shadowColor=p.c;cx.shadowBlur=5;cx.fillRect(p.x,p.y,p.s,p.s)}cx.globalAlpha=1;cx.shadowBlur=0;
   cx.restore();
-  if(R.flash>0){cx.fillStyle='rgba(255,255,255,'+(R.flash*.5)+')';cx.fillRect(0,0,W,H)}
+  if(R.flash>0){cx.fillStyle='rgba(255,255,255,'+(R.flash*(calm?.12:.5))+')';cx.fillRect(0,0,W,H)}
   const vg=cx.createRadialGradient(80,H/2,90,80,H/2,200);vg.addColorStop(0,'rgba(0,0,0,0)');vg.addColorStop(1,'rgba(0,0,0,.55)');cx.fillStyle=vg;cx.fillRect(0,0,W,H);
   if(mode!=='menu')drawHud(R);
   if(mode==='ready'){const n=Math.ceil(-R.beat);const lab=n>=4?'READY':n===3?'3':n===2?'2':n===1?'1':'GO!';T(lab,80,96,{s:lab==='READY'?18:40,a:'center',g:['#ffffff','#27f3ff'],glow:'#27f3ff',gb:16});T('박자에 맞춰 ◀ ▶',80,160,{s:6.4,a:'center',c:'#dcd6ff'})}
@@ -551,7 +552,8 @@ async function renderRank(){
     clearInterval(rankTimer)}
 }
 /* 설정 */
-function refreshSettings(){$('adPrivRow').style.display=Ads.privacy?'':'none';$('setName').value=player;$('syV').textContent=(sync>0?'+':'')+sync+'ms';paintMute()}
+function refreshSettings(){paintCalm();$('adPrivRow').style.display=Ads.privacy?'':'none';$('setName').value=player;$('syV').textContent=(sync>0?'+':'')+sync+'ms';paintMute()}
+function paintCalm(){$('calmBtn').textContent=calm?'🌙 ON':'OFF'}
 function paintMute(){$('muteBtn').textContent=muted?'🔇 OFF':'🔊 ON';if(master)master.gain.value=muted?0:.55}
 function saveName(){const v=$('setName').value.trim().replace(/[<>&"']/g,'').slice(0,10);if(v.length>=2){const ch=v!==player;player=v;store.set('nl_name',v);if(ch)Rank.rename()}else $('setName').value=player}
 
@@ -578,6 +580,7 @@ $('tabD').onclick=()=>{rankTab='daily';renderRank()};$('tabH').onclick=()=>{rank
 $('pauseBtn').onclick=pause;$('pResume').onclick=resume;$('pRestart').onclick=()=>{const d=run.daily;startRun(d)};$('pHome').onclick=toMenu;
 $('again').onclick=()=>startRun(lastResult?lastResult.daily:true);$('rHome').onclick=toMenu;$('rGoRank').onclick=()=>{rankTab='daily';show('rank')};
 $('adPrivBtn').onclick=()=>Ads.showPrivacy();
+$('calmBtn').onclick=()=>{calm=!calm;store.set('nl_calm',calm);paintCalm()};
 $('muteBtn').onclick=()=>{muted=!muted;store.set('nl_mute',muted);paintMute()};
 $('syM').onclick=()=>{sync=clamp(sync-10,-300,300);store.set('nl_sync',sync);refreshSettings()};
 $('syP').onclick=()=>{sync=clamp(sync+10,-300,300);store.set('nl_sync',sync);refreshSettings()};
