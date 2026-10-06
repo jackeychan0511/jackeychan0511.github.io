@@ -1,2 +1,7 @@
 .venv-blog/
 _site/
+_android/**/out/
+*.jks
+keystore-info.txt
+*.aab
+*.apk
