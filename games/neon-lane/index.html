@@ -196,7 +196,7 @@ input{font:inherit;user-select:text;-webkit-user-select:text}
     <ul class="how">
       <li>빛이 <b>빨·주·노·초 4개 차선</b>을 달려요. ◀ ▶ 로 차선을 옮기고 <b>JUMP</b>로 낮은 바를 넘어요</li>
       <li><b>박자에 맞춰</b> 움직이면 PERFECT! 콤보와 점수 배수가 올라가요. 박자를 놓쳐도 죽지 않아요</li>
-      <li>음표 블록에 <b>한 번 부딪히면 끝</b>. 달릴수록 <b>BPM과 속도가 점점 빨라져요</b>(느리게 시작)</li>
+      <li>음표 블록에 <b>한 번 부딪히면 끝</b>. 달릴수록 <b>BPM과 속도가 점점 빨라져요</b>(적당한 속도로 시작)</li>
       <li>⚡ <b>이벤트</b>: 화면이 가로로 돌아가거나(좌→우 / 우→좌) 위아래로 뒤집혀요. 버튼은 <b>진행 방향 기준 ◀=왼쪽</b>이에요 (이벤트1 ◀=위, 이벤트2 ◀=아래, 이벤트3 ◀=오른쪽)</li>
       <li>차선 위 <b>◆ 노트</b>를 먹으면 보너스!</li>
       <li>🏆 <b>오늘의 곡</b>은 모두 같은 곡이라 <b>일일 랭킹</b>에 반영돼요. 일일 1위 기록은 <b>명예의 전당</b>에 남아요. 프리 플레이는 랭킹에 반영되지 않아요</li>
@@ -308,10 +308,10 @@ const Ads=(()=>{
   }})();
 let mode='menu',run=null,lastT=0,pendingOver=0,sync=store.get('nl_sync',0),lastResult=null;
 const dayKey=()=>{const n=new Date();return n.getFullYear()*10000+(n.getMonth()+1)*100+n.getDate()};
-const bpmAt=b=>Math.min(200,84+Math.max(0,b)*.3);            // 느리게 시작해서 점점 빨라짐: 84 → 200 BPM
+const BPM0=112,bpmAt=b=>Math.min(200,BPM0+Math.max(0,b)*.4);   // 112 BPM 에서 시작해 점점 빨라짐 (beat 220 부근에서 200 BPM)
 function newRun(daily){
   resetChart(daily?(dayKey()^0x4e4c):(Math.random()*1e9|0));
-  return{daily,beat:-4,bpm:100,lane:1,lf:1,o:0,e:0,banner:null,tj:-1,score:0,combo:0,maxCombo:0,perfect:0,good:0,miss:0,orbs:0,trail:[],parts:[],pops:[],jd:null,shake:0,flash:0,dead:false,lastBeatInt:-5,tier:8,t:0,final:0}
+  return{daily,beat:-4,bpm:100,lane:1,lf:1,o:0,e:0,banner:null,tj:-1,score:0,combo:0,maxCombo:0,perfect:0,good:0,miss:0,orbs:0,trail:[],parts:[],pops:[],jd:null,shake:0,flash:0,dead:false,lastBeatInt:-5,tier:11,t:0,final:0}
 }
 const mult=R=>Math.min(8,1+Math.floor(R.combo/8));
 function pop(R,x,y,t,c,s){R.pops.push({x,y,t,c,s:s||6,life:.8})}
@@ -335,7 +335,7 @@ function update(dt){
   for(let i=R.pops.length-1;i>=0;i--){const p=R.pops[i];p.life-=dt;p.y-=18*dt;if(p.life<=0)R.pops.splice(i,1)}
   R.shake=Math.max(0,R.shake-dt);R.flash=Math.max(0,R.flash-dt*2.2);if(R.jd){R.jd.t-=dt;if(R.jd.t<=0)R.jd=null}
   if(mode==='over'){pendingOver-=dt;if(pendingOver<=0&&pendingOver>-5){pendingOver=-9;showOver()}return}
-  R.bpm=mode==='ready'?84:bpmAt(R.beat)*(1-.1*ease(R.e));      // 회전 이벤트 중에는 BPM을 10% 낮춤
+  R.bpm=mode==='ready'?BPM0:bpmAt(R.beat)*(1-.1*ease(R.e));      // 회전 이벤트 중에는 BPM을 10% 낮춤
   R.beat+=dt*R.bpm/60;
   if(mode==='play'){const tr=Math.floor(R.bpm/10);if(tr>R.tier){R.tier=tr;R.speedUp=1;pop(R,80,PY-70,'SPEED UP!  '+tr*10+' BPM','#ffe600',7);if(AC)tone('square',440,AC.currentTime,.12,.08,880)}}
   R.lf+=(R.lane-R.lf)*Math.min(1,dt*30);
