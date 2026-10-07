@@ -472,15 +472,16 @@ function makeFirebase(cfg,sdkLoader){
     async hof(){const f=await load();
       const [top,...days]=await Promise.all([q(f,'all',20),...recentDays(14).map(d=>q(f,'d'+d,1))]);   // 챔피언 = 최근 14일 각 일일 보드의 1위
       return{top:top.docs.map(pick),champs:days.map(s=>s.docs[0]&&pick(s.docs[0])).filter(Boolean)}}}}
-const Rank={remote:null,uid:null,mode:'local',   // mode: local(미설정) | firebase(연결됨) | offline(연결 실패, 로컬 표시)
+const errOf=e=>String((e&&(e.code||e.message))||e).replace(/^.*\//,'').slice(0,48);
+const Rank={remote:null,err:'',uid:null,mode:'local',   // mode: local(미설정) | firebase(연결됨) | offline(연결 실패, 로컬 표시)
   runs(){return Local.runs()},
-  init(){const c=window.NL_FIREBASE;if(c&&c.projectId&&c.apiKey){this.remote=makeFirebase(c);this.mode='firebase';this.remote.uid().then(u=>{this.uid=u;this.flush()}).catch(()=>{this.mode='offline'})}},
+  init(){const c=window.NL_FIREBASE;if(c&&c.projectId&&c.apiKey){this.remote=makeFirebase(c);this.mode='firebase';this.remote.uid().then(u=>{this.uid=u;this.flush()}).catch(e=>{this.mode='offline';this.err=errOf(e)})}},
   isMe(r){return r.uid?r.uid===this.uid:r.name===player},
-  async submit(rec){await Local.submit(rec);if(!this.remote)return;try{await this.remote.submit(rec);this.uid=await this.remote.uid();this.mode='firebase'}catch(e){this.mode='offline';const q=store.get('nl_pending',[]);q.push(rec);store.set('nl_pending',q.slice(-20))}},
+  async submit(rec){await Local.submit(rec);if(!this.remote)return;try{await this.remote.submit(rec);this.uid=await this.remote.uid();this.mode='firebase'}catch(e){this.mode='offline';this.err=errOf(e);const q=store.get('nl_pending',[]);q.push(rec);store.set('nl_pending',q.slice(-20))}},
   rename(){if(this.remote&&player)this.remote.rename(player,dayKey()).catch(()=>{})},
   async flush(){const q=store.get('nl_pending',[]);if(!q.length||!this.remote)return;const rest=[];for(const r of q){try{await this.remote.submit(r)}catch(e){rest.push(r)}}store.set('nl_pending',rest)},
-  async daily(day){if(this.remote){try{const l=await this.remote.daily(day);this.uid=await this.remote.uid();this.mode='firebase';return l}catch(e){this.mode='offline'}}return Local.daily(day)},
-  async hof(){if(this.remote){try{const h=await this.remote.hof();this.uid=await this.remote.uid();this.mode='firebase';return h}catch(e){this.mode='offline'}}return Local.hof()}};
+  async daily(day){if(this.remote){try{const l=await this.remote.daily(day);this.uid=await this.remote.uid();this.mode='firebase';return l}catch(e){this.mode='offline';this.err=errOf(e)}}return Local.daily(day)},
+  async hof(){if(this.remote){try{const h=await this.remote.hof();this.uid=await this.remote.uid();this.mode='firebase';return h}catch(e){this.mode='offline';this.err=errOf(e)}}return Local.hof()}};
 let lastSubmit=Promise.resolve();
 function bestBy(list){const m={};for(const r of list)if(!m[r.name]||r.score>m[r.name].score)m[r.name]=r;return Object.values(m).sort((a,b)=>b.score-a.score||a.ts-b.ts)}
 const fmtDay=d=>{const s=String(d);return s.slice(0,4)+'.'+s.slice(4,6)+'.'+s.slice(6,8)};
@@ -532,7 +533,7 @@ async function renderRank(){
   $('tabD').classList.toggle('on',rankTab==='daily');$('tabH').classList.toggle('on',rankTab==='hof');
   const body=$('rankBody'),me=$('rankMe');body.innerHTML='';me.innerHTML='';
   const dispatch=rankTab==='daily'?await Rank.daily(dayKey()):await Rank.hof();
-  if(Rank.mode!=='firebase'){const n=document.createElement('div');n.className='note';n.textContent=Rank.mode==='offline'?'서버에 연결할 수 없어 이 기기에 저장된 기록을 보여드려요. 연결되면 전체 랭킹이 표시됩니다.':'현재는 이 기기에 저장된 기록으로 순위를 매깁니다. 서버가 연결되면 모든 플레이어의 전체 랭킹으로 바뀌어요.';body.append(n)}
+  if(Rank.mode!=='firebase'){const n=document.createElement('div');n.className='note';n.textContent=Rank.mode==='offline'?'서버에 연결할 수 없어 이 기기에 저장된 기록을 보여드려요. 연결되면 전체 랭킹이 표시됩니다.'+(Rank.err?' ['+Rank.err+']':''):'현재는 이 기기에 저장된 기록으로 순위를 매깁니다. 서버가 연결되면 모든 플레이어의 전체 랭킹으로 바뀌어요.';body.append(n)}
   if(rankTab==='daily'){
     const list=dispatch;
     const info=document.createElement('div');info.className='rinfo';info.innerHTML='<span>'+fmtDay(dayKey())+' · 오늘의 곡</span><span>마감까지 <b id="rkLeft">'+untilMidnight()+'</b></span>';body.append(info);
