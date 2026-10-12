@@ -292,7 +292,7 @@ const Ads=(()=>{
   const cap=window.Capacitor,native=!!(cap&&cap.isNativePlatform&&cap.isNativePlatform()),A=native?cap.Plugins.AdMob:null;
   const C=window.NL_ADS||{},T_INT='ca-app-pub-3940256099942544/1033173712',T_BAN='ca-app-pub-3940256099942544/6300978111';
   const test=C.test!==false||!C.interstitial||!C.banner,INT=test?T_INT:C.interstitial,BAN=test?T_BAN:C.banner;
-  const AFTER=2,EVERY=3,GAP=90000;let ready=null,last=0,privacy=false,bannerOn=false;
+  const EVERY=2;let ready=null,pre=null,privacy=false,bannerOn=false;   // 다시 도전 2번에 광고 1번
   function init(){if(!A)return Promise.resolve(false);if(!ready)ready=(async()=>{
     try{const i=await A.requestConsentInfo();if(i.isConsentFormAvailable&&i.status==='REQUIRED')await A.showConsentForm();privacy=i.privacyOptionsRequirementStatus==='REQUIRED'}catch(e){}
     await A.initialize({initializeForTesting:test,maxAdContentRating:'General'});return true})().catch(()=>{ready=null;return false});return ready}
@@ -300,9 +300,19 @@ const Ads=(()=>{
     warm(){init()},
     get privacy(){return privacy},
     showPrivacy(){if(A)A.showPrivacyOptionsForm().catch(()=>{})},
-    async interstitial(){if(!A)return;const n=store.get('nl_plays',0)+1;store.set('nl_plays',n);
-      if(n<=AFTER||(n-AFTER-1)%EVERY||Date.now()-last<GAP)return;
-      try{if(!await init())return;await A.prepareInterstitial({adId:INT});await A.showInterstitial();last=Date.now()}catch(e){}},
+    // 결과화면에서 다음 '다시 도전'에 광고가 나올 차례면 미리 불러 둠(누르는 즉시 표시)
+    preload(){if(!A||pre)return;pre=init().then(ok=>ok?A.prepareInterstitial({adId:INT}).then(()=>true,()=>false):false)},
+    due(){return(store.get('nl_retry',0)+1)%EVERY===0},
+    // '다시 도전' 2번에 1번: 게임을 시작하기 '전에' 전면광고를 보여주고, 닫힌 뒤에 resolve (광고 로딩이 늦으면 4초 후 건너뜀)
+    async gate(){
+      if(!A)return;const n=store.get('nl_retry',0)+1;store.set('nl_retry',n);if(n%EVERY)return;
+      try{
+        this.preload();const ok=await Promise.race([pre,new Promise(r=>setTimeout(()=>r(false),4000))]);pre=null;if(!ok)return;
+        await new Promise(async res=>{const hs=[];let done=false;const fin=()=>{if(done)return;done=true;hs.forEach(h=>{try{h.remove()}catch(e){}});res()};
+          hs.push(await A.addListener('interstitialAdDismissed',fin));hs.push(await A.addListener('interstitialAdFailedToShow',fin));
+          try{await A.showInterstitial()}catch(e){fin()}
+          setTimeout(fin,120000)})
+      }catch(e){}},
     async banner(on){if(!A||on===bannerOn)return;bannerOn=on;document.body.classList.toggle('adb',on);
       try{if(!await init())return;if(on)await A.showBanner({adId:BAN,adSize:'ADAPTIVE_BANNER',position:'BOTTOM_CENTER',margin:0,isTesting:test});else await A.removeBanner()}catch(e){}}
   }})();
@@ -345,10 +355,10 @@ function update(dt){
   if(mode==='over'){pendingOver-=dt;if(pendingOver<=0&&pendingOver>-5){pendingOver=-9;showOver()}return}
   R.bpm=mode==='ready'?BPM0:bpmAt(R.beat)*(1-.1*ease(R.e));      // 회전 이벤트 중에는 BPM을 10% 낮춤
   R.beat+=dt*R.bpm/60;
-  if(mode==='play'){const tr=Math.floor(R.bpm/10);if(tr>R.tier){R.tier=tr;R.speedUp=1;pop(R,80,PY-70,'SPEED UP!  '+tr*10+' BPM','#ffe600',7);if(AC)tone('square',440,AC.currentTime,.12,.08,880)}}
+  if(mode==='play'){const tr=Math.floor(R.bpm/10);if(tr>R.tier){R.tier=tr;R.speedUp=1;pop(R,80,46,'SPEED UP!  '+tr*10+' BPM','#ffe600',6);if(AC)tone('square',440,AC.currentTime,.12,.08,880)}}
   R.lf+=(R.lane-R.lf)*Math.min(1,dt*30);
   {const tg=orientAt(R.beat+.25);
-    if(tg){if(R.o!==tg&&R.o===0){R.o=tg;R.banner={k:tg,t:2.8};R.flash=.55;R.shake=.35;if(AC)tone('square',200,AC.currentTime,.25,.1,900)}R.e=Math.min(1,R.e+dt*(calm?1.1:1.8))}
+    if(tg){if(R.o!==tg&&R.o===0){R.o=tg;R.banner={k:tg,t:2};R.flash=.55;R.shake=.35;if(AC)tone('square',200,AC.currentTime,.25,.1,900)}R.e=Math.min(1,R.e+dt*(calm?1.1:1.8))}
     else{R.e=Math.max(0,R.e-dt*(calm?1.1:1.8));if(R.e===0)R.o=0}
     if(R.banner){R.banner.t-=dt;if(R.banner.t<=0)R.banner=null}}
   if(R.tj>=0){R.tj+=dt*R.bpm/60;if(R.tj>JB)R.tj=-1}
@@ -370,7 +380,8 @@ function update(dt){
 /* ============================ 렌더링 ============================ */
 /* 좌표 변환: lane(실수 가능), b(박) → 화면. R.o: 0=세로, 1=좌→우, 2=우→좌 / R.e: 전환 진행도 */
 function pp(R,lane,b){const f=b-R.beat,t=ease(R.e),vx=RX+LW*lane+LW/2,vy=PY-f*BP;let hx,hy;
-  if(R.o===3){hx=W-vx;hy=H-vy}else{hy=HY0+(R.o===2?3-lane:lane)*HLH+HLH/2;hx=R.o===2?W-HPX-f*HBP:HPX+f*HBP}   // 이벤트2는 이벤트1을 180° 회전: 진행 방향 기준 ◀=왼쪽이 되도록 빨강이 아래
+  if(R.o===3){const th=Math.PI*t,c=Math.cos(th),sn=Math.sin(th),dx=vx-W/2,dy=vy-H/2;return[W/2+dx*c-dy*sn,H/2+dx*sn+dy*c]}   // 상하반전: 중심 기준 180° 회전(전환 중에도 레인이 겹치지 않음)
+  else{hy=HY0+(R.o===2?3-lane:lane)*HLH+HLH/2;hx=R.o===2?W-HPX-f*HBP:HPX+f*HBP}   // 이벤트2는 이벤트1을 180° 회전: 진행 방향 기준 ◀=왼쪽이 되도록 빨강이 아래
   return[vx+(hx-vx)*t,vy+(hy-vy)*t]}
 const PP=(R,lane)=>pp(R,lane,R.beat);
 const laneSp=R=>R.o===3?LW:LW+(HLH-LW)*ease(R.e);
@@ -429,7 +440,7 @@ function drawHud(R){
   if(R.combo>1){const m=mult(R);T(R.combo+' COMBO',80,19.5,{s:6.4,a:'center',c:m>=4?'#ffe600':'#27f3ff',glow:m>=4?'#ffe600':'#27f3ff',gb:8});if(m>1)T('x'+m,80,27,{s:5,a:'center',c:'#ff8ae9',glow:'#ff2bd6'})}
   if(R.jd){const a=clamp(R.jd.t/.5,0,1);cx.globalAlpha=a;T(R.jd.txt,80,PY-34+((R.o===3?H-(PY-34)-8:HY0+4*HLH+8)-(PY-34))*ease(R.e)-(1-a)*6,{s:8,a:'center',c:R.jd.c,glow:R.jd.c,gb:10});cx.globalAlpha=1}
   {const nx=orientAt(R.beat+3);if(R.o===0&&nx&&mode==='play'&&((R.beat*2)|0)%2===0)T(nx===1?'곧 가로 전환 ▶':nx===2?'곧 가로 전환 ◀':'곧 화면 뒤집힘!  ◀▶ 반전',80,34,{s:7,a:'center',c:'#ff8ae9',glow:'#ff2bd6',gb:10})}
-  if(R.banner){const b=R.banner,a=clamp(Math.min(b.t/.5,(2.8-b.t)/.2),0,1);cx.globalAlpha=a;const by=b.k===3?66:0;T('EVENT '+b.k,80,38+by,{s:11,a:'center',g:['#ffffff','#ff8ae9'],glow:'#ff2bd6',gb:12});
+  if(R.banner){const b=R.banner,a=clamp(Math.min(b.t/.5,(2-b.t)/.2),0,1)*.85;cx.globalAlpha=a;const by=0;T('EVENT '+b.k,80,38+by,{s:11,a:'center',g:['#ffffff','#ff8ae9'],glow:'#ff2bd6',gb:12});
     T(b.k===1?'좌 → 우 진행   ◀ = 위   ▶ = 아래':b.k===2?'우 → 좌 진행   ◀ = 아래   ▶ = 위':'상하 반전   ◀ = 오른쪽   ▶ = 왼쪽',80,52+by,{s:5.6,a:'center',c:'#dcd6ff',glow:'#27f3ff',gb:6});cx.globalAlpha=1}
   for(const p of R.pops){cx.globalAlpha=clamp(p.life/.8,0,1);T(p.t,p.x,p.y,{s:p.s,a:'center',c:p.c,glow:p.c,gb:6});cx.globalAlpha=1}
 }
@@ -512,7 +523,7 @@ async function showOver(){
   if(r.daily){await Promise.race([lastSubmit,new Promise(res=>setTimeout(res,4000))]);const list=await Rank.daily(dayKey()),idx=list.findIndex(x=>Rank.isMe(x));
     $('rRank').innerHTML='오늘의 곡 <b>'+(idx>=0?(idx+1)+'위':'순위권 밖')+'</b>'+(idx>=0?' / '+list.length+'명':'')+(Rank.mode!=='firebase'?' <span style="color:#8a7fc0;font-size:11px">('+(Rank.mode==='offline'?'서버 연결 실패 · 이 기기 기준':'이 기기 기준')+')</span>':'')}
   else $('rRank').textContent='프리 플레이는 랭킹에 반영되지 않아요';
-  show('result');Ads.interstitial()}
+  show('result');if(Ads.due())Ads.preload()}
 
 /* ============================ 화면 / 앱 UI ============================ */
 const $=id=>document.getElementById(id);
@@ -588,7 +599,8 @@ $('goRank').onclick=()=>{rankTab='daily';show('rank')};$('goHelp').onclick=()=>s
 $('rankBack').onclick=()=>{clearInterval(rankTimer);show('home')};$('helpBack').onclick=()=>show('home');$('setBack').onclick=()=>{saveName();show('home')};
 $('tabD').onclick=()=>{rankTab='daily';renderRank()};$('tabH').onclick=()=>{rankTab='hof';renderRank()};
 $('pauseBtn').onclick=pause;$('pResume').onclick=resume;$('pRestart').onclick=()=>{const d=run.daily;startRun(d)};$('pHome').onclick=toMenu;
-$('again').onclick=()=>startRun(lastResult?lastResult.daily:true);$('rHome').onclick=toMenu;$('rGoRank').onclick=()=>{rankTab='daily';show('rank')};
+let restarting=false;
+$('again').onclick=async()=>{if(restarting)return;restarting=true;$('again').disabled=true;try{await Ads.gate()}catch(e){}restarting=false;$('again').disabled=false;startRun(lastResult?lastResult.daily:true)};$('rHome').onclick=toMenu;$('rGoRank').onclick=()=>{rankTab='daily';show('rank')};
 $('adPrivBtn').onclick=()=>Ads.showPrivacy();
 $('calmBtn').onclick=()=>{calm=!calm;store.set('nl_calm',calm);paintCalm()};
 $('muteBtn').onclick=()=>{muted=!muted;store.set('nl_mute',muted);paintMute()};
