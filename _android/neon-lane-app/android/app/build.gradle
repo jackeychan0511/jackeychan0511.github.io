@@ -16,8 +16,8 @@ android {
         applicationId "com.jackeychankey.neonlane"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 3
-        versionName "1.0.2"
+        versionCode 4
+        versionName "1.0.3"
         manifestPlaceholders = [admobAppId: adsProps.getProperty('ADMOB_APP_ID', 'ca-app-pub-3940256099942544~3347511713')]
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         aaptOptions {
