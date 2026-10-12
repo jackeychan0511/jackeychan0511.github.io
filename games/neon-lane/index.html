@@ -207,6 +207,7 @@ input{font:inherit;user-select:text;-webkit-user-select:text}
 
 <!-- 모달: 닉네임 / 일시정지 -->
 <div class="modal" id="nameModal"><div class="mcard"><h3>닉네임을 정해주세요</h3><p>랭킹에 표시됩니다 (2~10자)</p><input id="nameInput" maxlength="10" autocomplete="off" placeholder="예: 네온러너"><div class="err" id="nameErr"></div><div class="mrow"><button class="btn" id="nameOk">확인</button><button class="btn ghost" id="nameCancel">취소</button></div></div></div>
+<div class="modal" id="updModal"><div class="mcard"><h3>새 버전이 나왔어요</h3><p id="updMsg">더 안정적이고 재미있어졌어요. Play 스토어에서 업데이트해 주세요.</p><div class="mrow"><button class="btn" id="updGo">업데이트</button><button class="btn ghost" id="updLater">나중에</button></div></div></div>
 <div class="modal" id="pauseModal"><div class="mcard"><h3>일시정지</h3><p>잠시 쉬어가세요</p><div class="mrow"><button class="btn" id="pResume">계속하기</button><button class="btn alt" id="pRestart">다시 시작</button><button class="btn ghost" id="pHome">홈으로</button></div></div></div>
 
 <script src="firebase-config.js"></script>
@@ -315,6 +316,23 @@ const Ads=(()=>{
       }catch(e){}},
     async banner(on){if(!A||on===bannerOn)return;bannerOn=on;document.body.classList.toggle('adb',on);
       try{if(!await init())return;if(on)await A.showBanner({adId:BAN,adSize:'ADAPTIVE_BANNER',position:'BOTTOM_CENTER',margin:0,isTesting:test});else await A.removeBanner()}catch(e){}}
+  }})();
+/* 앱 업데이트 확인 — Play 스토어에 새 버전이 있으면 안내 후 스토어 업데이트 화면으로 이동 (Capacitor 앱에서만, 웹에서는 아무 일도 하지 않음) */
+const Updater=(()=>{
+  const cap=window.Capacitor,native=!!(cap&&cap.isNativePlatform&&cap.isNativePlatform()),U=native?cap.Plugins.AppUpdate:null;
+  let info=null,lastCheck=0,askedCode=null;
+  const el=id=>document.getElementById(id);
+  function show(){if(!info||askedCode===info.availableVersionCode)return;if(typeof screen!=='undefined'&&screen!=='home'&&screen!=='result')return;   // 플레이 중에는 띄우지 않음
+    askedCode=info.availableVersionCode;const must=(info.updatePriority||0)>=4;   // Play 콘솔에서 우선순위 4 이상으로 올리면 '나중에' 숨김(강제 업데이트)
+    el('updMsg').textContent='새 버전'+(info.availableVersionName?' ('+info.availableVersionName+')':'')+'이 나왔어요. Play 스토어에서 업데이트해 주세요.';
+    el('updLater').style.display=must?'none':'';el('updModal').classList.add('on')}
+  return{
+    async check(force){if(!U)return;if(!force&&Date.now()-lastCheck<30*60*1000)return;lastCheck=Date.now();
+      try{const i=await U.getAppUpdateInfo();if(i&&i.updateAvailability===2){info=i;show()}else info=null}catch(e){}},   // Play 스토어로 설치되지 않은 경우 등은 조용히 무시
+    maybeShow(){show()},
+    async go(){el('updModal').classList.remove('on');if(!U)return;try{await U.openAppStore()}catch(e){}},
+    later(){el('updModal').classList.remove('on')},
+    get open(){return el('updModal').classList.contains('on')}
   }})();
 let mode='menu',run=null,lastT=0,pendingOver=0,sync=store.get('nl_sync',0),lastResult=null;
 const dayKey=()=>{const n=new Date();return n.getFullYear()*10000+(n.getMonth()+1)*100+n.getDate()};
@@ -528,7 +546,7 @@ async function showOver(){
 /* ============================ 화면 / 앱 UI ============================ */
 const $=id=>document.getElementById(id);
 let screen='home',paused=false,player=store.get('nl_name','');
-function show(id){screen=id;Ads.banner(id==='result');document.querySelectorAll('.screen').forEach(s=>s.classList.toggle('on',s.id===id));if(id==='game')requestAnimationFrame(fit);if(id==='rank')renderRank();if(id==='settings')refreshSettings();if(id==='home')refreshHome()}
+function show(id){screen=id;if(id==='home'||id==='result')setTimeout(()=>Updater.maybeShow(),300);Ads.banner(id==='result');document.querySelectorAll('.screen').forEach(s=>s.classList.toggle('on',s.id===id));if(id==='game')requestAnimationFrame(fit);if(id==='rank')renderRank();if(id==='settings')refreshSettings();if(id==='home')refreshHome()}
 async function refreshHome(){
   $('hBest').textContent=fmtNum(store.get('nl_best',0));$('hName').textContent=player||'미설정';
   const mine=Rank.runs().filter(r=>r.day===dayKey()&&r.name===player).map(r=>r.score);$('hToday').textContent=mine.length?fmtNum(Math.max(...mine)):'-'}
@@ -602,6 +620,7 @@ $('pauseBtn').onclick=pause;$('pResume').onclick=resume;$('pRestart').onclick=()
 let restarting=false;
 $('again').onclick=async()=>{if(restarting)return;restarting=true;$('again').disabled=true;try{await Ads.gate()}catch(e){}restarting=false;$('again').disabled=false;startRun(lastResult?lastResult.daily:true)};$('rHome').onclick=toMenu;$('rGoRank').onclick=()=>{rankTab='daily';show('rank')};
 $('adPrivBtn').onclick=()=>Ads.showPrivacy();
+$('updGo').onclick=()=>Updater.go();$('updLater').onclick=()=>Updater.later();
 $('calmBtn').onclick=()=>{calm=!calm;store.set('nl_calm',calm);paintCalm()};
 $('muteBtn').onclick=()=>{muted=!muted;store.set('nl_mute',muted);paintMute()};
 $('syM').onclick=()=>{sync=clamp(sync-10,-300,300);store.set('nl_sync',sync);refreshSettings()};
@@ -612,7 +631,8 @@ $('share').onclick=async()=>{const r=lastResult,txt='🌈 네온 레인 '+fmtNum
 
 /* 네이티브 앱(Android WebView) 연동: 뒤로가기 / 일시정지 / 공유 */
 const IN_APP=/NeonLaneApp/.test(navigator.userAgent);
-window.nlBack=function(){   // true 를 돌려주면 앱이 종료되지 않고 웹이 처리한 것
+window.nlBack=function(){
+  if(Updater.open){Updater.later();return true}   // true 를 돌려주면 앱이 종료되지 않고 웹이 처리한 것
   if($('nameModal').classList.contains('on')){$('nameModal').classList.remove('on');return true}
   if(screen==='game'){if(paused){resume()}else{pause()}return true}
   if(screen==='result'){toMenu();return true}
@@ -620,8 +640,8 @@ window.nlBack=function(){   // true 를 돌려주면 앱이 종료되지 않고 
   return false};
 window.nlPause=function(){if(screen==='game')pause()};
 (function(){const cap=window.Capacitor;if(!(cap&&cap.isNativePlatform&&cap.isNativePlatform()))return;const P=cap.Plugins;
-  if(P.App){P.App.addListener('backButton',()=>{if(!window.nlBack())P.App.exitApp()});P.App.addListener('appStateChange',st=>{if(!st.isActive)window.nlPause()})}
-  Ads.warm()})();
+  if(P.App){P.App.addListener('backButton',()=>{if(!window.nlBack())P.App.exitApp()});P.App.addListener('appStateChange',st=>{if(!st.isActive)window.nlPause();else Updater.check()})}
+  Ads.warm();setTimeout(()=>Updater.check(true),2500)})();
 /* PWA: 설치 버튼 / 서비스워커 */
 let deferredPrompt=null;
 addEventListener('beforeinstallprompt',e=>{e.preventDefault();deferredPrompt=e;if(!IN_APP)$('installRow').style.display=''});

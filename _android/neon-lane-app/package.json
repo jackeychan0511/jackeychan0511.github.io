@@ -15,7 +15,8 @@
     "@capacitor/android": "^8.0.0",
     "@capacitor/app": "^8.0.0",
     "@capacitor/core": "^8.0.0",
-    "@capacitor/share": "^8.0.0"
+    "@capacitor/share": "^8.0.0",
+    "@capawesome/capacitor-app-update": "^8.1.0"
   },
   "devDependencies": {
     "@capacitor/cli": "^8.0.0"
