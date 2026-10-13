@@ -15,7 +15,8 @@ permalink: /about/
 
 궁금한 점이나 협업 문의는 아래 메일로 보내주세요.
 
-**📧 [tlawhdwn1@naver.com](mailto:tlawhdwn1@naver.com)**
+- **📧 [tlawhdwn1@naver.com](mailto:tlawhdwn1@naver.com)**
+- **📧 [tlawhdwn1@gmail.com](mailto:tlawhdwn1@gmail.com)**
 
 ---
 
