@@ -61,3 +61,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
+
+# 안드로이드 앱 프로젝트(apps/)는 웹사이트에 공개하지 않음
+exclude:
+  - apps
