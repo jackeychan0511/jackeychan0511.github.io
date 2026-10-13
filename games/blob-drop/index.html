@@ -78,7 +78,7 @@ button small{display:block;font-weight:400;font-size:10px;color:var(--sub)}
 <div class="ov" id="ovOver"><div class="card">
   <h2>상자가 넘쳤어요!</h2>
   <p id="overInfo"></p>
-  <div class="row"><button class="big" id="bRevive">📺 광고 보고 한 칸 비우기<small>(이어하기 1회)</small></button></div>
+  <div class="row"><button class="big" id="bRevive">✨ 한 칸 비우고 이어하기<small>(게임당 1회)</small></button></div>
   <div class="row"><button id="bShare">📋 결과 공유</button><button id="bRetry">다시 하기</button></div>
   <div class="row"><button id="bHome">처음으로</button></div>
 </div></div>
@@ -105,7 +105,6 @@ button small{display:block;font-weight:400;font-size:10px;color:var(--sub)}
   <h2>메뉴</h2>
   <div class="row"><button id="mMusic"></button><button id="mSound"></button></div>
   <div class="row"><button id="mVib"></button></div>
-  <div class="row"><button id="mNoAds">🚫 광고 제거 (1회 결제)<small id="noAdsState"></small></button></div>
   <div class="row"><button id="mRestart">다시 시작</button><button id="mClose">닫기</button></div>
 </div></div>
 
@@ -203,16 +202,18 @@ const store={
   set(k,v){try{localStorage.setItem('bd_'+k,JSON.stringify(v))}catch(e){}}
 };
 const S={theme:store.get('theme','jelly'),sound:store.get('sound',true),music:store.get('music',true),vib:store.get('vib',true),
-  noAds:store.get('noAds',false),best:store.get('best',0),dex:store.get('dex',{}),
+  best:store.get('best',0),dex:store.get('dex',{}),
   items:store.get('items',{shake:1,bomb:1})};
 
-/* ───────── 광고/결제 어댑터 (실서비스에서는 AdMob·IAP SDK로 교체) ───────── */
+/* ───────── 광고 어댑터: 앱(WebView)에서는 AdMob 전면광고(AndroidAds 브릿지), 웹에서는 광고 없이 바로 진행 ───────── */
 const Monet={
-  rewarded(cb){ if(S.noAds){cb(true);return}
-    if(window.BlobDropAds&&window.BlobDropAds.rewarded) return window.BlobDropAds.rewarded(cb);
-    cb(confirm('[데모] 보상형 광고를 시청한 것으로 처리할까요?'))},
-  buyNoAds(){ if(window.BlobDropAds&&window.BlobDropAds.buyNoAds) return window.BlobDropAds.buyNoAds(()=>{S.noAds=true;store.set('noAds',true);refreshUI()});
-    if(confirm('[데모] 광고 제거를 구매한 것으로 처리할까요?')){S.noAds=true;store.set('noAds',true);refreshUI()}}
+  busy:false,
+  interstitial(cb){
+    if(Monet.busy)return;Monet.busy=true;
+    let done=false;const fin=()=>{if(done)return;done=true;Monet.busy=false;window.__adDone=null;cb()};
+    if(!(window.AndroidAds&&window.AndroidAds.show)){fin();return}
+    window.__adDone=fin;setTimeout(fin,20000);
+    try{window.AndroidAds.show()}catch(e){fin()}}
 };
 
 /* ───────── 시드 난수 (데일리 챌린지) ───────── */
@@ -885,7 +886,6 @@ function refreshUI(){
   $('mSound').textContent=S.sound?'🔊 효과음 켬':'🔇 효과음 끔';
   $('mMusic').textContent=S.music?'🎵 배경음 켬':'🔕 배경음 끔';
   $('mVib').textContent=S.vib?'📳 진동 켬':'📴 진동 끔';
-  $('noAdsState').textContent=S.noAds?'구매 완료':'₩3,900';
   {const n=store.get('stageNo',1);$('stageInfo').textContent=n>1?`이어하기 · STAGE ${n}`:'STAGE 1부터 시작';$('rowStageNew').style.display=n>1?'':'none'}
   $('dailyInfo').textContent=todayKey()+' · 오늘 최고 '+store.get('daily_'+todayKey(),0);
   drawNext();
@@ -901,7 +901,7 @@ function useItem(kind){
     refreshUI();
   };
   if(S.items[kind]>0){ if(kind==='shake'){S.items.shake--;store.set('items',S.items)} go(); if(kind==='bomb'&&!bombMode){} }
-  else Monet.rewarded(ok=>{if(ok){S.items[kind]++;store.set('items',S.items);refreshUI()}});
+  else toast('아이템이 없어요 · 스테이지 클리어 보상으로 받아요');
 }
 
 /* ───────── 입력 ───────── */
@@ -1006,7 +1006,7 @@ function render(now){
 function start(m){hide('ovStart');hide('ovOver');hide('ovMenu');hide('ovClear');newGame(m)}
 $('goNormal').onclick=()=>start('normal');
 $('goStage').onclick=()=>startStage(false);$('goStageNew').onclick=()=>startStage(true);
-$('bNext').onclick=()=>{stageNo++;start('stage')};$('bClearHome').onclick=()=>{hide('ovClear');refreshUI();show('ovStart')};
+$('bNext').onclick=()=>Monet.interstitial(()=>{stageNo++;start('stage')});$('bClearHome').onclick=()=>{hide('ovClear');refreshUI();show('ovStart')};
 $('goDaily').onclick=()=>start('daily');
 $('goDex').onclick=openDex;$('bDex').onclick=openDex;$('dexClose').onclick=()=>hide('ovDex');
 $('goTheme').onclick=openTheme;$('themeClose').onclick=()=>hide('ovTheme');
@@ -1016,11 +1016,10 @@ $('bMenu').onclick=()=>{refreshUI();show('ovMenu')};$('mClose').onclick=()=>hide
 $('mSound').onclick=()=>{S.sound=!S.sound;store.set('sound',S.sound);refreshUI()};
 $('mMusic').onclick=()=>{S.music=!S.music;store.set('music',S.music);S.music?Music.start(S.theme):Music.stop();refreshUI()};
 $('mVib').onclick=()=>{S.vib=!S.vib;store.set('vib',S.vib);refreshUI()};
-$('mNoAds').onclick=()=>Monet.buyNoAds();
 $('mRestart').onclick=()=>start(mode||'normal');
-$('bRetry').onclick=()=>start(mode);
+$('bRetry').onclick=()=>Monet.interstitial(()=>start(mode));
 $('bHome').onclick=()=>{hide('ovOver');refreshUI();show('ovStart')};
-$('bRevive').onclick=()=>Monet.rewarded(ok=>{if(ok)revive()});
+$('bRevive').onclick=()=>revive();
 $('bShare').onclick=()=>{
   const t=`🫧 Blob Drop ${mode==='daily'?todayKey()+' 데일리':''} ${score}점 · 최고 단계 ${THEMES[S.theme].levels[maxLevel][0]}\n${location.href.split('?')[0]}`;
   if(navigator.share)navigator.share({text:t}).catch(()=>{});

@@ -14,12 +14,20 @@ android {
     namespace = "com.jackeychankey.blobdrop"
     compileSdk = 36
 
+    buildFeatures { buildConfig = true }
+
     defaultConfig {
         applicationId = "com.jackeychankey.blobdrop"
         minSdk = 24
         targetSdk = 36
-        versionCode = 1
-        versionName = "1.0.0"
+        versionCode = 2
+        versionName = "1.1.0"
+
+        // AdMob ID는 gradle.properties(admobAppId, admobInterstitialId)에서 읽는다. 기본값은 구글 공식 '테스트' ID.
+        val appId = (project.findProperty("admobAppId") as String?) ?: "ca-app-pub-3940256099942544~3347511713"
+        val interId = (project.findProperty("admobInterstitialId") as String?) ?: "ca-app-pub-3940256099942544/1033173712"
+        manifestPlaceholders["admobAppId"] = appId
+        buildConfigField("String", "ADMOB_INTERSTITIAL_ID", "\"$interId\"")
     }
 
     signingConfigs {
@@ -59,6 +67,17 @@ val syncWebAssets = tasks.register<Sync>("syncWebAssets") {
 tasks.named("preBuild") { dependsOn(syncWebAssets) }
 tasks.matching { it.name != "syncWebAssets" && it.name != "clean" }.configureEach { mustRunAfter(syncWebAssets) }
 
+// 출시용(release) 빌드에 테스트 광고 ID가 들어가는 실수를 막는다(검증용 빌드는 -PallowTestAds)
+tasks.matching { it.name == "bundleRelease" || it.name == "assembleRelease" }.configureEach {
+    doFirst {
+        val ids = listOf(project.findProperty("admobAppId"), project.findProperty("admobInterstitialId"))
+        if (ids.any { it == null || it.toString().contains("3940256099942544") } && !project.hasProperty("allowTestAds")) {
+            throw GradleException("AdMob 테스트 ID로 출시 빌드를 만들 수 없습니다. gradle.properties에 실제 admobAppId/admobInterstitialId를 넣거나, 검증용이면 -PallowTestAds 를 붙이세요.")
+        }
+    }
+}
+
 dependencies {
+    implementation("com.google.android.gms:play-services-ads:24.5.0")
     implementation("androidx.webkit:webkit:1.14.0")
 }

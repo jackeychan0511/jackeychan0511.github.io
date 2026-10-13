@@ -17,7 +17,18 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.FrameLayout;
 
+import android.webkit.JavascriptInterface;
+
+import androidx.annotation.NonNull;
 import androidx.webkit.WebViewAssetLoader;
+
+import com.google.android.gms.ads.AdError;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.FullScreenContentCallback;
+import com.google.android.gms.ads.LoadAdError;
+import com.google.android.gms.ads.MobileAds;
+import com.google.android.gms.ads.interstitial.InterstitialAd;
+import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback;
 
 /**
  * Blob Drop — 게임(HTML5)을 앱 안의 WebView에서 실행한다.
@@ -29,7 +40,22 @@ public class MainActivity extends Activity {
     private static final String HOST = "appassets.androidplatform.net";
     private static final int BG = 0xFF1B1535;
 
+    private static final long MIN_AD_GAP_MS = 20_000; // 전면광고 최소 간격(연속 노출 방지)
+
     private WebView web;
+    private InterstitialAd interstitial;
+    private boolean adLoading;
+    private long lastAdShown;
+    private boolean resumed;
+    private boolean adDonePending; // 광고가 닫혔고, 화면이 복귀하면 게임에 알려야 함
+
+    /** 게임(JS)에서 window.AndroidAds.show() 로 호출 → 광고가 끝나면 window.__adDone() 실행 */
+    private class AdBridge {
+        @JavascriptInterface
+        public void show() {
+            runOnUiThread(MainActivity.this::showInterstitial);
+        }
+    }
 
     @SuppressLint("SetJavaScriptEnabled")
     @Override
@@ -100,8 +126,62 @@ public class MainActivity extends Activity {
             }
         });
 
+        web.addJavascriptInterface(new AdBridge(), "AndroidAds");
+        new Thread(() -> MobileAds.initialize(this, status -> runOnUiThread(this::loadInterstitial))).start();
+
         hideSystemBars();
         web.loadUrl("https://" + HOST + "/assets/www/index.html");
+    }
+
+    private void loadInterstitial() {
+        if (interstitial != null || adLoading) return;
+        adLoading = true;
+        InterstitialAd.load(this, BuildConfig.ADMOB_INTERSTITIAL_ID, new AdRequest.Builder().build(),
+                new InterstitialAdLoadCallback() {
+                    @Override
+                    public void onAdLoaded(@NonNull InterstitialAd ad) {
+                        adLoading = false;
+                        interstitial = ad;
+                    }
+
+                    @Override
+                    public void onAdFailedToLoad(@NonNull LoadAdError error) {
+                        adLoading = false;
+                        interstitial = null;
+                    }
+                });
+    }
+
+    private void showInterstitial() {
+        long now = android.os.SystemClock.elapsedRealtime();
+        if (interstitial == null || (lastAdShown != 0 && now - lastAdShown < MIN_AD_GAP_MS)) {
+            loadInterstitial();
+            notifyAdDone(); // 광고가 없으면 기다리지 않고 바로 게임 진행
+            return;
+        }
+        final InterstitialAd ad = interstitial;
+        interstitial = null;
+        ad.setFullScreenContentCallback(new FullScreenContentCallback() {
+            @Override
+            public void onAdDismissedFullScreenContent() {
+                lastAdShown = android.os.SystemClock.elapsedRealtime();
+                adDonePending = true;
+                loadInterstitial();
+                if (resumed) notifyAdDone();
+            }
+
+            @Override
+            public void onAdFailedToShowFullScreenContent(@NonNull AdError error) {
+                loadInterstitial();
+                notifyAdDone();
+            }
+        });
+        ad.show(this);
+    }
+
+    private void notifyAdDone() {
+        adDonePending = false;
+        web.evaluateJavascript("window.__adDone&&window.__adDone()", null);
     }
 
     private void hideSystemBars() {
@@ -133,11 +213,14 @@ public class MainActivity extends Activity {
     @Override
     protected void onResume() {
         super.onResume();
+        resumed = true;
         web.onResume();
+        if (adDonePending) notifyAdDone();
     }
 
     @Override
     protected void onPause() {
+        resumed = false;
         web.onPause(); // 백그라운드에서는 게임/BGM 정지
         super.onPause();
     }
