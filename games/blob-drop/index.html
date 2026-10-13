@@ -287,6 +287,50 @@ const Music={on:false,step:0,next:0,timer:null,master:null,out:null,cfg:null,key
 };
 document.addEventListener('visibilitychange',()=>{if(!AC)return;document.hidden?AC.suspend():AC.resume()});
 document.addEventListener('pointerdown',()=>{if(S.music&&!Music.on)Music.start(S.theme);else if(AC&&AC.state==='suspended')AC.resume()});
+
+/* ───────── 슬라임 충돌음 (찰진 소리: 둔탁한 몸통음 + 끈적한 스퀠치 + 젖은 노이즈 + 방울) ───────── */
+let lastSplat=0,NOISE=null;
+function slimeSplat(str,lvl){ // str 0~1(충격 세기), lvl 0~10(크기)
+  if(!S.sound)return;const now=performance.now();if(now-lastSplat<45)return;lastSplat=now;
+  try{const ac=getAC(),t=ac.currentTime,sz=lvl/10,v=.08+str*.22,dest=ac.destination;
+    // 1) 몸통: 크기가 클수록 낮고 길게
+    const o=ac.createOscillator(),g=ac.createGain();o.type='sine';
+    o.frequency.setValueAtTime(180-sz*95,t);o.frequency.exponentialRampToValueAtTime(38,t+.22+sz*.12);
+    g.gain.setValueAtTime(v,t);g.gain.exponentialRampToValueAtTime(.001,t+.26+sz*.14);o.connect(g);g.connect(dest);o.start(t);o.stop(t+.45);
+    // 2) 스퀠치: 필터가 닫히며 "찌익" 눌리는 끈적한 소리
+    const s=ac.createOscillator(),sg=ac.createGain(),lp=ac.createBiquadFilter();s.type='sawtooth';
+    s.frequency.setValueAtTime(280-sz*110,t);s.frequency.exponentialRampToValueAtTime(65,t+.15);
+    lp.type='lowpass';lp.Q.value=10;lp.frequency.setValueAtTime(2400,t);lp.frequency.exponentialRampToValueAtTime(240,t+.17);
+    sg.gain.setValueAtTime(0,t);sg.gain.linearRampToValueAtTime(v*.75,t+.006);sg.gain.exponentialRampToValueAtTime(.001,t+.2);
+    s.connect(lp);lp.connect(sg);sg.connect(dest);s.start(t);s.stop(t+.25);
+    // 3) 젖은 노이즈: 찰싹
+    if(!NOISE){NOISE=ac.createBuffer(1,ac.sampleRate*.15,ac.sampleRate);const d=NOISE.getChannelData(0);for(let i=0;i<d.length;i++)d[i]=Math.random()*2-1}
+    const n=ac.createBufferSource(),bp=ac.createBiquadFilter(),ng=ac.createGain();n.buffer=NOISE;bp.type='bandpass';bp.Q.value=1.2;
+    bp.frequency.setValueAtTime(1600,t);bp.frequency.exponentialRampToValueAtTime(450,t+.12);
+    ng.gain.setValueAtTime(v*.55,t);ng.gain.exponentialRampToValueAtTime(.001,t+.12);n.connect(bp);bp.connect(ng);ng.connect(dest);n.start(t);
+    // 4) 방울: 세게 칠수록 "뽀글" 더 많이
+    const nb=1+Math.floor(str*3);
+    for(let i=0;i<nb;i++){const bt=t+.035+i*.05,b=ac.createOscillator(),bg=ac.createGain(),f=240+Math.random()*260;b.type='sine';
+      b.frequency.setValueAtTime(f,bt);b.frequency.exponentialRampToValueAtTime(f*2.2,bt+.085);
+      bg.gain.setValueAtTime(0,bt);bg.gain.linearRampToValueAtTime(v*.5,bt+.01);bg.gain.exponentialRampToValueAtTime(.001,bt+.11);
+      b.connect(bg);bg.connect(dest);b.start(bt);b.stop(bt+.13)}
+  }catch(e){}
+}
+// 충돌 촉감: 세기에 비례하는 "쿵→찰랑" 햅틱 패턴 (진동 지원 기기에서)
+function slimeHaptic(str){
+  const p=Math.round(8+str*34);
+  vib(str>.55?[p,18,Math.round(p*.5),22,Math.round(p*.28)]:str>.25?[p,16,Math.round(p*.45)]:p);
+}
+// 충돌 하나를 소리·진동·화면흔들림·튀는 파티클로 변환
+function impact(a,b,rv,pt){
+  if(rv<1.6||performance.now()-t0<900)return; // 스테이지 시작 시 사전 배치가 쌓이는 소리는 생략
+  const ba=a.label==='blob'?a:null,bb=b.label==='blob'?b:null;if(!ba&&!bb)return;
+  const str=Math.min(1,(rv-1.2)/11),lvl=Math.max(ba?ba.lvl:0,bb?bb.lvl:0);
+  slimeSplat(str,lvl);slimeHaptic(str);
+  if(str>.45)shake=Math.max(shake,str*(2+lvl*.35));
+  if(str>.35&&pt){const l=ba?ba.lvl:bb.lvl,c=THEMES[S.theme].levels[l][1],n=Math.round(3+str*8);
+    for(let i=0;i<n;i++){const an=Math.random()*Math.PI*2,sp=.8+Math.random()*2.6*str;fx.push({x:pt.x,y:pt.y,vx:Math.cos(an)*sp,vy:Math.sin(an)*sp-1.2*str,life:.8,c,r:1.5+Math.random()*2.5})}}
+}
 function sfxMerge(l,combo){const base=261.6*Math.pow(2,(l*2+Math.min(combo,6))/12);tone(base,.25,'triangle',.18);tone(base*1.5,.2,'sine',.08,.05)}
 function sfxDrop(){tone(180,.12,'sine',.12)}
 function vib(p){if(S.vib&&navigator.vibrate)try{navigator.vibrate(p)}catch(e){}}
@@ -473,7 +517,7 @@ function drawMascot(c,now){
 const cv=document.getElementById('c'),ctx=cv.getContext('2d');
 const nc=document.getElementById('nc'),nctx=nc.getContext('2d');
 let dpr=1,scale=1;
-let stageNo=1,stageBase=0,goalCount=0,goal=null,cleared=false;
+let stageNo=1,runTotal=0,goal=null,cleared=false;
 let engine,blobs,mode,rng,queue,curLevel,nextLevel,aimX,dropReady,score,over,combo,comboT,fx,usedRevive,bombMode,runMerged,maxLevel,t0,shakeT;
 const $=id=>document.getElementById(id);
 
@@ -485,7 +529,7 @@ function resize(){
 }
 window.addEventListener('resize',resize);
 
-function newGame(m,opt){Music.setLevel(1);
+function newGame(m){Music.setLevel(1);
   mode=m;over=false;cleared=false;score=0;combo=0;comboT=0;fx=[];usedRevive=false;bombMode=false;maxLevel=0;runMerged=0;shakeT=0;
   blobs=[];
   engine=Engine.create({enableSleeping:false,positionIterations:10,velocityIterations:8});engine.gravity.y=1.0;
@@ -493,49 +537,46 @@ function newGame(m,opt){Music.setLevel(1);
   World.add(engine.world,[Bodies.rectangle(W/2,H+WALL/2,W+200,WALL,o),Bodies.rectangle(-WALL/2,H/2,WALL,H*3,o),Bodies.rectangle(W+WALL/2,H/2,WALL,H*3,o)]);
   Events.on(engine,'collisionStart',onCollide);
   rng=mode==='daily'?mulberry(dateSeed(todayKey())):mode==='stage'?mulberry(stageNo*7919+13):Math.random;
-  if(mode==='stage'){stageBase=(opt&&opt.base)||0;score=stageBase;goal=stageGoal(stageNo);goalCount=0}
+  if(mode==='stage'){goal={target:stageTarget(stageNo)}}
   say(mode==='daily'?'오늘의 별똥이 떨어졌어요!':mode==='stage'?`STAGE ${stageNo} 시작!`:'같은 친구끼리 합쳐요!','happy',2500);queue=[];t0=performance.now();if(mode==='stage')seedStage();curLevel=pull();nextLevel=pull();aimX=W/2;dropReady=true;
   document.documentElement.style.setProperty('--x','0');
     $('bestl').textContent=mode==='daily'?'오늘 최고':'BEST';updateGoal();
   refreshUI();
 }
 /* ───────── 스테이지 모드 ───────── */
-// 목표: Lv.lv 이상의 몽글이를 합체로 n번 만들기. 13스테이지부터는 최종 단계를 늘려가며 무한 확장
-const STAGE_DEFS=[[3,1],[4,1],[4,2],[5,1],[5,2],[6,1],[6,2],[7,1],[7,2],[8,1],[9,1],[10,1]];
-function stageGoal(n){const d=STAGE_DEFS[n-1];return d?{lv:d[0],n:d[1]}:{lv:10,n:n-11}}
+// 스테이지마다 목표 점수가 있고, 그 스테이지에서 번 점수가 목표에 닿으면 클리어. 점수는 스테이지마다 0에서 시작
+function stageTarget(n){return 150+100*(n-1)+15*(n-1)*(n-1)}
 function seedStage(){ // 스테이지가 올라갈수록 바닥에 미리 깔린 몽글이가 늘어남(같은 스테이지는 항상 같은 배치)
   const cnt=Math.min(2*(stageNo-1),12);
   for(let i=0;i<cnt;i++){const l=(i+Math.floor(rng()*2))%4,r=RAD[l];addBlob(r+4+rng()*(W-2*r-8),H-90-i*14,l,1)}
 }
 function updateGoal(){
   const g=$('goal');g.classList.toggle('on',mode==='stage');if(mode!=='stage')return;
-  const nm=THEMES[S.theme].levels[goal.lv][0];
-  $('goalTxt').textContent=`STAGE ${stageNo} · ${nm}${goal.lv<N-1?' 이상':''} ${goalCount}/${goal.n} 만들기`;
-  $('goalBar').style.width=Math.min(100,goalCount/goal.n*100)+'%';
-  const c=$('gc').getContext('2d');c.clearRect(0,0,56,56);drawBlob(c,28,28,22,goal.lv,{});
+  $('goalTxt').textContent=`STAGE ${stageNo} · 목표 ${Math.min(score,goal.target)} / ${goal.target}점`;
+  $('goalBar').style.width=Math.min(100,score/goal.target*100)+'%';
+  const c=$('gc').getContext('2d');c.clearRect(0,0,56,56);c.fillStyle='#ffd166';c.beginPath();
+  for(let i=0;i<10;i++){const r=i%2?10:24,a=i/10*Math.PI*2-Math.PI/2;c.lineTo(28+Math.cos(a)*r,30+Math.sin(a)*r)}c.closePath();c.fill();
 }
-function stageProgress(created){
-  if(mode!=='stage'||over||performance.now()-t0<2500||created<goal.lv)return;
-  goalCount++;updateGoal();if(goalCount>=goal.n)clearStage();
-}
+function stageCheck(){ if(mode==='stage'&&!over&&score>=goal.target)clearStage() }
 function clearStage(){
   over=true;cleared=true;
-  const bonus=100*stageNo;score+=bonus;updateScore();
+  runTotal+=score;
   const next=stageNo+1;if(next>store.get('stageNo',1))store.set('stageNo',next);
-  if(score>store.get('stageBestScore',0))store.set('stageBestScore',score);
+  if(runTotal>store.get('stageBestScore',0))store.set('stageBestScore',runTotal);
   let reward='';if(stageNo%3===0){S.items.shake++;S.items.bomb++;store.set('items',S.items);reward='<br>🎁 흔들기·폭파 아이템 +1 획득!'}
   say('클리어! 대단해요!','happy',9999);Music.setLevel(.6);vib([40,40,80]);
   [523,659,784,1047].forEach((f,i)=>tone(f,.3,'triangle',.15,i*.12));
-  $('clearInfo').innerHTML=`<b style="font-size:22px;color:var(--acc)">STAGE ${stageNo} 클리어</b><br>클리어 보너스 +${bonus}<br>현재 점수 ${score}점${reward}`;
+  $('clearInfo').innerHTML=`<b style="font-size:22px;color:var(--acc)">STAGE ${stageNo} 클리어</b><br>이번 스테이지 ${score}점 (목표 ${goal.target}점)<br>누적 ${runTotal}점${reward}`;
   $('bNext').textContent=`STAGE ${next} ▶`;
   show('ovClear');
 }
 function startStage(fresh){
   if(fresh){stageNo=1;store.set('stageNo',1)}else stageNo=store.get('stageNo',1);
-  start('stage',{base:0});
+  runTotal=0;
+  start('stage');
 }
 function pull(){return Math.floor(rng()*5*.999)} // 0~4 단계
-function bestFor(){return mode==='daily'?store.get('daily_'+todayKey(),0):mode==='stage'?store.get('stageBestScore',0):S.best}
+function bestFor(){return mode==='daily'?store.get('daily_'+todayKey(),0):mode==='stage'?Math.max(store.get('stageBestScore',0),runTotal+score):S.best}
 
 function addBlob(x,y,l,vy){
   const b=Bodies.circle(x,y,RAD[l],{restitution:.08,friction:.45,frictionStatic:.6,frictionAir:.012,slop:RAD[l]*.06,density:.001*Math.sqrt(RAD[l]/15),label:'blob'});
@@ -543,7 +584,7 @@ function addBlob(x,y,l,vy){
   if(vy)Body.setVelocity(b,{x:0,y:vy});
   World.add(engine.world,b);blobs.push(b);return b;
 }
-function squash(b,nx,ny,rv){const k=Math.min(.3,rv*.035);if(k<.03)return;if(k>b.k){b.k=k;b.kv=0;b.ka=Math.atan2(ny,nx)}}
+function squash(b,nx,ny,rv){const k=Math.min(.36,rv*.045);if(k<.03)return;if(k>b.k){b.k=k;b.kv=0;b.ka=Math.atan2(ny,nx)}}
 let shake=0;
 // 큰 몽글이가 떨어져 부딪히면 작은 몽글이를 크기(질량) 비율만큼 밀어낸다
 function shove(a,b,rv){
@@ -560,7 +601,7 @@ function shove(a,b,rv){
       const f=Math.min(7,rv*.9*(big.mass/(big.mass+o.mass))*(1-od/R));
       Body.setVelocity(o,{x:o.velocity.x+ox/od*f,y:o.velocity.y+oy/od*f*.4});o.k=Math.max(o.k,Math.min(.25,f*.06));o.ka=Math.atan2(oy,ox)}}
   sm.k=Math.max(sm.k,Math.min(.35,p*.05));sm.ka=Math.atan2(dy,dx);
-  if(big.lvl>=4&&rv>4){shake=Math.max(shake,Math.min(6,rv*big.lvl*.1));vib(Math.min(40,10+big.lvl*3));tone(110-big.lvl*4,.18,'sine',.1)}
+  if(big.lvl>=4&&rv>4){shake=Math.max(shake,Math.min(6,rv*big.lvl*.1))}
 }
 function removeBlob(b){World.remove(engine.world,b);const i=blobs.indexOf(b);if(i>=0)blobs.splice(i,1)}
 
@@ -570,7 +611,7 @@ function onCollide(ev){
     const rv=Math.hypot(a.velocity.x-b.velocity.x,a.velocity.y-b.velocity.y);
     if(a.label==='blob')squash(a,n.x,n.y,rv);
     if(b.label==='blob')squash(b,n.x,n.y,rv);
-    if(rv>3&&a.label==='blob'&&b.label==='blob')tone(200+Math.random()*60,.08,'sine',Math.min(.1,rv*.01));
+    impact(a,b,rv,p.collision.supports&&p.collision.supports[0]);
     if(a.label!=='blob'||b.label!=='blob')continue;
     if(a.lvl!==b.lvl&&rv>1.5)shove(a,b,rv);
     if(a.lvl!==b.lvl||a.merging||b.merging)continue;
@@ -585,7 +626,7 @@ function onCollide(ev){
       const now=performance.now();
       combo=(now-comboT<1100)?combo+1:1;comboT=now;runMerged++;
       if(l===N-1){ // 최종체 둘이 만나면 팡!
-        score+=SCORE[l]*4;burst(x,y,l,40);sfxMerge(l,combo+4);vib([30,40,60]);stageProgress(N);
+        score+=SCORE[l]*4;burst(x,y,l,40);sfxMerge(l,combo+4);vib([30,40,60]);
       }else{
         const nb=addBlob(x,y,l+1);nb.s=.55;nb.sv=.09;nb.k=.22;nb.ka=Math.random()*3;shake=Math.min(7,2+l*.7);
         score+=SCORE[l+1]*(1+Math.floor((combo-1)/2)*.5);
@@ -597,7 +638,7 @@ function onCollide(ev){
       }
       if(combo>=3)say(['와아! 대박!','연쇄 폭발!','멋져요!'][combo%3],'happy',1400);
       if(combo>=2){const c=$('combo');c.className='';c.textContent=combo+' COMBO!';c.classList.add('show');clearTimeout(c._t);c._t=setTimeout(()=>c.classList.remove('show'),700)}
-      score=Math.round(score);updateScore();if(l<N-1)stageProgress(l+1);
+      score=Math.round(score);updateScore();stageCheck();
     },85);
   }
 }
@@ -622,7 +663,7 @@ function openDex(){
 
 /* ───────── UI ───────── */
 function show(id){$(id).classList.add('on')}function hide(id){$(id).classList.remove('on')}
-function updateScore(){$('score').textContent=score;const b=Math.max(bestFor(),score);$('best').textContent=b}
+function updateScore(){$('score').textContent=score;const b=Math.max(bestFor(),score);$('best').textContent=b;if(mode==='stage'&&goal)updateGoal()}
 function refreshUI(){
   updateScore();
   $('nShake').textContent=S.items.shake>0?`보유 ${S.items.shake}`:'📺 광고';
@@ -671,7 +712,7 @@ cv.addEventListener('pointerup',release);cv.addEventListener('pointercancel',rel
 function drop(){
   if(!dropReady||over)return;
   const r=RAD[curLevel],x=Math.max(r+2,Math.min(W-r-2,aimX));
-  addBlob(x,r+8,curLevel,2);sfxDrop();vib(8);
+  addBlob(x,r+8,curLevel,2);sfxDrop();
   if(curLevel>maxLevel){maxLevel=curLevel;unlock(curLevel)}
   curLevel=nextLevel;nextLevel=pull();dropReady=false;drawNext();
   setTimeout(()=>{dropReady=true},550);
@@ -689,10 +730,10 @@ function checkOver(now){
 function end(){
   over=true;
   if(mode==='daily'){const k='daily_'+todayKey();if(score>store.get(k,0))store.set(k,score)}
-  else if(mode==='stage'){if(score>store.get('stageBestScore',0))store.set('stageBestScore',score)}
+  else if(mode==='stage'){const t=runTotal+score;if(t>store.get('stageBestScore',0))store.set('stageBestScore',t)}
   else if(score>S.best){S.best=score;store.set('best',score)}
   vib([80,40,80]);tone(150,.6,'sawtooth',.15);say('괜찮아, 다시 해봐요!','sad',9999);Music.setLevel(.3);
-  $('overInfo').innerHTML=`<span class="tag">${mode==='daily'?'📅 '+todayKey():mode==='stage'?'🏁 STAGE '+stageNo+' 실패':'일반'}</span><br><b style="font-size:30px;color:var(--acc)">${score}</b> 점<br>최고 단계: ${THEMES[S.theme].levels[maxLevel][0]} · 합체 ${runMerged}회`;
+  $('overInfo').innerHTML=`<span class="tag">${mode==='daily'?'📅 '+todayKey():mode==='stage'?'🏁 STAGE '+stageNo+' 실패':'일반'}</span><br><b style="font-size:30px;color:var(--acc)">${score}</b> 점${mode==='stage'?` / 목표 ${goal.target}점`:''}<br>최고 단계: ${THEMES[S.theme].levels[maxLevel][0]} · 합체 ${runMerged}회`;
   $('bRevive').style.display=usedRevive?'none':'';$('bRetry').textContent=mode==='stage'?'이 스테이지 다시 도전':'다시 하기';
   show('ovOver');updateScore();
 }
@@ -740,10 +781,10 @@ function render(now){
 }
 
 /* ───────── 버튼 연결 ───────── */
-function start(m,o){hide('ovStart');hide('ovOver');hide('ovMenu');hide('ovClear');newGame(m,o)}
+function start(m){hide('ovStart');hide('ovOver');hide('ovMenu');hide('ovClear');newGame(m)}
 $('goNormal').onclick=()=>start('normal');
 $('goStage').onclick=()=>startStage(false);$('goStageNew').onclick=()=>startStage(true);
-$('bNext').onclick=()=>{stageNo++;start('stage',{base:score})};$('bClearHome').onclick=()=>{hide('ovClear');refreshUI();show('ovStart')};
+$('bNext').onclick=()=>{stageNo++;start('stage')};$('bClearHome').onclick=()=>{hide('ovClear');refreshUI();show('ovStart')};
 $('goDaily').onclick=()=>start('daily');
 $('goDex').onclick=openDex;$('bDex').onclick=openDex;$('dexClose').onclick=()=>hide('ovDex');
 $('goTheme').onclick=openTheme;$('themeClose').onclick=()=>hide('ovTheme');
@@ -754,8 +795,8 @@ $('mSound').onclick=()=>{S.sound=!S.sound;store.set('sound',S.sound);refreshUI()
 $('mMusic').onclick=()=>{S.music=!S.music;store.set('music',S.music);S.music?Music.start(S.theme):Music.stop();refreshUI()};
 $('mVib').onclick=()=>{S.vib=!S.vib;store.set('vib',S.vib);refreshUI()};
 $('mNoAds').onclick=()=>Monet.buyNoAds();
-$('mRestart').onclick=()=>start(mode||'normal',mode==='stage'?{base:stageBase}:undefined);
-$('bRetry').onclick=()=>start(mode,mode==='stage'?{base:stageBase}:undefined);
+$('mRestart').onclick=()=>start(mode||'normal');
+$('bRetry').onclick=()=>start(mode);
 $('bHome').onclick=()=>{hide('ovOver');refreshUI();show('ovStart')};
 $('bRevive').onclick=()=>Monet.rewarded(ok=>{if(ok)revive()});
 $('bShare').onclick=()=>{
@@ -775,7 +816,7 @@ function openTheme(){
 
 resize();newGame('normal');refreshUI();requestAnimationFrame(frame);
 // 테스트/디버그용 훅
-window.__bd={Music,get blobs(){return blobs},get score(){return score},addBlob,drop,get over(){return over},get stage(){return stageNo},get cleared(){return cleared},get goalCount(){return goalCount}};
+window.__bd={Music,get blobs(){return blobs},get score(){return score},addBlob,drop,get over(){return over},get stage(){return stageNo},get cleared(){return cleared},get target(){return goal&&goal.target},addScore(n){score+=n;updateScore();stageCheck()},_splat:(a,b)=>slimeSplat(a,b),_setAC:x=>{AC=x;lastSplat=0}};
 })();
 </script>
 </body>
