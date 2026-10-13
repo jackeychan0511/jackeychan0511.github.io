@@ -757,7 +757,7 @@ function newGame(m){Music.setLevel(1);
 function stageTarget(n){return 150+100*(n-1)+15*(n-1)*(n-1)}
 function seedStage(){ // 스테이지가 올라갈수록 바닥에 미리 깔린 몽글이가 늘어남(같은 스테이지는 항상 같은 배치)
   const cnt=Math.min(2*(stageNo-1),12);
-  for(let i=0;i<cnt;i++){const l=(i+Math.floor(rng()*2))%4,r=RAD[l];addBlob(r+4+rng()*(W-2*r-8),H-90-i*14,l,1)}
+  for(let i=0;i<cnt;i++){const l=(i+Math.floor(rng()*2))%4,r=RAD[l];addBlob(r+4+rng()*(W-2*r-8),H-90-i*14,l,1).seed=true}
 }
 function updateGoal(){
   const g=$('goal');g.classList.toggle('on',mode==='stage');if(mode!=='stage')return;
@@ -829,24 +829,24 @@ function onCollide(ev){
     {const dx=b.position.x-a.position.x,dy=b.position.y-a.position.y,d=Math.hypot(dx,dy)||1;
      Body.setVelocity(a,{x:dx/d*3,y:dy/d*3});Body.setVelocity(b,{x:-dx/d*3,y:-dy/d*3});
      a.sv+=.03;b.sv+=.03;}
-    const l=a.lvl,x=(a.position.x+b.position.x)/2,y=(a.position.y+b.position.y)/2;
+    const l=a.lvl,x=(a.position.x+b.position.x)/2,y=(a.position.y+b.position.y)/2,free=!!(a.seed&&b.seed); // 사전 배치끼리 합쳐진 건 점수 없음
     setTimeout(()=>{ if(over)return;
       removeBlob(a);removeBlob(b);
       const now=performance.now();
-      combo=(now-comboT<1100)?combo+1:1;comboT=now;runMerged++;
+      if(!free){combo=(now-comboT<1100)?combo+1:1;comboT=now;runMerged++}
       if(l===N-1){ // 최종체 둘이 만나면 팡!
-        score+=SCORE[l]*4;burst(x,y,l,40);sfxMerge(l,combo+4);vib([30,40,60]);
+        if(!free)score+=SCORE[l]*4;burst(x,y,l,40);sfxMerge(l,combo+4);vib([30,40,60]);
       }else{
-        const nb=addBlob(x,y,l+1);nb.s=.55;nb.sv=.09;nb.k=.22;nb.ka=Math.random()*3;shake=Math.min(7,2+l*.7);
-        score+=SCORE[l+1]*(1+Math.floor((combo-1)/2)*.5);
-        if(l+1>maxLevel){maxLevel=l+1;unlock(l+1)}
+        const nb=addBlob(x,y,l+1);nb.s=.55;nb.sv=.09;nb.k=.22;nb.ka=Math.random()*3;shake=Math.min(7,2+l*.7);if(free)nb.seed=true;
+        if(!free)score+=SCORE[l+1]*(1+Math.floor((combo-1)/2)*.5);
+        if(!free&&l+1>maxLevel){maxLevel=l+1;unlock(l+1)}
         burst(x,y,l+1,10+l*3);sfxMerge(l+1,combo);vib(combo>2?[15,20,25]:12);
         // 주변 밀어내기
         for(const o of blobs){if(o===nb)continue;const dx=o.position.x-x,dy=o.position.y-y,d=Math.hypot(dx,dy)||1;
           if(d<RAD[l+1]*2.2){const f=.0006*o.mass*(1-d/(RAD[l+1]*2.2));Body.applyForce(o,o.position,{x:dx/d*f,y:dy/d*f})}}
       }
-      if(combo>=3)say(['와아! 대박!','연쇄 폭발!','멋져요!'][combo%3],'happy',1400);
-      if(combo>=2){const c=$('combo');c.className='';c.textContent=combo+' COMBO!';c.classList.add('show');clearTimeout(c._t);c._t=setTimeout(()=>c.classList.remove('show'),700)}
+      if(!free&&combo>=3)say(['와아! 대박!','연쇄 폭발!','멋져요!'][combo%3],'happy',1400);
+      if(!free&&combo>=2){const c=$('combo');c.className='';c.textContent=combo+' COMBO!';c.classList.add('show');clearTimeout(c._t);c._t=setTimeout(()=>c.classList.remove('show'),700)}
       score=Math.round(score);updateScore();stageCheck();
     },85);
   }
