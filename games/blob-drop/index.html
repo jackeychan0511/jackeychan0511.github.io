@@ -36,6 +36,12 @@ button small{display:block;font-weight:400;font-size:10px;color:var(--sub)}
 #dex{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:10px 0}
 #dex div{font-size:11px;color:var(--sub)}#dex canvas{width:100%;aspect-ratio:1}
 #dex .lock canvas{filter:brightness(0) opacity(.35)}
+#goal{width:100%;max-width:440px;display:none;align-items:center;gap:8px;background:var(--panel);border-radius:12px;padding:6px 10px;margin-bottom:2px}
+#goal.on{display:flex}
+#goal canvas{width:28px;height:28px;flex:none}
+#goal .t{flex:1;font-size:12px;font-weight:700;min-width:0}
+#goal .bar{height:6px;background:#0005;border-radius:99px;margin-top:4px;overflow:hidden}
+#goal .bar i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--acc2),var(--acc));transition:width .3s}
 .tag{display:inline-block;background:#0004;border-radius:99px;padding:2px 10px;font-size:11px;color:var(--acc)}
 </style>
 </head>
@@ -46,6 +52,7 @@ button small{display:block;font-weight:400;font-size:10px;color:var(--sub)}
     <div id="next"><span style="font-size:11px;color:var(--sub)">NEXT</span><canvas id="nc" width="88" height="88"></canvas></div>
     <div class="stat"><small id="bestl">BEST</small><b id="best">0</b></div>
   </div>
+  <div id="goal"><canvas id="gc" width="56" height="56"></canvas><div class="t"><span id="goalTxt"></span><div class="bar"><i id="goalBar"></i></div></div></div>
   <div id="stage"><canvas id="c"></canvas><div id="combo"></div></div>
   <div id="bar">
     <button id="bShake">🌀 흔들기<small id="nShake"></small></button>
@@ -58,6 +65,8 @@ button small{display:block;font-weight:400;font-size:10px;color:var(--sub)}
 <div class="ov on" id="ovStart"><div class="card">
   <h2>🫧 Blob Drop</h2>
   <p>별똥이 부서진 밤, 작은 몽글이들이 태어났어요.<br>같은 몽글이끼리 합쳐 커지면, 언젠가 <b>별의 정령</b>이 되어 하늘로 돌아갈 수 있대요.<br><small>드래그로 위치를 잡고, 손을 떼면 떨어집니다.</small></p>
+  <div class="row"><button class="big" id="goStage" style="background:#7ee8b0">🏁 스테이지 모드<small id="stageInfo" style="color:#154"></small></button></div>
+  <div class="row" id="rowStageNew" style="display:none"><button id="goStageNew">스테이지 처음부터</button></div>
   <div class="row"><button class="big" id="goNormal">일반 모드</button></div>
   <div class="row"><button class="big" id="goDaily" style="background:var(--acc2);color:#fff">🌠 오늘의 별똥<small id="dailyInfo"></small></button></div>
   <div class="row"><button id="goDex">📖 도감</button><button id="goTheme">🎨 테마</button></div>
@@ -69,6 +78,13 @@ button small{display:block;font-weight:400;font-size:10px;color:var(--sub)}
   <div class="row"><button class="big" id="bRevive">📺 광고 보고 한 칸 비우기<small>(이어하기 1회)</small></button></div>
   <div class="row"><button id="bShare">📋 결과 공유</button><button id="bRetry">다시 하기</button></div>
   <div class="row"><button id="bHome">처음으로</button></div>
+</div></div>
+
+<div class="ov" id="ovClear"><div class="card">
+  <h2>🎉 스테이지 클리어!</h2>
+  <p id="clearInfo"></p>
+  <div class="row"><button class="big" id="bNext">다음 스테이지 ▶</button></div>
+  <div class="row"><button id="bClearHome">처음으로</button></div>
 </div></div>
 
 <div class="ov" id="ovDex"><div class="card">
@@ -457,6 +473,7 @@ function drawMascot(c,now){
 const cv=document.getElementById('c'),ctx=cv.getContext('2d');
 const nc=document.getElementById('nc'),nctx=nc.getContext('2d');
 let dpr=1,scale=1;
+let stageNo=1,stageBase=0,goalCount=0,goal=null,cleared=false;
 let engine,blobs,mode,rng,queue,curLevel,nextLevel,aimX,dropReady,score,over,combo,comboT,fx,usedRevive,bombMode,runMerged,maxLevel,t0,shakeT;
 const $=id=>document.getElementById(id);
 
@@ -468,21 +485,57 @@ function resize(){
 }
 window.addEventListener('resize',resize);
 
-function newGame(m){Music.setLevel(1);
-  mode=m;over=false;score=0;combo=0;comboT=0;fx=[];usedRevive=false;bombMode=false;maxLevel=0;runMerged=0;shakeT=0;
+function newGame(m,opt){Music.setLevel(1);
+  mode=m;over=false;cleared=false;score=0;combo=0;comboT=0;fx=[];usedRevive=false;bombMode=false;maxLevel=0;runMerged=0;shakeT=0;
   blobs=[];
   engine=Engine.create({enableSleeping:false,positionIterations:10,velocityIterations:8});engine.gravity.y=1.0;
   const o={isStatic:true,friction:.2,restitution:.05};
   World.add(engine.world,[Bodies.rectangle(W/2,H+WALL/2,W+200,WALL,o),Bodies.rectangle(-WALL/2,H/2,WALL,H*3,o),Bodies.rectangle(W+WALL/2,H/2,WALL,H*3,o)]);
   Events.on(engine,'collisionStart',onCollide);
-  rng=mode==='daily'?mulberry(dateSeed(todayKey())):Math.random;
-  say(mode==='daily'?'오늘의 별똥이 떨어졌어요!':'같은 친구끼리 합쳐요!','happy',2500);queue=[];curLevel=pull();nextLevel=pull();aimX=W/2;dropReady=true;t0=performance.now();
+  rng=mode==='daily'?mulberry(dateSeed(todayKey())):mode==='stage'?mulberry(stageNo*7919+13):Math.random;
+  if(mode==='stage'){stageBase=(opt&&opt.base)||0;score=stageBase;goal=stageGoal(stageNo);goalCount=0}
+  say(mode==='daily'?'오늘의 별똥이 떨어졌어요!':mode==='stage'?`STAGE ${stageNo} 시작!`:'같은 친구끼리 합쳐요!','happy',2500);queue=[];t0=performance.now();if(mode==='stage')seedStage();curLevel=pull();nextLevel=pull();aimX=W/2;dropReady=true;
   document.documentElement.style.setProperty('--x','0');
-    $('bestl').textContent=mode==='daily'?'오늘 최고':'BEST';
+    $('bestl').textContent=mode==='daily'?'오늘 최고':'BEST';updateGoal();
   refreshUI();
 }
+/* ───────── 스테이지 모드 ───────── */
+// 목표: Lv.lv 이상의 몽글이를 합체로 n번 만들기. 13스테이지부터는 최종 단계를 늘려가며 무한 확장
+const STAGE_DEFS=[[3,1],[4,1],[4,2],[5,1],[5,2],[6,1],[6,2],[7,1],[7,2],[8,1],[9,1],[10,1]];
+function stageGoal(n){const d=STAGE_DEFS[n-1];return d?{lv:d[0],n:d[1]}:{lv:10,n:n-11}}
+function seedStage(){ // 스테이지가 올라갈수록 바닥에 미리 깔린 몽글이가 늘어남(같은 스테이지는 항상 같은 배치)
+  const cnt=Math.min(2*(stageNo-1),12);
+  for(let i=0;i<cnt;i++){const l=(i+Math.floor(rng()*2))%4,r=RAD[l];addBlob(r+4+rng()*(W-2*r-8),H-90-i*14,l,1)}
+}
+function updateGoal(){
+  const g=$('goal');g.classList.toggle('on',mode==='stage');if(mode!=='stage')return;
+  const nm=THEMES[S.theme].levels[goal.lv][0];
+  $('goalTxt').textContent=`STAGE ${stageNo} · ${nm}${goal.lv<N-1?' 이상':''} ${goalCount}/${goal.n} 만들기`;
+  $('goalBar').style.width=Math.min(100,goalCount/goal.n*100)+'%';
+  const c=$('gc').getContext('2d');c.clearRect(0,0,56,56);drawBlob(c,28,28,22,goal.lv,{});
+}
+function stageProgress(created){
+  if(mode!=='stage'||over||performance.now()-t0<2500||created<goal.lv)return;
+  goalCount++;updateGoal();if(goalCount>=goal.n)clearStage();
+}
+function clearStage(){
+  over=true;cleared=true;
+  const bonus=100*stageNo;score+=bonus;updateScore();
+  const next=stageNo+1;if(next>store.get('stageNo',1))store.set('stageNo',next);
+  if(score>store.get('stageBestScore',0))store.set('stageBestScore',score);
+  let reward='';if(stageNo%3===0){S.items.shake++;S.items.bomb++;store.set('items',S.items);reward='<br>🎁 흔들기·폭파 아이템 +1 획득!'}
+  say('클리어! 대단해요!','happy',9999);Music.setLevel(.6);vib([40,40,80]);
+  [523,659,784,1047].forEach((f,i)=>tone(f,.3,'triangle',.15,i*.12));
+  $('clearInfo').innerHTML=`<b style="font-size:22px;color:var(--acc)">STAGE ${stageNo} 클리어</b><br>클리어 보너스 +${bonus}<br>현재 점수 ${score}점${reward}`;
+  $('bNext').textContent=`STAGE ${next} ▶`;
+  show('ovClear');
+}
+function startStage(fresh){
+  if(fresh){stageNo=1;store.set('stageNo',1)}else stageNo=store.get('stageNo',1);
+  start('stage',{base:0});
+}
 function pull(){return Math.floor(rng()*5*.999)} // 0~4 단계
-function bestFor(){return mode==='daily'?store.get('daily_'+todayKey(),0):S.best}
+function bestFor(){return mode==='daily'?store.get('daily_'+todayKey(),0):mode==='stage'?store.get('stageBestScore',0):S.best}
 
 function addBlob(x,y,l,vy){
   const b=Bodies.circle(x,y,RAD[l],{restitution:.08,friction:.45,frictionStatic:.6,frictionAir:.012,slop:RAD[l]*.06,density:.001*Math.sqrt(RAD[l]/15),label:'blob'});
@@ -532,7 +585,7 @@ function onCollide(ev){
       const now=performance.now();
       combo=(now-comboT<1100)?combo+1:1;comboT=now;runMerged++;
       if(l===N-1){ // 최종체 둘이 만나면 팡!
-        score+=SCORE[l]*4;burst(x,y,l,40);sfxMerge(l,combo+4);vib([30,40,60]);
+        score+=SCORE[l]*4;burst(x,y,l,40);sfxMerge(l,combo+4);vib([30,40,60]);stageProgress(N);
       }else{
         const nb=addBlob(x,y,l+1);nb.s=.55;nb.sv=.09;nb.k=.22;nb.ka=Math.random()*3;shake=Math.min(7,2+l*.7);
         score+=SCORE[l+1]*(1+Math.floor((combo-1)/2)*.5);
@@ -544,7 +597,7 @@ function onCollide(ev){
       }
       if(combo>=3)say(['와아! 대박!','연쇄 폭발!','멋져요!'][combo%3],'happy',1400);
       if(combo>=2){const c=$('combo');c.className='';c.textContent=combo+' COMBO!';c.classList.add('show');clearTimeout(c._t);c._t=setTimeout(()=>c.classList.remove('show'),700)}
-      score=Math.round(score);updateScore();
+      score=Math.round(score);updateScore();if(l<N-1)stageProgress(l+1);
     },85);
   }
 }
@@ -579,6 +632,7 @@ function refreshUI(){
   $('mMusic').textContent=S.music?'🎵 배경음 켬':'🔕 배경음 끔';
   $('mVib').textContent=S.vib?'📳 진동 켬':'📴 진동 끔';
   $('noAdsState').textContent=S.noAds?'구매 완료':'₩3,900';
+  {const n=store.get('stageNo',1);$('stageInfo').textContent=n>1?`이어하기 · STAGE ${n}`:'STAGE 1부터 시작';$('rowStageNew').style.display=n>1?'':'none'}
   $('dailyInfo').textContent=todayKey()+' · 오늘 최고 '+store.get('daily_'+todayKey(),0);
   drawNext();
 }
@@ -635,10 +689,11 @@ function checkOver(now){
 function end(){
   over=true;
   if(mode==='daily'){const k='daily_'+todayKey();if(score>store.get(k,0))store.set(k,score)}
+  else if(mode==='stage'){if(score>store.get('stageBestScore',0))store.set('stageBestScore',score)}
   else if(score>S.best){S.best=score;store.set('best',score)}
   vib([80,40,80]);tone(150,.6,'sawtooth',.15);say('괜찮아, 다시 해봐요!','sad',9999);Music.setLevel(.3);
-  $('overInfo').innerHTML=`<span class="tag">${mode==='daily'?'📅 '+todayKey():'일반'}</span><br><b style="font-size:30px;color:var(--acc)">${score}</b> 점<br>최고 단계: ${THEMES[S.theme].levels[maxLevel][0]} · 합체 ${runMerged}회`;
-  $('bRevive').style.display=usedRevive?'none':'';
+  $('overInfo').innerHTML=`<span class="tag">${mode==='daily'?'📅 '+todayKey():mode==='stage'?'🏁 STAGE '+stageNo+' 실패':'일반'}</span><br><b style="font-size:30px;color:var(--acc)">${score}</b> 점<br>최고 단계: ${THEMES[S.theme].levels[maxLevel][0]} · 합체 ${runMerged}회`;
+  $('bRevive').style.display=usedRevive?'none':'';$('bRetry').textContent=mode==='stage'?'이 스테이지 다시 도전':'다시 하기';
   show('ovOver');updateScore();
 }
 function revive(){
@@ -685,8 +740,10 @@ function render(now){
 }
 
 /* ───────── 버튼 연결 ───────── */
-function start(m){hide('ovStart');hide('ovOver');hide('ovMenu');newGame(m)}
+function start(m,o){hide('ovStart');hide('ovOver');hide('ovMenu');hide('ovClear');newGame(m,o)}
 $('goNormal').onclick=()=>start('normal');
+$('goStage').onclick=()=>startStage(false);$('goStageNew').onclick=()=>startStage(true);
+$('bNext').onclick=()=>{stageNo++;start('stage',{base:score})};$('bClearHome').onclick=()=>{hide('ovClear');refreshUI();show('ovStart')};
 $('goDaily').onclick=()=>start('daily');
 $('goDex').onclick=openDex;$('bDex').onclick=openDex;$('dexClose').onclick=()=>hide('ovDex');
 $('goTheme').onclick=openTheme;$('themeClose').onclick=()=>hide('ovTheme');
@@ -697,8 +754,8 @@ $('mSound').onclick=()=>{S.sound=!S.sound;store.set('sound',S.sound);refreshUI()
 $('mMusic').onclick=()=>{S.music=!S.music;store.set('music',S.music);S.music?Music.start(S.theme):Music.stop();refreshUI()};
 $('mVib').onclick=()=>{S.vib=!S.vib;store.set('vib',S.vib);refreshUI()};
 $('mNoAds').onclick=()=>Monet.buyNoAds();
-$('mRestart').onclick=()=>start(mode||'normal');
-$('bRetry').onclick=()=>start(mode);
+$('mRestart').onclick=()=>start(mode||'normal',mode==='stage'?{base:stageBase}:undefined);
+$('bRetry').onclick=()=>start(mode,mode==='stage'?{base:stageBase}:undefined);
 $('bHome').onclick=()=>{hide('ovOver');refreshUI();show('ovStart')};
 $('bRevive').onclick=()=>Monet.rewarded(ok=>{if(ok)revive()});
 $('bShare').onclick=()=>{
@@ -718,7 +775,7 @@ function openTheme(){
 
 resize();newGame('normal');refreshUI();requestAnimationFrame(frame);
 // 테스트/디버그용 훅
-window.__bd={Music,get blobs(){return blobs},get score(){return score},addBlob,drop,get over(){return over}};
+window.__bd={Music,get blobs(){return blobs},get score(){return score},addBlob,drop,get over(){return over},get stage(){return stageNo},get cleared(){return cleared},get goalCount(){return goalCount}};
 })();
 </script>
 </body>
