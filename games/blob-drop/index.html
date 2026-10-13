@@ -779,7 +779,7 @@ function bestFor(){return mode==='daily'?store.get('daily_'+todayKey(),0):mode==
 
 function addBlob(x,y,l,vy){
   const b=Bodies.circle(x,y,RAD[l],{restitution:.08,friction:.45,frictionStatic:.6,frictionAir:.012,slop:RAD[l]*.06,density:.001*Math.sqrt(RAD[l]/15),label:'blob'});
-  b.lvl=l;b.born=performance.now();b.merging=false;b.k=0;b.kv=0;b.ka=0;b.s=1;b.sv=0;
+  b.lvl=l;b.born=performance.now();b.merging=false;b.k=0;b.kv=0;b.ka=0;b.s=1;b.sv=0;b.idle=0;
   if(vy)Body.setVelocity(b,{x:0,y:vy});
   World.add(engine.world,b);blobs.push(b);return b;
 }
@@ -966,14 +966,21 @@ function render(now){
   if(!over&&dropReady&&!bombMode){
     const r=RAD[curLevel],x=Math.max(r+2,Math.min(W-r-2,aimX));
     ctx.strokeStyle='#ffffff30';ctx.setLineDash([4,6]);ctx.beginPath();ctx.moveTo(x,r*2+10);ctx.lineTo(x,H);ctx.stroke();ctx.setLineDash([]);
-    drawBlob(ctx,x,r+8,r,curLevel,{});
+    const hk=Math.sin(now/350)*.05;drawBlob(ctx,x,r+8+hk*r,r,curLevel,{k:hk,ka:Math.PI/2,happy:(now%4200)<160});
   }else if(!over&&!bombMode){const r=RAD[curLevel];ctx.globalAlpha=.35;drawBlob(ctx,Math.max(r+2,Math.min(W-r-2,aimX)),r+8,r,curLevel,{});ctx.globalAlpha=1}
   drawBlobShadows(ctx,blobs); // 바닥 접촉 그림자(몽글이 아래에 먼저 그림)
   for(const b of blobs){
     b.kv+=-.22*b.k-.1*b.kv;b.k+=b.kv;if(Math.abs(b.k)<.001&&Math.abs(b.kv)<.001)b.k=b.kv=0;
     b.sv+=-.18*(b.s-1)-.12*b.sv;b.s+=b.sv;
-    const near=Math.hypot(b.velocity.x,b.velocity.y)>2;
-    drawBlob(ctx,b.position.x,b.position.y,RAD[b.lvl],b.lvl,{a:b.angle,k:b.k+Math.sin(now/500+b.id)*.008,ka:b.ka,s:b.s,happy:Math.abs(b.k)>.06||near&&b.lvl>3});
+    const sp=Math.hypot(b.velocity.x,b.velocity.y),near=sp>2,R=RAD[b.lvl];
+    // 대기 애니메이션(화면 전용, 물리 영향 없음): 가만히 있을 때만 천천히 켜지고, 움직이거나 부딪히면 부드럽게 꺼짐
+    const calm=sp<.8&&b.k<.03&&!b.merging&&now-b.born>600;
+    b.idle+=((calm?1:0)-b.idle)*.06;
+    const ik=Math.sin(now/430+b.id*1.7)*.05*b.idle;               // 위아래로 말랑하게 숨쉬기
+    const ia=Math.sin(now/1300+b.id)*.035*b.idle;                  // 살짝 좌우로 기우뚱
+    const smile=b.idle>.5&&((now+b.id*977)%4200<160||Math.sin((now+b.id*531)/1700)>.93); // 눈 깜빡임/웃음
+    const phys=b.k>.02;                                            // 충돌 찌그러짐이 있으면 그 방향을 우선
+    drawBlob(ctx,b.position.x,b.position.y+ik*R,R,b.lvl,{a:b.angle+ia,k:b.k+ik,ka:phys?b.ka:Math.PI/2,s:b.s,happy:Math.abs(b.k)>.06||near&&b.lvl>3||smile});
     if(bombMode){ctx.strokeStyle='#ff547088';ctx.lineWidth=2;ctx.beginPath();ctx.arc(b.position.x,b.position.y,RAD[b.lvl]+3,0,7);ctx.stroke()}
   }
   for(let i=fx.length-1;i>=0;i--){const p=fx[i];p.x+=p.vx;p.y+=p.vy;p.vy+=.12;p.life-=.025;
