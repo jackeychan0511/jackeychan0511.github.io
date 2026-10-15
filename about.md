@@ -24,6 +24,7 @@ permalink: /about/
 
 - [블로그 홈](https://jackeychan0511.github.io)
 - [GitHub](https://github.com/jackeychan0511)
+- [유튜브 채널](https://www.youtube.com/@jackeychankey)
 - [RSS 피드](/feed.xml)
 
 ---
