@@ -21,7 +21,7 @@
           </li>
           {% endfor %}
           <li><a href="{{ '/video-dashboard/' | relative_url }}" class="nav-link {% if page.url == '/video-dashboard/' %}active{% endif %}">📺 무료강의</a></li>
-          {% if site.social.youtube %}<li><a href="https://www.youtube.com/@{{ site.social.youtube }}" target="_blank" rel="noopener" class="nav-link">▶️ 유튜브</a></li>{% endif %}
+          {% if site.social.youtube %}<li><a href="https://www.youtube.com/@{{ site.social.youtube }}" target="_blank" rel="noopener" class="nav-link nav-link-yt" title="유튜브 채널 — 새 영상"><span class="nav-yt"><img src="{{ '/assets/images/youtube-icon.svg' | relative_url }}" alt="YouTube" class="nav-yt-icon" width="17" height="12"><span class="nav-yt-n" aria-hidden="true">N</span></span>유튜브</a></li>{% endif %}
           <li><a href="{{ '/about' | relative_url }}" class="nav-link">소개</a></li>
         </ul>
       </nav>

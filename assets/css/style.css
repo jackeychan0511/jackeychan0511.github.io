@@ -125,6 +125,48 @@ img { max-width: 100%; height: auto; border-radius: var(--radius-sm); }
   color: #fff !important;
 }
 
+/* YouTube 메뉴 — 공식 마크 + '새 영상(N)' 배지 강조 */
+.nav-link-yt {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+.nav-yt {
+  position: relative;
+  display: inline-flex;
+  flex: none;
+}
+.nav-yt-icon {
+  display: block;
+  width: 17px;
+  height: 12px;
+}
+.nav-yt-n {
+  position: absolute;
+  top: -7px;
+  right: -7px;
+  min-width: 14px;
+  height: 14px;
+  padding: 0 3px;
+  background: #FFD400;
+  color: #1a1a2e;
+  font-size: 10px;
+  font-weight: 900;
+  line-height: 14px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 0 0 2px var(--primary), 0 0 5px rgba(255,212,0,0.5);
+  animation: nav-yt-pulse 1.8s ease-in-out infinite;
+}
+@keyframes nav-yt-pulse {
+  0%, 100% { transform: scale(1);    box-shadow: 0 0 0 2px var(--primary), 0 0 4px rgba(255,212,0,0.45); }
+  50%      { transform: scale(1.18); box-shadow: 0 0 0 2px var(--primary), 0 0 11px rgba(255,212,0,0.95); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .nav-yt-n { animation: none; }
+}
+.nav-link-yt:hover .nav-yt-n { background: #fff; }
+
 .nav-toggle { display: none; flex-direction: column; gap: 5px; cursor: pointer; background: none; border: none; padding: 8px; }
 .nav-toggle span { display: block; width: 24px; height: 2px; background: #fff; border-radius: 2px; transition: all 0.3s; }
 
