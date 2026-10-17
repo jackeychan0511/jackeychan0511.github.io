@@ -227,7 +227,8 @@ let evMemo={};
 function evType(m){if(m<0)return 0;if(m<3)return m+1;if(!(m in evMemo)){let o=0;if(hash(seed,m+77)%100<85){o=hash(seed,m+7)%3+1;if(o===evType(m-1))o=o%3+1}evMemo[m]=o}return evMemo[m]}
 function evWin(m){const o=evType(m);if(!o)return null;const st=m<3?24:18+hash(seed,m+31)%12;return{s:BLK*m+st,e:BLK*m+st+14,o}}
 function orientAt(b){if(b<0)return 0;const w=evWin(Math.floor(b/BLK));return w&&b>=w.s&&b<w.e?w.o:0}
-function nearXfer(n){const m=Math.floor(n/BLK),w=evWin(m);if(!w)return false;return Math.abs(n-w.s)<=1||Math.abs(n-w.e)<=1}
+const XD=.6;   // 화면 전환(가로/세로/상하반전)에 걸리는 시간(초). BPM이 빨라져도 전환 중에는 장애물이 나오지 않도록 아래 nearXfer 가 앞뒤 2.2박을 비움
+function nearXfer(n){const m=Math.floor(n/BLK),w=evWin(m);if(!w)return false;return Math.abs(n-w.s)<=2.2||Math.abs(n-w.e)<=2.2}
 const clamp=(v,a,b)=>v<a?a:v>b?b:v;
 const cv=document.getElementById('g'),cx=cv.getContext('2d');
 let SC=2;
@@ -336,7 +337,7 @@ const Updater=(()=>{
   }})();
 let mode='menu',run=null,lastT=0,pendingOver=0,sync=store.get('nl_sync',0),lastResult=null;
 const dayKey=()=>{const n=new Date();return n.getFullYear()*10000+(n.getMonth()+1)*100+n.getDate()};
-const BPM0=112,bpmAt=b=>Math.min(200,BPM0+Math.max(0,b)*.4);   // 112 BPM 에서 시작해 점점 빨라짐 (beat 220 부근에서 200 BPM)
+const BPM0=112,bpmAt=b=>{b=Math.max(0,b);return Math.min(180,b<95?BPM0+b*.4:BPM0+95*.4+(b-95)*.2)};   // 112 BPM 에서 시작해 점점 빨라짐 (beat 220 부근에서 200 BPM)
 function newRun(daily){
   resetChart(daily?(dayKey()^0x4e4c):(Math.random()*1e9|0));
   return{daily,beat:-4,bpm:100,lane:1,lf:1,o:0,e:0,banner:null,tj:-1,score:0,combo:0,maxCombo:0,perfect:0,good:0,miss:0,orbs:0,trail:[],parts:[],pops:[],jd:null,shake:0,flash:0,dead:false,lastBeatInt:-5,lastCredit:-9,tier:11,t:0,final:0}
@@ -372,12 +373,12 @@ function update(dt){
   R.shake=Math.max(0,R.shake-dt);R.flash=Math.max(0,R.flash-dt*2.2);if(R.jd){R.jd.t-=dt;if(R.jd.t<=0)R.jd=null}
   if(mode==='over'){pendingOver-=dt;if(pendingOver<=0&&pendingOver>-5){pendingOver=-9;showOver()}return}
   R.bpm=mode==='ready'?BPM0:bpmAt(R.beat)*(1-.1*ease(R.e));      // 회전 이벤트 중에는 BPM을 10% 낮춤
-  R.beat+=dt*R.bpm/60;
+  R.beat+=dt*R.bpm/60;R.bgp=(R.bgp||0)+dt*Math.min(R.bpm,130)/60;
   if(mode==='play'){const tr=Math.floor(R.bpm/10);if(tr>R.tier){R.tier=tr;R.speedUp=1;pop(R,80,46,'SPEED UP!  '+tr*10+' BPM','#ffe600',6);if(AC)tone('square',440,AC.currentTime,.12,.08,880)}}
   R.lf+=(R.lane-R.lf)*Math.min(1,dt*30);
   {const tg=orientAt(R.beat+.25);
-    if(tg){if(R.o!==tg&&R.o===0){R.o=tg;R.banner={k:tg,t:2};R.flash=.55;R.shake=.35;if(AC)tone('square',200,AC.currentTime,.25,.1,900)}R.e=Math.min(1,R.e+dt*(calm?1.1:1.8))}
-    else{R.e=Math.max(0,R.e-dt*(calm?1.1:1.8));if(R.e===0)R.o=0}
+    if(tg){if(R.o!==tg&&R.o===0){R.o=tg;R.banner={k:tg,t:2};R.flash=.55;R.shake=.35;if(AC)tone('square',200,AC.currentTime,.25,.1,900)}R.e=Math.min(1,R.e+dt/XD)}
+    else{R.e=Math.max(0,R.e-dt/XD);if(R.e===0)R.o=0}
     if(R.banner){R.banner.t-=dt;if(R.banner.t<=0)R.banner=null}}
   if(R.tj>=0){R.tj+=dt*R.bpm/60;if(R.tj>JB)R.tj=-1}
   const h=R.tj>=0?Math.sin(Math.PI*R.tj/JB)*14:0;R.trail.push({b:R.beat,lf:R.lf,h});while(R.trail.length&&R.trail[0].b<R.beat-5)R.trail.shift();
@@ -410,11 +411,11 @@ function drawBg(R){
   const pulse=(1-(((R.beat%1)+1)%1))*(calm?.3:1),t=ease(R.e);
   let g=cx.createRadialGradient(80,40,5,80,60,190);g.addColorStop(0,'rgba(90,30,170,'+(.28+.12*pulse)+')');g.addColorStop(.5,'rgba(20,60,120,.12)');g.addColorStop(1,'rgba(0,0,0,0)');cx.fillStyle=g;cx.fillRect(0,0,W,H);
   // 데이터 스트림 (세로 ↔ 가로)
-  const sp=R.beat*BP*(R.o===3?-1:1),dir=R.o===2?-1:1,hz=R.o===1||R.o===2,va=hz?1-t:1;
+  const sp=(R.bgp||0)*BP*(R.o===3?-1:1),dir=R.o===2?-1:1,hz=R.o===1||R.o===2,va=hz?1-t:1;
   if(va>.01){cx.fillStyle='rgba(39,243,255,'+(.14*va).toFixed(3)+')';
     for(let i=0;i<14;i++){const x=(i<7?2+i*2.6:RX+4*LW+3+(i-7)*2.6),y=(((i*83+sp*(1+(i%3)*.4))%(H+40))+H+40)%(H+40)-20;cx.fillRect(x,y,.7,10+(i%4)*6)}}
   if(hz&&t>.01){cx.fillStyle='rgba(39,243,255,'+(.16*t).toFixed(3)+')';
-    for(let i=0;i<16;i++){const y=i%2?8+(i*7)%40:HY0+4*HLH+10+(i*11)%50,x=(((i*61+dir*R.beat*HBP*(1+(i%3)*.4))%(W+50))+W+50)%(W+50)-25;cx.fillRect(x,y,10+(i%4)*7,.7)}}
+    for(let i=0;i<16;i++){const y=i%2?8+(i*7)%40:HY0+4*HLH+10+(i*11)%50,x=(((i*61+dir*(R.bgp||0)*HBP*(1+(i%3)*.4))%(W+50))+W+50)%(W+50)-25;cx.fillRect(x,y,10+(i%4)*7,.7)}}
   const b0=R.beat-1.6,b1=R.beat+7;
   for(let l=0;l<4;l++){const A=pp(R,l,b1),B=pp(R,l,b0),c=LRGB[l];g=cx.createLinearGradient(A[0],A[1],B[0],B[1]);
     g.addColorStop(0,'rgba('+c+',.015)');g.addColorStop(1,'rgba('+c+','+(.13+.08*pulse)+')');cx.fillStyle=g;
@@ -430,7 +431,7 @@ function drawChart(R){
     if(it.t==='block'){const col=LC[it.lane],lat=sp-6;cx.save();cx.translate(c[0],c[1]);cx.rotate(R.o===3?0:t*Math.PI/2);
       cx.fillStyle='rgba(8,2,20,.92)';cx.strokeStyle=col;cx.lineWidth=1.4;cx.shadowColor=col;cx.shadowBlur=9;cx.beginPath();cx.roundRect(-lat/2,-5.5,lat,11,2.5);cx.fill();cx.stroke();cx.shadowBlur=0;
       cx.rotate(-(R.o===3?0:t*Math.PI/2));                 // 음표는 항상 바로 서 있게
-      cx.strokeStyle=col;cx.fillStyle=col;cx.shadowColor=col;cx.shadowBlur=6;cx.lineWidth=1.1;cx.lineCap='round';
+      cx.strokeStyle=col;cx.fillStyle=col;cx.shadowBlur=0;cx.lineWidth=1.1;cx.lineCap='round';
       cx.beginPath();cx.ellipse(-1.6,2.3,2.2,1.55,-.45,0,6.283);cx.fill();
       cx.beginPath();cx.moveTo(.4,1.8);cx.lineTo(.4,-3.9);cx.quadraticCurveTo(1.2,-3.2,3.3,-1.2);cx.stroke();cx.shadowBlur=0;cx.restore()}
     else if(it.t==='bar'){const A=pp(R,-.5,it.b),B=pp(R,3.5,it.b),g=cx.createLinearGradient(A[0],A[1],B[0],B[1]);LC.forEach((cc,i)=>g.addColorStop(i/3,cc));
@@ -443,7 +444,7 @@ function drawChart(R){
 function drawTrail(R){
   const tr=R.trail;if(tr.length<2)return;cx.lineCap='round';
   for(let i=1;i<tr.length;i++){const a=tr[i-1],b=tr[i],age=clamp((R.beat-b.b)/5,0,1),A=pp(R,a.lf,a.b),B=pp(R,b.lf,b.b);A[1]-=a.h;B[1]-=b.h;
-    const col=laneCol(b.lf,(1-age)*.95);cx.strokeStyle=col;cx.lineWidth=3.2*(1-age*.7)+.4;cx.shadowColor=col;cx.shadowBlur=10*(1-age);cx.beginPath();cx.moveTo(A[0],A[1]);cx.lineTo(B[0],B[1]);cx.stroke()}
+    const col=laneCol(b.lf,(1-age)*.95);cx.strokeStyle=col;cx.lineWidth=3.2*(1-age*.7)+.4;cx.shadowColor=col;cx.shadowBlur=i>tr.length-14?10*(1-age):0;cx.beginPath();cx.moveTo(A[0],A[1]);cx.lineTo(B[0],B[1]);cx.stroke()}
   cx.shadowBlur=0;
 }
 function drawPlayer(R){
@@ -597,10 +598,11 @@ function paintMute(){$('muteBtn').textContent=muted?'🔇 OFF':'🔊 ON';if(mast
 function saveName(){const v=$('setName').value.trim().replace(/[<>&"']/g,'').slice(0,10);if(v.length>=2){const ch=v!==player;player=v;store.set('nl_name',v);if(ch)Rank.rename()}else $('setName').value=player}
 
 /* ============================ 루프 / 입력 ============================ */
-function fit(){const st=$('stage'),aw=st.clientWidth-8,ah=st.clientHeight-8,dpr=Math.min(window.devicePixelRatio||1,3);if(aw<=0||ah<=0)return;
+function fit(){const st=$('stage'),aw=st.clientWidth-8,ah=st.clientHeight-8,dpr=Math.min(window.devicePixelRatio||1,2);if(aw<=0||ah<=0)return;
   const s=Math.min(aw/W,ah/H,3);const cw=Math.floor(W*s),ch=Math.floor(H*s);cv.style.width=cw+'px';cv.style.height=ch+'px';cv.width=Math.round(cw*dpr);cv.height=Math.round(ch*dpr);SC=cv.width/W;cx.setTransform(SC,0,0,SC,0,0)}
 addEventListener('resize',fit);
-function loop(t){const dt=Math.min(.05,(t-lastT)/1000||0);lastT=t;if(mode!=='menu'&&run){if(!paused)update(dt);if(screen==='game')render()}requestAnimationFrame(loop)}
+let dtS=0;
+function loop(t){const raw=Math.min(.05,(t-lastT)/1000||0);lastT=t;dtS=dtS?dtS*.75+raw*.25:raw;const dt=dtS;/* 프레임 간격 평활화: 순간적인 프레임 지연이 화면 떨림으로 보이지 않게 */if(mode!=='menu'&&run){if(!paused)update(dt);if(screen==='game')render()}requestAnimationFrame(loop)}
 function bindBtn(id,fn){const b=$(id);
   b.addEventListener('pointerdown',e=>{e.preventDefault();b.classList.add('on');if(!paused)fn()});
   ['pointerup','pointercancel','pointerleave'].forEach(ev=>b.addEventListener(ev,()=>b.classList.remove('on')));b.addEventListener('contextmenu',e=>e.preventDefault())}
