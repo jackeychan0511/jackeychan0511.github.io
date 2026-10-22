@@ -36,6 +36,7 @@ category_order:
   - food
   - ai-teacher
   - team-jackchankey
+  - essay
 
 category_names:
   finance: "💰 재테크"
@@ -46,6 +47,7 @@ category_names:
   food: "🍽️ 맛집"
   ai-teacher: "✍️ AI 제작일지"
   team-jackchankey: "📱 앱개발"
+  essay: "📝 에세이"
 
 author:
   name: "재찬키"
