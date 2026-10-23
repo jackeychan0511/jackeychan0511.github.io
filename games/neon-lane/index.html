@@ -37,7 +37,8 @@ input{font:inherit;user-select:text;-webkit-user-select:text}
 .center{position:relative;z-index:2;flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:0 22px;text-align:center;min-height:0}
 .logo{font-family:"Courier New",monospace;font-weight:900;font-size:clamp(38px,12vw,56px);letter-spacing:2px;margin:0;background:linear-gradient(90deg,#ff2d55,#ff9500,#ffe600,#30ff7a);-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 0 14px #ff2bd699)}
 .sub{font-family:"Courier New",monospace;font-weight:700;font-size:13px;letter-spacing:9px;color:var(--cy);margin:4px 0 8px;text-shadow:0 0 10px var(--cy)}
-.tag{color:#c9c2f0;font-size:14px;margin:0 0 18px}
+.tag{color:#c9c2f0;font-size:14px;margin:0 0 6px}
+.tag2{color:#8fd8ff;font-size:12.5px;margin:0 0 18px;text-shadow:0 0 8px #27f3ff55}
 .today{display:flex;gap:18px;margin-bottom:16px;font-size:13px;color:var(--sub)}
 .today b{display:block;font-size:20px;color:#fff;font-family:"Courier New",monospace;text-shadow:0 0 10px var(--cy)}
 .play{width:100%;max-width:340px;border:0;border-radius:18px;padding:16px 10px;font-weight:900;font-size:24px;letter-spacing:2px;color:#05010d;background:linear-gradient(90deg,#27f3ff,#7affc8);box-shadow:0 0 28px #27f3ff77;margin-top:10px}
@@ -132,6 +133,7 @@ input{font:inherit;user-select:text;-webkit-user-select:text}
     <h1 class="logo">네온 레인</h1>
     <div class="sub">NEON LANE</div>
     <p class="tag">박자에 맞춰 네온 위를 달리세요</p>
+    <p class="tag2">매일매일 패턴이 랜덤으로 바뀌어요</p>
     <div class="today"><div>오늘의 내 최고<b id="hToday">-</b></div><div>닉네임<b id="hName" style="font-size:16px">-</b></div></div>
     <button class="play" id="goDaily">▶ PLAY<small>오늘의 곡 · 랭킹 반영</small></button>
     <button class="play alt" id="goFree">프리 플레이<small>랭킹 미반영 · 매번 새로운 곡</small></button>
@@ -196,7 +198,7 @@ input{font:inherit;user-select:text;-webkit-user-select:text}
     <ul class="how">
       <li>빛이 <b>빨·주·노·초 4개 차선</b>을 달려요. ◀ ▶ 로 차선을 옮기고 <b>JUMP</b>로 낮은 바를 넘어요</li>
       <li>블록을 <b>피하거나 노트(◆)를 향해</b>, 막대를 <b>넘으려고</b> 박자에 맞춰 움직이면 PERFECT! 콤보와 점수 배수(최대 ×4)가 올라가요. 필요 없는 움직임은 점수가 없어요</li>
-      <li>음표 블록에 <b>한 번 부딪히면 끝</b>. 달릴수록 <b>BPM과 속도가 점점 빨라져요</b>(적당한 속도로 시작)</li>
+      <li>음표 블록에 <b>한 번 부딪히면 끝</b>. 달릴수록 <b>BPM과 속도가 빠르게 올라가다가 일정 속도에서 유지돼요</b></li>
       <li>⚡ <b>이벤트</b>: 화면이 가로로 돌아가거나(좌→우 / 우→좌) 위아래로 뒤집혀요. 버튼은 <b>진행 방향 기준 ◀=왼쪽</b>이에요 (이벤트1 ◀=위, 이벤트2 ◀=아래, 이벤트3 ◀=오른쪽)</li>
       <li>차선 위 <b>◆ 노트</b>를 먹으면 보너스!</li>
       <li>🏆 <b>오늘의 곡</b>은 모두 같은 곡이라 <b>일일 랭킹</b>에 반영돼요. 일일 1위 기록은 <b>명예의 전당</b>에 남아요. 프리 플레이는 랭킹에 반영되지 않아요</li>
@@ -278,9 +280,16 @@ function noise(when,dur,vol,fr,type,o){if(!AC||muted)return;o=o||{};
     g.gain.setValueAtTime(.0001,when);g.gain.linearRampToValueAtTime(vol,when+.0015);g.gain.exponentialRampToValueAtTime(.0001,when+dur);s.connect(f);f.connect(g);g.connect(master);
     if(o.send&&reverb){const sg=AC.createGain();sg.gain.value=o.send;g.connect(sg);sg.connect(reverb)}
     s.start(when,Math.random()*.2);s.stop(when+dur+.05)}catch(e){}}
-const CH=[{r:33,t:[57,60,64,69]},{r:29,t:[53,57,60,65]},{r:36,t:[60,64,67,72]},{r:31,t:[55,59,62,67]}];   // Am F C G
+const CH=[{r:33,t:[57,60,64,69]},{r:29,t:[53,57,60,65]},{r:36,t:[60,64,67,72]},{r:31,t:[55,59,62,67]}];   // 기본: Am F C G
+// 오늘의 곡(시드)마다 음악도 달라짐: 코드 진행 / 조(키) / 킥 패턴 / 아르페지오 순서·옥타브·음색
+const PROG=[[[0,0],[-4,1],[3,1],[-2,1]],[[0,0],[-2,1],[-4,1],[-2,1]],[[0,0],[5,0],[-2,1],[3,1]],[[-4,1],[-2,1],[0,0],[3,1]],[[0,0],[3,1],[-2,1],[5,0]],[[0,0],[-4,1],[-2,1],[0,0]]];   // [A 기준 반음 차이, 0=마이너 1=메이저]
+const ARP=[[0,1,2,3,0,1,2,3],[0,2,1,3,0,2,1,3],[3,2,1,0,3,2,1,0],[0,1,2,1,0,1,3,2],[0,2,3,2,0,3,2,1]];
+function makeMus(sd){const r=mulberry32(hash(sd,4242)),pick=a=>a[Math.floor(r()*a.length)],tr=pick([-3,-1,0,0,2,3,5]),pg=pick(PROG);
+  const ch=pg.map(([off,maj])=>{const root=((33+off+tr-28)%12+12)%12+28,th=maj?4:3;return{r:root,t:[root+24,root+24+th,root+31,root+36]}});
+  return{ch,arp:pick(ARP),oct:pick([[0,0,12,12],[0,12,0,12],[0,12,12,0]]),kx:pick([0,5,7]),wave:pick(['square','triangle','sawtooth']),lead:Math.floor(r()*3)}}
+const DEFMUS={ch:CH,arp:ARP[0],oct:[0,0,12,12],kx:0,wave:'square',lead:2};
 function playStep(k,when,R){
-  const beat=k/2,onBeat=k%2===0,bi=((Math.floor(beat)%4)+4)%4,bar=Math.floor(beat/4),ch=CH[((bar%4)+4)%4],n=Math.max(0,beat),bs=60/Math.max(60,R.bpm||120);
+  const M=R.mus||DEFMUS,beat=k/2,onBeat=k%2===0,bi=((Math.floor(beat)%4)+4)%4,bar=Math.floor(beat/4),ch=M.ch[((bar%4)+4)%4],n=Math.max(0,beat),bs=60/Math.max(60,R.bpm||120);
   if(onBeat){
     tone('sine',160,when,.2,.85,{f2:44,a:.002});tone('triangle',2400,when,.012,.08,{f2:300,a:.001});            // 킥(몸통 + 클릭)
     if(bi===1||bi===3){noise(when,.17,.2,1900,'bandpass',{q:.9,send:.3});tone('triangle',210,when,.1,.14,{f2:130,a:.002,send:.15})}   // 스네어
@@ -289,11 +298,12 @@ function playStep(k,when,R){
       if(bi===0)tone('sine',mf(ch.r+12),when,.5,.09,{a:.01,send:.15})}
     if(beat>=8&&k%8===0){const dur=bs*4*.98;ch.t.forEach((nt,i)=>tone('triangle',mf(nt),when,dur,.03,{a:.35,lp:2400,send:.45,det:(i%2?7:-7),pan:(i-1.5)*.35}))}   // 패드(스테레오로 퍼짐)
   }else{
+    if(M.kx&&((k%8)+8)%8===M.kx)tone('sine',150,when,.14,.55,{f2:46,a:.002});   // 곡마다 다른 킥 변주
     noise(when,bi===3?.1:.04,bi===3?.05:.04,8000,'highpass');
     if(beat>=8)tone('sawtooth',mf(ch.r+12),when,.13,.08,{lp:950,lp2:320,q:.9,a:.004});
   }
-  if(n>=16&&beat>=0){const tn=ch.t[((k%8)+8)%8%4];tone('square',mf(tn+(k%4<2?0:12)),when,.13,.032,{lp:3200,a:.003,send:.3,pan:(k%2?.35:-.35)})}   // 아르페지오(부드럽게)
-  if(n>=64&&onBeat&&bi===0)tone('triangle',mf(ch.t[2]+12),when,.9,.075,{a:.02,send:.35});
+  if(n>=16&&beat>=0){const ai=((k%8)+8)%8,tn=ch.t[M.arp[ai]];tone(M.wave,mf(tn+M.oct[ai%4]),when,.13,M.wave==='sawtooth'?.026:.032,{lp:3200,a:.003,send:.3,pan:(k%2?.35:-.35)})}   // 아르페지오(부드럽게)
+  if(n>=64&&onBeat&&bi===0)tone('triangle',mf(ch.t[M.lead]+12),when,.9,.075,{a:.02,send:.35});
 }
 function sched(R){
   if(!AC||muted){while(nextStep*.5<R.beat+.5)nextStep++;return}
@@ -378,10 +388,10 @@ const Updater=(()=>{
   }})();
 let mode='menu',run=null,lastT=0,pendingOver=0,sync=store.get('nl_sync',0),lastResult=null;
 const dayKey=()=>{const n=new Date();return n.getFullYear()*10000+(n.getMonth()+1)*100+n.getDate()};
-const BPM0=112,bpmAt=b=>{b=Math.max(0,b);return Math.min(180,b<95?BPM0+b*.4:BPM0+95*.4+(b-95)*.2)};   // 112 BPM 에서 시작해 점점 빨라짐 (beat 220 부근에서 200 BPM)
+const BPM0=120,BPMMAX=170,bpmAt=b=>Math.min(BPMMAX,BPM0+Math.max(0,b)*.8);   // 120 BPM 에서 시작해 빠르게 올라가다가 170 BPM(약 60박, 30초)에서 더 이상 올리지 않고 유지
 function newRun(daily){
   resetChart(daily?(dayKey()^0x4e4c):(Math.random()*1e9|0));
-  return{daily,beat:-4,bpm:100,lane:1,lf:1,o:0,e:0,banner:null,tj:-1,score:0,combo:0,maxCombo:0,perfect:0,good:0,miss:0,orbs:0,trail:[],parts:[],pops:[],jd:null,shake:0,flash:0,dead:false,lastBeatInt:-5,lastCredit:-9,tier:11,t:0,final:0}
+  const R={daily,beat:-4,bpm:100,lane:1,lf:1,o:0,e:0,banner:null,tj:-1,score:0,combo:0,maxCombo:0,perfect:0,good:0,miss:0,orbs:0,trail:[],parts:[],pops:[],jd:null,shake:0,flash:0,dead:false,lastBeatInt:-5,lastCredit:-9,tier:12,t:0,final:0};R.mus=makeMus(seed);return R
 }
 const mult=R=>Math.min(4,1+Math.floor(R.combo/10));   // 콤보 배수: 최대 ×4
 function pop(R,x,y,t,c,s){R.pops.push({x,y,t,c,s:s||6,life:.8})}
