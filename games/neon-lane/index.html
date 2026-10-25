@@ -406,7 +406,12 @@ const Updater=(()=>{
     el('updLater').style.display=must?'none':'';el('updModal').classList.add('on')}
   return{
     async check(force){if(!U)return;if(!force&&Date.now()-lastCheck<30*60*1000)return;lastCheck=Date.now();
-      try{const i=await U.getAppUpdateInfo();if(i&&i.updateAvailability===2){info=i;show()}else info=null}catch(e){}},   // Play 스토어로 설치되지 않은 경우 등은 조용히 무시
+      try{const i=await U.getAppUpdateInfo();
+        if(i&&i.updateAvailability===2){info=i;store.set('nl_upd',{c:i.availableVersionCode,n:i.availableVersionName,p:i.updatePriority});show()}
+        else{info=null;store.set('nl_upd',null);if(el('updModal').classList.contains('on'))el('updModal').classList.remove('on')}}catch(e){}},   // Play 스토어로 설치되지 않은 경우 등은 조용히 무시
+    // 지난번 확인에서 새 버전이 있었다면, Play 응답을 기다리지 않고 앱을 켜자마자 바로 안내 (실제 확인은 뒤에서 이어서 진행)
+    async early(){if(!U)return;try{const c=store.get('nl_upd',null);if(!c)return;const A=cap.Plugins.App,b=A&&A.getInfo?parseInt((await A.getInfo()).build,10):0;
+      if(b&&parseInt(c.c,10)>b){info={availableVersionCode:c.c,availableVersionName:c.n,updatePriority:c.p,updateAvailability:2};show()}else store.set('nl_upd',null)}catch(e){}},
     maybeShow(){show()},
     async go(){el('updModal').classList.remove('on');if(!U)return;try{await U.openAppStore()}catch(e){}},
     later(){el('updModal').classList.remove('on')},
@@ -624,7 +629,7 @@ async function showOver(){
 /* ============================ 화면 / 앱 UI ============================ */
 const $=id=>document.getElementById(id);
 let screen='home',paused=false,player=store.get('nl_name','');
-function show(id){screen=id;if(id==='home'||id==='result')setTimeout(()=>Updater.maybeShow(),300);Ads.banner(id==='result');document.querySelectorAll('.screen').forEach(s=>s.classList.toggle('on',s.id===id));if(id==='game')requestAnimationFrame(fit);if(id==='rank')renderRank();if(id==='settings')refreshSettings();if(id==='home')refreshHome()}
+function show(id){screen=id;if(id==='home'||id==='result')Updater.maybeShow();Ads.banner(id==='result');document.querySelectorAll('.screen').forEach(s=>s.classList.toggle('on',s.id===id));if(id==='game')requestAnimationFrame(fit);if(id==='rank')renderRank();if(id==='settings')refreshSettings();if(id==='home')refreshHome()}
 async function refreshHome(){
   $('hBest').textContent=fmtNum(store.get('nl_best',0));$('hName').textContent=player||'미설정';
   const mine=Rank.runs().filter(r=>r.day===dayKey()&&r.name===player).map(r=>r.score);$('hToday').textContent=mine.length?fmtNum(Math.max(...mine)):'-'}
@@ -722,7 +727,7 @@ window.nlBack=function(){
 window.nlPause=function(){if(screen==='game')pause()};
 (function(){const cap=window.Capacitor;if(!(cap&&cap.isNativePlatform&&cap.isNativePlatform()))return;const P=cap.Plugins;
   if(P.App){P.App.addListener('backButton',()=>{if(!window.nlBack())P.App.exitApp()});P.App.addListener('appStateChange',st=>{if(!st.isActive)window.nlPause();else Updater.check()})}
-  Ads.warm();setTimeout(()=>Updater.check(true),2500)})();
+  Updater.early();Updater.check(true);Ads.warm()})();
 /* PWA: 설치 버튼 / 서비스워커 */
 let deferredPrompt=null;
 addEventListener('beforeinstallprompt',e=>{e.preventDefault();deferredPrompt=e;if(!IN_APP)$('installRow').style.display=''});
