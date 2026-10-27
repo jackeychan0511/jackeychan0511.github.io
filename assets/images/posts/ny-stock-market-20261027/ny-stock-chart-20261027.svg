@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="470" viewBox="0 0 840 470">
+  <rect width="840" height="470" rx="16" fill="#0f172a"/>
+  <text x="420" y="52" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="26" font-weight="700" fill="#f8fafc" text-anchor="middle">뉴욕증시 마감 (2026.10.26)</text>
+  <text x="420" y="82" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#94a3b8" text-anchor="middle">앤트로픽 IPO 신청에 AI 트레이드 부활, 3대 지수 동반 상승</text>
+  <defs>
+    <linearGradient id="up" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#34d399"/><stop offset="100%" stop-color="#059669"/></linearGradient>
+    <linearGradient id="dn" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#f87171"/><stop offset="100%" stop-color="#b91c1c"/></linearGradient>
+  </defs>
+  <line x1="70" y1="215" x2="770" y2="215" stroke="#475569" stroke-width="2"/>
+  <text x="60" y="220" font-family="'Apple SD Gothic Neo',sans-serif" font-size="13" fill="#64748b" text-anchor="end">0%</text>
+  <rect x="175" y="189.8" width="140" height="25.2" rx="6" fill="url(#up)"/>
+  <text x="245" y="174.8" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="21" font-weight="700" fill="#6ee7b7" text-anchor="middle">+0.28%</text>
+  <text x="245" y="410" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" font-weight="700" fill="#f8fafc" text-anchor="middle">다우</text>
+  <text x="245" y="434" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#94a3b8" text-anchor="middle">52,361.58</text>
+  <rect x="350" y="152.0" width="140" height="63.0" rx="6" fill="url(#up)"/>
+  <text x="420" y="137.0" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="21" font-weight="700" fill="#6ee7b7" text-anchor="middle">+0.70%</text>
+  <text x="420" y="410" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" font-weight="700" fill="#f8fafc" text-anchor="middle">S&amp;P 500</text>
+  <text x="420" y="434" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#94a3b8" text-anchor="middle">7,676.77</text>
+  <rect x="525" y="141.2" width="140" height="73.8" rx="6" fill="url(#up)"/>
+  <text x="595" y="126.2" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="21" font-weight="700" fill="#6ee7b7" text-anchor="middle">+0.82%</text>
+  <text x="595" y="410" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" font-weight="700" fill="#f8fafc" text-anchor="middle">나스닥</text>
+  <text x="595" y="434" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#94a3b8" text-anchor="middle">26,169.38</text>
+  <text x="420" y="458" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#64748b" text-anchor="middle">브렌트유 $115.81 (-0.8%) · WTI $101.57 (-1.7%) · 반도체 ETF +3%</text>
+</svg>
