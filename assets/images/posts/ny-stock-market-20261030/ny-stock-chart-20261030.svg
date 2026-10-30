@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="500" viewBox="0 0 840 500">
+  <rect width="840" height="500" rx="16" fill="#0f172a"/>
+  <text x="420" y="52" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="26" font-weight="700" fill="#f8fafc" text-anchor="middle">뉴욕증시 마감 (2026.10.29)</text>
+  <text x="420" y="82" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#94a3b8" text-anchor="middle">알파벳 급락에 3대 지수 하락 · 금융·헬스케어는 강세</text>
+  <defs>
+    <linearGradient id="up" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#34d399"/><stop offset="100%" stop-color="#059669"/></linearGradient>
+    <linearGradient id="dn" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#f87171"/><stop offset="100%" stop-color="#b91c1c"/></linearGradient>
+  </defs>
+  <line x1="60" y1="250" x2="790" y2="250" stroke="#475569" stroke-width="2"/>
+  <text x="52" y="255" font-family="'Apple SD Gothic Neo',sans-serif" font-size="13" fill="#64748b" text-anchor="end">0%</text>
+  <rect x="75" y="250" width="110" height="23" rx="6" fill="url(#dn)"/>
+  <text x="130" y="396" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="19" font-weight="700" fill="#f87171" text-anchor="middle">-0.25%</text>
+  <text x="130" y="424" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" font-weight="700" fill="#f8fafc" text-anchor="middle">다우</text>
+  <text x="130" y="448" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#94a3b8" text-anchor="middle">52,342.56</text>
+  <rect x="225" y="250" width="110" height="27" rx="6" fill="url(#dn)"/>
+  <text x="280" y="396" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="19" font-weight="700" fill="#f87171" text-anchor="middle">-0.30%</text>
+  <text x="280" y="424" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" font-weight="700" fill="#f8fafc" text-anchor="middle">S&amp;P 500</text>
+  <text x="280" y="448" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#94a3b8" text-anchor="middle">7,720.39</text>
+  <rect x="375" y="250" width="110" height="126" rx="6" fill="url(#dn)"/>
+  <text x="430" y="396" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="19" font-weight="700" fill="#f87171" text-anchor="middle">-1.38%</text>
+  <text x="430" y="424" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" font-weight="700" fill="#f8fafc" text-anchor="middle">나스닥</text>
+  <text x="430" y="448" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#94a3b8" text-anchor="middle">26,184.72</text>
+  <rect x="525" y="250" width="110" height="130" rx="6" fill="url(#dn)"/>
+  <text x="580" y="396" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="19" font-weight="700" fill="#f87171" text-anchor="middle">-1.42%</text>
+  <text x="580" y="424" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" font-weight="700" fill="#f8fafc" text-anchor="middle">반도체지수</text>
+  <text x="580" y="448" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#94a3b8" text-anchor="middle">11,518.20</text>
+  <rect x="675" y="158" width="110" height="92" rx="6" fill="url(#up)"/>
+  <text x="730" y="140" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="19" font-weight="700" fill="#6ee7b7" text-anchor="middle">+1.01%</text>
+  <text x="730" y="424" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" font-weight="700" fill="#f8fafc" text-anchor="middle">러셀2000</text>
+  <text x="730" y="448" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#94a3b8" text-anchor="middle">2,859.22</text>
+  <text x="420" y="480" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#64748b" text-anchor="middle">WTI $102.00 (-0.8%) · 브렌트유 $114.88 (-0.4%) · 알파벳 12.64%↓</text>
+</svg>
