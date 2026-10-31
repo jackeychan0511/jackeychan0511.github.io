@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-label="크레버스 자산양수도 전후 요약재무정보 비교 차트">
+  <rect width="1200" height="720" fill="#ffffff"/>
+  <text x="70" y="78" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif" font-size="38" font-weight="700" fill="#0b1f3b">자산양수도 전 · 후 요약재무정보</text>
+  <text x="70" y="118" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif" font-size="22" fill="#5a6b7d">2026년 6월말 별도재무제표 기준 · 단위: 억원 (반올림)</text>
+
+  <g font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+    <!-- grid -->
+    <line x1="230" y1="170" x2="1120" y2="170" stroke="#e2e8f0" stroke-width="1"/>
+    <line x1="230" y1="270" x2="1120" y2="270" stroke="#e2e8f0" stroke-width="1"/>
+    <line x1="230" y1="370" x2="1120" y2="370" stroke="#e2e8f0" stroke-width="1"/>
+    <line x1="230" y1="470" x2="1120" y2="470" stroke="#e2e8f0" stroke-width="1"/>
+    <line x1="230" y1="570" x2="1120" y2="570" stroke="#e2e8f0" stroke-width="1"/>
+
+    <text x="70" y="210" font-size="23" fill="#33415c">자산총계</text>
+    <rect x="230" y="178" width="640" height="34" rx="6" fill="#c3cfdd"/>
+    <rect x="230" y="222" width="678" height="34" rx="6" fill="#2b6cb0"/>
+    <text x="885" y="203" font-size="21" fill="#5a6b7d">1,628억</text>
+    <text x="925" y="247" font-size="21" font-weight="700" fill="#2b6cb0">1,724억</text>
+
+    <text x="70" y="310" font-size="23" fill="#33415c">부채총계</text>
+    <rect x="230" y="278" width="452" height="34" rx="6" fill="#e3b7b7"/>
+    <rect x="230" y="322" width="439" height="34" rx="6" fill="#c53030"/>
+    <text x="700" y="303" font-size="21" fill="#5a6b7d">1,151억</text>
+    <text x="688" y="347" font-size="21" font-weight="700" fill="#c53030">1,117억</text>
+
+    <text x="70" y="410" font-size="23" fill="#33415c">자본총계</text>
+    <rect x="230" y="378" width="187" height="34" rx="6" fill="#b7d5c2"/>
+    <rect x="230" y="422" width="238" height="34" rx="6" fill="#2f855a"/>
+    <text x="435" y="403" font-size="21" fill="#5a6b7d">477억</text>
+    <text x="486" y="447" font-size="21" font-weight="700" fill="#2f855a">606억</text>
+
+    <text x="70" y="510" font-size="23" fill="#33415c">유동자산</text>
+    <rect x="230" y="478" width="191" height="34" rx="6" fill="#c8d8ea"/>
+    <rect x="230" y="522" width="275" height="34" rx="6" fill="#2b6cb0"/>
+    <text x="439" y="503" font-size="21" fill="#5a6b7d">486억</text>
+    <text x="523" y="547" font-size="21" font-weight="700" fill="#2b6cb0">699억</text>
+
+    <text x="70" y="610" font-size="23" fill="#33415c">이익잉여금</text>
+    <rect x="230" y="578" width="256" height="34" rx="6" fill="#c8d8ea"/>
+    <rect x="230" y="622" width="307" height="34" rx="6" fill="#2b6cb0"/>
+    <text x="504" y="603" font-size="21" fill="#5a6b7d">650억</text>
+    <text x="555" y="647" font-size="21" font-weight="700" fill="#2b6cb0">780억</text>
+  </g>
+
+  <g>
+    <rect x="940" y="620" width="20" height="20" rx="4" fill="#c3cfdd"/>
+    <text x="970" y="637" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif" font-size="19" fill="#5a6b7d">거래 전</text>
+    <rect x="1060" y="620" width="20" height="20" rx="4" fill="#2b6cb0"/>
+    <text x="1090" y="637" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif" font-size="19" fill="#5a6b7d">후</text>
+  </g>
+  <text x="70" y="692" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif" font-size="18" fill="#8a99a8">※ 거래 관련 증감액만 단순 가감한 수치로, 외부감사 결과에 따라 실제와 차이가 있을 수 있음</text>
+</svg>
