@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="500" viewBox="0 0 840 500">
+  <rect width="840" height="500" rx="16" fill="#0f172a"/>
+  <text x="420" y="52" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="26" font-weight="700" fill="#f8fafc" text-anchor="middle">뉴욕증시 마감 (2026.10.30)</text>
+  <text x="420" y="82" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#94a3b8" text-anchor="middle">인텔·아마존 실적 충격에 기술주 매도 · 방어주로 자금 이동</text>
+  <defs>
+    <linearGradient id="up" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#34d399"/><stop offset="100%" stop-color="#059669"/></linearGradient>
+    <linearGradient id="dn" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#f87171"/><stop offset="100%" stop-color="#b91c1c"/></linearGradient>
+  </defs>
+  <line x1="60" y1="250" x2="790" y2="250" stroke="#475569" stroke-width="2"/>
+  <text x="52" y="255" font-family="'Apple SD Gothic Neo',sans-serif" font-size="13" fill="#64748b" text-anchor="end">0%</text>
+  <rect x="110" y="250" width="150" height="49" rx="6" fill="url(#dn)"/>
+  <text x="185" y="400" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="20" font-weight="700" fill="#f87171" text-anchor="middle">-1.09%</text>
+  <text x="185" y="428" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" font-weight="700" fill="#f8fafc" text-anchor="middle">다우</text>
+  <text x="185" y="452" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#94a3b8" text-anchor="middle">51,770.31</text>
+  <rect x="345" y="250" width="150" height="82" rx="6" fill="url(#dn)"/>
+  <text x="420" y="400" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="20" font-weight="700" fill="#f87171" text-anchor="middle">-1.82%</text>
+  <text x="420" y="428" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" font-weight="700" fill="#f8fafc" text-anchor="middle">S&amp;P 500</text>
+  <text x="420" y="452" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#94a3b8" text-anchor="middle">7,580.07</text>
+  <rect x="580" y="250" width="150" height="129" rx="6" fill="url(#dn)"/>
+  <text x="655" y="400" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="20" font-weight="700" fill="#f87171" text-anchor="middle">-2.86%</text>
+  <text x="655" y="428" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" font-weight="700" fill="#f8fafc" text-anchor="middle">나스닥</text>
+  <text x="655" y="452" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#94a3b8" text-anchor="middle">25,437.00</text>
+  <text x="420" y="484" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#64748b" text-anchor="middle">반도체지수 -7.2% · 인텔 -28.6% · WTI $104.12 (+2.08%)</text>
+</svg>
