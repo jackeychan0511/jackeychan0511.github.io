@@ -8,15 +8,15 @@
   </defs>
   <line x1="60" y1="300" x2="790" y2="300" stroke="#475569" stroke-width="2"/>
   <text x="52" y="305" font-family="'Apple SD Gothic Neo',sans-serif" font-size="13" fill="#64748b" text-anchor="end">0%</text>
-  <rect x="110" y="300" width="150" height="23" rx="6" fill="url(#dn)"/>
+  <rect x="110" y="300" width="150" height="22.8" rx="6" fill="url(#dn)"/>
   <text x="185" y="400" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="20" font-weight="700" fill="#f87171" text-anchor="middle">-0.38%</text>
   <text x="185" y="428" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" font-weight="700" fill="#f8fafc" text-anchor="middle">다우</text>
   <text x="185" y="452" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#94a3b8" text-anchor="middle">51,786.72</text>
-  <rect x="345" y="278" width="150" height="22" rx="6" fill="url(#up)"/>
+  <rect x="345" y="278.4" width="150" height="21.6" rx="6" fill="url(#up)"/>
   <text x="420" y="400" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="20" font-weight="700" fill="#34d399" text-anchor="middle">+0.36%</text>
   <text x="420" y="428" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" font-weight="700" fill="#f8fafc" text-anchor="middle">S&amp;P 500</text>
   <text x="420" y="452" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#94a3b8" text-anchor="middle">7,568.92</text>
-  <rect x="580" y="250" width="150" height="50" rx="6" fill="url(#up)"/>
+  <rect x="580" y="250.2" width="150" height="49.8" rx="6" fill="url(#up)"/>
   <text x="655" y="400" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="20" font-weight="700" fill="#34d399" text-anchor="middle">+0.83%</text>
   <text x="655" y="428" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" font-weight="700" fill="#f8fafc" text-anchor="middle">나스닥</text>
   <text x="655" y="452" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#94a3b8" text-anchor="middle">25,372.01</text>
