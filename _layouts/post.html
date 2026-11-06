@@ -50,7 +50,9 @@ layout: default
     </div>
 
     <!-- 관련 글 -->
-    {% assign related_posts = site.posts | where_exp: "item", "item.categories[0] == page.categories[0]" | where_exp: "item", "item.url != page.url" %}
+    {% assign page_cat = page.categories[0] %}
+    {% assign cat_posts_all = site.categories[page_cat] %}
+    {% assign related_posts = cat_posts_all | where_exp: "item", "item.url != page.url" | where_exp: "item", "item.noindex != true" %}
     {% if related_posts.size > 0 %}
     <div class="related-posts">
       <strong class="related-title">📎 관련 글</strong>
