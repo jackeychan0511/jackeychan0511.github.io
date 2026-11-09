@@ -43,6 +43,7 @@ def optimize(path, dry=False):
     if dry:
         return b, b
     ext = os.path.splitext(path)[1].lower()
+    tmp = path + '.opt'
     try:
         if over_side:
             sc = MAX_SIDE / max(w, h)
@@ -50,24 +51,28 @@ def optimize(path, dry=False):
         if ext in ('.jpg', '.jpeg'):
             if im.mode not in ('RGB', 'L'):
                 im = im.convert('RGB')
-            im.save(path, 'JPEG', quality=Q, optimize=True, progressive=True)
+            im.save(tmp, 'JPEG', quality=Q, optimize=True, progressive=True)
         elif ext == '.png':
-            # 큰 PNG는 256색 양자화 (스크린샷·차트에 효과적, 30% 이상 줄 때만 적용)
+            # 큰 PNG는 256색 양자화 (스크린샷·차트에 효과적)
             if b > 700 * 1024 and im.mode in ('RGB', 'P') and not over_side:
-                q = im.convert('RGB').quantize(colors=256, method=MC, dither=FS)
-                q.save(path, 'PNG', optimize=True)
-                if os.path.getsize(path) > b * 0.75:
-                    im.save(path, 'PNG', optimize=True)   # 효과 적으면 원본 유지
+                im.convert('RGB').quantize(colors=256, method=MC, dither=FS).save(tmp, 'PNG', optimize=True)
             else:
-                im.save(path, 'PNG', optimize=True)
+                im.save(tmp, 'PNG', optimize=True)
         else:
-            im.save(path, 'WEBP', quality=Q, method=6)
+            im.save(tmp, 'WEBP', quality=Q, method=6)
     except Exception:
+        if os.path.exists(tmp):
+            os.remove(tmp)
         return b, b
-    a = os.path.getsize(path)
-    if a >= b:                      # 커지면 원본 유지
-        return b, b
-    return b, a
+
+    a = os.path.getsize(tmp) if os.path.exists(tmp) else b
+    # 5% 이상 줄 때만 반영 (불필요한 재작성·무의미한 diff 방지)
+    if a < b * 0.95:
+        os.replace(tmp, path)
+        return b, a
+    if os.path.exists(tmp):
+        os.remove(tmp)
+    return b, b
 
 
 def iter_assets():
