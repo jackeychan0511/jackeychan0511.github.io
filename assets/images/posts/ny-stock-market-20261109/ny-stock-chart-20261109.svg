@@ -6,13 +6,13 @@
     <linearGradient id="up" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#4ade80"/><stop offset="100%" stop-color="#15803d"/></linearGradient>
     <linearGradient id="down" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#ef4444"/><stop offset="100%" stop-color="#991b1b"/></linearGradient>
   </defs>
-  <line x1="60" y1="130" x2="790" y2="130" stroke="#1e293b" stroke-width="1"/>
+  <line x1="60" y1="130" x2="795" y2="130" stroke="#1e293b" stroke-width="1"/>
   <text x="52" y="135" font-family="'Apple SD Gothic Neo',sans-serif" font-size="13" fill="#64748b" text-anchor="end">+2%</text>
-  <line x1="60" y1="190" x2="790" y2="190" stroke="#1e293b" stroke-width="1"/>
+  <line x1="60" y1="190" x2="795" y2="190" stroke="#1e293b" stroke-width="1"/>
   <text x="52" y="195" font-family="'Apple SD Gothic Neo',sans-serif" font-size="13" fill="#64748b" text-anchor="end">+1%</text>
-  <line x1="60" y1="250" x2="790" y2="250" stroke="#475569" stroke-width="2"/>
+  <line x1="60" y1="250" x2="795" y2="250" stroke="#475569" stroke-width="2"/>
   <text x="52" y="255" font-family="'Apple SD Gothic Neo',sans-serif" font-size="13" fill="#64748b" text-anchor="end">0%</text>
-  <line x1="60" y1="310" x2="790" y2="310" stroke="#1e293b" stroke-width="1"/>
+  <line x1="60" y1="310" x2="795" y2="310" stroke="#1e293b" stroke-width="1"/>
   <text x="52" y="315" font-family="'Apple SD Gothic Neo',sans-serif" font-size="13" fill="#64748b" text-anchor="end">-1%</text>
 
   <rect x="100" y="250" width="140" height="27.6" rx="5" fill="url(#down)"/>
@@ -35,5 +35,5 @@
   <text x="725" y="278" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" font-weight="700" fill="#f8fafc" text-anchor="middle">러셀2000</text>
 
   <text x="420" y="440" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#cbd5e1" text-anchor="middle">필라델피아 반도체 +4.2% · VIX 25.64</text>
-  <text x="420" y="470" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#64748b" text-anchor="middle">WTI $90.83 (+0.34%) · 10년물 4.86% · 10월 비농업 고용 +16만5천</text>
+  <text x="420" y="470" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#64748b" text-anchor="middle">WTI $90.83 (+0.34%) · 10년물 4.858% · 10월 비농업 고용 +16만5천</text>
 </svg>
