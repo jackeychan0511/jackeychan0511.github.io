@@ -49,3 +49,7 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          timeout: 1800000        # 30분 (기본 10분 → CDN 동기화 지연 대응)
+          error_count: 50         # 일시 오류 허용 (기본 10)
+          reporting_interval: 10000
