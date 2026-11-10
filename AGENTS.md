@@ -53,3 +53,25 @@ python3 scripts/optimize_images.py --report     # 현황만 확인
 
 **용량 확인:** `du -sh assets` — 600MB를 넘으면 정리가 필요합니다.
 
+## 🚫 배포 실패 시 — 재시도 커밋 금지
+
+배포(Pages 빌드/Actions)가 실패하거나 오래 걸려도 **재시도용 커밋을 만들지 마세요.** 배포는 `main` push 시 자동으로 다시 실행됩니다.
+
+**금지:**
+- `chore: Pages 재배포 트리거`, `🔁 Pages 배포 재시도` 같은 커밋
+- `git commit --allow-empty`로 빌드를 유도하는 행위
+- 같은 내용을 다시 push 하는 행위
+
+**대신:**
+- 포스트 파일과 이미지는 push까지 완료하고 종료한다
+- 배포 실패는 **사실과 오류 메시지만 보고**한다 (예: `deploy 단계 Timeout reached`)
+- 사이트는 이전 배포본을 계속 서빙하므로 급하지 않다
+- 수동 재배포가 필요하면 API로 워크플로를 실행한다 (커밋 불필요):
+  ```bash
+  curl -X POST -H "Authorization: Bearer $GITHUB_TOKEN" \
+    -H "Accept: application/vnd.github+json" \
+    https://api.github.com/repos/jackeychan0511/jackeychan0511.github.io/actions/workflows/pages.yml/dispatches \
+    -d '{"ref":"main"}'
+  ```
+
+
