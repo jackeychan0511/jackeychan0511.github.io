@@ -4,7 +4,8 @@ layout: default
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
   <header class="post-header">
     <div class="post-meta-top">
-      <span class="post-category {{ page.categories[0] }}">{{ site.category_names[page.categories[0]] | default: page.categories[0] }}</span>
+      {% assign cat_key = page.categories[0] %}
+      <span class="post-category {{ cat_key }}">{{ site.category_names[cat_key] | default: cat_key }}</span>
       <time class="post-date" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {{ page.date | date: "%Y년 %m월 %d일" }}
       </time>
