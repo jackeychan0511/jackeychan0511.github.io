@@ -5,13 +5,13 @@ date: 2026-07-31 18:30:00 +0900
 categories: [products]
 tags: [국새키캡키링, 국립중앙박물관, 뮷즈, MUDS, 키캡, 키링, 키보드, 기계식키보드, 굿즈, 품절대란, 재입고, 제고지보, 단청키캡, 2026년7월]
 author: "40대 블로거"
-image: /assets/images/posts/museum-keycap-keyring/keycap-gold-set.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/museum-keycap-keyring/keycap-gold-set.jpg
 description: "2026년 7월 말 출시 직후 완판된 국립중앙박물관 뮷즈 '국새 키캡 키링 세트'를 정리했습니다. 38,000원에 골드·실버 2종, 기계식 키보드에 실제로 끼울 수 있는 키캡과 국새를 찍는 듯한 클리커 손맛, 그리고 8월 6일 재입고 일정까지 알려드립니다."
 ---
 
 > **📌 한줄 요약:** 2026년 7월 말, 국립중앙박물관 굿즈 브랜드 **뮷즈(MU:DS)** 가 낸 **국새 키캡 키링 세트**가 출시 직후 완판되며 '품절 대란'을 일으켰습니다. 조선 왕실 국새 '제고지보'를 모티브로 한 **금속 키캡 4개 + 클리커·키링 구성, 38,000원**, 골드·실버 2종. **8월 6일 재입고 예정**이며 1인 3개까지 구매할 수 있습니다.
 
-![국새 키캡 키링 세트 골드 — 국립중앙박물관 뮤지엄숍 공식 제품 사진](/assets/images/posts/museum-keycap-keyring/keycap-gold-set.jpg)
+![국새 키캡 키링 세트 골드 — 국립중앙박물관 뮤지엄숍 공식 제품 사진](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/museum-keycap-keyring/keycap-gold-set.jpg)
 *국새 키캡 키링 세트(골드). 조선 왕실 국새의 거북·용 손잡이를 축소해 금속 키캡으로 구현했다 (출처: 국립중앙박물관 뮤지엄숍, 2026-07-31 확인)*
 
 ---
@@ -33,7 +33,7 @@ description: "2026년 7월 말 출시 직후 완판된 국립중앙박물관 뮷
 
 솔직히 말해서 저도 처음엔 "키캡이 뭐가 대단하다고" 싶었는데, 공식 이미지와 커뮤니티 실물 사진을 보니까 **"아, 이건 사고 싶게 생겼다"** 라는 말이 절로 나오더라고요. 이번 글에서는 출시 직후 완판돼 실물을 직접 만져보진 못한 점을 먼저 말씀드리고, **공식 뮤지엄숍 정보와 뉴스 보도, 실물 사진**을 종합해 정리했습니다.
 
-![국새 키캡 키링 세트 실버 — 공식 제품 사진](/assets/images/posts/museum-keycap-keyring/keycap-silver-set.jpg)
+![국새 키캡 키링 세트 실버 — 공식 제품 사진](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/museum-keycap-keyring/keycap-silver-set.jpg)
 *실버 세트. 골드·실버 모두 현재 품절 상태다 (출처: 국립중앙박물관 뮤지엄숍, 2026-07-31 확인)*
 
 ---
@@ -92,7 +92,7 @@ description: "2026년 7월 말 출시 직후 완판된 국립중앙박물관 뮷
 
 ## 5. 품절 대란, 어디까지 왔나 — 뉴스 보도로 보는 상황
 
-![뉴스 보도 사진 — 국새 키캡 키링 품절 대란 (출처: 이데일리)](/assets/images/posts/museum-keycap-keyring/news-report.jpg)
+![뉴스 보도 사진 — 국새 키캡 키링 품절 대란 (출처: 이데일리)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/museum-keycap-keyring/news-report.jpg)
 *이데일리 보도에 실린 국새 키캡 키링 사진. 출시 직후 완판되며 7월 30일까지도 구매 문의가 이어졌다 (출처: 이데일리, 2026-07-30)*
 
 - **7월 29~30일**: SBS '잇슈 키워드', KBS 뉴스가 '국새 키캡 키링' 품절 대란을 보도. 외국인들도 "재입고 언제?"라고 물을 정도.
@@ -111,7 +111,7 @@ description: "2026년 7월 말 출시 직후 완판된 국립중앙박물관 뮷
 4. **관련 굿즈 함께 노려보기**: '단청 키캡 키링'이 **8월 10일 오후 2시 온라인 판매 예정**입니다. 국새 키캡을 놓친 분들이라면 이쪽도 눈여겨보세요.
 5. **현장 구매**: 8월 6일 이후 국립중앙박물관 오프라인 소품샵 방문도 가능하지만, 인기 상품은 오픈 직후 동날 수 있어요.
 
-![국새 키캡 키링 실물 사진 — 블로그 실사용 컷 (출처: 네이버 이미지검색)](/assets/images/posts/museum-keycap-keyring/blog-real-photo-1.jpg)
+![국새 키캡 키링 실물 사진 — 블로그 실사용 컷 (출처: 네이버 이미지검색)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/museum-keycap-keyring/blog-real-photo-1.jpg)
 *커뮤니티에 올라온 실물 사진. 금속 도금의 묵직한 질감이 그대로 느껴진다 (출처: 네이버 블로그, 2026-07-22 작성글)*
 
 ---

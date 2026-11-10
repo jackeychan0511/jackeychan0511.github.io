@@ -5,11 +5,11 @@ date: 2026-10-16 15:55:00 +0900
 categories: [career]
 tags: [Google Gemini, 구글 제미나이, Universal Cart, 유니버설 카트, 구글 쇼핑, AI 쇼핑, 에이전트 커머스, Universal Commerce Protocol, UCP, Google Pay, 구글 월렛, 쇼핑 그래프, AI 모드, 제미나이 앱, 업무자동화, AI뉴스, 2026년 10월]
 author: "40대 블로거"
-image: /assets/images/posts/gemini-universal-cart-us-launch-20261015/ucart-hero.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-universal-cart-us-launch-20261015/ucart-hero.png
 description: "2026년 10월 15일(미국 현지시간), 구글이 AI 기반 통합 장바구니 '유니버설 카트(Universal Cart)'를 미국에서 출시했습니다. 이제 구글 검색 'AI 모드'와 제미나이(Gemini) 앱에서 여러 판매처의 상품을 하나의 카트에 담고, 가격·재고 변동을 추적하고, 숨은 할인까지 찾아 Google Pay로 간편하게 결제할 수 있습니다. 구글 쇼핑 그래프의 600억 건 이상 상품 목록과 구글 월렛 위에 세워졌고, 결제는 '유니버설 커머스 프로토콜(UCP)'로 처리됩니다. 아직 미국·영어에 한정되지만, 대화형 AI 쇼핑 경쟁에서 구글이 내놓은 첫 완성형 카드라는 점에서 의미가 큽니다. 이슈 요약 → 상세 분석 → 영향(사용자·판매자·개발자) → 전망 순으로 정리했습니다."
 ---
 
-![구글 유니버설 카트(Universal Cart) 공식 키아트 — 검색과 제미나이 앱을 잇는 AI 통합 장바구니](/assets/images/posts/gemini-universal-cart-us-launch-20261015/ucart-hero.png)
+![구글 유니버설 카트(Universal Cart) 공식 키아트 — 검색과 제미나이 앱을 잇는 AI 통합 장바구니](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-universal-cart-us-launch-20261015/ucart-hero.png)
 *2026년 10월 15일, 구글의 통합 장바구니 '유니버설 카트'가 미국에서 출시됐습니다 (출처: Google 공식 블로그 — blog.google)*
 
 > **📌 한줄 요약:** **2026년 10월 15일(미국 현지시간)**, 구글이 AI 기반 통합 장바구니 **'유니버설 카트(Universal Cart)'를 미국에서 출시**했습니다. 이제 **구글 검색 'AI 모드'** 와 **제미나이(Gemini) 앱**에서 **여러 판매처의 상품을 하나의 카트에 모아 담고**, 가격·재고 변동을 추적하고, **카드 혜택·프로모 코드까지 챙겨** 결제할 수 있습니다. 겉보기엔 "장바구니 하나 통합"이지만, 실체는 **구글 쇼핑 그래프(600억 건 이상 상품 목록)** 와 **구글 월렛**, 그리고 **유니버설 커머스 프로토콜(UCP)** 을 엮은 **'대신 사 주는 AI(에이전트 커머스)'** 의 첫 대중화 카드입니다. 오랫동안 예고만 되던 기능이라 솔직히 반신반의했는데, 생각보다 완성도 있게 미국에 먼저 풀렸습니다.
@@ -56,7 +56,7 @@ description: "2026년 10월 15일(미국 현지시간), 구글이 AI 기반 통�
 
 마지막은 **결제의 완결**입니다. **Google Pay**로 몇 번의 탭만에 결제하거나, 담은 상품을 **판매처 자체 장바구니로 옮겨** 그 사이트에서 마무리할 수도 있습니다. 나이키·세포라·타깃·얼타뷰티·월마트·웨이페어, 그리고 다수 Shopify 판매처가 이 흐름에 참여합니다. 어떤 경로든 **확인 메일과 고객지원은 판매처가 제공**하고, **판매자 지위(seller of record)는 판매처에 그대로 남습니다**. 결제는 **UCP(유니버설 커머스 프로토콜)** 를 통해 이뤄집니다.
 
-![유니버설 카트의 결제(체크아웃) 예시 화면 — 담은 상품을 판매처 장바구니로 넘기거나 Google Pay로 결제](/assets/images/posts/gemini-universal-cart-us-launch-20261015/ucart-checkout-target.jpg)
+![유니버설 카트의 결제(체크아웃) 예시 화면 — 담은 상품을 판매처 장바구니로 넘기거나 Google Pay로 결제](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-universal-cart-us-launch-20261015/ucart-checkout-target.jpg)
 *카트에서 Google Pay로 결제하거나 판매처 장바구니로 상품을 넘길 수 있습니다 (출처: Google 공식 블로그)*
 
 ## 📉 영향 — 사용자·판매자·개발자에게 뭐가 달라지나

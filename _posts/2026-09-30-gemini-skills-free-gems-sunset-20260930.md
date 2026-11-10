@@ -5,11 +5,11 @@ date: 2026-09-30 15:54:00 +0900
 categories: [career]
 tags: [Google Gemini, 구글 제미나이, Gemini Skills, skills 무료 개방, Gems 종료, 젬 마이그레이션, 2026년 11월, 2027년 3월, 2027년 6월, SKILL.md, 프롬프트 자산, 커스텀 지시, 업무자동화, 자동화파이프라인, AI뉴스, 2026년 9월]
 author: "40대 블로거"
-image: /assets/images/posts/gemini-skills-free-gems-sunset-20260930/gemini-logo-wikimedia.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-skills-free-gems-sunset-20260930/gemini-logo-wikimedia.png
 description: "2026년 9월 29일, 구글이 공식 도움말 페이지를 통해 Gemini 'skills'를 만 18세 이상 개인 구글 계정 전체로 개방했습니다. Google AI Pro·Ultra 구독자 전용이던 skills가 무료로 풀리면서, 11월 개인 계정 Gems 종료를 앞두고 무료 사용자도 커스텀 지시 자산을 그대로 이어갈 수 있게 됐습니다. 종료 일정은 개인 계정 2026년 11월, Workspace 기업·비영리 2027년 3월, Workspace 교육 2027년 6월입니다. Opal과 Gems by Google Labs도 11월에 함께 사라집니다. 이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망 순으로 정리했습니다. 이미지는 Google 공식 도움말 페이지 화면과 Wikimedia Commons의 Google Gemini 공식 로고입니다."
 ---
 
-![Google Gemini 공식 로고 (출처: Wikimedia Commons — Google Gemini 공식 로고)](/assets/images/posts/gemini-skills-free-gems-sunset-20260930/gemini-logo-wikimedia.png)
+![Google Gemini 공식 로고 (출처: Wikimedia Commons — Google Gemini 공식 로고)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-skills-free-gems-sunset-20260930/gemini-logo-wikimedia.png)
 *Gemini의 'skills'는 채팅창에서 `/`(곧 `@`)만 입력해 불러오는 재사용 지시문입니다. 2026년 9월 29일부터 만 18세 이상 개인 구글 계정이면 누구나 쓸 수 있게 됐습니다 (출처: Wikimedia Commons — Google Gemini 공식 로고)*
 
 > **📌 한줄 요약:** 요즘 **Gemini에 '사업자 세금계산서 정리' '영어 메일 다듬기' 같은 커스텀 지시를 만들어 두고 쓰시는 분들**, 지난주 앱 안내문 보고 마음 졸이셨을 겁니다. Gems가 11월에 사라지는데 대체 기능인 skills는 유료 전용이었으니까요. 그런데 **2026년 9월 29일, 구글이 skills를 전면 무료로 열었습니다.** 만 18세 이상 개인 계정이면 AI Pro·Ultra 없이도 씁니다. 솔직히 이번엔 "돈 벌려고 유료 전환 카드로 쓰겠지" 싶었는데, 생각보다 정반대로 갔습니다.
@@ -44,7 +44,7 @@ description: "2026년 9월 29일, 구글이 공식 도움말 페이지를 통해
 
 실제 접근 방식도 Gems와 같습니다. **Settings → Skills**로 들어가면 되고, 기존 Gems 자산은 이관 시 자동으로 skills로 재생성됩니다. Google은 도움말에 "Gems를 제거할 때 자동으로 skills로 재생성한다"고 적었고, 먼저 옮기고 싶은 사람을 위해 **수동 재생성 3단계 절차**도 공개했습니다 — ① Gem을 열어 'Knowledge' 파일 다운로드 → ② Settings → Skills에서 'Create manually'로 이름·설명·지시문 복사 → ③ 파일이 필요하면 스킬을 `.zip`으로 내려받아 `SKILL.md`와 함께 폴더째 다시 업로드. 폴더 이름은 스킬 이름과 **정확히 일치**해야 합니다.
 
-![Google 공식 도움말 페이지의 Gems 종료 타임라인 화면 (출처: Google 공식 도움말 페이지 캡처 — Android Authority)](/assets/images/posts/gemini-skills-free-gems-sunset-20260930/google-support-page-gems-timeline.jpg)
+![Google 공식 도움말 페이지의 Gems 종료 타임라인 화면 (출처: Google 공식 도움말 페이지 캡처 — Android Authority)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-skills-free-gems-sunset-20260930/google-support-page-gems-timeline.jpg)
 *구글 공식 도움말에 명시된 3단계 종료 일정 — 개인 계정 2026년 11월, Workspace 기업·비영리 2027년 3월, Workspace 교육 2027년 6월 (출처: Google 공식 도움말 페이지 캡처 — Android Authority, 2026.9.29)*
 
 ### 2-2. Gems보다 나은 지점 — 자동 호출과 조합
@@ -71,7 +71,7 @@ description: "2026년 9월 29일, 구글이 공식 도움말 페이지를 통해
 - **파일 업로드 제한** — 파일을 붙여 스킬을 만드는 기능은 현재 **Gemini Mac 앱과 gemini.google.com**에서만 됩니다.
 - **단계적 배포** — 공식 페이지가 열려도 앱에는 아직 'Gems'만 보이는 계정이 있습니다. Android Authority도 무료 계정에서 skills가 안 보였다고 전했습니다.
 
-![무료 계정에는 아직 Gems 항목이 남아 있는 화면 (출처: Android Authority, 2026.9.29)](/assets/images/posts/gemini-skills-free-gems-sunset-20260930/gemini-free-account-gems.jpg)
+![무료 계정에는 아직 Gems 항목이 남아 있는 화면 (출처: Android Authority, 2026.9.29)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-skills-free-gems-sunset-20260930/gemini-free-account-gems.jpg)
 *공식 개방 발표 이후에도 무료 계정에서는 Skills 대신 기존 Gems 항목이 보이는 사례가 확인됐습니다 — 단계적 배포로 보입니다 (출처: Android Authority, 2026.9.29)*
 
 ---

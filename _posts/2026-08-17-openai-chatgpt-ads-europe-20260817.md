@@ -5,7 +5,7 @@ date: 2026-08-17 15:05:00 +0900
 categories: [career]
 tags: [ChatGPT, OpenAI, GPT, 챗GPT광고, ChatGPTAds, 광고, 무료요금제, Go요금제, 유럽, EEA, 스위스, GDPR, 개인정보, 프라이버시, 광고개인화, ads.openai.com, AI뉴스, 2026년8월]
 author: "40대 블로거"
-image: /assets/images/posts/openai-chatgpt-ads-europe-20260817/chatgpt-ads-europe.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-chatgpt-ads-europe-20260817/chatgpt-ads-europe.jpg
 description: "2026년 8월 17일 기준, OpenAI의 최신 이슈는 8월 15일(현지시간) 오픈AI 아일랜드 법인이 유럽경제지역(EEA)·스위스의 챗GPT 무료·Go 요금제 사용자에게 보낸 '이달 중 광고 표시' 공지입니다. 미국에서 시작된 챗GPT 광고 시범 운영이 한국·일본 등 9개국을 거쳐 마지막 무풍지대였던 유럽까지 들어온 것인데요, 초기에는 대화 맥락 기반 광고만 노출되고 개인화 광고는 명시적 동의(opt-in)가 있어야 하며, 광고가 답변 품질에 영향을 주지 않는다는 OpenAI의 원칙, Plus·Pro 등 유료 요금제는 계속 광고가 없다는 점, 광고주에게는 집계 지표만 공개된다는 점, GDPR 영향으로 개정된 개인정보 처리방침까지 사용자·개발자 관점에서 자세히 정리했습니다."
 sitemap: false
 noindex: true
@@ -13,7 +13,7 @@ noindex: true
 
 > **📌 한줄 요약:** OpenAI가 지난 **8월 15일(현지시간)**, 유럽경제지역(EEA)과 스위스의 챗GPT **무료·Go 요금제 사용자**에게 **"이달 중 광고가 표시될 예정"**이라는 이메일을 보냈습니다. 미국에서 시작된 챗GPT 광고가 한국·일본을 포함한 9개국을 거쳐, 마지막 '광고 없는 시장'이던 유럽까지 들어온 것입니다. 다만 초기에는 **대화 주제·위치·기기 유형만 보는 맥락 기반 광고**이고, 대화 기록·메모리를 활용하는 **개인화 광고는 명시적 동의(opt-in) 이후에만** 가능합니다. Plus·Pro·Business·Enterprise·Education 요금제는 계속 광고가 없습니다.
 
-![ChatGPT Ads Europe 소식 그래픽](/assets/images/posts/openai-chatgpt-ads-europe-20260817/chatgpt-ads-europe.jpg)
+![ChatGPT Ads Europe 소식 그래픽](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-chatgpt-ads-europe-20260817/chatgpt-ads-europe.jpg)
 *ChatGPT Ads 유럽 확대 소식을 전한 PPC Land의 기사 대표 이미지 (출처: PPC Land, 2026-08-15)*
 
 ---
@@ -62,7 +62,7 @@ noindex: true
 - 광고주는 **사용자의 대화·검색 기록·메모리·개인정보에 접근할 수 없고**, 조회수·클릭 수 같은 **집계·비식별 지표만** 받습니다.
 - 안전장치도 있습니다. **18세 미만 사용자, 임시 채팅(Temporary Chats), 개인 건강·정신 건강·정치 같은 민감 주제 대화**에는 광고가 표시되지 않습니다.
 
-![ChatGPT에 표시되는 광고 실제 화면](/assets/images/posts/openai-chatgpt-ads-europe-20260817/chatgpt-ads-screenshot.jpg)
+![ChatGPT에 표시되는 광고 실제 화면](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-chatgpt-ads-europe-20260817/chatgpt-ads-screenshot.jpg)
 *ChatGPT 답변 아래 표시되는 광고 실제 화면 스크린샷 (출처: The Verge, 2026-02-09, 미국 테스트 시작 당시)*
 
 ### 3. 확대 과정: 미국 → 한국·일본 → 유럽, 그리고 GDPR

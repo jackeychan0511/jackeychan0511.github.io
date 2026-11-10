@@ -14,7 +14,7 @@ noindex: true
 
 그런데 어제(8월 19일), **Claude Developer Platform에 대규모 GA 업데이트**가 한꺼번에 쏟아졌습니다. **Admin API 유저 관리, Files API, Agent Skills API**까지 한 번에 정식 출시되고, **Claude Managed Agents**에는 웹 접근 도메인 제한과 셀프호스티드 샌드박스 메모리 스토어가 추가됐으며, **Console 세션 뷰어도 전면 개편**됐습니다. 하루 전인 8월 18일에는 Workbench가 **Playground**로 새로 태어나기도 했죠. 오늘은 이번 업데이트를 **이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망** 순서로 정리해 드립니다.
 
-![Claude AI 웹사이트 화면](/assets/images/posts/claude-developer-platform-ga-20260820/claude-ai-website-wikimedia.png)
+![Claude AI 웹사이트 화면](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/claude-developer-platform-ga-20260820/claude-ai-website-wikimedia.png)
 *Claude AI 공식 웹사이트 화면 — Anthropic은 8월 19일 Claude Developer Platform의 대규모 GA 업데이트를 발표했다 (출처: Wikimedia Commons, "Claude AI website screenshot")*
 
 > 📌 참고: 본 글은 Anthropic 공식 Claude Developer Platform 릴리스 노트(platform.claude.com/docs, 2026-08-18~19), Claude Code 릴리스 노트(2026-08-20)를 바탕으로 작성한 정보형 기사입니다.
@@ -83,7 +83,7 @@ GA 3종 외에도 **Claude Managed Agents**에 실용적인 기능 두 가지가
 - **2.1.236** — 새 세션 기본 모델을 정하는 **`ANTHROPIC_DEFAULT_MODEL` 환경변수**, 세션이 다음에 idle이 될 때 알림을 보내는 **`notify_when_idle`**, macOS 샌드박스 보호 강화, VS Code 스크린리더 지원 개선
 - **2.1.235** — 프롬프트 입력란 **맞춤법 검사**, 터미널 UI 가독성 개선 등
 
-![Claude Developer Platform 공식 문서](/assets/images/posts/claude-developer-platform-ga-20260820/claude-developer-platform-official.png)
+![Claude Developer Platform 공식 문서](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/claude-developer-platform-ga-20260820/claude-developer-platform-official.png)
 *Claude Developer Platform — Admin API·Files API·Agent Skills API가 8월 19일 정식 출시(GA)됐다 (출처: Anthropic 공식 문서 사이트 platform.claude.com/docs)*
 
 ---

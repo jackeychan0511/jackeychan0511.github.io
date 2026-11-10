@@ -5,11 +5,11 @@ date: 2026-10-17 11:20:00 +0900
 categories: [products]
 tags: [테슬라로드스터, TeslaRoadster, 로드스터2세대, 전기하이퍼카, 스페이스X, 스러스터, 제로백, 2028년출시, 테슬라신차, 제품비교, 구매가이드, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/tesla-roadster-2028-reveal-20261017/roadster-front.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/tesla-roadster-2028-reveal-20261017/roadster-front.jpg
 description: "테슬라가 2026년 10월 15일(현지) 미국 텍사스 SpaceX 시험장에서 2세대 로드스터를 공개했습니다. 0-60mph 0.81초, 최고속 230mph 이상, 10개 콜드가스 스러스터와 600L 공기 탱크, 언더플로어 팬 2G 다운포스가 핵심입니다. 트림은 Performance(예약금 5만 달러)·Thrust(25만 달러)·Rocket(초대 전용) 3종이며 양산은 2028년입니다. 스펙 → 트림 비교 → 2017년 콘셉트와 달라진 점 → 경쟁 모델 비교 → 가격·출시·국내 도입 전망 순서로 정리했습니다."
 ---
 
-![테슬라 2세대 로드스터 전면부 — 2026년 10월 15일 공개된 신형 로드스터](/assets/images/posts/tesla-roadster-2028-reveal-20261017/roadster-front.jpg)
+![테슬라 2세대 로드스터 전면부 — 2026년 10월 15일 공개된 신형 로드스터](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/tesla-roadster-2028-reveal-20261017/roadster-front.jpg)
 *2026년 10월 15일(현지) 미국 텍사스 맥그레고어 SpaceX 로켓 시험장에서 공개된 테슬라 2세대 로드스터 (출처: TechCrunch, 2026.10)*
 
 > **📌 한줄 요약:** 테슬라가 **2026년 10월 15일(현지)** 미국 텍사스 맥그레고어의 SpaceX 로켓 시험장에서 **2세대 로드스터**를 공개했습니다. 핵심은 **0-60mph 0.81초**, **최고속 230mph(약 370km/h) 이상**, **10개 콜드가스 스러스터**와 **600L 압축공기 탱크**, **차체 하부 팬이 만드는 최대 2G 다운포스**입니다. 트림은 **Performance·Thrust·Rocket** 3종으로 나뉘고 예약금은 각각 **5만 달러·25만 달러·초대 전용**입니다. 양산은 **2028년**이며 국내 가격·도입 여부는 아직 공식 발표가 없습니다.
@@ -50,7 +50,7 @@ description: "테슬라가 2026년 10월 15일(현지) 미국 텍사스 SpaceX �
 
 일론 머스크는 이 차를 "세계 최고의 자동차 회사와 세계 최고의 로켓 회사의 협업 결과"라고 표현했습니다. 다만 시연 차량은 **양산차가 아닌 콘셉트**였고, 실내와 UI는 2028년 양산까지 바뀔 수 있다고 테슬라 측이 밝혔습니다.
 
-![테슬라 로드스터 비행 장면 — 스러스터 추력으로 공중에 뜬 모습](/assets/images/posts/tesla-roadster-2028-reveal-20261017/roadster-fly.jpg)
+![테슬라 로드스터 비행 장면 — 스러스터 추력으로 공중에 뜬 모습](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/tesla-roadster-2028-reveal-20261017/roadster-fly.jpg)
 *10개 콜드가스 스러스터로 공중에서 자세를 잡는 장면. 탱크의 공기는 주행 중 스스로 재충전된다 (출처: TechCrunch, 2026.10)*
 
 ### 어떻게 뜨는가 — 스러스터 + 흡착 팬
@@ -59,7 +59,7 @@ description: "테슬라가 2026년 10월 15일(현지) 미국 텍사스 SpaceX �
 - **언더플로어 팬:** 정지 상태에서도 최대 **2G의 다운포스**를 만들어냅니다. 타이어만으로 확보 가능한 한계(약 1.26G)를 크게 웃도는 수치로, 코너링에서 **2G 이상**을 견디는 것이 목표입니다.
 - **에어로 모드:** **하이 다운포스 / 로우 드래그** 두 가지 모드가 있고, 리어윙과 디퓨저가 속도·노면 상황에 맞춰 자동으로 각도를 바꿉니다.
 
-![테슬라 로드스터 후면부 — 풀위드스 라이트바와 노출형 디퓨저](/assets/images/posts/tesla-roadster-2028-reveal-20261017/roadster-rear.jpg)
+![테슬라 로드스터 후면부 — 풀위드스 라이트바와 노출형 디퓨저](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/tesla-roadster-2028-reveal-20261017/roadster-rear.jpg)
 *후면은 풀위드스 라이트바와 팬·스러스터가 드러나는 노출형 디퓨저로 마감됐습니다 (출처: Carscoops, 2026.10)*
 
 ---
@@ -78,7 +78,7 @@ description: "테슬라가 2026년 10월 15일(현지) 미국 텍사스 SpaceX �
 
 솔직히 말하면 **스펙표의 절반이 비어 있습니다.** 항속거리, 배터리 용량, 마력, 생산 공장, 초기 판매 시장은 이번 행사에서 언급되지 않았습니다. 반대로 확실한 것은 **가속·다운포스·비행 자세 제어**라는, 다른 양산차가 흉내 내기 어려운 영역입니다.
 
-![테슬라 로드스터 측면 — 낮게 깔린 웨지형 실루엣](/assets/images/posts/tesla-roadster-2028-reveal-20261017/roadster-side.jpg)
+![테슬라 로드스터 측면 — 낮게 깔린 웨지형 실루엣](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/tesla-roadster-2028-reveal-20261017/roadster-side.jpg)
 *2017년 콘셉트의 곡선형 실루엣 대신 각진 웨지 형태로 다듬어졌습니다 (출처: Hypebeast, 2026.10)*
 
 ---
@@ -101,7 +101,7 @@ description: "테슬라가 2026년 10월 15일(현지) 미국 텍사스 SpaceX �
 
 ## 🔄 2017년 콘셉트와 달라진 점
 
-![2017년 공개된 테슬라 로드스터 2세대 콘셉트](/assets/images/posts/tesla-roadster-2028-reveal-20261017/roadster-2017-concept.jpg)
+![2017년 공개된 테슬라 로드스터 2세대 콘셉트](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/tesla-roadster-2028-reveal-20261017/roadster-2017-concept.jpg)
 *2017년 11월 처음 공개된 2세대 로드스터 콘셉트. 당시에는 2020년 출시를 예고했습니다 (출처: Wikimedia Commons / CC BY-SA 4.0)*
 
 | 항목 | 2017년 콘셉트 | 2026년 공개차 |

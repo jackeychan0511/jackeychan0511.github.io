@@ -6,7 +6,7 @@ categories: [career]
 tags: [Gemini, Google, 제미나이, 구글, FindHub, 파인드허브, AndroidDrop, 안드로이드드롭, GeminiLive, GuidedVision, 물건찾기, 분실방지, AI비서, AI뉴스, 2026년9월, 구글AI]
 author: "40대 블로거"
 description: "2026년 9월 1일 구글이 'September 2026 Android Drop'을 공식 발표하며, Gemini가 트래커 태그가 없는 물건(여권·여분 열쇠 등)의 위치를 기억해 Find Hub에 저장하는 'Remembered' 기능을 선보였습니다. 'Hey Google, 여권을 침실 서랍에 뒀어'라고 말하면 위치를 기억하고, 사진까지 첨부할 수 있으며, 나중에 '어디 뒀지?'라고 물어보면 바로 알려줍니다. 저시력·시각장애인을 위한 Gemini Live 'Guided Vision' 정식 지원(Android 9+ 확대)과 차량 멀미 완화 'Motion Assist', Google Messages 내 Google Keep 공동 편집까지. 이번 업데이트를 이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망 순서로 정리했습니다."
-image: /assets/images/posts/gemini-find-hub-remembered-20260902/gemini-findhub-android-drop-official.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-find-hub-remembered-20260902/gemini-findhub-android-drop-official.jpg
 sitemap: false
 noindex: true
 ---
@@ -15,7 +15,7 @@ noindex: true
 
 지난 9월 1일, 구글이 **'September 2026 Android Drop'**을 공식 발표하면서 **Gemini가 물건 위치를 기억해 Find Hub에 저장하는 'Remembered' 기능**을 선보였습니다. IT 매체 **9to5Google·Android Authority·Android Central**까지 "트래커 태그 없이도 Gemini가 물건 위치를 기억한다"며 일제히 보도한 핵심 이슈인데요. 오늘은 이 소식을 **이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망** 순서로 정리해 드립니다.
 
-![September 2026 Android Drop 공식 안내 이미지](/assets/images/posts/gemini-find-hub-remembered-20260902/gemini-findhub-android-drop-official.jpg)
+![September 2026 Android Drop 공식 안내 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-find-hub-remembered-20260902/gemini-findhub-android-drop-official.jpg)
 *September 2026 Android Drop — 'Remember where you put things, ease motion sickness, and more' (출처: Google 공식 블로그, 2026.9.1)*
 
 ## 📌 이슈 요약: "태그 없이도 AI가 물건 위치를 기억한다"
@@ -35,7 +35,7 @@ noindex: true
 
 이번 업데이트는 그 빈틈을 **AI의 '언어 기억'으로 메운** 겁니다. 트래커 신호 대신, 사용자가 말로 알려준 정보와(선택 시) 사진을 **Find Hub의 'Remembered' 탭에 구조화해 저장**하고, 나중에 자연어 질문("여권 어디 뒀어?")이 들어오면 그 기록을 꺼내 보여주는 방식입니다. 단순 음성 메모 앱과 다른 점은 **'찾기' 전용 앱(Find Hub) 안에 위치 정보가 통합 관리**된다는 것 — 나중에 태그형 트래커와 같은 화면에서 함께 관리할 수 있게 됩니다.
 
-![Find Hub 'Remembered'에 저장된 여권 위치 알림 화면](/assets/images/posts/gemini-find-hub-remembered-20260902/gemini-findhub-remembered-androidguys.png)
+![Find Hub 'Remembered'에 저장된 여권 위치 알림 화면](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-find-hub-remembered-20260902/gemini-findhub-remembered-androidguys.png)
 *"여권을 침실 서랍장에 뒀다"는 Gemini의 기억이 Find Hub 'Remembered' 탭에 표시된 모습 (출처: AndroidGuys, 2026.9.1)*
 
 ### ② Guided Vision 정식 확대 — 지난 8월 포스팅한 '그 기능'이 현실로

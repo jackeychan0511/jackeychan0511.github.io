@@ -6,7 +6,7 @@ categories: [career]
 tags: [Gemini, Google, Gemini3.8Flash, GeminiFlash, Jetski, AI모델, LLM, GeminiAPI, BusinessInsider, AI뉴스, 2026년8월, 구글AI]
 author: "40대 블로거"
 description: "2026년 8월 28일, Business Insider가 구글 직원들이 내부 코딩 플랫폼 'Jetski'에서 'Gemini 3.8 Flash Preview'를 테스트 중인 정황을 보도했습니다. 3.7 Flash 출시(8월 13일) 불과 2주 만에 후속 모델 테스트가 시작된 것인데요. 1M 토큰 컨텍스트·가격 경쟁력 중심의 Flash 라인 전략, 아직 지연 중인 플래그십 3.5 Pro와의 대비까지 이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망 순서로 정리했습니다."
-image: /assets/images/posts/gemini-3-8-flash-internal-preview-20260831/gemini-flash-official-1.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-3-8-flash-internal-preview-20260831/gemini-flash-official-1.jpg
 sitemap: false
 noindex: true
 ---
@@ -15,7 +15,7 @@ noindex: true
 
 지난 8월 28일, **Business Insider**가 구글 직원들이 내부 코딩 플랫폼 **'Jetski'**에서 **'Gemini 3.8 Flash Preview'**를 테스트하고 있다는 정황을 보도했습니다. 오늘은 이 소식을 **이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망** 순서로 정리해 드립니다.
 
-![Google DeepMind 공식 Gemini Flash 모델 페이지 히어로 이미지](/assets/images/posts/gemini-3-8-flash-internal-preview-20260831/gemini-flash-official-1.jpg)
+![Google DeepMind 공식 Gemini Flash 모델 페이지 히어로 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-3-8-flash-internal-preview-20260831/gemini-flash-official-1.jpg)
 *Google DeepMind 공식 'Gemini Flash' 모델 페이지 — Flash 라인은 속도와 비용 효율에 초점을 맞춘 라이트 모델군 (출처: deepmind.google/models/gemini/flash, 2026.8.31 확인)*
 
 ## 📌 이슈 요약: "3.7 Flash 출시 2주 만에" 후속 모델 테스트 포착
@@ -49,7 +49,7 @@ Jetski는 구글 직원들이 실제 코딩 업무에 쓰는 **내부 개발 플
 
 흥미로운 점은 같은 시점에 플래그십 **Gemini 3.5 Pro는 계속 지연** 중이라는 겁니다. 2월 3.1 Pro 이후 후속이 안 나오면서 Polymarket 등 시장에서도 "8월 말까지 출시 없음" 전망이 우세했습니다. **고급 모델은 신중하게, 실전 모델은 빠르게** — 구글이 Flash 라인을 앞세워 "싸고 빠른 모델" 시장을 선점하려는 의도가 또렷해 보입니다.
 
-![Google Gemini 로고](/assets/images/posts/gemini-3-8-flash-internal-preview-20260831/gemini-logo-2025-wikimedia.png)
+![Google Gemini 로고](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-3-8-flash-internal-preview-20260831/gemini-logo-2025-wikimedia.png)
 *Google Gemini 로고 (출처: Wikimedia Commons, 'Google Gemini logo 2025' — Google의 자산)*
 
 ## 👥 영향: 사용자와 개발자

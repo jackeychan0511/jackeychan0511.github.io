@@ -5,13 +5,13 @@ date: 2026-08-03 21:30:00 +0900
 categories: [products]
 tags: [갤럭시Z폴드8, 갤럭시Z플립8, 폴드8울트라, 삼성전자, 폴더블, 사전예약, 갤럭시언팩, 갤럭시워치9, 더블스토리지, 2026년8월, 이슈제품]
 author: "40대 블로거"
-image: /assets/images/posts/galaxy-z-fold8-preorder-20260803/galaxy-z-fold8-launch-main.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/galaxy-z-fold8-preorder-20260803/galaxy-z-fold8-launch-main.jpg
 description: "2026년 8월 3일 기준 갤럭시 Z 폴드8·폴드8 울트라·플립8 사전예약을 총정리했습니다. 사전예약은 오늘(8/3)까지, 개통은 8/4, 공식 출시는 8/7입니다. 출고가(폴드8 227만 원부터·울트라 1TB 345만 원·플립8 168만 3,000원부터), 더블 스토리지 256→512GB 무료 업그레이드, 1TB 업그레이드 옵션, 채널별 혜택과 사전예약 전 체크리스트를 정리했습니다."
 ---
 
 > **📌 한줄 요약:** 삼성전자가 7월 22일 런던 언팩에서 공개한 **갤럭시 Z 폴드8 울트라·폴드8·플립8**의 국내 사전예약이 **오늘(8월 3일)까지**입니다. 출고가는 폴드8 **227만 원**, 플립8 **168만 3,000원**부터, 폴드8 울트라는 1TB 기준 **345만 원**까지 책정됐습니다. 사전예약 혜택인 **256GB→512GB 더블 스토리지 무료 업그레이드**(25만 3,000원 상당)와 **1TB·16GB 업그레이드 옵션**은 정식 출시 후에는 사라지므로, 갈아타기를 고민 중이시라면 오늘 안에 결정하셔야 합니다.
 
-![갤럭시 Z 폴드8 울트라·폴드8·플립8 공식 발표 사진](/assets/images/posts/galaxy-z-fold8-preorder-20260803/galaxy-z-fold8-launch-main.jpg)
+![갤럭시 Z 폴드8 울트라·폴드8·플립8 공식 발표 사진](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/galaxy-z-fold8-preorder-20260803/galaxy-z-fold8-launch-main.jpg)
 *갤럭시 Z 폴드8 울트라·폴드8·플립8 — Galaxy Unpacked July 2026 공식 발표 사진 (출처: 삼성전자 글로벌 뉴스룸, 확인일 2026-08-03)*
 
 ---
@@ -48,7 +48,7 @@ description: "2026년 8월 3일 기준 갤럭시 Z 폴드8·폴드8 울트라·�
 
 세 모델 모두 최신 플래그십 칩셋(퀄컴 스냅드래곤 8 엘리트 Gen 5)과 갤럭시 AI 기능을 공유합니다. (출처: GSMArena 스펙 DB, 확인일 2026-08-03)
 
-![갤럭시 Z8 시리즈 공식 발표 사진 2](/assets/images/posts/galaxy-z-fold8-preorder-20260803/galaxy-z-fold8-launch-main5.jpg)
+![갤럭시 Z8 시리즈 공식 발표 사진 2](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/galaxy-z-fold8-preorder-20260803/galaxy-z-fold8-launch-main5.jpg)
 *갤럭시 Z 폴드8 울트라·폴드8·플립8 공식 보도자료 사진 (출처: 삼성전자 글로벌 뉴스룸, 확인일 2026-08-03)*
 
 ---
@@ -69,7 +69,7 @@ description: "2026년 8월 3일 기준 갤럭시 Z 폴드8·폴드8 울트라·�
 
 **둘째, 그런데도 한국 가격은 세계에서 가장 저렴한 축입니다.** 해외 출고가와 비교하면 한국 책정가가 낮게 잡혀서, '가격 저항과 판매 호조가 동시에 나타나는' 상황입니다. (출처: 네이트뉴스·위키트리 보도, 확인일 2026-08-03)
 
-![갤럭시 Z8 시리즈 공식 발표 사진 3](/assets/images/posts/galaxy-z-fold8-preorder-20260803/galaxy-z-fold8-launch-main6.jpg)
+![갤럭시 Z8 시리즈 공식 발표 사진 3](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/galaxy-z-fold8-preorder-20260803/galaxy-z-fold8-launch-main6.jpg)
 *갤럭시 Z8 시리즈 공식 보도자료 사진 (출처: 삼성전자 글로벌 뉴스룸, 확인일 2026-08-03)*
 
 ---
@@ -91,7 +91,7 @@ description: "2026년 8월 3일 기준 갤럭시 Z 폴드8·폴드8 울트라·�
 
 (출처: 동아일보·ZDNet코리아·삼성전자 뉴스룸 보도, 확인일 2026-08-03)
 
-![갤럭시 Z8 시리즈 공식 발표 사진 4](/assets/images/posts/galaxy-z-fold8-preorder-20260803/galaxy-z-fold8-launch-main2.jpg)
+![갤럭시 Z8 시리즈 공식 발표 사진 4](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/galaxy-z-fold8-preorder-20260803/galaxy-z-fold8-launch-main2.jpg)
 *갤럭시 Z8 시리즈 공식 보도자료 사진 (출처: 삼성전자 글로벌 뉴스룸, 확인일 2026-08-03)*
 
 ---
@@ -112,7 +112,7 @@ description: "2026년 8월 3일 기준 갤럭시 Z 폴드8·폴드8 울트라·�
 
 참고로 이번 시리즈와 함께 **갤럭시 워치 울트라2(LTE 단일 모델, 96만 9,100원)** 와 **갤럭시 워치9**도 같은 기간 사전판매 중입니다. 폰과 워치를 함께 바꿀 계획이시라면 묶음 혜택이 있는지도 확인해보세요.
 
-![갤럭시 Z8 시리즈 공식 발표 사진 5](/assets/images/posts/galaxy-z-fold8-preorder-20260803/galaxy-z-fold8-launch-main3.jpg)
+![갤럭시 Z8 시리즈 공식 발표 사진 5](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/galaxy-z-fold8-preorder-20260803/galaxy-z-fold8-launch-main3.jpg)
 *갤럭시 Z8 시리즈 공식 보도자료 사진 (출처: 삼성전자 글로벌 뉴스룸, 확인일 2026-08-03)*
 
 ---

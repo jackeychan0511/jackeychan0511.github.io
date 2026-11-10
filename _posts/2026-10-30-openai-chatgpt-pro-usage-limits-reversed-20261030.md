@@ -5,7 +5,7 @@ date: 2026-10-30 14:52:00 +0900
 categories: [career]
 tags: [OpenAI, ChatGPT, Codex, ChatGPTPro, Pro500, 요금제개편, 사용량한도, AI구독, GPT61, 업무자동화, 개발자도구, AI뉴스, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/openai-chatgpt-pro-usage-limits-20261030/openai-codex-screenshot.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-chatgpt-pro-usage-limits-20261030/openai-codex-screenshot.png
 description: "2026년 10월 29일 OpenAI가 예고했던 ChatGPT Pro 200의 Work·Codex 사용량 50% 삭감을 전격 철회했습니다. 대신 Pro 100·200·500과 Business Premium의 사용 한도를 2배로 올렸고, 10월 30일 시행 예정이던 인하는 없던 일이 됐습니다. Dots 확장 한도도 별도 계량으로 유지됩니다. 무엇이 확정이고 무엇이 보도 단계인지, 등급별로 실제로 달라지는 것과 개발자·기업이 확인해야 할 부분을 정리했습니다."
 ---
 
@@ -15,7 +15,7 @@ description: "2026년 10월 29일 OpenAI가 예고했던 ChatGPT Pro 200의 Work
 
 그런데 시행 하루 전인 **10월 29일**, OpenAI가 방향을 바꿨습니다. 인하를 취소하는 수준을 넘어 **한도를 2배로 올리겠다**고 발표했습니다. 하루 만에 달라진 조건이라, 무엇이 실제로 바뀐 것인지 등급별로 정리해 둘 필요가 있습니다.
 
-![OpenAI Codex 화면 예시 (출처: Wikimedia Commons, CC0, 작성자 Wikideas1)](/assets/images/posts/openai-chatgpt-pro-usage-limits-20261030/openai-codex-screenshot.png)
+![OpenAI Codex 화면 예시 (출처: Wikimedia Commons, CC0, 작성자 Wikideas1)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-chatgpt-pro-usage-limits-20261030/openai-codex-screenshot.png)
 *OpenAI Codex 화면 예시 (출처: Wikimedia Commons, CC0, 작성자 Wikideas1)*
 
 ## 이슈 요약 — 한 장으로 정리
@@ -42,7 +42,7 @@ description: "2026년 10월 29일 OpenAI가 예고했던 ChatGPT Pro 200의 Work
 
 즉 **인하 예정이던 항목이 원상 복구**되고, 그 위에 **2배 인상**이 얹혔습니다. BleepingComputer는 이 결정이 "고객 피드백 이후" 이뤄졌다고 전했습니다. 같은 날 Pro 500은 DevDay에서 처음 등장한 최상위 요금제로, **Ultrafast** 접근 권한을 단독으로 갖습니다.
 
-![OpenAI 워드마크 (출처: Wikimedia Commons, 퍼블릭 도메인, OpenAI)](/assets/images/posts/openai-chatgpt-pro-usage-limits-20261030/openai-logo-wordmark.png)
+![OpenAI 워드마크 (출처: Wikimedia Commons, 퍼블릭 도메인, OpenAI)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-chatgpt-pro-usage-limits-20261030/openai-logo-wordmark.png)
 *OpenAI 워드마크 (출처: Wikimedia Commons, 퍼블릭 도메인, OpenAI)*
 
 ## 2. 등급별로 실제로 달라지는 것

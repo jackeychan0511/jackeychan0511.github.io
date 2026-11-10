@@ -5,13 +5,13 @@ date: 2026-08-26 12:00:00 +0900
 categories: [education]
 tags: [황소수학, 생각하는황소, 황소고시, 영재학교, 입학설명회, 울산옥동, 시흥배곧, 사고력수학]
 author: "40대 블로거"
-image: /assets/images/posts/thinkingbull-update-20260826/01-logo.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/thinkingbull-update-20260826/01-logo.png
 description: "생각하는황소 울산 옥동점이 8/25 공식 블로그를 통해 2027학년도 영재학교 합격(예비합격자) 소식을 전했습니다. 2021년 12월 개원 당시 초4였던 1기생들이 중등과정을 마무리하고 이룬 첫 결실입니다. 같은 주 시흥점은 9/11 정기 입학설명회(오전 10:30·오후 7:30)를 공지했습니다."
 ---
 
 # [업데이트] 생각하는황소 울산 옥동, 2027학년도 영재학교 합격(예비합격자) 배출 — 개원 5년 만의 첫 결실
 
-![생각하는황소 공식 로고](/assets/images/posts/thinkingbull-update-20260826/01-logo.png)
+![생각하는황소 공식 로고](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/thinkingbull-update-20260826/01-logo.png)
 *생각하는황소 공식 로고 (출처: 생각하는황소 공식 홈페이지)*
 
 안녕하세요. 40대 라이프 블로그입니다.

@@ -6,7 +6,7 @@ categories: [career]
 tags: [Gemini, Google, 제미나이, 구글, Gemini3.8Flash, GeminiFlash, FlashCyber, 사이버보안, Fairwind, AI모델, LLM, GeminiAPI, AI에이전트, AI코딩, AI뉴스, 2026년9월, 구글AI]
 author: "40대 블로거"
 description: "2026년 9월 2일(수), Google DeepMind가 공식 블로그 'Introducing Gemini 3.8 Flash and 3.8 Flash Cyber'를 통해 차세대 Flash 모델을 공식 출시했습니다. 3.6→3.7→3.8로 6주 만에 세 번째 Flash 모델로, 장시간(long-horizon) 코딩과 자율 에이전트에 특화됐고 3.7 Flash 대비 큰 폭의 성능 향상이 확인됐습니다. 출시 기념 프로모 가격($0.75/$3.75, 1M 토큰 기준)과 1M 컨텍스트는 그대로 유지했으며, 사이버보안 전용 변형 'Gemini 3.8 Flash Cyber'(CWE-Bench pass@1 47.2%)는 신뢰된 방어자만 이용할 수 있는 'Fairwind Program'으로 제공됩니다. 지난 8월 31일 다뤘던 Jetski 내부 프리뷰 소식이 정식 출시로 이어진 셈입니다. 이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망 순서로 정리했습니다."
-image: /assets/images/posts/gemini-38-flash-official-cyber-20260902/gemini-38-flash-cyber-official-header.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-38-flash-official-cyber-20260902/gemini-38-flash-cyber-official-header.png
 sitemap: false
 noindex: true
 ---
@@ -15,7 +15,7 @@ noindex: true
 
 **9월 2일(수), Google DeepMind가 공식 블로그에서 'Introducing Gemini 3.8 Flash and 3.8 Flash Cyber'**를 발표했습니다. 3.6 Flash(7월) → 3.7 Flash(8/13) → 3.8 Flash(9/2)로 이어지는 **6주 만의 세 번째 Flash 모델**인데요. 오늘은 이번 발표를 **이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망** 순서로 정리해 드립니다.
 
-![Google 공식 블로그 'Introducing Gemini 3.8 Flash and 3.8 Flash Cyber' 대표(히어로) 이미지](/assets/images/posts/gemini-38-flash-official-cyber-20260902/gemini-38-flash-cyber-official-header.png)
+![Google 공식 블로그 'Introducing Gemini 3.8 Flash and 3.8 Flash Cyber' 대표(히어로) 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-38-flash-official-cyber-20260902/gemini-38-flash-cyber-official-header.png)
 *Google 공식 블로그 "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber" 대표 이미지 — 6주 만에 세 번째 Flash 모델과 사이버 전용 변형을 함께 공개 (출처: blog.google 공식 발표, 2026.9.2)*
 
 > 📌 참고: 본 글은 2026년 9월 2일 Google DeepMind 공식 블로그 발표와 모델 카드, Android Authority·DataCamp·Cyber Security News·The Hacker News 등의 보도를 바탕으로 작성한 정보형 기사입니다. 직전 글(8/31, Gemini 3.8 Flash 내부 테스트 포착)의 후속 소식입니다.
@@ -52,7 +52,7 @@ noindex: true
 - 추론(Thinking) 레벨을 **low / medium / high**로 조절 가능(기본값 medium)
 - 1M 토큰 컨텍스트로 대형 코드베이스·긴 에이전트 작업 처리
 
-![Gemini 3.8 Flash 공식 에이전트 코딩(DeepSWE) 벤치마크 차트](/assets/images/posts/gemini-38-flash-official-cyber-20260902/gemini-38-flash-deepswe-eval-official.png)
+![Gemini 3.8 Flash 공식 에이전트 코딩(DeepSWE) 벤치마크 차트](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-38-flash-official-cyber-20260902/gemini-38-flash-deepswe-eval-official.png)
 *Gemini 3.8 Flash의 에이전트 코딩 벤치마크(DeepSWE) 공식 평가 차트 — 긴 호흡 코딩 작업에서 3.7 Flash 대비 개선된 모습을 보여줌 (출처: Google 공식 블로그, 2026.9.2)*
 
 보도된 벤치마크를 보면, DataCamp는 **Terminal-Bench 2.1에서 90.8%**를 기록했다고 전했고, Artificial Analysis의 Intelligence Index(high 기준)는 **59점**으로 3.6 Flash(52) → 3.7 Flash(56) → 3.8 Flash(59)로 세 단계 연속 상승했습니다. 주목할 점은 이 지수 상승이 **가격 인상 없이** 이뤄졌다는 겁니다. 3.7 Flash와 동일한 프로모 가격(입력 $0.75·출력 $3.75, 1M 토큰 기준)을 유지하면서 성능만 끌어올린 구조입니다.
@@ -67,7 +67,7 @@ noindex: true
 - **20개 이상 언어 대상 평가에서 70% 이상** 성능
 - Flash 라인의 속도·저비용 특성을 그대로 가져가 **빠른 반복(iteration)**이 가능
 
-![Gemini 3.8 Flash Cyber 공식 CWE-Bench 평가 차트](/assets/images/posts/gemini-38-flash-official-cyber-20260902/gemini-38-flash-cyber-cwe-bench-official.png)
+![Gemini 3.8 Flash Cyber 공식 CWE-Bench 평가 차트](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-38-flash-official-cyber-20260902/gemini-38-flash-cyber-cwe-bench-official.png)
 *Gemini 3.8 Flash Cyber의 CWE-Bench(취약점 패치) 공식 평가 차트 — 자율 취약점 발견·패치 생성에 특화된 전용 모델 (출처: Google 공식 블로그, 2026.9.2)*
 
 흥미로운 건 **접근 통제**입니다. 3.8 Flash Cyber는 누구나 쓸 수 있는 API가 아니라, Google DeepMind가 새로 만든 **'Fairwind Program'**을 통해 **검증된(trusted) 방어자 — 보안 연구자·방어 조직**에게만 제공됩니다. 공격에 악용될 위험(dual-use)을 막기 위해 수요자(방어자)만 골라서 푸는 전략입니다. The Hacker News는 이번 주를 **"Google·Anthropic·OpenAI의 사이버 AI 모델 공개 주간"**으로 묶어 보도했는데, 실제로 9월 1일 OpenAI는 Astra의 사이버 'Critical' 등급 판정(9/3 글), Anthropic은 검증 기관 전용 Mythos 5.1(9/2 글)을 각각 발표한 터라, **"취약점을 찾는 AI" 경쟁이 세 회사에서 동시에 폭발**한 주이기도 합니다.

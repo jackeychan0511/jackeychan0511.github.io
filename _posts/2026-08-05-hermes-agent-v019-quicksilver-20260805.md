@@ -5,7 +5,7 @@ date: 2026-08-05 12:00:00 +0900
 categories: [career]
 tags: [HermesAgent, NousResearch, AI에이전트, 오픈소스AI, AI도구, AI툴추천, Quicksilver, v0.19.0, AI업데이트, 데스크톱앱, 2026년8월]
 author: "40대 블로거"
-image: /assets/images/posts/hermes-agent-v019-quicksilver-20260805/hermes-agent-hero.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-agent-v019-quicksilver-20260805/hermes-agent-hero.jpg
 description: "2026년 7월 20일 발표된 오픈소스 AI 에이전트 Hermes Agent v0.19.0 퀵실버 릴리스를 정리했습니다. 첫 응답(첫 토큰) 시간 80% 단축, Bitwarden·1Password 연동, 스마트 승인, 데스크톱 앱 속도 개선 등 핵심 업데이트와 함께 10만 GitHub 스타, 1.5조원대 밸류 펀딩 보도까지 다룹니다."
 sitemap: false
 noindex: true
@@ -13,7 +13,7 @@ noindex: true
 
 > **📌 한줄 요약:** Nous Research의 오픈소스 AI 에이전트 **Hermes Agent v0.19.0 '퀵실버 릴리스'**가 2026년 7월 20일 공개됐습니다. 콜드 스타트 첫 응답 시간이 **약 4.3초 → 0.9초로 80% 단축**됐고, 비밀번호 관리자(Bitwarden·1Password) 연동, 스마트 명령 승인 기본 적용, 데스크톱 앱 대대적 속도 개선까지 담겼습니다. GitHub 스타 10만 개를 넘긴 오픈소스 프로젝트로, 최근 1.5조원(1.5B 달러) 밸류에이션 펀딩 보도(로봇벤처스 주도)까지 나온 바로 그 AI 에이전트입니다.
 
-![Hermes Agent 공식 홈페이지 히어로 이미지](/assets/images/posts/hermes-agent-v019-quicksilver-20260805/hermes-agent-hero.jpg)
+![Hermes Agent 공식 홈페이지 히어로 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-agent-v019-quicksilver-20260805/hermes-agent-hero.jpg)
 *Hermes Agent — Nous Research가 만든 자기개선형 오픈소스 AI 에이전트 (출처: Hermes Agent 공식 홈페이지, 2026-08-05 확인)*
 
 ---
@@ -36,7 +36,7 @@ noindex: true
 
 솔직히 말하면, 저는 이 글을 쓰는 지금도 **Hermes Agent 위에서 크론잡(정기 자동 작업)으로 블로그 포스팅을 돌리고 있는 입장**입니다. 에이전트가 검색하고, 자료를 모으고, 이미지를 찾아 붙이고, 글을 써서 git push까지 하는 일이 실제로 매일 돌아가고 있어요. 그래서 이번 업데이트가 실사용 관점에서 어떤 의미인지, 꼼꼼하게 정리해 봤습니다.
 
-![Hermes Agent 로고 이미지](/assets/images/posts/hermes-agent-v019-quicksilver-20260805/hermes-agent-logo.jpg)
+![Hermes Agent 로고 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-agent-v019-quicksilver-20260805/hermes-agent-logo.jpg)
 *Hermes Agent — 신들의 전령 헤르메스처럼 빠르게 움직인다는 의미의 퀵실버 릴리스 (출처: Hermes Agent 공식 홈페이지 OG 이미지, 2026-08-05 확인)*
 
 ---
@@ -56,7 +56,7 @@ Hermes Agent는 Nous Research가 만든 **MIT 라이선스 오픈소스 AI 에�
 - **2026년 4월 28일, GitHub 스타 10만 개 돌파** — 공식 뉴스 기준 "가장 빠르게 성장한 오픈소스 AI 에이전트 프로젝트"로 기록됐습니다.
 - **2026년 7월 13일, TechCrunch 보도** — Robot Ventures 주도로 **약 7,500만 달러(한화 약 1,000억 원대) 규모 신규 펀딩을 15억 달러(약 2조 원) 밸류에이션에 마무리하는 중**이라고 전해졌습니다. USV(유니언 스퀘어 벤처스) 등이 참여한다는 내용이라, 오픈소스 에이전트의 상업적 가치를 보여주는 신호로 해석됩니다. (보도 시점 기준 협상 단계이므로 확정 전에는 유의해서 봐야 합니다.)
 
-![Hermes Agent GitHub 리포지토리 이미지](/assets/images/posts/hermes-agent-v019-quicksilver-20260805/hermes-agent-github.jpg)
+![Hermes Agent GitHub 리포지토리 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-agent-v019-quicksilver-20260805/hermes-agent-github.jpg)
 *Hermes Agent GitHub 리포지토리 — 2026년 4월 스타 10만 개를 돌파하며 오픈소스 AI 에이전트 중 가장 빠른 성장세를 기록 (출처: GitHub NousResearch/hermes-agent, 2026-08-05 확인)*
 
 ---
@@ -93,7 +93,7 @@ API 키를 평문 `.env` 파일에 두는 대신 **Bitwarden과 1Password에서 
 
 GPT-5.6(솔/테라/루나 및 Pro 변형), grok-4.5(GA), moonshotai/kimi-k3, claude-fable-5 등 모델 카탈로그가 확장됐고, Fireworks AI·DeepInfra가 프로바이더로 추가됐습니다. 추론 깊이도 `max`·`ultra` 단계가 추가되어 모델별로 생각 깊이를 조절할 수 있게 됐습니다.
 
-![Hermes Agent 데스크톱 앱 이미지](/assets/images/posts/hermes-agent-v019-quicksilver-20260805/hermes-agent-desktop.jpg)
+![Hermes Agent 데스크톱 앱 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-agent-v019-quicksilver-20260805/hermes-agent-desktop.jpg)
 *Hermes Desktop — macOS·Windows·Linux를 지원하는 네이티브 데스크톱 앱. 퀵실버 릴리스에서 20개 이상의 성능 개선이 적용됐다 (출처: Hermes Agent 공식 홈페이지, 2026-08-05 확인)*
 
 ---
@@ -114,7 +114,7 @@ GPT-5.6(솔/테라/루나 및 Pro 변형), grok-4.5(GA), moonshotai/kimi-k3, cla
 - **문서·커뮤니티가 주로 영어**: 한국어 자료가 아직 적어서 초보자가 따라가기엔 다소 불편합니다.
 - **자율 실행 설정은 신중하게**: 명령 자동 승인을 켜면 편하지만, 그만큼 에이전트가 할 수 있는 범위도 커집니다. 처음엔 승인 모드로 시작해 신뢰가 쌓인 작업만 자동화하는 걸 추천합니다.
 
-![Hermes Agent 메모리 기능 이미지](/assets/images/posts/hermes-agent-v019-quicksilver-20260805/hermes-agent-memory.jpg)
+![Hermes Agent 메모리 기능 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-agent-v019-quicksilver-20260805/hermes-agent-memory.jpg)
 *핵심 기능 — 지속적인 메모리와 스킬 문서로 에이전트가 스스로 성장하는 구조 (출처: Hermes Agent 공식 홈페이지 기능 소개, 2026-08-05 확인)*
 
 ---

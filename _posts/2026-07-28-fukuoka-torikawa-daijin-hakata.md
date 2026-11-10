@@ -4,7 +4,7 @@ title: "후쿠오카 하카타역 꼬치 맛집: 토리카와다이진 KITTE점 
 date: 2026-07-23 17:00:00 +0900
 categories: [food]
 tags: [후쿠오카맛집, 하카타역맛집, 토리카와다이진, 닭껍질꼬치, 야키토리, 주먹밥, KITTE하카타]
-image: /assets/images/posts/food-torikawa/hero.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/food-torikawa/hero.jpg
 ---
 
 후쿠오카 하카타역에는 맛집이 정말 많습니다. 그중에서도 **토리카와다이진(博多とりかわ大臣) KITTE 하카타점**은 현지인들에게도 인기 있는 야키토리(꼬치) 맛집입니다.
@@ -34,7 +34,7 @@ image: /assets/images/posts/food-torikawa/hero.jpg
 
 어린 닭의 껍질만 엄선해서 꼬치 하나하나 전통 방식으로 손질합니다. 양념은 **큐슈 간장을 베이스로 한 소스**와 **소금구이** 두 가지 맛으로 즐길 수 있습니다.
 
-![토리카와다이진 닭껍질 꼬치](/assets/images/posts/food-torikawa/02-torikawa-skewers.jpg)
+![토리카와다이진 닭껍질 꼬치](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/food-torikawa/02-torikawa-skewers.jpg)
 *닭껍질 꼬치 — 겉은 바삭하고 속은 쫄깃, 양념이 잘 배어 있음*
 
 겉은 바삭하게 구워졌고, 속은 쫄깃한 식감이 일품입니다. 일반적인 닭껍질과 달리 기름지지 않아서 몇 개라도 계속 들어가요.
@@ -45,7 +45,7 @@ image: /assets/images/posts/food-torikawa/hero.jpg
 
 토리카와다이진의 또 다른 매력은 바로 **생양배추 무한리필**.
 
-![생맥주와 양배추](/assets/images/posts/food-torikawa/01-beer-cabbage.jpg)
+![생맥주와 양배추](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/food-torikawa/01-beer-cabbage.jpg)
 *시원한 생맥주와 함께 나오는 생양배추. C5 카운터석*
 
 꼬치가 나오기 전에 먼저 생양배추가 세팅되는데, 이게 무한리필입니다. 꼬치 사이사이 아삭한 양배추 한 입이 느끼함을 잡아주고, 맥주랑도 찰떡궁합.
@@ -58,7 +58,7 @@ image: /assets/images/posts/food-torikawa/hero.jpg
 
 닭껍질 말고도 다양한 꼬치 메뉴가 준비되어 있습니다.
 
-![꼬치 모둠](/assets/images/posts/food-torikawa/03-assorted-skewers.jpg)
+![꼬치 모둠](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/food-torikawa/03-assorted-skewers.jpg)
 *닭껍질부터 다양한 꼬치까지 — 소스구이와 소금구이로 주문*
 
 | 메뉴 | 설명 | 추천 |
@@ -77,7 +77,7 @@ image: /assets/images/posts/food-torikawa/hero.jpg
 
 이 집에서 꼭 먹어야 하는 **숨은 메뉴**가 있습니다. 바로 **구운주먹밥(야키오니기리)**.
 
-![구운주먹밥](/assets/images/posts/food-torikawa/04-rice-ball.jpg)
+![구운주먹밥](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/food-torikawa/04-rice-ball.jpg)
 *겉은 노릇하게, 속은 촉촉하게 구워진 주먹밥*
 
 겉면을 간장 양념해서 노릇노릇하게 구워낸 주먹밥은 바삭하면서도 고소한 맛이 일품입니다.

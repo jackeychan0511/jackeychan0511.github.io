@@ -4,7 +4,7 @@ title: "2026년 7월 Hermes Agent 업데이트 총정리: 비동기 서브에이
 date: 2026-07-31 18:00:00 +0900
 categories: [career]
 tags: [HermesAgent, NousResearch, AI에이전트, AsyncSubagents, BlankSlate, SmartApproval, 오픈소스, AI업데이트, SelfEvolution]
-image: /assets/images/posts/hermes-agent-july-2026/hermes-agent-logo.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-agent-july-2026/hermes-agent-logo.png
 sitemap: false
 noindex: true
 ---
@@ -13,14 +13,14 @@ noindex: true
 
 6월 말부터 7월까지 Hermes Agent에 적용된 변화들을 쭉 훑어보면서, **"이 에이전트, 진짜 달라지고 있구나"** 하는 생각이 들었습니다. 오늘은 그 변화들을 한 자리에 정리해드릴게요.
 
-![Hermes Agent 공식 로고](/assets/images/posts/hermes-agent-july-2026/hermes-agent-logo.png)
+![Hermes Agent 공식 로고](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-agent-july-2026/hermes-agent-logo.png)
 *Hermes Agent — Nous Research가 만든 자기학습형 오픈소스 AI 에이전트*
 
 ---
 
 ## 🏆 먼저, Hermes Agent 지금 상황은?
 
-![Hermes Agent 7월 업데이트 개요](/assets/images/posts/hermes-agent-july-2026/hermes-async-banner.png)
+![Hermes Agent 7월 업데이트 개요](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-agent-july-2026/hermes-async-banner.png)
 *Hermes Agent — Nous Research의 오픈소스 자기학습 AI 에이전트*
 
 2026년 2월 25일 첫 릴리즈 이후 불과 5개월 만에 Hermes Agent는 **GitHub에서 180,000개가 넘는 스타**를 받았습니다. 오픈소스 AI 에이전트 프레임워크 중 가장 빠른 성장세인데요.

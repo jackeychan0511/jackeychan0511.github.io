@@ -5,7 +5,7 @@ date: 2026-11-04 14:52:00 +0900
 categories: [career]
 tags: [OpenAI, GPT6Astra, GPT6, Codex, 하드웨어설계, PCB설계, BenchCAD, 마쓰다, ChipGanassiRacing, 엔지니어링자동화, CAD자동화, AI에이전트, 업무자동화, AI뉴스, 2026년11월]
 author: "40대 블로거"
-image: /assets/images/posts/openai-astra-hardware-engineering-20261104/openai-astra-codex-device.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-astra-hardware-engineering-20261104/openai-astra-codex-device.jpg
 description: "2026년 11월 3일 OpenAI가 'Accelerating engineering for the physical world'를 공개했습니다. GPT-6로 요구사항을 잡고 GPT-6 Astra가 외관·엔클로저·PCB·펌웨어·UI까지 설계해, 두 명의 팀원이 일주일 이내에 Codex와 대화하는 기기 프로토타입을 완성했습니다. 위탁 제조사가 한 달 이내 소량 배치를 생산했지만 공차·생산 제약·조립 요구사항은 일관되게 반영하지 못했습니다. 사내 하드웨어팀 토큰 사용량은 2월 대비 23배, BenchCAD 2.0에서 내부 신모델은 0.875로 GPT-6 Astra의 0.594를 앞섰습니다. Chip Ganassi Racing 협업 확대와 Mazda 신규 협업 내용, 그리고 실무에서 주의할 점까지 정리했습니다."
 ---
 
@@ -17,7 +17,7 @@ description: "2026년 11월 3일 OpenAI가 'Accelerating engineering for the phy
 
 이 글은 **무엇이 발표됐는지 → 모델이 실제로 한 일 → 제조 단계에서 드러난 한계 → 숫자로 본 변화 → 산업 협업 → 개발자·엔지니어에게 무엇이 달라지는지 → 솔직한 주의점과 전망** 순서로 정리했습니다.
 
-![OpenAI가 GPT-6 Astra로 설계한 Codex 연동 기기 프로토타입 (사진: OpenAI 공식 리서치 블로그 / Interesting Engineering)](/assets/images/posts/openai-astra-hardware-engineering-20261104/openai-astra-codex-device.jpg)
+![OpenAI가 GPT-6 Astra로 설계한 Codex 연동 기기 프로토타입 (사진: OpenAI 공식 리서치 블로그 / Interesting Engineering)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-astra-hardware-engineering-20261104/openai-astra-codex-device.jpg)
 
 ## 무엇이 발표됐나
 
@@ -51,7 +51,7 @@ description: "2026년 11월 3일 OpenAI가 'Accelerating engineering for the phy
 - **위탁 제조사**가 **한 달 이내** 소량 프로토타입 배치 생산
 - 외관 레퍼런스는 최근 협업한 **Work Louder의 Codex Micro**와 게임·장난감 이미지에서 가져옴
 
-![Astra가 설계한 프로토타입 기기의 엔클로저 구조 도면 (이미지: OpenAI)](/assets/images/posts/openai-astra-hardware-engineering-20261104/openai-enclosure-diagram.png)
+![Astra가 설계한 프로토타입 기기의 엔클로저 구조 도면 (이미지: OpenAI)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-astra-hardware-engineering-20261104/openai-enclosure-diagram.png)
 
 ## ② 숫자로 본 변화 — 23배와 BenchCAD 2.0
 

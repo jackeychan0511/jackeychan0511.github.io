@@ -5,13 +5,13 @@ date: 2026-10-24 11:22:00 +0900
 categories: [products]
 tags: [테슬라옵티머스, 옵티머스3, 휴머노이드로봇, 피규어03, 1X네오, 유니트리G1, 휴머노이드가격, 테슬라실적, 로봇구매가이드, 피지컬AI, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/tesla-optimus-v3-production-20261024/optimus-showroom.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/tesla-optimus-v3-production-20261024/optimus-showroom.jpg
 description: "테슬라가 2026년 10월 21일 3분기 실적 발표에서 프리몬트 고생산 라인에서 옵티머스 양산을 시작했다고 밝혔습니다. 다만 외부 판매는 2027년 말, 주 2만 대 목표도 2027년 말입니다. 옵티머스 V3 스펙(173cm·57kg·22자유도 손)과 가격 전망, 피규어 03·1X NEO·유니트리 G1까지 실제 구매 가능 여부와 가격을 한 표로 비교했습니다."
 ---
 
 휴머노이드 로봇 이야기를 들으면 "또 영상만 화려하고 끝나는 거 아니냐"는 생각이 먼저 드는 분들이 많습니다. 그런데 이번에는 영상이 아니라 **공장 라인**에서 사건이 났습니다. 테슬라가 2026년 10월 21일(현지시간) 3분기 실적을 발표하면서, 프리몬트 공장의 **고생산(high-volume) 라인에서 옵티머스 양산을 시작했다**고 공식 문서에 적었습니다.
 
-![테슬라 쇼룸에 전시된 옵티머스 휴머노이드 로봇](/assets/images/posts/tesla-optimus-v3-production-20261024/optimus-showroom.jpg)
+![테슬라 쇼룸에 전시된 옵티머스 휴머노이드 로봇](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/tesla-optimus-v3-production-20261024/optimus-showroom.jpg)
 *테슬라 쇼룸에 전시된 옵티머스. 양산형 V3는 아직 공식 공개 전이라, 지금 공개된 실물 사진은 대부분 전시·시연용 유닛입니다 (출처: Wikimedia Commons)*
 
 > **📌 한줄 요약:** 테슬라는 **"이 라인에서 나오는 로봇이 우리가 만든 첫 '양산 품질' 로봇"**이라며 상용 제품으로서의 제조 공정을 입증했다고 밝혔습니다. 다만 **외부 고객 판매는 2027년 말**, 머스크가 말한 **주 2만 대 목표도 2027년 말**입니다. 손(핸드)과 내구성, AI가 아직 미완성이라는 점도 같은 자리에서 인정했습니다. 즉 **"양산 시작"은 사실이지만 "지금 살 수 있다"는 뜻은 전혀 아닙니다.** 아래에서 스펙과 경쟁 로봇 가격을 한 번에 정리했습니다.
@@ -35,7 +35,7 @@ description: "테슬라가 2026년 10월 21일 3분기 실적 발표에서 프�
 
 정리하면 **"공장에서 찍어내기 시작했다"는 사실**과 **"일반인이 살 수 있다"는 기대**는 완전히 다른 이야기입니다. 이 구분이 이번 뉴스에서 가장 중요한 포인트입니다.
 
-![테슬라 옵티머스 전시 실물](/assets/images/posts/tesla-optimus-v3-production-20261024/optimus-latest.jpg)
+![테슬라 옵티머스 전시 실물](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/tesla-optimus-v3-production-20261024/optimus-latest.jpg)
 *옵티머스는 2026년 현재 테슬라 공장 내부 물류·데이터 수집 작업에 우선 투입되는 단계입니다 (출처: Wikimedia Commons)*
 
 ---
@@ -91,13 +91,13 @@ description: "테슬라가 2026년 10월 21일 3분기 실적 발표에서 프�
 | 가격 | **미정** (2만~3만 달러대 목표로 거론) | **비공개** (기업 견적, 약 2만 달러 추정·월 약 1,000달러 RaaS 언급) | **2만 달러** 또는 **월 499달러** | **1만 3,500달러**부터 (구성별 최대 7만 달러대) |
 | 구매 | ❌ 불가 (2027년 말 외부 판매 전망) | 기업 문의 | 미국 중심 초기 배송 | ✅ 지금 주문 가능 |
 
-![피규어 03 공식 이미지](/assets/images/posts/tesla-optimus-v3-production-20261024/figure-03.jpg)
+![피규어 03 공식 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/tesla-optimus-v3-production-20261024/figure-03.jpg)
 *피규어 03. 44자유도와 약 5시간 런타임, 20kg 적재를 내세운 가정·상업 겸용 모델입니다 (출처: Figure AI 공식 홈페이지)*
 
-![1X NEO 공식 이미지](/assets/images/posts/tesla-optimus-v3-production-20261024/1x-neo.jpg)
+![1X NEO 공식 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/tesla-optimus-v3-production-20261024/1x-neo.jpg)
 *1X NEO는 가정용으로 먼저 나온 몇 안 되는 모델로, 2만 달러 일시불 또는 월 499달러 구독 방식을 제시합니다 (출처: 1X 공식 홈페이지)*
 
-![유니트리 G1 실물](/assets/images/posts/tesla-optimus-v3-production-20261024/unitree-g1.jpg)
+![유니트리 G1 실물](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/tesla-optimus-v3-production-20261024/unitree-g1.jpg)
 *유니트리 G1. 1만 3,500달러부터 시작하는 현존 최저가급 휴머노이드로, 연구·교육용 수요가 많습니다 (출처: Wikimedia Commons)*
 
 표를 읽는 법은 세 가지입니다.

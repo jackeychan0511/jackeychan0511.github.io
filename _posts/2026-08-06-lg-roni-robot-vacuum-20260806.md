@@ -5,13 +5,13 @@ date: 2026-08-06 12:30:00 +0900
 categories: [products]
 tags: [LG로니, LG전자, 로봇청소기, 오브제컬렉션, 히든스테이션, 100도스팀, 로봇청소기추천, AI가전, 스팀로봇청소기, 홈봇, 2026년8월, 이슈제품]
 author: "40대 블로거"
-image: /assets/images/posts/lg-roni-robot-vacuum-20260806/lg-roni-hidden-station.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/lg-roni-robot-vacuum-20260806/lg-roni-hidden-station.jpg
 description: "2026년 8월 현재 가장 뜨거운 가전은 LG전자의 프리미엄 로봇청소기 'LG 홈봇 AI 오브제컬렉션 로니(RONi)'입니다. 출시 한 달 만에 LG 역대 청소로봇 신제품 중 최고 판매량을 기록했는데요. 세계 최초로 본체와 스테이션 모두에 100℃ 스팀을 적용한 위생 관리, 15cm 높이의 히든스테이션 빌트인 디자인, 219만 원 출하가의 가치를 실제 사용 관점에서 정리하고 8월 한 달간 전국 백화점에서 열리는 체험 행사 정보까지 공유합니다."
 ---
 
 > **📌 한줄 요약:** 2026년 8월 현재 가전 업계에서 가장 핫한 제품은 **LG 홈봇 AI 오브제컬렉션 로니(RONi)**입니다. 지난 7월 2일 출시된 지 한 달 만에 **LG 역대 청소로봇 신제품 중 최고 판매량**을 기록했고, 기존 흡입·물걸레 겸용 신제품 대비 같은 기간 판매량이 **약 3배**에 달합니다. **세계 최초로 본체와 스테이션 모두에 100℃ 스팀**을 적용해 물걸레 위생 관리를 끝냈고, **15cm 높이의 히든스테이션**으로 싱크대 밑에 완전히 숨기는 빌트인 디자인이 특징입니다. 출하가는 219만 원.
 
-![LG 홈봇 AI 오브제컬렉션 로니 — 히든스테이션 빌트인 설치](/assets/images/posts/lg-roni-robot-vacuum-20260806/lg-roni-hidden-station.jpg)
+![LG 홈봇 AI 오브제컬렉션 로니 — 히든스테이션 빌트인 설치](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/lg-roni-robot-vacuum-20260806/lg-roni-hidden-station.jpg)
 *주방 싱크대 하단 걸레받이 공간에 설치된 LG 로니 히든스테이션 — 스테이션 높이가 15cm에 불과해 수납공간을 잃지 않는다 (출처: LG전자 공식 제공 사진, 뉴스1, 2026-08-06 확인)*
 
 ---
@@ -32,7 +32,7 @@ description: "2026년 8월 현재 가장 뜨거운 가전은 LG전자의 프리�
 
 그런데 지난주(8월 5일), **"LG 로니가 출시 한 달 만에 역대 최고 판매량"**이라는 뉴스가 나오면서 이 제품이 다시 눈에 들어왔습니다. LG전자가 2003년 국내 최초로 청소로봇을 선보인 이후 낸 신제품 중 **가장 많이 팔렸다**는 것, 그리고 기존 흡입·물걸레 겸용 신제품보다 **같은 기간 3배**나 팔렸다는 것. 2년 만에 나온 신제품인데 이렇게까지 반응이 좋다니, 도대체 뭐가 다르길래일까 싶어서 직접 꼼꼼하게 파봤습니다.
 
-![LG 홈봇 AI 오브제컬렉션 로니 제품](/assets/images/posts/lg-roni-robot-vacuum-20260806/lg-roni-product.jpg)
+![LG 홈봇 AI 오브제컬렉션 로니 제품](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/lg-roni-robot-vacuum-20260806/lg-roni-product.jpg)
 *LG 홈봇 AI 오브제컬렉션 로니(RONi) — 30W 흡입력, 180rpm 고속 회전 물걸레 탑재 (출처: 네이버플러스 스토어 대성종합가전 상품 이미지, 2026-08-06 확인)*
 
 ---
@@ -53,7 +53,7 @@ LG 로니의 정식 명칭은 **'LG 홈봇 AI 오브제컬렉션 로니(RONi)'**
 
 거기에 **AI 사물인식**(120여 종 물체 구분, 8개 센서)으로 전선·반려동물 배설물을 피해 다니고, 거실·주방·침실을 구분해서 **주방에서는 흡입력을 높이고 주행 경로를 촘촘하게** 설정하는 등 공간 맞춤 청소도 합니다. 개인정보보호위원회의 **PbD(개인정보보호 중심 설계) 인증**을 받은 'LG 쉴드' 보안 시스템까지 갖췄고요.
 
-![LG 로니 오브제스테이션 — 협탁형 디자인](/assets/images/posts/lg-roni-robot-vacuum-20260806/lg-roni-objet-station.jpg)
+![LG 로니 오브제스테이션 — 협탁형 디자인](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/lg-roni-robot-vacuum-20260806/lg-roni-objet-station.jpg)
 *소파 옆에 자연스럽게 어울리는 협탁형 오브제스테이션 — 거실·침실 등 어디든 독립 배치 가능 (출처: LG전자 공식 제공 사진, 뉴스1, 2026-08-06 확인)*
 
 ---
@@ -104,7 +104,7 @@ LG 로니의 정식 명칭은 **'LG 홈봇 AI 오브제컬렉션 로니(RONi)'**
 
 ### 📍 지금 직접 만져볼 수 있는 체험 행사 (무료)
 
-![LG 로니 팝업 체험존 — 현대백화점 판교점](/assets/images/posts/lg-roni-robot-vacuum-20260806/lg-roni-popup-pangyo.jpg)
+![LG 로니 팝업 체험존 — 현대백화점 판교점](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/lg-roni-robot-vacuum-20260806/lg-roni-popup-pangyo.jpg)
 *현대백화점 판교점 1층에 마련된 LG 로니 체험존 — 주방·거실을 재현해 히든스테이션과 오브제스테이션을 직접 확인할 수 있다 (출처: 뉴시스, 2026-08-05 촬영)*
 
 | 기간 | 장소 |

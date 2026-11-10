@@ -5,13 +5,13 @@ date: 2026-10-19 16:52:00 +0900
 categories: [career]
 tags: [Anthropic, Claude, 앤트로픽, 클로드, PublicBenefitFund, 공익펀드, 지분기부, AI재분배, 기본소득, UBI, 노동시장충격, AI일자리, IPO, 다리오아모데이, DarioAmodei, PBC, LLC, 거버넌스, AI정책, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/anthropic-public-benefit-fund-20261018/anthropic-public-benefit-hero.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-public-benefit-fund-20261018/anthropic-public-benefit-hero.jpg
 description: "2026년 10월 18일(현지), 앤트로픽이 전체 지분의 5%를 새로 만드는 'Anthropic Public Benefit Fund'에 출연하겠다고 발표했습니다. 주주 승인을 전제로 하며, 기준선 대비 기업가치가 50% 오를 때마다 이사회 재량으로 2%씩 추가됩니다. 비영리 단체 기부뿐 아니라 특정 집단에 대한 직접 분배, AI로 인한 노동시장 충격 대응에도 쓸 수 있다고 밝혀 'AI 배당' 논의의 분수령이 될 전망입니다. 구조와 배경, 사용자·개발자·투자자에게 미칠 영향, 남은 변수를 정리했습니다."
 sitemap: false
 noindex: true
 ---
 
-![앤트로픽 공익 펀드 발표 페이지의 공식 대표 이미지](/assets/images/posts/anthropic-public-benefit-fund-20261018/anthropic-public-benefit-hero.jpg)
+![앤트로픽 공익 펀드 발표 페이지의 공식 대표 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-public-benefit-fund-20261018/anthropic-public-benefit-hero.jpg)
 *앤트로픽 공식 발표 "Investing in the public benefit"의 대표 이미지. (이미지 출처: Anthropic 공식 홈페이지 anthropic.com/news)*
 
 > **📌 한줄 요약:** **2026년 10월 18일(현지)**, **앤트로픽(Anthropic)** 이 **전체 지분의 5%를 새로 설립하는 'Anthropic Public Benefit Fund(앤트로픽 공익 펀드)'에 출연**하겠다고 발표했습니다. **주주 승인을 전제로** 하며, **기준선 대비 기업가치가 50% 오를 때마다 이사회 재량으로 2%씩 추가 출연**하는 구조입니다. 펀드는 **비영리 단체 대규모 기부**뿐 아니라 **특정 집단에 대한 직접 분배**, **AI로 인한 노동시장 충격 대응**에도 쓸 수 있다고 밝혔습니다. 창업자·직원의 기존 약정까지 합치면 **회사 지분의 약 20%가 공익 목적에 묶이는 셈**입니다.
@@ -95,7 +95,7 @@ AI 기업이 돈을 버는 방식은 빠르게 정교해졌는데, 그 돈이 **
 
 이 구분은 중요합니다. 기업의 공익 약정은 **서약 → 이행 → 실제 집행**의 세 단계를 거치는데, 언론 보도는 대개 첫 단계에서 나옵니다. 실제 평가는 **몇 년 뒤 공익 보고서(public benefit report)** 가 나와야 가능합니다.
 
-![다리오 아모데이 앤트로픽 CEO](/assets/images/posts/anthropic-public-benefit-fund-20261018/dario-amodei-2023.jpg)
+![다리오 아모데이 앤트로픽 CEO](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-public-benefit-fund-20261018/dario-amodei-2023.jpg)
 *다리오 아모데이(Dario Amodei) 앤트로픽 CEO. 2023년 5월 런던 다우닝가 10번지에서 열린 AI 안전 논의 자리에서. (이미지 출처: Wikimedia Commons, "Dario Amodei in 2023", CC BY 2.0, Simon Walker / No 10 Downing Street)*
 
 ---

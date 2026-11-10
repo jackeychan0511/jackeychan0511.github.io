@@ -5,13 +5,13 @@ date: 2026-08-18 06:30:00 +0900
 categories: [finance]
 tags: [비트코인, 가상화폐, 코인, BTC, 암호화폐]
 author: "40대 블로거"
-image: /assets/images/posts/crypto-briefing-20260818-am/bitcoin-price-chart.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/crypto-briefing-20260818-am/bitcoin-price-chart.png
 description: "8월 18일 오전 코인 브리핑. 비트코인이 밤사이 꾸준히 오르며 6.4만 달러를 재탈환, 7일 고점($64,375)에 바짝 다가섰다. 업비트 기준 9,067만 원(+1.7%). 최대 기관 보유자 스트래티지(Strategy)는 지난주(8/10~16) MSTR 주식 346만 주를 매도해 약 3.34억 달러를 조달했지만 BTC는 1개도 사고팔지 않았다 — 직전 주 1,690 BTC 매도와 대비되는 '현금 비축' 행보다. 김치프리미엄은 -0.38% 역프리미엄. 수요일 FOMC 의사록이 이번 주 관전 포인트."
 sitemap: false
 noindex: true
 ---
 
-![비트코인 7일 가격 차트](/assets/images/posts/crypto-briefing-20260818-am/bitcoin-price-chart.png)
+![비트코인 7일 가격 차트](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/crypto-briefing-20260818-am/bitcoin-price-chart.png)
 *비트코인(BTC) 7일 가격 추이 — 8/18 오전 브리핑 (CoinGecko 기준, KST)*
 
 **핵심 요약**: 비트코인이 밤사이 꾸준히 오르며 6.4만 달러선을 재탈환했습니다. 최대 기관 보유자인 스트래티지(Strategy)는 지난주 비트코인을 1개도 사고팔지 않은 채 MSTR 주식 매도로만 3.3억 달러를 조달해 '현금 비축' 행보를 이어갔습니다.

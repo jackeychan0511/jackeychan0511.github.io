@@ -5,7 +5,7 @@ date: 2026-09-19 14:52:00 +0900
 categories: [career]
 tags: [GPT, OpenAI, 챗GPT, Claude, 클로드, Anthropic, Opus5, Hacktron, AI보안, 해킹, 보안사고, 계정탈취, SSO, libheif, ImageMagick, Discourse, HEIFHeist, 이미지취약점, 버그바운티, 공급망보안, AI에이전트, 업무자동화, 2026년9월]
 author: "40대 블로거"
-image: /assets/images/posts/2026-09-19-openai-hacktron-claude-breach-20260919/hacktron-og-home-official.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-09-19-openai-hacktron-claude-breach-20260919/hacktron-og-home-official.png
 description: "2026년 9월 18일(현지), 월스트리트저널과 TechCrunch 등이 '보안연구팀 Hacktron AI가 Anthropic의 Claude(Opus 5)를 이용해 OpenAI 내부 시스템을 72시간 만에 뚫었다'고 보도했습니다. 시작은 챗GPT가 아니라 OpenAI 커뮤니티 포럼의 HEIC 이미지 업로드였고, libheif 힙 버퍼 오버플로(RCE)와 OpenAI SSO 설정 오류를 연쇄(chain)해 직원의 ChatGPT·Codex 계정을 탈취한 뒤 내부 GitHub 모노레포에 접근해 PR까지 열었습니다. 총 토큰 비용 3,000달러 미만, OpenAI는 약 14시간 만에 패치하고 6,500달러 포상금을 지급했습니다. 이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망 순서로 정리했습니다."
 sitemap: false
 noindex: true
@@ -13,7 +13,7 @@ noindex: true
 
 > **📌 한줄 요약:** **2026년 9월 18일(현지시간)**, 월스트리트저널(WSJ)·TechCrunch·Forbes 등이 일제히 *"보안연구팀 **Hacktron AI**가 **Anthropic의 Claude**를 이용해 **OpenAI 내부 시스템을 72시간 만에 뚫었다"*고 보도했습니다. 시작점은 챗GPT가 아니라 **OpenAI 커뮤니티 포럼(community.openai.com)의 HEIC 이미지 업로드**였습니다. **libheif 힙 버퍼 오버플로(원격 코드 실행)** 와 **OpenAI SSO(싱글사인온) 설정 오류** 두 개를 연쇄해 **직원의 ChatGPT·Codex 계정을 탈취**하고, 그 계정으로 **내부 GitHub 모노레포에서 PR까지 열어** 접근 사실을 증명했습니다. 전체 비용은 **AI 토큰 3,000달러 미만**, OpenAI는 보고 후 **약 14시간 만에 패치**하고 **6,500달러 포상금**을 지급했습니다.
 
-![Hacktron AI 공식 홈페이지 대표 이미지 — 이번 OpenAI 침해를 공개한 보안 기업 Hacktron AI](/assets/images/posts/2026-09-19-openai-hacktron-claude-breach-20260919/hacktron-og-home-official.png)
+![Hacktron AI 공식 홈페이지 대표 이미지 — 이번 OpenAI 침해를 공개한 보안 기업 Hacktron AI](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-09-19-openai-hacktron-claude-breach-20260919/hacktron-og-home-official.png)
 *이번 침해를 공개한 보안 스타트업 Hacktron AI의 공식 홈페이지 대표 이미지. 출처: Hacktron AI 공식 사이트(www.hacktron.ai)*
 
 ---
@@ -86,7 +86,7 @@ Hacktron은 **Claude Opus 4.8**(보안 연구자용 버전)에게 Discourse Dock
 | **포상금** | OpenAI가 **6,500달러** 지급 |
 | **대상 적응 속도** | 회사별 익스플로잇 적응에 **1~2일** |
 
-![OpenAI 로고 (출처: Wikimedia Commons · OpenAI Blossom 로고 · 퍼블릭 도메인)](/assets/images/posts/2026-09-19-openai-hacktron-claude-breach-20260919/openai-logo-wikimedia.png)
+![OpenAI 로고 (출처: Wikimedia Commons · OpenAI Blossom 로고 · 퍼블릭 도메인)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-09-19-openai-hacktron-claude-breach-20260919/openai-logo-wikimedia.png)
 *OpenAI 로고. 이번 침해는 챗GPT 모델 자체가 아니라, 커뮤니티 포럼의 이미지 처리 파이프라인과 SSO 설정에서 시작됐습니다. 출처: Wikimedia Commons(퍼블릭 도메인)*
 
 > 💡 OpenAI 측은 사후 설명에서 한 가지를 분명히 했습니다. *"**community.openai.com에 대한 테스트는 우리 버그바운티 프로그램에서 명시적으로 제외**되어 있었다. 6,500달러는 **Discourse가 아닌 OpenAI 측 발견에 대한 보상**이다."* 즉 포상금은 **SSO 취약점**에 대한 것이지, 제3자 포럼 공격에 대한 것이 아니라는 선을 그은 겁니다.

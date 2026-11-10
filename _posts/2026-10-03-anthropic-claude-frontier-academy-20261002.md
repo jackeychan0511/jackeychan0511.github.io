@@ -5,7 +5,7 @@ date: 2026-10-03 16:52:00 +0900
 categories: [career]
 tags: [Anthropic, Claude, 앤트로픽, 클로드, AI뉴스, FrontierAcademy, 프론티어아카데미, FDE, FrontierDeployedEngineer, 배치엔지니어, AI인재양성, 엔터프라이즈AI, 업무자동화, AI에이전트, 에이전틱, ClaudeCode, 1억달러, 액센츄어, 맥킨지, 모건스탠리, 2026년10월, AI산업]
 author: "40대 블로거"
-image: /assets/images/posts/anthropic-claude-frontier-academy-20261002/frontier-academy-official.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-frontier-academy-20261002/frontier-academy-official.jpg
 description: "2026년 10월 2일(미국 현지시간), Anthropic이 'Claude Frontier Academy'를 공식 출범시켰습니다. 1억 달러(약 1,300억 원) 규모의 초기 투자로 2027년 말까지 '프론티어 배치 엔지니어(Frontier Deployed Engineer, FDE)' 1만 명을 양성하는 것이 목표입니다. 첫 프로그램인 'FDE 레지던시'는 의료계 전공의 수련 모델을 본떠 실무 사례·다단계 평가·자격(credential)을 결합했습니다. 첫 기수에는 액센츄어, 베인, 캡제미니, 맥킨지, 딜로이트, 모건스탠리, 노보노디스크 등이 참여합니다. 이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망 순서로 정리했습니다."
 sitemap: false
 noindex: true
@@ -15,7 +15,7 @@ noindex: true
 
 AI를 실제 업무에 붙여 쓰는 쪽에서 자주 겪는 벽이 하나 있습니다. 모델 성능은 며칠 단위로 올라가는데, 그 모델을 **사내 시스템·데이터·보안 검토를 통과해 프로덕션까지 끌고 갈 사람**은 좀처럼 늘지 않는다는 점입니다. 문제는 모델이 아니라 **사람**이라는 이야기가 엔터프라이즈 현장에서 계속 나오는 이유입니다. Anthropic이 2026년 10월 2일 내놓은 **'Claude Frontier Academy'** 는 정확히 이 지점, 즉 **"AI를 실제로 돌아가게 만드는 인력"** 을 겨냥한 발표라 눈에 들어옵니다. 무엇을 발표했는지, 그리고 실무자 입장에서 어떤 의미인지 정리해 보겠습니다.
 
-![Claude Frontier Academy 공식 프로그램 페이지 대표 이미지 — Anthropic이 1억 달러를 투입해 출범한 엔터프라이즈 AI 인재 양성 프로그램입니다](/assets/images/posts/anthropic-claude-frontier-academy-20261002/frontier-academy-official.jpg)
+![Claude Frontier Academy 공식 프로그램 페이지 대표 이미지 — Anthropic이 1억 달러를 투입해 출범한 엔터프라이즈 AI 인재 양성 프로그램입니다](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-frontier-academy-20261002/frontier-academy-official.jpg)
 *Claude Frontier Academy 공식 프로그램 페이지 대표 이미지 — 2027년까지 '프론티어 배치 엔지니어' 1만 명 양성을 목표로 합니다 (출처: claude.com / Anthropic 공식)*
 
 ## 🗞️ 이슈 요약 — 한눈에 보기
@@ -28,7 +28,7 @@ AI를 실제 업무에 붙여 쓰는 쪽에서 자주 겪는 벽이 하나 있�
 - **대상자:** **LLM으로 무언가를 만들어 본 경험이 있고, 조직의 AI 도입을 도운 이력**이 있는 실무 소프트웨어 엔지니어. **에이전트를 만들어 본 경험은 필수가 아닙니다**
 - **산출물:** 수료자는 **'Claude Resident Engineer' 배지**와 함께, 돌아갈 조직에서 **자기가 맡을 명명된 Claude 프로젝트**를 하나씩 들고 복귀합니다
 
-![Anthropic 공식 발표 일러스트 — '손이 구조물을 세우는(Hand Build)' 콘셉트로, 개별 인력이 조직의 AI 기반을 쌓는다는 프로그램 취지를 담았습니다](/assets/images/posts/anthropic-claude-frontier-academy-20261002/anthropic-frontier-illustration.png)
+![Anthropic 공식 발표 일러스트 — '손이 구조물을 세우는(Hand Build)' 콘셉트로, 개별 인력이 조직의 AI 기반을 쌓는다는 프로그램 취지를 담았습니다](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-frontier-academy-20261002/anthropic-frontier-illustration.png)
 *Anthropic 공식 발표 일러스트 — 'Hand Build' 콘셉트로, 소수의 숙련 인력이 조직 전체의 AI 역량을 끌어올린다는 메시지를 담았습니다 (출처: anthropic.com 공식)*
 
 ## 🔍 상세 분석 — 왜 '인재'인가

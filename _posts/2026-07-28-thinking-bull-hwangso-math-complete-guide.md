@@ -5,7 +5,7 @@ date: 2026-07-27 18:00:00 +0900
 categories: [education]
 tags: [황소수학, 생각하는황소, 대치동수학, 사고력수학, 황소고시, 수학학원, 초등수학, 이정헌, thinkingbull, 영재수학]
 author: "40대 블로거"
-image: /assets/images/posts/thinking-bull-main.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/thinking-bull-main.png
 description: "회차당 5,000~8,000명이 몰리는 '황소고시'로 유명한 생각하는황소(황소수학). 2005년 대치동에서 시작해 전국 40여개 지점으로 확장한 이 학원의 입학테스트, 레벨 시스템, 교육 철학, 커리큘럼, 엄마카페 생생 후기까지 낱낱이 파헤칩니다."
 ---
 

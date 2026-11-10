@@ -5,7 +5,7 @@ date: 2026-10-18 07:48:00 +0900
 categories: [career]
 tags: [HermesAgent, NousResearch, 타임선정, TIMEBestInventions, 올해의발명품, 오픈소스AI에이전트, 업무자동화, AI에이전트, 셀프호스팅, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/2026-10-18-hermes-agent-time-best-inventions-2026/hermes-time-best-inventions-official-og.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-10-18-hermes-agent-time-best-inventions-2026/hermes-time-best-inventions-official-og.png
 description: "2026년 10월 15일 TIME이 'The Best Inventions of 2026' 300개 명단을 발표하며 오픈소스 AI 에이전트 Hermes Agent를 포함시켰습니다. Nous Research는 다음 날 공식 채널로 감사를 전했습니다. TIME이 어떤 문구로 소개했는지, GitHub 25만 스타라는 수치가 의미하는 것, 업무 자동화 파이프라인 관점에서 이 선정이 실질적으로 중요한 이유와 한계를 정리했습니다."
 ---
 
@@ -15,7 +15,7 @@ description: "2026년 10월 15일 TIME이 'The Best Inventions of 2026' 300개 �
 
 그런데 2026년 10월 15일, **TIME이 'The Best Inventions of 2026'(2026 올해의 발명품) 명단을 발표하면서 오픈소스 AI 에이전트 Hermes Agent를 포함**시켰습니다. Nous Research는 다음 날인 10월 16일 공식 채널에 TIME 로고가 찍힌 화면과 함께 짧은 감사 인사를 올렸고, 이 소식은 하루 만에 여러 IT 매체로 퍼졌습니다.
 
-![Hermes Agent 공식 홈페이지 대표 이미지](/assets/images/posts/2026-10-18-hermes-agent-time-best-inventions-2026/hermes-time-best-inventions-official-og.png)
+![Hermes Agent 공식 홈페이지 대표 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-10-18-hermes-agent-time-best-inventions-2026/hermes-time-best-inventions-official-og.png)
 *출처: Hermes Agent 공식 홈페이지(hermes-agent.nousresearch.com) 대표 이미지 — 1순위 공식 홈페이지*
 
 솔직히 말하면 "수상 뉴스"는 실무자 입장에서 반가우면서도 한편으로는 뜬구름처럼 느껴질 수 있습니다. 상을 받았다고 내 크론잡이 갑자기 안정되는 건 아니니까요. 그래서 이번 글은 축하 일변도가 아니라, **TIME이 어떤 문구로 이 제품을 소개했는지, 지금 숫자가 어디까지 왔는지, 그리고 업무 자동화에 실질적으로 어떤 의미가 있는지** 순서로 정리해 보겠습니다.
@@ -42,7 +42,7 @@ TIME이 Hermes Agent를 소개한 문구는 짧습니다. **"무한히 변형 �
 
 수상 소식만 보면 감이 잘 안 오실 수 있으니, 같은 시점의 저장소 지표를 같이 보겠습니다. 2026년 10월 18일 기준 GitHub `NousResearch/hermes-agent` 저장소는 **스타 약 254,700개, 포크 약 55,300개**를 기록 중입니다. MIT 라이선스로 공개돼 있고, 파이썬과 타입스크립트로 작성됐으며 Linux·macOS·Windows를 모두 지원합니다.
 
-![Hermes Agent 공식 데스크톱 화면](/assets/images/posts/2026-10-18-hermes-agent-time-best-inventions-2026/hermes-agent-desktop-preview.webp)
+![Hermes Agent 공식 데스크톱 화면](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-10-18-hermes-agent-time-best-inventions-2026/hermes-agent-desktop-preview.webp)
 *출처: Hermes Agent 공식 홈페이지 데스크톱 프리뷰 — 1순위 공식 홈페이지*
 
 포크 수가 스타 수의 20%를 넘는다는 점도 눈여겨볼 부분입니다. 스타는 "나중에 써봐야지"의 표시지만, 포크는 대체로 **직접 고쳐서 굴려 보겠다**는 의사표시입니다. 이 비율이 높은 프로젝트는 실제 운영에 투입되는 비중이 크다는 뜻이고, 앞서 TIME이 '개조 가능성'을 강조한 것과도 맞아떨어집니다.
@@ -72,7 +72,7 @@ TIME이 Hermes Agent를 소개한 문구는 짧습니다. **"무한히 변형 �
 
 관심이 생겼다면 진입 장벽은 생각보다 낮습니다. MIT 라이선스라 비용 없이 설치해서 써볼 수 있고, 데스크톱 앱은 첫 실행 시 짧은 설정 대화로 시작합니다. 최근 버전에서는 API 키 없이 무료 체험 모델로 첫 대화를 해볼 수 있어서, "일단 깔아서 굴려 보고 판단"하는 방식이 가능합니다.
 
-![Hermes Agent 공식 히어로 이미지](/assets/images/posts/2026-10-18-hermes-agent-time-best-inventions-2026/hermes-agent-official-hero.webp)
+![Hermes Agent 공식 히어로 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-10-18-hermes-agent-time-best-inventions-2026/hermes-agent-official-hero.webp)
 *출처: Hermes Agent 공식 홈페이지 히어로 이미지 — 1순위 공식 홈페이지*
 
 권장 순서는 이렇습니다. 먼저 **개인 장비에 설치해 일주일 정도 잡무를 맡겨 보기**, 그다음 반복되는 작업 두세 개를 스킬로 굳혀 보기, 마지막으로 스케줄 실행(크론)까지 붙여 보기. 이 단계를 건너뛰고 바로 사내 시스템에 연결하면, 권한 설정 미비로 되돌리기 어려운 상황이 생기기 쉽습니다.

@@ -5,13 +5,13 @@ date: 2026-10-09 14:53:00 +0900
 categories: [career]
 tags: [OpenAI, GPT, GPT7, Bel, AI수학, 수학논문, Lean, 형식검증, 프런티어모델, AI연구, 오픈소스, 업무자동화, AI에이전트, AI뉴스, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/openai-gpt-math-722-manuscripts-withdrawn-20261009/openai-math-github-card.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-gpt-math-722-manuscripts-withdrawn-20261009/openai-math-github-card.png
 description: "2026년 10월 6일, OpenAI가 미공개 내부 프런티어 모델이 생성한 수학 논문 722편(372개 결과군)을 GitHub 저장소 openai/math에 공개했습니다. 그런데 하루 뒤인 10월 7일, 부호(sign) 오류가 발견되며 관련 논문 3편이 철회되고 14편이 수정됐습니다. 약 4,000개 문제에 평균 3시간의 추론 컴퓨트를 투입한 결과이며, 공개 시점 기준 상위 결과의 약 42%만 Lean 형식 검증을 통과했습니다. 모델 자체는 공개되지 않아 외부 재현은 불가능합니다. 이슈 요약부터 상세 분석, 사용자·개발자 영향, 전망까지 정리했습니다."
 ---
 
 > **📌 한줄 요약:** 2026년 **10월 6일(현지시간)**, OpenAI가 **미공개 내부 프런티어 모델이 생성한 수학 논문 722편(372개 결과군)** 을 오픈소스 저장소 **`openai/math`** 에 공개했습니다. 그런데 **하루 만인 10월 7일, 부호(sign) 오류**가 발견되며 **논문 3편이 철회되고 14편이 수정**됐습니다. 공개 시점 기준 **상위 결과의 약 42%만 Lean 형식 검증을 통과**했고, **모델 자체는 공개되지 않아 외부인이 다시 돌려볼 수 없습니다.** "AI가 수학을 한다"는 뉴스가 쏟아지는 가운데, 이번 사건은 **성과보다 '검증'이 핵심 쟁점**이라는 걸 보여줍니다. 아래에서 무엇이 공개됐고, 무엇이 문제였는지 살펴봤습니다.
 
-![OpenAI 공식 저장소 openai/math — 미공개 모델이 생성한 수학 논문 722편 공개 (출처: GitHub · OpenAI)](/assets/images/posts/openai-gpt-math-722-manuscripts-withdrawn-20261009/openai-math-github-card.png)
+![OpenAI 공식 저장소 openai/math — 미공개 모델이 생성한 수학 논문 722편 공개 (출처: GitHub · OpenAI)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-gpt-math-722-manuscripts-withdrawn-20261009/openai-math-github-card.png)
 *OpenAI 공식 저장소 openai/math — 미공개 모델이 생성한 수학 논문 722편 공개 (출처: GitHub · OpenAI)*
 
 요즘 AI로 문서를 정리하거나 코드를 짜는 분들이라면, "AI가 이제 수학 논문까지 쓴다"는 소식을 한 번쯤 보셨을 겁니다. 문제는 그 논문이 **정말 맞는지**를 사람이 확인하기가 만만치 않다는 점이죠. 이번 OpenAI 사건은 바로 그 지점을 정면으로 건드립니다. **거대한 결과물을 쏟아낸 다음, 하루 만에 스스로 오류를 찾아 논문을 내리는** 장면이 공개적으로 벌어졌기 때문입니다.
@@ -72,7 +72,7 @@ OpenAI 스스로 인정한 한계도 분명합니다.
 
 즉 **"검증된 것(42%)"과 "아직 모르는 것(58%)"이 섞여 있는 묶음**입니다. 화려한 헤드라인 뒤에 **검증 격차**가 그대로 남아 있습니다.
 
-![Hodge 추측 도해 — 철회된 논문들이 다룬 주제 중 하나 (출처: Wikimedia Commons, CC BY-SA 4.0, Tazerenix)](/assets/images/posts/openai-gpt-math-722-manuscripts-withdrawn-20261009/hodge-conjecture-wikimedia.png)
+![Hodge 추측 도해 — 철회된 논문들이 다룬 주제 중 하나 (출처: Wikimedia Commons, CC BY-SA 4.0, Tazerenix)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-gpt-math-722-manuscripts-withdrawn-20261009/hodge-conjecture-wikimedia.png)
 *Hodge 추측 도해 — 철회된 논문들이 다룬 주제 중 하나 (출처: Wikimedia Commons, CC BY-SA 4.0, Tazerenix)*
 
 ### ④ 헷갈리기 쉬운 지점

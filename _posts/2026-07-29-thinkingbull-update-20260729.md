@@ -4,7 +4,7 @@ title: "[업데이트] 황소수학 7월 새 소식 — 중등 입학시험 성�
 date: 2026-07-29 13:00:00 +0900
 categories: [education]
 tags: [황소수학, 생각하는황소, 황소고시]
-image: /assets/images/posts/thinking-bull-main.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/thinking-bull-main.png
 description: "2026년 7월 20일, 생각하는황소(황소수학) 공식 홈페이지에 두 가지 중요한 공지가 게시되었습니다. 2026년 3월 중등과정 입학시험 성적분포와 기초생활수급자·차상위계층 자녀 수강료 면제 안내입니다."
 sitemap: false
 noindex: true

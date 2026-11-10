@@ -5,7 +5,7 @@ date: 2026-09-13 11:24:00 +0900
 categories: [products]
 tags: [애플워치 시리즈 12, 애플워치 울트라 4, Apple Watch Series 12, Apple Watch Ultra 4, 애플워치 비교, 준비 상태 점수, S11 칩, 헬스 센싱 시스템, 심박 변이, watchOS 27, Siri AI, 애플 이벤트 2026, 애플워치 사전예약, 애플워치 가격, 스마트워치 추천]
 author: "40대 블로거"
-image: /assets/images/posts/apple-watch-series-12-20260913/apple-watch-series-12-hero.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/apple-watch-series-12-20260913/apple-watch-series-12-hero.jpg
 description: "애플이 2026년 9월 9일 이벤트에서 애플워치 시리즈 12와 울트라 4를 공개했습니다. 둘 다 S11 칩과 새 헬스 센싱 시스템을 얹어 5초마다 심박을 재고, '준비 상태(Readiness)' 점수를 새로 줍니다. 시리즈 12는 국내 59만 9천 원부터, 울트라 4는 124만 9천 원부터. 배터리(24시간 vs 50시간), 크기, GPS·위성통신 차이와 한국 초기 미지원 기능까지 솔직하게 비교했습니다. 이미지는 애플 공식 뉴스룸입니다."
 ---
 
@@ -15,7 +15,7 @@ description: "애플이 2026년 9월 9일 이벤트에서 애플워치 시리즈
 
 그래서 요즘은 "오늘 이 몸으로 얼마나 밀어붙여도 되는가"를 숫자로 보고 싶다는 생각이 계속 들었습니다. 마침 애플이 9월 9일(현지시간) 이벤트에서 **애플워치 시리즈 12**와 **애플워치 울트라 4**를 함께 공개했는데, 이번 세대의 간판 기능이 딱 그겁니다. 아래에서는 **두 모델이 뭐가 같고 뭐가 다른지**, 그리고 **실제로 어느 쪽을 사야 하는지**를 정리해 봤습니다.
 
-![애플워치 시리즈 12 두 가지 모델 (출처: Apple 공식 뉴스룸 apple.com/newsroom)](/assets/images/posts/apple-watch-series-12-20260913/apple-watch-series-12-hero.jpg)
+![애플워치 시리즈 12 두 가지 모델 (출처: Apple 공식 뉴스룸 apple.com/newsroom)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/apple-watch-series-12-20260913/apple-watch-series-12-hero.jpg)
 *애플워치 시리즈 12 — 42mm·46mm 두 사이즈 (출처: Apple 공식 뉴스룸)*
 
 ## 애플워치 시리즈 12와 울트라 4, 뭐가 같고 뭐가 다른가
@@ -40,10 +40,10 @@ description: "애플이 2026년 9월 9일 이벤트에서 애플워치 시리즈
 - **내구성**: 알루미늄 모델에 **Ceramic Shield 2** — 기존 Ion-X 글래스보다 60% 더 견고
 - **디자인**: 42mm·46mm, 알루미늄 신규 색상(다크 브론즈·블랙·라이트 골드)에 **세라믹 소재(펄 화이트·나이트 블루)** 와 **래디언트 골드 티타늄**까지 추가
 
-![애플워치 시리즈 12 준비 상태(Readiness) 점수 화면 (출처: Apple 공식 뉴스룸)](/assets/images/posts/apple-watch-series-12-20260913/apple-watch-series-12-readiness.jpg)
+![애플워치 시리즈 12 준비 상태(Readiness) 점수 화면 (출처: Apple 공식 뉴스룸)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/apple-watch-series-12-20260913/apple-watch-series-12-readiness.jpg)
 *오늘 몸 상태를 점수와 행동 추천으로 알려주는 '준비 상태' (출처: Apple 공식 뉴스룸)*
 
-![애플워치 시리즈 12 나이트 블루 세라믹 모델 (출처: Apple 공식 뉴스룸)](/assets/images/posts/apple-watch-series-12-20260913/apple-watch-series-12-ceramic.jpg)
+![애플워치 시리즈 12 나이트 블루 세라믹 모델 (출처: Apple 공식 뉴스룸)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/apple-watch-series-12-20260913/apple-watch-series-12-ceramic.jpg)
 *이번 세대부터 추가된 세라믹 케이스 — 나이트 블루 (출처: Apple 공식 뉴스룸)*
 
 솔직히 **세라믹이 새로 들어온 건 의외였습니다.** 스테인리스 라인업이 정리되고 "알루미늄 · 티타늄 · 세라믹"으로 나뉘면서, 세라믹이 예전 에디션 자리를 대신하는 느낌입니다. 가볍고 광이 다르게 나와서 실물이 궁금한 모델이에요.
@@ -59,10 +59,10 @@ description: "애플이 2026년 9월 9일 이벤트에서 애플워치 시리즈
 - **안전 기능**: **위성 통신**(긴급 SOS·메시지·나의 찾기) — 산이나 바다처럼 신호 없는 곳에서 의미가 큽니다
 - **디자인**: 내추럴·블랙 티타늄 두 가지, 새 밴드 색상 대거 추가
 
-![애플워치 울트라 4 (출처: Apple 공식 뉴스룸)](/assets/images/posts/apple-watch-series-12-20260913/apple-watch-ultra-4-hero.jpg)
+![애플워치 울트라 4 (출처: Apple 공식 뉴스룸)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/apple-watch-series-12-20260913/apple-watch-ultra-4-hero.jpg)
 *애플워치 울트라 4 — 내추럴·블랙 티타늄 (출처: Apple 공식 뉴스룸)*
 
-![애플워치 울트라 4 심박 센싱 (출처: Apple 공식 뉴스룸)](/assets/images/posts/apple-watch-series-12-20260913/apple-watch-ultra-4-heart-rate.jpg)
+![애플워치 울트라 4 심박 센싱 (출처: Apple 공식 뉴스룸)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/apple-watch-series-12-20260913/apple-watch-ultra-4-heart-rate.jpg)
 *울트라 4도 시리즈 12와 같은 헬스 센싱 시스템을 씁니다 (출처: Apple 공식 뉴스룸)*
 
 생각보다 큰 차이는 **배터리**입니다. 시리즈 12는 여전히 24시간이라 **매일 밤 충전**이 필요하고, 수면 추적까지 챙기려면 아침·저녁으로 충전 타이밍을 쪼개야 해요. 반면 울트라 4는 **이틀에 한 번**이면 충분해서, 여행이나 등산 갈 때 충전기 걱정이 확 줄어듭니다.

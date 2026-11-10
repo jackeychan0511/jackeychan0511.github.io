@@ -5,7 +5,7 @@ date: 2026-08-24 14:52:00 +0900
 categories: [career]
 tags: [GPT, OpenAI, GPT-5.6, Sol, API가격, 가격인하, AI가격전쟁, ClaudeOpus, DeepSeek, MoonshotAI, 개발자, AI뉴스, 2026년8월]
 author: "40대 블로거"
-image: /assets/images/posts/openai-gpt56-sol-price-cut-20260824/openai-logo-2025-wikimedia.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-gpt56-sol-price-cut-20260824/openai-logo-2025-wikimedia.png
 description: "2026년 8월 21일(미국 현지) OpenAI가 플래그십 모델 GPT-5.6 Sol의 API·크레딧 가격을 3개월간 20% 이상 인하한다고 발표했습니다. 8월 22일부터 표준 API 기준 입력 토큰 100만 개당 5달러→4달러, 출력 30달러→20달러로 조정되며, 최소 11월 21일까지 적용되는 프로모션입니다. 7월 출시 이후 처음으로 최상위 모델 가격을 내린 이번 결정의 배경(Anthropic·DeepSeek·Moonshot AI와의 가격 전쟁), 개발자·사용자에게 미치는 영향, 그리고 같은 주 불거진 GPT-5.6 Sol 고사양 모드 성능 회귀 논란까지 정리했습니다."
 sitemap: false
 noindex: true
@@ -13,7 +13,7 @@ noindex: true
 
 > **📌 한줄 요약:** OpenAI가 2026년 8월 21일(금, 미국 현지시간) **플래그십 모델 GPT-5.6 Sol의 API·크레딧 가격을 3개월간 20% 이상 인하**한다고 발표했습니다. 8월 22일부터 적용되는 이번 프로모션으로 표준 API 기준 **입력 토큰 100만 개당 5달러 → 4달러, 출력 토큰 100만 개당 30달러 → 20달러**로 내려갑니다. GPT-5.6 시리즈가 7월 9일 정식 출시된 이후 **최상위 모델 가격이 내려간 것은 이번이 처음**입니다. 경쟁사인 Anthropic(Claude Opus)과 중국의 DeepSeek·Moonshot AI가 가격을 낮추며 압박해 온 상황에서 나온 결정으로, 업계 'AI 가격 전쟁'이 플래그십 영역까지 번졌다는 해석이 나옵니다.
 
-![OpenAI 공식 로고 (2025)](/assets/images/posts/openai-gpt56-sol-price-cut-20260824/openai-logo-2025-wikimedia.png)
+![OpenAI 공식 로고 (2025)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-gpt56-sol-price-cut-20260824/openai-logo-2025-wikimedia.png)
 *이미지 출처: Wikimedia Commons (OpenAI logo 2025, 공식 브랜드 로고)*
 
 ## 이슈 요약 — "플래그십도 드디어 가격을 내렸다"
@@ -55,7 +55,7 @@ OpenAI는 공식 GPT-5.6 페이지에 **"프런티어 역량을 확장하고 효
 
 한 가지 짚고 넘어갈 점은, 가격 인하가 발표된 같은 주에 **GPT-5.6 Sol의 성능 회귀(regression)를 호소하는 사용자 보고가 커뮤니티에서 잇따랐다**는 사실입니다. 8월 19일 ChatGPT 장애 이후 High·Extra High 추론 모드에서 **연결 끊김 반복, 파일 누락(존재하는 파일이 없다고 주장), '검증만 하고 실제 출력은 안 하는' 응답, 긴 워크플로우 실행 실패** 등이 8월 22~23일까지 나흘째 이어지고 있다는 신고가 올라왔습니다. OpenAI의 공식 입장은 아직 나오지 않았지만, "가격은 내렸는데 품질은?"이라는 사용자들의 불만이 섞여 있는 상황입니다.
 
-![OpenAI 본사가 있는 샌프란시스코 파이어니어 빌딩 (Pioneer Building)](/assets/images/posts/openai-gpt56-sol-price-cut-20260824/openai-hq-pioneer-building.jpg)
+![OpenAI 본사가 있는 샌프란시스코 파이어니어 빌딩 (Pioneer Building)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-gpt56-sol-price-cut-20260824/openai-hq-pioneer-building.jpg)
 *이미지 출처: Wikimedia Commons (Pioneer Building, San Francisco — OpenAI 본사 사무실이 있는 건물, CC BY-SA 4.0)*
 
 ## 영향 — 개발자와 사용자에게는?

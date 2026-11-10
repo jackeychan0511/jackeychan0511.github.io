@@ -5,7 +5,7 @@ date: 2026-11-06 14:50:00 +0900
 categories: [career]
 tags: [OpenAI, GPT6Cyber, 사이버보안, 취약점자동화, 제로데이, Firefox, 리눅스커널, 권한상승, DaybreakRed, Codex, AI보안, 패치자동화, 업무자동화, AI뉴스, 2026년11월]
 author: "40대 블로거"
-image: /assets/images/posts/openai-gpt6-cyber-launch-20261106/openai-security-audit.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-gpt6-cyber-launch-20261106/openai-security-audit.jpg
 description: "2026년 11월 5일(현지시간) OpenAI가 사이버보안 특화 모델 GPT-6 Cyber를 공개했습니다. 승인된 Daybreak Red 고객에게 API와 Codex로만 열린 제한 배포이고, 가격은 아직 공개되지 않았습니다. 파이어폭스에서 이전에 알려지지 않은 고위험 취약점 81개를 찾아 모질라에 전달했고, 리눅스 커널에서는 로컬 권한 상승 익스플로잇 948개를 실제로 동작하는 수준까지 만들었습니다. API 비용은 121만 달러, 익스플로잇 1건당 약 1,279달러입니다. 성능 수치와 안전장치, 그리고 남은 숙제까지 정리했습니다."
 ---
 
@@ -13,7 +13,7 @@ description: "2026년 11월 5일(현지시간) OpenAI가 사이버보안 특화 
 
 보안 점검이나 취약점 스캔을 자동화 파이프라인에 얹어 돌리는 분들이라면, 이번 발표는 그냥 지나칠 뉴스가 아닙니다. 지난해까지 "AI가 취약점을 찾아준다"는 이야기는 대체로 **벤치마크 점수** 수준이었는데, 이번엔 **실제 코드베이스에서 나온 결과물과 그 처리 경과**까지 같이 나왔기 때문입니다. 반대로 말하면, **찾는 속도만큼 고치는 속도가 따라오지 못한다**는 문제도 함께 드러났습니다. 이슈 요약부터 숫자 분석, 사용자·개발자 영향, 전망까지 순서대로 정리해 봤습니다.
 
-![OpenAI 로고와 돋보기 — AI 기반 취약점 탐색을 상징하는 이미지 (출처: Wikimedia Commons, Jernej Furman, CC BY 2.0)](/assets/images/posts/openai-gpt6-cyber-launch-20261106/openai-security-audit.jpg)
+![OpenAI 로고와 돋보기 — AI 기반 취약점 탐색을 상징하는 이미지 (출처: Wikimedia Commons, Jernej Furman, CC BY 2.0)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-gpt6-cyber-launch-20261106/openai-security-audit.jpg)
 *OpenAI 로고와 돋보기 (출처: Wikimedia Commons, Jernej Furman, CC BY 2.0)*
 
 ## 무슨 일이 있었나
@@ -65,7 +65,7 @@ OpenAI 연구진은 모질라에 **이전에 알려지지 않은 고위험 취�
 
 숫자만 보면 "AI가 커널을 뚫었다"는 자극적인 제목이 되지만, 실무적으로 읽어야 할 지점은 따로 있습니다. **발견 단가가 1,279달러**라는 건, 취약점 하나에 수천~수만 달러를 쓰던 기존 모델을 뒤집는 가격입니다. 동시에 **10가지 신규 익스플로잇 기법**이 나왔고, 외부 커널 전문가들이 본 적 없는 방식이었다고 OpenAI는 밝혔습니다. 드라고스(Dragos)의 최고AI책임자 롭 T. 리는 "모델이 새로운 공격 경로 자체를 만들어낼 수 있다는 신호"라며 탐지 난이도가 올라갈 것이라고 봤습니다.
 
-![리눅스 마스코트 펭귄 '턱스'(Tux) 동상 — 이번 리포트의 무대는 리눅스 커널이었다 (출처: Wikimedia Commons, Renato.pierri, CC BY-SA 4.0)](/assets/images/posts/openai-gpt6-cyber-launch-20261106/linux-kernel-tux.jpg)
+![리눅스 마스코트 펭귄 '턱스'(Tux) 동상 — 이번 리포트의 무대는 리눅스 커널이었다 (출처: Wikimedia Commons, Renato.pierri, CC BY-SA 4.0)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-gpt6-cyber-launch-20261106/linux-kernel-tux.jpg)
 *리눅스 마스코트 '턱스'(Tux) — 이번 대규모 감사가 향한 곳은 리눅스 커널이었습니다 (출처: Wikimedia Commons, Renato.pierri, CC BY-SA 4.0)*
 
 ### ④ 안전장치 — 어디까지 막아두었나

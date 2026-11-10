@@ -5,11 +5,11 @@ date: 2026-11-02 15:53:00 +0900
 categories: [career]
 tags: [Google Gemini, 구글 제미나이, Computer Use, 컴퓨터 유즈, Gemini API, Interactions API, 브라우저 에이전트, UI 자동화, RPA, 프롬프트 인젝션, AI 에이전트, Gemini 4, Gemini 3.8 Flash, Playwright, 업무자동화]
 author: "40대 블로거"
-image: /assets/images/posts/gemini-computer-use-ga-20261102/gemini-computer-use-loop.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-computer-use-ga-20261102/gemini-computer-use-loop.png
 description: "구글이 2026년 10월 30일 Gemini API 릴리스 노트를 통해 Computer Use 도구의 정식 출시(GA)를 알렸습니다. Interactions API와 GenerateContent API 양쪽에서 쓸 수 있게 됐고, 브라우저·모바일·데스크톱 환경을 모두 다루며 각 액션에 판단 이유(intent)가 붙습니다. 안전 정책 카테고리와 스크린샷 프롬프트 인젝션 탐지도 옵션으로 제공됩니다. 작동 원리, 안전장치 3단계, 개발자·자동화 운영자가 실제로 부딪히는 비용과 안정성 문제, 남은 리스크까지 정리했습니다."
 ---
 
-![Gemini Computer Use 에이전트 루프 구조](/assets/images/posts/gemini-computer-use-ga-20261102/gemini-computer-use-loop.png)
+![Gemini Computer Use 에이전트 루프 구조](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-computer-use-ga-20261102/gemini-computer-use-loop.png)
 *출처: Google 공식 개발자 문서 "Computer use — Gemini API" (ai.google.dev)*
 
 > **📌 한 줄 요약:** 구글이 **2026년 10월 30일**, 스크린샷을 보고 마우스·키보드를 직접 움직이는 **Computer Use 도구를 정식 출시(GA)** 했습니다. Interactions API와 GenerateContent API **양쪽에서 모두** 지원되고, 브라우저·모바일·데스크톱을 한 모델로 다루며, 각 액션에 **판단 이유(intent)** 가 붙고 **안전 정책 카테고리**와 **프롬프트 인젝션 탐지**까지 옵션으로 제공됩니다.
@@ -106,7 +106,7 @@ print(interaction)
 
 핵심은 **"API가 없어서 사람이 손으로 하던 일"** 입니다. API가 있는 일은 여전히 API로 하는 게 빠르고 싸고 안정적입니다.
 
-![Google Gemini 웹 앱 화면](/assets/images/posts/gemini-computer-use-ga-20261102/google-gemini-app-screenshot.png)
+![Google Gemini 웹 앱 화면](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-computer-use-ga-20261102/google-gemini-app-screenshot.png)
 *출처: Wikimedia Commons "Google Gemini Screenshot (2026)" (퍼블릭 도메인, 원본: gemini.google.com)*
 
 ## 영향 — 개발자와 자동화 운영자

@@ -12,7 +12,7 @@ noindex: true
 
 요즘 저처럼 **Claude Cowork로 파일 정리나 업무 자동화를 맡겨보신 분들**, 많으시죠? 솔직히 저는 에이전트가 일해주는 편함에 한번 빠지면 못 나옵니다. 그런데 에이전트 쓸 때마다 꼭 짜증나는 게 하나 있었어요. **아까 채팅에서 다 말했는데, Cowork한테 또 똑같이 설명해야 하는 것.** 그런데 이 불편이 8월 25일 발표로 싹 사라졌습니다. 오늘은 이 **이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망** 순서로 정리해 드리겠습니다.
 
-![Claude 메모리 통합 공식 블로그 커버 이미지](/assets/images/posts/2026-08-26-claude-memory-cowork/claude-memory-og.jpg)
+![Claude 메모리 통합 공식 블로그 커버 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-08-26-claude-memory-cowork/claude-memory-og.jpg)
 *"Claude's memory works everywhere, and you decide what's in it" — 채팅과 Cowork 어디서든 하나의 메모리가 작동한다는 앤트로픽 공식 블로그 발표 이미지 (출처: Claude by Anthropic 공식 블로그)*
 
 ## 📌 이슈 요약: 채팅과 Cowork가 '하나의 기억'을 공유한다
@@ -43,7 +43,7 @@ noindex: true
 
 클로드 커워크는 지난 1월 macOS 전용 리서치 프리뷰로 처음 공개된 뒤, 연중 모든 유료 플랜으로 확대됐습니다. 이번 메모리 통합은 **"에이전트가 기억을 갖는다"는 방향의 본격적인 첫걸음**으로, 여름 내내 이어진 앤트로픽의 에이전트 기능 강화 흐름(모바일 확장, 디스패치 등)과 맞물립니다.
 
-![Claude Cowork 개요 이미지](/assets/images/posts/2026-08-26-claude-memory-cowork/claude-cowork-overview.webp)
+![Claude Cowork 개요 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-08-26-claude-memory-cowork/claude-cowork-overview.webp)
 *클로드 커워크(Claude Cowork)는 클로드 코드의 에이전트 능력을 코딩 너머의 지식 업무로 확장한 데스크톱 에이전트다. 이제 채팅과 하나의 메모리를 공유한다 (출처: The Inner Detail, "Anthropic Claude Cowork" 기사 이미지)*
 
 ## 💡 영향: 사용자와 개발자에게 어떤 의미인가

@@ -6,14 +6,14 @@ categories: [career]
 tags: [Anthropic, Claude, 앤트로픽, 클로드, 저작권, 음악, Sony Music, 소니뮤직, Warner Chappell, 워너채플, AI 학습데이터, 토렌트, BitTorrent, Dario Amodei, 다리오 아모데이, Benjamin Mann, Bartz 판결, AI뉴스, 2026년8월, AI산업, 음악산업, IP소송]
 author: "40대 블로거"
 description: "2026년 8월 28일(금), 소니 뮤직 퍼블리싱(Sony Music Publishing)과 워너 채플(Warner Chappell) 등 음악 퍼블리셔들이 Anthropic과 공동창업자 다리오 아모데이·벤저민 맨을 상대로 '불법 토렌트·스크래핑으로 수백만 권의 저작물을 수집해 Claude를 학습시켰다'며 소송을 제기했습니다. 원고 측은 '역사상 가장 크고 노골적인 지적재산권 도용'이라고 주장하며, 작품당 최대 15만 달러씩 수십억 달러 규모의 배상을 요구합니다. 벤저민 맨이 BitTorrent로 500만 권 이상의 불법 책을 받았다는 주장, 테일러 스위프트 'Paper Rings' 등 구체적 곡명, 1조 5천억 원 규모의 Bartz 판결 배경까지 — 이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망 순서로 정리했습니다. 같은 주 법원이 트럼프 행정부의 앤트로픽 블랙리스트를 '위헌'이라 판결한 소식도 함께 다룹니다."
-image: /assets/images/posts/2026-08-31-claude-music-publisher-lawsuit/dario-amodei.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-08-31-claude-music-publisher-lawsuit/dario-amodei.jpg
 sitemap: false
 noindex: true
 ---
 
 요즘 저처럼 **Claude를 하루에도 몇 번씩 쓰시는 분들**, 많으시죠? 솔직히 저는 이제 업무의 절반 이상을 Claude한테 맡기고 있는데요. 그런데 지난 주말, **음악 업계 1·2위 퍼블리셔들이 앤트로픽을 '역사상 가장 노골적인 지적재산권 도용'이라며 고소했다**는 뉴스가 나왔습니다. 그것도 회사만이 아니라 **공동창업자 개인을 피고로 지목**했다고 하니, 그냥 넘어가기엔 너무 큰 사건이더라고요. 오늘은 이 **이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망** 순서로 정리해 드리겠습니다.
 
-![앤트로픽 CEO 다리오 아모데이 (Dario Amodei)](/assets/images/posts/2026-08-31-claude-music-publisher-lawsuit/dario-amodei.jpg)
+![앤트로픽 CEO 다리오 아모데이 (Dario Amodei)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-08-31-claude-music-publisher-lawsuit/dario-amodei.jpg)
 *앤트로픽 CEO 다리오 아모데이 — 이번 소송에서 공동창업자 자격으로 개인 피고에 포함됨 (출처: TechCrunch 기사 내 사진, Ruhani Kaur/Bloomberg via Getty Images, 2026.8.31 확인)*
 
 ## 📌 이슈 요약: 음악 퍼블리셔 연합이 앤트로픽을 전방위로 고소
@@ -79,7 +79,7 @@ noindex: true
 - **IPO 일정**에도 그림자가 드리울 수 있습니다. 소송 리스크 공시는 의무화되지만, 역사적으로 AI 기업들은 소송 리스크를 안고도 상장을 강행해 왔기에 **일정 자체가 크게 미뤄지진 않을 것**으로 보입니다.
 - 솔직히 말해, 이번 사건의 진짜 교훈은 **"AI 기업의 데이터 파이프라인이 이제 법정에서 하나하나 검증된다"**는 점입니다. Claude를 쓰는 우리 입장에서는 당장 달라질 건 없지만, **AI 산업의 '데이터 정당성'이 곧 기업 가치와 직결되는 시대**가 왔다는 건 분명해졌습니다.
 
-![소니 뮤직 퍼블리싱 공식 로고](/assets/images/posts/2026-08-31-claude-music-publisher-lawsuit/sony-music-publishing-logo.png)
+![소니 뮤직 퍼블리싱 공식 로고](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-08-31-claude-music-publisher-lawsuit/sony-music-publishing-logo.png)
 *이번 소송을 제기한 소니 뮤직 퍼블리싱(Sony Music Publishing) 로고 (출처: 소니 뮤직 퍼블리싱 공식 홈페이지 sonymusicpub.com, 2026.8.31 접속)*
 
 **정리하면**, 이번 주 앤트로픽은 **음악 업계의 초대형 저작권 소송(공동창업자 개인 피고 포함)**과 **행정부 블랙리스트 위헌 판결**을 동시에 맞았습니다. 한쪽에선 수십억 달러 배상 리스크가, 다른 한쪽에선 1년 가까이 끌어온 정부 갈등의 승리가. Claude를 쓰는 입장에선 **"서비스는 그대로, 다만 데이터와 비용의 시대가 바뀌고 있다"**고 기억해 두시면 좋을 것 같습니다.

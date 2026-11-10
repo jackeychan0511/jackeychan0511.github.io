@@ -6,12 +6,12 @@ categories: [career]
 tags: [Anthropic, Claude, 앤트로픽, 클로드, GSA, OneGov, ClaudeForGovernment, ClaudeEnterprise, ClaudeAPI, FedRAMP, 공공조달, 정부AI, SLTT, 주정부, 지방정부, 공공부문, 40퍼센트할인, 업무자동화, AI에이전트, 2026년10월]
 author: "40대 블로거"
 description: "2026년 10월 27일(미국 현지), Anthropic이 미국 조달청(GSA)과의 OneGov 계약을 확대해 정부 고객에게 Claude Enterprise·Claude for Government·Claude API 전 제품 40% 할인을 적용한다고 발표했습니다. 할인이 클라우드 마켓플레이스 구매까지 확대되고 주·지방·부족·준주 정부까지 포함된 것이 핵심입니다. 정부 예상 절감액은 10억 달러, 최소 구매 약정은 없습니다. 공공부문 사용 현황과 FedRAMP 인증 체계, 개발자·도입 담당자에게 미치는 영향을 정리했습니다."
-image: /assets/images/posts/anthropic-claude-gsa-onegov-40percent-20261028/anthropic-gsa-official-hero.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-gsa-onegov-40percent-20261028/anthropic-gsa-official-hero.jpg
 sitemap: false
 noindex: true
 ---
 
-![Anthropic 공식 뉴스룸 'Expanding our partnership with GSA' 대표 이미지](/assets/images/posts/anthropic-claude-gsa-onegov-40percent-20261028/anthropic-gsa-official-hero.jpg)
+![Anthropic 공식 뉴스룸 'Expanding our partnership with GSA' 대표 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-gsa-onegov-40percent-20261028/anthropic-gsa-official-hero.jpg)
 *Anthropic 공식 뉴스룸에 게시된 'Expanding our partnership with GSA to bring Claude to all levels of government'(2026.10.27) 대표 이미지 — 이번 발표의 핵심은 '정부 전용 요금제'가 아니라 '상업용과 같은 제품을 정부 가격으로'라는 방향 전환입니다 (출처: anthropic.com 공식)*
 
 > **📌 한줄 요약:** 2026년 **10월 27일(미국 현지)**, Anthropic이 미국 **조달청(GSA)** 과의 **OneGov 계약을 확대**했습니다. 정부 고객은 **Claude Enterprise·Claude for Government·Claude API**에서 **40% 할인**을 받습니다. 처음으로 **모든 구매 경로**(직접 구매 + 앞으로 몇 달 안에 클라우드 마켓플레이스 구매)에 할인이 적용되고, 대상도 연방에서 **주·지방·부족·준주(SLTT) 정부**까지 넓어졌습니다. 정부 예상 절감액은 **10억 달러**, **최소 구매 약정은 없습니다**.
@@ -143,7 +143,7 @@ Anthropic이 공개한 사례는 대부분 **"사람이 하던 일의 시간 단
 
 AI 도입을 검토하는 공공·공기업 담당자라면, 지금 확인할 것은 모델 목록이 아니라 **우리 기관이 어떤 조달 경로로, 어떤 인증 범위 안에서 Claude를 살 수 있는가**입니다. 그 세 가지가 맞아떨어지는 순간, 40%라는 숫자가 실제 예산표에 찍히게 됩니다.
 
-![미국 조달청(GSA) 본관 정문 전경](/assets/images/posts/anthropic-claude-gsa-onegov-40percent-20261028/gsa-headquarters-building.jpg)
+![미국 조달청(GSA) 본관 정문 전경](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-gsa-onegov-40percent-20261028/gsa-headquarters-building.jpg)
 *미국 조달청(GSA) 본관 정문 — 워싱턴 D.C. 1800 F Street NW. OneGov 계약은 이 건물에서 관리되는 연방 조달 체계를 통해 집행됩니다 (출처: Wikimedia Commons, G. Edward Johnson, CC BY 4.0)*
 
 > **참고 자료**

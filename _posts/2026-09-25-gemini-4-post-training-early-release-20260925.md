@@ -5,11 +5,11 @@ date: 2026-09-25 15:52:00 +0900
 categories: [career]
 tags: [Google Gemini, 구글 제미나이, Gemini 4, 제미나이 4, Google DeepMind, 코레이 카북추오글루, Koray Kavukcuoglu, 포스트트레이닝, post-training, Antigravity, 프론티어 모델, 모델 출시, 업무자동화, AI뉴스, 2026년 9월]
 author: "40대 블로거"
-image: /assets/images/posts/gemini-4-post-training-early-release-20260925/gemini-official-spark-icon.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-4-post-training-early-release-20260925/gemini-official-spark-icon.png
 description: "2026년 9월 23일(현지시간) The Information의 AI Agenda Live Summit에서 Google DeepMind 수석부사장 코레이 카북추오글루가 차기 플래그십 모델 Gemini 4가 '포스트트레이닝' 초기 단계에 들어갔으며, 초기 버전을 연말보다 훨씬 이른 시점에 내놓겠다고 밝혔습니다. The Information 원보도에 이어 The Verge·9to5Google 등이 9월 24일 일제히 보도했습니다. 지난 7월 구글이 '역대 가장 야심찬 프리트레이닝'이라고 밝힌 이후 첫 공식 진척 보고이고, Gemini 4가 내부 코딩 도구 Antigravity에서 이미 돌아가고 있다는 내용도 함께 전해졌습니다. 이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망 순으로 정리했습니다. 이미지는 Google 공식 블로그 이미지와 Wikimedia Commons 이미지입니다."
 ---
 
-![Google Gemini 공식 브랜드 이미지 — 스파크 아이콘 (출처: blog.google Google 공식 블로그)](/assets/images/posts/gemini-4-post-training-early-release-20260925/gemini-official-spark-icon.png)
+![Google Gemini 공식 브랜드 이미지 — 스파크 아이콘 (출처: blog.google Google 공식 블로그)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-4-post-training-early-release-20260925/gemini-official-spark-icon.png)
 *Google Gemini 공식 브랜드 이미지 — 2025년 말 Gemini 3 시리즈 이후 약 10개월 만에 차기 플래그십이 윤곽을 드러냈습니다 (출처: blog.google Google 공식 블로그)*
 
 > **📌 한줄 요약:** 요즘 저처럼 **AI 모델 판이 매주 바뀌어서 어느 모델을 업무 파이프라인에 붙여야 할지 고민하시는 분들** 많으시죠. 2026년 9월 23일(현지시간), **The Information**의 AI Agenda Live Summit에서 **Google DeepMind 수석부사장 코레이 카북추오글루(Koray Kavukcuoglu)**가 **Gemini 4가 '포스트트레이닝' 초기 단계에 들어갔고, 초기 버전을 연말보다 훨씬 이른 시점에 내놓겠다**고 공식적으로 밝혔습니다. 지난 7월 구글이 "역대 가장 야심찬 프리트레이닝"이라고 표현한 이후 나온 **첫 공식 진척 보고**이고, 보도에 따르면 **Gemini 4는 이미 구글 내부 코딩 도구 Antigravity에서 돌아가고 있습니다.** 다만 **구체적인 날짜·모델 ID·가격은 아직 일절 공개되지 않았습니다.**
@@ -43,10 +43,10 @@ description: "2026년 9월 23일(현지시간) The Information의 AI Agenda Live
 
 저처럼 **AI 에이전트를 실사용하면서 모델 교체 주기를 계속 쫓아가는 입장**에서는, 이번 뉴스의 핵심은 "Gemini 4 나온대"가 아니라 **"구글이 더 이상 3.5 Pro를 붙잡고 늘어지지 않고 4로 직행한다"는 방향을 공식 확인했다**는 점입니다.
 
-![Google DeepMind 런던 사무소가 있는 6 Pancras Square 건물 입구 (출처: Wikimedia Commons, Gciriani, CC BY-SA 4.0)](/assets/images/posts/gemini-4-post-training-early-release-20260925/deepmind-hq-pancras-square.jpg)
+![Google DeepMind 런던 사무소가 있는 6 Pancras Square 건물 입구 (출처: Wikimedia Commons, Gciriani, CC BY-SA 4.0)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-4-post-training-early-release-20260925/deepmind-hq-pancras-square.jpg)
 *Google과 자회사 DeepMind가 함께 쓰는 런던 6 Pancras Square 사무소 입구 — Gemini 4 포스트트레이닝과 안전 작업을 이끄는 조직의 본거지입니다 (출처: Wikimedia Commons, Gciriani, CC BY-SA 4.0)*
 
-![Google DeepMind 공식 로고 (출처: Wikimedia Commons, Public Domain)](/assets/images/posts/gemini-4-post-training-early-release-20260925/deepmind-logo.png)
+![Google DeepMind 공식 로고 (출처: Wikimedia Commons, Public Domain)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-4-post-training-early-release-20260925/deepmind-logo.png)
 *Google DeepMind 공식 로고 — 2026년 8월 5일 데미스 하사비스가 Alphabet 최고과학자 겸 DeepMind 의장으로 이동하고, 카북추오글루가 운영을 맡았습니다 (출처: Wikimedia Commons, Public Domain)*
 
 ---

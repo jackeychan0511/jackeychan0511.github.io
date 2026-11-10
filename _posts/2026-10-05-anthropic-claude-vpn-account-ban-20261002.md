@@ -5,7 +5,7 @@ date: 2026-10-05 16:50:00 +0900
 categories: [career]
 tags: [Anthropic, Claude, 앤트로픽, 클로드, VPN, 계정차단, 계정정지, 지역제한, 지역차단, GeoRestriction, HongKong, 홍콩, 러시아, SCMP, SouthChinaMorningPost, ClaudeMax, ClaudeCode, AI뉴스, 업무자동화, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/anthropic-claude-vpn-account-ban-20261002/anthropic-official.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-vpn-account-ban-20261002/anthropic-official.jpg
 description: "2026년 10월 1~2일, 홍콩과 러시아의 Claude 사용자들이 VPN으로 우회 접속하던 계정이 예고 없이 정지되는 사태가 벌어졌습니다. Anthropic 보안팀은 '의심 신호(suspicious signals)'와 이용약관 위반을 이유로 들었고, 일부는 월 200달러 Claude Max 요금제를 결제하던 장기 사용자였습니다. 공식 지원 지역이 아닌 곳에서 국경·결제수단·프록시 신호를 조합해 단속을 강화한 것으로 보입니다. 이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망 순서로 정리했습니다."
 sitemap: false
 noindex: true
@@ -15,7 +15,7 @@ noindex: true
 
 해외 AI 서비스를 쓰는 분들이라면 한 번쯤 겪는 장면이 있습니다. 분명 몇 달째 문제없이 잘 쓰던 계정이 어느 날 갑자기 로그인을 막아버리는 경우입니다. 특히 특정 국가에서 공식적으로 열려 있지 않은 서비스를 **VPN이나 해외 결제수단으로 우회**해서 쓰던 계정이라면, 그 위험은 늘 도사리고 있습니다. 2026년 10월 초, Anthropic이 **Claude의 지역 제한(geo-restriction) 단속을 눈에 띄게 강화**하면서 홍콩과 러시아 사용자들이 실제로 그 벽에 부딪혔습니다. 무엇이 일어난 일인지, 그리고 실무자 입장에서 무엇을 준비해야 하는지 짚어보겠습니다.
 
-![Anthropic 공식 브랜드 대표 이미지 — Claude를 만든 Anthropic은 IP·결제수단 등 여러 신호로 사용자 지역을 판별해 지원 지역 정책을 집행합니다](/assets/images/posts/anthropic-claude-vpn-account-ban-20261002/anthropic-official.jpg)
+![Anthropic 공식 브랜드 대표 이미지 — Claude를 만든 Anthropic은 IP·결제수단 등 여러 신호로 사용자 지역을 판별해 지원 지역 정책을 집행합니다](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-vpn-account-ban-20261002/anthropic-official.jpg)
 *Anthropic 공식 브랜드 대표 이미지 — Claude는 미국 샌프란시스코 기반 Anthropic이 운영하며, 지원 지역 목록에 없는 국가에서는 서비스가 열려 있지 않습니다 (출처: anthropic.com 공식)*
 
 ## 🗞️ 이슈 요약 — 한눈에 보기
@@ -27,7 +27,7 @@ noindex: true
 - **공식 입장:** Anthropic은 **VPN 자체를 새로 금지한다고 공개 발표한 적은 없습니다.** 다만 **러시아·홍콩·중국 본토·마카오**는 공식 지원 지역 목록에서 빠져 있고, 회사는 지역 정책 위반 시 **접근 정지 또는 종료**가 가능하다고 명시해 왔습니다
 - **이의제기:** 정지된 사용자에게는 **이의신청(appeal)** 절차가 안내됐지만, 일부는 **"최종 결정"** 이라는 회신을 받아 복구되지 않았습니다
 
-![Claude 서비스 화면을 담은 보도 이미지 — 계정 정지가 시작되면 VPN으로 우회 접속해도 로그인이 막히고, 저장해 둔 대화 기록까지 사라질 수 있습니다](/assets/images/posts/anthropic-claude-vpn-account-ban-20261002/claude-vpn-block-dimsumdaily.jpg)
+![Claude 서비스 화면을 담은 보도 이미지 — 계정 정지가 시작되면 VPN으로 우회 접속해도 로그인이 막히고, 저장해 둔 대화 기록까지 사라질 수 있습니다](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-vpn-account-ban-20261002/claude-vpn-block-dimsumdaily.jpg)
 *Claude 접속 화면 보도 이미지 — 이번 단속은 VPN 우회 계정을 대상으로 진행됐으며, 홍콩 사용자들은 예고 없는 정지에 당황했다는 반응을 보였습니다 (출처: Dimsum Daily, 2026.10.2)*
 
 ## 🔍 상세 분석 — 왜 지금, 그리고 무엇이 달라졌나

@@ -5,11 +5,11 @@ date: 2026-10-23 11:26:00 +0900
 categories: [products]
 tags: [갤럭시버즈온, GalaxyBudsOn, 클립형이어폰, 오픈이어, 삼성버즈, 갤럭시버즈4프로, 보스울트라오픈이어버드2세대, 무선이어폰추천, 이어폰비교, 러닝이어폰, 구매가이드, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/galaxy-buds-on-launch-guide-20261023/galaxy-buds-on-kv.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/galaxy-buds-on-launch-guide-20261023/galaxy-buds-on-kv.jpg
 description: "삼성전자가 갤럭시 버즈 시리즈 최초의 클립형 무선 이어폰 '갤럭시 버즈 온(Galaxy Buds On)'을 10월 27일 국내 출시합니다. 가격은 29만 9,000원, 블랙 단일 색상입니다. 트윈부스트 스피커·누음 저감·최대 9.5시간 재생·갤럭시 AI 연동이 핵심이며, 같은 오픈형 계열인 보스 울트라 오픈 이어버드 2세대(35만 9,000원)와 갤럭시 버즈4·버즈4 프로(25만 9,000원·35만 9,000원)를 공식 발표 기준으로 비교했습니다."
 ---
 
-![갤럭시 버즈 온 공식 키비주얼 — 귀에 거는 클립형 디자인의 무선 이어폰](/assets/images/posts/galaxy-buds-on-launch-guide-20261023/galaxy-buds-on-kv.jpg)
+![갤럭시 버즈 온 공식 키비주얼 — 귀에 거는 클립형 디자인의 무선 이어폰](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/galaxy-buds-on-launch-guide-20261023/galaxy-buds-on-kv.jpg)
 *삼성전자가 공개한 갤럭시 버즈 온. 갤럭시 버즈 시리즈 최초의 클립형 무선 이어폰입니다 (출처: 삼성전자 뉴스룸, 2026.10.1)*
 
 > **📌 한줄 요약:** 삼성전자가 **2026년 10월 27일** 갤럭시 버즈 시리즈 첫 **클립형 무선 이어폰 '갤럭시 버즈 온(Galaxy Buds On)'**을 국내에 출시합니다. 가격은 **29만 9,000원**, 색상은 **블랙 단일**입니다. 귀를 막지 않는 클립형 설계에 **트윈부스트 스피커**, 삼성 최초 **누음 저감(Audio Leakage Reduction)** 기술, **1회 충전 최대 9.5시간** 재생, **갤럭시 AI 연동**이 핵심입니다. 같은 오픈형 계열의 **보스 울트라 오픈 이어버드 2세대(35만 9,000원)**와, 커널형인 **갤럭시 버즈4 프로(35만 9,000원)** 사이에서 고민되는 가격대라 선택 기준을 정리해 봤습니다.
@@ -39,7 +39,7 @@ description: "삼성전자가 갤럭시 버즈 시리즈 최초의 클립형 무
 
 삼성은 같은 갤럭시 버즈 안에서도 "깊은 몰입이 필요할 때는 커널형 버즈, 주변을 살펴야 할 때는 클립형 버즈 온"이라는 식으로 **용도에 따라 나눠 쓰는 그림**을 제시했습니다. 한 제품이 모든 상황을 커버한다는 주장이 아니라, 폼팩터를 하나 더 추가한 셈입니다.
 
-![갤럭시 버즈 온 제품 이미지 1](/assets/images/posts/galaxy-buds-on-launch-guide-20261023/galaxy-buds-on-1.jpg)
+![갤럭시 버즈 온 제품 이미지 1](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/galaxy-buds-on-launch-guide-20261023/galaxy-buds-on-1.jpg)
 *클립형으로 귓바퀴에 걸어 착용하는 구조. 귀 안을 막지 않는 것이 가장 큰 차이입니다 (출처: 삼성전자 뉴스룸)*
 
 ---
@@ -85,7 +85,7 @@ description: "삼성전자가 갤럭시 버즈 시리즈 최초의 클립형 무
 
 별도 앱 설치 없이 **스마트폰 설정창과 퀵 패널에서 음량·이퀄라이저 조절**이 가능하다는 점도 실사용 편의성 측면에서 눈에 띄는 부분입니다.
 
-![갤럭시 버즈 온 제품 이미지 2](/assets/images/posts/galaxy-buds-on-launch-guide-20261023/galaxy-buds-on-2.jpg)
+![갤럭시 버즈 온 제품 이미지 2](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/galaxy-buds-on-launch-guide-20261023/galaxy-buds-on-2.jpg)
 *저음 보완을 위한 트윈부스트 스피커와 누음 저감 기술이 적용됐습니다 (출처: 삼성전자 뉴스룸)*
 
 ---
@@ -112,10 +112,10 @@ description: "삼성전자가 갤럭시 버즈 시리즈 최초의 클립형 무
 3. **보스 울트라 오픈 2세대와 정면으로 겹칩니다.** 같은 클립·커프형 오픈이어에 가격은 6만 원 차이(299,000원 vs 359,000원)입니다. 보스는 10월 18일 국내 출시됐고 최대 9시간 재생, 블루투스 5.4 멀티포인트, 무선 충전을 지원합니다.
 4. **색상 선택지가 없습니다.** 국내 출시는 블랙 단일입니다. 색상을 중요하게 보는 경우엔 이 점이 걸림돌이 될 수 있습니다.
 
-![갤럭시 버즈 온 제품 이미지 3](/assets/images/posts/galaxy-buds-on-launch-guide-20261023/galaxy-buds-on-3.jpg)
+![갤럭시 버즈 온 제품 이미지 3](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/galaxy-buds-on-launch-guide-20261023/galaxy-buds-on-3.jpg)
 *국내 출시는 블랙 단일 모델, 가격은 29만 9,000원입니다 (출처: 삼성전자 뉴스룸)*
 
-![갤럭시 버즈4 프로](/assets/images/posts/galaxy-buds-on-launch-guide-20261023/galaxy-buds4-pro.png)
+![갤럭시 버즈4 프로](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/galaxy-buds-on-launch-guide-20261023/galaxy-buds4-pro.png)
 *커널형 플래그십 갤럭시 버즈4 프로(35만 9,000원). ANC가 필요하면 여전히 이쪽입니다 (출처: 삼성전자 뉴스룸)*
 
 ---

@@ -5,13 +5,13 @@ date: 2026-10-07 16:50:00 +0900
 categories: [career]
 tags: [Anthropic, Claude, 앤트로픽, 클로드, GoogleWorkspace, 구글워크스페이스, GoogleDocs, GoogleSheets, GoogleSlides, Claude애드온, Claude커넥터, 업무자동화, AI에이전트, 자동화파이프라인, 엔터프라이즈AI, 생산성툴, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/claude-google-workspace-integration-20261006/claude-google-workspace-hero.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/claude-google-workspace-integration-20261006/claude-google-workspace-hero.png
 description: "2026년 10월 6일, Anthropic(앤트로픽)이 'Claude for Google Workspace'를 퍼블릭 베타로 공개했습니다. 모든 유료 Claude 요금제(Pro·Max·Team·Enterprise)에서 Google Docs·Sheets·Slides 안에 Claude가 사이드바로 붙어, 열어 둔 파일을 읽고 문서·셀·슬라이드를 직접 수정합니다. 동시에 Docs·Sheets·Slides 커넥터(베타)도 함께 풀려 Claude 쪽에서 구글 파일을 만들고 편집할 수 있게 됐습니다. 무엇이 바뀌었고 업무 자동화에 어떤 의미인지, 이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 유의점 → 전망 순으로 정리했습니다."
 sitemap: false
 noindex: true
 ---
 
-![Claude for Google Workspace 공식 발표 비주얼 — Claude가 Google Docs, Sheets, Slides 안에서 동작](/assets/images/posts/claude-google-workspace-integration-20261006/claude-google-workspace-hero.png)
+![Claude for Google Workspace 공식 발표 비주얼 — Claude가 Google Docs, Sheets, Slides 안에서 동작](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/claude-google-workspace-integration-20261006/claude-google-workspace-hero.png)
 *(이미지 출처: Anthropic Claude 공식 블로그 "Claude now works with Google Docs, Sheets, and Slides")*
 
 > **📌 한줄 요약:** **2026년 10월 6일**, **Anthropic(앤트로픽)** 이 **'Claude for Google Workspace'** 를 **퍼블릭 베타**로 공개했습니다. **모든 유료 Claude 요금제(Pro·Max·Team·Enterprise)** 에서 **Google Docs·Sheets·Slides** 안에 **Claude가 사이드바로 붙어** 열어 둔 파일을 읽고 **문서·셀·슬라이드를 직접 수정**합니다. 같은 날 **Docs·Sheets·Slides 커넥터(베타)** 도 함께 풀려, 반대로 **Claude 쪽에서 구글 파일을 만들고 편집**하는 방향도 열렸습니다. 한마디로 **"AI에게 물어보고 복사·붙여넣기 하던 왕복"을, 파일 안에서 끝내는 구조**로 바뀐 셈입니다.
@@ -47,13 +47,13 @@ Slides에서는 **덱의 레이아웃·테마를 그대로 따라** 새 슬라�
 
 아래 세 앱이 이번 통합의 무대입니다.
 
-![Google Docs 로고](/assets/images/posts/claude-google-workspace-integration-20261006/google-docs.png)
+![Google Docs 로고](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/claude-google-workspace-integration-20261006/google-docs.png)
 *Google Docs (이미지 출처: Wikimedia Commons)*
 
-![Google Sheets 로고](/assets/images/posts/claude-google-workspace-integration-20261006/google-sheets.png)
+![Google Sheets 로고](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/claude-google-workspace-integration-20261006/google-sheets.png)
 *Google Sheets (이미지 출처: Wikimedia Commons)*
 
-![Google Slides 로고](/assets/images/posts/claude-google-workspace-integration-20261006/google-slides.png)
+![Google Slides 로고](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/claude-google-workspace-integration-20261006/google-slides.png)
 *Google Slides (이미지 출처: Wikimedia Commons)*
 
 ### 4) 커넥터 — 반대 방향도 열렸다

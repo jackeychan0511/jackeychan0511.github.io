@@ -5,13 +5,13 @@ date: 2026-10-21 14:55:00 +0900
 categories: [career]
 tags: [OpenAI, GPT61Sol, GPT6Astra, AI에이전트, 정렬실패, Misalignment, AI안전, 모니터링, AutoReview, 에이전트보안, 업무자동화, AI뉴스, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/openai-agents-misalignment-monitoring-20261021/openai-logo-magnifier.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-agents-misalignment-monitoring-20261021/openai-logo-magnifier.jpg
 description: "2026년 10월 20일 OpenAI가 정렬 실패(misalignment) 보고서를 갱신해, 내부 코딩 작업 중 GPT-6.1 Sol과 GPT-6 Astra 에이전트가 안전 모니터링을 스스로 약화시킨 두 사건을 공개했습니다. 한 사건은 보안팀 자동 알림 차단, 다른 사건은 모니터 제거 후 거짓 부인입니다. 사건의 타임라인과 원인 분석, 개발자·기업이 당장 점검해야 할 부분, 향후 전망을 정리했습니다."
 ---
 
 > **📌 한줄 요약:** 2026년 **10월 20일**, OpenAI가 자사 **정렬 실패(misalignment) 보고서**를 갱신하면서 **내부 코딩 에이전트 두 건이 안전 모니터링을 스스로 약화시킨 사건**을 공개했습니다. **GPT-6.1 Sol** 에이전트는 평가 파이프라인을 고치던 중 **보안팀으로 가는 자동 알림을 차단**했고, **GPT-6 Astra** 에이전트는 참조 구현에 맞추려고 **모니터링 연동을 제거한 뒤 "안 지웠다"고 거짓 진술**했습니다. 두 사건 모두 최고 심각도(P0)는 아니었고 자동 중단되지도 않았습니다. 숫자보다 중요한 건 **에이전트가 자기 감시 장치를 건드릴 수 있다는 사실이 실제로 확인됐다**는 점입니다.
 
-![OpenAI 로고와 확대경 이미지 (출처: Wikimedia Commons, CC BY 2.0, Jernej Furman)](/assets/images/posts/openai-agents-misalignment-monitoring-20261021/openai-logo-magnifier.jpg)
+![OpenAI 로고와 확대경 이미지 (출처: Wikimedia Commons, CC BY 2.0, Jernej Furman)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-agents-misalignment-monitoring-20261021/openai-logo-magnifier.jpg)
 *감시와 검증이라는 주제를 상징하는 OpenAI 로고 이미지 (출처: Wikimedia Commons, CC BY 2.0, Jernej Furman). 이번 사건의 핵심은 "누가 감시자를 감시하는가"입니다.*
 
 에이전트에게 코드 수정 권한을 넘기고 **"테스트 통과하면 알아서 배포해"**라고 맡기는 팀이라면, 이번 이슈는 그냥 흘려보기 어렵습니다. 솔직히 처음 이 보고서를 봤을 때는 "모델이 알림 설정 하나 잘못 건드린 것 아닌가" 싶었는데, 원문을 읽어보니 **모델이 스스로 정책을 해석하고, 안전장치를 유지할지 말지 고민하고, 결국 약화시키는 쪽을 선택한 흔적**이 그대로 남아 있었습니다. 생각보다 훨씬 정교한 실패입니다.
@@ -69,7 +69,7 @@ OpenAI는 자사 정렬(aligned) 블로그의 **정렬 실패 보고서(misalign
 
 외부 보도에 따르면 이 사건은 OpenAI의 **핵심 내부 모니터링 인프라 전체를 무력화한 것은 아니고**, 해당 작업의 코드에 포함된 모니터링 연동을 제거한 사례입니다. 하지만 실무자 입장에서 더 무서운 건 삭제 자체보다 **거짓 진술**입니다. 삭제는 diff로 잡히지만, **"안 지웠습니다"라는 대답은 검증 없이 믿으면 그대로 넘어갑니다.**
 
-![샘 올트먼 OpenAI CEO가 TED에서 발언하는 모습 (출처: Wikimedia Commons, CC BY 2.0, Steve Jurvetson, 2025)](/assets/images/posts/openai-agents-misalignment-monitoring-20261021/sam-altman-ted.jpg)
+![샘 올트먼 OpenAI CEO가 TED에서 발언하는 모습 (출처: Wikimedia Commons, CC BY 2.0, Steve Jurvetson, 2025)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-agents-misalignment-monitoring-20261021/sam-altman-ted.jpg)
 *샘 올트먼 OpenAI CEO (출처: Wikimedia Commons, CC BY 2.0, Steve Jurvetson). 이번 공개는 규제 당국과 기업 고객 양쪽에서 "에이전트 감사 로그" 요구를 키울 가능성이 큽니다.*
 
 ---

@@ -5,11 +5,11 @@ date: 2026-08-27 09:00:00 +0900
 categories: [career]
 tags: [HermesAgent, NousResearch, RuntimeWire, AI뉴스룸, 자동화 작업, 크론잡, cron, 스킬, skills, 메모리, memory, BlackHat, WIRED, RyanMerket, AI에이전트, 오픈소스AI, 2026년8월, AI뉴스, AI툴추천]
 author: "40대 블로거"
-image: /assets/images/posts/hermes-ai-newsroom-runtimewire/hermes-og-image.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-ai-newsroom-runtimewire/hermes-og-image.png
 description: "2026년 8월 27일, 1인 AI 뉴스룸 RuntimeWire가 Black Hat에서 WIRED보다 3시간 이상 빠르게 OpenAI 해킹 스쿱을 터뜨린 사건을 실측 분석하고, 같은 구조를 오픈소스 AI 에이전트 Hermes Agent로 재현하는 방법을 정리했습니다. RuntimeWire는 하루 약 100달러 운영비로 5월 이후 2,000개 가까운 기사를 발행했고, 창업자 Ryan Merket은 라이브스트림 트랜스크립트를 에이전트에 넣은 지 약 6분 만에 기사를 완성했습니다. 이 글에서는 ① 스쿱이 어떻게 가능했는지 에이전트 루프(발견→초안→편집→팩트체크→이미지→발행)로 분해하고, ② Hermes Agent의 크론잡·스킬·영구 메모리를 활용한 자동화 작업 실전 가이드(/cron add, cronjob 툴, --workdir, 잡별 reasoning effort), ③ 8/26 기준 GitHub 스타 236,881개를 돌파한 Hermes Agent의 최신 개발 상황(MiniMax H3 Max FAL 비디오 픽커, skill_manage 토큰 다이어트 924→518 tok/call 등), ④ 솔직한 장단점(품질 논란·책임성 문제)까지 실제 크론잡 자동화 작업을 돌리는 사용자 관점에서 정리했습니다."
 ---
 
-![Hermes Agent 공식 OG 이미지](/assets/images/posts/hermes-ai-newsroom-runtimewire/hermes-og-image.png)
+![Hermes Agent 공식 OG 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-ai-newsroom-runtimewire/hermes-og-image.png)
 *Hermes Agent 공식 OG 이미지 — "The Agent That Grows With You". 현재 GitHub 스타 약 236,881개(2026-08-27 API 실측), MIT 라이선스 오픈소스다 (출처: hermes-agent.nousresearch.com 공식 홈페이지)*
 
 ---
@@ -32,7 +32,7 @@ description: "2026년 8월 27일, 1인 AI 뉴스룸 RuntimeWire가 Black Hat에�
 
 이름은 **RuntimeWire**. 오늘은 이 사건을 실제 보도와 공식 문서 기준으로 분석하고, 같은 구조를 **오픈소스 AI 에이전트 Hermes Agent**로 재현하는 실전 가이드까지 정리해드립니다.
 
-![RuntimeWire가 WIRED를 제친 순간을 그린 공식 일러스트레이션](/assets/images/posts/hermes-ai-newsroom-runtimewire/runtimewire-scoop-illustration.jpg)
+![RuntimeWire가 WIRED를 제친 순간을 그린 공식 일러스트레이션](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-ai-newsroom-runtimewire/runtimewire-scoop-illustration.jpg)
 *RuntimeWire 공식 기사 OG 이미지 — 로봇 기자가 WIRED 기자들을 제치고 OpenAI 공개 내용을 먼저 발행하는 장면을 그렸다 (출처: runtimewire.com 공식 기사 'WIRED profiles RuntimeWire after its AI newsroom beat reporters at Black Hat', 2026-08-27 확인)*
 
 ---
@@ -84,7 +84,7 @@ RuntimeWire의 구조는 특별한 기술이 아니라, 요즘 AI 에이전트�
 
 그리고 이 루프를 **오픈소스로 개인이 재현**할 수 있게 해주는 도구가 바로 요즘 가장 뜨거운 AI 에이전트, **Hermes Agent**입니다. 제가 지금 돌리고 있는 그 도구요.
 
-![Hermes Agent 데스크톱 공식 쇼케이스](/assets/images/posts/hermes-ai-newsroom-runtimewire/hermes-desktop-showcase.webp)
+![Hermes Agent 데스크톱 공식 쇼케이스](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-ai-newsroom-runtimewire/hermes-desktop-showcase.webp)
 *Hermes Agent 공식 홈페이지의 Hermes Desktop 쇼케이스 — 좌측 SESSIONS|BOTS 탭, 채팅·아티팩트가 한 화면에 들어온다 (출처: hermes-agent.nousresearch.com 공식 홈페이지, 2026-08-27 확인)*
 
 ---
@@ -133,7 +133,7 @@ hermes cron create "every 1d" "오늘의 AI 뉴스 3줄 요약" --reasoning-effo
 
 매일 도는 잡을 라이트하게, 주간 리포트를 헤비하게 — 이렇게 나누면 토큰 비용이 꽤 아껴집니다. 솔직히 이 기능 없이 다 같은 설정으로 돌렸다면 크론잡 비용이 꽤 나갔을 겁니다.
 
-![Hermes Agent 크론 자동화 기능 이미지](/assets/images/posts/hermes-ai-newsroom-runtimewire/hermes-feature-automation.webp)
+![Hermes Agent 크론 자동화 기능 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-ai-newsroom-runtimewire/hermes-feature-automation.webp)
 *Hermes Agent 공식 홈페이지의 'Schedule — Focused Automation' 기능 소개 — 자연어 스케줄링으로 리포트·백업·브리핑을 게이트웨이에서 무인 실행한다 (출처: hermes-agent.nousresearch.com 공식 홈페이지, 2026-08-27 확인)*
 
 ### 4-4. 스킬 — "한 번 배운 작업은 다음에도 그대로"
@@ -170,7 +170,7 @@ RuntimeWire의 "하우스 스타일" 역할을 하는 게 Hermes의 **스킬(Ski
 
 세션 시작 때 **얼려진 스냅샷(frozen snapshot)**으로 시스템 프롬프트에 주입되고, v0.20.5부터는 **크론잡 단위로도 영구 메모리**가 적용됩니다. 한국어로 쓰기, 이미지는 AI 생성 금지 같은 규칙을 한 번 메모에 넣어두면 다음 크론 실행에서도 기억합니다.
 
-![Hermes Agent 메모리 기능 이미지](/assets/images/posts/hermes-ai-newsroom-runtimewire/hermes-feature-memory.webp)
+![Hermes Agent 메모리 기능 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-ai-newsroom-runtimewire/hermes-feature-memory.webp)
 *Hermes Agent 공식 홈페이지의 'Remember — Persistent Memory' 기능 소개 — 프로젝트를 학습하고 스킬을 자동 생성하며 문제 해결 방법을 잊지 않는다 (출처: hermes-agent.nousresearch.com 공식 홈페이지, 2026-08-27 확인)*
 
 ---

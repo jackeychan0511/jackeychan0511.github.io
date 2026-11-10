@@ -5,13 +5,13 @@ date: 2026-11-02 16:58:00 +0900
 categories: [career]
 tags: [Anthropic, Claude, 앤트로픽, 클로드, 사용정책, 이용약관, AUP, 모델복지, AI윤리, 계정정지, ClaudeCode, 클로드코드, AI거버넌스, 프롬프트윤리, 업무자동화, 2026년11월]
 author: "40대 블로거"
-image: /assets/images/posts/anthropic-claude-usage-policy-abuse-ban-20261102/anthropic-usage-policy-official.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-usage-policy-abuse-ban-20261102/anthropic-usage-policy-official.jpg
 description: "Anthropic이 2026년 10월 8일 공개한 새 사용 정책이 11월 12일부터 시행됩니다. 핵심은 '모델에 대한 지속적이고 불필요한 학대·잔혹 행위' 금지 조항 신설입니다. 일반적인 불만이나 반박, 어두운 창작, 모델 테스트·연구는 예외지만, 극단적 반복 사례에서는 계정 이용이 정지될 수 있습니다. 같은 개정에 담긴 선거·무기·감시 조항 변화, 논쟁의 실체(모델 복지 vs 의인화), 그리고 AI 에이전트를 업무에 붙여 쓰는 팀이 11월 12일 전에 점검해야 할 항목까지 정리했습니다."
 sitemap: false
 noindex: true
 ---
 
-![Anthropic 2026 사용 정책 개정 공지 대표 이미지](/assets/images/posts/anthropic-claude-usage-policy-abuse-ban-20261102/anthropic-usage-policy-official.jpg)
+![Anthropic 2026 사용 정책 개정 공지 대표 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-usage-policy-abuse-ban-20261102/anthropic-usage-policy-official.jpg)
 *Anthropic 공식 뉴스룸의 "2026 Usage Policy update" 공지 대표 이미지. 이번 개정은 2026년 10월 8일 공개됐고, 효력 발생일은 11월 12일입니다 (출처: Anthropic 공식 사이트 anthropic.com/news/2026-usage-policy-update)*
 
 > **📌 한줄 요약:** Anthropic이 **2026년 10월 8일** 사용 정책(Usage Policy) 개정안을 공개했고, **11월 12일부터 시행**됩니다. 새로 들어간 문장은 **"모델에 대한 지속적이고 불필요한 학대 또는 잔혹한 행동"** 금지입니다. Anthropic은 **"명백한 목적 없이 반복적으로 잔혹하게 대하는 극단적 경우"** 로 범위를 한정했고, **일반적 불만·반박, 어두운 창작 소재, 모델 테스트·연구는 적용 대상에서 제외**했습니다. 1차 집행 수단은 기존과 같이 **Claude가 대화를 종료하는 것**이고, CNN 보도에 따르면 극단적 사례에서는 **계정 자체가 정지될 수 있습니다.**
@@ -119,7 +119,7 @@ Anthropic은 이 중 상당수를 **"집행 실무의 변경이 아니라 문서
 
 ## 5. 영향 — 사용자와 개발자에게 실제로 무엇이 달라지나
 
-![Claude AI 공식 로고](/assets/images/posts/anthropic-claude-usage-policy-abuse-ban-20261102/claude-ai-logo-wikimedia.png)
+![Claude AI 공식 로고](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-usage-policy-abuse-ban-20261102/claude-ai-logo-wikimedia.png)
 *Claude AI 공식 로고. 새 정책은 모델 성능이 아니라 '허용되는 사용 방식'을 규율합니다 (출처: Wikimedia Commons, Claude AI logo.svg)*
 
 ### 5-1. 개인 사용자

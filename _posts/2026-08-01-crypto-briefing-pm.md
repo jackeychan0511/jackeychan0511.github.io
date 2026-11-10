@@ -5,13 +5,13 @@ date: 2026-08-01 18:00:00 +0900
 categories: [finance]
 tags: [비트코인, 가상화폐, 코인, BTC, 암호화폐, 콜드카드, 하드웨어지갑, 보안]
 author: "40대 블로거"
-image: /assets/images/posts/crypto-briefing-20260801/crypto-bitcoin.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/crypto-briefing-20260801/crypto-bitcoin.jpg
 description: "8월 1일 오후 코인 브리핑. 콜드카드 Mk3 탈취 피해가 기존 594 BTC에서 1,000 BTC 이상(약 7,000만 달러)으로 약 2배 확대. Chainalysis는 공격자가 잔액이 큰 지갑부터 우선 공격, 첫 10분에 약 3,000만 달러를 탈취한 것으로 분석. BTC는 $63,000선으로 후퇴하며 9,000만원선 등락."
 sitemap: false
 noindex: true
 ---
 
-![비트코인 차트](/assets/images/posts/crypto-briefing-20260801/crypto-bitcoin.jpg)
+![비트코인 차트](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/crypto-briefing-20260801/crypto-bitcoin.jpg)
 *비트코인 — $63,000선 재시험, 원화 9,000만원선 등락 (확인일: 2026.08.01 18:00 KST)*
 
 **핵심 요약**: 콜드카드 Mk3 탈취 피해가 기존 발표의 약 2배인 **1,000 BTC 이상(약 7,000만 달러)** 으로 확대됐고, Chainalysis는 공격자가 잔액이 큰 지갑부터 우선 공격했다고 분석했습니다. BTC는 $63,000선으로 후퇴하며 지지선을 재시험 중입니다.

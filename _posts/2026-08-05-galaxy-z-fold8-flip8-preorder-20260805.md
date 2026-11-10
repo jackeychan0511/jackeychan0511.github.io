@@ -5,13 +5,13 @@ date: 2026-08-05 18:30:00 +0900
 categories: [products]
 tags: [갤럭시Z폴드8, 갤럭시Z플립8, 폴드8울트라, 삼성전자, 갤럭시언팩2026, 폴더블폰, 사전예약, 스마트폰추천, 이슈제품, 2026년8월]
 author: "40대 블로거"
-image: /assets/images/posts/galaxy-z-fold8-flip8-preorder-20260805/galaxy-z-fold8-unpacked.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/galaxy-z-fold8-flip8-preorder-20260805/galaxy-z-fold8-unpacked.jpg
 description: "2026년 7월 22일 갤럭시 언팩 2026에서 공개된 갤럭시 Z 폴드8·폴드8 울트라·플립8의 스펙, 출고가, 사전예약 일정을 정리했습니다. 6년 만에 바뀐 4:3 가로형 폼팩터의 폴드8, 역대 최슬림 4.1mm 울트라, 가벼워진 플립8까지 — 어떤 모델을 골라야 할지와 8월 7일 정식 출시 전 구매 꿀팁까지 다룹니다."
 ---
 
 > **📌 한줄 요약:** 삼성전자가 7월 22일(현지시간) 영국 런던에서 '갤럭시 언팩 2026'을 열고 **갤럭시 Z 폴드8·폴드8 울트라·플립8** 3종을 공개했습니다. 가장 큰 변화는 **6년 만에 바뀐 폴드8의 새 폼팩터(가로형 4:3 화면)** 와 **펼쳤을 때 4.1mm의 역대 최슬림 두께를 기록한 폴드8 울트라**입니다. 국내 사전예약은 7월 28일~8월 3일, 사전개통은 8월 4일, **정식 출시는 8월 7일(금)** 입니다. 출고가는 폴드8 약 227만 8천 원, 울트라 약 257만 7천 원, 플립8 약 168만 3천 원부터입니다.
 
-![갤럭시 Z 폴드8 언팩 2026 현장](/assets/images/posts/galaxy-z-fold8-flip8-preorder-20260805/galaxy-z-fold8-unpacked.jpg)
+![갤럭시 Z 폴드8 언팩 2026 현장](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/galaxy-z-fold8-flip8-preorder-20260805/galaxy-z-fold8-unpacked.jpg)
 *이미지 출처: 뉴스1 (2026.7.22 갤럭시 언팩 2026, 런던 올드 빌링스게이트)*
 
 ## 폴더블폰을 기다리시는 분들, 드디어 '진짜'가 나왔습니다
@@ -22,7 +22,7 @@ description: "2026년 7월 22일 갤럭시 언팩 2026에서 공개된 갤럭시
 
 ## 핵심 기능 — 이번에 뭐가 달라졌나
 
-![갤럭시 Z 폴드8 공식 제품 이미지](/assets/images/posts/galaxy-z-fold8-flip8-preorder-20260805/galaxy-z-fold8-official.jpg)
+![갤럭시 Z 폴드8 공식 제품 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/galaxy-z-fold8-flip8-preorder-20260805/galaxy-z-fold8-official.jpg)
 *이미지 출처: GSMArena (삼성전자 공식 제품 이미지)*
 
 ### 1. 갤럭시 Z 폴드8 — 6년 만의 새 폼팩터, '가로로 펼쳐지는 태블릿'
@@ -41,7 +41,7 @@ description: "2026년 7월 22일 갤럭시 언팩 2026에서 공개된 갤럭시
 
 ### 2. 갤럭시 Z 폴드8 울트라 — 역대 가장 슬림한 폴드 (4.1mm)
 
-![갤럭시 Z 폴드8 울트라 언팩 현장](/assets/images/posts/galaxy-z-fold8-flip8-preorder-20260805/galaxy-z-fold8-ultra-unpacked.jpg)
+![갤럭시 Z 폴드8 울트라 언팩 현장](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/galaxy-z-fold8-flip8-preorder-20260805/galaxy-z-fold8-ultra-unpacked.jpg)
 *이미지 출처: 연합뉴스 (2026.7.22 갤럭시 언팩 2026)*
 
 기존 세로형 폴드 폼팩터를 계승하면서 **'슬림의 끝'**을 보여준 모델입니다.
@@ -57,7 +57,7 @@ description: "2026년 7월 22일 갤럭시 언팩 2026에서 공개된 갤럭시
 
 ### 3. 갤럭시 Z 플립8 — 더 얇고 가벼워진 '감성 폴더블'
 
-![갤럭시 Z 플립8 언팩 현장](/assets/images/posts/galaxy-z-fold8-flip8-preorder-20260805/galaxy-z-flip8-unpacked.jpg)
+![갤럭시 Z 플립8 언팩 현장](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/galaxy-z-fold8-flip8-preorder-20260805/galaxy-z-flip8-unpacked.jpg)
 *이미지 출처: 뉴스1 (2026.7.22 갤럭시 언팩 2026)*
 
 - **두께**: 6.1mm (펼쳤을 때) / **무게**: 180g

@@ -5,13 +5,13 @@ date: 2026-11-07 16:52:00 +0900
 categories: [career]
 tags: [Anthropic, Claude, 앤트로픽, 클로드, IPO, ANT, 나스닥, 밸류에이션, 상장, 로드쇼, AI거품, 토큰지출, Ramp, 가격인하, OpenAI, 업무자동화, 2026년11월]
 author: "40대 블로거"
-image: /assets/images/posts/anthropic-claude-ipo-valuation-cut-20261107/nasdaq-marketsite.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-ipo-valuation-cut-20261107/nasdaq-marketsite.jpg
 description: "Anthropic IPO 밸류에이션이 10월 초 2조 달러에서 1.5조 달러로, 다시 1.1조~1.3조 달러까지 내려왔습니다. 중간선거 이후 나스닥 급락과 AI 지출 정체가 겹치면서 상장 일정 자체가 흔들리고 있습니다. 블룸버그·CNBC·WSJ·FT 보도와 Ramp 지출 데이터를 근거로 숫자 변화, 원인, 딜 구조, 사용자·개발자 영향, 세 가지 시나리오를 정리했습니다."
 sitemap: false
 noindex: true
 ---
 
-![나스닥 마켓사이트 전경](/assets/images/posts/anthropic-claude-ipo-valuation-cut-20261107/nasdaq-marketsite.jpg)
+![나스닥 마켓사이트 전경](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-ipo-valuation-cut-20261107/nasdaq-marketsite.jpg)
 *미국 뉴욕 타임스스퀘어의 나스닥 마켓사이트. Anthropic은 나스닥에 티커 ANT로 상장을 준비하고 있습니다 (이미지 출처: Wikimedia Commons, "Nasdaq MarketSite", CC BY 2.0 — ajay_suresh)*
 
 > **📌 한줄 요약:** Anthropic의 IPO 몸값 기대치가 **10월 초 2조 달러 → 3주 전 1.5조 달러 → 11월 6일 1.1조~1.3조 달러**로 두 달 새 두 번 깎였습니다. 블룸버그는 잠재 매수자들이 **1.2조~1.3조 달러 구간**을 논의 중이고 일부는 **1.1조 달러**까지 보고 있다고 전했습니다. CNBC가 인터뷰한 투자자는 **"1.5조 달러는 무리(stretch)"** 라고 말했습니다. 원인은 두 갈래입니다. **중간선거 이후 나스닥 급락(하루 5%대)** 이라는 매크로 충격, 그리고 **기업들의 AI 토큰 지출이 8~9월에 사실상 멈췄다**는 Ramp 데이터입니다. Anthropic은 **이르면 11월 9일 로드쇼**를 시작해 **추수감사절 전 상장**을 목표로 하고 있지만, 조달 규모(최대 1,000억 달러)와 일정 모두 조정 가능성이 열려 있습니다.
@@ -103,7 +103,7 @@ AI 기업의 기업가치는 결국 **"앞으로 얼마나 더 많은 컴퓨트�
 
 카라지안의 표현을 빌리면 **"하이퍼그로스의 시대는 끝났을 수 있다"** 는 것입니다. 이 진단은 Anthropic만의 문제가 아닙니다. 같은 날 OpenAI도 **기업가치를 1조 4,000억 달러에서 1조 2,500억 달러로 낮추고**, 최신 조달 목표를 약 100억 달러 줄였다는 보도가 나왔습니다. AI 인프라에 돈을 대는 쪽과, 그 위에서 매출을 내는 쪽이 동시에 가격을 다시 계산하기 시작한 것입니다.
 
-![Anthropic 워드마크](/assets/images/posts/anthropic-claude-ipo-valuation-cut-20261107/anthropic-logo-wordmark.png)
+![Anthropic 워드마크](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-ipo-valuation-cut-20261107/anthropic-logo-wordmark.png)
 *Anthropic(앤트로픽) 공식 워드마크. 나스닥 티커는 ANT로 예정돼 있습니다 (이미지 출처: Wikimedia Commons, "Anthropic logo", Public domain)*
 
 ---

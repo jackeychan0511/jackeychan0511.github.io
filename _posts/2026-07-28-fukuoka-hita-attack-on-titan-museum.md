@@ -4,7 +4,7 @@ title: "후쿠오카 히타 진격의 거인 뮤지엄 완벽 가이드 | 버스
 date: 2026-07-23 15:00:00 +0900
 categories: [travel]
 tags: [후쿠오카, 히타, 진격의거인, AttackonTitan, 성지순례, 버스투어, 가족여행]
-image: /assets/images/posts/aot-museum/hero.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/aot-museum/hero.jpg
 ---
 
 **진격의 거인** 팬이라면 꼭 가봐야 할 성지, 바로 **오이타현 히타시(日田市)**입니다.
@@ -45,14 +45,14 @@ image: /assets/images/posts/aot-museum/hero.jpg
 
 후쿠오카에서 특급열차로 약 1시간, 도착한 히타역은 조용한 지방역의 정취가 물씬 풍깁니다.
 
-![JR 히타역 승강장](/assets/images/posts/aot-museum/20260508_100905.jpg)
+![JR 히타역 승강장](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/aot-museum/20260508_100905.jpg)
 *JR 히타역 승강장. 한적한 지방역의 여유로운 분위기*
 
 ### 🔥 역전 광장: 리바이 동상
 
 히타역에 내리면 가장 먼저 마주하는 것이 **리바이 병장의 동상**입니다.
 
-![JR 히타역 리바이 동상](/assets/images/posts/aot-museum/20260508_100602.jpg)
+![JR 히타역 리바이 동상](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/aot-museum/20260508_100602.jpg)
 *JR 히타역 앞에 설치된 리바이 아커만 동상. 입체기동장치와 칼까지 완벽 재현*
 
 거대한 목재 기둥과 함께 서 있는 리바이 동상은 히타의 랜드마크입니다. 동상 앞에서 인증샷은 필수!
@@ -67,35 +67,35 @@ image: /assets/images/posts/aot-museum/hero.jpg
 
 히타시내의 옛 **삿포로 맥주 공장**을 리모델링한 공간으로, 원작 만화의 원화와 전시물이 상설 전시되어 있습니다. 내부는 작품의 세계관을 그대로 옮겨놓은 듯한 압도적인 분위기입니다.
 
-![만화 단행본 전시](/assets/images/posts/aot-museum/20260508_142524.jpg)
+![만화 단행본 전시](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/aot-museum/20260508_142524.jpg)
 *진격의 거인 전권 단행본과 잡지, 해외 번역판까지 한자리에 모인 아카이브*
 
-![코스튬 전시](/assets/images/posts/aot-museum/20260508_101833.jpg)
+![코스튬 전시](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/aot-museum/20260508_101833.jpg)
 *조사병단 코스튬과 자유의 날개 문장. 미카사 스타일 스카프까지 디테일 재현*
 
-![차력 거인 분리수거함](/assets/images/posts/aot-museum/20260508_133534.jpg)
+![차력 거인 분리수거함](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/aot-museum/20260508_133534.jpg)
 *차력 거인 등에 분리수거함을 실은 재치 있는 전시 — 캔·페트병·유리병 분리배출!*
 
 ### ANNEX (오야마댐 인근)
 
 두 번째 뮤지엄은 히타 외곽의 **오야마댐(Oyama Dam)** 근처에 위치해 있습니다.
 
-![뮤지엄 ANNEX 입구](/assets/images/posts/aot-museum/20260508_141813.jpg)
+![뮤지엄 ANNEX 입구](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/aot-museum/20260508_141813.jpg)
 *ANNEX 뮤지엄 입구. 거대한 손가락 조형물과 성벽이 압권*
 
 야외에는 대형 거인 손 조형물과 함께 증강현실(AR) 촬영도 가능합니다. 박물관 입구부터 거인의 손이 뻗어 있는 모습이 인상적입니다.
 
-![오야마댐 전망](/assets/images/posts/aot-museum/20260508_152149.jpg)
+![오야마댐 전망](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/aot-museum/20260508_152149.jpg)
 *뮤지엄 근처 오야마댐. 맑은 날의 시원한 전망*
 
 ### 뮤지엄 내부 전시
 
-![리바이 병장의 의자 포토존](/assets/images/posts/aot-museum/20260508_104034.jpg)
+![리바이 병장의 의자 포토존](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/aot-museum/20260508_104034.jpg)
 *뮤지엄 내 리바이 병장의 의자 포토존. 배경의 만화 콜라주가 인상적*
 
 뮤지엄 내부에는 작품의 주요 장면을 콜라주한 벽과 포토존이 마련되어 있습니다. 리바이 병장의 의자는 포토 명소입니다.
 
-![야외 만화 패널](/assets/images/posts/aot-museum/20260508_155649.jpg)
+![야외 만화 패널](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/aot-museum/20260508_155649.jpg)
 *야외에 전시된 진격의 거인 만화 패널. 자연과 작품이 어우러진 독특한 경험*
 
 뮤지엄 주변 야외에도 대형 만화 패널이 설치되어 있어 산책하며 작품의 명장면을 감상할 수 있습니다.
@@ -106,10 +106,10 @@ image: /assets/images/posts/aot-museum/hero.jpg
 
 히타는 **'큐슈의 교토'**라고 불릴 정도로 전통 거리가 잘 보존된 도시입니다.
 
-![히타 전통 거리](/assets/images/posts/aot-museum/hero.jpg)
+![히타 전통 거리](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/aot-museum/hero.jpg)
 *히타의 전통 거리 풍경. 진격의 거인 현수막이 전통 건물과 조화를 이룸*
 
-![진격의 거인 거리 현수막](/assets/images/posts/aot-museum/20260508_100824.jpg)
+![진격의 거인 거리 현수막](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/aot-museum/20260508_100824.jpg)
 *전통 가옥 벽면에 걸린 진격의 거인 홍보 현수막*
 
 전통 건축물과 진격의 거인 캐릭터가 공존하는 독특한 풍경은 히타에서만 경험할 수 있습니다.
@@ -167,10 +167,10 @@ image: /assets/images/posts/aot-museum/hero.jpg
 
 뮤지엄 근처에는 **진격의 거인 콜라보 메뉴**를 즐길 수 있는 식당이 있습니다. 가게 앞에는 캐릭터 입간판이 서 있고, 내부에서는 한정 콜라보 메뉴를 맛볼 수 있어요.
 
-![히타 진격의 거인 식당 외관](/assets/images/posts/aot-museum/20260508_120223.jpg)
+![히타 진격의 거인 식당 외관](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/aot-museum/20260508_120223.jpg)
 *전통 일식 가게와 진격의 거인 콜라보 간판이 어우러진 외관*
 
-![와규덮밥 정식](/assets/images/posts/aot-museum/1778225754396.jpg)
+![와규덮밥 정식](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/aot-museum/1778225754396.jpg)
 *진격의 거인 콜라보 메뉴 — 와규 스테이크 덮밥 정식 (와규+반찬+국+차완무시)*
 
 메뉴는 **와규 스테이크 덮밥**을 비롯해 여러 일본 정식이 준비되어 있습니다. 콜라보 한정 굿즈(코스터 등)도 함께 제공되니 식사 후 챙기세요!
@@ -180,7 +180,7 @@ image: /assets/images/posts/aot-museum/hero.jpg
 ## 🎬 식당 현장 영상
 
 <video controls preload="metadata" style="width:100%;border-radius:12px;">
-  <source src="/assets/images/posts/aot-museum/video.mp4" type="video/mp4">
+  <source src="https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/aot-museum/video.mp4" type="video/mp4">
   지원되지 않는 브라우저입니다.
 </video>
 

@@ -73,13 +73,13 @@ AI 시대에 아이들이 AI를 자연스럽고 익숙하게 접하는 것도 �
 | 📝 텍스트 | **DeepSeek** (`deepseek-v4-flash`) | 빠르고 저렴, OpenAI 호환 API라 연동 쉬움 |
 | 📷 사진 | **Gemini** (`gemini-2.5-flash`) | 이미지 인식(비전) 지원 |
 
-![Flutter 로고](/assets/images/posts/ai-teacher/flutter-logo.png)
+![Flutter 로고](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/ai-teacher/flutter-logo.png)
 *Flutter — 하나의 코드로 Android/iOS 대응 (출처: Wikimedia Commons)*
 
-![DeepSeek 로고](/assets/images/posts/ai-teacher/deepseek-logo.svg)
+![DeepSeek 로고](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/ai-teacher/deepseek-logo.svg)
 *DeepSeek — 텍스트 질문용 AI (출처: Wikimedia Commons)*
 
-![Gemini 로고](/assets/images/posts/ai-teacher/gemini-logo.svg)
+![Gemini 로고](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/ai-teacher/gemini-logo.svg)
 *Google Gemini — 사진(비전) 질문용 AI (출처: Wikimedia Commons)*
 
 > 나중에 알고 보니 이 선택이 **답변 잘림 버그**(7단계)를 만났을 때도 큰 도움이 됐습니다.

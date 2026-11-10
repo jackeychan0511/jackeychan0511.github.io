@@ -5,7 +5,7 @@ date: 2026-07-28 18:00:00 +0900
 categories: [products]
 tags: [삼성, 갤럭시, 갤럭시언팩, 폴더블, Z폴드8, Z플립8, 갤럭시워치9, 스마트글래스, IT, 신제품, 모바일, 가전]
 author: "40대 블로거"
-image: /assets/images/posts/galaxy-unpacked-2026/hero-samsung-unpacked-2026-symbol.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/galaxy-unpacked-2026/hero-samsung-unpacked-2026-symbol.png
 description: "2026년 7월 22일, 삼성전자가 영국 런던에서 갤럭시 언팩 2026을 열고 8세대 폴더블 3종, 워치9·울트라2, 그리고 첫 스마트글래스 '인텔리전트 아이웨어'까지 공개했습니다. 7월 28일 오늘부터 사전예약이 시작된 신제품들의 가격, 스펙, 출시일을 한눈에 정리했습니다."
 ---
 
@@ -37,7 +37,7 @@ description: "2026년 7월 22일, 삼성전자가 영국 런던에서 갤럭시 
 | **가격** | 256GB **227만 원** / 512GB 약 252만 원 |
 | **색상** | 크림, 네이비, 실버 섀도우 |
 
-![갤럭시 Z 폴드8 vs Z 폴드8 울트라 크기 비교 — 커버 138.4mm vs 164.8mm, 메인 193.2mm vs 203.1mm](/assets/images/posts/galaxy-unpacked-2026/z-fold8.png)
+![갤럭시 Z 폴드8 vs Z 폴드8 울트라 크기 비교 — 커버 138.4mm vs 164.8mm, 메인 193.2mm vs 203.1mm](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/galaxy-unpacked-2026/z-fold8.png)
 
 **핵심 포인트:** 전작 대비 더 얇아지고 가벼워졌으며, 삼성 신기술 **'플렉스 티타늄(Flex Titanium)'** 디스플레이를 탑재해 내구성과 얇기를 동시에 잡았습니다. 콘텐츠 소비(영상·웹툰·게임)에 특화된 표준 폴더블입니다.
 
@@ -96,7 +96,7 @@ description: "2026년 7월 22일, 삼성전자가 영국 런던에서 갤럭시 
 | **가격** | 40mm BT **49만 9,000원** / 44mm BT **53만 9,000원** / LTE 모델 +5만 원 |
 | **색상** | 크림(40mm), 그린(44mm), 블랙 |
 
-![갤럭시 워치9 — 2,000nit 디스플레이, AI 수면 코칭, BioActive 2세대 센서](/assets/images/posts/galaxy-unpacked-2026/galaxy-watch9.png)
+![갤럭시 워치9 — 2,000nit 디스플레이, AI 수면 코칭, BioActive 2세대 센서](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/galaxy-unpacked-2026/galaxy-watch9.png)
 
 **핵심 포인트:** 전작(워치8) 대비 배터리와 디스플레이 밝기가 크게 개선됐습니다. AI가 개인 수면 패턴을 분석해 맞춤형 코칭을 제공하는 'AI 수면 코칭', 하루 활동량을 종합 점수로 보여주는 '에너지 점수' 기능이 새롭게 탑재됐습니다.
 
@@ -148,7 +148,7 @@ description: "2026년 7월 22일, 삼성전자가 영국 런던에서 갤럭시 
 | **AI 기능** | AI 비서 호출, 실시간 번역, 길 안내(HUD 방식), 촬영한 내용 AI 분석 |
 | **가격/출시일** | 미정 (2026년 하반기 글로벌 출시 예정) |
 
-![삼성 인텔리전트 아이웨어 — 젠틀몬스터 협업 디자인 2종, 스플릿 컴퓨팅 탑재](/assets/images/posts/galaxy-unpacked-2026/intelligent-eyewear.png)
+![삼성 인텔리전트 아이웨어 — 젠틀몬스터 협업 디자인 2종, 스플릿 컴퓨팅 탑재](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/galaxy-unpacked-2026/intelligent-eyewear.png)
 
 ### 인텔리전트 아이웨어, 왜 주목할까?
 

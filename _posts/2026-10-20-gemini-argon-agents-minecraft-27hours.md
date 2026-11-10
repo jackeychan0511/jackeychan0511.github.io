@@ -5,13 +5,13 @@ date: 2026-10-20 15:55:00 +0900
 categories: [career]
 tags: [Google Gemini, 구글 제미나이, Gemini 4 Argon, 제미나이 4 아르곤, AI에이전트, 멀티에이전트, 장기과제, 롱호라이즌, 마인크래프트, 엔더드래곤, 구글 딥마인드, Google DeepMind, 에이전트자동화, 업무자동화, AI뉴스, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/gemini-argon-agents-minecraft-27hours/arxiv-hero_end.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-argon-agents-minecraft-27hours/arxiv-hero_end.jpg
 description: "2026년 10월 15일 구글 딥마인드 연구진이 공개한 논문에서 제미나이 4 아르곤 에이전트 4개가 아무 도움 없이 마인크래프트를 처음부터 끝까지 클리어했습니다. 무작위 생성 세계에서 2,783개의 프로그램을 직접 작성하고 27시간 14분 만에 엔더 드래곤을 잡았으며, 그 과정에서 605번 죽었습니다. 토큰 비용은 약 520달러(정가 1,040달러), 전체 세션 기준 약 810달러로 추산됩니다. 무엇이 진짜 성과이고 무엇이 아직 한계인지, 실무 자동화에 어떤 의미인지 정리했습니다."
 ---
 
 > **📌 한줄 요약:** 2026년 **10월 15일**, 구글 딥마인드 연구진(Maxence Faldor, Satinder Singh, Roberta Raileanu)이 **"A team of Gemini 4 Argon agents beats Minecraft"** 논문을 공개했습니다. **제미나이 4 아르곤 에이전트 4개**가 **무작위로 생성된 마인크래프트 생존 세계**에서 **사람의 개입 없이** 엔더 드래곤을 잡았습니다. 걸린 시간은 **27시간 14분**, 에이전트들이 스스로 쓰고 디버깅한 프로그램은 **2,783개**, 그 사이 죽은 횟수는 **605번**입니다. 핵심은 게임 실력이 아니라 **"하루가 넘는 시간 동안 계획을 유지하며 코드를 고쳐가며 일을 끝냈다"**는 점입니다. 장기 과제 자동화를 고민하는 분들이라면 읽어볼 만한 결과입니다.
 
-![실험이 끝난 뒤 엔드 차원의 모습 — 드래곤을 치료하던 수정 기둥과 엔드 알 (출처: arXiv:2610.22319, CC BY 4.0, Google DeepMind 연구진)](/assets/images/posts/gemini-argon-agents-minecraft-27hours/arxiv-hero_end.jpg)
+![실험이 끝난 뒤 엔드 차원의 모습 — 드래곤을 치료하던 수정 기둥과 엔드 알 (출처: arXiv:2610.22319, CC BY 4.0, Google DeepMind 연구진)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-argon-agents-minecraft-27hours/arxiv-hero_end.jpg)
 *엔더 드래곤을 잡은 직후의 엔드 차원. 논문에 실린 실제 실행 기록 화면입니다 (출처: arXiv:2610.22319, CC BY 4.0).*
 
 업무 자동화 쪽을 보는 분들이라면 한 번쯤 같은 벽에 부딪힙니다. 에이전트에게 "보고서 정리해서 올려줘" 정도는 잘합니다. 그런데 **"이번 달 결산 끝까지 처리해줘"**처럼 단계가 수십 개, 시간이 반나절 넘게 걸리는 일을 맡기면 중간에 흐름이 끊깁니다. 앞에서 한 일을 잊고, 같은 오류를 반복하고, 실패하면 처음부터 다시 시작합니다. 그래서 실무에서는 늘 **"한 번에 30분짜리 일"** 단위로 쪼개서 맡기는 게 정석이었습니다.
@@ -38,7 +38,7 @@ description: "2026년 10월 15일 구글 딥마인드 연구진이 공개한 논
 
 주의할 점은 **"역할을 짜주지 않았다"**는 부분입니다. 보통 이런 실험은 "채굴 담당, 건축 담당"처럼 역할을 사람이 나눠줍니다. 이번엔 그게 없었습니다. 그런데 **시작 10분 만에** 한 에이전트가 채팅으로 역할 분담을 제안했고, 다른 에이전트가 **다른 계획을 역제안**한 뒤 1분 안에 합의했습니다. 최종적으로는 **식량·침대·부싯돌 담당 / 다이아몬드 담당 / 철 도구 담당 / 네더 포털 담당**으로 갈라졌습니다.
 
-![bare hands에서 엔더 드래곤까지 13단계, 누가 먼저 도달했는지 색으로 표시한 타임라인 (출처: arXiv:2610.22319, CC BY 4.0)](/assets/images/posts/gemini-argon-agents-minecraft-27hours/arxiv-timeline.png)
+![bare hands에서 엔더 드래곤까지 13단계, 누가 먼저 도달했는지 색으로 표시한 타임라인 (출처: arXiv:2610.22319, CC BY 4.0)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-argon-agents-minecraft-27hours/arxiv-timeline.png)
 *맨손에서 엔더 드래곤까지 13단계. 각 단계를 누가 먼저 달성했는지 색으로 구분했습니다 (출처: arXiv:2610.22319, CC BY 4.0).*
 
 ---

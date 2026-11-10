@@ -5,7 +5,7 @@ date: 2026-10-05 11:30:00 +0900
 categories: [education]
 tags: [크레버스, CREVERSE, CMS영재관, CMS영재교육센터, 사고력수학, LS증권, 가맹확대, 영재교육, 초등수학, 실적전망]
 author: "40대 블로거"
-image: /assets/images/posts/creverse-cms-youngjae-franchise-20261005/01-creverse-brand.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/creverse-cms-youngjae-franchise-20261005/01-creverse-brand.jpg
 description: "크레버스(096240)의 중등 수리 사고력 브랜드 'CMS 영재관'이 가맹(프랜차이즈) 확대에 시동을 건다는 증권가 분석이 나왔습니다. LS증권은 2026년 9월 30일 리포트에서 CMS 영재관의 가맹점 확대가 향후 실적 성장에 긍정적으로 작용할 수 있다고 평가했습니다. 현재 13개 직영관을 운영 중이며 2027년 이후 점진적 가맹 확대 계획이 언급됐습니다. 리포트 핵심과 크레버스 실적 추이, 학부모 관점의 의미를 정리했습니다."
 ---
 
@@ -15,7 +15,7 @@ description: "크레버스(096240)의 중등 수리 사고력 브랜드 'CMS 영
 
 청담어학원·에이프릴(April)어학원·CMS영재교육센터 등을 운영하는 코스닥 상장 교육기업의 **수리 부문 성장 전략**이 처음으로 구체적인 숫자와 함께 공개됐다는 점에서, 학부모와 업계 모두 주목할 만한 소식입니다.
 
-![크레버스 브랜드 이미지](/assets/images/posts/creverse-cms-youngjae-franchise-20261005/01-creverse-brand.jpg)
+![크레버스 브랜드 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/creverse-cms-youngjae-franchise-20261005/01-creverse-brand.jpg)
 
 *크레버스(CREVERSE) 공식 브랜드 이미지. 출처: 크레버스 기업 홈페이지(company.creverse.com)*
 
@@ -36,7 +36,7 @@ LS증권 **정홍식 연구원**은 리포트에서 “**CMS 영재관 확대는
 
 즉 지금까지는 본사가 직접 운영하는 **직영 체제(13개관)**였고, 앞으로는 **가맹(프랜차이즈) 방식으로 전국 접점을 넓히는 것**이 골자입니다. 사고력수학 브랜드가 검증된 커리큘럼을 무기로 외형 확장에 나서는 셈입니다.
 
-![CMS 영재교육센터 브랜드 페이지](/assets/images/posts/creverse-cms-youngjae-franchise-20261005/02-cms-youngjae-landing.jpg)
+![CMS 영재교육센터 브랜드 페이지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/creverse-cms-youngjae-franchise-20261005/02-cms-youngjae-landing.jpg)
 
 *크레버스 CMS 영재교육센터 공식 브랜드 페이지 이미지. 출처: creverse.com*
 
@@ -66,7 +66,7 @@ LS증권이 제시한 가맹 확대의 기대 효과는 세 가지로 정리됩�
 | 2025년(지난해) | 2,209억원 | 22억원 |
 | 직전 4개 분기(TTM) | 2,199억원 | 29억원 |
 
-![크레버스 연결 실적 추이 인포그래픽](/assets/images/posts/creverse-cms-youngjae-franchise-20261005/03-creverse-financials.svg)
+![크레버스 연결 실적 추이 인포그래픽](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/creverse-cms-youngjae-franchise-20261005/03-creverse-financials.svg)
 
 *크레버스 연결 매출·영업이익 추이 (출처: LS증권 리포트 2026.9.30 / 이투데이 보도 정리)*
 

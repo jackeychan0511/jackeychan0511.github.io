@@ -6,7 +6,7 @@ categories: [career]
 tags: [Anthropic, Claude, 앤트로픽, 클로드, AnthropicInstitute, 앤트로픽인스티튜트, RDAutomationIndex, R&D자동화지수, 재귀적자기개선, RecursiveSelfImprovement, AI에이전트, AIagent, 에이전트감독, 컴퓨트배분, ComputeAllocation, SafetyCompute, AI안전, AI거버넌스, 투명성보고, 업무자동화, 자동화파이프라인, 30000agents, 다리오아모데이, DarioAmodei, PacingtheFrontier, 2026년9월, AI산업]
 author: "40대 블로거"
 description: "2026년 9월 17일(현지), Anthropic Institute가 '프런티어 랩 내부의 AI 개발 속도를 이해하기 위한 측정지표'를 공개했습니다. 핵심은 세 가지 — ① AI가 주도하는 AI R&D 비중(2026년 8월 기준 Claude가 26%를 '주도', 협업 이상은 90% 초과), ② AI 에이전트 감독 지표(상시 약 30,000개 에이전트가 연구·엔지니어링 작업, 행동 100% 모니터 통과), ③ 컴퓨트 배분(AI R&D 컴퓨트의 약 6%가 안전에 배분). 무엇을 왜 측정했는지, 사용자·개발자에게 어떤 의미인지, 이슈 요약 → 상세 분석 → 영향 → 전망 순서로 정리했습니다."
-image: /assets/images/posts/2026-09-18-anthropic-claude-rd-index-20260918/anthropic-rd-automation-chart-official.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-09-18-anthropic-claude-rd-index-20260918/anthropic-rd-automation-chart-official.png
 sitemap: false
 noindex: true
 ---
@@ -15,7 +15,7 @@ noindex: true
 
 요즘 저처럼 **AI 에이전트를 업무에 붙여 쓰면서 "이거 어디까지 맡겨도 되나"를 계속 고민하시는 분들** 많으시죠? 솔직히 저는 자동화 파이프라인을 굴리면서도 늘 찜찜한 지점이 있었습니다. **에이전트가 벌여놓은 일을 내가 다 보고 있는 건가, 아니면 그냥 결과만 받아보고 있는 건가** 하는 문제요. 그런데 **9월 17일(현지시간), Anthropic이 그 찜찜함을 정면으로 다루는 문서를 내놨습니다.** 그것도 자기 회사 내부 숫자를 그대로 까면서요. 이번 글도 **이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망** 순서로 정리해 드리겠습니다.
 
-![Anthropic 공식 문서 'Measurements for understanding the pace of AI development inside frontier labs'의 R&D 자동화 차트 — Claude가 주도하는 AI 모델 R&D 작업 비중이 2026년 2월 1% 미만에서 8월 26%로 상승](/assets/images/posts/2026-09-18-anthropic-claude-rd-index-20260918/anthropic-rd-automation-chart-official.png)
+![Anthropic 공식 문서 'Measurements for understanding the pace of AI development inside frontier labs'의 R&D 자동화 차트 — Claude가 주도하는 AI 모델 R&D 작업 비중이 2026년 2월 1% 미만에서 8월 26%로 상승](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-09-18-anthropic-claude-rd-index-20260918/anthropic-rd-automation-chart-official.png)
 *Anthropic Institute 공식 문서에 실린 'Anthropic R&D Automation Index' 차트 — Claude가 '주도(leads)'하는 모델 R&D 작업 비중이 2026년 2월 1% 미만에서 8월 26%까지 올라왔습니다 (출처: anthropic.com/institute/measuring-pace-of-ai-development 공식, 2026.9.17)*
 
 ## 🗞️ 이슈 요약 — 한눈에 보기
@@ -63,7 +63,7 @@ Anthropic은 이 상승세가 **"재귀적 자기개선(recursive self-improveme
 
 참고로 Anthropic은 앞서 **2026년 6월**, **"Claude가 자사 프로덕션 코드베이스에 병합되는 코드의 80% 이상을 작성한다"**고 밝힌 바 있습니다. 이번 지표는 그 흐름을 **'코드'에서 'AI 연구개발 전체'로 확장**한 셈입니다.
 
-![Claude AI 심볼 (출처: Wikimedia Commons, CC0)](/assets/images/posts/2026-09-18-anthropic-claude-rd-index-20260918/claude-ai-symbol-wikimedia.png)
+![Claude AI 심볼 (출처: Wikimedia Commons, CC0)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-09-18-anthropic-claude-rd-index-20260918/claude-ai-symbol-wikimedia.png)
 *Claude 브랜드 심볼 — 이번 문서의 핵심은 '얼마나 똑똑한가'가 아니라 '얼마나 많이 스스로 만들고 있나'를 숫자로 공개했다는 점입니다 (출처: Wikimedia Commons, CC0 / Claude AI symbol)*
 
 ### 3️⃣ 지표 ② — "30,000개 에이전트를 100% 모니터링한다"
@@ -99,7 +99,7 @@ Anthropic은 **"컴퓨트는 AI R&D에서 가장 검증하기 쉬운 입력값"*
 
 > ⚠️ **균형 잡힌 시각 한 가지.** 이번 수치는 모두 **Anthropic이 스스로 정의하고 스스로 측정한 값**입니다. 문서도 **"공통 방법론이 없다"**, **"자사 모델로 자사 시스템을 평가하면 '심사자' 모델이 검사 대상 모델과 같은 실수를 할 수 있다"**는 한계를 직접 인정합니다. 그래서 Anthropic은 **제3자 또는 다른 개발사 모델에 의한 검증**을 대안으로 제시했습니다. 숫자를 그대로 믿기보다, **검증 가능성(verifiability)을 향한 첫 단추**로 읽는 게 맞습니다.
 
-![Anthropic 워드마크 (출처: Wikimedia Commons, 퍼블릭 도메인)](/assets/images/posts/2026-09-18-anthropic-claude-rd-index-20260918/anthropic-logo-wikimedia.png)
+![Anthropic 워드마크 (출처: Wikimedia Commons, 퍼블릭 도메인)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-09-18-anthropic-claude-rd-index-20260918/anthropic-logo-wikimedia.png)
 *Anthropic — 이번 문서는 "프런티어 랩이 아는 것과 대중이 아는 것의 간극을 줄이자"는 문제의식에서 나왔습니다 (출처: Wikimedia Commons, Public Domain / Anthropic logo)*
 
 ## 🌊 영향 — 사용자와 개발자에게

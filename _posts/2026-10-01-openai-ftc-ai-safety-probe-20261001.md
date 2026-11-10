@@ -5,7 +5,7 @@ date: 2026-10-01 14:55:00 +0900
 categories: [career]
 tags: [OpenAI, GPT, FTC, 연방거래위원회, AI안전, AI규제, 앤트로픽, Anthropic, ChatGPT, Codex, rogue agent, 로그에이전트, 보안사고, 허깅페이스, GPT6.1Astra, 앤드루퍼거슨, 업무자동화, AI뉴스, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/2026-10-01-openai-ftc-ai-safety-probe-20261001/ftc-headquarters-apex-building.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-10-01-openai-ftc-ai-safety-probe-20261001/ftc-headquarters-apex-building.jpg
 description: "2026년 9월 30일(현지시간), 미국 연방거래위원회(FTC)가 OpenAI·앤트로픽 등 AI 기업들을 상대로 '제품의 잠재적 안전 위험' 전방위 조사에 착수했다고 확인했습니다. FTC는 앤드루 퍼거슨 위원장 주도로 기업 임원들에게 문서 제출과 증언을 강제하는 민사조사요구(CID)를 준비 중이며, 로이터 등은 앤트로픽·OpenAI·METR 임원 증언이 강제될 것이라고 전했습니다. 뉴욕타임스의 '내부 안전 경고 무시' 보도, GPT-6.1 Astra 출시 취소, 허깅페이스 침해 사고, 그리고 같은 날 체결된 백악관 '초지능 협약'까지 배경을 정리하고 사용자·개발자 영향을 짚었습니다."
 ---
 
@@ -13,7 +13,7 @@ description: "2026년 9월 30일(현지시간), 미국 연방거래위원회(FTC
 
 미국 프런티어 모델을 업무에 붙여 굴리는 분들이라면, 9월 마지막 주 뉴스 흐름이 유난히 무거웠을 겁니다. 신모델 발표와 함께 **안전·보안 관련 보도가 하루 단위로 쏟아졌고**, 이제는 **규제 당국이 직접 움직이는 단계**로 넘어왔습니다. 이번 글은 그중에서도 성격이 가장 다른, **'제품 안전' 규제 뉴스** 하나를 골라 정리했습니다.
 
-![미국 연방거래위원회(FTC) 본부가 있는 워싱턴 D.C. 에이펙스 빌딩 (출처: Wikimedia Commons / Kurt Kaiser, 퍼블릭 도메인)](/assets/images/posts/2026-10-01-openai-ftc-ai-safety-probe-20261001/ftc-headquarters-apex-building.jpg)
+![미국 연방거래위원회(FTC) 본부가 있는 워싱턴 D.C. 에이펙스 빌딩 (출처: Wikimedia Commons / Kurt Kaiser, 퍼블릭 도메인)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-10-01-openai-ftc-ai-safety-probe-20261001/ftc-headquarters-apex-building.jpg)
 *미국 FTC 본부가 위치한 워싱턴 D.C. 에이펙스 빌딩 (출처: Wikimedia Commons / Kurt Kaiser, 퍼블릭 도메인)*
 
 ---
@@ -40,7 +40,7 @@ Axios 보도(2026.9.30)에 따르면, FTC는 **OpenAI, 앤트로픽, 그리고 �
 
 정리하면, 이번 조사의 초점은 **"모델이 얼마나 똑똑한가"가 아니라 "모델이 사용자·사회에 어떤 위험을 만드는가"** 입니다. 그래서 성능 벤치마크 기사와는 완전히 다른 트랙의 뉴스입니다.
 
-![앤드루 퍼거슨(Andrew N. Ferguson) FTC 위원장 (출처: FTC / Wikimedia Commons, 퍼블릭 도메인)](/assets/images/posts/2026-10-01-openai-ftc-ai-safety-probe-20261001/andrew-ferguson-ftc-chair.jpg)
+![앤드루 퍼거슨(Andrew N. Ferguson) FTC 위원장 (출처: FTC / Wikimedia Commons, 퍼블릭 도메인)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-10-01-openai-ftc-ai-safety-probe-20261001/andrew-ferguson-ftc-chair.jpg)
 *앤드루 퍼거슨 FTC 위원장 (출처: FTC / Wikimedia Commons, 퍼블릭 도메인)*
 
 ---

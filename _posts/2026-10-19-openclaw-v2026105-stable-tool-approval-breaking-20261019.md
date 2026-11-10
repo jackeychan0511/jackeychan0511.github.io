@@ -5,11 +5,11 @@ date: 2026-10-19 09:52:00 +0900
 categories: [career]
 tags: [OpenClaw, 오픈클로, 2026.10.5, 정식릴리스, 툴승인훅, ToolPolicy, 플러그인마이그레이션, X채널, 음성통화, ClawHub, 워커로컬추론, 재시작복구, 게이트웨이성능, 보안경계, 업무자동화, AI에이전트, 오픈소스AI, 오픈클로업데이트, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/openclaw-v2026105-stable-tool-approval-breaking-20261019/openclaw-official-og.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openclaw-v2026105-stable-tool-approval-breaking-20261019/openclaw-official-og.png
 description: "2026년 10월 19일 오전, 오픈소스 AI 에이전트 OpenClaw가 2026.10.5 정식판을 배포했습니다. 이번 판의 핵심은 신기능보다 '툴 승인 훅(tool approval hooks)' 정책 변경입니다. 일반 훅이 신뢰된 인라인 승인 인자를 다시 쓸 수 없게 되고, 인자를 변형하는 플러그인은 별도 승인을 받아야 합니다. 여기에 재시작을 넘어가는 대화 복구, ClawHub 게이트웨이 내장, X 채널 정식 편입, 음성 통화 확장까지. 업무 자동화 파이프라인에 에이전트를 붙여 쓰는 분들이 업그레이드 전에 확인해야 할 것만 정리했습니다."
 ---
 
-![OpenClaw 공식 홈페이지 대표 이미지 — 오픈소스 AI 에이전트 OpenClaw](/assets/images/posts/openclaw-v2026105-stable-tool-approval-breaking-20261019/openclaw-official-og.png)
+![OpenClaw 공식 홈페이지 대표 이미지 — 오픈소스 AI 에이전트 OpenClaw](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openclaw-v2026105-stable-tool-approval-breaking-20261019/openclaw-official-og.png)
 *OpenClaw 공식 홈페이지(openclaw.ai) 대표 이미지 — "The AI that really does things. Any OS. Any Platform." (출처: openclaw.ai)*
 
 > **📌 한줄 요약:** 업무 자동화 파이프라인에 AI 에이전트를 붙여 쓰는 분들이라면, 이번 건은 "또 패치 나왔네"로 넘길 소식이 아닙니다. **2026년 10월 19일 오전 6시 47분(KST)**, OpenClaw가 **`2026.10.5` 정식판**을 배포했습니다. 신기능만 보면 X 채널·음성 통화 확장이 눈에 띄지만, 실무에서 더 무거운 건 **툴 승인 훅(tool approval hooks) 정책 변경**입니다. 인자를 변형하는 플러그인을 쓰고 있다면 **업그레이드 후 조용히 차단될 수 있는** 종류의 변경입니다.
@@ -46,7 +46,7 @@ description: "2026년 10월 19일 오전, 오픈소스 AI 에이전트 OpenClaw�
 
 정리하면, `2026.10.4`는 릴리스 노트에 "**Stability patch for 2026.10.3 with no new features or configuration changes**"라고 스스로 못박은 안정화 판이었습니다. 반면 `2026.10.5`는 **Highlights에 신기능이 다섯 줄 넘게 올라온 판**입니다. 즉 이번 주에 올릴 이유가 있다면 그건 안정성이 아니라 **기능과 정책**입니다.
 
-![OpenClaw GitHub 공식 릴리스 페이지 — v2026.10.5](/assets/images/posts/openclaw-v2026105-stable-tool-approval-breaking-20261019/openclaw-release-github-og.png)
+![OpenClaw GitHub 공식 릴리스 페이지 — v2026.10.5](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openclaw-v2026105-stable-tool-approval-breaking-20261019/openclaw-release-github-og.png)
 *OpenClaw GitHub 공식 릴리스(v2026.10.5, 게시 2026-10-18 21:47 UTC = 2026-10-19 06:47 KST) (출처: github.com/openclaw/openclaw/releases)*
 
 ---
@@ -65,7 +65,7 @@ description: "2026년 10월 19일 오전, 오픈소스 AI 에이전트 OpenClaw�
 
 실무적으로 무서운 지점은 "에러가 나면서 멈춘다"가 아니라 **"정책상 차단된다"** 는 점입니다. 승인 게이트에서 막히면 자동화 입장에서는 그냥 **툴 호출이 실패한 것**으로 보이고, 상위 워크플로는 재시도나 대체 경로로 빠질 수 있습니다. 즉 **플러그인이 조용히 무력화되는** 형태로 나타날 수 있습니다.
 
-![OpenClaw 공식 문서 — 플러그인 훅 툴 정책(tool-policy) 페이지](/assets/images/posts/openclaw-v2026105-stable-tool-approval-breaking-20261019/openclaw-toolpolicy-docs-og.png)
+![OpenClaw 공식 문서 — 플러그인 훅 툴 정책(tool-policy) 페이지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openclaw-v2026105-stable-tool-approval-breaking-20261019/openclaw-toolpolicy-docs-og.png)
 *OpenClaw 공식 문서의 플러그인 훅 툴 정책(tool-policy) 페이지 — 이번 릴리스에서 마이그레이션 기준 문서로 지정됐습니다 (출처: docs.openclaw.ai/plugins/hooks/tool-policy)*
 
 ### 누가 영향받나

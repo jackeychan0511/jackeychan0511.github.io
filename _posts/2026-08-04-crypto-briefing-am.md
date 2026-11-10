@@ -5,13 +5,13 @@ date: 2026-08-04 07:00:00 +0900
 categories: [finance]
 tags: [비트코인, 가상화폐, 코인, BTC, 암호화폐, 이란, ETF]
 author: "40대 블로거"
-image: /assets/images/posts/crypto-briefing-20260801/crypto-bitcoin.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/crypto-briefing-20260801/crypto-bitcoin.jpg
 description: "8월 4일 오전 코인 브리핑. 트럼프 대통령이 이란 공습을 보류하면서 주말 미 증시 선물이 급등했고, 비트코인도 반등을 시도해 6.3만달러대를 회복했다. 다만 ETF 순유출과 산티먼트 투자심리 역대 최저치가 상단을 제한하는 모습. BTC 업비트 기준 9,045만원(-0.48%)."
 sitemap: false
 noindex: true
 ---
 
-![비트코인 차트](/assets/images/posts/crypto-briefing-20260801/crypto-bitcoin.jpg)
+![비트코인 차트](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/crypto-briefing-20260801/crypto-bitcoin.jpg)
 *비트코인 — 업비트 기준 9,045만원, 6.3만달러대 등락 (확인일: 2026.08.04 07:00 KST)*
 
 **핵심 요약**: 트럼프 대통령이 **이란 공습을 보류**하면서 주말 미 증시 선물이 일제히 급등했고, 비트코인도 반등을 시도해 **6.3만달러대를 회복**했습니다. 다만 ETF 순유출 전환과 산티먼트 투자심리 역대 최저치가 상단을 제한하고 있습니다.

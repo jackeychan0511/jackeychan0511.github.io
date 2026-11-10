@@ -5,13 +5,13 @@ date: 2026-10-13 16:52:00 +0900
 categories: [career]
 tags: [Anthropic, Claude, 앤트로픽, 클로드, ManagedAgents, 매니지드에이전트, 동적워크플로, DynamicWorkflows, 다이나믹워크플로, 멀티에이전트, Multiagent, 오케스트레이션, 서브에이전트, 워크플로런, ClaudeCode, AI에이전트, 업무자동화, 자동화파이프라인, 1000에이전트, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/anthropic-claude-managed-agents-dynamic-workflows-20261013/claude-dynamic-workflows-og.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-managed-agents-dynamic-workflows-20261013/claude-dynamic-workflows-og.png
 description: "2026년 10월 9일, Anthropic(앤트로픽)이 Claude Managed Agents에서 '동적 워크플로(dynamic workflows)'를 베타로 공개했습니다. 에이전트가 스스로 프로그램(워크플로)을 작성해 여러 에이전트를 단계(phase)별로 백그라운드에서 실행하고 결과를 하나로 합치며, 공식 문서 기준 한 번의 실행당 최대 1,000개 에이전트까지 돌릴 수 있습니다. 켜는 방법은 beta 헤더 managed-agents-2026-04-01과 에이전트의 multiagent 설정 한 줄입니다. 이슈 요약 → 상세 분석(서브에이전트 vs 워크플로·규모·한계) → 영향(사용자·개발자) → 유의점 → 전망 순으로 정리했습니다."
 sitemap: false
 noindex: true
 ---
 
-![Claude 동적 워크플로(dynamic workflows) 공식 아티클 비주얼 — 에이전트가 오케스트레이션 스크립트를 직접 작성해 병렬 서브에이전트를 부린다](/assets/images/posts/anthropic-claude-managed-agents-dynamic-workflows-20261013/claude-dynamic-workflows-og.png)
+![Claude 동적 워크플로(dynamic workflows) 공식 아티클 비주얼 — 에이전트가 오케스트레이션 스크립트를 직접 작성해 병렬 서브에이전트를 부린다](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-managed-agents-dynamic-workflows-20261013/claude-dynamic-workflows-og.png)
 *(이미지 출처: Claude(Anthropic) 공식 아티클 "Introducing dynamic workflows in Claude Code" — claude.com)*
 
 > **📌 한줄 요약:** **2026년 10월 9일**, **Anthropic(앤트로픽)** 이 **Claude Managed Agents(매니지드 에이전트)** 에서 **'동적 워크플로(dynamic workflows)'를 베타로 열었습니다.** 에이전트가 **스스로 프로그램(워크플로)을 작성**해 **여러 에이전트를 단계(phase)별로 묶어 백그라운드에서 실행**하고 **결과를 하나로 합칩니다.** 공식 문서 기준으로 **한 번의 실행(workflow run)당 총 1,000개 에이전트까지** 돌릴 수 있습니다. 켜는 방법은 **베타 헤더 `managed-agents-2026-04-01`** 과 **에이전트의 다중에이전트(multiagent) 설정**을 켜는 것뿐입니다. 한마디로 **"사람이 에이전트 여러 개를 나눠 부리는 단계"에서 "에이전트가 그 배분 자체를 코드로 써서 돌리는 단계"로 넘어간** 소식입니다.
@@ -36,7 +36,7 @@ noindex: true
 
 여기서 중요한 건 **"에이전트가 에이전트를 부리는" 방식이 한 단계 더 추상화됐다**는 점입니다. 예전에는 리드 에이전트가 **턴(turn)마다** 다음에 뭘 할지 판단하며 서브에이전트를 붙였다 뗐다 했다면, 이제는 **그 배분 로직 자체를 에이전트가 코드(스크립트)로 써서** 런타임에 넘깁니다.
 
-![Claude Managed Agents 공식 아티클 비주얼 — 호스팅형 에이전트 런타임 위에서 여러 에이전트가 조율된다](/assets/images/posts/anthropic-claude-managed-agents-dynamic-workflows-20261013/claude-managed-agents-og.png)
+![Claude Managed Agents 공식 아티클 비주얼 — 호스팅형 에이전트 런타임 위에서 여러 에이전트가 조율된다](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-managed-agents-dynamic-workflows-20261013/claude-managed-agents-og.png)
 *(이미지 출처: Claude(Anthropic) 공식 아티클 "Claude Managed Agents" — claude.com)*
 
 ---

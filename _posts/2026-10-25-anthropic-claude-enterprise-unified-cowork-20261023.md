@@ -6,12 +6,12 @@ categories: [career]
 tags: [Anthropic, Claude, 앤트로픽, 클로드, ClaudeEnterprise, ClaudeCowork, 코워크, OneClaude, 업무자동화, AI에이전트, 에이전트보안, EfficientMode, 토큰비용, SSO, ComplianceAPI, 2026년10월]
 author: "40대 블로거"
 description: "2026년 10월 23일(현지), Anthropic이 Claude Enterprise 플랜에 채팅과 Claude Cowork를 하나로 합친 '통합 Claude' 경험을 정식 출시했습니다. 에이전트 작업이 앤트로픽이 관리하는 클라우드 세션에서 돌아가고, 관리자는 역할별 접근·모델 권한·지출 한도·신규 Efficient 모드로 비용을 통제합니다. 무엇이 바뀌었고 누구에게 어떤 영향이 있는지, 적용되지 않는 예외 조건까지 정리했습니다."
-image: /assets/images/posts/anthropic-claude-enterprise-unified-20261023/claude-enterprise-unified-official.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-enterprise-unified-20261023/claude-enterprise-unified-official.png
 sitemap: false
 noindex: true
 ---
 
-![Anthropic 공식 발표 'Claude Cowork and chat come together for Enterprise' 대표 이미지](/assets/images/posts/anthropic-claude-enterprise-unified-20261023/claude-enterprise-unified-official.png)
+![Anthropic 공식 발표 'Claude Cowork and chat come together for Enterprise' 대표 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-enterprise-unified-20261023/claude-enterprise-unified-official.png)
 *Anthropic 공식 리소스 페이지(claude.com)에 게시된 'Claude Cowork and chat come together for Enterprise' 대표 이미지 — 채팅과 에이전트 작업이 한 대화 안에서 이어지는 것이 이번 발표의 핵심입니다 (출처: claude.com 공식, 2026.10.23)*
 
 > **📌 한줄 요약:** 2026년 **10월 23일(현지)**, Anthropic이 **Claude Enterprise 플랜에 '통합 Claude' 경험을 정식 출시(GA)** 했습니다. Pro·Max에서 9월부터 적용되던 **채팅 + Claude Cowork 통합**이 기업 플랜까지 확대된 것으로, 단순 UI 변경이 아닙니다. 에이전트 작업이 **앤트로픽이 관리하는 클라우드 세션**에서 실행되면서 **노트북을 닫아도 작업이 계속되고**, 관리자는 **역할별 접근·모델 권한·지출 한도·그룹 예산**과 신규 **Efficient 모드**로 비용을 통제합니다. 다만 **ZDR(제로 데이터 보존)·HIPAA 구성·고객 관리 암호화 키(CMEK)** 를 쓰는 조직은 이번 롤아웃에서 제외됩니다.
@@ -74,7 +74,7 @@ Anthropic은 이번 변경이 **새 보안 체계를 새로 요구하지 않는�
 
 여기서 실무 포인트는 **"승인 범위(scope)가 넓어졌다"** 는 사실입니다. 지금까지 "채팅만 허용"으로 승인해 둔 조직이 통합 경험을 켜면, **같은 승인 아래에서 에이전트 작업까지 가능해집니다.** 관리자 입장에서는 롤아웃 전에 **역할별 허용 범위와 모델 권한을 먼저 설계**하는 편이 안전합니다. Anthropic도 관리자가 Organization settings에서 롤아웃을 관리하도록 안내하고, 기존 고객에게는 조직별 안내 메일을 보낸다고 밝혔습니다.
 
-![Claude Enterprise 플랜 공식 페이지 이미지](/assets/images/posts/anthropic-claude-enterprise-unified-20261023/claude-enterprise-plan-official.jpg)
+![Claude Enterprise 플랜 공식 페이지 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-enterprise-unified-20261023/claude-enterprise-plan-official.jpg)
 *Claude Enterprise 플랜 공식 페이지(claude.com/solutions/enterprise) 대표 이미지 — 이번 통합은 기업 플랜의 과금·권한 체계와 함께 움직입니다 (출처: claude.com 공식)*
 
 ### 2-4. 비용 — 'Efficient 모드'가 새로 생긴 이유

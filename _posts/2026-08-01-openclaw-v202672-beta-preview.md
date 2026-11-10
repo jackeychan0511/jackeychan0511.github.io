@@ -4,7 +4,7 @@ title: "OpenClaw v2026.7.2 베타 공개: 세션 되감기·브랜칭부터 Wear
 date: 2026-08-01 10:25:00 +0900
 categories: [career]
 tags: [OpenClaw, AI에이전트, v2026.7.2, 베타, SessionBranching, WearOS, MCP, 데이터안전성, 오픈소스AI, GPTLive]
-image: /assets/images/posts/openclaw-v202672-preview/hero-openclaw-screenshot.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openclaw-v202672-preview/hero-openclaw-screenshot.png
 sitemap: false
 noindex: true
 ---
@@ -15,7 +15,7 @@ noindex: true
 
 이번 글에서는 아직 정식 릴리즈 전이지만 미리 확인할 수 있는 **v2026.7.2 베타의 핵심 변화**를 정리해드립니다. 특히 개발자라면 반가울 **세션 되감기·브랜칭** 기능이 이번 버전의 백미입니다.
 
-![OpenClaw 실제 사용 화면 스크린샷](/assets/images/posts/openclaw-v202672-preview/hero-openclaw-screenshot.png)
+![OpenClaw 실제 사용 화면 스크린샷](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openclaw-v202672-preview/hero-openclaw-screenshot.png)
 *OpenClaw 실행 화면 (출처: Wikimedia Commons, OpenClaw Screenshot)*
 
 ---
@@ -24,7 +24,7 @@ noindex: true
 
 v2026.7.2는 7월 15일 **beta.1**로 시작해 현재 **beta.5(7월 28일 배포)**까지 진행 중인 릴리즈입니다. 공식 설명에 따르면 이번 업데이트의 키워드는 **"신뢰성(Reliability)"**입니다. 새 기능 추가도 많지만, 그보다 **데이터가 안전하게 보존되고 메시지가 유실되지 않는 구조**로 내부를 뜯어고치는 데 초점을 맞췄습니다.
 
-![OpenClaw 공식 릴리즈 문서](/assets/images/posts/openclaw-v202672-preview/docs-release-notes.png)
+![OpenClaw 공식 릴리즈 문서](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openclaw-v202672-preview/docs-release-notes.png)
 *OpenClaw 공식 릴리즈 노트 (출처: docs.openclaw.ai, 확인일 2026-08-01)*
 
 | 항목 | 내용 |
@@ -85,7 +85,7 @@ v2026.7.2 베타에서 제가 가장 먼저 눈여겨본 기능은 **세션 리�
 - **인스턴트 토크 타일**: 워치에서 한 번에 음성 대화 시작
 - 알림, 게이트웨이 컨트롤, 설정 지원
 
-![OpenClaw 공식 Android 앱 화면](/assets/images/posts/openclaw-v202672-preview/android-app-chat.png)
+![OpenClaw 공식 Android 앱 화면](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openclaw-v202672-preview/android-app-chat.png)
 *OpenClaw 공식 Android 앱 스크린샷 (출처: Google Play 스토어, 확인일 2026-08-01)*
 
 다만 주의할 점이 하나 있습니다. 7월 29일경 등록된 GitHub 이슈(#116049)에 따르면 **일부 Wear OS 빌드에서 워치가 페어링된 휴대폰을 발견하지 못하는 버그**가 보고됐고, 베타 릴리즈 차단(blocker)로 분류됐습니다. 정식판에서는 수정될 가능성이 높지만, **베타 버전을 워치와 함께 쓰실 계획이라면 안정판을 기다리는 게 낫습니다.**
@@ -121,7 +121,7 @@ v2026.7.2 베타에서 제가 가장 먼저 눈여겨본 기능은 **세션 리�
 
 특히 **메모리 기능**의 경우 "Claude Code, Codex, **Hermes**에서 기존 기억을 가져올 수 있다"는 점이 눈에 띕니다. 다른 AI 에이전트를 쓰다가 OpenClaw로 넘어오는 사용자들의 진입 장벽을 낮춰주는 변화입니다.
 
-![OpenClaw 공식 Android 앱 화면 2](/assets/images/posts/openclaw-v202672-preview/android-app-feature.png)
+![OpenClaw 공식 Android 앱 화면 2](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openclaw-v202672-preview/android-app-feature.png)
 *OpenClaw 공식 Android 앱 이미지 (출처: Google Play 스토어, 확인일 2026-08-01)*
 
 ---

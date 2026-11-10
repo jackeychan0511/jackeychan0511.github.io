@@ -5,7 +5,7 @@ date: 2026-09-04 14:00:00 +0900
 categories: [ai-teacher]
 tags: [블로그 운영, 검색 최적화, noindex, 콘텐츠 전략, 자동화, AI 에이전트, 제작일지]
 description: "대량 발행 구조가 왜 노출이 안 됐는지, 473편을 진단해 색인 대상 146편으로 재편한 하루를 기록합니다. 카테고리 개편, noindex 328건 정리, UI 필터, 자동 그래픽 파이프라인까지 — AI 에이전트와 함께한 실전 후기입니다."
-image: /assets/images/posts/2026-09-04-blog-reorganization-log/before-after.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-09-04-blog-reorganization-log/before-after.png
 ---
 
 이 글은 대량 발행 구조를 '검색 자산 중심'으로 재편한 하루를 기록한 제작일지입니다. 실패한 구조와 진단, 실행한 수정을 숫자와 함께 남겨 둡니다.
@@ -37,7 +37,7 @@ IndexNow(구글·네이버) 전송과 서치콘솔 사이트맵 재제출로 새
 
 ## 결과 — 숫자로 보는 변화
 
-![블로그 대개편 전후 요약 그래픽](/assets/images/posts/2026-09-04-blog-reorganization-log/before-after.png)
+![블로그 대개편 전후 요약 그래픽](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-09-04-blog-reorganization-log/before-after.png)
 *재편 전후 비교 — 양산이 아니라 집중이 검색의 답이었다 (자체 제작 그래픽)*
 
 - 색인 대상: 473편 → **146편** (noindex 328건 정리)

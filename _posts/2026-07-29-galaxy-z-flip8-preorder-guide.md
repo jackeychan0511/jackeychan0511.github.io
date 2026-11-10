@@ -5,13 +5,13 @@ date: 2026-07-29 18:00:00 +0900
 categories: [products]
 tags: [삼성, 갤럭시, Z플립8, 폴더블, 사전예약, 플립8, IT, 신제품, 모바일, 스마트폰, SKT, KT, LGU+]
 author: "40대 블로거"
-image: /assets/images/posts/galaxy-z-flip8-preorder/hero-galaxy-z-flip8.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/galaxy-z-flip8-preorder/hero-galaxy-z-flip8.jpg
 description: "갤럭시 Z 플립8 사전예약이 7월 28일 시작됐습니다. 출고가·스펙·플립7 대비 달라진 점, SKT·KT·LG유플러스 통신사별 혜택과 자급제 할인까지 한눈에 비교 정리했습니다."
 ---
 
 > **📌 한줄 요약:** 갤럭시 Z 플립8 사전예약이 **7월 28일(화)부터 8월 3일(월)**까지 진행 중입니다. 출고가는 256GB 기준 약 **168만 3천 원**으로 전작보다 소폭 올랐지만, 더블 스토리지·삼성케어플러스 할인 등 공통 혜택과 통신사별 추가 지원금을 잘 활용하면 실구매가를 낮출 수 있습니다. **갤럭시 AI 기능이 대폭 강화**된 점이 가장 큰 체감 포인트입니다.
 
-![갤럭시 Z 플립8](/assets/images/posts/galaxy-z-flip8-preorder/hero-galaxy-z-flip8.jpg)
+![갤럭시 Z 플립8](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/galaxy-z-flip8-preorder/hero-galaxy-z-flip8.jpg)
 *삼성 갤럭시 Z 플립8 — 더 얇아진 디자인, 강화된 AI 기능 (출처: 삼성전자)*
 
 ---
@@ -44,7 +44,7 @@ description: "갤럭시 Z 플립8 사전예약이 7월 28일 시작됐습니다.
 
 색상은 **핑크**와 **민트**가 전용 색상으로 추가됐고, 기본 색상으로 블루·실버·블랙이 있습니다. 개인적으로 민트 색상이 꽤 고급스러워 보이더라고요.
 
-![갤럭시 Z 플립8 디자인](/assets/images/posts/galaxy-z-flip8-preorder/galaxy-z-flip8-design.jpg)
+![갤럭시 Z 플립8 디자인](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/galaxy-z-flip8-preorder/galaxy-z-flip8-design.jpg)
 *갤럭시 Z 플립8 디자인 — SiC 배터리로 더 얇아진 바디 (출처: 삼성전자)*
 
 ### 1-2. 성능 — 엑시노스 2600 탑재
@@ -63,7 +63,7 @@ description: "갤럭시 Z 플립8 사전예약이 7월 28일 시작됐습니다.
 
 솔직히 말씀드리면, 카메라 하드웨어 변화가 없는 점은 좀 아쉽습니다. 하지만 **AI 이미지 처리 알고리즘이 개선**돼서 야간 촬영과 인물 사진 품질은 확실히 좋아졌다는 평가입니다.
 
-![갤럭시 Z 플립8 카메라](/assets/images/posts/galaxy-z-flip8-preorder/galaxy-z-flip8-camera.jpg)
+![갤럭시 Z 플립8 카메라](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/galaxy-z-flip8-preorder/galaxy-z-flip8-camera.jpg)
 *갤럭시 Z 플립8 카메라 — AI 이미지 처리 강화로 야간 촬영 개선 (출처: 삼성전자)*
 
 ### 1-4. 배터리와 충전

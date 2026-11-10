@@ -5,11 +5,11 @@ date: 2026-11-04 15:52:00 +0900
 categories: [career]
 tags: [Google Gemini, 구글 제미나이, Google Classroom, 구글 클래스룸, Gemini for Education, Guided Learning, 교육 AI, K-12 AI 정책, 구글 검색 차단, AI 규제, 에듀테크, 업무자동화]
 author: "40대 블로거"
-image: /assets/images/posts/gemini-schools-ai-controls-20261104/google-guided-learning-hero.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-schools-ai-controls-20261104/google-guided-learning-hero.png
 description: "구글이 2026년 11월 3일 교육 정책을 뒤집었습니다. K-12 학생 계정에서 Gemini, Gemini Notebook, Gemini in Classroom, Google Search를 전부 기본 OFF로 두고, 학교 관리자가 명시적으로 켜야만 쓸 수 있게 바꿉니다. 문제는 검색과 AI가 분리되지 않아서, AI를 끄면 구글 검색까지 막힌다는 점입니다. 같은 날 Guided Learning의 검색 파일럿과 클래스룸 전 세계 배포도 함께 발표됐고, 버니 샌더스 의원은 이를 '갈취(extortion)'라고 비판했습니다. 바뀌는 기본값, 학교 관리자가 실제로 해야 할 일, 교육·에듀테크 시장에 미치는 영향을 정리합니다."
 ---
 
-![교사가 학생의 크롬북 화면을 가리키며 설명하는 모습](/assets/images/posts/gemini-schools-ai-controls-20261104/google-guided-learning-hero.png)
+![교사가 학생의 크롬북 화면을 가리키며 설명하는 모습](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-schools-ai-controls-20261104/google-guided-learning-hero.png)
 *출처: Google 공식 블로그 "Designing responsible AI for learning" (2026.11.03) 대표 이미지*
 
 > **📌 한 줄 요약:** 구글이 **2026년 11월 3일**, K-12 학생 계정에서 **Gemini · Gemini Notebook · Gemini in Classroom · Google Search** 네 가지를 **전부 기본 꺼짐(OFF)** 으로 두겠다고 발표했습니다. 학교 관리자가 **명시적으로 켜야만** 학생이 쓸 수 있습니다. 그런데 검색과 AI가 이미 한 몸이라, **AI를 끄는 선택은 곧 구글 검색을 포기하는 선택**이 됩니다. "선택권을 늘린다"는 구글의 설명과 "갈취"라는 정치권의 반응이 정면으로 충돌하는 지점입니다.
@@ -60,7 +60,7 @@ description: "구글이 2026년 11월 3일 교육 정책을 뒤집었습니다. 
 - **Google Classroom:** 발표 당일(11월 3일)부터 **전 세계 제공**. 교사가 과제로 내면 학생은 수업 자료에 묶인 1:1 학습 도구로 쓰고, 교사는 어디서 막히는지 실시간 인사이트를 받습니다.
 - **Google Search:** 학생 계정에서 복잡한 물리 문제를 붙여넣거나 독후감 도움을 요청하면, 정답 대신 사고를 유도하는 프롬프트가 뜹니다. **이번 달 미국 일부 학교에서 파일럿**을 시작으로, 피드백을 반영해 다른 학군으로 확대할 계획입니다.
 
-![Guided Learning 관련 구글 공식 이미지](/assets/images/posts/gemini-schools-ai-controls-20261104/google-guided-learning-classroom.png)
+![Guided Learning 관련 구글 공식 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-schools-ai-controls-20261104/google-guided-learning-classroom.png)
 *출처: Google 공식 블로그 Guided Learning 이미지 자료*
 
 흥미로운 건 순서입니다. **"AI를 기본으로 켜두던 정책"을 철회하는 발표와 "AI를 검색 안까지 밀어넣는 발표"가 같은 날 나왔습니다.** 규제 압박에는 기본값을 내려주고, 제품 확장은 계속하겠다는 이중 전략으로 읽히는 이유입니다.

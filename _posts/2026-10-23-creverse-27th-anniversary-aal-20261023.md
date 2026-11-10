@@ -5,7 +5,7 @@ date: 2026-10-23 12:30:00 +0900
 categories: [education]
 tags: [크레버스, CREVERSE, 청담어학원, 에이프릴어학원, CMS영재교육센터, 사고력수학, AAL, AI에이전트, 에듀테크, 창립기념일, 초등수학, 자녀교육]
 author: "40대 블로거"
-image: /assets/images/posts/creverse-27th-anniversary-aal-20261023/01-creverse-27th-anniversary-emblem.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/creverse-27th-anniversary-aal-20261023/01-creverse-27th-anniversary-emblem.jpg
 description: "크레버스(CREVERSE)가 창립 27주년을 맞아 2026년 10월 8일을 공식 창립기념일로 제정하고, 경영진·현장 리더가 참여한 '27주년, 크레버스의 다음 3년' 리더십 워크숍에서 AI 시대 성장전략을 발표했습니다. 핵심은 AI Agent Learning(AAL) 모델과 '실행(Execution)' 중심 조직 개편입니다. 전자신문·조선비즈가 10월 22일 09시 보도했으며, 학부모 관점의 체크포인트까지 정리했습니다."
 ---
 
@@ -13,7 +13,7 @@ description: "크레버스(CREVERSE)가 창립 27주년을 맞아 2026년 10월 
 
 **청담어학원·에이프릴어학원·CMS(사고력수학)**을 운영하는 코스닥 상장 교육기업 **크레버스(096240)**가 **2026년 10월 8일**을 공식 **창립기념일**로 제정하고, 같은 날 리더십 워크숍에서 **AI 시대 3개년 성장전략**을 공개했습니다. 보도는 **10월 22일 09시**, **전자신문(이원지 기자)**과 **조선비즈**가 동시에 내보냈습니다.
 
-![크레버스 27주년 엠블럼](/assets/images/posts/creverse-27th-anniversary-aal-20261023/01-creverse-27th-anniversary-emblem.jpg)
+![크레버스 27주년 엠블럼](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/creverse-27th-anniversary-aal-20261023/01-creverse-27th-anniversary-emblem.jpg)
 *크레버스 27주년 엠블럼. (사진: 크레버스 제공 / 전자신문·조선비즈 2026.10.22 보도)*
 
 이번 발표는 단순한 기념행사 뉴스가 아닙니다. **조직 구조를 '브랜드 중심 실행 단위'로 전면 개편**했다는 발표와, **AI Agent Learning(AAL)**이라는 차세대 학습 모델 제시가 함께 담겨 있기 때문입니다. 사고력수학·영재교육 시장에서 상위 브랜드가 어떤 방향으로 움직이는지를 보여주는 신호라, 자녀 교육 로드맵을 짜는 입장에서는 한 번 짚어볼 만한 내용입니다.
@@ -41,7 +41,7 @@ description: "크레버스(CREVERSE)가 창립 27주년을 맞아 2026년 10월 
 
 실제로 이 흐름은 최근 공시에서도 확인됩니다. 크레버스는 **2026년 10월 1일** 공시로 **이동훈 대표이사 사임**을 알리며 **김형준 단독 대표이사 체제**로 전환했습니다. 각자대표 체제를 정리한 직후, 통합 브랜드 아이덴티티와 3개년 전략을 연달아 내놓은 셈입니다.
 
-![청담어학원 브랜드 이미지](/assets/images/posts/creverse-27th-anniversary-aal-20261023/02-cheongdam-academy-brand.jpg)
+![청담어학원 브랜드 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/creverse-27th-anniversary-aal-20261023/02-cheongdam-academy-brand.jpg)
 *크레버스의 고급 영어 사고력 브랜드 '청담어학원'. (이미지: 크레버스 공식 홈페이지 사업 소개)*
 
 ## 🏃 "전략이 교실에 닿지 않으면 아무 일도 일어나지 않는다"
@@ -68,7 +68,7 @@ description: "크레버스(CREVERSE)가 창립 27주년을 맞아 2026년 10월 
 
 주목할 부분은 **"오프라인 교사의 전문성과 상호작용을 유지하면서"**라는 단서입니다. AI로 수업을 대체하겠다는 선언이 아니라, **오프라인 수업의 데이터를 AI가 활용하는 구조**라는 뜻으로 읽힙니다. 사고력수학처럼 발문과 토론이 핵심인 수업에서는 이 구분이 중요합니다.
 
-![CMS 영재교육센터 브랜드 이미지](/assets/images/posts/creverse-27th-anniversary-aal-20261023/03-cms-youngjae-center.jpg)
+![CMS 영재교육센터 브랜드 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/creverse-27th-anniversary-aal-20261023/03-cms-youngjae-center.jpg)
 *크레버스의 수리 사고력 브랜드 'CMS 영재교육센터'. (이미지: 크레버스 공식 홈페이지 사업 소개)*
 
 ## 🏫 AAL의 연료가 되는 3개 브랜드
@@ -86,7 +86,7 @@ description: "크레버스(CREVERSE)가 창립 27주년을 맞아 2026년 10월 
 
 영어 문해력 기반의 **'THE OPEN(디 오픈)'**에 적용된 AI 기술을 **수학·사고력 영역까지 확대**하겠다는 계획이 여기에 붙습니다. 사고력수학을 선택하려는 가정 입장에서는, 앞으로 **CMS 계열 프로그램에 AI 기반 개인화 학습이 어느 속도로, 어떤 형태로 붙는지**가 관전 포인트가 됩니다.
 
-![에이프릴어학원 브랜드 이미지](/assets/images/posts/creverse-27th-anniversary-aal-20261023/04-april-academy-brand.jpg)
+![에이프릴어학원 브랜드 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/creverse-27th-anniversary-aal-20261023/04-april-academy-brand.jpg)
 *크레버스의 초등 영어 사고력 브랜드 '에이프릴어학원'. (이미지: 크레버스 공식 홈페이지 사업 소개)*
 
 ## 👀 학부모 관점 체크포인트

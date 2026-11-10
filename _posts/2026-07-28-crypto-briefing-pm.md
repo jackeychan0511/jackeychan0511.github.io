@@ -5,7 +5,7 @@ date: 2026-07-28 13:00:00 +0900
 categories: [finance]
 tags: [비트코인, 가상화폐, 코인, BTC, 암호화폐, FOMC, 연준, 이더리움, ETH, KevinWarsh]
 author: "40대 블로거"
-image: /assets/images/posts/crypto-briefing-main.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/crypto-briefing-main.png
 description: "7월 28일 오후 코인 시장 업데이트. 연준 FOMC 회의 개막, 비트코인 $63K → $65K 반등. ETH/BTC 11개월 만에 하락추세 돌파. 워시 의장 2번째 회의, 인상 확률 38%까지 상승. 비트코인 ETF 6일 연속 순유입 $9.3억."
 sitemap: false
 noindex: true

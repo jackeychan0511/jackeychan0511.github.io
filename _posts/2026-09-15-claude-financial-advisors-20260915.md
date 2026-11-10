@@ -6,7 +6,7 @@ categories: [career]
 tags: [Anthropic, Claude, 앤트로픽, 클로드, ClaudeForFinancialAdvisors, 금융AI, FinancialServices, BlackRock, 블랙록, CharlesSchwab, 찰스슈왑, Vanguard, 뱅가드, Addepar, Envestnet, iCapital, Orion, Wealthbox, Zocks, 커넥터, Connectors, MCP, 스킬, AgentSkills, ClaudeCowork, Enterprise, 업무자동화, 금융자문, 자산관리, SEC, 규제, 컴플라이언스, OpenAI, ChatGPT, AI에이전트, 2026년9월, AI산업]
 author: "40대 블로거"
 description: "2026년 9월 14일(현지시간), Anthropic이 'Claude for Financial Advisors'를 출시했습니다. 블랙록·찰스슈왑·뱅가드·아데파·iCapital·오리온 등 자산관리 인프라 10여 곳을 커넥터로 연결하고, 미팅 준비·포트폴리오 리밸런싱 검토·컴플라이언스 점검 등 8종 스킬을 묶은 플러그인입니다. 무엇이 바뀌는지, 사용자·개발자에게 어떤 의미인지 정리했습니다."
-image: /assets/images/posts/2026-09-15-claude-financial-advisors-20260915/claude-financial-advisors-official.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-09-15-claude-financial-advisors-20260915/claude-financial-advisors-official.jpg
 sitemap: false
 noindex: true
 ---
@@ -23,7 +23,7 @@ noindex: true
 - **경쟁 구도:** **9월 10일 OpenAI의 'ChatGPT for Financial Services'** (모건스탠리 협업) 출시 **나흘 뒤** 발표 — 금융권 AI 에이전트 경쟁이 수 주 단위로 붙고 있음
 - **한 줄 요약:** **"금융 자문 업무의 '주변 노동(prep·문서·CRM)'을 에이전트가 맡고, 판단은 인간이 유지"** 라는 구조를 회계·감사 요건까지 얹어 제품화한 사건
 
-![Claude for Financial Advisors 공식 발표 이미지](/assets/images/posts/2026-09-15-claude-financial-advisors-20260915/claude-financial-advisors-official.jpg)
+![Claude for Financial Advisors 공식 발표 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-09-15-claude-financial-advisors-20260915/claude-financial-advisors-official.jpg)
 *Anthropic 공식 블로그(Claude for Financial Advisors, 2026.9.14) 발표 대표 이미지 — 커넥터와 스킬을 한 번에 설치하는 어드바이저용 플러그인 (출처: claude.com 공식 블로그 이미지)*
 
 ## 🔍 상세 분석 — 무엇이 실제로 달라졌나
@@ -80,7 +80,7 @@ noindex: true
 
 배경도 있습니다. Anthropic은 **2025년 7월 'Claude for Financial Services'** 로 금융 버티컬에 처음 진입했고, 2026년에는 **Microsoft 365(엑셀·파워포인트·워드) 애드인 연동**을 붙이며 금융권 실무 접점을 넓혀 왔습니다. 여기에 **Claude Cowork 기반 플러그인**이라는 배포 채널이 준비되면서, **"수직 특화 제품을 빠르게 찍어내는 구조"** 가 완성된 겁니다. 실제로 최근 몇 주 사이 **커머스 에이전트(9/2), Claude for Teachers(8/28), Claude Cowork 브라우저(8/26)** 등 수직·기능 출시가 연달아 나왔습니다.
 
-![블랙록 본사(50 Hudson Yards, 뉴욕) 외관](/assets/images/posts/2026-09-15-claude-financial-advisors-20260915/blackrock-hq-50hudsonyards-wikimedia.jpg)
+![블랙록 본사(50 Hudson Yards, 뉴욕) 외관](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-09-15-claude-financial-advisors-20260915/blackrock-hq-50hudsonyards-wikimedia.jpg)
 *블랙록(BlackRock) 본사가 있는 뉴욕 50 허드슨 야드 — 이번 발표에서 Advisor Center 기반 포트폴리오·기관 분석 데이터가 클로드 커넥터로 연결됩니다 (출처: Wikimedia Commons, CC BY-SA, 2026.9.15 접속)*
 
 ### 5️⃣ 업계 반응 — "대체가 아니라 시간"이라는 프레임

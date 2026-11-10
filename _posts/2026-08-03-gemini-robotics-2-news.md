@@ -16,7 +16,7 @@ noindex: true
 
 이번 글에서는 이번 주 Gemini 관련 가장 뜨거운 이슈인 **Gemini Robotics 2**를 요약 → 상세 분석 → 영향 → 전망 순서로 정리해 드립니다.
 
-![Gemini Robotics 2 대표 이미지](/assets/images/posts/gemini-robotics-2-20260803/gemini-robotics-2-hero.jpg)
+![Gemini Robotics 2 대표 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-robotics-2-20260803/gemini-robotics-2-hero.jpg)
 *Gemini Robotics 2 — 휴머노이드 전신 제어 물리 AI (출처: Google DeepMind 공식 블로그)*
 
 > 📌 참고: 본 글은 2026년 8월 3일 기준 Google DeepMind 공식 블로그와 주요 외신 보도를 바탕으로 작성한 정보형 기사입니다.
@@ -51,7 +51,7 @@ VLA(Vision-Language-Action)란 **보고, 이해하고, 행동까지** 연결하�
 - **로봇 체형 불문**: 공식 블로그에 따르면 동일한 모델 가중치로 **Apptronik Apollo 2(SharpaWave 손)**, **Apollo 2(Inspire 손)**, **Franka Duo(Robotiq 그리퍼)** 등 서로 다른 로봇을 구동하는 데모를 공개했습니다.
 - 실생활 데모로는 **어질러진 방 정리, 매듭 묶기, 지퍼백 밀봉** 같은 정밀 작업이 공개됐습니다.
 
-![Apptronik Apollo 2 데모 이미지](/assets/images/posts/gemini-robotics-2-20260803/gemini-robotics-2-og.jpg)
+![Apptronik Apollo 2 데모 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-robotics-2-20260803/gemini-robotics-2-og.jpg)
 *Gemini Robotics 2 발표 공식 소셜 이미지 (출처: Google DeepMind 공식 블로그)*
 
 ### 2️⃣ Gemini Robotics ER 2 (추론 엔진) — "로봇의 고위 뇌"

@@ -5,13 +5,13 @@ date: 2026-08-12 17:00:00 +0900
 categories: [finance]
 tags: [비트코인, 가상화폐, 코인, BTC, 암호화폐]
 author: "40대 블로거"
-image: /assets/images/posts/crypto-briefing-20260812-pm/bitcoin-laptop-keyboard.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/crypto-briefing-20260812-pm/bitcoin-laptop-keyboard.jpg
 description: "8월 12일 오후 코인 브리핑. 미국 비트코인 현물 ETF가 하루 만에 순유입으로 전환(8/11 총 +488만 달러, IBIT +5,020만 달러)했다. 라이엇 플랫폼즈가 500 BTC(약 3,000만 달러)를 매도했고, CryptoQuant 애널리스트는 변동성이 2년래 최저 수준(3.8%)까지 압축됐다며 큰 움직임을 경고했다. 오늘 밤 21:30 美 7월 CPI 발표가 분수령."
 sitemap: false
 noindex: true
 ---
 
-![노트북 키보드 위 비트코인 실물 코인](/assets/images/posts/crypto-briefing-20260812-pm/bitcoin-laptop-keyboard.jpg)
+![노트북 키보드 위 비트코인 실물 코인](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/crypto-briefing-20260812-pm/bitcoin-laptop-keyboard.jpg)
 *노트북 키보드 위 비트코인 실물 코인 — 8/12 오후 브리핑 (Satheesh Sankaran / Wikimedia Commons, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/))*
 
 **핵심 요약**: 비트코인이 6.4만달러선에서 좁은 횡보를 이어가는 가운데, 미국 비트코인 현물 ETF가 하루 만에 순유입으로 전환했습니다. 라이엇 플랫폼즈가 500 BTC를 매도하며 채굴자 매도 압력이 다시 부각됐고, 밤 21:30 CPI 발표를 앞두고 변동성은 2년래 최저 수준까지 압축됐습니다.

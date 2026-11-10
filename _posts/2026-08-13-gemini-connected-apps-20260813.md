@@ -14,10 +14,10 @@ noindex: true
 
 2026년 8월 12일(미국 현지시간) 뉴욕에서 열린 **Made by Google 2026**에서 구글이 픽셀 11과 함께 **Gemini 앱의 새 '연결 앱(connected apps)' 14종**을 공개했습니다. 의사 예약부터 식당 예약, 콘서트 티켓, 음악 스트리밍까지 — 이제 Gemini 한 곳에서 해결할 수 있게 되는 건데요. 오늘은 **이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망** 순서로 정리해 드립니다.
 
-![Gemini 연결 앱 발표 공식 이미지](/assets/images/posts/gemini-connected-apps-20260813/gemini-connected-apps-google-blog.png)
+![Gemini 연결 앱 발표 공식 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-connected-apps-20260813/gemini-connected-apps-google-blog.png)
 *구글 공식 블로그 "New connected apps are coming to Gemini" 대표 이미지 (출처: Google 공식 블로그, blog.google, 2026-08-12 게시)*
 
-![Google Gemini 로고](/assets/images/posts/gemini-connected-apps-20260813/gemini-logo-wikimedia.png)
+![Google Gemini 로고](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-connected-apps-20260813/gemini-logo-wikimedia.png)
 *Google Gemini 로고 — 연결 앱 확장의 중심이 된 구글의 AI 어시스턴트 (출처: Wikimedia Commons)*
 
 ## 📌 이슈 요약: Gemini, '말로 일을 끝내는' 연결 앱 14종 추가

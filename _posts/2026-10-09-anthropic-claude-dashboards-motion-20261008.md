@@ -5,13 +5,13 @@ date: 2026-10-09 16:52:00 +0900
 categories: [career]
 tags: [Anthropic, Claude, 앤트로픽, 클로드, ClaudeDashboards, ClaudeMotion, 클로드대시보드, 클로드모션, 라이브대시보드, 애니메이션설명영상, ClaudeCowork, ClaudeDesign, 업무자동화, AI에이전트, 자동화파이프라인, BigQuery, Snowflake, Salesforce, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/anthropic-claude-dashboards-motion-20261008/claude-dashboards-motion-og.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-dashboards-motion-20261008/claude-dashboards-motion-og.png
 description: "2026년 10월 8일, Anthropic(앤트로픽)이 Claude Dashboards와 Claude Motion을 베타로 공개했습니다. 대시보드는 BigQuery·Snowflake·Databricks·Redshift·ClickHouse 같은 데이터 플랫폼과 Salesforce 같은 CRM에 연결해 평문 질문만으로 계속 최신 상태를 유지하는 대시보드를 만들고, 모션은 텍스트·차트·이미지를 코드 기반 애니메이션 설명 영상(MP4)으로 바꿉니다. 같은 날 Docs·Slides·Design이 베타를 벗고 Free 포함 모든 요금제로 풀렸고, Claude Design은 Claude 안으로 통합됩니다. 이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 유의점 → 전망 순으로 정리했습니다."
 sitemap: false
 noindex: true
 ---
 
-![Claude Dashboards·Motion 공식 발표 비주얼 — 데이터를 라이브 대시보드로, 아이디어를 애니메이션으로](/assets/images/posts/anthropic-claude-dashboards-motion-20261008/claude-dashboards-motion-og.png)
+![Claude Dashboards·Motion 공식 발표 비주얼 — 데이터를 라이브 대시보드로, 아이디어를 애니메이션으로](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-dashboards-motion-20261008/claude-dashboards-motion-og.png)
 *(이미지 출처: Anthropic(앤트로픽) 공식 발표 페이지 "Build live dashboards and animate explainers with Claude")*
 
 > **📌 한줄 요약:** **2026년 10월 8일**, **Anthropic(앤트로픽)** 이 **Claude Dashboards**와 **Claude Motion**을 **베타**로 공개했습니다. 대시보드는 **BigQuery·Snowflake·Databricks·Amazon Redshift·ClickHouse** 같은 데이터 플랫폼과 **Salesforce** 같은 CRM에 연결해, **평문 질문 하나로 계속 최신 상태를 유지하는 대시보드**를 만들고 **각 차트에 근거 쿼리와 마지막 갱신 시각**까지 붙입니다. 모션은 **텍스트·차트·도형·이미지를 코드 기반 애니메이션 설명 영상(MP4)** 으로 바꿉니다. 같은 날 **Docs·Slides·Design이 베타를 졸업해 Free를 포함한 모든 요금제**에서 열렸습니다. 한마디로 **"Claude가 문서·표를 넘어 '라이브 데이터'와 '움직이는 설명'까지 손에 넣은"** 사건입니다.
@@ -46,7 +46,7 @@ Anthropic이 **2026년 10월 8일**, Claude의 아티팩트 계열을 **문서·
 - **근거 노출:** **숫자를 클릭하면 그 뒤의 쿼리**를 볼 수 있고, Claude에게 설명을 요청할 수도 있습니다. **각 차트에 데이터 마지막 갱신 시각**이 표시됩니다.
 - **BI 도구와 병행:** 더 깊은 분석이 필요하면 대시보드를 **Amplitude, Grafana, Hex, Mixpanel, Omni, Perplexity, PostHog, Sigma**로 바로 넘겨 이어서 분석할 수 있고, **Looker·monday.com·Tableau**도 곧 지원 예정입니다.
 
-![Claude가 1년치 자전거 공유 데이터로 만든 대시보드 — 차트마다 쿼리와 갱신 시각이 붙는다](/assets/images/posts/anthropic-claude-dashboards-motion-20261008/claude-dashboards-bikeshare.png)
+![Claude가 1년치 자전거 공유 데이터로 만든 대시보드 — 차트마다 쿼리와 갱신 시각이 붙는다](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-dashboards-motion-20261008/claude-dashboards-bikeshare.png)
 *(이미지 출처: Anthropic(앤트로픽) 공식 발표 페이지 "Build live dashboards and animate explainers with Claude")*
 
 ### 2-2. Claude Motion — 코드로 만드는 편집 가능한 애니메이션
@@ -60,7 +60,7 @@ Motion은 **분기 보고서를 30초 설명 영상으로**, **이사회 자료�
 
 Motion의 설계 철학은 **"영상 생성"이 아니라 "설명 자동화"** 입니다. 그래서 결과물이 **편집 가능한 코드 자산**으로 남는다는 점이 실무적으로 큽니다.
 
-![Claude 메시지 창에 "/motion"을 입력하면 Motion 옵션이 뜬다](/assets/images/posts/anthropic-claude-dashboards-motion-20261008/claude-motion-slash-command.png)
+![Claude 메시지 창에 "/motion"을 입력하면 Motion 옵션이 뜬다](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-dashboards-motion-20261008/claude-motion-slash-command.png)
 *(이미지 출처: Anthropic(앤트로픽) 공식 발표 페이지 "Build live dashboards and animate explainers with Claude")*
 
 ### 2-3. Docs·Slides·Design 정식 출시 — 이제 Free도 포함

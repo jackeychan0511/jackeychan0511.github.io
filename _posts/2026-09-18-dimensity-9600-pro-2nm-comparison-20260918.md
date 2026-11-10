@@ -5,7 +5,7 @@ date: 2026-09-18 11:24:00 +0900
 categories: [products]
 tags: [디멘시티 9600 프로, Dimensity 9600 Pro, 미디어텍, 2nm 칩, 스냅드래곤 8 엘리트 Gen 6, 애플 A20 프로, vivo X500 Pro Max, OPPO Find X10 Pro Max, 엑시노스 2700, 플래그십 스마트폰 추천, 스마트폰 칩 비교, 제품 비교]
 author: "40대 블로거"
-image: /assets/images/posts/mediatek-dimensity-9600-pro-20260918/mediatek-dimensity-9600-pro-chip.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/mediatek-dimensity-9600-pro-20260918/mediatek-dimensity-9600-pro-chip.jpg
 description: "미디어텍이 세계 첫 2nm 스마트폰 칩 '디멘시티 9600 프로'를 9월 15일 공개했습니다. 2+3+3 올빅코어(C2-Ultra 4.55GHz), 싱글 +17%·멀티 +15% 성능 향상, 멀티코어 전력 효율 61% 개선, LPDDR6·UFS 5.0 지원까지 정리했습니다. vivo X500 프로(9월 21일)와 OPPO Find X10 Pro Max(9월 22일)에 세계 최초 탑재되며, 스냅드래곤 8 엘리트 Gen 6 프로·애플 A20 프로·엑시노프 2700과의 비교 포인트, 칩 가격 220달러 보도까지 솔직하게 짚었습니다. 이미지는 미디어텍 공식 제품 페이지와 OPPO 공식 뉴스룸입니다."
 ---
 
@@ -17,7 +17,7 @@ description: "미디어텍이 세계 첫 2nm 스마트폰 칩 '디멘시티 9600
 
 이번 글에서는 **디멘시티 9600 프로가 정확히 무엇이 달라졌는지, 그리고 지금 폰을 바꿀 사람에게 의미가 있는지**를 정리해 봤습니다.
 
-![미디어텍 디멘시티 9600 프로 공식 제품 이미지 (출처: MediaTek 공식 제품 페이지)](/assets/images/posts/mediatek-dimensity-9600-pro-20260918/mediatek-dimensity-9600-pro-chip.jpg)
+![미디어텍 디멘시티 9600 프로 공식 제품 이미지 (출처: MediaTek 공식 제품 페이지)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/mediatek-dimensity-9600-pro-20260918/mediatek-dimensity-9600-pro-chip.jpg)
 *디멘시티 9600 프로는 미디어텍 최초의 2nm 플래그십 칩입니다 (출처: MediaTek 공식)*
 
 ## 디멘시티 9600 프로 — 무엇이 달라졌나
@@ -78,13 +78,13 @@ description: "미디어텍이 세계 첫 2nm 스마트폰 칩 '디멘시티 9600
 
 칩만 발표하고 끝나면 의미가 없는데, **첫 탑재 기기 두 개가 이미 확정**됐습니다.
 
-![OPPO Find X10 Pro Max 공식 티저 이미지 (출처: OPPO 공식 뉴스룸)](/assets/images/posts/mediatek-dimensity-9600-pro-20260918/oppo-find-x10-pro-max.jpg)
+![OPPO Find X10 Pro Max 공식 티저 이미지 (출처: OPPO 공식 뉴스룸)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/mediatek-dimensity-9600-pro-20260918/oppo-find-x10-pro-max.jpg)
 *OPPO는 Find X10 Pro Max의 디멘시티 9600 프로 탑재를 공식 발표했습니다 (출처: OPPO 공식 뉴스룸)*
 
 - **vivo X500 프로 / X500 프로 맥스** — 9월 21일 공개 예정, **세계 최초 탑재** 주장
 - **OPPO Find X10 Pro Max** — 9월 22일 중국 공개 후 글로벌 출시 예고
 
-![vivo X500 프로 맥스 프레스 렌더 (출처: Gizmochina)](/assets/images/posts/mediatek-dimensity-9600-pro-20260918/vivo-x500-pro-max.jpg)
+![vivo X500 프로 맥스 프레스 렌더 (출처: Gizmochina)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/mediatek-dimensity-9600-pro-20260918/vivo-x500-pro-max.jpg)
 *vivo X500 프로 시리즈는 9월 21일 공개를 앞두고 있습니다 (출처: Gizmochina 프레스 렌더)*
 
 **OPPO가 공식 발표한 내용**을 보면 Find X10 Pro Max는 **6.82인치 120Hz 디스플레이**, **200MP급 센서 3개**를 앞세운 카메라 구성, **ColorOS 17**, **8,000mAh 배터리**가 거론됩니다. OPPO는 특히 이 칩 덕분에 **4K 60fps 영상을 오래 연속 촬영**하고, 고사양 게임을 **8시간가량 풀프레임으로** 돌릴 수 있다고 설명했습니다.

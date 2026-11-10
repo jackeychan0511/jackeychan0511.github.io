@@ -5,7 +5,7 @@ date: 2026-08-07 10:50:00 +0900
 categories: [career]
 tags: [OpenClaw, 오픈클로, AI에이전트, Claw Chain, 보안, 취약점, v2026.7.2, 메인브랜치, TechRadar, 업데이트, 릴리즈, 오픈소스AI, 2026년8월]
 author: "40대 블로거"
-image: /assets/images/posts/openclaw-aug7-20260807/openclaw-official-site.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openclaw-aug7-20260807/openclaw-official-site.png
 description: "2026년 8월 7일 기준 오픈소스 AI 에이전트 OpenClaw의 최신 소식입니다. 커뮤니티 뉴스 'The Claw Report'가 8월 7일자로 'Claw Chain' 다단계 공격 경로를 다시 조명했고, TechRadar(8/5)는 ThreatLocker CEO 명의로 'OpenClaw 공격 이후 방어 재설계' 오피니언을 게재했습니다. 같은 기간 메인브랜치에는 P0 워크트리 데이터 손실 수정(#119691/#119709)을 포함한 보안·안정성 수정이 봇물처럼 합류했으며, GitHub 스타 385,392개(+132), npm 채널 현황(latest 2026.7.1-2 / extended-stable 2026.6.34 / beta 2026.7.2-beta.7)을 정리했습니다."
 sitemap: false
 noindex: true
@@ -15,7 +15,7 @@ noindex: true
 
 오늘(8월 7일) 아침, The Claw Report·openclaw.academy·GitHub API·npm 레지스트리를 직접 확인한 결과 기준으로 정리하면 **① 커뮤니티가 'Claw Chain' 다단계 공격 경로를 다시 조명, ② TechRadar가 ThreatLocker CEO 명의 보안 오피니언 게재, ③ 메인브랜치에 P0 워크트리 데이터 손실 수정 포함 수정 봇물, ④ GitHub 스타 385,392개 돌파 & v2026.7.2 정식판은 여전히 대기 중** — 이렇게 네 가지로 요약됩니다.
 
-![OpenClaw 공식 홈페이지 히어로](/assets/images/posts/openclaw-aug7-20260807/openclaw-official-site.png)
+![OpenClaw 공식 홈페이지 히어로](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openclaw-aug7-20260807/openclaw-official-site.png)
 *OpenClaw 공식 홈페이지 메인 — "The AI that really does things." 원라인 설치 명령어 제공 (출처: openclaw.ai, 확인일 2026-08-07)*
 
 ---
@@ -24,7 +24,7 @@ noindex: true
 
 커뮤니티 뉴스 사이트 **The Claw Report**가 8월 7일자 헤드라인으로 보안 연구자·업계 그룹이 **오래되거나 잘못 설정된 OpenClaw 배포를 노리는 다단계 "Claw Chain" 공격 경로**를 상세히 정리했다고 전했습니다. 그러면서 **"2026.7.1 같은 일상적 릴리즈가 계속 나오는 가운데, 운영자들은 신속한 업데이트와 설정 강화로 노출을 줄이라"**고 권고했어요.
 
-![The Claw Report 뉴스 페이지](/assets/images/posts/openclaw-aug7-20260807/openclaw-clawreport-news.png)
+![The Claw Report 뉴스 페이지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openclaw-aug7-20260807/openclaw-clawreport-news.png)
 *The Claw Report 메인 — "Signal over hype." 8/7자 'Claw Chain' 보안 스포트라이트와 8/5~8/6 메인브랜치 수정 뉴스 (출처: theclawreport.com, 확인일 2026-08-07)*
 
 ### Claw Chain이 뭔가요? (5월 공개, 4개 CVE 연쇄)
@@ -89,7 +89,7 @@ v2026.7.2 정식판이 아직 안 나왔는데도, 메인브랜치에는 **8월 
 | 🕐 마지막 push | **2026-08-07 01:38 UTC** | 확인 직전에도 커밋 진행 중 |
 | 📝 전체 커밋 | **76,883** | 최신 커밋은 steipete 님의 보안 수정(804ae7f) |
 
-![OpenClaw 공식 GitHub 저장소](/assets/images/posts/openclaw-aug7-20260807/openclaw-github-repo.png)
+![OpenClaw 공식 GitHub 저장소](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openclaw-aug7-20260807/openclaw-github-repo.png)
 *OpenClaw 공식 GitHub 저장소 메인 — Star 385k, Fork 81k, 최신 커밋이 계속 올라오는 중 (출처: github.com/openclaw/openclaw, 확인일 2026-08-07)*
 
 npm 채널 현황도 다시 확인했습니다. **어제와 동일하게** 정식 v2026.7.2는 아직 나오지 않았습니다.
@@ -145,7 +145,7 @@ openclaw doctor --fix
 4. **최소 권한 원칙** — 에이전트에게 파일·브라우저·자격증명 접근을 줄 때 **꼭 필요한 것만**. "기본 거부(deny-by-default)" 마인드가 이제 업계 표준 권고입니다
 5. **워크트리 경로 점검** — OpenClaw 상태 루트 아래에 둔 Git 워크트리가 있다면 **지금 백업** (P0 이슈 반영)
 
-![ClawCon 2026 현장 사진](/assets/images/posts/openclaw-aug7-20260807/openclaw-clawcon-2026.jpg)
+![ClawCon 2026 현장 사진](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openclaw-aug7-20260807/openclaw-clawcon-2026.jpg)
 *ClawCon 2026 현장 — OpenClaw 창시자 Peter Steinberger와 커뮤니티의 만남. 보안 이슈에도 커뮤니티는 계속 성장 중 (출처: Wikimedia Commons, CC0, 촬영 2026-02-04)*
 
 ---

@@ -5,7 +5,7 @@ date: 2026-10-04 16:52:00 +0900
 categories: [career]
 tags: [Anthropic, Claude, 앤트로픽, 클로드, AI뉴스, ClaudeCode, 클로드코드, Mods, 모드, TypeScript, 플러그인, 개발도구, 미들웨어, 업무자동화, AI에이전트, 에이전틱코딩, 커스터마이징, CLI, 데스크톱앱, 2026년10월, AI산업]
 author: "40대 블로거"
-image: /assets/images/posts/2026-10-04-anthropic-claude-code-mods-20261001/claude-code-mods-official.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-10-04-anthropic-claude-code-mods-20261001/claude-code-mods-official.jpg
 description: "2026년 10월 1일(미국 현지시간), Anthropic이 Claude Code에 '모드(Mods)' 시스템을 공개했습니다. 모드는 Claude Code가 이벤트(툴 호출·프롬프트 제출·화면 그리기 등)를 낼 때 끼어들어 프롬프트를 다시 쓰거나, 툴 호출을 막고, 화면에 새 패널·버튼을 그리거나, 내장 기능을 통째로 대체하는 JavaScript·TypeScript 함수입니다. 플러그인 형태로 배포돼 CLI와 데스크톱 앱에서 쓸 수 있고, '/diff' 같은 내장 기능도 모드로 옮겨갑니다. 무엇이 바뀌는지, 사용자·개발자에게 어떤 의미인지 이슈 요약 → 상세 분석 → 영향 → 전망 순서로 정리했습니다."
 sitemap: false
 noindex: true
@@ -15,7 +15,7 @@ noindex: true
 
 코딩 에이전트를 업무에 붙여 쓰다 보면, "이 부분만 내 방식대로 바꾸면 훨씬 편할 텐데" 하는 지점이 꼭 생깁니다. 특정 조건에서 위험한 툴 호출을 자동으로 막고 싶다거나, 지금 컨텍스트가 얼마나 찼는지 보여주는 패널 하나만 더 있었으면 싶은 경우입니다. 그동안은 그런 요구가 있어도 **Anthropic이 기능을 만들어 줄 때까지 기다리는 선택지밖에 없었습니다.** Anthropic이 2026년 10월 1일 공개한 **Claude Code '모드(Mods)'** 는 정확히 이 지점, 즉 **에이전트 내부에 직접 끼어들어 동작과 화면을 바꾸는 구조**를 겨냥합니다. 무엇이 가능해졌고, 실무자에게 어떤 의미인지 정리해 보겠습니다.
 
-![Claude Code 모드(Mods) 공식 발표 이미지 — 개발자가 에이전트의 동작과 화면을 직접 바꿀 수 있는 TypeScript 모드 시스템을 소개합니다](/assets/images/posts/2026-10-04-anthropic-claude-code-mods-20261001/claude-code-mods-official.jpg)
+![Claude Code 모드(Mods) 공식 발표 이미지 — 개발자가 에이전트의 동작과 화면을 직접 바꿀 수 있는 TypeScript 모드 시스템을 소개합니다](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-10-04-anthropic-claude-code-mods-20261001/claude-code-mods-official.jpg)
 *Claude Code 모드(Mods) 공식 발표 대표 이미지 — 모드는 에이전트 '내부'에서 실행되는 이벤트 핸들러입니다 (출처: claude.com / Anthropic 공식)*
 
 ## 🗞️ 이슈 요약 — 한눈에 보기
@@ -28,7 +28,7 @@ noindex: true
 - **내장 기능의 모드화:** **`/diff` 같은 내장 기능이 이미 모드로 전환**됐습니다. 끄거나 자기 버전으로 교체할 수 있고, **더 많은 내장 기능을 모드로 옮길 계획**입니다
 - **주의점:** 모드는 **샌드박스가 아니며 Claude Code와 같은 권한**으로 실행됩니다. **신뢰할 수 있는 출처의 모드만 설치**해야 합니다
 
-![Anthropic 공식 개발자 블로그(claude.dev)의 'Claude Code 모드 시작하기' 가이드 대표 이미지 — 빈 폴더에서 첫 모드를 만드는 과정을 단계별로 안내합니다](/assets/images/posts/2026-10-04-anthropic-claude-code-mods-20261001/claude-code-mods-guide.png)
+![Anthropic 공식 개발자 블로그(claude.dev)의 'Claude Code 모드 시작하기' 가이드 대표 이미지 — 빈 폴더에서 첫 모드를 만드는 과정을 단계별로 안내합니다](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-10-04-anthropic-claude-code-mods-20261001/claude-code-mods-guide.png)
 *Anthropic 공식 개발자 블로그의 'Getting started with Claude Code mods' 가이드 대표 이미지 — 직접 모드를 만들어 보는 실습형 문서가 함께 공개됐습니다 (출처: claude.dev / Anthropic 공식)*
 
 ## 🔍 상세 분석 — 모드가 정확히 무엇인가

@@ -5,7 +5,7 @@ date: 2026-10-09 12:00:00 +0900
 categories: [education]
 tags: [생각하는황소, 사고력수학, 개인정보유출, 학원해킹, 초등수학, 학부모, 개인정보보호법, 손해배상, 집단소송, 자녀교육]
 author: "40대 블로거"
-image: /assets/images/posts/thinking-bull-hacking-privacy-leak-20261009/02-thinkingbull-brand.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/thinking-bull-hacking-privacy-leak-20261009/02-thinkingbull-brand.png
 description: "전국 80여 개 지점을 운영하는 초등 수학학원 '생각하는황소'의 시험 예약 사이트가 해킹돼 학생·학부모 개인정보가 유출됐을 가능성이 제기됐습니다. 학원은 2026년 9월 17일 해커 침입을 확인하고 18일 홈페이지에 공지했으며, 개인정보보호위원회에 신고했습니다. 유출 추정 항목은 학생 이름·학교·학년·생년월일과 학부모 전화번호입니다. 이 사건과 관련해 손해배상 청구 소송인단 모집이 2026년 10월 20일까지 진행 중입니다. 사고 경위와 법적 쟁점, 학부모 대응 체크리스트를 정리했습니다."
 ---
 
@@ -13,7 +13,7 @@ description: "전국 80여 개 지점을 운영하는 초등 수학학원 '생�
 
 초등 수학 전문학원 **생각하는황소**의 **시험 예약 사이트가 해킹**돼, 이 사이트를 통해 레벨테스트를 예약한 이력이 있는 **학생과 학부모의 개인정보가 유출됐을 가능성**이 제기됐습니다. 학원은 **2026년 9월 17일** 정체불명의 해커 침입을 확인하고, **다음 날인 9월 18일** 홈페이지에 공지를 올려 학부모에게 알렸습니다.
 
-![생각하는황소 공식 브랜드 이미지](/assets/images/posts/thinking-bull-hacking-privacy-leak-20261009/02-thinkingbull-brand.png)
+![생각하는황소 공식 브랜드 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/thinking-bull-hacking-privacy-leak-20261009/02-thinkingbull-brand.png)
 
 *생각하는황소 공식 브랜드 이미지. 출처: 생각하는황소 공식 홈페이지(thinking-bull.com)*
 
@@ -39,7 +39,7 @@ description: "전국 80여 개 지점을 운영하는 초등 수학학원 '생�
 
 가장 먼저 경계해야 할 것은 **보이스피싱**입니다. 학원은 공지에서 "신원 미상자로부터 연락이나 문자 메시지를 받으면 보이스피싱 가능성을 염두에 두라"고 당부했습니다. 아이 이름과 학교를 정확히 아는 상대라면 학부모 입장에서 '진짜 학원 관계자'로 오인하기 쉽기 때문에, **모르는 번호의 등록금·교재비 요구, 시험·결제 관련 링크**는 일단 의심하는 것이 안전합니다.
 
-![생각하는황소 홈페이지 개인정보 유출 고지 캡처 (연합뉴스 보도)](/assets/images/posts/thinking-bull-hacking-privacy-leak-20261009/03-yonhap-notice-capture.jpg)
+![생각하는황소 홈페이지 개인정보 유출 고지 캡처 (연합뉴스 보도)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/thinking-bull-hacking-privacy-leak-20261009/03-yonhap-notice-capture.jpg)
 
 *생각하는황소 홈페이지에 게시된 개인정보 유출 고지 캡처. 출처: 연합뉴스(2026.09.18)*
 
@@ -77,7 +77,7 @@ description: "전국 80여 개 지점을 운영하는 초등 수학학원 '생�
 - 자녀 정보를 제출할 때는 **'왜 이 정보가 필요한지'**를 한 번 더 확인하고, 불필요한 항목은 요구되지 않는지 봐 두는 것이 좋습니다.
 - 이미 사고가 난 학원의 재원생·예약 이력이 있다면, **공지 내용을 직접 확인하고 후속 안내를 놓치지 않는 것**이 우선입니다.
 
-![생각하는황소 공식 로고](/assets/images/posts/thinking-bull-hacking-privacy-leak-20261009/01-thinkingbull-logo.png)
+![생각하는황소 공식 로고](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/thinking-bull-hacking-privacy-leak-20261009/01-thinkingbull-logo.png)
 
 *생각하는황소 공식 로고. 출처: 생각하는황소 공식 홈페이지(thinking-bull.com)*
 

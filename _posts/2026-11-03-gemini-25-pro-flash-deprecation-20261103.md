@@ -5,11 +5,11 @@ date: 2026-11-03 15:50:00 +0900
 categories: [career]
 tags: [Google Gemini, 구글 제미나이, 제미나이 2.5 프로, 제미나이 2.5 플래시, Gemini 2.5 Pro 종료, Gemini 2.5 Flash 종료, Gemini API, 모델 지원 종료, Gemini 3.8 Flash, Gemini 3.5 Flash-Lite, thinking_level, thought signature, API 마이그레이션, API 가격, 업무자동화]
 author: "40대 블로거"
-image: /assets/images/posts/gemini-25-deprecation-20261103/google-ai-studio-model-select.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-25-deprecation-20261103/google-ai-studio-model-select.png
 description: "구글이 2026년 11월 2일 Gemini API 릴리스 노트에서 gemini-2.5-pro와 gemini-2.5-flash를 공식 폐기(deprecated)로 전환했습니다. 12월 1일부터 두 모델로 들어온 API 요청은 각각 gemini-3.8-flash, gemini-3.5-flash-lite로 자동 라우팅되고, 같은 날짜부터 과금 단가도 새 모델 기준으로 바뀝니다. thinking_budget이 thinking_level로 대체되고 샘플링 파라미터와 프리필 턴이 제거되는 등 코드를 고쳐야 하는 지점도 정리했습니다. 가격 비교, 마이그레이션 체크리스트, 2027년 1월 단가 인상까지 한 번에 정리합니다."
 ---
 
-![Google AI Studio 모델 선택 화면](/assets/images/posts/gemini-25-deprecation-20261103/google-ai-studio-model-select.png)
+![Google AI Studio 모델 선택 화면](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-25-deprecation-20261103/google-ai-studio-model-select.png)
 *출처: Wikimedia Commons "AI Studio's UI October 2025" (CC0, 원본: aistudio.google.com)*
 
 > **📌 한 줄 요약:** 구글이 **2026년 11월 2일**, `gemini-2.5-pro`와 `gemini-2.5-flash`를 공식 폐기 모델로 지정했습니다. **12월 1일**부터 두 모델로 들어오는 API 요청은 각각 **`gemini-3.8-flash`** 와 **`gemini-3.5-flash-lite`** 로 **자동 라우팅**되고, 과금도 새 모델 단가로 전환됩니다. 에러가 나서 멈추는 게 아니라 **조용히 다른 모델로 갈아타는** 방식이라, 코드를 안 고쳐둔 자동화일수록 위험합니다.
@@ -89,7 +89,7 @@ Gemini API 공식 릴리스 노트의 최신 항목은 **2026년 11월 2일**자
 
 정리하면 **모델 ID 교체 + SDK 업그레이드 + 사고 레벨 재설정 + 프리필 제거 + 함수 호출 스키마 점검**이 한 세트입니다.
 
-![Google Gemini 공식 로고](/assets/images/posts/gemini-25-deprecation-20261103/google-gemini-logo-2025.png)
+![Google Gemini 공식 로고](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-25-deprecation-20261103/google-gemini-logo-2025.png)
 *출처: Wikimedia Commons "Google Gemini logo 2025" (퍼블릭 도메인, 원본: Google LLC / About Gemini)*
 
 ## 영향 — 사용자와 개발자

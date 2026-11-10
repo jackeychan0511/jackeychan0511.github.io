@@ -5,11 +5,11 @@ date: 2026-09-30 09:52:00 +0900
 categories: [career]
 tags: [OpenClaw, 오픈클로, OpenClawEnterprise, OCE, 엔터프라이즈, 기업용AI, 오픈AI, OpenAI, 레드햇, RedHat, 엔비디아, NVIDIA, 오픈소스, MIT라이선스, 컨트롤플레인, OCC, 멀티테넌시, 거버넌스, 샌드박스, 쿠버네티스, AI에이전트, 업무자동화, 자동화파이프라인, 2026년9월, AI뉴스]
 author: "40대 블로거"
-image: /assets/images/posts/openclaw-enterprise-launch-20260930/openclaw-enterprise-official-og.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openclaw-enterprise-launch-20260930/openclaw-enterprise-official-og.png
 description: "2026년 9월 29일, 오픈클로 재단(OpenClaw Foundation)이 'OpenClaw Enterprise(OCE)'를 전격 공개했습니다. 오픈AI에서 시작해 재단에 기증된 오픈소스·벤더중립 에이전트 관리 플랫폼으로, 레드햇과 엔비디아가 공동 개발에 참여했고 정식 1.0 이전 단계부터 코드를 통째로 공개했습니다. 커밋 로그와 공식 문서를 직접 열어 확인한 결과, 핵심은 '에이전트용 컨트롤 플레인(OCC)'과 멀티테넌시·강한 보안 경계·거버넌스·감사 기능입니다. 요즘 저처럼 기업 환경에서 AI 에이전트를 굴리려다 IT 보안팀 벽에 막히신 분들께, 뭐가 달라지는지와 솔직한 장단점을 정리했습니다."
 ---
 
-![OpenClaw Enterprise 공식 발표 이미지 — 기업용 오픈 에이전트 플랫폼 OCE](/assets/images/posts/openclaw-enterprise-launch-20260930/openclaw-enterprise-official-og.png)
+![OpenClaw Enterprise 공식 발표 이미지 — 기업용 오픈 에이전트 플랫폼 OCE](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openclaw-enterprise-launch-20260930/openclaw-enterprise-official-og.png)
 *OpenClaw 재단 공식 블로그(openclaw.ai/blog/openclaw-enterprise)가 2026년 9월 29일 공개한 OpenClaw Enterprise 발표 대표 이미지 (출처: openclaw.ai 공식 블로그)*
 
 ## 요즘 저처럼 "에이전트는 쓰고 싶은데 회사가 못 쓰게 막는" 분들, 이번 소식 반갑습니다
@@ -35,7 +35,7 @@ description: "2026년 9월 29일, 오픈클로 재단(OpenClaw Foundation)이 'O
 
 ## OpenClaw Enterprise, 대체 뭐가 나온 건가
 
-![OpenClaw Enterprise 공식 GitHub 저장소](/assets/images/posts/openclaw-enterprise-launch-20260930/openclaw-enterprise-github-og.png)
+![OpenClaw Enterprise 공식 GitHub 저장소](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openclaw-enterprise-launch-20260930/openclaw-enterprise-github-og.png)
 *OCE 공식 저장소(github.com/openclaw/openclaw-enterprise) — 소개 문구 그대로 "The Enterprise-grade Control Plane for modern agentic workloads" (출처: GitHub 공식 저장소)*
 
 공식 블로그의 표현을 그대로 옮기면 이렇습니다. OCE는 **"민감한 환경에서 상시 동작하는(persistent) 에이전트를 관리하기 위한, 오픈소스·벤더중립 플랫폼"** 입니다. 저장소 첫 줄은 더 직관적입니다. **"에이전트를 위한 쿠버네티스(Kubernetes for agents)라고 생각하라."**
@@ -48,7 +48,7 @@ description: "2026년 9월 29일, 오픈클로 재단(OpenClaw Foundation)이 'O
 
 ## 핵심 기능 — "에이전트용 컨트롤 플레인"을 뜯어보니
 
-![OpenClaw Enterprise 컨트롤 플레인 콘솔 화면(공식 문서)](/assets/images/posts/openclaw-enterprise-launch-20260930/openclaw-enterprise-console-official.png)
+![OpenClaw Enterprise 컨트롤 플레인 콘솔 화면(공식 문서)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openclaw-enterprise-launch-20260930/openclaw-enterprise-console-official.png)
 *OCE 공식 문서에 실린 OpenClaw 컨트롤 플레인(OCC) 콘솔 화면 — 에이전트·버전·런타임을 한 화면에서 관리한다 (출처: openclaw/openclaw-enterprise 공식 저장소 docs)*
 
 저는 공식 저장소와 문서를 직접 열어서 구조를 확인했습니다. 제가 이해한 핵심은 이렇습니다.
@@ -74,7 +74,7 @@ description: "2026년 9월 29일, 오픈클로 재단(OpenClaw Foundation)이 'O
 - **성숙도**: 저장소는 **2026년 8월 말 생성**되어 9월 30일까지 활발히 커밋되고 있었고(푸시 타임스탬프 기준), 스타 수는 아직 적은 **초기 프로젝트**였습니다. 동시에 **오픈 이슈가 100개 안팎**이라, 지금은 "완성품"이라기보다 **"빠르게 다듬어지는 파일럿 단계"** 로 보는 게 맞습니다.
 - **실증 사례**: 블로그에는 오픈AI 내부에서 `Androidclaw`라는 사내 에이전트가 **코드베이스·플러그인 전체 접근 권한**으로 돌아가며, 빌드가 깨지면 PR을 찾아 고치고, 버그 리포트에 30초 만에 SEV 링크로 답한다는 사례가 실려 있었습니다. 이건 상당히 구체적인 실사용 증거입니다.
 
-![OpenClaw Enterprise 마스코트 — 메카 슈트를 입은 오픈클로](/assets/images/posts/openclaw-enterprise-launch-20260930/openclaw-enterprise-mascot.png)
+![OpenClaw Enterprise 마스코트 — 메카 슈트를 입은 오픈클로](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openclaw-enterprise-launch-20260930/openclaw-enterprise-mascot.png)
 *OCE 공식 마스코트 — "메카 슈트를 입은 오픈클로"(OpenClaw in a mech suit). 저장소 docs/assets의 공식 자산 (출처: openclaw/openclaw-enterprise 공식 저장소)*
 
 ## 장점 — 이게 진짜 반가운 이유
@@ -102,7 +102,7 @@ description: "2026년 9월 29일, 오픈클로 재단(OpenClaw Foundation)이 'O
 
 ## 마무리 — 비용 걱정 없이 사내 에이전트를 시작하고 싶은 분께
 
-![OpenClaw 공식 로고](/assets/images/posts/openclaw-enterprise-launch-20260930/openclaw-logo-official.png)
+![OpenClaw 공식 로고](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openclaw-enterprise-launch-20260930/openclaw-logo-official.png)
 *OpenClaw 재단 저작물 — 오픈소스·벤더중립을 표방하는 오픈클로의 정체성 (출처: openclaw.ai 공식 로고)*
 
 정리하면 이렇습니다. 요즘 저처럼 **"에이전트는 쓰고 싶은데, 회사 보안팀이 못 넘게 막는"** 상황에 놓인 분들, 그리고 **"우리 인프라에서 안전하게 돌아가는 상시 에이전트"** 를 원하시는 분들께 **OpenClaw Enterprise는 지금 시점에서 가장 설득력 있는 선택지**입니다. 라이선스 비용 없이, 벤더에 묶이지 않고, 감사와 권한 통제까지 얹을 수 있다는 건 실무자 입장에서 정말 큰 차이니까요.

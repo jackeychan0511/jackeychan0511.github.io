@@ -6,7 +6,7 @@ categories: [career]
 tags: [Gemini, Google, AI편향, AIOverviews, 알고리즘편향, AI윤리, 인종차별, Euronews, 2026년8월, 구글AI]
 author: "40대 블로거"
 description: "2026년 8월 23일부터 사용자들이 구글 AI Overviews에 'I'm alone with a…(어떤 국적의 사람과 단둘이 있다면?)'이라는 질문을 던지며 국적별 답변 차이를 테스트하기 시작했습니다. 영국인에게는 '차 한 잔을 권하라'고, 알제리인에게는 '경찰에 신고하라'고 답한 Gemini의 상반된 응답이 프랑스 언론을 중심으로 인종 편향 논란으로 번졌는데요. 구글의 공식 입장, ChatGPT·Claude와의 비교 테스트 결과, 사용자·개발자에게 주는 영향과 전망까지 정리했습니다."
-image: /assets/images/posts/gemini-nationality-bias-20260828/gemini-sparkicon-googleblog.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-nationality-bias-20260828/gemini-sparkicon-googleblog.png
 sitemap: false
 noindex: true
 ---
@@ -15,7 +15,7 @@ noindex: true
 
 바로 **Gemini가 '상대방의 국적'에 따라 극단적으로 다른 답변을 내놓았다는 국적 편향 논란**인데요. 같은 질문인데 영국인이면 "차 한 잔을 권해보세요"라고 하고, 알제리인이면 "경찰에 신고하세요"라고 답했다는 겁니다. 오늘은 이 사건을 **이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망** 순서로 정리해 드립니다.
 
-![Google Gemini 공식 아이콘](/assets/images/posts/gemini-nationality-bias-20260828/gemini-sparkicon-googleblog.png)
+![Google Gemini 공식 아이콘](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-nationality-bias-20260828/gemini-sparkicon-googleblog.png)
 *Google Gemini — 구글의 AI 비서 (출처: Google 공식 블로그)*
 
 ## 📌 이슈 요약: "커피 한 잔" vs "경찰 신고"
@@ -78,7 +78,7 @@ noindex: true
 
 구글은 빠른 수정과 공식 입장 표명으로 일단락되는 분위기지만, **'AI의 공정성'은 일회성 패치가 아니라 지속적인 평가 시스템**이 필요하다는 숙제를 남겼습니다. 앞으로 AI 답변을 볼 때는 "이 답변이 왜 이렇게 나왔을까" 한 번쯤 의심해 보는 습관이, 생각보다 중요한 시대가 된 것 같습니다.
 
-![Google Gemini 로고](/assets/images/posts/gemini-nationality-bias-20260828/gemini-logo-wikimedia.svg)
+![Google Gemini 로고](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-nationality-bias-20260828/gemini-logo-wikimedia.svg)
 *Google Gemini 로고 (출처: Wikimedia Commons)*
 
 *함께 보면 좋은 글: [Google Gemini 최신 소식 — Gemini Live 생산성 대폭 강화 (2026.8.27)](/2026/08/27/gemini-live-productivity-upgrade-20260827/)*

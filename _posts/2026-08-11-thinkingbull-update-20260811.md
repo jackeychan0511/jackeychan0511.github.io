@@ -4,7 +4,7 @@ title: "[업데이트] 황소수학 12월 정규 입학시험 접수 9/28부터 
 date: 2026-08-11 12:30:00 +0900
 categories: [education]
 tags: [황소수학, 생각하는황소, 황소고시]
-image: /assets/images/posts/thinking-bull-main.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/thinking-bull-main.png
 description: "2026년 8월 11일 기준 생각하는황소(황소수학) 새 소식. 연말 '황소고시'인 12월 정규 입학시험 온라인 접수가 9월 28일부터 시작되며, 8월 22일·29일에는 8월 정기 편입시험이 치러집니다. 지점별 일정과 유의사항을 정리했습니다."
 sitemap: false
 noindex: true

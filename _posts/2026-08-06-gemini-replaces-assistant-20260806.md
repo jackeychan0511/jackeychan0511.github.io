@@ -16,7 +16,7 @@ noindex: true
 
 이번 글에서는 이 이슈를 **요약 → 상세 분석 → 영향(사용자·개발자) → 전망** 순서로 정리해 드립니다.
 
-![Google Gemini 공식 로고](/assets/images/posts/gemini-replaces-assistant-20260806/gemini-official-logo.png)
+![Google Gemini 공식 로고](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-replaces-assistant-20260806/gemini-official-logo.png)
 *Google Gemini 공식 로고 — Android 기본 어시스턴트로 전면 부임 (출처: Wikimedia Commons, Google 공식 로고)*
 
 ## 📌 이슈 요약: Assistant, 9월 4일부로 Android에서 퇴역
@@ -42,7 +42,7 @@ Google Assistant는 2016년에 첫선을 보인 구글의 음성 비서입니다
 
 전환 과정 자체는 생각보다 매끄럽게 설계되어 있습니다. 새 기기나 Gemini 설정 과정에서 Assistant를 대체하는 기본 AI로 안내가 진행되고, 같은 Google 계정을 쓰기 때문에 연락처·일정 같은 데이터는 그대로 이어집니다. 문제는 **Assistant에서 쓰던 음성 루틴이나 일부 명령어가 Gemini에서는 동작 방식이 다를 수 있다**는 점입니다.
 
-![Google Assistant 공식 로고](/assets/images/posts/gemini-replaces-assistant-20260806/assistant-official-logo.png)
+![Google Assistant 공식 로고](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-replaces-assistant-20260806/assistant-official-logo.png)
 *Google Assistant 공식 로고 — 9월 4일부터 Android·Wear OS에서 퇴역 (출처: Wikimedia Commons, Google 공식 로고)*
 
 ## 👤 영향: 사용자와 개발자에게 어떤 변화가?

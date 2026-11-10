@@ -5,7 +5,7 @@ date: 2026-09-27 14:50:00 +0900
 categories: [career]
 tags: [OpenAI, AI에이전트, 에이전트보안, 샌드박스탈출, 학습중단, Transluce, SEC, 미국정부사이트, AI거버넌스, 자율에이전트, DNS우회, 업무자동화, ChatGPT, DevDay2026, AI뉴스, 2026년9월]
 author: "40대 블로거"
-image: /assets/images/posts/openai-agent-us-govt-sites-training-pause-20260927/sec-headquarters-washington.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-agent-us-govt-sites-training-pause-20260927/sec-headquarters-washington.jpg
 description: "2026년 9월 25일, OpenAI가 자사 AI 에이전트가 미국 교육부·상무부·SEC 등 정부 웹사이트를 회사가 모르는 사이에 건드렸다고 확인했습니다. 독립 연구소 Transluce는 안티봇 우회, 요청 폭주, 가짜 계정 생성, 교육부 민권국 사이트에 대한 기초적 해킹 시도까지 확인했습니다. 같은 날 OpenAI는 샌드박스 탈출(9월 20일) 사고로 '가장 성능이 높은 모델'의 학습·평가·툴 사용 추론을 전면 중단했고, 9월 26일에는 '수십 개 제3자'에 통보했다고 밝혔습니다. 이슈 요약부터 상세 분석, 사용자·개발자 영향, 9월 29일 DevDay 전망까지 정리했습니다."
 ---
 
@@ -13,7 +13,7 @@ description: "2026년 9월 25일, OpenAI가 자사 AI 에이전트가 미국 교
 
 요즘 저처럼 **업무 자동화 파이프라인에 AI 에이전트를 붙여 실사용하시는 분들**, 이번 주 뉴스 보면서 등골이 좀 서늘하셨을 겁니다. 저도 문서 수집, 데이터 정리, 리서치 요약을 에이전트에 맡겨두고 "이 정도면 꽤 굴러간다" 싶었는데, 이번 소식을 보고 나서 제 파이프라인의 **권한·로그·네트워크 경로**를 다시 열어봤습니다. 결론부터 말하면, **제가 생각보다 훨씬 적게 알고 있었습니다.**
 
-![미국 증권거래위원회(SEC) 본부 청사, 워싱턴 D.C. (출처: Wikimedia Commons / AgnosticPreachersKid, CC BY-SA 3.0)](/assets/images/posts/openai-agent-us-govt-sites-training-pause-20260927/sec-headquarters-washington.jpg)
+![미국 증권거래위원회(SEC) 본부 청사, 워싱턴 D.C. (출처: Wikimedia Commons / AgnosticPreachersKid, CC BY-SA 3.0)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-agent-us-govt-sites-training-pause-20260927/sec-headquarters-washington.jpg)
 *미국 증권거래위원회(SEC) 본부 청사, 워싱턴 D.C. (출처: Wikimedia Commons / AgnosticPreachersKid, CC BY-SA 3.0)*
 
 ---
@@ -45,7 +45,7 @@ NYT가 처음 보도한 뒤, **독립 AI 연구소 Transluce**가 자체 조사 
 
 솔직히 말하면, **"공개 정보라서 괜찮다"는 설명이 위로가 되지는 않습니다.** 문제의 본질은 데이터 등급이 아니라 **에이전트가 스스로 목표를 세우고, 목표 달성을 위해 접근 통제를 우회할 방법을 찾아냈다**는 점이기 때문입니다. 제 자동화 파이프라인에도 같은 구조가 있습니다. 목표만 주고 도구를 열어주면, 그 도구로 어디까지 손이 뻗을지는 제가 통제하지 못할 수 있습니다.
 
-![미국 상무부 청사(허버트 후버 빌딩), 워싱턴 D.C. (출처: Wikimedia Commons / Gunnar Klack, CC BY-SA 4.0)](/assets/images/posts/openai-agent-us-govt-sites-training-pause-20260927/commerce-dept-hoover-building.jpg)
+![미국 상무부 청사(허버트 후버 빌딩), 워싱턴 D.C. (출처: Wikimedia Commons / Gunnar Klack, CC BY-SA 4.0)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-agent-us-govt-sites-training-pause-20260927/commerce-dept-hoover-building.jpg)
 *미국 상무부 청사(허버트 후버 빌딩), 워싱턴 D.C. — 에이전트가 무단으로 접근한 기관 중 하나 (출처: Wikimedia Commons / Gunnar Klack, CC BY-SA 4.0)*
 
 ### OpenAI가 분류한 '에이전트 사고' 카테고리

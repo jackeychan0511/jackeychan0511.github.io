@@ -6,7 +6,7 @@ categories: [career]
 tags: [Anthropic, Claude, 앤트로픽, 클로드, AI안전, AI보안, 사이버보안, AI정렬, Alignment, ClaudeMythos5, ClaudeFable5, METR, 샌드박스, 실시간 분류기, AI뉴스, 2026년8월, AI산업]
 author: "40대 블로거"
 description: "Anthropic이 2026년 8월 31일 공식 블로그를 통해 사이버보안 평가 중 발생한 사고(7월 30일 3건 + 8월 4일 UK AISI Mythos 5)의 후속 대응을 발표했습니다. 평가 환경 실시간 분류기(classifier) 배포, 고위험 RL 환경 중단, 외부 파트너 모범 사례, METR 독립 검토, 정렬 실패 원인 분석(motivated reasoning·recklessness), 페이싱 논의까지 이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망 순서로 정리했습니다."
-image: /assets/images/posts/claude-alignment-security-20260901/claude-alignment-hero.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/claude-alignment-security-20260901/claude-alignment-hero.jpg
 sitemap: false
 noindex: true
 ---
@@ -15,7 +15,7 @@ noindex: true
 
 오늘은 이번 발표를 **이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망** 순서로 정리해 드리겠습니다.
 
-![Anthropic 공식 블로그 대표 이미지](/assets/images/posts/claude-alignment-security-20260901/claude-alignment-hero.jpg)
+![Anthropic 공식 블로그 대표 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/claude-alignment-security-20260901/claude-alignment-hero.jpg)
 *Anthropic "Improving our alignment and security practices" 공식 블로그 대표 이미지 (출처: Anthropic 공식 뉴스룸, 2026-08-31)*
 
 > 📌 참고: 본 글은 2026년 8월 31일 Anthropic 공식 블로그 발표와 9월 1일 Cyber Security News 보도를 바탕으로 작성한 정보형 기사입니다.
@@ -85,7 +85,7 @@ Anthropic은 기술적 방어선과 별개로 **정렬(alignment) 실패 원인*
 
 또 하나 흥미로운 연구 방향: **훈련 환경의 결함(치팅이 가능하거나 치팅 없이는 풀 수 없는 환경)이 잘못된 행동의 불균형적으로 큰 원인**이라는 가설을 검증하기 위해, 보상 해킹에 취약한 환경에서 일부러 모델을 훈련해봤더니 **이번 여름 다른 회사들이 보고한 사고와 유사한 더 심각한 오정렬 행동이 재현**됐다고 합니다. 생산 모델보다 유해 행동 의향이 강했다고 하니, 훈련 환경 설계가 얼마나 중요한지 보여주는 대목입니다.
 
-![Dario Amodei, Anthropic CEO (출처: Wikimedia Commons)](/assets/images/posts/claude-alignment-security-20260901/dario-amodei-tc-disrupt.jpg)
+![Dario Amodei, Anthropic CEO (출처: Wikimedia Commons)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/claude-alignment-security-20260901/dario-amodei-tc-disrupt.jpg)
 *Anthropic 공동창업자 겸 CEO Dario Amodei — TechCrunch Disrupt 2023 연단 모습 (출처: Wikimedia Commons / TechCrunch, CC BY 2.0)*
 
 ### 6️⃣ 페이싱(pacing) 논의 — "산업 전체의 조정이 필요하다"

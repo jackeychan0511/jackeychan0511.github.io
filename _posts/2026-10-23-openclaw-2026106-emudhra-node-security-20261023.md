@@ -5,11 +5,11 @@ date: 2026-10-23 09:52:00 +0900
 categories: [career]
 tags: [OpenClaw, 오픈클로, 2026.10.6, 보안릴리스, eMudhra, 인증서유출, emSign, CVE-2026-111943, Node.js보안, Node24, TLS, 업데이트거부, 업무자동화, AI에이전트, 오픈소스AI, 오픈클로업데이트, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/openclaw-2026106-emudhra-node-security-20261023/openclaw-official-og.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openclaw-2026106-emudhra-node-security-20261023/openclaw-official-og.png
 description: "2026년 10월 22일 오후 9시 53분(KST), 오픈소스 AI 에이전트 OpenClaw가 2026.10.6을 배포했습니다. 신기능이 없는 패치 릴리스지만 성격은 '보안 릴리스'입니다. 10월 18~19일 eMudhra(emSign) 중간 CA 키 유출 사고(CVE-2026-111943)에 대한 대응으로, OpenClaw는 Node 24.22.1 이상 또는 26.12.1 이상을 요구하고 구버전 Node에서는 openclaw update를 거부합니다. 업무 자동화 파이프라인에서 에이전트를 돌리는 분들이 업그레이드 전에 확인할 점만 정리했습니다."
 ---
 
-![OpenClaw 공식 홈페이지 대표 이미지 — 오픈소스 AI 에이전트 OpenClaw](/assets/images/posts/openclaw-2026106-emudhra-node-security-20261023/openclaw-official-og.png)
+![OpenClaw 공식 홈페이지 대표 이미지 — 오픈소스 AI 에이전트 OpenClaw](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openclaw-2026106-emudhra-node-security-20261023/openclaw-official-og.png)
 *OpenClaw 공식 홈페이지(openclaw.ai) 대표 이미지. OpenClaw 재단이 릴리스에 서명하고 MIT 라이선스로 배포한다는 문구가 첫 화면에 걸려 있습니다. (출처: openclaw.ai)*
 
 > **📌 한줄 요약:** 2026년 10월 22일 오후 9시 53분(KST), OpenClaw가 **`2026.10.6`** 을 배포했습니다. 릴리스 노트 첫 줄이 "보안 릴리스(Security release)"입니다. 10월 18~19일 **eMudhra(emSign) 중간 CA 키 유출 사고**에 대한 조치로, OpenClaw는 이제 **Node 24.22.1 이상(24 라인) 또는 26.12.1 이상(26 라인)** 을 요구합니다. 그리고 **구버전 Node에서는 `openclaw update`가 설치를 진행하지 않고 거부합니다.** 자동 업데이트를 걸어둔 환경이라면 "왜 갑자기 안 올라가지"가 아니라, 업데이터가 일부러 멈춘 것일 수 있습니다.
@@ -61,7 +61,7 @@ OpenClaw 릴리스만 보면 맥락이 안 보입니다. 배경은 10월 중순 
 
 왜 이게 AI 에이전트에까지 문제가 되냐면, 에이전트가 하는 일의 상당 부분이 **바깥으로 나가는 HTTPS 연결**이기 때문입니다. 모델 API를 호출하고, 메신저 채널에 붙고, 웹을 읽고, 사내 시스템에 붙습니다. 그 연결의 신뢰 판단을 런타임(Node)이 합니다. 런타임이 폐기된 키를 여전히 신뢰하면, **에이전트가 "정상 연결"이라고 믿는 상대가 실제로는 아니게 될 수 있습니다.** 에이전트는 판단을 위임받은 존재라, 이 지점이 뚫리면 사람이 눈치채기 어렵습니다.
 
-![Node.js 공식 블로그의 2026년 10월 보안 릴리스 공지 이미지](/assets/images/posts/openclaw-2026106-emudhra-node-security-20261023/nodejs-oct2026-security-og.png)
+![Node.js 공식 블로그의 2026년 10월 보안 릴리스 공지 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openclaw-2026106-emudhra-node-security-20261023/nodejs-oct2026-security-og.png)
 *Node.js 공식 블로그의 2026년 10월 21일 보안 릴리스 공지. 22.x·24.x·26.x 라인 동시 배포가 예고된 문서입니다. (출처: nodejs.org)*
 
 ---
@@ -115,7 +115,7 @@ Docker로 굴리는 환경이라면 이미지 태그만 올리면 Node 문제는
 
 업무 자동화 파이프라인에 에이전트를 붙여 쓰는 경우라면 영향 범위가 한 단계 더 넓습니다. 에이전트 자체가 안 뜨는 것보다 골치 아픈 건, **에이전트가 도는 것처럼 보이면서 특정 외부 연동만 실패하는 상태**입니다. 인증서 체인이 거부되면 모델 API나 웹 도구처럼 HTTPS를 타는 경로에서 오류가 나고, 메신저 채널은 멀쩡히 살아 있을 수 있습니다.
 
-![OpenClaw 실행 화면 스크린샷 — 채팅 인터페이스에서 에이전트를 호출하는 모습](/assets/images/posts/openclaw-2026106-emudhra-node-security-20261023/openclaw-ui-screenshot-commons.png)
+![OpenClaw 실행 화면 스크린샷 — 채팅 인터페이스에서 에이전트를 호출하는 모습](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openclaw-2026106-emudhra-node-security-20261023/openclaw-ui-screenshot-commons.png)
 *OpenClaw 실행 화면(위키미디어 공용, MIT 라이선스). 채널 메신저에서 에이전트를 호출하는 구조라, HTTPS 경로가 막히면 "일부만 안 되는" 형태로 증상이 나타납니다. (출처: Wikimedia Commons)*
 
 ---

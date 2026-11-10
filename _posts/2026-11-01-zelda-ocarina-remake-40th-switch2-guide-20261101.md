@@ -5,11 +5,11 @@ date: 2026-11-01 11:20:00 +0900
 categories: [products]
 tags: [젤다의전설, 시간의오카리나, 오카리나리메이크, 닌텐도스위치2, 젤다40주년, 스위치240주년에디션, 닌텐도, 게임추천, 제품비교, 구매가이드, 2026년11월]
 author: "40대 블로거"
-image: /assets/images/posts/zelda-ocarina-remake-40th-switch2-guide-20261101/zelda-40th-keyvisual.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/zelda-ocarina-remake-40th-switch2-guide-20261101/zelda-40th-keyvisual.jpg
 description: "닌텐도가 1998년 N64 원작 '젤다의 전설 시간의 오카리나'를 풀 리메이크해 2026년 11월 5일 스위치2 전용으로 출시합니다. 국내 가격은 패키지 88,000원, 다운로드 79,800원입니다. 10월 29일 먼저 출시된 '젤다의 전설 40주년 애니버서리 에디션' 스위치2는 788,000원으로 일반판(758,000원)보다 30,000원 비싸지만 게임은 포함되지 않습니다. 에디션·일반판·게임 단품의 실제 총지출을 계산해 어떤 경우에 무엇을 사야 하는지, 그리고 원작 대비 무엇이 바뀌었는지 정리했습니다."
 ---
 
-![젤다의 전설 40주년 키비주얼](/assets/images/posts/zelda-ocarina-remake-40th-switch2-guide-20261101/zelda-40th-keyvisual.jpg)
+![젤다의 전설 40주년 키비주얼](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/zelda-ocarina-remake-40th-switch2-guide-20261101/zelda-40th-keyvisual.jpg)
 *'젤다의 전설 40주년' 특별 디자인과 시간의 오카리나 리메이크 키비주얼. 게임은 11월 5일, 40주년 에디션 본체는 10월 29일 출시됐습니다 (출처: 한국닌텐도 공식 뉴스)*
 
 > **📌 한줄 요약:** 1998년 N64 원작 **'젤다의 전설 시간의 오카리나'** 가 **2026년 11월 5일(목)**, 스위치2 전용 풀 리메이크로 나옵니다. 국내 가격은 **패키지 88,000원 / 다운로드 79,800원** 입니다. 본체보다 먼저인 **10월 29일** 에는 트라이포스 디자인의 **'젤다의 전설 40주년 애니버서리 에디션' 스위치2(788,000원)** 가 출시됐는데, **일반판(758,000원)보다 30,000원 비싸면서 게임은 들어 있지 않습니다.** 즉 에디션 + 패키지 게임 = **876,000원**, 일반판 + 패키지 게임 = **846,000원**. "3만원 더 내고 트라이포스 각인 본체를 살 가치가 있는가"가 이 글의 핵심 질문입니다.
@@ -32,7 +32,7 @@ description: "닌텐도가 1998년 N64 원작 '젤다의 전설 시간의 오카
 
 한국닌텐도 공식 표현은 **"1998년에 발매된 '시간의 오카리나'를 풀 리메이크한 작품"** 이고, **"그래픽을 완전히 새롭게 하고 플레이 편의성도 크게 향상"** 시켰다고 밝혔습니다. 게임동아 보도에 따르면 코키리 숲을 비롯한 배경부터 링크의 의상과 장비까지 새로 제작했고, 소재별 질감을 살리면서도 원작의 분위기는 유지하는 방향으로 작업했습니다.
 
-![스위치2 40주년 에디션 본체](/assets/images/posts/zelda-ocarina-remake-40th-switch2-guide-20261101/switch2-40th-console.jpg)
+![스위치2 40주년 에디션 본체](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/zelda-ocarina-remake-40th-switch2-guide-20261101/switch2-40th-console.jpg)
 *트라이포스를 모티브로 한 40주년 에디션 본체. 도트로 표현된 링크와 젤다가 곳곳에 숨어 있습니다 (출처: 한국닌텐도 공식 뉴스)*
 
 개발진이 내세운 키워드는 **"현대 기술을 활용한 원작의 충실한 재해석"** 입니다. 무기를 얻고, 그 도구를 어디에 쓸지 고민하는 원작의 구조는 그대로 두고, 손에 잡히는 감각만 현재 기준으로 끌어올린 셈입니다.
@@ -56,12 +56,12 @@ description: "닌텐도가 1998년 N64 원작 '젤다의 전설 시간의 오카
 
 특히 오카리나 연주는 이번 작품의 상징적인 변화입니다. 스위치2 본체 마이크를 활용해, 링크가 이미 배운 곡을 **입으로 흥얼거리면 게임이 이를 인식해 링크가 그 곡을 연주** 합니다. 실제 오카리나 같은 악기로 불어도 반응한다고 닌텐도는 설명했습니다. 원작을 했던 분들이라면 이 한 줄에서 감회가 다를 겁니다.
 
-![오카리나 마이크 연주 기능](/assets/images/posts/zelda-ocarina-remake-40th-switch2-guide-20261101/oot-ocarina-mic.jpg)
+![오카리나 마이크 연주 기능](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/zelda-ocarina-remake-40th-switch2-guide-20261101/oot-ocarina-mic.jpg)
 *본체 마이크로 멜로디를 인식시키는 오카리나 연주. 실제 악기 연주에도 반응합니다 (출처: 한국닌텐도 공식 뉴스)*
 
 여기에 스마트폰 앱 **'Nintendo Switch App'** 의 게임 연동 서비스 **'ZELDA NOTES'** 가 새로 대응합니다. 하루 플레이를 시간순으로 되돌아보는 **'오늘의 기록'**, 스마트폰에 표시된 사진을 단서로 게임 속 장소를 찾는 **'소문 퀘스트'** 가 대표적입니다. 원작에는 없던, "하다가 폰을 놓게 되는" 요소입니다.
 
-![ZELDA NOTES 앱 연동](/assets/images/posts/zelda-ocarina-remake-40th-switch2-guide-20261101/zelda-notes-app.jpg)
+![ZELDA NOTES 앱 연동](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/zelda-ocarina-remake-40th-switch2-guide-20261101/zelda-notes-app.jpg)
 *Nintendo Switch App의 ZELDA NOTES. 하루 플레이 기록과 사진 단서 퀘스트를 제공합니다 (출처: 한국닌텐도 공식 뉴스)*
 
 ---
@@ -82,7 +82,7 @@ description: "닌텐도가 1998년 N64 원작 '젤다의 전설 시간의 오카
 
 즉 국내 기준 **일반판 758,000원 + 패키지 게임 88,000원 = 846,000원**, **에디션 788,000원 + 패키지 게임 88,000원 = 876,000원**. 차액은 정확히 **30,000원** 입니다. 이 3만원은 "게임 값"이 아니라 순수하게 **디자인 프리미엄** 입니다.
 
-![스위치2 40주년 Pro 컨트롤러](/assets/images/posts/zelda-ocarina-remake-40th-switch2-guide-20261101/switch2-40th-pro-controller.jpg)
+![스위치2 40주년 Pro 컨트롤러](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/zelda-ocarina-remake-40th-switch2-guide-20261101/switch2-40th-pro-controller.jpg)
 *40주년 Pro 컨트롤러는 시리즈 최초로 디스플레이 스탠드가 동봉됩니다. 스탠드도 게임 속 맵 디자인입니다 (출처: 한국닌텐도 공식 뉴스)*
 
 참고로 일반 스위치2의 국내 가격은 2026년 9월 1일부로 **648,000원에서 758,000원으로 인상**됐습니다. 40주년 에디션 788,000원은 인상된 가격을 기준으로 +30,000원인 셈이라, 예전 가격(648,000원)과 비교하면 체감 차이가 훨씬 크게 느껴질 수 있습니다.

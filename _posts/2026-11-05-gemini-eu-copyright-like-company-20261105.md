@@ -5,11 +5,11 @@ date: 2026-11-05 15:52:00 +0900
 categories: [career]
 tags: [Google Gemini, 구글 제미나이, EU 저작권, CJEU, 유럽사법재판소, 법무관 의견, 언론사 인접권, press publishers right, DSM 지침, TDM 예외, 텍스트데이터마이닝, AI 저작권 분쟁, Like Company, C-250/25, Gemini 크롤링, AI 요약, 퍼블리셔 옵트아웃, 저작권 리스크, 업무자동화]
 author: "40대 블로거"
-image: /assets/images/posts/gemini-eu-copyright-like-company-20261105/cjeu-building-luxembourg.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-eu-copyright-like-company-20261105/cjeu-building-luxembourg.jpg
 description: "2026년 11월 3일, EU 최고법원(CJEU) 법무관 마치에이 슈푸나르가 헝가리 언론사 Like Company 대 구글 사건(C-250/25) 의견을 냈습니다. 학습 자체는 텍스트·데이터 마이닝(TDM) 예외로 허용되지만, 챗봇이 기사를 가져와 답변을 만들고 사용자에게 제공하는 과정은 특정 조건에서 언론사 권리를 침해할 수 있다는 판단입니다. 페이월 우회 여부, 표현의 재현 정도, 반복적 제공이라는 세 가지 기준과 구글의 반응, 사용자·개발자·자동화 운영자에게 달라지는 점을 정리했습니다."
 ---
 
-![EU 최고법원(사법재판소) 청사 전경](/assets/images/posts/gemini-eu-copyright-like-company-20261105/cjeu-building-luxembourg.jpg)
+![EU 최고법원(사법재판소) 청사 전경](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-eu-copyright-like-company-20261105/cjeu-building-luxembourg.jpg)
 *출처: Wikimedia Commons "Court of Justice of the European Union Luxembourg 01.jpg" by FrDr (CC BY-SA 4.0)*
 
 > **📌 한 줄 요약:** 2026년 11월 3일, EU 최고법원(CJEU) 법무관이 **"제미나이가 기사를 가져와 답변을 만들면, 상황에 따라 언론사 권리를 침해할 수 있다"** 는 의견을 냈습니다. 모델 **학습**은 텍스트·데이터 마이닝(TDM) 예외로 허용되지만, **답변 출력**은 별개로 봐야 한다는 게 핵심입니다. EU에서 생성형 AI 저작권 쟁점이 최고법원까지 올라간 첫 사건이라, 제미나이뿐 아니라 요약형 AI 전반의 기준선이 될 수 있습니다.
@@ -33,7 +33,7 @@ description: "2026년 11월 3일, EU 최고법원(CJEU) 법무관 마치에이 �
 
 즉 "기사를 읽고 학습했다"는 것과 "기사 문장을 답변으로 되뱉었다"는 것은 전혀 다른 문제라는 구분입니다.
 
-![Google Gemini 공식 이미지](/assets/images/posts/gemini-eu-copyright-like-company-20261105/gemini-official-hero.png)
+![Google Gemini 공식 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-eu-copyright-like-company-20261105/gemini-official-hero.png)
 *출처: Google 공식 Gemini 제품 페이지 대표 이미지 (blog.google)*
 
 ## 판단 기준은 세 가지 — 접근·표현·반복

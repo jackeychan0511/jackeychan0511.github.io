@@ -5,11 +5,11 @@ date: 2026-10-08 11:25:00 +0900
 categories: [products]
 tags: [서피스랩톱울트라, SurfaceLaptopUltra, RTX스파크, RTXSpark, 엔비디아, NVIDIA, 델XPS16, DellXPS16CreatorEdition, AI PC, 로컬AI, 윈도우11, Windows11, 마이크로소프트, Microsoft, 코파일럿, Copilot, 제품비교, 구매가이드, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/surface-laptop-ultra-rtx-spark-launch-guide-20261008/surface-laptop-ultra.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/surface-laptop-ultra-rtx-spark-launch-guide-20261008/surface-laptop-ultra.jpg
 description: "마이크로소프트가 2026년 10월 7일 샌프란시스코 행사에서 엔비디아 RTX 스파크를 탑재한 '서피스 랩톱 울트라'의 가격과 출시일을 확정했습니다. 시작가는 2,599달러, 10월 16일 출하, 최대 128GB 통합 메모리와 1페타플롭 AI 성능이 핵심입니다. 이 글은 제품 소개 → RTX 스파크 구조 → 윈도우 11 변화(실행 컨테이너·검색 재설계) → 델 XPS 16 크리에이터 에디션 비교 → 가격·출시 정보 → 장단점 순서로 정리했습니다."
 ---
 
-![서피스 랩톱 울트라 공식 이미지 — 엔비디아 RTX 스파크를 탑재한 15형 알루미늄 노트북](/assets/images/posts/surface-laptop-ultra-rtx-spark-launch-guide-20261008/surface-laptop-ultra.jpg)
+![서피스 랩톱 울트라 공식 이미지 — 엔비디아 RTX 스파크를 탑재한 15형 알루미늄 노트북](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/surface-laptop-ultra-rtx-spark-launch-guide-20261008/surface-laptop-ultra.jpg)
 *마이크로소프트가 2026년 10월 7일 가격을 공개한 '서피스 랩톱 울트라'. 15형 미니LED 디스플레이에 RTX 스파크 N1X를 얹은 첫 서피스 AI PC입니다 (출처: 언론 공개 이미지, 2026.10)*
 
 > **📌 한줄 요약:** 마이크로소프트가 **2026년 10월 7일** 샌프란시스코 행사에서 엔비디아 **RTX 스파크**를 탑재한 **서피스 랩톱 울트라**의 가격과 출시일을 확정했습니다. 시작가는 **2,599달러**, **10월 16일** 출하, 최대 **128GB 통합 메모리**와 **1페타플롭(초당 1,000조회) AI 연산**으로 **120B 파라미터 모델을 노트북에서 직접** 돌리는 것이 핵심입니다. 같은 날 **윈도우 11**에도 AI 에이전트용 **실행 컨테이너(Execution Containers)**와 재설계된 검색이 발표됐고, 델도 **XPS 16 크리에이터 에디션**으로 동참했습니다. 노트북에서 대형 AI 모델을 돌리고 싶은 분들이라면 주목할 만한 소식입니다.
@@ -72,7 +72,7 @@ description: "마이크로소프트가 2026년 10월 7일 샌프란시스코 행
 
 특히 눈에 띄는 건 **마그네틱 USB-C 충전 포트**입니다. 기존처럼 케이블을 꽂는 방식이 아니라 자석으로 붙는 구조로, 충전 중 케이블이 빠지는 사고를 줄이는 설계입니다. 여기에 **대형 햅틱 트랙패드**까지 더해져 물리적 완성도에 공을 들인 흔적이 보입니다.
 
-![서피스 랩톱 울트라 공식 이미지 — 각도에서 본 알루미늄 섀시와 키보드](/assets/images/posts/surface-laptop-ultra-rtx-spark-launch-guide-20261008/surface-laptop-ultra-2.jpg)
+![서피스 랩톱 울트라 공식 이미지 — 각도에서 본 알루미늄 섀시와 키보드](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/surface-laptop-ultra-rtx-spark-launch-guide-20261008/surface-laptop-ultra-2.jpg)
 *알루미늄 유니바디 섀시에 대형 햅틱 트랙패드를 얹었습니다. 충전은 자석으로 붙는 USB-C 포트를 사용합니다 (출처: 언론 공개 이미지, 2026.10)*
 
 ---
@@ -103,7 +103,7 @@ description: "마이크로소프트가 2026년 10월 7일 샌프란시스코 행
 
 정리하면, 마이크로소프트는 **"AI 에이전트가 일하는 OS"**라는 방향으로 윈도우를 재편하고 있습니다. 실행 컨테이너는 **보안·관리 측면**에서 실무적인 의미가 큰 변화입니다. 에이전트가 사용자 권한 그대로 시스템을 건드리는 것이 위험하다는 문제의식이 반영된 것으로, **업무용 자동화를 돌리는 조직**이라면 특히 눈여겨볼 부분입니다.
 
-![서피스 RTX 스파크 개발자 박스 공식 이미지 — 로컬 AI 모델 테스트용 데스크톱](/assets/images/posts/surface-laptop-ultra-rtx-spark-launch-guide-20261008/surface-rtx-spark-dev-box.jpg)
+![서피스 RTX 스파크 개발자 박스 공식 이미지 — 로컬 AI 모델 테스트용 데스크톱](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/surface-laptop-ultra-rtx-spark-launch-guide-20261008/surface-rtx-spark-dev-box.jpg)
 *함께 공개된 '서피스 RTX 스파크 개발자 박스'. 20코어·6,144코어 GPU·128GB 구성으로, 로컬 모델 테스트를 겨냥한 데스크톱입니다 (출처: 언론 공개 이미지, 2026.10)*
 
 ---
@@ -112,7 +112,7 @@ description: "마이크로소프트가 2026년 10월 7일 샌프란시스코 행
 
 같은 날 **델**도 RTX 스파크를 얹은 노트북을 내놨습니다. **XPS 16 크리에이터 에디션**은 **17.8mm** 두께의 16형 크리에이터 노트북으로, **최대 6,144코어 블랙웰 RTX GPU**와 **최대 20코어 그레이스 CPU**, **최대 128GB 통합 메모리**를 담았습니다. 시작가는 **3,799.99달러**입니다.
 
-![델 XPS 16 크리에이터 에디션 공식 이미지 — 16형 OLED 디스플레이 노트북](/assets/images/posts/surface-laptop-ultra-rtx-spark-launch-guide-20261008/dell-xps-16-creator.jpg)
+![델 XPS 16 크리에이터 에디션 공식 이미지 — 16형 OLED 디스플레이 노트북](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/surface-laptop-ultra-rtx-spark-launch-guide-20261008/dell-xps-16-creator.jpg)
 *델 XPS 16 크리에이터 에디션. 16형 OLED에 RTX 스파크 N1X와 최대 128GB 통합 메모리를 담은 첫 XPS AI PC입니다 (출처: Dell 공식 블로그, 2026.10)*
 
 두 제품은 **같은 칩(RTX 스파크)**을 쓰지만 성격이 갈립니다. 서피스가 **15형·미니LED·마그네틱 충전**으로 완성도와 휴대성을 강조한 반면, 델은 **16형 OLED·크리에이터 워크플로**에 방점을 둡니다. 여기에 **HP도 RTX 스파크 노트북**을 예고하는 등, **AI PC 시장이 한 칩을 중심으로 빠르게 재편**되는 모습입니다.

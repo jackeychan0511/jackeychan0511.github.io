@@ -18,7 +18,7 @@ description: "Flutter로 만든 'AI 선생님' 앱을 스마트폰에 직접 설
 
 앱을 설치하고 처음 실행하면 가장 먼저 만나는 화면입니다.
 
-![AI 선생님 첫 실행 화면 — 질문 입력](/assets/images/posts/ai-teacher-install-test/1.jpg)
+![AI 선생님 첫 실행 화면 — 질문 입력](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/ai-teacher-install-test/1.jpg)
 *첫 실행 화면 — 과목 선택과 문제 입력창, 사진 첨부 버튼이 보입니다.*
 
 첫 화면 구성을 살펴보면:
@@ -36,7 +36,7 @@ description: "Flutter로 만든 'AI 선생님' 앱을 스마트폰에 직접 설
 
 텍스트 질문만으로는 부족하죠. **아이가 실제로 모르는 문제를 사진으로 찍어 올리는** 핵심 시나리오를 테스트했습니다. 초등학교 4학년 1학기 수학익힘책 문제를 그대로 촬영했습니다.
 
-![초4 수학익힘책 곱셈 문제 촬영](/assets/images/posts/ai-teacher-install-test/2.jpg)
+![초4 수학익힘책 곱셈 문제 촬영](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/ai-teacher-install-test/2.jpg)
 *아이가 푸는 문제집(4-1 수학익힘 P.39)에서 곱셈표 문제를 사진으로 찍은 모습. ㉠㉡㉢㉣에 들어갈 수를 찾는 문제입니다.*
 
 > 💡 이 장면이 이 앱을 만들게 된 **가장 실제적인 사용 상황**입니다. 아이가 "이거 어떻게 푸는 거야?"라고 물어볼 때, 바로 사진 찍어서 올리면 AI 선생님이 설명해줍니다.
@@ -47,7 +47,7 @@ description: "Flutter로 만든 'AI 선생님' 앱을 스마트폰에 직접 설
 
 사진을 올리고 질문하자, AI 선생님의 풀이 화면이 나타났습니다.
 
-![사진 문제에 대한 AI 선생님 풀이](/assets/images/posts/ai-teacher-install-test/3.jpg)
+![사진 문제에 대한 AI 선생님 풀이](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/ai-teacher-install-test/3.jpg)
 *촬영한 곱셈표 문제에 대한 풀이. "안녕하세요! 우리 친구, 수학 문제 풀이 선생님이에요"로 시작해서 문제 정리 → 단계별 풀이 순으로 진행됩니다.*
 
 가장 마음에 들었던 부분은 **말투**였습니다.
@@ -62,7 +62,7 @@ description: "Flutter로 만든 'AI 선생님' 앱을 스마트폰에 직접 설
 
 사진 질문이 잘 되니, 이번에는 **텍스트 질문**도 테스트했습니다. 초등학교 수준의 제곱 문제 **"3² + 4² = "** 를 입력했습니다.
 
-![텍스트 질문 3²+4² 풀이 결과](/assets/images/posts/ai-teacher-install-test/4.jpg)
+![텍스트 질문 3²+4² 풀이 결과](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/ai-teacher-install-test/4.jpg)
 *3²+4²에 대한 단계별 풀이. 문제 정리 → 단계별 풀이(3²=9, 4²=16, 9+16=25) → 개념 정리 → 답(25) 순서로 완벽하게 표시됩니다.*
 
 답변 형식이 개발일지에서 설계한 대로 정확히 나왔습니다:
@@ -80,7 +80,7 @@ description: "Flutter로 만든 'AI 선생님' 앱을 스마트폰에 직접 설
 
 학년을 바꿔서 **중학교 수준 문제**도 테스트했습니다. 중2 수준의 확률 문제(전기 회로)를 사진으로 찍어서 올렸습니다.
 
-![중2 전기 회로 확률 문제 풀이](/assets/images/posts/ai-teacher-install-test/5.jpg)
+![중2 전기 회로 확률 문제 풀이](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/ai-teacher-install-test/5.jpg)
 *중학교 확률 문제(두 스위치 A, B가 닫힐 확률 3/4, 2/5일 때 전구에 불이 들어올 확률)에 대한 풀이. 직렬 연결 개념을 기차 칸 비유로 설명합니다.*
 
 이 문제도 잘 풀어냈습니다. 전구가 켜지려면 두 스위치가 모두 닫혀야 한다는 **직렬 연결 개념**을, 아이가 이해하기 쉽게 **"기차 칸이 한 줄로 연결된 것"**에 비유해서 설명해줬어요. 중학생 눈높이 설정이 정상 동작한다는 걸 확인했습니다.
@@ -91,7 +91,7 @@ description: "Flutter로 만든 'AI 선생님' 앱을 스마트폰에 직접 설
 
 마지막으로 재미있는 테스트를 해봤습니다. 아이가 **"여기에 내려주세요! 를 일본어로 하면?"** 이라고 질문했는데요.
 
-![일본어 번역 질문에 대한 풀이](/assets/images/posts/ai-teacher-install-test/6.jpg)
+![일본어 번역 질문에 대한 풀이](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/ai-teacher-install-test/6.jpg)
 *"여기에 내려주세요"를 일본어로 바꾸는 질문에 대한 풀이. ここに/ここで의 차이까지 설명해줍니다.*
 
 수학 문제 풀이 앱으로 만들었지만, **언어 질문도 자연스럽게 대답**하는 모습이었습니다. 게다가 단순히 번역만 하는 게 아니라:

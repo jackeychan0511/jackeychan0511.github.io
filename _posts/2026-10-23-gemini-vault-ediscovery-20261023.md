@@ -5,11 +5,11 @@ date: 2026-10-23 15:50:00 +0900
 categories: [career]
 tags: [Google Gemini, 구글 제미나이, Google Vault, 구글 볼트, eDiscovery, 이디스커버리, Gemini in Workspace, 워크스페이스 제미나이, AI 거버넌스, 데이터 거버넌스, 컴플라이언스, 감사 대응, 소송 보존, Gemini 대화 기록, JSON 내보내기, Vault API, 업무자동화, AI뉴스, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/gemini-vault-ediscovery-20261023/gemini-vault-ediscovery-export-official.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-vault-ediscovery-20261023/gemini-vault-ediscovery-export-official.png
 description: "2026년 10월 22일 구글이 Google Vault에서 'Gemini in Workspace' 대화를 eDiscovery 방식으로 필터·내보내기할 수 있게 했습니다. 사용자·조직단위 최대 5,000명, 기간 필터, 프롬프트·응답·생성 첨부·참조 링크까지 JSON으로 추출됩니다. AI 대화가 '업무 기록'이 된 의미, 적용되는 요금제, 아직 빠져 있는 보존 정책·리티게이션 홀드, 그리고 관리자·개발자가 지금 점검해야 할 것들을 정리했습니다."
 ---
 
-![Google Vault의 Gemini in Workspace 대화 필터 내보내기 공식 안내 이미지 (출처: Google Workspace Updates 공식 블로그, 2026.10.22)](/assets/images/posts/gemini-vault-ediscovery-20261023/gemini-vault-ediscovery-export-official.png)
+![Google Vault의 Gemini in Workspace 대화 필터 내보내기 공식 안내 이미지 (출처: Google Workspace Updates 공식 블로그, 2026.10.22)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-vault-ediscovery-20261023/gemini-vault-ediscovery-export-official.png)
 *출처: Google Workspace Updates 공식 블로그 "Google Vault now supports filtered exports for Gemini in Workspace" (2026.10.22)*
 
 ## 한 줄 요약: 회사 안의 AI 대화가 '증거 자료'가 됐다
@@ -18,7 +18,7 @@ description: "2026년 10월 22일 구글이 Google Vault에서 'Gemini in Worksp
 
 이건 기능 하나가 추가된 뉴스가 아닙니다. **"AI에게 물어본 것"이 감사·소송·규제 대응에서 제출 가능한 업무 기록으로 분류되기 시작한 것**입니다. 사내에서 Gemini로 문서 요약, 메일 초안, 회의록 정리를 돌리는 조직이라면, 이번 변화가 곧 "우리 AI 사용 로그는 어떤 기준으로 남고, 누가 꺼낼 수 있는가"라는 질문으로 이어집니다.
 
-![Google Vault 아이콘 (출처: Wikimedia Commons)](/assets/images/posts/gemini-vault-ediscovery-20261023/google-vault-icon-wikimedia.png)
+![Google Vault 아이콘 (출처: Wikimedia Commons)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-vault-ediscovery-20261023/google-vault-icon-wikimedia.png)
 *출처: Wikimedia Commons, "Google Vault icon"*
 
 ---

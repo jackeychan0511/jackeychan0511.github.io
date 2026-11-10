@@ -5,14 +5,14 @@ date: 2026-09-09 14:52:00 +0900
 categories: [career]
 tags: [GPT, OpenAI, ChatGPT Images 2.5, GPT-Image-2.5, Flare, Sunburst, 이미지생성, 이미지 API, Sketch, 댓글편집, 템플릿, API가격, 출시, AI뉴스, 2026년9월]
 author: "40대 블로거"
-image: /assets/images/posts/openai-chatgpt-images-2-5-flare-sunburst-20260909/openai-logo-2025-symbol.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-chatgpt-images-2-5-flare-sunburst-20260909/openai-logo-2025-symbol.png
 description: "2026년 9월 8일(월, 미국 현지시간), OpenAI가 이미지 생성 모델의 차세대 버전 'ChatGPT Images 2.5'를 공식 발표했습니다. 생성 속도가 최대 50% 빨라지고, 자연스러운 화질(fidelity)과 '지정 영역만 고치는' 일관된 편집, 대화식 댓글 편집(comment-based edits)이 도입됐으며, ChatGPT에는 스케치(@Sketch)·템플릿·모바일 편집·프롬프트 공유 기능이 추가됐습니다. API에는 같은 2.5 세대를 '속도형'과 '정밀형'으로 나눈 GPT-Image-2.5 Flare(빠른 기본 모델)와 GPT-Image-2.5 Sunburst(정밀 크리에이티브 전용) 두 모델이 공개됐고, 토큰당 가격은 gpt-image-2와 동일(이미지 출력 100만 토큰당 $30)하지만 품질 단계(quality ladder)가 개편되며 '같은 설정으로 4분의 1 가격' 효과가 생겼습니다. 전체 ChatGPT·Work·Codex 사용자 대상 즉시 롤아웃(무료 티어 포함, 일일 생성 제한)이며, 업무자동화·콘텐츠 파이프라인·이미지 API 개발자에게 미칠 영향과 전망을 정리했습니다."
 sitemap: false
 noindex: true
 ---
 > **📌 한줄 요약:** OpenAI가 **2026년 9월 8일(월, 미국 현지시간)** 이미지 생성 모델 차세대 버전 **'ChatGPT Images 2.5'**를 공식 발표했습니다. 공식 발표문의 표현을 빌리면 **"더 빠르고(faster), 더 선명하고(sharper), 더 똑똑하게(smarter)"** — ① 생성 속도 최대 **50% 단축**, ② 더 자연스러운 **화질(fidelity)**, ③ **지정한 부분만 바뀌는 일관된 편집**, ④ 이미지에 직접 **댓글을 달아 수정하는 '댓글 편집'**이 핵심입니다. ChatGPT에는 **스케치(@Sketch)·템플릿·모바일 편집·프롬프트 공유**가 추가됐고, **전체 ChatGPT·ChatGPT Work·Codex 사용자(데스크톱·모바일·웹)에게 즉시 롤아웃**됩니다. API에는 같은 2.5 세대를 용도별로 나눈 **GPT-Image-2.5 Flare(속도형)와 GPT-Image-2.5 Sunburst(정밀형)** 두 모델이 공개됐습니다. **토큰당 가격은 gpt-image-2와 동일**(이미지 출력 100만 토큰당 $30)하지만 품질 단계가 개편돼, 같은 'high' 설정을 쓰면 **이미지당 비용이 약 4분의 1로 내려가는** 효과가 있습니다.
 
-![OpenAI 2025 공식 로고 (출처: Wikimedia Commons, OpenAI 공식 브랜드 페이지)](/assets/images/posts/openai-chatgpt-images-2-5-flare-sunburst-20260909/openai-logo-2025-symbol.png)
+![OpenAI 2025 공식 로고 (출처: Wikimedia Commons, OpenAI 공식 브랜드 페이지)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-chatgpt-images-2-5-flare-sunburst-20260909/openai-logo-2025-symbol.png)
 *OpenAI 2025 공식 로고 (출처: Wikimedia Commons, OpenAI 브랜드 페이지)*
 
 요즘 저처럼 GPT-6 Astra 소식(9/8 글)을 챙기며 "다음엔 뭐가 나오지?" 하고 기다리시는 분들, 그런데 **어제(9/8) OpenAI가 뜬금없이(?) 이미지 쪽에서 큰 업데이트를 던졌습니다.** 바로 **ChatGPT Images 2.5**입니다. 솔직히 저는 이미지 생성 모델은 '텍스트 모델만큼 자주 바뀌지 않는다'고 생각했는데, gpt-image-2가 나온 지 5개월 만에 세대 점프가 나왔고, **API 모델을 '속도형'과 '정밀형' 두 개로 쪼개는** 새 전략까지 들고 왔더라고요. "한 이미지 고치려고 프롬프트를 새로 쓰면 얼굴까지 바뀌어버리는" 그 불편함을 **댓글 편집**으로 풀었다는 점이 가장 반가웠습니다. 오늘은 OpenAI 공식 발표(개발자 커뮤니티 공지)와 API 가격 문서, 실제 벤치마크(apidog·tosea.ai)를 바탕으로 **무엇이 바뀌었는지 + 가격은 어떻게 됐는지 + 우리 업무에 어떻게 써먹을지**를 정리해 봤습니다.
@@ -91,7 +91,7 @@ API 가격이 가장 흥미롭습니다. **토큰당 단가는 gpt-image-2와 �
 
 **솔직한 단점(한계)도 있습니다.** 샘 올트먼 CEO는 X에서 **"Images 2.5는 매우 어려운 수학 문제는 풀지 못할 것"**이라고 직접 못박았고, tosea.ai의 다중 턴 편집 테스트에서도 **드리프트(변형)는 줄었지만 완전히 사라지진 않았습니다**. 정밀한 기술 다이어그램·수식이 필요한 이미지는 '초안'으로 취급하는 게 맞습니다. 또 가로(1536×1024)가 정사각형보다 토큰이 적게 드는 등 **구도에 따라 체감 단가가 달라지므로** 대량 생성 전 계산기로 예산을 확인하는 습관이 필요합니다.
 
-![OpenAI 본사 — 샌프란시스코 미션베이 1515 Third Street (출처: Wikimedia Commons, Coolcaesar 촬영, CC BY 4.0)](/assets/images/posts/openai-chatgpt-images-2-5-flare-sunburst-20260909/openai-hq-1515-third-street.jpg)
+![OpenAI 본사 — 샌프란시스코 미션베이 1515 Third Street (출처: Wikimedia Commons, Coolcaesar 촬영, CC BY 4.0)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-chatgpt-images-2-5-flare-sunburst-20260909/openai-hq-1515-third-street.jpg)
 *OpenAI 본사 — 샌프란시스코 미션베이 1515 Third Street (출처: Wikimedia Commons, Coolcaesar 촬영, CC BY 4.0)*
 
 ## 영향 — 사용자·업무자동화·개발자에게 무엇이 달라지나

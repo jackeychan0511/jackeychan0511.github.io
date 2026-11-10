@@ -6,7 +6,7 @@ categories: [career]
 tags: [Anthropic, Claude, 앤트로픽, 클로드, ClaudeCode, 클로드코드, Plugin4Shell, 플러그인4셸, 제로클릭, ZeroClick, RCE, 원격코드실행, 공급망보안, SupplyChain, SHA고정, SHAPinning, SHA고정우회, 플러그인마켓플레이스, Marketplace, SkillJacking, RepoJacking, MCPJacking, Codex, Copilot, GeminiCLI, Antigravity, AI에이전트보안, AIagent, 업무자동화, 자동화파이프라인, 2026년9월, AI산업]
 author: "40대 블로거"
 description: "2026년 9월 17일(현지), 보안기업 Air Security(AIR)가 AI 코딩 에이전트 4종(Anthropic Claude Code, OpenAI Codex, GitHub Copilot, Gemini CLI)의 플러그인 'SHA 고정'을 무력화하는 제로클릭 원격코드실행(RCE) 취약점 Plugin4Shell을 공개했습니다. 에이전트가 마켓플레이스가 고정한 커밋을 체크아웃하면서 '작업 트리에 그 커밋이 실제로 안착했는지' 검증하지 않는 한 줄짜리 누락이 원인으로, 공격자는 고정된 SHA와 똑같은 이름의 40자리 브랜치를 만들어 악성 코드를 밀어 넣습니다. 플러그인 자동 업데이트가 기본값이라 사용자 클릭이 전혀 필요 없습니다. Anthropic은 Claude Code 2.1.179, OpenAI는 Codex 0.146.0에서 패치했지만 Microsoft/GitHub Copilot은 보고서 시점까지 미패치, Google은 Gemini CLI를 폐기(deprecated)하고 패치하지 않기로 했습니다. 이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망 순서로 정리했습니다."
-image: /assets/images/posts/2026-09-20-claude-code-plugin4shell-rce/air-plugin4shell-official.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-09-20-claude-code-plugin4shell-rce/air-plugin4shell-official.png
 sitemap: false
 noindex: true
 ---
@@ -17,7 +17,7 @@ noindex: true
 
 그리고 이건 **남의 일이 아닙니다.** 저는 **AI 에이전트를 실사용하고 있고, 자동화 파이프라인을 운영합니다.** 그 파이프라인 안에 들어오는 플러그인·스킬·MCP가 바로 이번 취약점의 공격 표면입니다. 이번 글도 지금까지처럼 **이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망** 순서로, 그리고 **솔직한 장단점**까지 같이 정리해 드리겠습니다.
 
-![AIR(Air Security) 공식 블로그 'Plugin4Shell' 게시물 대표 이미지 — 제로클릭 RCE로 4개 주요 코딩 에이전트가 영향받았다는 공식 발표](/assets/images/posts/2026-09-20-claude-code-plugin4shell-rce/air-plugin4shell-official.png)
+![AIR(Air Security) 공식 블로그 'Plugin4Shell' 게시물 대표 이미지 — 제로클릭 RCE로 4개 주요 코딩 에이전트가 영향받았다는 공식 발표](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-09-20-claude-code-plugin4shell-rce/air-plugin4shell-official.png)
 *취약점을 발견·공개한 보안기업 AIR의 공식 블로그 게시물 'Plugin4Shell - Zero Click RCE Vulnerability found in top 4 most popular coding agents, millions of agents affected' 대표 이미지 (출처: Air Security 공식 사이트 air.security/blog-posts/plugin4shell, 2026.9.17)*
 
 ## 🗞️ 이슈 요약 — 한눈에 보기
@@ -87,7 +87,7 @@ AIR는 **부주의하게 플러그인을 설치한 사용자만 위험한 게 �
   - **Google → Gemini CLI를 폐기(deprecated)했고 패치하지 않겠다고 확인.** 즉 **기존 Gemini CLI 설치본은 영구적으로 취약**합니다. AIR는 **Antigravity로 이전**을 권고했고, **Antigravity에는 이 공격이 닿지 않는다**고 밝혔습니다(우회할 마켓플레이스 SHA 고정 자체가 없음)
 - **2026년 9월 17일:** AIR가 상세 분석과 함께 공개. The Register·Help Net Security·InfoWorld 등이 연이어 보도
 
-![Anthropic Claude Code 공식 제품 페이지 대표 이미지 — 이번 취약점의 영향을 받은 4개 에이전트 중 Anthropic 제품은 2.1.179에서 패치되었습니다](/assets/images/posts/2026-09-20-claude-code-plugin4shell-rce/claude-code-official.jpg)
+![Anthropic Claude Code 공식 제품 페이지 대표 이미지 — 이번 취약점의 영향을 받은 4개 에이전트 중 Anthropic 제품은 2.1.179에서 패치되었습니다](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-09-20-claude-code-plugin4shell-rce/claude-code-official.jpg)
 *Anthropic 공식 제품 페이지(claude.com/product/claude-code) 'Claude Code by Anthropic | AI Coding Agent, Terminal, IDE' 대표 이미지. 이번 Plugin4Shell은 Claude Code·Codex·GitHub Copilot·Gemini CLI 4종에 공통으로 존재했던 설계 오류이며, Anthropic은 Claude Code 2.1.179에서 수정했습니다 (출처: Claude 공식 사이트 claude.com, 2026.9.20 확인)*
 
 ## 🌊 영향 — 사용자와 개발자에게

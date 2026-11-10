@@ -5,13 +5,13 @@ date: 2026-08-12 05:00:00 +0900
 categories: [finance]
 tags: [업비트, 빗썸, DOS, 댑오에스, DAPPOS, 신규상장, 코인, 가상자산, 웹3, AI, CYS, 싸이식, 상장]
 author: "40대 블로거"
-image: /assets/images/posts/upbit-bithumb-dos-listing-20260812/dos-hero.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/upbit-bithumb-dos-listing-20260812/dos-hero.png
 description: "8월 11일 업비트와 빗썸이 댑오에스(DOS)를 동시에 신규 상장했습니다. 업비트는 KRW·BTC·USDT 마켓(16:00 개시), 빗썸은 원화 마켓(14:00 개시)입니다. 두 거래소의 기준가·현재 시세·프로젝트 정보와 함께, 업비트가 8/10 발표한 싸이식(CYS) 외 5종의 BTC·USDT 마켓 신규 상장까지 총정리했습니다."
 ---
 
 8월 11일, 국내 양대 거래소가 **같은 코인을 동시에** 원화마켓에 올렸습니다. 바로 웹3 AI 운영체제를 표방하는 **댑오에스(DOS)** 인데요. 업비트는 8/11 16:00 KRW·BTC·USDT 세 마켓에, 빗썸은 같은 날 14:00 원화 마켓에 각각 거래를 개시했습니다. 여기에 업비트가 지난 8/10 안내한 **싸이식(CYS) 외 5개 종목의 BTC·USDT 마켓 신규 상장**까지, 이번 주 신규 상장 소식을 한 번에 정리해 드립니다.
 
-![댑오에스(DOS) 공식 로고](/assets/images/posts/upbit-bithumb-dos-listing-20260812/dos-hero.png)
+![댑오에스(DOS) 공식 로고](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/upbit-bithumb-dos-listing-20260812/dos-hero.png)
 *댑오에스(DAPPOS) 공식 로고 (출처: dappos.com, 확인일: 2026.08.12)*
 
 **핵심 요약**: 업비트 DOS 8/11 16:00 거래 개시(기준가 796원·Ethereum), 빗썸 DOS 8/11 14:00 거래 개시(기준가 584원). 8/12 오전 기준 DOS는 업비트 550원·빗썸 543원으로, 상장 빔(고가 907원) 이후 조정을 거치는 흐름이며 업비트 24시간 거래대금은 약 843억 원에 달합니다. 업비트는 CYS·ICNT·XAN·EDEN·AIOZ·ALLO 6종을 BTC·USDT 마켓에 신규 상장했고, 그중 CYS는 브릿지 오류로 연기된 끝에 **오늘(8/12) 10:00 거래 개시**를 앞두고 있습니다.
@@ -60,7 +60,7 @@ DOS는 **웹3 환경에 특화된 AI 운영체제**를 만드는 프로젝트입
 | **입금 컨펌 수** | 33회 |
 | **입출금 개시** | 공지 게시 시점으로부터 2시간 이내 |
 
-![빗썸 댑오에스(DOS) 상장 포스터](/assets/images/posts/upbit-bithumb-dos-listing-20260812/dos-bithumb-poster.png)
+![빗썸 댑오에스(DOS) 상장 포스터](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/upbit-bithumb-dos-listing-20260812/dos-bithumb-poster.png)
 *빗썸 댑오에스(DOS) 원화 마켓 상장 포스터 (출처: 빗썸, 확인일: 2026.08.12)*
 
 ---
@@ -91,7 +91,7 @@ DOS는 상장 직후 기준가(796원) 대비 **907원까지 치솟는 상장 �
 | 아이오즈네트워크 (AIOZ) | BTC, USDT | Ethereum | 8/10 20:00 |
 | 알로라 (ALLO) | BTC, USDT | **Allora (자체 네트워크)** | 8/10 20:00 |
 
-![싸이식(Cysic) 공식 로고](/assets/images/posts/upbit-bithumb-dos-listing-20260812/cys-logo.png)
+![싸이식(Cysic) 공식 로고](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/upbit-bithumb-dos-listing-20260812/cys-logo.png)
 *싸이식(Cysic) 공식 로고 (출처: cysic.xyz, 확인일: 2026.08.12)*
 
 ### 싸이식(CYS)는 어떤 프로젝트?

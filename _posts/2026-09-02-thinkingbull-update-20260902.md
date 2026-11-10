@@ -5,13 +5,13 @@ date: 2026-09-02 12:00:00 +0900
 categories: [education]
 tags: [황소수학, 생각하는황소, 황소고시]
 author: "40대 블로거"
-image: /assets/images/posts/thinkingbull-update-20260902/01-logo.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/thinkingbull-update-20260902/01-logo.png
 description: "생각하는황소(황소수학) 8월 정기 편입시험(8/22·8/29)이 마무리되고 지점별 합격 발표가 이어지고 있습니다. 한편 학원가에서는 11월에 치러질 것으로 예상되는 12월 개강 정규 입학시험 대비반이 8월 말부터 속속 개강하고 있습니다. 9월 일정 체크포인트와 9/28 접수 시작(D-26)을 정리했습니다."
 ---
 
 # [업데이트] 8월 편입시험 마무리, 학원가 '11월 황소시험' 대비반 개강 러시
 
-![생각하는황소 공식 로고](/assets/images/posts/thinkingbull-update-20260902/01-logo.png)
+![생각하는황소 공식 로고](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/thinkingbull-update-20260902/01-logo.png)
 *생각하는황소 공식 로고 (출처: 생각하는황소 공식 홈페이지)*
 
 안녕하세요. 40대 라이프 블로그입니다.

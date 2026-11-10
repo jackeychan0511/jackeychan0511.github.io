@@ -5,13 +5,13 @@ date: 2026-10-20 16:58:00 +0900
 categories: [career]
 tags: [Anthropic, Claude, 앤트로픽, 클로드, AmazonBedrock, 베드락, StructuredOutputs, 구조화출력, JSONSchema, ConstrainedDecoding, StrictToolUse, Haiku55, Sonnet55, Opus55, 업무자동화, AI에이전트, 데이터추출, AWS, API, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/anthropic-bedrock-structured-outputs-20261020/bedrock-structured-outputs-hero.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-bedrock-structured-outputs-20261020/bedrock-structured-outputs-hero.png
 description: "2026년 10월 19일(미국 태평양시간), AWS가 아마존 베드락에서 모든 Anthropic Claude 모델에 대한 구조화 출력(Structured Outputs) 정식 지원을 발표했습니다. 제약 디코딩으로 생성 단계에서 JSON 스키마를 강제해 파싱 오류·재시도 로직을 없애는 방식이고, JSON Schema 출력 형식과 strict 도구 사용 두 축으로 제공됩니다. 문법 캐시 24시간, 배치 추론·교차 리전 지원, 지원 모델과 한계(재귀 스키마·수치 제약 미지원 등)까지 정리했습니다."
 sitemap: false
 noindex: true
 ---
 
-![아마존 베드락의 Anthropic Claude 구조화 출력 발표 이미지](/assets/images/posts/anthropic-bedrock-structured-outputs-20261020/bedrock-structured-outputs-hero.png)
+![아마존 베드락의 Anthropic Claude 구조화 출력 발표 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-bedrock-structured-outputs-20261020/bedrock-structured-outputs-hero.png)
 *AWS 공식 블로그 「Structured outputs for Anthropic Claude models on Amazon Bedrock」(2026.10.19, 미국 태평양시간) 대표 이미지. (이미지 출처: AWS Machine Learning Blog)*
 
 > **📌 한줄 요약:** **2026년 10월 19일(미국 태평양시간)**, **AWS**가 **아마존 베드락(Amazon Bedrock)에서 모든 Anthropic Claude 모델에 대한 '구조화 출력(Structured Outputs)' 정식 지원(GA)** 을 발표했습니다. **bedrock-runtime**과 **bedrock-mantle** 두 엔드포인트 모두에서, 모델이 **응답을 만들 때부터 JSON 스키마를 강제하는 제약 디코딩(constrained decoding)** 방식으로 동작합니다. 결과는 **"파싱하고 실패하면 재시도"** 가 아니라 **"처음부터 스키마에 맞는 JSON"** 입니다. JSON Schema 출력 형식과 **strict 도구 사용(strict tool use)** 이라는 두 축으로 제공되며, **배치 추론과 교차 리전 추론**에서도 쓸 수 있습니다.

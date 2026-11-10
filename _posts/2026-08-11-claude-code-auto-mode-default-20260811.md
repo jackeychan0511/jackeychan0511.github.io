@@ -16,7 +16,7 @@ noindex: true
 
 이번 글에서는 Anthropic 공식 블로그(8월 7일)와 TechCrunch(8월 9일) 보도를 바탕으로 **이슈 요약 → 상세 분석 → 영향 → 전망** 순서로 정리해 드립니다.
 
-![Claude Code Auto Mode 공식 블로그 대표 이미지](/assets/images/posts/claude-code-auto-mode-20260811/claude-code-auto-mode-og.jpg)
+![Claude Code Auto Mode 공식 블로그 대표 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/claude-code-auto-mode-20260811/claude-code-auto-mode-og.jpg)
 *Anthropic "Auto mode is now the default in Claude Code" 공식 블로그 대표 이미지 (출처: Claude 공식 블로그, 2026-08-07)*
 
 > 📌 참고: 본 글은 2026년 8월 11일 기준 Anthropic 공식 블로그(2026-08-07), TechCrunch(2026-08-09), 9to5Mac(2026-08-07) 보도를 바탕으로 작성한 정보형 기사입니다.
@@ -69,7 +69,7 @@ Anthropic이 공개한 데이터가 이번 결정의 핵심 논거입니다.
 - 결정적인 부분: **세션이 길어질수록 사람 성적이 떨어집니다.** 세션 초반엔 17%를 막다가 **승인 50회 이후엔 5%로 추락**, 반면 Auto Mode는 세션 길이와 무관하게 일정했습니다.
 - 실제 운영 세션 분석(5~6월)에서도 **수동 승인 세션의 의도치 않은 중대 피해 발생률(6.3%)이 Auto Mode(2.4%)의 2배 이상**이었습니다.
 
-![Auto Mode vs 수동 승인 안전성 비교 공식 차트](/assets/images/posts/claude-code-auto-mode-20260811/auto-mode-safety-data.png)
+![Auto Mode vs 수동 승인 안전성 비교 공식 차트](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/claude-code-auto-mode-20260811/auto-mode-safety-data.png)
 *1,053명 테스트 결과 등 Auto Mode 안전성 데이터 — 사람이 위험 명령을 잡아낸 비율 13.6%, Auto Mode 89% (출처: Claude 공식 블로그, 2026-08-07)*
 
 ### 4️⃣ 프롬프트 인젝션 — 720회 공격 전부 차단

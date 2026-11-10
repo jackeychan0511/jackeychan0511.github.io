@@ -5,11 +5,11 @@ date: 2026-09-28 15:53:00 +0900
 categories: [career]
 tags: [Google Gemini, 구글 제미나이, Gemini Gems, 젬, skills, 스킬, Gemini Spark, 커스텀 지시, 사용자 정의 AI, 마이그레이션, 2026년 11월 17일, 10월 13일, Google AI Pro, Google AI Ultra, 무료 티어, 업무자동화, 자동화파이프라인, AI뉴스, 2026년 9월]
 author: "40대 블로거"
-image: /assets/images/posts/gemini-gems-skills-migration-20260928/gemini-gems-official-hero.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-gems-skills-migration-20260928/gemini-gems-official-hero.jpg
 description: "2026년 9월 27일, Gemini 앱의 Gems 관리자 상단에 'Gems will become skills starting Nov 17, 2026'이라는 안내문이 노출됐습니다. 2024년에 도입돼 2025년 3월부터 무료로 풀린 'Gems'(나만의 커스텀 Gemini)가 사라지고, Gemini Spark의 'skills'로 자동 이관됩니다. 안내문에는 '11월 17일부터 자동 마이그레이션을 시작하며, 이관 전까지는 기존 Gems를 쓸 수 있다'고만 적혀 있고, 정작 skills는 현재 Google AI Pro·AI Ultra 구독자 전용입니다. Android Authority가 9월 9일 앱 분석에서 찾은 10월 13일 'Gem 생성·편집 중단' 문자열은 아직 단일 출처입니다. 이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망 순으로, 지금 백업해야 할 것까지 정리했습니다. 이미지는 Google 공식 Gems 페이지와 9to5Google 보도 이미지입니다."
 ---
 
-![Gemini Gems 공식 안내 이미지 — 2024년 도입된 '나만의 Gemini' 커스텀 기능 (출처: gemini.google Google 공식 Gems 페이지)](/assets/images/posts/gemini-gems-skills-migration-20260928/gemini-gems-official-hero.jpg)
+![Gemini Gems 공식 안내 이미지 — 2024년 도입된 '나만의 Gemini' 커스텀 기능 (출처: gemini.google Google 공식 Gems 페이지)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-gems-skills-migration-20260928/gemini-gems-official-hero.jpg)
 *Gems는 기본 도구 지정(이미지 생성·Canvas), 컨텍스트용 파일 첨부, 공유 링크까지 지원하는 '커스텀 버전의 Gemini'입니다. 이 기능이 11월 17일부터 skills로 갈아끼워집니다 (출처: gemini.google Google 공식 Gems 페이지)*
 
 > **📌 한줄 요약:** 요즘 **Gemini 앱에 '내 업무용 Gem'을 몇 개 만들어 두고 쓰시는 분들**, 11월 17일을 달력에 표시해 두시는 게 좋겠습니다. 2026년 9월 27일 Gemini 앱 Gems 관리자에 **"Gems will become skills starting Nov 17, 2026"** 안내문이 떴습니다. 2024년에 나와서 2025년 3월부터 **무료로 풀려 있던 Gems가 사라지고, Gemini Spark의 'skills'로 자동 이관**됩니다. 문제는 **skills가 지금 Google AI Pro·AI Ultra 구독자 전용**이라는 점입니다. 무료 사용자의 커스텀 Gemini가 어떻게 되는지는 아직 구글이 말하지 않았습니다.
@@ -62,7 +62,7 @@ skills는 **Gemini Spark**와 함께 등장한 기능입니다. 동작 방식이
 
 기능적으로는 skills가 더 편한 게 맞습니다. Gems는 쓸 때마다 사이드 패널을 열고 목록을 내려가야 했는데, skills는 채팅창에서 `/`만 치면 됩니다. 문제는 **접근 권한이 반대로 움직인다**는 점입니다.
 
-![Gemini skills 전환 보도 이미지 — 슬래시 커맨드로 부르는 새 커스텀 기능 (출처: 9to5Google)](/assets/images/posts/gemini-gems-skills-migration-20260928/gemini-skills-9to5.jpg)
+![Gemini skills 전환 보도 이미지 — 슬래시 커맨드로 부르는 새 커스텀 기능 (출처: 9to5Google)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-gems-skills-migration-20260928/gemini-skills-9to5.jpg)
 *9to5Google이 확인한 Gemini 앱의 skills 화면. 프롬프트 박스에서 `/`로 호출하고 여러 개를 한 번에 조합할 수 있습니다 (출처: 9to5Google, 2026.9.27)*
 
 ### 2-3. 아직 확인되지 않은 것

@@ -5,7 +5,7 @@ date: 2026-10-05 14:52:00 +0900
 categories: [career]
 tags: [OpenAI, 데이비드로빈슨, DavidRobinson, AI안전, AI거버넌스, 샘알트만, 프런티어모델, 시스템카드, PreparednessFramework, AI규제, 안전연구, 업무자동화, AI뉴스, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/openai-safety-lead-robinson-resigns-20261005/openai-hq-pioneer-building.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-safety-lead-robinson-resigns-20261005/openai-hq-pioneer-building.jpg
 description: "2026년 10월 3일, OpenAI 안전 조직(Safety Systems)의 리드 데이비드 로빈슨이 사임하고 디 애틀랜틱에 'OpenAI는 문화가 망가져서 떠난다'는 기고를 게재했습니다. 그는 3년 반 동안 12번의 프런티어 모델 출시용 안전 리포트(시스템 카드) 작성을 이끌고 대비 프레임워크 초안에 참여한 인물입니다. 핵심 주장은 '시행착오에 기대는 현재의 안전 방식은 더 강한 모델 앞에서 실패를 반복한다'는 것입니다. 같은 시기 안전 연구원 3명 해고, 최상위 모델 훈련 중단과 겹치며 커진 사안을 이슈 요약부터 상세 분석, 사용자·개발자 영향, 전망까지 정리했습니다."
 ---
 
@@ -15,7 +15,7 @@ description: "2026년 10월 3일, OpenAI 안전 조직(Safety Systems)의 리드
 
 이번 글은 새 모델 출시나 가격 인하 소식이 아니라, **OpenAI의 안전 조직에서 벌어진 인사·문화 이슈**를 정리합니다. 왜 이게 "이슈급"인지, 실제로 무엇을 말했는지, 그리고 이것이 사용자와 개발자에게 어떤 의미인지 짚어 보겠습니다.
 
-![과거 OpenAI 오피스가 입주했던 샌프란시스코 파이오니어 빌딩 (출처: Wikimedia Commons, CC BY-SA 4.0)](/assets/images/posts/openai-safety-lead-robinson-resigns-20261005/openai-hq-pioneer-building.jpg)
+![과거 OpenAI 오피스가 입주했던 샌프란시스코 파이오니어 빌딩 (출처: Wikimedia Commons, CC BY-SA 4.0)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-safety-lead-robinson-resigns-20261005/openai-hq-pioneer-building.jpg)
 *과거 OpenAI 오피스가 입주했던 샌프란시스코 파이오니어 빌딩 (출처: Wikimedia Commons, CC BY-SA 4.0)*
 
 ## 이슈 요약 — 무엇이 새로 나왔나
@@ -39,7 +39,7 @@ description: "2026년 10월 3일, OpenAI 안전 조직(Safety Systems)의 리드
 - **'시스템 카드'의 한계**: 그가 총괄했던 안전 리포트(시스템 카드)는 각 모델이 **어떤 위험을 테스트했고 어떤 안전장치가 적용됐는지** 설명하는 공개 문서입니다. 하지만 그 스스로 이 문서가 **"무엇을 테스트하지 않았는지"** 까지 보증하지는 못한다는 한계를 인정한 셈입니다. 검증과 배포가 동시에 굴러가는 구조에서는, 문서가 사후 정당화로 전락할 위험이 있습니다.
 - **원자력 수준을 요구**: 그가 드는 대안의 기준선은 **원자력 발전소급 안전 설계**입니다. 즉 "문제가 생기면 고친다"가 아니라, **"문제가 생기면 자동으로 멈춘다"** 는 사전 설계 원칙입니다.
 
-![OpenAI 공식 로고 (출처: Wikimedia Commons, 퍼블릭 도메인)](/assets/images/posts/openai-safety-lead-robinson-resigns-20261005/openai-logo-symbol.png)
+![OpenAI 공식 로고 (출처: Wikimedia Commons, 퍼블릭 도메인)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-safety-lead-robinson-resigns-20261005/openai-logo-symbol.png)
 *OpenAI 공식 로고 (출처: Wikimedia Commons, 퍼블릭 도메인)*
 
 ## 배경 — 하필 지금 터진 이유

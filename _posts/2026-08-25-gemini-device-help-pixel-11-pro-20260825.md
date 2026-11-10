@@ -6,7 +6,7 @@ categories: [career]
 tags: [Gemini, Google, Pixel11Pro, DeviceHelp, 제미나이, 픽셀11프로, Gemini앱, Labs, AI뉴스, 구글AI, 스마트폰, 기기자가진단, 2026년8월]
 author: "40대 블로거"
 description: "9to5Google(8월 24일)이 Gemini 앱에서 새 'Device help' 도구를 발견했습니다. Pixel 11 Pro에서만 테스트 중인 이 기능은 대화로 설정을 관리하고 Wi-Fi·배터리 같은 문제를 진단해 줍니다. 이슈 요약부터 사용자·개발자 영향, 전망까지 정리했습니다."
-image: /assets/images/posts/gemini-device-help-pixel-11-pro-20260825/gemini-icon-2025-wikimedia.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-device-help-pixel-11-pro-20260825/gemini-icon-2025-wikimedia.png
 sitemap: false
 noindex: true
 ---
@@ -15,7 +15,7 @@ noindex: true
 
 그런데 어제(8월 24일) **9to5Google이 Gemini 앱에서 새로운 "Device help" 도구를 발견**했다는 보도가 나왔습니다. Gemini에게 "내 폰 좀 봐줘"라고 말하면 **설정을 직접 관리하고 문제까지 진단해 주는** 기능인데요. 오늘은 이 이슈를 **요약 → 상세 분석 → 영향(사용자·개발자) → 전망** 순서로 정리해 드립니다.
 
-![Google Gemini 아이콘](/assets/images/posts/gemini-device-help-pixel-11-pro-20260825/gemini-icon-2025-wikimedia.png)
+![Google Gemini 아이콘](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-device-help-pixel-11-pro-20260825/gemini-icon-2025-wikimedia.png)
 *Google Gemini 아이콘 (출처: Wikimedia Commons — Google LLC 제공, Public domain)*
 
 ## 📌 이슈 요약: Gemini 앱, 폰을 '대화로' 고쳐 주는 Device help 테스트 시작
@@ -29,7 +29,7 @@ noindex: true
 
 > ⚠️ 본 글은 2026년 8월 25일 기준 9to5Google(8/24), GSMArena·PhoneArena(8/25) 보도를 바탕으로 작성했습니다. 아직 구글의 공식 발표는 없는 **초기 테스트(실험실 기능)** 단계입니다.
 
-![Pixel 11 Pro XL 제품 사진](/assets/images/posts/gemini-device-help-pixel-11-pro-20260825/pixel-11pro-family-shot-googleblog.jpg)
+![Pixel 11 Pro XL 제품 사진](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-device-help-pixel-11-pro-20260825/pixel-11pro-family-shot-googleblog.jpg)
 *Pixel 11 Pro XL — 이번 Device help 테스트가 확인된 기기 (출처: Google 공식 블로그)*
 
 ## 🔍 상세 분석: '폰이 스스로 나를 도와주는' 구조

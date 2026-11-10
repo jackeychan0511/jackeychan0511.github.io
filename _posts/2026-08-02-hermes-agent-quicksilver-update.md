@@ -5,7 +5,7 @@ date: 2026-08-02 21:30:00 +0900
 categories: [career]
 tags: [HermesAgent, NousResearch, AI에이전트, 오픈소스, v0.19.0, Quicksilver, v0.19.1, v0.20.0, 투자, 밸류에이션, 스타22만, AI업데이트, 커리어]
 author: "40대 블로거"
-image: /assets/images/posts/hermes-agent-aug2026-20260802/hermes-agent-og-official.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-agent-aug2026-20260802/hermes-agent-og-official.png
 description: "2026년 8월 2일 기준 Hermes Agent 최신 소식을 정리했습니다. GitHub 스타 22만 개 돌파, Nous Research의 15억 달러(약 2조 원) 밸류에이션 투자 유치 보도, 7월 30일 v0.19.1 패치 릴리즈 이후 상황, 그리고 다음 정식 릴리즈 v0.20.0 예고까지 한 자리에 모았습니다."
 sitemap: false
 noindex: true
@@ -15,7 +15,7 @@ noindex: true
 
 하나는 **GitHub 스타 22만 개 돌파**, 그리고 다른 하나는 **Nous Research가 약 1.5조 원(15억 달러) 밸류에이션으로 투자 유치를 진행 중**이라는 뉴스입니다. 오늘은 이 두 소식과 함께, 어제 오늘 기준 Hermes Agent의 **정확한 최신 상태**를 한 자리에 정리해드립니다.
 
-![Hermes Agent 공식 홈페이지 대표 이미지](/assets/images/posts/hermes-agent-aug2026-20260802/hermes-agent-og-official.png)
+![Hermes Agent 공식 홈페이지 대표 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-agent-aug2026-20260802/hermes-agent-og-official.png)
 *Hermes Agent — Nous Research가 만든 오픈소스 AI 에이전트 (출처: hermes-agent.nousresearch.com, 확인일 2026-08-02)*
 
 ---
@@ -34,7 +34,7 @@ noindex: true
 
 솔직히 이 성장세는 단순히 "인기가 많다"를 넘어섭니다. **개발 활동 자체가 멈추지 않고 있습니다.** 8월 2일 오전(UTC 기준)에도 게이트웨이 안정화, 프로세스 정리(reap) 로직 수정 등 **커밋이 계속 올라오고** 있어요. 프로젝트가 "출시 후 방치"되는 게 아니라 매일 굴러가고 있다는 신호입니다.
 
-![Hermes Agent 공식 배너](/assets/images/posts/hermes-agent-aug2026-20260802/hermes-agent-banner-official.png)
+![Hermes Agent 공식 배너](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-agent-aug2026-20260802/hermes-agent-banner-official.png)
 *Hermes Agent 공식 배너 — "The agent that grows with you" (출처: 공식 GitHub 저장소 assets/banner.png, 확인일 2026-08-02)*
 
 ---
@@ -67,7 +67,7 @@ noindex: true
 
 즉 **다음 정식 릴리즈는 v0.20.0**이고, 그때 7월 말부터 쌓인 변경점이 제대로 정리된 릴리즈 노트가 나옵니다. 업데이트 주기로 보면 **8월 안에 v0.20.0이 나올 가능성이 높아** 보입니다.
 
-![Hermes Agent 웹 대시보드 — 세션 관리 화면](/assets/images/posts/hermes-agent-aug2026-20260802/hermes-dashboard-sessions.png)
+![Hermes Agent 웹 대시보드 — 세션 관리 화면](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-agent-aug2026-20260802/hermes-dashboard-sessions.png)
 *Hermes Agent 웹 대시보드 실제 화면 — 브라우저에서 세션·채널·메모리를 관리 (출처: 공식 GitHub 저장소 website/static/img, 확인일 2026-08-02)*
 
 ---
@@ -113,7 +113,7 @@ curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash
 hermes doctor
 ```
 
-![Hermes Agent 웹 대시보드 — MCP 카탈로그 화면](/assets/images/posts/hermes-agent-aug2026-20260802/hermes-dashboard-mcp.png)
+![Hermes Agent 웹 대시보드 — MCP 카탈로그 화면](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-agent-aug2026-20260802/hermes-dashboard-mcp.png)
 *Hermes Agent 웹 대시보드의 MCP 카탈로그 실제 화면 (출처: 공식 GitHub 저장소 website/static/img, 확인일 2026-08-02)*
 
 ---

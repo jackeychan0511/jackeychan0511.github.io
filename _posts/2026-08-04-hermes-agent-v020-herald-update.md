@@ -5,7 +5,7 @@ date: 2026-08-04 09:00:00 +0900
 categories: [career]
 tags: [HermesAgent, NousResearch, AI에이전트, v0.20.0, Herald, 오픈소스, 음성AI, A2A, 웹훅, AI업데이트]
 author: "40대 블로거"
-image: /assets/images/posts/hermes-v020-20260804/hermes-agent-hero.webp
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-v020-20260804/hermes-agent-hero.webp
 description: "2026년 8월 3일 출시된 Hermes Agent v0.20.0 'The Herald Release'를 총정리했습니다. 실시간 음성 대화, A2A v1.0 에이전트 간 통신, HMAC 서명 웹훅, 인용 검증 리서치까지. v0.19.0 이후 약 3,650개 커밋과 647명의 기여자가 만든 이번 업데이트의 핵심을 실제 사용자 관점에서 정리했습니다."
 sitemap: false
 noindex: true
@@ -15,7 +15,7 @@ noindex: true
 
 솔직히 릴리즈 노트를 열어보고 규모에 놀랐습니다. v0.19.0 이후 **약 3,650개 커밋, 머지된 PR 1,400개, 참여 기여자 647명**이죠. 이전 업데이트와는 비교가 안 되는 덩치입니다. 오늘은 이번 v0.20.0에서 **실제로 써보면 체감되는 핵심 기능 5가지**와, 지금 바로 업데이트하는 방법까지 정리해드립니다.
 
-![Hermes Agent 공식 홈페이지 히어로](/assets/images/posts/hermes-v020-20260804/hermes-agent-hero.webp)
+![Hermes Agent 공식 홈페이지 히어로](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-v020-20260804/hermes-agent-hero.webp)
 *Hermes Agent — "The agent that grows with you" (출처: hermes-agent.nousresearch.com, 확인일 2026-08-04)*
 
 ---
@@ -55,7 +55,7 @@ noindex: true
 
 재미있는 포인트는 이 기능이 저장소에서 **가장 오래된 기능 요청 중 하나(issue #514)를 해결**했다는 점입니다. 여러 에이전트를 조합해서 쓰는 분들에게는 이번 업데이트의 하이라이트라고 볼 수 있어요. 아직 국내에서 이걸 다루는 자료가 많지 않은데, 에이전트 간 통신이 본격적으로 열리는 신호라고 생각합니다.
 
-![Hermes Agent 기능 이미지 — 멀티태스킹·서브에이전트](/assets/images/posts/hermes-v020-20260804/hermes-feature-tasks.webp)
+![Hermes Agent 기능 이미지 — 멀티태스킹·서브에이전트](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-v020-20260804/hermes-feature-tasks.webp)
 *Hermes Agent의 작업 위임(서브에이전트) 기능 — v0.20.0에서 도구 자가복구와 함께 더 안정적으로 개선 (출처: hermes-agent.nousresearch.com, 확인일 2026-08-04)*
 
 ---
@@ -70,7 +70,7 @@ noindex: true
 
 예를 들어 "에이전트가 야간 리포트 작성을 끝내면 슬랙 웹훅으로 알림을 보내고, 실패하면 내 서버에 장애 이벤트를 쏜다" 같은 자동화가 가능해집니다. 밤새 자동화를 돌리는 분에게 특히 반가운 기능입니다.
 
-![Hermes Agent 웹 대시보드 — 웹훅 관리 화면](/assets/images/posts/hermes-v020-20260804/hermes-dashboard-webhooks.png)
+![Hermes Agent 웹 대시보드 — 웹훅 관리 화면](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-v020-20260804/hermes-dashboard-webhooks.png)
 *Hermes Agent 대시보드의 웹훅 관리 화면 — v0.20.0에서 추가된 아웃바운드 웹훅 설정 (출처: 공식 GitHub 저장소 website/static/img, 확인일 2026-08-04)*
 
 ---
@@ -95,7 +95,7 @@ AI 리서치를 자주 시키는 분이라면 "출처가 진짜인지" 확인하
 - **플러그인 SDK**: 첫 공식 플러그인으로 **칸반 보드**가 포함됐습니다. 에이전트가 작업을 칸반 카드로 관리하고, 보드에서 작업별 모델·사고 깊이까지 지정할 수 있습니다.
 - **퀵엔트리 창**: OS 어디서나 글로벌 단축키로 메모 창을 띄워 어떤 세션이든 바로 입력할 수 있고, **멀티 윈도우**도 지원합니다.
 
-![Hermes Agent 데스크톱 칸반 플러그인 화면](/assets/images/posts/hermes-v020-20260804/hermes-kanban-plugin.png)
+![Hermes Agent 데스크톱 칸반 플러그인 화면](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-v020-20260804/hermes-kanban-plugin.png)
 *Hermes Agent 데스크톱의 칸반 플러그인 — v0.20.0 플러그인 SDK의 첫 공식 플러그인 (출처: 공식 GitHub 저장소 website/static/img, 확인일 2026-08-04)*
 
 ---

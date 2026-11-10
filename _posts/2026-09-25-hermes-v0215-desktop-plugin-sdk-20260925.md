@@ -5,11 +5,11 @@ date: 2026-09-25 07:53:00 +0900
 categories: [career]
 tags: [HermesAgent, NousResearch, v0215, 데스크톱플러그인SDK, 플러그인SDK, 커넥터페이지, MCP, 호스트멀티플렉서, gatewayStandalone, GPT6Sol, ClaudeOpus55, BlenderLab, 칸반, 웹훅, 업무자동화, AI에이전트, AI툴추천, 2026년9월]
 author: "40대 블로거"
-image: /assets/images/posts/hermes-v0215-desktop-plugin-sdk-20260925/official-hermes-og.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-v0215-desktop-plugin-sdk-20260925/official-hermes-og.png
 description: "2026년 9월 24일(UTC 기준) 공개된 Hermes Agent v0.21.5(v2026.9.24) 업데이트 후기입니다. 공식 표기는 '패치 릴리스'지만 내용은 이슈급입니다. ① 데스크톱 플러그인 SDK 웨이브(composer 드래프트 API, 세션 목록·행 장식 슬롯, 사이드바 내비 설정, 모델 필 라벨 프로바이더, 설정·스킬·툴셋·프로필 타입 브리지, 샌드박스 임베드, 플러그인 백엔드 공개 이벤트 브리지)가 들어왔고, ② MCP 탭을 대체하는 '커넥터' 페이지에 'Connect now'가 붙었습니다. ③ 프로필별 중지·시작·재시작(호스트 멀티플렉서)과 gateway.standalone, ④ 데스크톱 Simple/Advanced 인터페이스 모드, ⑤ 프랑스어·독일어·스페인어 전체 카탈로그와 RTL/LTR 설정, ⑥ GPT-6 Sol/Terra/Luna·Claude Opus 5.5 카탈로그 추가, 공식 Blender Lab 연동까지. v0.21.4 이후 1,610개 커밋·4,828개 파일·460개 PR·475개 이슈가 롤업됐습니다. 실사용 체감과 솔직한 장단점, 업데이트 판단 기준을 정리했습니다."
 ---
 
-![Hermes Agent 공식 대표 이미지 — v0.21.5에서 데스크톱 플러그인 SDK와 커넥터 페이지가 정식 표면으로 올라왔습니다](/assets/images/posts/hermes-v0215-desktop-plugin-sdk-20260925/official-hermes-og.png)
+![Hermes Agent 공식 대표 이미지 — v0.21.5에서 데스크톱 플러그인 SDK와 커넥터 페이지가 정식 표면으로 올라왔습니다](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-v0215-desktop-plugin-sdk-20260925/official-hermes-og.png)
 *Hermes Agent 공식 대표 이미지 — 이번 릴리스의 핵심은 "에이전트를 쓰는 앱"에서 "확장해서 쓰는 플랫폼"으로 넘어간 것입니다 (출처: hermes-agent.nousresearch.com 공식 홈페이지)*
 
 > **📌 한줄 요약:** 요즘 저처럼 **서버 한 대에 Hermes Agent 프로필을 여러 개 굴리면서, 사내 도구까지 붙여 쓰시는 분들**은 이번 릴리스가 반가울 겁니다. 9월 24일 공개된 **v0.21.5(v2026.9.24)**는 공식 표기가 또 "패치 릴리스"인데, 실제로는 **① 데스크톱 플러그인 SDK 웨이브**, **② MCP 탭을 대체하는 '커넥터' 페이지**, **③ 프로필별 중지·시작·재시작(호스트 멀티플렉서) + `gateway.standalone`** 이 들어간 **확장 릴리스**예요. v0.21.4 이후 **460개 PR·1,610개 커밋·475개 이슈**가 한꺼번에 롤업됐습니다.
@@ -59,7 +59,7 @@ description: "2026년 9월 24일(UTC 기준) 공개된 Hermes Agent v0.21.5(v202
 - **appearance-settings 슬롯** — 테마/외형 설정 화면 확장
 - **플러그인 백엔드용 공개 이벤트 브리지** — 플러그인 백엔드가 앱 이벤트를 구독
 
-![Hermes Agent 공식 홈페이지의 커넥터/연결 기능 이미지 — 커넥터 페이지가 MCP 탭을 대체하며 'Connect now' 동선이 생겼습니다](/assets/images/posts/hermes-v0215-desktop-plugin-sdk-20260925/connectors-page.jpg)
+![Hermes Agent 공식 홈페이지의 커넥터/연결 기능 이미지 — 커넥터 페이지가 MCP 탭을 대체하며 'Connect now' 동선이 생겼습니다](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-v0215-desktop-plugin-sdk-20260925/connectors-page.jpg)
 *공식 홈페이지 커넥터 관련 이미지 — 이번 릴리스에서 MCP 탭이 사라지고 '커넥터' 페이지 하나로 합쳐졌습니다 (출처: hermes-agent.nousresearch.com 공식 홈페이지)*
 
 개발자 문서(`Desktop Plugin SDK`)를 보면 코어가 자기 UI를 등록하는 방식과 플러그인이 등록하는 방식이 **같은 중앙 레지스트리**를 쓴다고 설명합니다. 그러니까 이번 SDK 웨이브는 "플러그인을 위한 별도 구멍"을 뚫은 게 아니라, **코어와 플러그인의 권한 격차를 실제로 좁힌 것**에 가깝습니다. 개인적으로 이게 이번 릴리스에서 가장 업무 자동화에 직결되는 변화라고 봅니다. 사내 승인 플로우나 커스텀 상태바를 붙이려면 예전엔 코어를 건드려야 했는데, 이제는 플러그인 레이어에서 끝낼 수 있으니까요.
@@ -79,7 +79,7 @@ description: "2026년 9월 24일(UTC 기준) 공개된 Hermes Agent v0.21.5(v202
 
 예전에는 "MCP 서버를 어디서 등록하지?" → "이 플러그인은 무슨 툴을 주지?" → "그 툴이 지금 세션에 왜 안 보이지?" 하는 세 단계가 따로 놀았습니다. 이제는 커넥터 페이지 한 곳에서 연결하고, 연결한 게 바로 대화에 살아납니다. **업무 도구를 붙이는 마찰이 줄어드는 건 자동화 파이프라인을 운영하는 입장에서 조용하지만 큰 변화**예요.
 
-![Hermes Agent 공식 홈페이지의 자동화 기능 이미지 — 커넥터·플러그인 확장이 쌓이는 구조를 보여줍니다](/assets/images/posts/hermes-v0215-desktop-plugin-sdk-20260925/automation-feature.jpg)
+![Hermes Agent 공식 홈페이지의 자동화 기능 이미지 — 커넥터·플러그인 확장이 쌓이는 구조를 보여줍니다](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-v0215-desktop-plugin-sdk-20260925/automation-feature.jpg)
 *공식 홈페이지 자동화 기능 이미지 — 커넥터와 플러그인이 한 겹씩 얹히는 구조 (출처: hermes-agent.nousresearch.com 공식 홈페이지)*
 
 ---

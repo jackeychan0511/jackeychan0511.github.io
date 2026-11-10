@@ -5,13 +5,13 @@ date: 2026-10-18 14:52:00 +0900
 categories: [career]
 tags: [OpenAI, ChatGPT, GPT6, GPT6Pro, 병렬에이전트, ParallelAgents, AI에이전트, 업무자동화, AI뉴스, GPT6Astra, ChatGPTPro, 멀티에이전트, 생산성도구, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/openai-gpt6-pro-parallel-agents-20261018/openai-logo-2025-symbol-wikimedia.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-gpt6-pro-parallel-agents-20261018/openai-logo-2025-symbol-wikimedia.png
 description: "2026년 10월 16일 OpenAI가 ChatGPT의 GPT-6 Pro에 병렬 에이전트 기능을 추가했습니다. 하나의 작업을 여러 에이전트가 나눠 동시에 처리하고, 각 에이전트의 진행 상황과 결과를 대화 안에서 확인할 수 있습니다. Pro 100달러·200달러, Business, Enterprise 대상 순차 배포이며 Plus는 제외됩니다. 기능 내용과 한계, 사용자·개발자·기업 영향, 전망을 정리했습니다."
 ---
 
 > **📌 한줄 요약:** 2026년 **10월 16일**, OpenAI가 ChatGPT의 **GPT-6 Pro**에 **병렬 에이전트(Parallel Agents)** 기능을 넣었습니다. 하나의 요청을 **여러 에이전트가 나눠 동시에 처리**하고, 사용자는 **대화 안에서 각 에이전트의 진행 상황과 완료된 작업을 하나씩 열어 확인**할 수 있습니다. 답변이 아니라 **작업판**이 되는 변화이고, 대상은 **Pro(월 100달러·200달러), Business, Enterprise**입니다. Plus는 이번 대상에서 빠졌습니다.
 
-![OpenAI 2025년 로고 (출처: Wikimedia Commons, Public Domain, OpenAI)](/assets/images/posts/openai-gpt6-pro-parallel-agents-20261018/openai-logo-2025-symbol-wikimedia.png)
+![OpenAI 2025년 로고 (출처: Wikimedia Commons, Public Domain, OpenAI)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-gpt6-pro-parallel-agents-20261018/openai-logo-2025-symbol-wikimedia.png)
 *OpenAI 2025년 로고 (출처: Wikimedia Commons, Public Domain, OpenAI)*
 
 AI 도구를 업무에 붙여 쓰는 분들이라면 한 번쯤 같은 답답함을 겪습니다. **"이거 하나 시키면 끝까지 혼자 하려고 한다"**는 점입니다. 자료 조사, 초안 작성, 검토, 형식 정리처럼 **성격이 다른 일을 한 줄로 세워놓고** 순서대로 처리하니, 사람이 옆에서 계속 기다려야 합니다. 모델이 똑똑해져도 **일을 쪼개서 굴리는 방식**은 크게 달라지지 않았습니다.
@@ -100,7 +100,7 @@ OpenAI가 공개한 설명은 짧습니다. 그래서 **실무에서 바로 부�
 - **일관된 문체가 중요한 글:** 파트별로 쓰게 하면 **말투가 달라집니다.** 통합 단계에서 다시 다듬어야 합니다.
 - **승인 없이 외부에 나가는 작업:** 메일 발송, 결제, 배포는 **직렬 + 사람 승인**이 여전히 정답입니다.
 
-![OpenAI 로고와 돋보기 참고 이미지 (출처: Wikimedia Commons, CC BY 2.0, Jernej Furman)](/assets/images/posts/openai-gpt6-pro-parallel-agents-20261018/openai-logo-magnifying-glass-wikimedia.jpg)
+![OpenAI 로고와 돋보기 참고 이미지 (출처: Wikimedia Commons, CC BY 2.0, Jernej Furman)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-gpt6-pro-parallel-agents-20261018/openai-logo-magnifying-glass-wikimedia.jpg)
 *OpenAI 로고와 돋보기 참고 이미지 (출처: Wikimedia Commons, CC BY 2.0, Jernej Furman). 이번 기능 화면이 아닌 상징 이미지입니다.*
 
 ---

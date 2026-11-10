@@ -5,11 +5,11 @@ date: 2026-10-30 15:55:00 +0900
 categories: [career]
 tags: [Google Gemini, 구글 제미나이, Gemini 파일 편집, 제미나이 PDF 편집, Gemini 앱 업데이트, 파일 생성, Google Docs, Google Sheets, Google Slides, PPTX 내보내기, Drive 업로드, AI 문서 작업, 업무 자동화, 2026년 10월]
 author: "40대 블로거"
-image: /assets/images/posts/gemini-file-editing-chat-20261029/gemini-file-editing-official.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-file-editing-chat-20261029/gemini-file-editing-official.png
 description: "구글이 2026년 10월 29일(미국 현지시간) Gemini 앱에서 PDF·Google 문서·스프레드시트·슬라이드·Markdown·TXT·코드 파일을 채팅 안에서 바로 생성하고 미리보기·편집할 수 있게 했습니다. PDF는 웹과 모바일 모두, 나머지 형식은 현재 웹에서만 지원되며 Gemini 앱이 제공되는 모든 국가·언어·모든 사용자에게 열렸습니다. 4월의 '파일 생성'에서 '파일 편집'으로 넘어간 이번 업데이트의 내용, 지원 범위와 제약, 실무 영향과 남은 변수까지 정리했습니다."
 ---
 
-![Gemini 앱 파일 생성·미리보기·편집 공식 이미지](/assets/images/posts/gemini-file-editing-chat-20261029/gemini-file-editing-official.png)
+![Gemini 앱 파일 생성·미리보기·편집 공식 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-file-editing-chat-20261029/gemini-file-editing-official.png)
 *출처: Google 공식 블로그 "Edit and preview documents directly in Gemini" (2026.10.29)*
 
 > **📌 한 줄 요약:** 구글이 **2026년 10월 29일(미국 현지시간)**, **Gemini 앱 채팅 안에서 파일을 생성하고 미리보고 편집하는 기능**을 공개했습니다. 대상 형식은 **PDF, Google 문서, Google 스프레드시트, 슬라이드, Markdown, TXT, 코드**입니다. **PDF는 웹과 모바일 모두**에서 미리보기·편집이 되고, **나머지 형식은 현재 웹에서만** 지원됩니다. Gemini 앱이 제공되는 **모든 국가·모든 언어의 모든 사용자**에게 즉시 열렸고, **관리자 설정도 따로 없습니다.** 지난 4월에 들어온 '파일 생성' 기능이 **'파일 편집'까지** 확장된 것이 핵심입니다.
@@ -50,7 +50,7 @@ description: "구글이 2026년 10월 29일(미국 현지시간) Gemini 앱에�
 
 세 방식 모두 **같은 대화 안에서** 이뤄집니다. 내려받기 → 다른 앱 열기 → 수정 → 다시 업로드라는 **왕복이 한 번 줄어드는 것**이 이 업데이트의 실체입니다.
 
-![Gemini 파일 편집 공식 데모 영상](/assets/images/posts/gemini-file-editing-chat-20261029/gemini-editing-demo-google.jpg)
+![Gemini 파일 편집 공식 데모 영상](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-file-editing-chat-20261029/gemini-editing-demo-google.jpg)
 *출처: Google 공식 블로그에 포함된 데모 영상(YouTube) 썸네일 — 손글씨 필기 사진으로 PDF 학습 가이드를 만드는 예시 (2026.10.29)*
 
 ### 3) 지원 범위와 제약 — 표로 정리

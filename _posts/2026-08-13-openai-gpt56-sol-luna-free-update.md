@@ -5,7 +5,7 @@ date: 2026-08-13 15:20:00 +0900
 categories: [career]
 tags: [GPT, OpenAI, GPT-5.6, Sol, Luna, Think버튼, 무제한채팅, ChatGPT무료, AI뉴스, 2026년8월]
 author: "40대 블로거"
-image: /assets/images/posts/openai-gpt56-sol-luna-update-20260813/openai-logo-1280.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-gpt56-sol-luna-update-20260813/openai-logo-1280.png
 description: "2026년 8월 6일 OpenAI가 발표한 GPT-5.6 8월 업데이트를 정리했습니다. Plus·Pro용 GPT-5.6 Sol 개선(사실 오류 68% 감소, reasoning slider)과 Free·Go 사용자의 GPT-5.6 Luna 기본 모델 전환·무제한 텍스트 채팅·Think 버튼 도입까지, 지금 순차 적용 중인 변화를 사용자·개발자 관점에서 분석합니다."
 sitemap: false
 noindex: true
@@ -13,7 +13,7 @@ noindex: true
 
 > **📌 한줄 요약:** 지난 8월 6일, OpenAI가 **GPT-5.6 8월 업데이트**를 발표했습니다. 유료 사용자(Plus·Pro)에게는 **사실 오류가 68% 줄어든 개선판 GPT-5.6 Sol**과 응답별 사고 강도를 조절하는 **reasoning slider**가, 무료 사용자(Free·Go)에게는 **GPT-5.6 Luna 기본 모델 전환 + 텍스트 채팅 무제한 + Think 버튼**이 순차 적용 중입니다. GPT-5.5 Instant를 대체하는 이번 업데이트는 '프런티어 모델의 무료화' 흐름을 본격적으로 연 변화로 주목받고 있습니다.
 
-![OpenAI 공식 로고](/assets/images/posts/openai-gpt56-sol-luna-update-20260813/openai-logo-1280.png)
+![OpenAI 공식 로고](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-gpt56-sol-luna-update-20260813/openai-logo-1280.png)
 *이미지 출처: Wikimedia Commons (OpenAI Logo.svg)*
 
 ## 이슈 요약 — "이제 무료로도 GPT-5.6을 무제한으로"
@@ -30,7 +30,7 @@ noindex: true
 
 ### 1. Plus·Pro: 더 정확해진 GPT-5.6 Sol + reasoning slider
 
-![ChatGPT 공식 로고](/assets/images/posts/openai-gpt56-sol-luna-update-20260813/chatgpt-logo-1280.png)
+![ChatGPT 공식 로고](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-gpt56-sol-luna-update-20260813/chatgpt-logo-1280.png)
 *이미지 출처: Wikimedia Commons (ChatGPT logo.svg)*
 
 이번 업데이트의 1번 축은 유료 플랜의 **GPT-5.6 Sol 개선**입니다. 기존에는 빠른 답변(Instant)과 깊은 추론(Deep reasoning)이 별개 모드로 나뉘어 있었는데, 이번에 **하나의 Sol 경험으로 통합**되면서 더 사실적이고 집중된(fact-aware, focused) 응답을 내도록 재튜닝됐습니다.

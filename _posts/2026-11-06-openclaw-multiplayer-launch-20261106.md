@@ -5,11 +5,11 @@ date: 2026-11-06 09:50:00 +0900
 categories: [career]
 tags: [OpenClaw, 오픈클로, Multiplayer, 멀티플레이어, 팀에이전트, 공유세션, 운영자역할, VisitorAccess, SessionShare, 업무자동화, AI에이전트, 오픈소스AI, 2026년11월]
 author: "40대 블로거"
-image: /assets/images/posts/openclaw-multiplayer-20261106/openclaw-multiplayer-blog.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openclaw-multiplayer-20261106/openclaw-multiplayer-blog.jpg
 description: "2026년 11월 5일, OpenClaw가 'Multiplayer'를 공식 발표했습니다. 팀 전체가 하나의 게이트웨이와 같은 세션을 공유하고, 역할·귀속·게스트 초대·읽기 전용 공유로 통제하는 구조입니다. 업무 자동화 운영에 실질적으로 영향이 있는 6가지 변화와 도입 전 체크포인트를 정리했습니다."
 ---
 
-![OpenClaw Multiplayer 공식 발표 대표 이미지](/assets/images/posts/openclaw-multiplayer-20261106/openclaw-multiplayer-blog.jpg)
+![OpenClaw Multiplayer 공식 발표 대표 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openclaw-multiplayer-20261106/openclaw-multiplayer-blog.jpg)
 *OpenClaw 공식 블로그 'Shattering Silos with OpenClaw Multiplayer' 대표 이미지. (출처: openclaw.ai/blog)*
 
 > **📌 한줄 요약:** 2026년 11월 5일, OpenClaw가 **Multiplayer**를 공식 발표했습니다. 요지는 단순합니다. **팀 전체가 하나의 게이트웨이, 하나의 에이전트, 같은 세션을 공유**하고, 그 위에 **역할(role)·귀속(attribution)·게스트 만료·읽기 전용 공유**로 통제를 얹는 구조입니다. 개인용 자동화를 팀 단위 자동화로 옮기려는 쪽이라면, 이번 발표는 "기능 추가"보다 **운영 방식의 변경**에 가깝습니다.
@@ -42,7 +42,7 @@ OpenClaw 공식 블로그에 2026년 11월 5일자로 **「Shattering Silos with
 
 핵심은 마지막 부분입니다. "그 객체"가 무엇인지 설명하지 않아도, 이전 프롬프트를 복사하지 않아도, 대화를 요약해 붙여넣지 않아도 됩니다. **같은 컨텍스트를 두 사람이 동시에 들고 있는 상태**이기 때문입니다. 요청은 공유 큐를 통해 조율되므로, 에이전트가 바쁜지도 눈으로 확인할 수 있습니다.
 
-![OpenClaw Multiplayer 문서 대표 이미지](/assets/images/posts/openclaw-multiplayer-20261106/openclaw-multiplayer-docs.png)
+![OpenClaw Multiplayer 문서 대표 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openclaw-multiplayer-20261106/openclaw-multiplayer-docs.png)
 *OpenClaw 공식 문서(docs.openclaw.ai) Multiplayer 페이지 대표 이미지. (출처: docs.openclaw.ai)*
 
 그리고 발표문에서 눈에 띄는 문장 하나 — **"Oh, and it's free."** OpenClaw는 비영리 재단이 개발하는 MIT 라이선스 오픈소스이고, 모델은 사용자가 가져오는(BYO) 구조입니다. 발표문 기준 포크 수는 83,000개, 재단 내부에서는 **50명 이상이 같은 공유 환경에서** 협업 중이라고 밝히고 있습니다.
@@ -168,7 +168,7 @@ OpenClaw 공식 블로그에 2026년 11월 5일자로 **「Shattering Silos with
 - **위젯은 별도 샌드박스 오리진**으로 분리. 채팅 페이지가 정상이라고 위젯 iframe이 뜬다는 보장은 없다고 못 박습니다.
 - **검증 절차**: `openclaw config validate --json`, `openclaw gateway status --deep`, `openclaw security audit`을 서비스 소유자로 실행하고, **서로 다른 실제 계정 2개**로 역할·프레즌스·세션 링크를 확인하라고 요구합니다. Access 리다이렉트만 보고 "된다"고 판단하지 말라는 문장이 특히 좋습니다.
 
-![OpenClaw Multiplayer 공유 세션 실제 화면](/assets/images/posts/openclaw-multiplayer-20261106/openclaw-multiplayer-session.jpg)
+![OpenClaw Multiplayer 공유 세션 실제 화면](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openclaw-multiplayer-20261106/openclaw-multiplayer-session.jpg)
 *재단이 team.openclaw.ai에서 실제로 쓰는 멀티플레이어 클로의 저장소 작업 세션(분석·테스트 결과·발행된 PR). (출처: docs.openclaw.ai/start/multiplayer)*
 
 ---

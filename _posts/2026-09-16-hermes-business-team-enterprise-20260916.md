@@ -5,11 +5,11 @@ date: 2026-09-16 07:57:00 +0900
 categories: [career]
 tags: [HermesAgent, NousResearch, HermesBusiness, HermesEnterprise, NousPortal, 팀요금제, 공유스킬, 업무자동화, AI에이전트, AI툴추천, 크론잡, 온프레미스, 2026년9월]
 author: "40대 블로거"
-image: /assets/images/posts/hermes-business-20260916/hermes-business-announce.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-business-20260916/hermes-business-announce.jpg
 description: "2026년 9월 15일(현지시간) Nous Research가 팀·기업용 요금제를 공개했습니다. ① Nous Portal 안에 팀 계정 'Hermes Business'가 열렸고, ② 공용 크레딧 잔액 + 1인당 사용 한도(per-member caps), ③ 팀 공유 스킬 라이브러리, ④ 온프레미스·프라이빗 클라우드 배포용 'Hermes Enterprise'(맞춤 배포·SSO·SLA·온보딩, 코어는 텔레메트리 없이 구동)가 함께 발표됐습니다. 공식 페이지는 \"Business ships today(오늘 출시), Enterprise는 관심 등록\"이라고 안내합니다. 개인이 크론잡으로 업무 자동화를 돌리던 제가 팀 단위로 넘어갈 때 실제로 걸리는 지점(비용 한도·스킬 공유·데이터 경계)을 기준으로 실사용 후기와 솔직한 장단점, 가입 방법을 정리했습니다."
 ---
 
-![Nous Research 공식 발표 이미지 — Hermes Agent 팀·기업용 요금제(Hermes Business / Hermes Enterprise) 공개](/assets/images/posts/hermes-business-20260916/hermes-business-announce.jpg)
+![Nous Research 공식 발표 이미지 — Hermes Agent 팀·기업용 요금제(Hermes Business / Hermes Enterprise) 공개](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-business-20260916/hermes-business-announce.jpg)
 *Nous Research 공식 X(트위터) 계정의 Hermes Business·Hermes Enterprise 발표 영상 썸네일 — "Hermes Agent is open for business" (출처: Nous Research 공식 X 계정 @NousResearch)*
 
 > **📌 한줄 요약:** 요즘 저처럼 **혼자서 AI 에이전트를 굴리다가 "이거 팀에 붙이면 어떨까" 고민하시는 분들** 많으시죠? 2026년 9월 15일, Nous Research가 그 질문에 답을 내놨습니다. **Nous Portal 안에 팀 계정 'Hermes Business'**가 열렸고, **공용 크레딧 잔액 + 1인당 사용 한도(per-member caps) + 팀 공유 스킬 라이브러리**가 한 묶음으로 들어왔습니다. 여기에 **온프레미스·프라이빗 클라우드용 'Hermes Enterprise'**(맞춤 배포·SSO·SLA·온보딩)까지 예고됐습니다. 개인 크레딧을 팀 크레딧으로 바꾸는 순간 생기는 문제 — **비용 폭주, 스킬 중복, 데이터 경계** — 를 정면으로 다루는 변화라, 저처럼 업무 자동화를 오래 돌려온 입장에서는 반가운 소식입니다. 솔직히 말하면 **가격표는 아직 공개되지 않았습니다.** 그 부분까지 포함해서 정리했습니다.
@@ -37,7 +37,7 @@ description: "2026년 9월 15일(현지시간) Nous Research가 팀·기업용 �
 
 알고 보니 **저만 고민한 게 아니었습니다.** Nous Research는 2026년 **9월 15일**, 정확히 이 세 지점을 겨냥한 두 개의 상품을 공개했습니다. **Nous Portal 기반 팀 계정 'Hermes Business'** 와 **조직 인프라에 직접 올리는 'Hermes Enterprise'** 입니다.
 
-![Hermes Agent 공식 홈페이지 히어로 이미지 — 개인용에서 팀·기업용으로 확장되는 흐름](/assets/images/posts/hermes-business-20260916/hero.jpg)
+![Hermes Agent 공식 홈페이지 히어로 이미지 — 개인용에서 팀·기업용으로 확장되는 흐름](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-business-20260916/hero.jpg)
 *Hermes Agent 공식 홈페이지 메인 이미지 — 같은 에이전트를 이제 팀 계정과 사내 인프라로 확장하는 단계입니다 (출처: hermes-agent.nousresearch.com 공식 홈페이지)*
 
 ---
@@ -61,7 +61,7 @@ description: "2026년 9월 15일(현지시간) Nous Research가 팀·기업용 �
 - **Hermes Business** — Nous Portal 안에 생긴 **팀 티어**. 팀 페이지에서 **이메일로 동료를 초대**하고, 크레딧은 하나로 묶고, 한도는 사람별로 자릅니다.
 - **Hermes Enterprise** — 같은 스택을 **조직이 통제하는 온프레미스 또는 프라이빗 클라우드**에 올리는 에디션. 맞춤 배포, SSO(싱글 사인온), SLA, 온보딩 지원이 포함됩니다.
 
-![Hermes Agent 공식 플랫폼 아트 — 하나의 게이트웨이 위에 팀 계정이 얹히는 구조](/assets/images/posts/hermes-business-20260916/platform-art.jpg)
+![Hermes Agent 공식 플랫폼 아트 — 하나의 게이트웨이 위에 팀 계정이 얹히는 구조](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-business-20260916/platform-art.jpg)
 *Hermes Agent 공식 플랫폼 아트 — 모델·도구·채널을 하나의 게이트웨이로 묶고, 그 위에 팀 계정 레이어가 얹히는 구조입니다 (출처: hermes-agent.nousresearch.com 공식 홈페이지)*
 
 ---
@@ -92,7 +92,7 @@ Portal 자체는 **하나의 OAuth 로그인으로 모델·검색·이미지 생
 
 특히 Enterprise는 **코어가 텔레메트리·트래킹 없이 구동된다**고 Nous가 설명합니다. 모델에 종속되지 않는(model-agnostic) 구조라 로컬 GPU나 사설 클라우드의 오픈웨이트 모델과 조합할 수 있습니다. 대기업 몇 곳에는 이미 배포됐다고 하는데, **고객사 이름은 공개하지 않았습니다.**
 
-![Hermes Agent 공식 위임(Delegate) 기능 이미지 — 서브에이전트에 일을 나눠 맡기는 구조](/assets/images/posts/hermes-business-20260916/feature-delegate.jpg)
+![Hermes Agent 공식 위임(Delegate) 기능 이미지 — 서브에이전트에 일을 나눠 맡기는 구조](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-business-20260916/feature-delegate.jpg)
 *Hermes Agent 공식 위임(Delegate) 기능 이미지 — 팀 요금제에서는 이 "일을 나눠 맡기는" 구조가 사람 단위 권한·한도와 만납니다 (출처: hermes-agent.nousresearch.com 공식 홈페이지)*
 
 ---
@@ -113,7 +113,7 @@ Nous가 공개한 **내부 벤치마크**도 있습니다. **자체 생성 스�
 
 그리고 하나 더, 발표문 기준으로 **팀원 전체가 서로의 대화 기록이나 개인 에이전트 메모리를 다 보는 구조는 아닙니다.** 공유되는 건 **스킬**입니다. 프라이버시를 걱정하시는 분들은 이 구분을 기억해 두시면 좋겠습니다.
 
-![Hermes Agent 공식 연결(Connect) 기능 이미지 — 메신저·데스크톱·클라우드를 한 게이트웨이로](/assets/images/posts/hermes-business-20260916/feature-connect.jpg)
+![Hermes Agent 공식 연결(Connect) 기능 이미지 — 메신저·데스크톱·클라우드를 한 게이트웨이로](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-business-20260916/feature-connect.jpg)
 *Hermes Agent 공식 연결(Connect) 기능 이미지 — 팀 계정에서는 이 채널 전반에 걸친 에이전트가 하나의 잔액으로 묶입니다 (출처: hermes-agent.nousresearch.com 공식 홈페이지)*
 
 ---

@@ -5,12 +5,12 @@ date: 2026-08-18 23:30:00 +0900
 categories: [products]
 tags: [DDR5, D램, 메모리대란, 램가격, 램값급등, 메모리가격, HBM, AI반도체, 삼성전자, SK하이닉스, 마이크론, 아이폰18프로, 조립PC, PC견적, DDR4, 16GB, 32GB, 구매가이드, 2026년8월]
 author: "40대 블로거"
-image: /assets/images/posts/ddr5-memory-price-surge-20260818/ddr5-module-smial.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/ddr5-memory-price-surge-20260818/ddr5-module-smial.jpg
 description: "2026년 8월 18일 기준, PC 사용자들 사이에서 가장 뜨거운 이슈는 '메모리 대란'입니다. DDR5 16GB 메모리 가격이 1년 새 약 6만 원대에서 30만 원대 중반으로 급등했고(영남일보 8/13), AI 데이터센터의 HBM 수요 폭주로 D램·낸드 가격은 2025년 초 대비 최대 5~7배까지 뛰었습니다. 아이폰 18 프로는 부품 원가가 38~40% 급등해 출고가 200만 원 전망까지 나온 상황이죠. 지금 램을 사야 할지, 기다려야 할지 고민하는 분들을 위해 폭등 원인, 시장 전망, DDR4-DDR5 가격 역전 현상, 그리고 상황별 구매 팁까지 정리했습니다."
 ---
 > **📌 한줄 요약:** 2026년 8월, PC 부품 시장의 최대 화제는 단연 **DDR5 메모리 가격 급등('메모리 대란')**입니다. 영남일보(8/13) 보도에 따르면 **DDR5 16GB 메모리 가격이 1년 새 약 6만 원대에서 30만 원대 중반으로 급등**했고, AI 데이터센터의 HBM 수요 폭주로 **D램·낸드 가격은 2025년 초 대비 최대 5~7배**까지 뛰었습니다. 이 여파로 [아이폰 18 프로는 부품 원가가 38~40% 급등](/2026/08/18/iphone18-pro-price-hike-20260818/)해 출고가 200만 원 전망까지 나오는 상황입니다. 다만 8월 들어 **DDR4가 DDR5와 같은 값에 팔리는 '가격 역전' 현상**까지 나타나며 상승 속도가 꺾였다는 분석도 나오고 있어, **'지금 살까, 기다릴까'** 고민이 깊어지고 있습니다.
 
-![DDR5 SDRAM 메모리 모듈 실물 사진](/assets/images/posts/ddr5-memory-price-surge-20260818/ddr5-module-smial.jpg)
+![DDR5 SDRAM 메모리 모듈 실물 사진](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/ddr5-memory-price-surge-20260818/ddr5-module-smial.jpg)
 *DDR5 SDRAM 메모리 모듈 — 2026년 현재 PC용 램 시장의 주력 규격 (출처: Wikimedia Commons, smial 촬영, CC BY-SA, 확인일 2026-08-18)*
 
 ---
@@ -45,10 +45,10 @@ description: "2026년 8월 18일 기준, PC 사용자들 사이에서 가장 뜨
 
 이번 대란의 상징적인 사건은 단연 아이폰입니다. 대만 시장조사기관 **트렌드포스**는 **아이폰 18 프로의 부품 원가(BOM)가 전작 대비 약 38~40% 급증**할 것으로 추정했고, 전자신문이 인용한 **테크인사이트** 분석에 따르면 **12GB D램이 39달러 → 145달러(약 3.7배), 256GB 낸드가 13달러 → 51달러(약 4배)**로 뛰었습니다. 뉴스탭 보도에 따르면 **메모리 비용이 아이폰 원가의 약 40%**를 차지할 정도로 비중이 커졌다고 하니, '메모리 대란'이 이제 스마트폰 출고가까지 좌우하는 시대가 된 겁니다.
 
-![삼성전자 12나노급 16Gb DDR5 D램](/assets/images/posts/ddr5-memory-price-surge-20260818/samsung-ddr5-12nm-chip.jpg)
+![삼성전자 12나노급 16Gb DDR5 D램](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/ddr5-memory-price-surge-20260818/samsung-ddr5-12nm-chip.jpg)
 *삼성전자 12나노급 16Gb DDR5 D램 — 이번 메모리 대란의 중심에 있는 제품 (출처: 연합뉴스, 삼성전자 제공, 확인일 2026-08-18)*
 
-![SK하이닉스 DDR5 폼팩터 — PC용 DIMM부터 서버용 MRDIMM까지](/assets/images/posts/ddr5-memory-price-surge-20260818/skhynix-ddr5-formfactors.jpg)
+![SK하이닉스 DDR5 폼팩터 — PC용 DIMM부터 서버용 MRDIMM까지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/ddr5-memory-price-surge-20260818/skhynix-ddr5-formfactors.jpg)
 *SK하이닉스 DDR5 폼팩터 — PC용 DIMM부터 서버용 MRDIMM까지, 메모리 수요가 PC·서버 전반으로 확산 (출처: Wikimedia Commons, 확인일 2026-08-18)*
 
 ### ③ "DDR4가 DDR5와 같은 값" — 이례적인 가격 역전
@@ -71,7 +71,7 @@ D램만 오른 게 아닙니다. **256GB 낸드 플래시 가격이 13달러 →
 
 대안으로 떠오른 건 중국 메모리였지만, 상황은 녹록지 않습니다. 오늘 포스팅에서도 다룬 것처럼 **애플과 중국 CXMT(창신메모리)의 D램 공급 협상은 결렬**된 것으로 알려졌고, 미국의 대중(對中) 반도체 제재 강화 분위기 속에서 **중국산 D램이 2027년 이후 글로벌 공급망에서 빠질 수 있다는 전망**까지 나오고 있습니다. 공급 대안이 막힌 만큼, 메모리 가격이 쉽게 내려오기 어렵다는 게 업계의 공통된 관측입니다.
 
-![HBM 메모리 실물 — AMD Fiji GPU 패키지](/assets/images/posts/ddr5-memory-price-surge-20260818/hbm-amd-fiji.jpg)
+![HBM 메모리 실물 — AMD Fiji GPU 패키지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/ddr5-memory-price-surge-20260818/hbm-amd-fiji.jpg)
 *HBM(고대역폭 메모리) — GPU 패키지에 쌓여 들어가는 HBM 스택. AI 데이터센터 수요가 이번 메모리 대란의 진원지 (출처: Wikimedia Commons, 확인일 2026-08-18)*
 
 ---

@@ -6,7 +6,7 @@ categories: [career]
 tags: [Anthropic, Claude, 앤트로픽, 클로드, CommerceAgents, 쇼핑에이전트, 머천트에이전트, AI커머스, 에이전트, 오픈소스, Apache2.0, Visa, Mastercard, Accenture, Shopify, Priceline, AI뉴스, 2026년9월, AI산업]
 author: "40대 블로거"
 description: "Anthropic이 2026년 9월 2일 상거래 AI 에이전트 구축용 오픈소스 블루프린트 'Commerce Agents'를 공개했습니다. 쇼핑 에이전트(고객용)와 머천트 에이전트(점주·운영진용) 2종의 레퍼런스 구현을 Apache 2.0으로 GitHub에 공개하고, 리테일·여행·통신·티켓팅 4개 업종 데모와 Claude Code 플러그인을 함께 제공합니다. 실제 도입 리테일러 기준 장바구니 최대 35% 증가·구매 완료 확률 60% 상승 효과가 확인됐으며, Visa·Mastercard·Accenture·Shopify·Priceline 등이 파트너로 참여했습니다. 블루프린트 구성(쇼핑/머천트 에이전트, 3가지 실행 경로, 안전장치) → 업계 반응 → 영향(사용자·개발자) → 전망 순서로 정리했습니다."
-image: /assets/images/posts/claude-commerce-agents-20260903/claude-commerce-retail-demo.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/claude-commerce-agents-20260903/claude-commerce-retail-demo.jpg
 sitemap: false
 noindex: true
 ---
@@ -17,7 +17,7 @@ noindex: true
 
 오늘은 이번 발표를 **이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망** 순서로 정리해 드리겠습니다.
 
-![Claude 쇼핑 에이전트가 ACME 리테일 데모에서 대화형 UI로 상품을 보여주는 모습](/assets/images/posts/claude-commerce-agents-20260903/claude-commerce-retail-demo.jpg)
+![Claude 쇼핑 에이전트가 ACME 리테일 데모에서 대화형 UI로 상품을 보여주는 모습](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/claude-commerce-agents-20260903/claude-commerce-retail-demo.jpg)
 *쇼핑 에이전트 실행 예시(ACME 리테일 데모) — 채팅 속에서 상품·비교·장바구니 UI가 바로 표시된다 (출처: Anthropic 공식 블로그 'Building Commerce Agents with Claude', 2026-09-02)*
 
 > 📌 참고: 본 글은 2026년 9월 2일 Anthropic 공식 블로그 발표·GitHub 저장소 공개 내용과 9월 3일 GIGAZINE 등 외신 보도를 바탕으로 작성한 정보형 기사입니다.
@@ -81,7 +81,7 @@ noindex: true
 - **Priceline(코버스 콕 AI 경험 부사장)**: 항공·호텔·렌터카를 한 번에 비교하는 AI 비서 **'페니(Penny)'를 Claude로 구축**한 사례를 소개
 - **Shopify·Intuit** 등도 블루프린트 활용 기업으로 이름을 올렸습니다.
 
-![머천트 에이전트가 매출 분석·재고·프로모션을 관리하는 백오피스 워크스페이스](/assets/images/posts/claude-commerce-agents-20260903/claude-commerce-merchant-workspace.jpg)
+![머천트 에이전트가 매출 분석·재고·프로모션을 관리하는 백오피스 워크스페이스](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/claude-commerce-agents-20260903/claude-commerce-merchant-workspace.jpg)
 *머천트 에이전트 워크스페이스(ACME 리테일 예시) — 변경 제안은 사람 승인을 거쳐 반영된다 (출처: Anthropic 공식 블로그 'Building Commerce Agents with Claude', 2026-09-02)*
 
 ---

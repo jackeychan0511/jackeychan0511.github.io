@@ -6,12 +6,12 @@ categories: [ai-teacher]
 tags: [업무자동화, 월간직무보고, 대시보드개발, 파이썬, Streamlit, Playwright, 브라우저자동화, Claude, SQLite, AI자동화, 개발일지, 2026년10월]
 author: 재찬키
 description: "매달 반복하던 월간직무보고 작성을, 인트라넷에 이미 쌓인 주간업무보고와 품의에서 근거를 모아 초안까지 만들어 주는 개인용 대시보드로 바꿨습니다. 설계 원칙, 막혔던 지점 6가지, 검증 방법을 정리했습니다."
-image: /assets/images/posts/monthly-job-report-dashboard/00-cover.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/monthly-job-report-dashboard/00-cover.png
 ---
 
 매달 같은 일을 반복하고 있었습니다. 주간업무보고를 하나씩 열어 보고, 품의 내역을 찾고, 업무 처리 현황 화면에서 숫자를 옮겨 적고, 지난달 양식에 맞춰 문장을 다시 고쳐 쓰는 일입니다.
 
-![월간직무보고 대시보드](/assets/images/posts/monthly-job-report-dashboard/00-cover.png)
+![월간직무보고 대시보드](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/monthly-job-report-dashboard/00-cover.png)
 
 이 작업의 대부분은 판단이 아니라 **찾기와 옮겨 적기**였습니다. 실수도 대부분 여기서 났습니다. 숫자 오타, 항목 누락, 지난달 문구가 그대로 남는 일이었습니다.
 
@@ -34,7 +34,7 @@ image: /assets/images/posts/monthly-job-report-dashboard/00-cover.png
 
 브라우저에서 여는 로컬 웹앱입니다. 화면은 크게 세 부분입니다.
 
-![대시보드 개요 화면](/assets/images/posts/monthly-job-report-dashboard/01-dashboard.png)
+![대시보드 개요 화면](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/monthly-job-report-dashboard/01-dashboard.png)
 *사이드바에서 대상 월을 고르고 수집을 실행합니다. 상단에는 수집 건수와 진행 단계가 표시됩니다. (화면의 사내 문서 내용은 모자이크 처리했습니다)*
 
 **흐름은 네 단계입니다.**
@@ -44,10 +44,10 @@ image: /assets/images/posts/monthly-job-report-dashboard/00-cover.png
 3. **생성** — 수집 자료와 지난달 양식을 함께 넘겨, 인트라넷 "성과 계획표" 칸 구조(구분 / 평가지표 / 달성목표 / 수행결과 / 비고 + 특기사항) 그대로 초안을 받습니다.
 4. **검토·복사** — 왼쪽 칸에서 수정하면 오른쪽 복사용 칸에 그대로 반영됩니다. 칸별로 복사해 인트라넷에 붙여넣습니다.
 
-![작성 화면](/assets/images/posts/monthly-job-report-dashboard/02-draft.png)
+![작성 화면](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/monthly-job-report-dashboard/02-draft.png)
 *왼쪽이 편집 칸, 오른쪽이 복사용 칸입니다. 두 칸이 같은 구조라 복사·붙여넣기에서 서식이 깨지지 않습니다. (내용은 모자이크)*
 
-![수집 현황](/assets/images/posts/monthly-job-report-dashboard/03-collection.png)
+![수집 현황](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/monthly-job-report-dashboard/03-collection.png)
 *어떤 문서를 근거로 삼았는지 표로 남깁니다. 각 행에서 인트라넷 원문으로 바로 이동할 수 있습니다. (제목·작성자는 모자이크)*
 
 수집 현황 화면을 만든 이유는 **근거를 따라가 볼 수 있어야** 초안을 믿을 수 있기 때문입니다. AI가 쓴 문장은 결국 쓰는 사람의 책임이므로, 어디서 나온 숫자인지 즉시 확인할 수 있어야 했습니다.

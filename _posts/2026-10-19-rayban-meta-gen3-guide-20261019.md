@@ -5,7 +5,7 @@ date: 2026-10-19 11:20:00 +0900
 categories: [products]
 tags: [레이밴메타, RayBanMeta, 레이밴메타Gen3, AI안경, AI글래스, 메타AI, 스마트안경비교, 레이밴메타Gen2, 메타레이밴디스플레이, 구매가이드, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/rayban-meta-gen3-guide-20261019/rayban-meta-gen3-lineup.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/rayban-meta-gen3-guide-20261019/rayban-meta-gen3-lineup.jpg
 description: "레이밴 메타 Gen 3가 2026년 10월 12일 국내 출시됐습니다. 권장가 74만 원부터, 에비에이터·제나·웨이페어러 3가지 스타일 27개 조합. 12MP·3K 촬영은 Gen 2와 같지만 6개 마이크, 최대 9시간 배터리, 커스텀 액션 버튼, 슬림한 템플로 달라졌습니다. Gen 2(69만 원)·레이밴 메타 오디오(349달러)·메타 레이밴 디스플레이(799달러)와 무엇을 고를지 공식 스펙 기준으로 비교했습니다."
 ---
 
@@ -13,7 +13,7 @@ description: "레이밴 메타 Gen 3가 2026년 10월 12일 국내 출시됐습�
 
 ---
 
-![레이밴 메타 Gen 3 라인업 공식 이미지](/assets/images/posts/rayban-meta-gen3-guide-20261019/rayban-meta-gen3-lineup.jpg)
+![레이밴 메타 Gen 3 라인업 공식 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/rayban-meta-gen3-guide-20261019/rayban-meta-gen3-lineup.jpg)
 *레이밴 메타 Gen 3와 레이밴 메타 오디오 등 확대된 AI 글래스 라인업 (출처: Meta Newsroom, 2026.9)*
 
 ---
@@ -30,7 +30,7 @@ Gen 3에서 메타가 손본 지점이 정확히 여기입니다.
 
 숫자만 보면 소소해 보이지만, 안경은 얼굴에 닿는 면적이 곧 만족도입니다. 1mm 차이가 "쓰고 있다는 느낌"을 줄이는 데 실제로 기여하는지는 매장에서 직접 써보고 판단하는 게 좋습니다.
 
-![레이밴 메타 Gen 3 웨이페어러](/assets/images/posts/rayban-meta-gen3-guide-20261019/rayban-meta-gen3-wayfarer.jpg)
+![레이밴 메타 Gen 3 웨이페어러](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/rayban-meta-gen3-guide-20261019/rayban-meta-gen3-wayfarer.jpg)
 *Gen 3 웨이페어러. 템플과 카메라 개구부가 전작보다 슬림해졌습니다 (출처: 에실로룩소티카 제공)*
 
 ---
@@ -47,10 +47,10 @@ Gen 2까지는 웨이페어러가 중심이었습니다. Gen 3는 여기에 두 
 
 에비에이터가 AI 글래스 라인업에 들어온 건 이번이 처음입니다. 레이밴 90주년을 기념한 **빈티지 컬러의 한정판 에비에이터**도 함께 나옵니다. 한정판은 물량이 적으니 특정 색상을 노린다면 매장 재고를 먼저 확인하는 편이 안전합니다.
 
-![레이밴 메타 Gen 3 에비에이터](/assets/images/posts/rayban-meta-gen3-guide-20261019/rayban-meta-gen3-aviator.jpg)
+![레이밴 메타 Gen 3 에비에이터](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/rayban-meta-gen3-guide-20261019/rayban-meta-gen3-aviator.jpg)
 *AI 글래스 최초로 라인업에 합류한 에비에이터 (출처: 에실로룩소티카 제공)*
 
-![레이밴 메타 Gen 3 제나](/assets/images/posts/rayban-meta-gen3-guide-20261019/rayban-meta-gen3-zena.jpg)
+![레이밴 메타 Gen 3 제나](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/rayban-meta-gen3-guide-20261019/rayban-meta-gen3-zena.jpg)
 *캣아이 실루엣의 제나. 선택 폭을 넓힌 것이 3세대의 특징입니다 (출처: 에실로룩소티카 제공)*
 
 ---

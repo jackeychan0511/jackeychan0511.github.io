@@ -5,7 +5,7 @@ date: 2026-10-27 14:52:00 +0900
 categories: [career]
 tags: [OpenAI, GPT61Terra, GPT6, 테라, OpenAIAPI, 컴퓨터유즈, ChatGPTWork, Codex, GitHubCopilot, API가격, AI에이전트, 업무자동화, 벤치마크, AI뉴스, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/openai-gpt61-terra-launch-20261027/gpt61-terra-copilot-model-picker.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-gpt61-terra-launch-20261027/gpt61-terra-copilot-model-picker.png
 description: "2026년 10월 26일 OpenAI가 GPT-6.1 Terra를 공개했습니다. 표준 API 가격이 입력 100만 토큰당 1달러, 출력 5달러로 GPT-5.6 Terra와 GPT-6.1 Sol의 절반이고, 컨텍스트는 105만 토큰입니다. 화면을 읽고 클릭·입력까지 수행하는 컴퓨터 사용 능력이 핵심이며, 같은 조건에서 GPT-6 Astra·GPT-6.1 Sol보다 3배 이상 빠릅니다. 다만 시스템 카드에서 사이버보안 'Critical' 등급을 받았고 정렬 평가 일부는 상위 모델보다 나쁩니다. 가격표, 벤치마크, 실제 도입 비용 계산, 그리고 눈에 잘 안 띄는 주의점까지 정리했습니다."
 ---
 
@@ -15,7 +15,7 @@ description: "2026년 10월 26일 OpenAI가 GPT-6.1 Terra를 공개했습니다.
 
 OpenAI가 10월 26일 내놓은 **GPT-6.1 Terra**는 정확히 그 지점을 노린 모델입니다. GPT-6 계열이 Luna, Sol, Astra로 출시됐지만 **5.6 Terra의 후속 자리는 비어 있었는데**, 그 자리를 채우는 중간급 모델입니다. 이번 글은 **가격표, 벤치마크, 실제 비용 계산, 그리고 공식 발표에서 상대적으로 조용히 지나간 안전성 이슈** 순서로 정리했습니다.
 
-![GitHub Copilot 모델 선택 화면에 표시된 GPT-6.1 Terra (출처: GitHub 공식 블로그 Changelog, 2026년 10월 26일)](/assets/images/posts/openai-gpt61-terra-launch-20261027/gpt61-terra-copilot-model-picker.png)
+![GitHub Copilot 모델 선택 화면에 표시된 GPT-6.1 Terra (출처: GitHub 공식 블로그 Changelog, 2026년 10월 26일)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-gpt61-terra-launch-20261027/gpt61-terra-copilot-model-picker.png)
 *GitHub Copilot 모델 선택 화면에 표시된 GPT-6.1 Terra (출처: GitHub 공식 블로그 Changelog, 2026년 10월 26일)*
 
 ## 이슈 요약 — 한 장으로 정리
@@ -36,7 +36,7 @@ OpenAI가 10월 26일 내놓은 **GPT-6.1 Terra**는 정확히 그 지점을 노
 
 가격 숫자만 보면 "또 하나의 저렴한 모델"로 읽힙니다. 하지만 이번 발표에서 실질적인 변화는 **가격이 아니라 역할**입니다. Terra는 채팅용이 아니라 **화면을 보고 손을 움직이는 모델**로 포지셔닝됐고, 실제로 **일반 Chat 인터페이스에서는 선택할 수 없습니다.**
 
-![OpenAI 로고 (출처: Wikimedia Commons, CC BY-SA 4.0)](/assets/images/posts/openai-gpt61-terra-launch-20261027/openai-logo-wikimedia.png)
+![OpenAI 로고 (출처: Wikimedia Commons, CC BY-SA 4.0)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-gpt61-terra-launch-20261027/openai-logo-wikimedia.png)
 *OpenAI 로고 (출처: Wikimedia Commons, CC BY-SA 4.0)*
 
 ## 상세 분석 — 무엇이 달라졌나

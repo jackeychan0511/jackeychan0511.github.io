@@ -5,13 +5,13 @@ date: 2026-10-20 11:22:00 +0900
 categories: [products]
 tags: [애플, Apple, 맥북프로OLED, 터치스크린맥북, MacBookPro, M5Pro, M5Max, M6아이맥, 아이패드미니8, ProAndTell, 애플이벤트, 신제품, 2026년10월, 구매가이드]
 author: "40대 블로거"
-image: /assets/images/posts/apple-pro-and-tell-oct28-20261020/macbook-pro-official.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/apple-pro-and-tell-oct28-20261020/macbook-pro-official.png
 description: "애플이 10월 28일 'Pro and Tell' 제품 발표를 공식 예고했습니다. 첫 OLED·첫 터치스크린 맥북 프로(14·16인치), M6 14인치 맥북 프로, M6 아이맥, OLED 아이패드 미니 8이 유력합니다. 칩은 M5 Pro·M5 Max를 그대로 쓰고 다이내믹 아일랜드·보강 힌지·경량화가 예고됐습니다. 현행 M5 모델(미국 1,999달러부터)과의 비교, 11월 6일 출시 전망, 구매 타이밍 가이드까지 정리했습니다."
 ---
 
 맥북 프로를 사려고 장바구니까지 채워 놓고 마지막에 손을 떼는 경우가 많습니다. 지금 사면 몇 주 뒤 신형이 나올 것 같고, 그렇다고 계속 기다리면 작업이 밀리니까요. 그 고민이 이번엔 꽤 명확하게 정리될 것 같습니다. 애플이 **10월 28일 새 제품 발표**를 공식 예고했고, 그 중심에 **맥 사상 첫 OLED·첫 터치스크린 맥북 프로**가 있어서입니다.
 
-![애플 현행 맥북 프로 공식 제품 이미지 — 10월 28일 'Pro and Tell'에서 OLED 터치 모델이 이 라인업에 합류할 전망입니다 (출처: Apple 공식 홈페이지)](/assets/images/posts/apple-pro-and-tell-oct28-20261020/macbook-pro-official.png)
+![애플 현행 맥북 프로 공식 제품 이미지 — 10월 28일 'Pro and Tell'에서 OLED 터치 모델이 이 라인업에 합류할 전망입니다 (출처: Apple 공식 홈페이지)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/apple-pro-and-tell-oct28-20261020/macbook-pro-official.png)
 
 > **📌 한줄 요약:** 애플은 **2026년 10월 28일(현지시간)** 미국 LA에서 미디어 체험 행사 'Pro and Tell'을 열고 새 맥·아이패드를 발표합니다. 핵심은 **첫 OLED 디스플레이 + 첫 터치스크린을 적용한 14·16인치 맥북 프로**입니다. 다만 **칩은 M5 Pro·M5 Max를 그대로 사용**할 것으로 보도됐고, 출시는 **11월 6일(금)** 전망입니다. 터치가 꼭 필요한 경우가 아니라면 무조건 기다릴 이유는 크지 않습니다.
 
@@ -63,7 +63,7 @@ description: "애플이 10월 28일 'Pro and Tell' 제품 발표를 공식 예�
 
 정리하면 이렇습니다. **영상 편집이나 3D처럼 코어 성능이 곧 생산성인 분들에겐 이번 세대가 '체감 업그레이드'가 아닐 가능성이 큽니다.** 반면 색 정확도가 중요한 사진·영상 색보정, 야외 작업이 많은 분들에겐 OLED의 이득이 성능보다 클 수 있습니다.
 
-![현행 14인치 맥북 프로(M5, 스페이스 블랙) — 신형은 같은 칩에 OLED·터치가 더해지는 구성이 유력합니다 (출처: Wikimedia Commons, AzureSaturn, CC0)](/assets/images/posts/apple-pro-and-tell-oct28-20261020/macbook-pro-m5-14.jpg)
+![현행 14인치 맥북 프로(M5, 스페이스 블랙) — 신형은 같은 칩에 OLED·터치가 더해지는 구성이 유력합니다 (출처: Wikimedia Commons, AzureSaturn, CC0)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/apple-pro-and-tell-oct28-20261020/macbook-pro-m5-14.jpg)
 
 ---
 
@@ -94,7 +94,7 @@ description: "애플이 10월 28일 'Pro and Tell' 제품 발표를 공식 예�
 
 아이패드 미니 8의 스펙 변화는 이전에 따로 정리해 둔 글에서 더 자세히 다뤘으니, 작은 태블릿을 기다려 온 분들은 함께 보시면 좋습니다 → [아이패드 미니 8 구매 가이드](/2026/10/04/ipad-mini-8-a20-pro-guide-20261004/)
 
-![애플 아이맥 공식 제품 이미지 — 10월 28일 M6 탑재 모델이 함께 발표될 것으로 보입니다 (출처: Apple 공식 홈페이지)](/assets/images/posts/apple-pro-and-tell-oct28-20261020/imac-official.png)
+![애플 아이맥 공식 제품 이미지 — 10월 28일 M6 탑재 모델이 함께 발표될 것으로 보입니다 (출처: Apple 공식 홈페이지)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/apple-pro-and-tell-oct28-20261020/imac-official.png)
 
 ---
 
@@ -145,6 +145,6 @@ description: "애플이 10월 28일 'Pro and Tell' 제품 발표를 공식 예�
 
 터치와 OLED가 필요한 분이라면 이번이 확실히 기다릴 가치가 있는 타이밍입니다. 반대로 "더 빨라진 맥북"을 원하는 분이라면, 솔직히 이번 발표는 지나가도 손해가 크지 않습니다.
 
-![2021년형 14인치 맥북 프로 실버 — 노치 디자인은 이번 세대에서 다이내믹 아일랜드로 바뀔 전망입니다 (출처: Wikimedia Commons, Oops4321, CC BY-SA 4.0)](/assets/images/posts/apple-pro-and-tell-oct28-20261020/macbook-pro-notch.jpg)
+![2021년형 14인치 맥북 프로 실버 — 노치 디자인은 이번 세대에서 다이내믹 아일랜드로 바뀔 전망입니다 (출처: Wikimedia Commons, Oops4321, CC BY-SA 4.0)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/apple-pro-and-tell-oct28-20261020/macbook-pro-notch.jpg)
 
 > **참고:** 10월 28일 발표 전까지의 제품 구성·가격·출시일은 애플 공식 발표가 아니라 보도와 공급망 정보에 기반한 전망입니다. 발표 당일 애플 공식 보도자료로 최종 확인하시는 것을 권합니다.

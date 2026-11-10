@@ -5,13 +5,13 @@ date: 2026-08-06 18:00:00 +0900
 categories: [products]
 tags: [갤럭시글래스, 인텔리전트아이웨어, 삼성전자, AI안경, 스마트글래스, 안드로이드XR, 제미나이, 젠틀몬스터, 워비파커, 메타레이밴, 웨어러블, 이슈제품, 2026년8월]
 author: "40대 블로거"
-image: /assets/images/posts/galaxy-glass-intelligent-eyewear-20260806/galaxy-glass-2-official.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/galaxy-glass-intelligent-eyewear-20260806/galaxy-glass-2-official.jpg
 description: "삼성전자가 7월 22일 갤럭시 언팩 2026에서 공개한 첫 AI 안경 '인텔리전트 아이웨어(갤럭시 글래스)'의 기능·디자인·예상 가격·출시일을 정리했습니다. 화면 없이 제미나이 AI가 실시간 번역·길안내·메모 정리를 해주는 핵심 기능과 메타 레이밴과의 비교, 연내 출시 전 구매 전략까지 다룹니다."
 ---
 
 > **📌 한줄 요약:** 삼성전자가 7월 22일(현지시간) 런던 '갤럭시 언팩 2026'에서 공개한 첫 AI 안경 **인텔리전트 아이웨어(갤럭시 글래스)**가 **연내 출시**를 앞두고 있습니다. 화면 없이 카메라·마이크·스피커만으로 **구글 제미나이 AI**를 구동해 실시간 번역, 길안내, 화이트보드 메모 자동 정리까지 해주는 제품으로, **젠틀몬스터·워비파커 협업 디자인 4종**으로 나옵니다. 배터리는 1회 충전 최대 9시간, 충전 케이스로 7회 추가 충전이 가능합니다. 업계 예상 가격은 **약 50만~70만원(379~499달러)**, 출시 시기는 **9~11월**로 전망됩니다.
 
-![갤럭시 글래스 인텔리전트 아이웨어 공식 이미지](/assets/images/posts/galaxy-glass-intelligent-eyewear-20260806/galaxy-glass-2-official.jpg)
+![갤럭시 글래스 인텔리전트 아이웨어 공식 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/galaxy-glass-intelligent-eyewear-20260806/galaxy-glass-2-official.jpg)
 *이미지 출처: 삼성전자 뉴스룸 공식 보도자료 (2026.7.22 갤럭시 언팩 2026)*
 
 ## 요즘 저처럼 "손은 자유롭게, AI는 눈앞에서" 꿈꾸시는 분들 주목
@@ -22,7 +22,7 @@ description: "삼성전자가 7월 22일 갤럭시 언팩 2026에서 공개한 �
 
 ## 핵심 기능 — 화면 없는 안경, 어떻게 AI를 쓰나
 
-![갤럭시 글래스 제품 이미지](/assets/images/posts/galaxy-glass-intelligent-eyewear-20260806/galaxy-glass-1-official.jpg)
+![갤럭시 글래스 제품 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/galaxy-glass-intelligent-eyewear-20260806/galaxy-glass-1-official.jpg)
 *이미지 출처: 삼성전자 뉴스룸 공식 보도자료*
 
 갤럭시 글래스의 가장 큰 특징은 **디스플레이가 아예 없다**는 점입니다. 머리에 쓰는 AR 헤드셋처럼 눈앞에 화면을 띄우는 대신, 안경테 속에 **카메라·센서·마이크·스피커**를 숨기고 **퀄컴 스냅드래곤 AR1 Gen1** 칩으로 구동되는 **안드로이드 XR 플랫폼 + 구글 제미나이 AI**가 음성으로 모든 정보를 전달합니다. 쉽게 말해 **얼굴에 비서를 얹는** 개념입니다.
@@ -37,7 +37,7 @@ description: "삼성전자가 7월 22일 갤럭시 언팩 2026에서 공개한 �
 
 ## 디자인 — 젠틀몬스터·워비파커와 손잡은 4종
 
-![갤럭시 글래스 젠틀몬스터 협업 디자인](/assets/images/posts/galaxy-glass-intelligent-eyewear-20260806/galaxy-glass-3-official.jpg)
+![갤럭시 글래스 젠틀몬스터 협업 디자인](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/galaxy-glass-intelligent-eyewear-20260806/galaxy-glass-3-official.jpg)
 *이미지 출처: 삼성전자 뉴스룸 공식 보도자료 (젠틀몬스터 협업 모델)*
 
 얼굴에 오래 쓰는 물건인 만큼 삼성은 디자인에 공을 들였습니다. 한국의 대표 안경 브랜드 **젠틀몬스터**와 미국의 **워비파커**와 협업해, 5월 구글 I/O에서 2종, 이번 언팩에서 2종을 추가해 **총 4종 디자인**을 선보였습니다.
@@ -45,7 +45,7 @@ description: "삼성전자가 7월 22일 갤럭시 언팩 2026에서 공개한 �
 - **젠틀몬스터 모델** — 블랙 계열의 슬림한 프레임에 직선적인 상단과 라운드 처리된 하단을 조합해 세련된 실루엣을 강조했습니다.
 - **워비파커 모델** — 기존 블랙에 깊이감 있는 **브라운 컬러**가 추가됐고, 은은하게 올라간 브로우라인이 클래식한 느낌을 줍니다.
 
-![갤럭시 글래스 워비파커 협업 디자인](/assets/images/posts/galaxy-glass-intelligent-eyewear-20260806/galaxy-glass-5-official.jpg)
+![갤럭시 글래스 워비파커 협업 디자인](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/galaxy-glass-intelligent-eyewear-20260806/galaxy-glass-5-official.jpg)
 *이미지 출처: 삼성전자 뉴스룸 공식 보도자료 (워비파커 협업 모델)*
 
 무게는 **50g 내외**로 예상되며 좌우 균형까지 맞춰 장시간 착용해도 부담이 적다고 합니다. 무엇보다 **도수 렌즈 교체가 가능**해 시력이 나쁜 분들도 일반 안경처럼 안경원에서 렌즈만 바꿔 사용할 수 있다는 점이 큰 장점입니다.

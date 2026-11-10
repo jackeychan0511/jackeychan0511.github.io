@@ -5,11 +5,11 @@ date: 2026-09-27 15:53:00 +0900
 categories: [career]
 tags: [Google Gemini, 구글 제미나이, 제미나이 Call for Me, 콜 포 미, AI 전화 대행, Gemini Duplex, Google Duplex, Pixel 11, 픽셀 11, 제미나이 3.8 라이브, Gemini Intelligence, Hold for Me, Direct My Call, AI 에이전트, 업무자동화, AI뉴스, 2026년 9월]
 author: "40대 블로거"
-image: /assets/images/posts/gemini-call-for-me-pixel11-20260927/gemini-call-for-me-pixel.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-call-for-me-pixel11-20260927/gemini-call-for-me-pixel.jpg
 description: "2026년 9월 24일(현지시간) 구글이 Gemini의 새 기능 'Call for Me'를 미국 Pixel 11 사용자 대상 얼리 프리뷰(베타)로 공개했습니다. 사용자가 Gemini 앱에 '○○ 식당에 내일 7시 2인 예약 전화해줘'처럼 요청하면, 제미나이가 매장·병원·고객센터에 대신 전화를 걸어 자동 응답 메뉴를 넘기고 대기음에 줄을 서고, 실제 직원과 대화까지 마칩니다. 통화는 사용자 본인의 번호로 걸리고 실시간 스크립트가 화면에 떠서 언제든 직접 개입할 수 있습니다. 2018년 Google Duplex의 사실상 부활이자, Hold for Me·Direct My Call을 잇는 '통화 전체 자동화'라는 점에서 업무자동화 업계가 주목하는 소식입니다. 이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망 순으로 정리했습니다. 이미지는 Google 공식 이미지와 How-To Geek, 9to5Google 보도 이미지입니다."
 ---
 
-![Gemini의 새 기능 Call for Me — 픽셀 폰에서 제미나이가 대신 전화를 거는 화면 (출처: How-To Geek / Google 보도자료)](/assets/images/posts/gemini-call-for-me-pixel11-20260927/gemini-call-for-me-pixel.jpg)
+![Gemini의 새 기능 Call for Me — 픽셀 폰에서 제미나이가 대신 전화를 거는 화면 (출처: How-To Geek / Google 보도자료)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-call-for-me-pixel11-20260927/gemini-call-for-me-pixel.jpg)
 *Gemini의 'Call for Me' — 사용자가 요청만 하면 제미나이가 매장·병원·고객센터에 대신 전화를 걸어 통화를 끝까지 처리합니다 (출처: How-To Geek / Google 보도자료)*
 
 > **📌 한줄 요약:** 요즘 저처럼 **"전화 한 통 돌리는 게 제일 귀찮다"** 하시는 분들, 이제 정말로 AI가 대신 전화를 걸어주는 시대가 열렸습니다. 2026년 9월 24일 구글이 **Gemini 'Call for Me'** 베타를 공개했고, 매장 재고 확인부터 식당 예약, 병원 예약 변경, 고객센터 대기까지 제미나이가 통째로 맡습니다. 조건은 **미국 + Pixel 11 + Gemini 유료 구독**이라 아직 우리나라에서는 못 씁니다. 그래도 업무자동화 관점에서는 꽤 큰 사건이라 정리해봤습니다.
@@ -31,7 +31,7 @@ description: "2026년 9월 24일(현지시간) 구글이 Gemini의 새 기능 'C
 
 솔직히 처음 제목만 봤을 때는 "또 AI 통화 요약 기능이겠지" 싶었습니다. 그런데 내용을 뜯어보니 이건 결이 다릅니다. **통화의 일부를 돕는 게 아니라, 통화 자체를 처음부터 끝까지 대신하는 기능**이거든요.
 
-![Google 공식 블로그의 Gemini 3.8 Live 헤더 이미지 (출처: blog.google Google 공식 블로그)](/assets/images/posts/gemini-call-for-me-pixel11-20260927/gemini-official-38live.jpg)
+![Google 공식 블로그의 Gemini 3.8 Live 헤더 이미지 (출처: blog.google Google 공식 블로그)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-call-for-me-pixel11-20260927/gemini-official-38live.jpg)
 *Call for Me의 음성 엔진은 9월 15일 공개된 Gemini 3.8 Live 계열입니다. 실시간 대화와 비동기 함수 호출을 지원하는 모델이라 통화 대행에 그대로 쓰입니다 (출처: blog.google Google 공식 블로그)*
 
 ---
@@ -105,7 +105,7 @@ description: "2026년 9월 24일(현지시간) 구글이 Gemini의 새 기능 'C
 
 이미 Meta는 'Muse'로 미국 사업체에 대신 전화하는 기능을 운영 중이고, 구글도 여기에 정면으로 맞붙은 셈입니다.
 
-![Google Pixel 11 Pro — Call for Me는 픽셀 11 시리즈에서만 우선 동작합니다 (출처: 9to5Google / Google 보도 이미지)](/assets/images/posts/gemini-call-for-me-pixel11-20260927/google-pixel-11-pro.jpg)
+![Google Pixel 11 Pro — Call for Me는 픽셀 11 시리즈에서만 우선 동작합니다 (출처: 9to5Google / Google 보도 이미지)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-call-for-me-pixel11-20260927/google-pixel-11-pro.jpg)
 *Call for Me는 Pixel 11 시리즈 사용자에게 우선 제공됩니다. 신규 구매자는 Google AI Pro 6개월 체험도 함께 받습니다 (출처: 9to5Google / Google 보도 이미지)*
 
 ---

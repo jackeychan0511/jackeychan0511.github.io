@@ -5,13 +5,13 @@ date: 2026-08-06 07:00:00 +0900
 categories: [finance]
 tags: [업비트, 빗썸, GRVT, 그래비티토큰, QUID, 스퀴드, META2, 메타다오, USDG, 글로벌달러, 신규상장, 코인, 가상자산, 상장]
 author: "40대 블로거"
-image: /assets/images/posts/upbit-grvt-quid-meta2-usdg-listing-20260806/quid-hero.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/upbit-grvt-quid-meta2-usdg-listing-20260806/quid-hero.png
 description: "8월 5일 업비트가 그래비티토큰(GRVT)을 KRW·BTC·USDT 마켓에 신규 상장했습니다. 8월 4일에는 스퀴드(QUID)가 양대 거래소에 동시 상장됐고, 빗썸은 메타다오(META2)·글로벌달러(USDG) 원화 마켓을 추가했습니다. 상장 개요, 기준가, 현재 시세, 프로젝트 정보와 입금 시 필수 확인사항을 정리했습니다."
 ---
 
 8월 4~5일, 국내 양대 거래소가 신규 상장에 다시 속도를 냈습니다. **업비트는 8/5 그래비티토큰(GRVT)** 을, **업비트·빗썸은 8/4 스퀴드(QUID)** 를, **빗썸은 8/4 메타다오(META2)·글로벌달러(USDG)** 원화 마켓을 각각 추가했습니다. GRVT는 지난 7/31 빗썸 상장에 이어 업비트까지 진출했고, QUID는 이번이 국내 첫 상장입니다.
 
-![스퀴드(QUID) 공식 브랜드 히어로 이미지](/assets/images/posts/upbit-grvt-quid-meta2-usdg-listing-20260806/quid-hero.png)
+![스퀴드(QUID) 공식 브랜드 히어로 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/upbit-grvt-quid-meta2-usdg-listing-20260806/quid-hero.png)
 *스퀴드(Squid) 공식 마스코트·브랜드 이미지 (출처: squidrouter.com, 확인일: 2026.08.06)*
 
 **핵심 요약**: 업비트 GRVT 8/5 17:00 거래 개시(기준가 374.05원), QUID 8/4 23:00 양대 거래소 동시 상장, 빗썸 META2·USDG 8/4 22:00 원화 마켓 추가. 8/6 오전 기준 GRVT 업비트 433원·빗썸 428원, QUID는 152~153원으로 상장 직후 고점 대비 조정 중입니다.
@@ -32,7 +32,7 @@ description: "8월 5일 업비트가 그래비티토큰(GRVT)을 KRW·BTC·USDT 
 | **거래 기준가(전일 종가)** | **374.05원** / 0.0000041 BTC / 0.2622 USDT |
 | **공지 시점 시세 (8/5 13:30)** | 385.68원 |
 
-![그래비티토큰(GRVT) 공식 브랜드 배너](/assets/images/posts/upbit-bithumb-new-listing-cfx-grvt/grvt-hero.jpg)
+![그래비티토큰(GRVT) 공식 브랜드 배너](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/upbit-bithumb-new-listing-cfx-grvt/grvt-hero.jpg)
 *GRVT 공식 브랜드 이미지 "Finance that just flows" (출처: grvt.io, 확인일: 2026.08.01)*
 
 ### GRVT는 어떤 프로젝트?
@@ -81,7 +81,7 @@ QUID는 8/4 **업비트와 빗썸에 동시 상장**된 신규 발행 코인입�
 | **거래 기준가** | **7,558원** |
 | **입금 컨펌 수** | 20 |
 
-![메타다오(META2) 공식 토큰 로고](/assets/images/posts/upbit-grvt-quid-meta2-usdg-listing-20260806/meta2-logo.png)
+![메타다오(META2) 공식 토큰 로고](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/upbit-grvt-quid-meta2-usdg-listing-20260806/meta2-logo.png)
 *META2 공식 토큰 로고 (출처: CoinGecko, 확인일: 2026.08.06)*
 
 ### 메타다오(MetaDAO)는 어떤 프로젝트?
@@ -108,7 +108,7 @@ QUID는 8/4 **업비트와 빗썸에 동시 상장**된 신규 발행 코인입�
 | **거래 기준가** | **1,429원** |
 | **입금 컨펌 수** | 33 |
 
-![글로벌달러(USDG) 공식 토큰 로고](/assets/images/posts/upbit-grvt-quid-meta2-usdg-listing-20260806/usdg-logo.png)
+![글로벌달러(USDG) 공식 토큰 로고](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/upbit-grvt-quid-meta2-usdg-listing-20260806/usdg-logo.png)
 *글로벌달러(USDG) 공식 토큰 로고 (출처: CoinGecko/Global Dollar Network, 확인일: 2026.08.06)*
 
 ### 글로벌달러(Global Dollar)는 어떤 프로젝트?

@@ -5,7 +5,7 @@ date: 2026-10-14 11:30:00 +0900
 categories: [education]
 tags: [씨투엠, 씨투엠에듀, C2M, 사고력수학, 초등수학, 수학문해력, 초등교구상자, 지오플릭, 수학독해, 플라토, 유아수학, 자녀교육, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/c2medu-teaching-aids-math-literacy-20261013/05-c2m-teaching-aids-lineup.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/c2medu-teaching-aids-math-literacy-20261013/05-c2m-teaching-aids-lineup.jpg
 description: "중소기업신문이 2026년 10월 13일 '놀이로 수학 문해력도 키운다 — 교구라인업 강화한 씨투엠에듀'를 보도했습니다. 유초등 사고력수학 기업 ㈜씨투엠에듀(대표 한헌조)가 수학교구·교재·학원 프로그램을 삼각 체계로 묶어 서술형·문장제 학습까지 교구로 접근하는 전략이 핵심입니다. 초등수학교구상자 7종, 지오플릭·매쓰픽, 수학독해·플라토 등 실제 라인업과 학부모 체크포인트를 정리했습니다."
 ---
 
@@ -13,7 +13,7 @@ description: "중소기업신문이 2026년 10월 13일 '놀이로 수학 문해
 
 유초등 사고력수학 기업 **㈜씨투엠에듀(C2M EDU)**가 **교구 라인업 강화**에 나섰다는 보도가 나왔습니다. **중소기업신문이 2026년 10월 13일 "놀이로 '수학 문해력'도 키운다 — 교구라인업 강화한 씨투엠에듀"** 라는 제목으로 전한 내용입니다. 요지는 단순합니다. **연산 문제집을 늘리는 대신, 교구(조작물)로 개념을 익히고 그 위에 문장제·서술형 문제 해결력을 얹는 방향**으로 라인업을 재정비하고 있다는 것입니다.
 
-![씨투엠에듀 교구 라인업](/assets/images/posts/c2medu-teaching-aids-math-literacy-20261013/05-c2m-teaching-aids-lineup.jpg)
+![씨투엠에듀 교구 라인업](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/c2medu-teaching-aids-math-literacy-20261013/05-c2m-teaching-aids-lineup.jpg)
 *씨투엠에듀가 내세우는 교구 중심 라인업 (출처: 씨투엠에듀 공식 홈페이지)*
 
 ## 1. 이번 보도에서 눈에 띄는 지점
@@ -50,7 +50,7 @@ description: "중소기업신문이 2026년 10월 13일 '놀이로 수학 문해
 
 특히 **초등수학교구상자**는 한 상자 안에 **펜토미노턴(평면도형·펜토미노), 큐브빌드(쌓기나무·공간감각), 머긴스빙고(연산·주사위게임), 폴리스퀘어(도형퍼즐·보드게임), 트랜스넘버(식 만들기·사칙연산), 큐보이드(전개도·입체도형), 폴리탄(칠교·탱그램)** 7종을 담아, 학년이 올라가도 다시 꺼내 쓸 수 있게 설계돼 있습니다.
 
-![지오플릭 도형 교구](/assets/images/posts/c2medu-teaching-aids-math-literacy-20261013/02-geoflex-teaching-aid.jpg)
+![지오플릭 도형 교구](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/c2medu-teaching-aids-math-literacy-20261013/02-geoflex-teaching-aid.jpg)
 *도형·전개도를 다루는 지오플릭 (출처: 씨투엠에듀 공식 홈페이지)*
 
 ## 4. 교재 라인업 — '수학독해'가 문해력의 축
@@ -68,10 +68,10 @@ description: "중소기업신문이 2026년 10월 13일 '놀이로 수학 문해
 
 이 중 **수학독해**는 이번 보도의 '문해력' 키워드와 정확히 맞물립니다. 문장을 읽고 식으로 옮기는 훈련을 **매일 10분**으로 쪼개, 서술형 평가에 익숙해지도록 만든 구성입니다.
 
-![수학독해 교재](/assets/images/posts/c2medu-teaching-aids-math-literacy-20261013/03-math-literacy-workbook.jpg)
+![수학독해 교재](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/c2medu-teaching-aids-math-literacy-20261013/03-math-literacy-workbook.jpg)
 *서술형·문장제를 다루는 '수학독해' (출처: 씨투엠에듀 공식 홈페이지)*
 
-![플라토 도형 학습지](/assets/images/posts/c2medu-teaching-aids-math-literacy-20261013/04-plato-geometry-workbook.jpg)
+![플라토 도형 학습지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/c2medu-teaching-aids-math-literacy-20261013/04-plato-geometry-workbook.jpg)
 *하루 10분 도형 학습지 '플라토' (출처: 씨투엠에듀 공식 홈페이지)*
 
 ## 5. 학원·방문 프로그램 — 어디서 배우나

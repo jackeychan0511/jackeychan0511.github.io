@@ -5,13 +5,13 @@ date: 2026-08-07 08:00:00 +0900
 categories: [finance]
 tags: [비트코인, 가상화폐, 코인, BTC, 암호화폐]
 author: "40대 블로거"
-image: /assets/images/posts/crypto-briefing-20260807/bitcoin-laptop-keyboard.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/crypto-briefing-20260807/bitcoin-laptop-keyboard.jpg
 description: "8월 7일 오전 코인 브리핑. 트럼프 반도체 100% 관세 예고·인도산 관세 50% 인상에 비트코인이 장중 6만2,140달러까지 급락, 약 5억달러 청산·공포탐욕지수 23 '극도의 공포'. 현재 6만4,200달러선(업비트 약 9,117만 원)으로 반등 시도. 오늘 21:30 미국 고용지표 주목."
 sitemap: false
 noindex: true
 ---
 
-![노트북 키보드 위 비트코인 실물 코인](/assets/images/posts/crypto-briefing-20260807/bitcoin-laptop-keyboard.jpg)
+![노트북 키보드 위 비트코인 실물 코인](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/crypto-briefing-20260807/bitcoin-laptop-keyboard.jpg)
 *비트코인 실물 코인 — 관세 쇼크 후 반등 시도 (2026.08.07) / Wikimedia Commons ([CC BY 2.0](https://creativecommons.org/licenses/by/2.0/))*
 
 **핵심 요약**: 트럼프의 반도체 100% 관세 예고·인도산 관세 인상이 위험자산 회피를 촉발, 비트코인이 장중 6만2,140달러까지 급락했습니다. 약 5억달러 청산(87% 롱)·공포탐욕지수 23 '극도의 공포' 속 현재 6만4,200달러선 반등 시도 중입니다.

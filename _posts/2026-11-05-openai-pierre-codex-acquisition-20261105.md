@@ -5,13 +5,13 @@ date: 2026-11-05 14:50:00 +0900
 categories: [career]
 tags: [OpenAI, GPT, PierreComputer, 피에르컴퓨터, CodeStorage, 코드스토리지, Codex, 코덱스, Diffs, Trees, Pando, 판도, Git백엔드, GitHub경쟁, AI코딩에이전트, 소스코드관리, 개발자도구, 인수합병, 업무자동화, AI뉴스, 2026년11월]
 author: "40대 블로거"
-image: /assets/images/posts/openai-pierre-codex-acquisition-20261105/code-storage-official.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-pierre-codex-acquisition-20261105/code-storage-official.jpg
 description: "2026년 11월 4일 OpenAI가 Code Storage와 오픈소스 Diffs·Trees를 만든 피에르 컴퓨터(Pierre Computer Company) 인수에 합의했습니다. Code Storage는 Codex에 통합되고, 오픈소스 라이브러리는 계속 공개 상태로 남습니다. 인수가·인수 시점·인원은 모두 미공개이고 규제 승인 대기 중입니다. 이틀 전 공개된 자체 Git 백엔드 판도(Pando)와 맞물려, OpenAI가 에이전트가 쏟아내는 코드를 담을 저장소 계층까지 직접 가져가는 그림이 완성됐습니다. 개발자와 자동화 운영자에게 무엇이 달라지는지, 아직 확인되지 않은 것은 무엇인지 정리했습니다."
 ---
 
 > **📌 한줄 요약:** 2026년 **11월 4일**(현지시간), OpenAI가 **피에르 컴퓨터 컴퍼니(Pierre Computer Company, Inc.)** 인수에 합의했습니다. 피에르의 유료 제품 **Code Storage**(AI 앱·에이전트용 호스팅 Git 인프라)는 **Codex에 통합**되고, 오픈소스 라이브러리 **Diffs·Trees**는 인수 완료 후에도 **오픈소스로 유지**됩니다. **인수가·인수 완료 시점·인원**은 공개되지 않았고, 거래는 **규제 승인을 포함한 통상적 조건**에 따라 아직 완료되지 않았습니다.
 
-![Code Storage 공식 제품 페이지 대표 이미지 — 피에르 컴퓨터의 호스팅 Git 인프라 제품](/assets/images/posts/openai-pierre-codex-acquisition-20261105/code-storage-official.jpg)
+![Code Storage 공식 제품 페이지 대표 이미지 — 피에르 컴퓨터의 호스팅 Git 인프라 제품](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-pierre-codex-acquisition-20261105/code-storage-official.jpg)
 *이미지 출처: code.storage 공식 홈페이지(피에르 컴퓨터 컴퍼니)*
 
 ## 무슨 일이 있었나
@@ -35,7 +35,7 @@ Code Storage 공식 페이지에는 고객으로 **Lovable, Poke, Anything, Bolt
 
 즉 OpenAI가 산 것은 낯선 기술이 아니라, **이미 Codex 화면 안에서 돌고 있던 부품**입니다. 파일 사이드바를 그리는 Trees, 에이전트가 바꾼 코드를 보여주는 Diffs가 대표적입니다. 공급자를 외부에 두지 않고 직접 가져오는 셈입니다.
 
-![피에르의 오픈소스 Diffs 라이브러리 공식 페이지 이미지 — Codex 앱의 변경사항 렌더링에 이미 사용 중입니다](/assets/images/posts/openai-pierre-codex-acquisition-20261105/pierre-diffs-og.jpg)
+![피에르의 오픈소스 Diffs 라이브러리 공식 페이지 이미지 — Codex 앱의 변경사항 렌더링에 이미 사용 중입니다](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-pierre-codex-acquisition-20261105/pierre-diffs-og.jpg)
 *이미지 출처: diffs.com 공식 홈페이지(피에르 컴퓨터 컴퍼니)*
 
 ## 왜 지금인가 — 이틀 전의 판도(Pando)

@@ -5,7 +5,7 @@ date: 2026-08-21 14:52:00 +0900
 categories: [career]
 tags: [GPT, OpenAI, PrivateSafetyProcessing, ZDR, ZeroDataRetention, 데이터프라이버시, 기업보안, API, AI안전, AI에이전트, 샘알트만, Anthropic, AI뉴스, 2026년8월]
 author: "40대 블로거"
-image: /assets/images/posts/openai-private-safety-processing-20260821/openai-zdr-official-hero.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-private-safety-processing-20260821/openai-zdr-official-hero.png
 description: "2026년 8월 19일(미국 현지) OpenAI가 공식 블로그 'Offering Zero Data Retention for frontier models'를 통해 기업용 API 고객의 프롬프트·응답을 전혀 보존하지 않는 '제로 데이터 보존(ZDR)'을 유지하면서도 여러 상호작용에 걸친 오용 패턴을 탐지하는 '프라이빗 안전 처리(Private Safety Processing)'를 공개했습니다. 고객 콘텐츠는 고객 통제 인프라 또는 고객 소유 암호화 키로 보호되고, OpenAI 직원은 위험 신호만 받아봅니다. 30일 보존을 요구하는 Anthropic과의 차별화, 9월 롤아웃 계획, 사용자·개발자 영향과 전망까지 정리했습니다."
 sitemap: false
 noindex: true
@@ -13,7 +13,7 @@ noindex: true
 
 > **📌 한줄 요약:** OpenAI가 2026년 8월 19일(미국 현지시간) 공식 블로그 **"Offering Zero Data Retention for frontier models"**를 통해, 기업용 API 고객의 **프롬프트·모델 응답을 전혀 보존하지 않는 '제로 데이터 보존(ZDR)' 약속을 유지하면서도** 여러 차례의 상호작용을 종합해 악용 패턴을 찾아내는 신규 안전 시스템 **'프라이빗 안전 처리(Private Safety Processing)'**를 공개했습니다. 기존 안전 시스템이 상호작용을 하나씩 평가했다면, 새 시스템은 **관련 상호작용들을 묶어** 반복적인 가드레일 탐색·계정 간 공조·에이전트의 권한 이탈 등을 탐지합니다. 고객 콘텐츠는 고객 통제 인프라(또는 고객 소유 암호화 키)에만 남고, OpenAI 직원은 **위험의 '유형'만 알려주는 제한된 신호(signal)** 만 받아봅니다. 현재 Glean·Databricks·Abridge·Microsoft 등 초기 고객과 테스트 중이며, **9월부터 본격 롤아웃과 기술 백서 공개**가 예정돼 있습니다.
 
-![OpenAI 'Zero Data Retention' 공식 발표 대표 이미지](/assets/images/posts/openai-private-safety-processing-20260821/openai-zdr-official-hero.png)
+![OpenAI 'Zero Data Retention' 공식 발표 대표 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-private-safety-processing-20260821/openai-zdr-official-hero.png)
 *이미지 출처: OpenAI 공식 블로그 'Offering Zero Data Retention for frontier models'(2026.8.19) 대표 이미지*
 
 ## 이슈 요약 — "우리 데이터, AI 회사가 안 봐도 안전할 수 있을까?"
@@ -72,7 +72,7 @@ OpenAI가 공개한 설계는 다음과 같습니다.
 
 참고로 OpenAI는 같은 날(8월 19일) CFO 사라 프라이어(Sarah Friar)가 직원들에게 **"2027년 또는 그 이전 IPO"** 가능성을 언급했다는 보도도 나왔습니다. 기업용 매출의 성장 스토리가 곧 IPO 밸류에이션과 직결되는 상황에서, **기업 고객 확보를 위한 프라이버시 경쟁력**은 단순한 기능 하나가 아니라 '돈이 되는 전략'이 된 셈입니다.
 
-![샘 알트만 OpenAI CEO](/assets/images/posts/openai-private-safety-processing-20260821/sam-altman-wikimedia.jpg)
+![샘 알트만 OpenAI CEO](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-private-safety-processing-20260821/sam-altman-wikimedia.jpg)
 *이미지 출처: Wikimedia Commons (Sam Altman, 2022, CC BY 2.0, Village Global) — "we support business privacy!"를 X에 남긴 OpenAI CEO*
 
 ## 영향 — 사용자와 개발자에게는?

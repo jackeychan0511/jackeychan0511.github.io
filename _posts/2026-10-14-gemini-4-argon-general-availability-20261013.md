@@ -5,11 +5,11 @@ date: 2026-10-14 15:53:00 +0900
 categories: [career]
 tags: [Google Gemini, 구글 제미나이, Gemini 4 Argon, 제미나이 4 아르곤, 아르곤 정식 출시, Gemini 4 정식 출시, AI Pro, AI Ultra, 제미나이 앱, AI 모드, Google Antigravity, 구글 안티그래비티, Gemini API 가격, 가격 50% 인하, Fairwind Program, 페어윈드, 100만 토큰 출력, 프론티어 모델, 업무자동화, AI뉴스, 2026년 10월]
 author: "40대 블로거"
-image: /assets/images/posts/gemini-4-argon-general-availability-20261013/gemini-4-argon-launch-app.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-4-argon-general-availability-20261013/gemini-4-argon-launch-app.png
 description: "2026년 10월 13일(미국 현지시간), 구글이 최상위 프론티어 모델 '제미나이 4 아르곤(Gemini 4 Argon)'을 일반에 정식 출시했습니다. 지난 9월 30일 사이버 방어 전문가 대상 선공개 이후 약 2주 만으로, 이제 Google AI Pro·울트라 유료 구독자가 제미나이 앱과 구글 검색 'AI 모드'에서 아르곤을 쓸 수 있고, 개발자는 API·구글 안티그래비티로 접근할 수 있습니다. 구글은 출시를 기념해 100만 토큰당 2~10달러로 50% 인하된 프로모션 요금을 11월 말까지 적용합니다. 엔터프라이즈 지식 업무 정확도는 이전 세대(제미나이 3.1 프로) 대비 14% 향상됐다고 밝혔습니다. 이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망 순으로 정리했습니다. 이미지는 구글 공식 블로그 런치 키아트와 공식 키아트, 그리고 구글 딥마인드 런던 오피스 외관(Wikimedia Commons)입니다."
 ---
 
-![Gemini 4 Argon 정식 출시 공식 키아트 (출처: Google 공식 블로그 — blog.google, 2026.10.13)](/assets/images/posts/gemini-4-argon-general-availability-20261013/gemini-4-argon-launch-app.png)
+![Gemini 4 Argon 정식 출시 공식 키아트 (출처: Google 공식 블로그 — blog.google, 2026.10.13)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-4-argon-general-availability-20261013/gemini-4-argon-launch-app.png)
 *2026년 10월 13일, 제미나이 4 아르곤이 Google AI Pro·울트라 구독자에게 전면 개방됐습니다 (출처: Google 공식 블로그 — blog.google)*
 
 > **📌 한줄 요약:** 코딩과 대규모 문서 작업에 프론티어 모델을 붙여 쓰는 분들이라면, **2026년 10월 13일(미국 현지시간)** 구글이 최상위 모델 **제미나이 4 아르곤(Gemini 4 Argon)** 을 **일반에 정식 출시**한 소식은 그냥 넘길 수 없습니다. 지난 **9월 30일** 사이버 방어 전문가 대상으로 선공개한 지 **약 2주 만**의 전면 개방입니다. 이제 **Google AI Pro·울트라 유료 구독자**가 **제미나이 앱**과 구글 검색 **'AI 모드'** 에서 아르곤을 쓸 수 있고, **개발자는 API·구글 안티그래비티**로 접근할 수 있습니다. 게다가 구글은 출시 기념으로 **100만 토큰당 2~10달러, 사실상 50% 인하** 프로모션을 **11월 말까지** 적용합니다. 솔직히 "이번에도 사이버 보안 파트너만 쓰게 두겠지" 싶었는데, 생각보다 본진을 빠르게 풀었습니다.
@@ -65,7 +65,7 @@ description: "2026년 10월 13일(미국 현지시간), 구글이 최상위 프�
 
 또 **제미나이가 연결하는 앱이 40개를 넘어섰습니다**(Instacart, OpenTable, Adobe, Shopify 등). 모델 자체의 성능 향상과 **연결 앱 확장**이 겹치면서, "질문 답변 도구"에서 **"여러 앱에 걸쳐 일을 끝내주는 도구"** 로 무게추가 옮겨가는 흐름이 뚜렷해졌습니다.
 
-![Google 및 구글 딥마인드가 위치한 런던 6 Pancras Square 외관](/assets/images/posts/gemini-4-argon-general-availability-20261013/google-deepmind-hq-wikimedia.jpg)
+![Google 및 구글 딥마인드가 위치한 런던 6 Pancras Square 외관](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-4-argon-general-availability-20261013/google-deepmind-hq-wikimedia.jpg)
 *런던 6 Pancras Square — 구글 및 자회사 구글 딥마인드가 위치한 건물 외관 (출처: Wikimedia Commons)*
 
 ---

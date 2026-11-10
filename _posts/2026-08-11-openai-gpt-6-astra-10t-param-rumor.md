@@ -5,7 +5,7 @@ date: 2026-08-11 14:55:00 +0900
 categories: [career]
 tags: [GPT, OpenAI, GPT-6, Astra, 10조파라미터, Doug, 수학문제, AI뉴스, AI에이전트, 2026년8월]
 author: "40대 블로거"
-image: /assets/images/posts/openai-gpt-6-astra-20260811/openai-logo-2025.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-gpt-6-astra-20260811/openai-logo-2025.png
 description: "2026년 8월 10일 유출된 GPT-6 'Astra' 10조 파라미터 8월 출시설과, 8월 6일 OpenAI가 공식 확인한 '미해결 수학 문제 10개 해결' 소식을 정리했습니다. Astra의 멀티에이전트 구조, 연말 대형 모델 Doug 루머, Anthropic과의 경쟁 구도, 사용자·개발자 영향과 전망까지 다룹니다."
 sitemap: false
 noindex: true
@@ -13,7 +13,7 @@ noindex: true
 
 > **📌 한줄 요약:** 2026년 8월 10일, AI 전문 리포터 ChrisGPT가 X(트위터)를 통해 **OpenAI의 차세대 모델 GPT-6(코드명 'Astra')가 10조(兆) 파라미터 규모로 8월 중 출시될 예정**이라고 전했습니다. 정부의 규제 압박으로 출시가 일시 보류됐다는 소식까지 겹치면서 AI 업계가 술렁이고 있습니다. 여기에 지난 8월 6일 OpenAI는 자체 보고서에서 **Astra가 수학·이론컴퓨터과학 분야의 미해결 난제 10개를 풀었다**고 공식 확인해, '과학적 추론'의 새 시대를 예고하고 있습니다.
 
-![OpenAI 공식 로고](/assets/images/posts/openai-gpt-6-astra-20260811/openai-logo-2025.png)
+![OpenAI 공식 로고](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-gpt-6-astra-20260811/openai-logo-2025.png)
 *이미지 출처: Wikimedia Commons (OpenAI 로고, 2025)*
 
 ## 이슈 요약 — "10조 파라미터 모델이 이번 달 나온다고?"
@@ -64,7 +64,7 @@ ChrisGPT의 두 번째 폭로는 더 큽니다. **연말 출시 예정인 코드
 
 경쟁 구도도 뜨겁습니다. **Anthropic은 8월 중 Fable 5.1을 출시**할 준비를 하고 있고, Astra의 보류 소식에도 멈추지 않겠다는 입장입니다. 8월은 사실상 **'프런티어 모델 왕좌'를 건 결전의 달**이 되는 셈입니다.
 
-![OpenAI 본사 — 샌프란시스코 미션베이 1515 Third Street](/assets/images/posts/openai-gpt-6-astra-20260811/openai-hq-1515-third-street.jpg)
+![OpenAI 본사 — 샌프란시스코 미션베이 1515 Third Street](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-gpt-6-astra-20260811/openai-hq-1515-third-street.jpg)
 *이미지 출처: Wikimedia Commons (1515 Third Street, OpenAI 본사, Coolcaesar 촬영, CC BY 4.0)*
 
 ## 영향 — 사용자와 개발자에게 무엇이 달라지나

@@ -5,13 +5,13 @@ date: 2026-09-03 17:00:00 +0900
 categories: [finance]
 tags: [비트코인, 가상화폐, 코인, BTC, 암호화폐]
 author: "40대 블로거"
-image: /assets/images/posts/crypto-briefing-20260903-pm/bitcoin-price-chart.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/crypto-briefing-20260903-pm/bitcoin-price-chart.png
 description: "9월 3일 오후 코인 브리핑. 트럼프의 이란 전쟁 종료 선언 검토 보도로 유가가 꺾이며 비트코인이 7만8000달러를 재돌파했습니다. 8월 ADP 고용은 7개월 만에 최저를 기록했고, G20 규제 공조 재확인과 21개 글로벌 금융기관의 스테이블코인 공동 발행 추진 소식이 겹쳤습니다."
 sitemap: false
 noindex: true
 ---
 
-![비트코인 10일 가격 차트](/assets/images/posts/crypto-briefing-20260903-pm/bitcoin-price-chart.png)
+![비트코인 10일 가격 차트](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/crypto-briefing-20260903-pm/bitcoin-price-chart.png)
 *BTC/USD 10일 가격 추이 (Binance, 9/3 오후 KST 기준)*
 
 **핵심 요약**: 트럼프 대통령의 이란 전쟁 종료 선언 검토 보도로 유가가 장중 1% 하락했고, 비트코인은 7만8000달러를 재돌파했습니다. 8월 ADP 민간고용이 7개월 만에 최저를 기록하며 9월 FOMC 금리인상 확률도 60%대로 낮아졌고, G20 규제 공조와 21개 금융기관의 스테이블코인 추진 소식이 더해졌습니다.

@@ -6,7 +6,7 @@ categories: [ai-teacher]
 tags: [이력서분석, 이력서분석시스템, 채용업무자동화, HR자동화, 업무자동화, Streamlit, DeepSeekAPI, pdfplumber, reportlab, Selenium, SCORE원칙, 직무적합도, 개발일지, 2026년8월]
 author: 재찬키
 description: "이력서 하나하나 읽고 핵심을 정리해 면접관에게 전달하는 일은 지원자가 몰리는 시즌이면 하루를 다 잡아먹습니다. 그래서 이력서 PDF를 올리면 AI가 분석·채점해 보고서를 만들고, 사내 인트라넷 쪽지로 면접관에게 바로 전달까지 해주는 내부 시스템을 직접 만들었습니다. 신입/경력 배점을 나눈 이유, Streamlit·pdfplumber·DeepSeek API·Selenium 조합, 그리고 만들면서 부딪힌 기준 설계 문제까지 정리한 개발일지입니다."
-image: /assets/images/posts/resume-analysis-system-20260831/01-login.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/resume-analysis-system-20260831/01-login.jpg
 ---
 
 인사 담당 업무를 하면서 가장 반복적이고 시간이 많이 드는 일 중 하나가 **"이력서 하나하나 읽고, 핵심을 정리해서 면접관에게 전달하는 것"** 이었습니다. 지원자가 몰리는 시즌에는 이 작업만으로 하루가 다 가기도 합니다.
@@ -24,14 +24,14 @@ image: /assets/images/posts/resume-analysis-system-20260831/01-login.jpg
 
 사내에서만 쓰는 도구라 간단한 ID/PW 로그인을 앞단에 붙였습니다.
 
-![이력서 분석 시스템 로그인 화면](/assets/images/posts/resume-analysis-system-20260831/01-login.jpg)
+![이력서 분석 시스템 로그인 화면](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/resume-analysis-system-20260831/01-login.jpg)
 *사내 전용 도구라 최소한의 ID/PW 로그인만 앞단에 두었습니다*
 
 ## 1. 이력서 분석시스템 탭
 
 이력서 PDF를 올리고, 필요하면 직무기술서를 함께 입력한 뒤 **"신입/경력" 구분을 자동 판정하게 두거나 직접 지정**할 수 있습니다.
 
-![이력서 업로드 화면 — PDF 업로드, 직무기술서 입력, 구분 선택](/assets/images/posts/resume-analysis-system-20260831/02-upload-form.jpg)
+![이력서 업로드 화면 — PDF 업로드, 직무기술서 입력, 구분 선택](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/resume-analysis-system-20260831/02-upload-form.jpg)
 *업로드 화면은 PDF 업로드 · 직무기술서(선택) · 구분(자동 판정/신입/경력) 세 영역으로 단순하게 잡았습니다*
 
 분석 버튼을 누르면 DeepSeek API가 이력서를 읽고 아래와 같은 결과를 만들어줍니다.
@@ -41,12 +41,12 @@ image: /assets/images/posts/resume-analysis-system-20260831/01-login.jpg
 - 강점 / 우려사항 / 예상 면접 질문
 - 경력 타임라인과 이직 패턴 분석
 
-![이력서 분석 결과 화면 — 직무 적합도 총점과 5개 항목 배점·획득점수 표](/assets/images/posts/resume-analysis-system-20260831/03-analysis-result.jpg)
+![이력서 분석 결과 화면 — 직무 적합도 총점과 5개 항목 배점·획득점수 표](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/resume-analysis-system-20260831/03-analysis-result.jpg)
 *분석 결과는 총점 하나로 끝내지 않고, 항목별 배점과 획득점수를 함께 보여줍니다 (예시 데이터)*
 
 분석이 끝나면 이력서 원본과 보고서 PDF가 자동으로 `records` 폴더에 **"날짜·지원부문·이름" 형식**으로 저장되고, 그동안 처리한 모든 이력서가 목록으로 쌓입니다. (아래 화면은 실제 지원자 정보 대신 예시 데이터로 재구성한 것입니다.)
 
-![등록된 이력서 목록 — 구분·지원부문·이름·지원날짜·직무적합도·발송대상](/assets/images/posts/resume-analysis-system-20260831/04-records-list.jpg)
+![등록된 이력서 목록 — 구분·지원부문·이름·지원날짜·직무적합도·발송대상](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/resume-analysis-system-20260831/04-records-list.jpg)
 *처리한 이력서가 구분·지원부문·지원날짜·직무적합도·발송대상과 함께 목록으로 쌓입니다 (예시 데이터)*
 
 목록에서 체크박스로 원하는 항목을 골라 **합본 PDF로 다운로드**하거나 **바로 인쇄**할 수도 있습니다.
@@ -55,7 +55,7 @@ image: /assets/images/posts/resume-analysis-system-20260831/01-login.jpg
 
 분석이 끝난 이력서를 **사내 인트라넷(그룹웨어) 쪽지 기능**으로 면접관에게 바로 전달합니다. 인트라넷의 실제 받는사람 선택 화면과 동일한 구조로, 부서별 체크박스에서 원하는 사람을 고르면 됩니다. (아래도 예시 데이터입니다.)
 
-![받는사람 선택 — 부서별 체크박스로 면접관 지정](/assets/images/posts/resume-analysis-system-20260831/05-recipient-select.jpg)
+![받는사람 선택 — 부서별 체크박스로 면접관 지정](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/resume-analysis-system-20260831/05-recipient-select.jpg)
 *인트라넷 받는사람 선택 화면과 같은 구조로, 부서별 체크박스에서 면접관을 고릅니다 (예시 데이터)*
 
 전송을 누르면:

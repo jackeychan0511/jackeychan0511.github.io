@@ -5,13 +5,13 @@ date: 2026-08-06 12:30:00 +0900
 categories: [products]
 tags: [갤럭시워치울트라2, 갤럭시워치9, 삼성전자, 스마트워치, 갤럭시언팩2026, 스냅드래곤웨어엘리트, 스마트워치추천, 웨어러블, 헬스케어, 이슈제품, 2026년8월]
 author: "40대 블로거"
-image: /assets/images/posts/galaxy-watch-ultra2-watch9-launch-20260806/galaxy-watch-ultra2-watch9-official.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/galaxy-watch-ultra2-watch9-launch-20260806/galaxy-watch-ultra2-watch9-official.jpg
 description: "삼성전자가 7월 22일 갤럭시 언팩 2026에서 공개한 갤럭시 워치 울트라2·워치9이 8월 7일 국내 정식 출시됩니다. 800mAh 배터리와 5,000니트 디스플레이, 다이빙 인증(EN13319)까지 갖춘 울트라2와 49만 9천 원부터 시작하는 워치9의 스펙·가격 비교와 출시일 구매 꿀팁을 정리했습니다."
 ---
 
 > **📌 한줄 요약:** 삼성전자가 7월 22일(현지시간) 영국 런던 '갤럭시 언팩 2026'에서 공개한 **갤럭시 워치 울트라2와 갤럭시 워치9**이 **8월 7일(금) 국내 정식 출시**됩니다. 울트라2는 **800mAh 배터리(+35%)와 최대 5,000니트 디스플레이, IP69K + 10ATM + EN13319 다이빙 인증**까지 갖춘 아웃도어 플래그십이고, 워치9은 **49만 9천 원부터 시작**하는 일상 건강관리 올라운더입니다. 두 모델 모두 퀄컴 **스냅드래곤 웨어 엘리트** 플랫폼을 탑재해 CPU 32%·GPU 19% 성능이 개선됐습니다. 가격은 울트라2(LTE) **969,100원**, 워치9(블루투스) **499,000원~** 입니다.
 
-![갤럭시 워치 울트라2·워치9 공식 이미지](/assets/images/posts/galaxy-watch-ultra2-watch9-launch-20260806/galaxy-watch-ultra2-watch9-official.jpg)
+![갤럭시 워치 울트라2·워치9 공식 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/galaxy-watch-ultra2-watch9-launch-20260806/galaxy-watch-ultra2-watch9-official.jpg)
 *이미지 출처: 삼성전자 공식 보도자료 (디지털포커스, 2026.7.22 갤럭시 언팩 2026)*
 
 ## 요즘 저처럼 "이제 스마트워치로 건강관리 시작해볼까" 하시는 분들 주목
@@ -26,7 +26,7 @@ description: "삼성전자가 7월 22일 갤럭시 언팩 2026에서 공개한 �
 
 ### 1. 갤럭시 워치 울트라2 — "극한 환경을 위한 플래그십" (47mm, 969,100원)
 
-![갤럭시 워치 울트라2 공식 히어로 이미지](/assets/images/posts/galaxy-watch-ultra2-watch9-launch-20260806/galaxy-watch-ultra2-samsung-hero.jpg)
+![갤럭시 워치 울트라2 공식 히어로 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/galaxy-watch-ultra2-watch9-launch-20260806/galaxy-watch-ultra2-samsung-hero.jpg)
 *이미지 출처: 삼성전자 공식 홈페이지 (samsung.com/sec/watches, 2026-08-06 확인)*
 
 이번 울트라2의 가장 큰 변화는 **하드웨어가 전반적으로 한 단계 점프**했다는 점입니다.
@@ -41,7 +41,7 @@ description: "삼성전자가 7월 22일 갤럭시 언팩 2026에서 공개한 �
 
 ### 2. 갤럭시 워치9 — "일상 건강관리의 올라운더" (40·44mm, 499,000원~)
 
-![갤럭시 워치9 공식 히어로 이미지](/assets/images/posts/galaxy-watch-ultra2-watch9-launch-20260806/galaxy-watch9-samsung-hero.jpg)
+![갤럭시 워치9 공식 히어로 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/galaxy-watch-ultra2-watch9-launch-20260806/galaxy-watch9-samsung-hero.jpg)
 *이미지 출처: 삼성전자 공식 홈페이지 (samsung.com/sec/watches, 2026-08-06 확인)*
 
 워치9은 **하루 종일 부담 없이 차고 다니면서 건강을 관리**하는 데 초점을 맞춘 모델입니다.
@@ -65,7 +65,7 @@ description: "삼성전자가 7월 22일 갤럭시 언팩 2026에서 공개한 �
 
 ## 실제 사용 감각 — "하나만 고르라면?"
 
-![갤럭시 워치 울트라2 실사용 이미지](/assets/images/posts/galaxy-watch-ultra2-watch9-launch-20260806/galaxy-watch-ultra2-usage.jpg)
+![갤럭시 워치 울트라2 실사용 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/galaxy-watch-ultra2-watch9-launch-20260806/galaxy-watch-ultra2-usage.jpg)
 *이미지 출처: 월간 앱스토리 (2026.7, 갤럭시 워치 울트라2 리뷰 기사)*
 
 지난해 갤럭시 워치 울트라를 1년 넘게 써본 입장에서, 두 모델의 체감 차이를 솔직하게 말씀드리면 이렇습니다.
@@ -73,7 +73,7 @@ description: "삼성전자가 7월 22일 갤럭시 언팩 2026에서 공개한 �
 - **울트라2**는 "운동을 진짜 열심히 한다" 또는 "주말마다 등산·트레일 러닝·수영을 즐긴다" 하시는 분들에게 맞습니다. 5,000니트 화면과 800mAh 배터리는 야외에서 체감이 확실히 다릅니다. 다만 47mm 단일 사이즈라 **손목이 가는 분들에게는 다소 커 보일 수 있다**는 점은 참고하세요.
 - **워치9**은 "출퇴근하면서 걸음 수, 수면, 심박수를 꾸준히 관리하고 싶다" 하시는 분들에게 정답입니다. 40mm 모델은 **49만 9천 원**으로 울트라2의 절반 수준인데, 핵심 AI 건강 기능과 칩셋은 같아서 **가성비가 압도적**입니다. 전작 워치8 대비 가격이 최대 19% 올랐지만, 그만큼 기능이 늘었다고 보시면 됩니다.
 
-![갤럭시 워치9 실사용 이미지](/assets/images/posts/galaxy-watch-ultra2-watch9-launch-20260806/galaxy-watch9-usage.jpg)
+![갤럭시 워치9 실사용 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/galaxy-watch-ultra2-watch9-launch-20260806/galaxy-watch9-usage.jpg)
 *이미지 출처: 월간 앱스토리 (2026.7, 갤럭시 워치9 리뷰 기사)*
 
 솔직히 두 제품의 관계는 "비싼 버전 vs 저렴한 버전"이 아니라 **"아웃도어 전용 vs 일상 전용"**이라고 보시는 게 정확합니다. 삼성전자도 이번에 두 제품의 역할을 확실하게 나눴다고 공식적으로 밝혔을 정도니까요.

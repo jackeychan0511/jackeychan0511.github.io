@@ -5,7 +5,7 @@ date: 2026-10-31 11:00:00 +0900
 categories: [education]
 tags: [크레버스, CREVERSE, CMS영재교육센터, 사고력수학, 목동CMS, 유형자산양도, 부채비율, 자산유동화, 초등수학, 자녀교육]
 author: "40대 블로거"
-image: /assets/images/posts/creverse-mokdong-sale-complete-20261031/01-hero.svg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/creverse-mokdong-sale-complete-20261031/01-hero.svg
 description: "크레버스(096240)가 2026년 10월 30일 서울 양천구 목동 905-27 토지·건물 250억원 양도 거래를 종료했다고 공시했다. 8월 28일 이사회 결의·계약 체결 이후 잔금 지급과 소유권 이전 등기가 완료된 것으로, 거래 목적은 부채비율 개선이다. 별도재무제표 기준 자본총계는 477억원에서 606억원으로, 부채총계는 1,151억원에서 1,117억원으로 변동된다. 학부모 관점의 의미까지 정리했다."
 ---
 
@@ -13,7 +13,7 @@ description: "크레버스(096240)가 2026년 10월 30일 서울 양천구 목�
 
 **청담어학원·에이프릴어학원·CMS(사고력수학)**을 운영하는 코스닥 상장 교육기업 **크레버스(096240)**가 **2026년 10월 30일**, 서울 양천구 목동 소재 토지·건물의 양도 거래를 **최종 종료**했다고 공시했습니다. 거래 금액은 **250억원**입니다.
 
-![크레버스 목동 토지·건물 250억원 양도 완료 개요](/assets/images/posts/creverse-mokdong-sale-complete-20261031/01-hero.svg)
+![크레버스 목동 토지·건물 250억원 양도 완료 개요](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/creverse-mokdong-sale-complete-20261031/01-hero.svg)
 *▲ 8월 28일 계약 → 10월 30일 잔금·소유권 이전으로 마무리된 목동 자산 거래 (자료: 금융감독원 전자공시)*
 
 지난 8월 28일 **주요사항보고서(유형자산양도결정)**로 예고됐던 건이 두 달 만에 **잔금 지급과 소유권 이전 등기 접수**까지 끝난 것입니다. 교육업계에서 **학원 건물을 팔아 재무구조를 개선하는 흐름**이 실제로 마무리 단계에 들어섰다는 점에서, 사고력수학·영재교육 브랜드를 지켜보는 학부모 입장에서도 한 번 짚어볼 만한 소식입니다.
@@ -46,7 +46,7 @@ description: "크레버스(096240)가 2026년 10월 30일 서울 양천구 목�
 
 공시에 첨부된 **2026년 6월말 별도재무제표 기준** 요약재무정보를 보면, 이번 거래로 회사의 재무 체력이 한 단계 개선됩니다.
 
-![크레버스 자산양수도 전후 요약재무정보](/assets/images/posts/creverse-mokdong-sale-complete-20261031/02-balance-sheet.svg)
+![크레버스 자산양수도 전후 요약재무정보](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/creverse-mokdong-sale-complete-20261031/02-balance-sheet.svg)
 *▲ 2026년 6월말 별도재무제표 기준 거래 전·후 비교 (자료: DART 공시, 단위 억원 반올림)*
 
 | 항목 | 거래 전 | 증감 | 거래 후 |
@@ -96,7 +96,7 @@ description: "크레버스(096240)가 2026년 10월 30일 서울 양천구 목�
 
 주가는 10월 30일 오후 6시 50분 기준 **8,220원**으로 전일 대비 10원(−0.12%) 내렸습니다. 거래 종료가 이미 예고된 사안이었던 만큼 주가 반응은 제한적이었습니다.
 
-![CMS영재교육센터 브랜드 이미지](/assets/images/posts/creverse-mokdong-sale-complete-20261031/03-cms-youngjae-center.jpg)
+![CMS영재교육센터 브랜드 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/creverse-mokdong-sale-complete-20261031/03-cms-youngjae-center.jpg)
 *▲ 크레버스가 운영하는 CMS영재교육센터 브랜드 이미지. 목동 건물은 매각 후에도 임차해 학원으로 계속 운영된다. (이미지: 크레버스 제공)*
 
 ## 5. 학부모 관점에서 의미 있는 부분

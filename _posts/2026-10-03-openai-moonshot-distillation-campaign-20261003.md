@@ -5,7 +5,7 @@ date: 2026-10-03 14:50:00 +0900
 categories: [career]
 tags: [OpenAI, MoonshotAI, Kimi, 모델증류, adversarialDistillation, 추론추출, AI보안, GPT, FrontierModelForum, AI뉴스, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/openai-moonshot-distillation-20261003/openai-logo.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-moonshot-distillation-20261003/openai-logo.png
 description: "2026년 9월 30일(현지시간) OpenAI가 자사 모델의 '보호된 추론(protected reasoning)'을 대규모로 빼내려 한 조직적 캠페인을 적발·차단했다고 밝혔습니다. 암호화된 추론을 다른 대화에서 복호화·전사하게 만드는 우회 경로가 동원됐고, 핵심 클러스터는 Kimi 개발사 Moonshot AI 연계 개인들로 귀속됐습니다. 무엇이 문제이고, 개발자·사용자·업계에 어떤 영향을 주는지 정리했습니다."
 ---
 
@@ -13,7 +13,7 @@ description: "2026년 9월 30일(현지시간) OpenAI가 자사 모델의 '보�
 
 AI 모델을 업무 파이프라인에 얹어 쓰는 분들이라면, 이번 소식은 "또 하나의 보안 사고"로만 넘기기 어렵습니다. **모델의 '생각 과정(추론)'을 밖으로 빼내 재사용하는 공격이 실제로 규모를 키웠다는 사실**이 확인됐고, 그 여파가 **API 설계와 계정 정책**까지 건드리기 때문입니다.
 
-![OpenAI 공식 로고 (출처: Wikimedia Commons)](/assets/images/posts/openai-moonshot-distillation-20261003/openai-logo.png)
+![OpenAI 공식 로고 (출처: Wikimedia Commons)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-moonshot-distillation-20261003/openai-logo.png)
 *OpenAI 공식 로고 (출처: Wikimedia Commons)*
 
 이번 글은 **OpenAI 공식 블로그와 CyberScoop·The Hacker News·Bloomberg·CNBC 보도**를 바탕으로, "무슨 일이 있었나"보다 **"이게 실무에 어떤 의미인가"** 기준으로 정리했습니다.
@@ -67,7 +67,7 @@ OpenAI가 공개한 대응은 **"계정 → 인프라 → 기술 → 생태계"*
 
 이 지점이 실무자에게 가장 중요합니다. **"모델 내부 상태를 저장·이식·재생하는 설계"** 자체가 **새로운 공격면**이 될 수 있다는 뜻이기 때문입니다.
 
-![Moonshot AI(Kimi) 공식 워드마크 (출처: Moonshot AI 공식 홈페이지 moonshot.ai)](/assets/images/posts/openai-moonshot-distillation-20261003/moonshot-ai-logo.png)
+![Moonshot AI(Kimi) 공식 워드마크 (출처: Moonshot AI 공식 홈페이지 moonshot.ai)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-moonshot-distillation-20261003/moonshot-ai-logo.png)
 *Moonshot AI(Kimi) 공식 워드마크 (출처: Moonshot AI 공식 홈페이지 moonshot.ai)*
 
 ---

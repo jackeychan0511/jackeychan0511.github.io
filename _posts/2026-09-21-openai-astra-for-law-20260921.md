@@ -5,7 +5,7 @@ date: 2026-09-21 14:55:00 +0900
 categories: [career]
 tags: [GPT, OpenAI, GPT6, GPT6아스트라, AstraforLaw, 아스트라포로, 법률AI, 리걸테크, 판례검색, LegalSearchIndex, 챗GPT, ChatGPT, Codex, 코드엑스, TrustedAccess, 제로데이터보존, ChatGPTforWord, Harvey, Legora, ThomsonReuters, iManage, 앤트로픽, ClaudeforLegal, 도메인특화AI, 업무자동화, 계약검토, AI뉴스, 2026년9월]
 author: "40대 블로거"
-image: /assets/images/posts/openai-astra-for-law-20260921/openai-wordmark-wikimedia.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-astra-for-law-20260921/openai-wordmark-wikimedia.jpg
 description: "2026년 9월 17일(현지), OpenAI가 GPT-6 Astra를 법률 업무에 맞게 구성한 'Astra for Law'를 공개했습니다. 미국 판례·법령·규정·법원규칙·행정결정을 담은 2억 3,000만 건 규모의 법률 검색 인덱스(Legal Search Index)를 붙였고, 독립 벤치마크(Vals AI Legal Research Bench) 200문항에서 54.0% 대 38.7%로 기존 웹 검색 대비 정확도가 크게 올랐습니다. Am Law 200 대형 로펌을 대상으로 한 'Trusted Access' 프로그램과 API 제로 데이터 보존, 법률 플러그인 26종·커스텀 스킬 47종, ChatGPT for Word 정식 출시까지 함께 발표됐습니다. 이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망 순서로 정리했습니다."
 sitemap: false
 noindex: true
@@ -13,7 +13,7 @@ noindex: true
 
 > **📌 한줄 요약:** **2026년 9월 17일(현지시간) 목요일**, OpenAI가 **GPT-6 Astra를 법률 업무에 맞게 구성한 'Astra for Law'** 를 공개했습니다. 핵심은 세 가지입니다. ① **미국 판례·법령·규정·법원규칙·행정결정을 담은 'Legal Search Index'(2억 3,000만 건 이상, 매일 갱신)** 를 모델에 직접 붙였고, ② 독립 벤치마크 **Vals AI Legal Research Bench**(미국 법률 리서치 질문 200문항)에서 **정답률 54.0% 대 38.7%** — 같은 모델에 일반 웹 검색을 붙였을 때보다 **한 단계에 약 40% 상대 개선**을 기록했으며, ③ 접근은 **Am Law 200 대형 로펌을 겨냥한 'Trusted Access' 프로그램**으로 열고 **API는 제로 데이터 보존(Zero Data Retention)** 을 적용했습니다. 여기에 **법률 플러그인 26종 + 법률가가 직접 만든 9종 + 커스텀 스킬 47종**, 그리고 **ChatGPT for Word 정식 출시(GA)** 가 함께 발표됐습니다.
 
-![OpenAI 공식 워드마크(Astra for Law는 OpenAI의 GPT-6 Astra를 법률 업무용으로 구성한 제품입니다)](/assets/images/posts/openai-astra-for-law-20260921/openai-wordmark-wikimedia.jpg)
+![OpenAI 공식 워드마크(Astra for Law는 OpenAI의 GPT-6 Astra를 법률 업무용으로 구성한 제품입니다)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-astra-for-law-20260921/openai-wordmark-wikimedia.jpg)
 *OpenAI 공식 로고(워드마크). 2026년 9월 17일 OpenAI는 GPT-6 Astra를 법률 업무에 맞춰 구성한 'Astra for Law'를 발표했습니다. 출처: OpenAI 공식 브랜드 자료(openai.com/brand), Wikimedia Commons(퍼블릭 도메인)*
 
 ---
@@ -68,7 +68,7 @@ noindex: true
 
 로펌이 AI를 못 쓰는 이유는 성능이 아니라 **비밀유지의무**입니다. 그래서 OpenAI는 **Trusted Access 프로그램**을 만들고 **API 제로 데이터 보존**, **ChatGPT Enterprise의 휴먼 리뷰 제외**를 조건으로 걸었습니다. 초기 대상은 **Am Law 200 대형 로펌**, 제공 채널은 **ChatGPT와 Codex** 입니다.
 
-![법률 리서치의 상징 — 인디애나주 대법원 법률도서관(2개 층 서가)](/assets/images/posts/openai-astra-for-law-20260921/indiana-supreme-court-law-library-wikimedia.jpg)
+![법률 리서치의 상징 — 인디애나주 대법원 법률도서관(2개 층 서가)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-astra-for-law-20260921/indiana-supreme-court-law-library-wikimedia.jpg)
 *법률 리서치의 전통적 현장인 인디애나주 대법원 법률도서관(Indiana Supreme Court Law Library). OpenAI의 'Astra for Law'는 이 서가에 해당하는 2억 3,000만 건 규모의 법률 검색 인덱스를 모델에 직접 연결한 것이 핵심입니다. 출처: Wikimedia Commons, 촬영 LingLass, CC0*
 
 ### 5) 부속 발표까지 묶으면 '법률 플랫폼'입니다

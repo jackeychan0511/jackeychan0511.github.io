@@ -5,11 +5,11 @@ date: 2026-11-02 11:20:00 +0900
 categories: [products]
 tags: [다이슨, 다이슨r3뉴로비, 로봇청소기추천, UV얼룩감지, 다이슨W1펜슬워시, 물청소기, 로봇청소기비교, 다이슨로봇청소기, 30000Pa, 프리미엄로봇청소기, 가전추천, 2026년11월]
 author: "40대 블로거"
-image: /assets/images/posts/dyson-r3-nuroby-uv-robot-vacuum-20261102/dyson-r3-nuroby-hero.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/dyson-r3-nuroby-uv-robot-vacuum-20261102/dyson-r3-nuroby-hero.jpg
 description: "다이슨코리아가 2026년 11월 2일 '다이슨 r3 뉴로비 스팟앤스크럽 UV 로봇청소기'와 '다이슨 W1 펜슬워시 물청소기+독'을 국내 출시했습니다. r3는 UV 라이트·AI 비전·초록 불빛으로 눈에 보이지 않는 얼룩까지 찾아내고, 오염이 남으면 최대 15회 반복 청소합니다. 흡입력은 3만Pa로 기존 대비 65% 향상됐고, 물청소 롤러는 벽면까지 40mm 확장됩니다. 먼지 봉투 없는 싸이클론 도킹스테이션이 먼지 비움·급수·롤러 세척·건조를 자동 처리합니다. r1·r2·r3 라인업 비교와 미국 가격(549·699·1199달러), 구매 전 확인할 아쉬운 점까지 정리했습니다."
 ---
 
-![다이슨 r3 뉴로비 스팟앤스크럽 UV 로봇청소기와 W1 펜슬워시 물청소기+독](/assets/images/posts/dyson-r3-nuroby-uv-robot-vacuum-20261102/dyson-r3-nuroby-hero.jpg)
+![다이슨 r3 뉴로비 스팟앤스크럽 UV 로봇청소기와 W1 펜슬워시 물청소기+독](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/dyson-r3-nuroby-uv-robot-vacuum-20261102/dyson-r3-nuroby-hero.jpg)
 *2026년 11월 2일 국내 출시된 다이슨 r3 뉴로비 스팟앤스크럽 UV(왼쪽)와 W1 펜슬워시 물청소기+독 (출처: 다이슨코리아 제공 사진, 연합뉴스)*
 
 > **📌 한줄 요약:** 다이슨코리아가 **2026년 11월 2일**, **'다이슨 r3 뉴로비 스팟앤스크럽 UV 로봇청소기'**와 **'다이슨 W1 펜슬워시 물청소기+독'**을 국내 출시했습니다. r3의 핵심은 **UV 라이트 + AI 비전 + 초록 불빛**을 묶은 얼룩 감지 시스템입니다. 눈에 보이지 않는 얼룩까지 찾아내고, **오염이 남아 있으면 최대 15회까지 반복 청소**합니다. 흡입력은 **3만Pa**로 기존 대비 **65% 향상**됐고, 물청소 롤러는 벽면에 붙으면 **최대 40mm까지 확장**됩니다. 도킹스테이션은 **먼지 봉투 없는 싸이클론 방식**으로 먼지 비움·급수·롤러 세척·건조·충전을 자동 처리합니다. 두 제품 모두 지난 9월 독일 베를린에서 열린 **'다이슨 언베일드'** 행사에서 처음 공개된 모델입니다.
@@ -24,7 +24,7 @@ description: "다이슨코리아가 2026년 11월 2일 '다이슨 r3 뉴로비 �
 
 ## 다이슨 r3 뉴로비, 뭐가 달라졌나
 
-![다이슨 r3 뉴로비 스팟앤스크럽 UV 로봇청소기](/assets/images/posts/dyson-r3-nuroby-uv-robot-vacuum-20261102/dyson-r3-nuroby-spot-scrub-uv.jpg)
+![다이슨 r3 뉴로비 스팟앤스크럽 UV 로봇청소기](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/dyson-r3-nuroby-uv-robot-vacuum-20261102/dyson-r3-nuroby-spot-scrub-uv.jpg)
 *UV 라이트와 AI 비전으로 얼룩을 찾아내는 다이슨 r3 뉴로비 스팟앤스크럽 UV (출처: 다이슨코리아)*
 
 ### ① UV 라이트 + AI 비전 + 초록 불빛
@@ -51,7 +51,7 @@ r3의 얼룩 감지 시스템은 세 가지가 함께 돌아갑니다. **AI 비�
 
 ## 다이슨 W1 펜슬워시 물청소기+독
 
-![다이슨 W1 펜슬워시 물청소기+독](/assets/images/posts/dyson-r3-nuroby-uv-robot-vacuum-20261102/dyson-w1-pencilwash-dok.jpg)
+![다이슨 W1 펜슬워시 물청소기+독](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/dyson-r3-nuroby-uv-robot-vacuum-20261102/dyson-w1-pencilwash-dok.jpg)
 *롤러 밀도를 16% 높이고 급수 지점을 12개로 늘린 다이슨 W1 펜슬워시 물청소기+독 (출처: 다이슨코리아)*
 
 로봇청소기와 함께 나온 **핸디형 물청소기**입니다. 기존 모델에서 세 가지가 바뀌었습니다.

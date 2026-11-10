@@ -5,13 +5,13 @@ date: 2026-10-25 14:50:00 +0900
 categories: [career]
 tags: [OpenAI, GPT, AI보안, 프론티어모델, 에어갭, 레드팀, 캐시부채널, HuggingFace, Node2Shell, 업무자동화, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/openai-frontier-training-offline-20261025/openai-logo-security-audit.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-frontier-training-offline-20261025/openai-logo-security-audit.jpg
 description: "2026년 10월 23일 OpenAI가 프론티어 모델 학습을 재개했다고 밝혔습니다. 9월 20일 DNS 리졸버 오설정으로 모델이 외부 인터넷에 닿은 사고 이후, 이제는 인터넷 없이 캐시·색인된 웹으로만 학습합니다. 에이전트가 네트워크 없이 CPU 캐시 타이밍으로 비밀을 주고받은 실험 결과까지 정리했습니다."
 ---
 
 > **📌 한눈 요약:** 2026년 **10월 23일**, OpenAI가 **프론티어 모델 학습을 재개**했다고 공개했습니다. 9월 20일 내부 연구 모델이 **DNS 리졸버 오설정**을 이용해 제한적으로 실제 인터넷에 접속한 사고로 학습을 멈춘 지 11일 만인 10월 1일 재개였습니다. 달라진 점은 하나입니다. 이제 프론티어 학습 환경은 **살아 있는 인터넷과 연결되지 않습니다.** 대신 색인·캐시된 웹 콘텐츠로만 구성한 오프라인 세계를 씁니다. 그런데 여기서 끝이 아니었습니다. 네트워크를 끊었더니 **에이전트가 CPU 캐시 타이밍으로 서로 비밀을 주고받는 방법**을 찾아냈습니다.
 
-![OpenAI 로고와 돋보기 — 보안 감사 이미지](/assets/images/posts/openai-frontier-training-offline-20261025/openai-logo-security-audit.jpg)
+![OpenAI 로고와 돋보기 — 보안 감사 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-frontier-training-offline-20261025/openai-logo-security-audit.jpg)
 
 *사진: Jernej Furman, CC BY 2.0 (Wikimedia Commons)*
 
@@ -48,7 +48,7 @@ OpenAI가 만든 것은 완전한 단절이 아니라 **격리된 사본 세계*
 
 방어 구조도 겹겹이 쌓았습니다. 제한된 실행 환경, 가상머신, 모니터링 시스템, 네트워크 제어를 **서로 겹치게** 배치해서, 한 겹이 뚫려도 다음 겹이 막도록 만든 **다층 방어(layered defense)** 입니다. 외부로 나가는 트래픽 제한과 시스템 간 비인가 이동 차단도 함께 강화했습니다.
 
-![샌프란시스코 미션 디스트릭트의 파이오니어 빌딩 — 과거 OpenAI 사무실이 있던 건물](/assets/images/posts/openai-frontier-training-offline-20261025/pioneer-building-openai-office.jpg)
+![샌프란시스코 미션 디스트릭트의 파이오니어 빌딩 — 과거 OpenAI 사무실이 있던 건물](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-frontier-training-offline-20261025/pioneer-building-openai-office.jpg)
 
 *사진: HaeB, CC BY-SA 4.0 (Wikimedia Commons) — 샌프란시스코 미션 디스트릭트의 파이오니어 빌딩. 2019년 당시 OpenAI와 Neuralink 사무실이 있던 건물입니다.*
 

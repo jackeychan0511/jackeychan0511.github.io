@@ -5,11 +5,11 @@ date: 2026-10-27 11:24:00 +0900
 categories: [products]
 tags: [아이패드미니, iPadmini, 아이패드미니OLED, A20Pro, 애플, Apple, 아이패드에어, 태블릿비교, 태블릿추천, 구매가이드, 신제품, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/ipad-mini-oled-a20-pro-guide-20261027/ipad-mini-hero.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/ipad-mini-oled-a20-pro-guide-20261027/ipad-mini-hero.jpg
 description: "애플이 2026년 10월 26일 OLED 디스플레이와 A20 Pro를 탑재한 새 아이패드 미니를 공개했습니다. 8.5인치 OLED, 5.4mm·255g, IP67 방수방진, Acoustic Display, Wi-Fi 7에 국내 가격은 Wi-Fi 모델 114만 9,000원부터입니다. 60Hz 주사율과 인상된 가격이라는 아쉬운 점, 아이패드 에어 11(M4)·아이패드(A16)와의 스펙·가격 비교, 사전 주문과 구매 팁까지 공식 발표 기준으로 정리했습니다."
 ---
 
-![아이패드 미니 OLED 공식 이미지 — 미드나이트 색상의 새 아이패드 미니](/assets/images/posts/ipad-mini-oled-a20-pro-guide-20261027/ipad-mini-hero.jpg)
+![아이패드 미니 OLED 공식 이미지 — 미드나이트 색상의 새 아이패드 미니](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/ipad-mini-oled-a20-pro-guide-20261027/ipad-mini-hero.jpg)
 *애플이 10월 26일 공개한 새 아이패드 미니. 8.5인치 OLED 디스플레이와 A20 Pro 칩이 핵심입니다 (출처: Apple Newsroom, 2026.10.26)*
 
 > **📌 한줄 요약:** 애플이 **2026년 10월 26일** 새 **아이패드 미니**를 공개했습니다. 아이패드 미니 사상 첫 **OLED 디스플레이(8.5인치)**, **2나노 A20 Pro** 칩, **5.4mm·255g**의 얇고 가벼운 설계, **IP67 생활 방수·방진**, 스피커 구멍을 없앤 **Acoustic Display**가 핵심입니다. 국내 가격은 **Wi-Fi 모델 114만 9,000원부터**, Wi-Fi + Cellular 모델 **139만 9,000원부터**이며, **10월 28일(미국 시간) 사전 주문, 11월 6일 출시**입니다. 다만 **주사율은 여전히 60Hz**이고, 미국 기준 시작가가 **699달러**로 두 차례에 걸쳐 올랐습니다.
@@ -43,7 +43,7 @@ description: "애플이 2026년 10월 26일 OLED 디스플레이와 A20 Pro를 �
 
 이전 세대인 아이패드 미니(A17 Pro)가 2024년 10월에 나왔으니, 약 2년 만의 풀체인지입니다. 그동안 "미니는 화면이 아쉽다"는 평가가 많았는데, 이번에는 그 부분을 가장 먼저 손봤습니다.
 
-![스타라이트 색상의 새 아이패드 미니](/assets/images/posts/ipad-mini-oled-a20-pro-guide-20261027/ipad-mini-starlight.jpg)
+![스타라이트 색상의 새 아이패드 미니](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/ipad-mini-oled-a20-pro-guide-20261027/ipad-mini-starlight.jpg)
 *색상은 미드나이트와 스타라이트 두 가지입니다 (출처: Apple Newsroom, 2026.10.26)*
 
 ---
@@ -79,7 +79,7 @@ A20 Pro는 아이폰 18 프로와 아이폰 듀오에 먼저 들어갔던 칩입
 
 512GB 모델은 Neural Engine이 두 개라서 온디바이스 모델을 돌리는 앱에서 처리 속도가 더 빠릅니다. 애플이 공식 자료에서 듀얼 Neural Engine을 강조한 것도 이 때문입니다.
 
-![A20 Pro 성능을 보여주는 아이패드 미니 공식 이미지](/assets/images/posts/ipad-mini-oled-a20-pro-guide-20261027/ipad-mini-a20pro.jpg)
+![A20 Pro 성능을 보여주는 아이패드 미니 공식 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/ipad-mini-oled-a20-pro-guide-20261027/ipad-mini-a20pro.jpg)
 *2나노 A20 Pro는 온디바이스 AI 작업과 3D 렌더링에서 이전 세대보다 큰 폭의 성능 향상을 제공합니다 (출처: Apple Newsroom, 2026.10.26)*
 
 ### 오디오·카메라·연결성
@@ -121,7 +121,7 @@ A20 Pro는 아이폰 18 프로와 아이폰 듀오에 먼저 들어갔던 칩입
 
 **⑤ 저장 용량은 128GB부터**입니다. 4K 영상과 온디바이스 AI 모델을 함께 쓰려면 256GB 이상이 안전합니다.
 
-![IP67 생활 방수·방진을 보여주는 아이패드 미니](/assets/images/posts/ipad-mini-oled-a20-pro-guide-20261027/ipad-mini-ip67.jpg)
+![IP67 생활 방수·방진을 보여주는 아이패드 미니](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/ipad-mini-oled-a20-pro-guide-20261027/ipad-mini-ip67.jpg)
 *IP67 등급을 처음 갖춘 아이패드 미니. 물튀김 정도의 상황을 견딥니다 (출처: Apple Newsroom, 2026.10.26)*
 
 ---
@@ -143,7 +143,7 @@ A20 Pro는 아이폰 18 프로와 아이폰 듀오에 먼저 들어갔던 칩입
 
 표에서 눈에 띄는 건 **미국 기준으로 미니가 에어보다 50달러 싸졌다**는 점입니다. 이전에는 미니가 더 저렴한 포지션이었지만, 이번에는 OLED와 IP67, 2나노 칩을 얹으면서 격차가 거의 사라졌습니다. 반대로 에어는 화면이 크고 M4 칩에 12GB 통합 메모리를 갖춰, 다중 작업과 외장 디스플레이 활용에서 여전히 우위입니다.
 
-![아이패드 에어 11 공식 이미지](/assets/images/posts/ipad-mini-oled-a20-pro-guide-20261027/ipad-air-official.jpg)
+![아이패드 에어 11 공식 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/ipad-mini-oled-a20-pro-guide-20261027/ipad-air-official.jpg)
 *비교 대상인 아이패드 에어 11(M4). 11인치 LCD에 M4 칩, 464g입니다 (출처: Apple)*
 
 정리하면 선택 기준은 이렇게 나뉩니다.

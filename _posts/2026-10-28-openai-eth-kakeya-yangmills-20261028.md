@@ -5,7 +5,7 @@ date: 2026-10-28 14:52:00 +0900
 categories: [career]
 tags: [OpenAI, GPT, ETH반증, 지수시간가설, 카케야추측, 양밀스, 복잡도이론, PvsNP, Lean검증, AI수학, AI과학, 업무자동화, AI뉴스, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/openai-eth-kakeya-yangmills-20261028/openai-science-release-cover.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-eth-kakeya-yangmills-20261028/openai-science-release-cover.png
 description: "2026년 10월 26일(현지시간) OpenAI가 내부 모델로 얻은 세 가지 결과를 공개했습니다. 전 차원 국소 평활화 추측 증명(카케야·스타인 제한 추측 동시 해결), 지수시간가설(ETH) 반증, 4차원 양자장론 존재 증명(양-밀스 존재 포함)입니다. 세 결과 모두 Lean 형식화를 거쳤고, ETH는 원 제안자 임파리아초·파투리와 MIT 라이언 윌리엄스가 검증 그룹을 맡았습니다. 다만 동료검토 전이며, 앤트로픽이 몇 시간 뒤 자체 ETH 반증을 내놓는 등 검증 경쟁도 붙었습니다. 무엇이 바뀌고 무엇이 아직 아닌지, 개발자·실무 관점에서 정리했습니다."
 ---
 
@@ -15,7 +15,7 @@ description: "2026년 10월 26일(현지시간) OpenAI가 내부 모델로 얻�
 
 10월 26일 OpenAI가 공개한 글 **"Working with academic communities to build scientific understanding"** 은 정확히 그 지점을 건드립니다. 이번 발표에서 눈에 띄는 건 결과 자체만이 아니라, **결과를 세 분야에 서로 다른 방식으로 공개하는 절차**를 실험했다는 점입니다. 이 글은 **무엇이 나왔는지 → 절차가 어떻게 달라졌는지 → 개발자·실무에 무엇이 걸리는지 → 아직 아닌 것** 순서로 정리했습니다.
 
-![OpenAI 공식 블로그 'Working with academic communities to build scientific understanding' 대표 이미지 (출처: OpenAI 공식 블로그, 2026년 10월 26일)](/assets/images/posts/openai-eth-kakeya-yangmills-20261028/openai-science-release-cover.png)
+![OpenAI 공식 블로그 'Working with academic communities to build scientific understanding' 대표 이미지 (출처: OpenAI 공식 블로그, 2026년 10월 26일)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-eth-kakeya-yangmills-20261028/openai-science-release-cover.png)
 *OpenAI 공식 블로그 'Working with academic communities to build scientific understanding' 대표 이미지 (출처: OpenAI 공식 블로그, 2026년 10월 26일)*
 
 ## 이슈 요약 — 한 장으로 정리
@@ -35,7 +35,7 @@ description: "2026년 10월 26일(현지시간) OpenAI가 내부 모델로 얻�
 
 숫자만 보면 "또 하나의 AI 수학 발표"로 읽힙니다. 하지만 이번 건은 **모델 공개 없이 내부 모델로 얻은 결과**라는 점, 그리고 **검증을 외부에 넘기는 방식을 분야별로 다르게 실험**했다는 점에서 성격이 다릅니다.
 
-![카케야 바늘 집합(Perron tree 구성) — 이번 수학 결과가 다루는 카케야 추측과 직접 연결되는 도형 (출처: Wikimedia Commons, 퍼블릭 도메인)](/assets/images/posts/openai-eth-kakeya-yangmills-20261028/kakeya-needle-set.png)
+![카케야 바늘 집합(Perron tree 구성) — 이번 수학 결과가 다루는 카케야 추측과 직접 연결되는 도형 (출처: Wikimedia Commons, 퍼블릭 도메인)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-eth-kakeya-yangmills-20261028/kakeya-needle-set.png)
 *카케야 바늘 집합(Perron tree 구성) — 이번 수학 결과가 다루는 카케야 추측과 직접 연결되는 도형 (출처: Wikimedia Commons, 퍼블릭 도메인)*
 
 ## 상세 분석 — 세 가지 결과

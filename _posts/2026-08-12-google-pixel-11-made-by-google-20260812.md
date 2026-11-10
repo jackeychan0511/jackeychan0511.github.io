@@ -5,7 +5,7 @@ date: 2026-08-12 13:00:00 +0900
 categories: [products]
 tags: [구글, 픽셀11, Pixel11, 메이드바이구글, MadeByGoogle, 텐서G6, TensorG6, 2nm, 픽셀태그, PixelTag, 픽셀워치5, 에어태그, 스마트트래커, 2026년8월]
 author: "40대 리뷰어"
-image: /assets/images/posts/google-pixel-11-made-by-google-20260812/made-by-google-hero.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/google-pixel-11-made-by-google-20260812/made-by-google-hero.jpg
 description: "2026년 8월 12일(미국 현지), 뉴욕에서 열리는 Made by Google 2026에서 구글 픽셀 11 시리즈 4종(픽셀 11·프로·프로 XL·프로 폴드)과 픽셀 태그, 픽셀 워치 5가 공개될 예정입니다. 스마트폰 최초 TSMC 2nm 공정 텐서 G6 탑재, RAM 가격 폭등에 따른 가격 인상 전망, 에어태그 대항마 픽셀 태그(콩 모양 디자인, 약 29~34달러)까지 공개 전 총정리와 구매 팁을 정리했습니다."
 ---
 
@@ -13,7 +13,7 @@ description: "2026년 8월 12일(미국 현지), 뉴욕에서 열리는 Made by 
 
 오늘은 IT 제품 소식을 매일 챙겨보는 입장에서, **공개를 하루 앞둔 시점에 확인된 픽셀 11 시리즈·픽셀 태그·픽셀 워치 5의 핵심 정보**를 한곳에 정리해드립니다. 특히 이번 세대는 **스마트폰 최초로 2nm 공정 칩**이 들어간다는 이야기라, 관심이 없으셨던 분들도 한 번쯤 눈여겨보실 만합니다.
 
-![Made by Google 2026 행사 키비주얼](/assets/images/posts/google-pixel-11-made-by-google-20260812/made-by-google-hero.jpg)
+![Made by Google 2026 행사 키비주얼](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/google-pixel-11-made-by-google-20260812/made-by-google-hero.jpg)
 *Made by Google 2026 — 8월 12일(현지시간) 뉴욕에서 픽셀 11 시리즈 공개 (출처: The Verge 보도 이미지, 확인일 2026-08-12)*
 
 ---
@@ -41,7 +41,7 @@ description: "2026년 8월 12일(미국 현지), 뉴욕에서 열리는 Made by 
 
 솔직히 지난 픽셀 10(텐서 G5, 3nm)도 체감 성능은 괜찮았지만, **발열과 배터리**에서 아쉬운 이야기가 많았거든요. 2nm 공정이 실제 사용감을 어떻게 바꿔줄지는 이번 행사의 최대 관전 포인트입니다.
 
-![구글 픽셀 11 프로 공식 티저 이미지](/assets/images/posts/google-pixel-11-made-by-google-20260812/pixel-11-pro-teaser.jpg)
+![구글 픽셀 11 프로 공식 티저 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/google-pixel-11-made-by-google-20260812/pixel-11-pro-teaser.jpg)
 *구글 공식 픽셀 11 프로 티저 — "On a scale from 1 to 10, meet 11." (출처: Google 공식 티저, Tech Advisor 게재분, 확인일 2026-08-12)*
 
 ### ② 카메라 — 카메라 바는 유지, 망원은 재설계
@@ -65,7 +65,7 @@ description: "2026년 8월 12일(미국 현지), 뉴욕에서 열리는 Made by 
 
 생각보다 큰 변수죠. "이번엔 살까 말까" 고민하시는 분들께는 **"가격은 오르고, 혜택은 사전예약 때가 최대"**라는 점을 미리 말씀드리고 싶습니다.
 
-![구글 픽셀 11 프로 렌더 이미지](/assets/images/posts/google-pixel-11-made-by-google-20260812/pixel-11-pro-render.jpg)
+![구글 픽셀 11 프로 렌더 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/google-pixel-11-made-by-google-20260812/pixel-11-pro-render.jpg)
 *픽셀 11 프로 렌더 — 카메라 바 디자인 유지, 망원 카메라 재설계 (출처: Droid Life, 확인일 2026-08-12)*
 
 ---
@@ -82,7 +82,7 @@ description: "2026년 8월 12일(미국 현지), 뉴욕에서 열리는 Made by 
 
 저처럼 **에어태그를 쓰면서 "안드로이드 폰에서는 반쪽짜리"**라고 느끼셨던 분들께는 반가운 소식입니다. 안드로이드 생태계에서 **제대로 된 정밀 탐색 트래커**가 나온다는 것 자체가 의미가 크거든요. 다만 고리가 없는 디자인은 실사용에서 호불호가 갈릴 수 있는 지점이라, **케이스·스트랩 가격까지 포함해 비교**하시는 걸 추천합니다.
 
-![구글 픽셀 태그 유출 이미지](/assets/images/posts/google-pixel-11-made-by-google-20260812/pixel-tag-leak.jpg)
+![구글 픽셀 태그 유출 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/google-pixel-11-made-by-google-20260812/pixel-tag-leak.jpg)
 *픽셀 태그 유출 이미지 — 콩 모양 몸체에 'G' 로고, 부착 고리 없음 (출처: Tech Advisor, 확인일 2026-08-12)*
 
 ---

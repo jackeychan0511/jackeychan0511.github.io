@@ -5,13 +5,13 @@ date: 2026-08-03 18:15:00 +0900
 categories: [products]
 tags: [갤럭시Z폴드8, 갤럭시AI구독클럽, 삼성전자, 폴더블, 구독클럽, 사전예약, 폰공백기, 더블스토리지, 민팃, 2026년8월, 이슈제품, 구독할인]
 author: "40대 블로거"
-image: /assets/images/posts/galaxy-z-fold8-20260803/zseries-lineup-official.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/galaxy-z-fold8-20260803/zseries-lineup-official.jpg
 description: "2026년 8월 3일 기준 '뉴 갤럭시 AI 구독클럽'을 총정리했습니다. 월 8,900원~14,500원 구독료로 1~3년 후 기기 반납 시 최대 50% 잔존가를 보상받는 구조, 3년형·분실 보상 신설, 자기부담금 조건, 그리고 배송 지연으로 불거진 '폰 공백기' 논란과 삼성의 반납 기한 연장(9/30까지) 결정까지 정리했습니다. Z 폴드8·플립8 사전예약(오늘 8/3 마감) 전 가입 여부를 판단하는 데 도움이 되는 가이드입니다."
 ---
 
 > **📌 한줄 요약:** 삼성전자의 **'뉴 갤럭시 AI 구독클럽'**은 월 **8,900원~14,500원**을 내고 1~3년 후 기기를 반납하면 **최대 50% 잔존가를 보상**받는 구독형 구매 서비스입니다. Z 폴드8·플립8 사전예약(오늘 8/3까지)과 함께 가입할 수 있지만, 이번 주 **배송 지연으로 '폰 공백기' 논란**이 불거졌고 삼성은 7/30 반납 기한을 **9월 30일까지로 1개월 연장**했습니다. 구독료·자기부담금·반납 기준가 등 조건을 꼼꼼히 따져본 뒤 가입을 결정하세요.
 
-![갤럭시 Z 폴드8 울트라·폴드8·플립8 3종 공식 이미지](/assets/images/posts/galaxy-z-fold8-20260803/zseries-lineup-official.jpg)
+![갤럭시 Z 폴드8 울트라·폴드8·플립8 3종 공식 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/galaxy-z-fold8-20260803/zseries-lineup-official.jpg)
 *갤럭시 Z 폴드8 울트라·폴드8·플립8 — Galaxy Unpacked 2026 공식 보도자료 사진 (출처: Samsung Newsroom, 확인일 2026-08-03)*
 
 ---
@@ -51,7 +51,7 @@ description: "2026년 8월 3일 기준 '뉴 갤럭시 AI 구독클럽'을 총정
 
 (출처: Samsung Newsroom '사전 판매 시작' 보도자료, 2026-08-03 확인)
 
-![갤럭시 Z 폴드8 울트라 공식 이미지](/assets/images/posts/galaxy-z-fold8-20260803/fold8ultra-official.jpg)
+![갤럭시 Z 폴드8 울트라 공식 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/galaxy-z-fold8-20260803/fold8ultra-official.jpg)
 *갤럭시 Z 폴드8 울트라 — 8형 대화면·2억 화소 카메라 (출처: Samsung Newsroom, 확인일 2026-08-03)*
 
 ---
@@ -89,7 +89,7 @@ description: "2026년 8월 3일 기준 '뉴 갤럭시 AI 구독클럽'을 총정
 ### ④ 이동통신사 모델은 통신사 정책에 따라 달라짐
 공식 안내에도 **"이동통신사 모델은 이통통신사 정책에 따라 운영"**이라고 명시돼 있습니다. 자급제 기준 조건과 통신사 모델 조건이 다를 수 있으니 가입 전 꼭 확인하세요.
 
-![갤럭시 Z 폴드8 공식 이미지](/assets/images/posts/galaxy-z-fold8-20260803/fold8-official.jpg)
+![갤럭시 Z 폴드8 공식 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/galaxy-z-fold8-20260803/fold8-official.jpg)
 *갤럭시 Z 폴드8 — 신규 '와이드' 폼팩터 (출처: Samsung Newsroom, 확인일 2026-08-03)*
 
 ---
@@ -109,7 +109,7 @@ description: "2026년 8월 3일 기준 '뉴 갤럭시 AI 구독클럽'을 총정
 
 > 💡 **정리하면** — 논란 자체는 일단락되는 분위기지만, **"반납 일정과 신제품 수령 일정이 꼬일 수 있다"**는 리스크는 구독클럽 특유의 구조적 약점입니다. 가입 시 반납 마감일과 배송 일정을 함께 확인하는 습관이 필요합니다.
 
-![갤럭시 Z8 시리즈·워치 라인업 공식 이미지](/assets/images/posts/galaxy-z-fold8-20260803/z8-watch-lineup-official.jpg)
+![갤럭시 Z8 시리즈·워치 라인업 공식 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/galaxy-z-fold8-20260803/z8-watch-lineup-official.jpg)
 *갤럭시 Z 폴드8 울트라·폴드8·플립8과 갤럭시 워치 울트라2·워치9 사전 판매 안내 이미지 (출처: Samsung Newsroom, 확인일 2026-08-03)*
 
 ---

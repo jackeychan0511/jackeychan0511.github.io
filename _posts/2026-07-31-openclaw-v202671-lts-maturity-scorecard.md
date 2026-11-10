@@ -4,7 +4,7 @@ title: "OpenClaw 7월 대규모 업데이트: v2026.7.1 릴리즈 + LTS 로드�
 date: 2026-07-31 20:00:00 +0900
 categories: [career]
 tags: [OpenClaw, AI에이전트, v2026.7.1, LTS, MaturityScorecard, ControlUI, GPT-5.6, 오픈소스AI, 엔터프라이즈]
-image: /assets/images/posts/openclaw-july-2026-update/hero-openclaw.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openclaw-july-2026-update/hero-openclaw.png
 sitemap: false
 noindex: true
 ---
@@ -15,7 +15,7 @@ noindex: true
 
 오늘은 이 두 가지 핵심 소식을 한 번에 정리해드립니다.
 
-![OpenClaw 공식 OG 이미지](/assets/images/posts/openclaw-july-2026-update/hero-openclaw.png)
+![OpenClaw 공식 OG 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openclaw-july-2026-update/hero-openclaw.png)
 *OpenClaw — 오픈소스 개인 AI 어시스턴트 (출처: openclaw.ai)*
 
 ---
@@ -24,7 +24,7 @@ noindex: true
 
 7월 13일 출시된 **OpenClaw v2026.7.1**은 단순한 버전 업데이트가 아닙니다. **3,063개의 커밋, 532명의 컨트리뷰터**가 참여한, 프로젝트가 비영리 재단으로 전환된 이후 **가장 큰 UI 개편**이자 기능 업데이트입니다.
 
-![OpenClaw GitHub Social Preview](/assets/images/posts/openclaw-july-2026-update/openclaw-github-social.png)
+![OpenClaw GitHub Social Preview](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openclaw-july-2026-update/openclaw-github-social.png)
 *OpenClaw GitHub 저장소 — 345K+ 스타 (출처: github.com/openclaw/openclaw)*
 
 ### 🔄 Control UI 완전 재작성

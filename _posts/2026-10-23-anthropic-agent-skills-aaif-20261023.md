@@ -5,7 +5,7 @@ date: 2026-10-23 16:57:00 +0900
 categories: [career]
 tags: [Anthropic, Claude, 앤트로픽, 클로드, AgentSkills, 에이전트스킬, SKILL.md, AAIF, AgenticAIFoundation, 리눅스재단, LinuxFoundation, MCP, OpenResponses, OpenEnv, OpenSandbox, AI에이전트, 업무자동화, 오픈표준, 거버넌스, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/anthropic-agent-skills-aaif-20261023/aaif-hero.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-agent-skills-aaif-20261023/aaif-hero.png
 description: "2026년 10월 22일, 앤트로픽이 자사가 만든 에이전트 표준 'Agent Skills'를 리눅스재단 산하 Agentic AI Foundation(AAIF)에 기증했습니다. 같은 날 AAIF는 OpenAI의 Open Responses, 허깅페이스의 OpenEnv, 알리바바의 OpenSandbox를 함께 받아들이며 프로젝트를 3개에서 10개로 늘렸습니다. 100만 개 스킬·약 2억 8천만 회 설치·70개 이상 플랫폼이라는 숫자, SKILL.md 스펙 구조, 이관 범위와 유지보수 체계, 보안 리스크와 실무 영향까지 정리했습니다."
 ---
 
@@ -30,7 +30,7 @@ description: "2026년 10월 22일, 앤트로픽이 자사가 만든 에이전트
 
 발표 장소도 상징적입니다. **AGNTCon + MCPCon North America**(10월 22~23일, 미국 산호세 McEnery 컨벤션 센터) 현장에서 공개됐습니다. MCP를 다루는 컨퍼런스에서 MCP를 만든 회사가 **또 하나의 표준**을 들고 나온 셈입니다.
 
-![AAIF(Agentic AI Foundation) 공식 사이트 대표 이미지](/assets/images/posts/anthropic-agent-skills-aaif-20261023/aaif-hero.png)
+![AAIF(Agentic AI Foundation) 공식 사이트 대표 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-agent-skills-aaif-20261023/aaif-hero.png)
 *AAIF 공식 사이트의 대표 이미지. (이미지 출처: aaif.io)*
 
 앤트로픽 발표문의 핵심 문장은 이렇습니다.
@@ -86,7 +86,7 @@ pdf-processing/
 
 여기서 실무적으로 중요한 개념이 **점진적 공개(progressive disclosure)** 입니다. 에이전트가 모든 스킬의 본문을 미리 읽는 게 아니라, `description`만 보고 **필요할 때 해당 스킬을 불러옵니다**. 수백 개 스킬을 붙여도 컨텍스트가 터지지 않는 이유가 여기에 있습니다. 반대로 말하면 **`description`을 잘못 쓰면 스킬이 영원히 호출되지 않습니다.** 표준 문서가 '설명 최적화'를 별도 항목으로 다루는 이유입니다.
 
-![앤트로픽 공식 발표문 이미지](/assets/images/posts/anthropic-agent-skills-aaif-20261023/anthropic-news-hero.jpg)
+![앤트로픽 공식 발표문 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-agent-skills-aaif-20261023/anthropic-news-hero.jpg)
 *앤트로픽 공식 발표문의 대표 이미지. (이미지 출처: anthropic.com, "Donating Agent Skills to the Agentic AI Foundation")*
 
 앤트로픽이 공개한 규모는 이렇습니다.

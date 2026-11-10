@@ -5,13 +5,13 @@ date: 2026-08-13 17:00:00 +0900
 categories: [finance]
 tags: [비트코인, 가상화폐, 코인, BTC, 암호화폐]
 author: "40대 블로거"
-image: /assets/images/posts/crypto-briefing-20260813-pm/bitcoin-hand-coin.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/crypto-briefing-20260813-pm/bitcoin-hand-coin.jpg
 description: "8월 13일 오후 코인 브리핑. CPI 발표 후 첫 미국장에서 S&P500·나스닥이 AI주 주도로 상승 마감한 반면 비트코인은 6.4만 달러를 회복하지 못한 채 박스권에 머물렀다. 8/12 미국장 기준 비트코인 현물 ETF는 하루 만에 다시 순유출(약 867억 원)로 돌아섰고 이더리움 ETF는 순유입으로 전환됐다. 블랙록은 IBIT 현물 전환 최소 금액을 2,500만 달러에서 100만 달러로 96% 인하했다."
 sitemap: false
 noindex: true
 ---
 
-![손에 쥔 비트코인 실물 코인](/assets/images/posts/crypto-briefing-20260813-pm/bitcoin-hand-coin.jpg)
+![손에 쥔 비트코인 실물 코인](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/crypto-briefing-20260813-pm/bitcoin-hand-coin.jpg)
 *손에 쥔 비트코인 실물 코인 — 8/13 오후 브리핑 (Satheesh Sankaran / Wikimedia Commons, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/))*
 
 **핵심 요약**: CPI 발표 후 첫 미국장에서 S&P500과 나스닥은 AI주 주도로 상승 마감했지만, 비트코인은 6.4만 달러를 회복하지 못한 채 박스권에 머물렀습니다. 8/12 미국장 기준 비트코인 현물 ETF는 하루 만에 다시 순유출(약 867억 원)로 돌아섰고, 이더리움 ETF는 순유입으로 전환됐습니다. 블랙록은 IBIT의 현물 전환 최소 금액을 96% 인하하며 소액 보유자의 진입 문턱을 낮췄습니다.

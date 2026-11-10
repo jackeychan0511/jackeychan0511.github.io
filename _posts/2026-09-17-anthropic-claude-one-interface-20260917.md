@@ -6,7 +6,7 @@ categories: [career]
 tags: [Anthropic, Claude, 앤트로픽, 클로드, ClaudeCowork, 코워크, OneClaude, 하나의클로드, ClaudeDocs, ClaudeSlides, ClaudeDesign, Artifacts, 아티팩트, 업무자동화, AI에이전트, 생산성도구, GoogleDocs, Gemini, 경쟁구도, 베타, 2026년9월, AI산업]
 author: "40대 블로거"
 description: "2026년 9월 16일(현지), Anthropic이 Claude Cowork와 채팅을 '하나의 Claude(one Claude)'로 통합한다고 공식 발표했습니다. 모드는 Chat·Cowork·Code 3개에서 Chat·Code 2개로 줄고, Claude Docs와 Claude Slides가 베타로 새로 나왔으며 Claude Design은 모든 대화 안에서 동작합니다. 이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망 순서로 정리했습니다."
-image: /assets/images/posts/2026-09-17-anthropic-claude-one-interface-20260917/claude-one-interface-official.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-09-17-anthropic-claude-one-interface-20260917/claude-one-interface-official.jpg
 sitemap: false
 noindex: true
 ---
@@ -15,7 +15,7 @@ noindex: true
 
 그런데 **2026년 9월 16일(현지시간), Anthropic이 그 고민 자체를 없애버렸습니다.** 공식 블로그 제목이 아주 직관적입니다. **"Claude Cowork and chat are now one Claude"** — Cowork와 채팅을 **하나의 Claude**로 합친다는 발표입니다. 이번 글도 이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망 순서로 정리해 드리겠습니다.
 
-![Anthropic 공식 블로그 'Claude Cowork and chat are now one Claude' 발표 대표 이미지](/assets/images/posts/2026-09-17-anthropic-claude-one-interface-20260917/claude-one-interface-official.jpg)
+![Anthropic 공식 블로그 'Claude Cowork and chat are now one Claude' 발표 대표 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-09-17-anthropic-claude-one-interface-20260917/claude-one-interface-official.jpg)
 *Anthropic 공식 블로그(claude.com/blog)에 게시된 'Cowork is now Claude' 발표 대표 이미지 — 이번 통합의 핵심은 '어디에 맡길지 고르지 않아도 되는 것'입니다 (출처: claude.com 공식 블로그, 2026.9.16)*
 
 ## 🗞️ 이슈 요약 — 한눈에 보기
@@ -50,10 +50,10 @@ noindex: true
 
 특히 **아티팩트(Artifacts) 기반이 다시 설계**되면서, Docs·Slides·Design으로 만든 결과물이 **하나의 공유 가능한 링크**에 모인다고 합니다. 폰에서 그 링크를 열어 요소를 옮기거나, Claude에게 "이 부분 바꿔줘"라고 말할 수 있습니다.
 
-![Claude Docs 화면 — 대화에서 생성한 문서를 공유 링크로 동시 편집하는 모습](/assets/images/posts/2026-09-17-anthropic-claude-one-interface-20260917/claude-docs-verge.png)
+![Claude Docs 화면 — 대화에서 생성한 문서를 공유 링크로 동시 편집하는 모습](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-09-17-anthropic-claude-one-interface-20260917/claude-docs-verge.png)
 *Claude Docs 공식 제공 이미지 — 구글 문서처럼 공유 링크 기반으로 동시 편집과 댓글이 가능합니다 (출처: Anthropic 제공 이미지 / The Verge, 2026.9.16)*
 
-![Claude Slides 화면 — 대화에서 슬라이드 초안을 만들고 바로 발표·내보내기](/assets/images/posts/2026-09-17-anthropic-claude-one-interface-20260917/claude-slides-verge.png)
+![Claude Slides 화면 — 대화에서 슬라이드 초안을 만들고 바로 발표·내보내기](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-09-17-anthropic-claude-one-interface-20260917/claude-slides-verge.png)
 *Claude Slides 공식 제공 이미지 — Claude 안에서 발표하거나 PowerPoint·PDF로 내려받을 수 있습니다 (출처: Anthropic 제공 이미지 / The Verge, 2026.9.16)*
 
 The Verge는 이 부분을 **"구글의 생산성 도구를 정면으로 겨냥한 행보"**로 짚었습니다. 구글은 Gemini를 Docs·Sheets·Slides에 깊게 붙여 왔는데, Claude가 **자체 문서·슬라이드 도구를 붙이면서 "다른 앱으로 나갈 이유"를 줄이겠다**는 전략입니다.

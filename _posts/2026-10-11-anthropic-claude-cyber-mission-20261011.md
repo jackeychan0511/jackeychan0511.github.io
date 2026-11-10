@@ -5,13 +5,13 @@ date: 2026-10-11 16:52:00 +0900
 categories: [career]
 tags: [Anthropic, Claude, 앤트로픽, 클로드, 사이버미션, CyberMission, OSSScanner, 오픈소스보안, 취약점스캔, 사용정책, UsagePolicy, CriticalInfrastructureDefense, CIDP, 크라우드스트라이크, CrowdStrike, 에이전트보안, ClaudeCode, 업무자동화, 자동화파이프라인, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/anthropic-claude-cyber-mission-20261011/cyber-mission-hero.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-cyber-mission-20261011/cyber-mission-hero.jpg
 description: "2026년 10월 8일(현지), Anthropic(앤트로픽)이 'Anthropic 사이버 미션(Cyber Mission)'을 출범하고 같은 날 2026년 사용 정책(Usage Policy) 개정판을 공개했습니다. 사이버 미션의 첫 과제는 전력망·수도·교통을 지키는 운용 기술(OT) 분야의 '핵심 인프라 방어 프로그램(CIDP)'과, 오픈소스 프로젝트에 무료로 취약점 스캔 리포트를 보내주는 'OSS Scanner'입니다. CIDP에는 CrowdStrike·Palo Alto Networks·Hitachi·Deloitte·PwC 등 11개 파트너가 참여합니다. OSS Scanner 리포트는 사람 검수 없이 모델이 생성한 그대로 유지보수자에게 전달되는 것이 특징입니다. 사용 정책 개정판은 11월 12일 시행되며, '기만적 캠페인·인공 활동' 금지 조항과 자율적 물리 행동 통제가 새로 들어갑니다. 이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 유의점 → 전망 순으로 정리했습니다."
 sitemap: false
 noindex: true
 ---
 
-![Anthropic 'Anthropic Cyber Mission' 공식 발표 비주얼](/assets/images/posts/anthropic-claude-cyber-mission-20261011/cyber-mission-hero.jpg)
+![Anthropic 'Anthropic Cyber Mission' 공식 발표 비주얼](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-cyber-mission-20261011/cyber-mission-hero.jpg)
 *(이미지 출처: Anthropic(앤트로픽) 공식 발표 페이지 "Introducing the Anthropic Cyber Mission")*
 
 > **📌 한줄 요약:** **2026년 10월 8일(현지)**, **Anthropic(앤트로픽)** 이 **"Anthropic 사이버 미션(Cyber Mission)"** 을 출범하고, 같은 날 **2026년 사용 정책(Usage Policy) 개정판**을 공개했습니다. 사이버 미션의 첫 결과물은 **전력·수도·교통을 지키는 운용 기술(OT) 방어 프로그램(CIDP)** 과 **오픈소스 프로젝트에 무료 취약점 스캔 리포트를 보내주는 'OSS Scanner'** 입니다. 개정된 사용 정책은 **11월 12일 시행**되며, **'기만적 캠페인·인공 활동' 금지**와 **자율적 물리 행동 통제** 조항이 새로 들어갑니다. 한마디로 **"찾아내는 힘"이 아니라 "지키는 힘"으로 무게를 옮기는 한 주**였습니다.
@@ -46,7 +46,7 @@ Anthropic은 발표문에서 이유를 솔직하게 밝혔습니다. **최전선
 
 **첫째, 핵심 인프라.** 전력망·수도·공장·교통망은 수십 년씩 쓰도록 지어진 **컨트롤러·제어 소프트웨어·산업 네트워크**, 곧 **운용 기술(OT)** 위에서 돌아갑니다. 문제는 이 시스템을 **점검을 위해 멈출 수 없다**는 점입니다. 그래서 알려진 취약점이 **수년씩 방치**되곤 하고, 드물게는 **"수십 년"** 이 걸릴 수도 있다고 Anthropic은 적었습니다. 장비가 독점 규격이라 변경이 위험하고, 실수 하나가 공장을 멈출 수 있어 **소수의 신뢰 파트너**에게 의존하는 구조입니다.
 
-![전력망·수도 등 핵심 인프라는 검증된 소수 파트너에게 의존하는 구조다](/assets/images/posts/anthropic-claude-cyber-mission-20261011/power-grid-substation.jpg)
+![전력망·수도 등 핵심 인프라는 검증된 소수 파트너에게 의존하는 구조다](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-cyber-mission-20261011/power-grid-substation.jpg)
 *(이미지 출처: Wikimedia Commons "Transmission substation", 촬영 Rsparks3, CC0 퍼블릭 도메인)*
 
 이 지점에서 등장하는 것이 **CIDP(Critical Infrastructure Defense Program)** 입니다. Claude 최전선 모델과 **현장 엔지니어**, **위협 리서치**를 이 신뢰 파트너들에게 붙여줍니다. 창립 파트너 11곳은 **Accenture, Booz Allen, CrowdStrike, Deloitte, Dragos, Hitachi, Insane Cyber, Nozomi Networks, Palo Alto Networks, PwC, Rockwell Automation** 입니다. 컨설팅·보안·산업 장비 제조사가 고르게 섞여 있다는 점이 눈에 띕니다. Anthropic은 이미 **일부 파트너가 Claude로 취약점을 고치고 있다**고 밝혔습니다.

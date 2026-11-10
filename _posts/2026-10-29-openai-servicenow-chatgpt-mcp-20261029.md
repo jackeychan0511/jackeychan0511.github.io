@@ -5,7 +5,7 @@ date: 2026-10-29 14:52:00 +0900
 categories: [career]
 tags: [OpenAI, ServiceNow, ChatGPT, Codex, MCP, ActionFabric, 업무자동화, ITSM, AI에이전트, ChatGPTWork, 기업AI, AI보안, AI뉴스, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/openai-servicenow-chatgpt-mcp-20261029/servicenow-openai-partnership.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-servicenow-chatgpt-mcp-20261029/servicenow-openai-partnership.jpg
 description: "2026년 10월 28일 ServiceNow와 OpenAI가 파트너십 확장을 발표했습니다. ServiceNow MCP 플러그인이 OpenAI 마켓플레이스에 공개돼 ChatGPT 대화 안에서 장애 티켓 조회, 변경 위험 평가, 레코드 갱신까지 '승인된 실행'이 가능해졌습니다. 권한과 업무 규칙은 ServiceNow Action Fabric이 그대로 적용합니다. 여기에 Codex의 AI Workflow Factory 통합, OpenAI 사이버 모델 기반 취약점 우선순위 판별, 음성 리스크 평가, 양사 내부 전면 도입까지 묶였습니다. 다만 대부분 항목은 2027년 일정이고, 지금 쓸 수 있는 건 플러그인 하나입니다. 실무 관점의 기대와 주의점을 정리했습니다."
 ---
 
@@ -15,7 +15,7 @@ description: "2026년 10월 28일 ServiceNow와 OpenAI가 파트너십 확장을
 
 10월 28일 ServiceNow와 OpenAI가 내놓은 발표는 정확히 그 왕복 구간을 겨냥합니다. 질문에 답하는 챗봇이 아니라, **권한과 승인 규칙을 통과한 뒤 실제 시스템을 바꾸는** 쪽으로 넘어가는 시도입니다. 이 글은 **무엇이 열렸는지 → 권한은 어떻게 지켜지는지 → 개발자·운영팀에 뭐가 걸리는지 → 아직 아닌 것** 순서로 정리했습니다.
 
-![ServiceNow·OpenAI 파트너십 확장 발표 이미지 (출처: ServiceNow 공식 보도자료, Business Wire 배포, 2026년 10월 28일)](/assets/images/posts/openai-servicenow-chatgpt-mcp-20261029/servicenow-openai-partnership.jpg)
+![ServiceNow·OpenAI 파트너십 확장 발표 이미지 (출처: ServiceNow 공식 보도자료, Business Wire 배포, 2026년 10월 28일)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-servicenow-chatgpt-mcp-20261029/servicenow-openai-partnership.jpg)
 *ServiceNow·OpenAI 파트너십 확장 발표 이미지 (출처: ServiceNow 공식 보도자료, Business Wire 배포, 2026년 10월 28일)*
 
 ## 이슈 요약 — 한 장으로 정리
@@ -102,7 +102,7 @@ AI 에이전트를 대량으로 굴리는 조직에서 병목이 되는 건 모�
 
 "우리도 쓴다"는 선언이 붙은 B2B 계약은 보통 도입 속도를 앞당깁니다. 반대로 말하면, 두 회사 모두 **자기 조직에서 검증되지 않은 기능은 팔기 어렵다**는 뜻이기도 합니다.
 
-![ServiceNow 글로벌 본사(미국 캘리포니아 산타클라라) (출처: Wikimedia Commons, CC0, 촬영 Donny Gonzo)](/assets/images/posts/openai-servicenow-chatgpt-mcp-20261029/servicenow-hq-santa-clara.jpg)
+![ServiceNow 글로벌 본사(미국 캘리포니아 산타클라라) (출처: Wikimedia Commons, CC0, 촬영 Donny Gonzo)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-servicenow-chatgpt-mcp-20261029/servicenow-hq-santa-clara.jpg)
 *ServiceNow 글로벌 본사(미국 캘리포니아 산타클라라) (출처: Wikimedia Commons, CC0, 촬영 Donny Gonzo)*
 
 ## 영향 — 누구에게 무엇이 달라지나

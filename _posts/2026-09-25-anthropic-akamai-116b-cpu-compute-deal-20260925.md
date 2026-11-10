@@ -5,7 +5,7 @@ date: 2026-09-25 16:56:00 +0900
 categories: [career]
 tags: [Anthropic, Claude, 앤트로픽, 클로드, Akamai, 아카마이, AKAM, AI인프라, AI컴퓨트, CPU워크로드, AkamaiCloud, 분산인프라, 데이터센터, 클라우드계약, 워런트, 지분투자, SeriesB우선주, 8-K공시, GPU, 메모리공급망, 캐펙스, AI에이전트, 업무자동화, 자동화파이프라인, 2026년9월, AI산업]
 author: "40대 블로거"
-image: /assets/images/posts/anthropic-akamai-116b-cpu-deal-20260925/akamai-headquarters-cambridge-wikimedia.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-akamai-116b-cpu-deal-20260925/akamai-headquarters-cambridge-wikimedia.jpg
 description: "2026년 9월 24일(미국 현지시간, 장 마감 후), Akamai(아카마이)가 Anthropic과 7년간 116억 달러(약 15조~18조 원대) 규모의 클라우드 계약을 체결했다고 발표했습니다. Anthropic의 급증하는 CPU 워크로드를 Akamai Cloud의 분산 인프라로 받치는 계약으로, 최대 90억 달러 추가 확장 시 총액이 약 200억 달러에 이릅니다. 아카마이는 Anthropic에 자사 보통주 최대 약 5%(희석 전 기준 7,741,020주)에 해당하는 워런트를 발행했고, 행사가는 보통주 기준 111.33달러입니다. 계약은 2026년 5월 5일 체결된 마스터 서비스 계약 아래 9월 18일 체결된 Project Plan 2·3으로 구체화됐으며, SEC 8-K로 공시됐습니다. 관련 설비투자(CAPEX)는 약 55억 달러로 추정되고, 2026년 CAPEX는 메모리 등 공급망 선구매로 약 17억 달러 증가할 전망입니다. 발표 직후 아카마이 주가는 시간외에서 20% 넘게 올랐고, 회사 역사상 최대 계약으로 기록됐습니다. 이슈 요약 → 상세 분석 → 영향 → 전망 순서로 정리했습니다."
 sitemap: false
 noindex: true
@@ -15,7 +15,7 @@ noindex: true
 
 요즘 저처럼 **AI 에이전트를 실사용하고 업무 자동화 파이프라인을 운영하시는 분들**은, 요즘 뉴스를 볼 때 **"모델 성능"보다 "그 모델을 굴릴 컴퓨트가 어디서 오는가"** 를 먼저 보게 되실 겁니다. 저도 그렇습니다. 제가 짠 파이프라인이 아무리 잘 돌아가도, **피크 시간대에 API가 밀리거나 작업이 큐에 쌓이면 하루 일정이 그대로 무너지기** 때문입니다. 그래서 요즘 저는 모델 발표보다 **"이 회사가 용량을 얼마나, 어떤 조건으로 확보했나"** 를 더 눈여겨봅니다. 이번 계약은 그 관점에서 **꽤 중요한 뉴스**였습니다. 아래에서 무엇을 사고팔았는지, 그리고 **솔직히 걸리는 부분까지** 정리해 보겠습니다.
 
-![아카마이(Akamai) 본사가 있는 매사추세츠주 케임브리지 사옥 전경 — 이번 116억 달러 계약을 발표한 회사의 본사입니다](/assets/images/posts/anthropic-akamai-116b-cpu-deal-20260925/akamai-headquarters-cambridge-wikimedia.jpg)
+![아카마이(Akamai) 본사가 있는 매사추세츠주 케임브리지 사옥 전경 — 이번 116억 달러 계약을 발표한 회사의 본사입니다](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-akamai-116b-cpu-deal-20260925/akamai-headquarters-cambridge-wikimedia.jpg)
 *아카마이 본사(매사추세츠주 케임브리지) 전경 — 이번 계약으로 아카마이 역사상 최대 규모 수주를 기록했습니다 (출처: Wikimedia Commons, 촬영 2019, CC BY-SA 4.0)*
 
 ## 🗞️ 이슈 요약 — 한눈에 보기
@@ -128,7 +128,7 @@ noindex: true
 - **'CPU 워크로드'라는 표현의 모호함.** 어디까지가 CPU이고 **얼마나가 실제로 엣지에서 돌 것인지**는 공시만으로는 알 수 없습니다. **"분산 엣지에서 AI를 돌린다"** 는 서사가 **실제 성능·지연으로 증명되는지**는 별개 문제입니다
 - **해지 조항의 비대칭.** Anthropic은 **아카마이 지배권이 경쟁사로 넘어갈 때** 계약을 끊을 수 있게 해뒀습니다. 반대로 보면 **아카마이의 M&A 선택지가 좁아졌다**는 뜻이기도 합니다
 
-![아카마이 공동창업자 겸 CEO 톰 레이턴(Tom Leighton) — 이번 계약에 대해 "Anthropic이 AI 혁명을 이끌고 있고, 그들이 규모 있게 AI 인프라를 짓고 운영하는 데 아카마이의 역량을 선택한 것을 기쁘게 생각한다"고 밝혔습니다](/assets/images/posts/anthropic-akamai-116b-cpu-deal-20260925/tom-leighton-akamai-ceo-wikimedia.jpg)
+![아카마이 공동창업자 겸 CEO 톰 레이턴(Tom Leighton) — 이번 계약에 대해 "Anthropic이 AI 혁명을 이끌고 있고, 그들이 규모 있게 AI 인프라를 짓고 운영하는 데 아카마이의 역량을 선택한 것을 기쁘게 생각한다"고 밝혔습니다](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-akamai-116b-cpu-deal-20260925/tom-leighton-akamai-ceo-wikimedia.jpg)
 *아카마이 공동창업자 겸 CEO 톰 레이턴(Tom Leighton) — "아카마이는 세계 최대 기업들을 상대해 온 경험과 확장되는 글로벌 풋프린트를 갖고 있습니다"라고 이번 계약을 설명했습니다 (출처: Wikimedia Commons, CC BY-SA 4.0)*
 
 ## 💼 영향 — 사용자·개발자·운영자에게 뭐가 바뀌나

@@ -5,13 +5,13 @@ date: 2026-08-18 17:00:00 +0900
 categories: [finance]
 tags: [비트코인, 가상화폐, 코인, BTC, 암호화폐]
 author: "40대 블로거"
-image: /assets/images/posts/crypto-briefing-20260818-pm/bitcoin-price-chart.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/crypto-briefing-20260818-pm/bitcoin-price-chart.png
 description: "8월 18일 오후 코인 브리핑. 미-이란 휴전 종료로 브렌트유가 7/30 이후 처음 90달러를 돌파하고 30년물 국채금리가 2007년 이후 최고를 찍는 악재 속에서도 비트코인은 6.4만 달러를 방어했다. 반면 XRP는 98센트로 떨어져 2024년 11월 이후 처음 1달러 아래로 내려갔다 — 마침 리플이 전북은행(국내 첫 지방은행)에 리플 페이먼츠를 공급하는 호재가 발표된 날이다. Bitfinex는 레버리지 롱 청산 레벨로 실현가 중간값 6.32만 달러를 지목."
 sitemap: false
 noindex: true
 ---
 
-![비트코인 7일 가격 차트](/assets/images/posts/crypto-briefing-20260818-pm/bitcoin-price-chart.png)
+![비트코인 7일 가격 차트](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/crypto-briefing-20260818-pm/bitcoin-price-chart.png)
 *비트코인(BTC) 7일 가격 추이 — 8/18 오후 브리핑 (CoinGecko 기준, KST)*
 
 **핵심 요약**: 비트코인이 미 국채금리(30년물, 2007년 이후 최고)와 유가 급등(브렌트 90달러 돌파)이라는 악재 속에서도 6.4만 달러를 지켰습니다. 반면 XRP는 1달러 아래로 떨어져 2024년 11월 이후 최저를 기록했는데, 마침 리플이 전북은행과 손잡고 국내 최초로 지방은행에 리플 페이먼츠를 공급하는 '호재'가 나온 날이라 눈길을 끕니다.

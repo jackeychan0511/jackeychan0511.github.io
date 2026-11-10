@@ -5,11 +5,11 @@ date: 2026-08-25 09:00:00 +0900
 categories: [career]
 tags: [HermesAgent, NousResearch, BotMode, 봇모드, 멀티에이전트, AI에이전트, 오픈소스AI, v0.20.3, 그룹챗, AI협업, "@멘션", 루틴, 크론잡, 2026년8월, AI뉴스, AI툴추천]
 author: "40대 블로거"
-image: /assets/images/posts/hermes-bot-mode-review-20260825/botmode-roster-main.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-bot-mode-review-20260825/botmode-roster-main.png
 description: "2026년 8월, Nous Research의 오픈소스 AI 에이전트 Hermes Agent에 'Bot Mode'가 정식 탑재됐습니다. 8/13 하루 만에 공개 베타에서 번들 플러그인으로 승격됐고, v0.20.3부터는 Hermes Desktop에 기본 내장(default-on)입니다. 핵심은 '봇 = Hermes 프로필'이라는 단순한 원리 위에 명단(로스터)·그룹챗(2~6봇, 최대 3라운드)·@멘션 업무 인계·봇간 직접 메시징(message_agent)·봇별 루틴(크론)이라는 팀 인터페이스를 얹은 것. '프로필은 분리된 뇌, Bot Mode는 그 뇌들에 얼굴과 방을 주는 층'이라는 설명이 가장 정확합니다. 이 글에서는 실제 해외 사용자가 3개 봇(리서처→리스크 분석가→편집자)으로 파이프라인을 돌린 실험 사례와 공식 문서 실측을 바탕으로, 핵심 기능 → 실제 사용감 → 장점 → 단점 순으로 솔직하게 정리했습니다."
 ---
 
-![Hermes Agent Bot Mode 메인 로스터 화면](/assets/images/posts/hermes-bot-mode-review-20260825/botmode-roster-main.png)
+![Hermes Agent Bot Mode 메인 로스터 화면](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-bot-mode-review-20260825/botmode-roster-main.png)
 *Hermes Agent Bot Mode의 봇 명단(로스터) 화면 — 봇마다 아바타·최신 메시지 미리보기·타임스탬프가 한 줄로 표시된다 (출처: github.com/NousResearch/Hermes-Bot-Mode README 공식 스크린샷, 2026-08-25 확인)*
 
 ---
@@ -32,7 +32,7 @@ description: "2026년 8월, Nous Research의 오픈소스 AI 에이전트 Hermes
 
 그때 발견한 게 바로 이번 주 AI 업계에서 가장 뜨거운 기능 중 하나인 **Hermes Agent Bot Mode**입니다. Nous Research가 8월 13일에 공개 베타로 내놓은 지 **하루 만에 데스크톱 앱에 번들로 승격**시켰고, v0.20.3부터는 **기본 내장(default-on)**으로 들어왔습니다. "이 기능, 뭔가 다르다" 싶어서 이번 주 내내 파봤는데, 오늘은 그 내용을 실제 사용 사례와 함께 정리해드립니다.
 
-![Hermes Agent 메모리 기능 이미지](/assets/images/posts/hermes-bot-mode-review-20260825/hermes-feature-memory.webp)
+![Hermes Agent 메모리 기능 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-bot-mode-review-20260825/hermes-feature-memory.webp)
 *Hermes Agent 데스크톱의 메모리 기능 — 봇마다 분리된 프로필 아래에 자기만의 메모리·스킬·자격증명이 저장된다 (출처: hermes-agent.nousresearch.com 공식 홈페이지, 2026-08-25 확인)*
 
 ---
@@ -84,7 +84,7 @@ description: "2026년 8월, Nous Research의 오픈소스 AI 에이전트 Hermes
 
 솔직히 이 "3개 필드 생성"이 생각보다 훨씬 강력합니다. 예전엔 프로필을 CLI로 만들고 SOUL.md를 손으로 쓰고... 했는데, 이제 **"블로그 편집 봇"이라고 이름만 지으면 그 순간 팀원이 한 명 늘어납니다.** Advanced에서 모델만 골라주면 모델별 특성도 봇마다 다르게 가져갈 수 있어요.
 
-![Hermes Agent Bot Mode New Agent 생성 화면](/assets/images/posts/hermes-bot-mode-review-20260825/botmode-new-agent.png)
+![Hermes Agent Bot Mode New Agent 생성 화면](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-bot-mode-review-20260825/botmode-new-agent.png)
 *Bot Mode의 New Agent 화면 — 이름·제목·설명 3개 필드로 봇 생성, Advanced에서 모델 핀·SOUL.md·스킬까지 설정 가능 (출처: github.com/NousResearch/Hermes-Bot-Mode README 공식 스크린샷, 2026-08-25 확인)*
 
 ### 단점/주의
@@ -146,7 +146,7 @@ description: "2026년 8월, Nous Research의 오픈소스 AI 에이전트 Hermes
 
 **"내가 리서처에게만 지시했는데, 리서처가 리스크 분석가에게, 리스크 분석가가 편집자에게 알아서 업무를 넘겼다."** 전통적인 방식이 `사람 → 봇A → 사람 → 봇B → 사람 → 봇C`였다면, Bot Mode는 **`사람 → 봇A → 봇B → 봇C → 사람`**이 되는 순간입니다. 사람은 목표만 정하고, 조율은 봇들이 하는 거죠.
 
-![Hermes Agent Bot Mode 봇간 커뮤니케이션 화면](/assets/images/posts/hermes-bot-mode-review-20260825/botmode-a2a.png)
+![Hermes Agent Bot Mode 봇간 커뮤니케이션 화면](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-bot-mode-review-20260825/botmode-a2a.png)
 *Bot Mode의 Agent-to-Agent 커뮤니케이션 — 봇이 message_agent 툴로 팀원에게 메시지를 보내고 귀속 표시가 자동으로 붙는다 (출처: github.com/NousResearch/Hermes-Bot-Mode README 공식 스크린샷, 2026-08-25 확인)*
 
 ### 단점/주의
@@ -169,7 +169,7 @@ description: "2026년 8월, Nous Research의 오픈소스 AI 에이전트 Hermes
 - **"누가 이 일을 하는지"가 주인과 함께 다닙니다.** 크론잡이 막연한 목록으로 있던 시대는 끝나고, **"블로그 요약 봇의 월요일 아침 루틴"**처럼 업무 단위로 관리됩니다. 크론잡 자동화를 돌리는 입장에서 특히 체감이 큽니다.
 - 펫 아바타는... 솔직히 **생각보다 정이 갑니다.** 일하는 동안 뛰는 펫을 보면 "얘가 지금 일하고 있구나"가 한눈에 보여요. 사소하지만 운영 모니터링에 은근히 유용합니다.
 
-![Hermes Agent Bot Mode 펫 아바타 화면](/assets/images/posts/hermes-bot-mode-review-20260825/botmode-pet-avatars.png)
+![Hermes Agent Bot Mode 펫 아바타 화면](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-bot-mode-review-20260825/botmode-pet-avatars.png)
 *Bot Mode의 펫(Pet) 아바타 — 봇이 작업 중일 때 아바타 옆에서 뛰는 픽셀 펫 (출처: github.com/NousResearch/Hermes-Bot-Mode README 공식 스크린샷, 2026-08-25 확인)*
 
 ### 단점/주의

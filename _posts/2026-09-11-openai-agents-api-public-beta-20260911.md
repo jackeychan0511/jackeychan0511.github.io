@@ -5,14 +5,14 @@ date: 2026-09-11 14:53:00 +0900
 categories: [career]
 tags: [GPT, OpenAI, AgentsAPI, Codex, 에이전트, AI에이전트, 업무자동화, 멀티에이전트, MCP, 서브에이전트, 샌드박스, 개발자도구, AI뉴스, 2026년9월]
 author: "40대 블로거"
-image: /assets/images/posts/openai-agents-api-public-beta-20260911/openai-logo-2025-symbol.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-agents-api-public-beta-20260911/openai-logo-2025-symbol.png
 description: "2026년 9월 10일(미국 현지시간), OpenAI가 오픈소스 'Codex 하네스'를 그대로 감싼 'Agents API'를 퍼블릭 베타로 공개했습니다. 세션 오케스트레이션·컨텍스트 자동 압축(compaction)·툴 서치·서브에이전트·장애 복구를 OpenAI가 대신 관리해 주고, 개발자는 지시문과 도구만 넘기면 됩니다. 실행 환경은 OpenAI 호스팅 샌드박스·자체 호스팅·9개 파트너 샌드박스(Cloudflare, Vercel, E2B, Modal 등) 중 선택 가능하며, 토큰·도구·컨테이너 시간 외 추가 요금은 없다고 밝혔습니다. 단 현재 데이터는 미국 내 리전만 지원되고 Zero Data Retention은 지원되지 않습니다. 이슈 요약부터 상세 분석, 사용자·개발자 영향, 전망까지 정리했습니다."
 sitemap: false
 noindex: true
 ---
 > **📌 한줄 요약:** OpenAI가 **2026년 9월 10일(미국 현지시간)** 오픈소스 **'Codex 하네스'**를 그대로 감싼 **Agents API를 퍼블릭 베타로 공개**했습니다. 핵심은 **"에이전트 오케스트레이션을 개발자가 직접 짜지 않아도 된다"**는 것 — **세션 관리, 컨텍스트 자동 압축(compaction), 툴 서치, 프로그램적 도구 호출, 병렬 서브에이전트, 장애 복구**를 **OpenAI가 직접 운영·유지**합니다. 실행 환경은 **① OpenAI 호스팅 샌드박스 ② 자체(self) 호스팅 ③ Blaxel·Cloudflare·Daytona·DigitalOcean·E2B·Modal·Oracle·Runloop·Vercel 등 9개 파트너 샌드박스** 중 고를 수 있습니다. 과금은 **토큰·도구·컨테이너 시간 외 추가 요금 없음**이라고 밝혔지만, 현재 **데이터는 미국(US) 리전만, Zero Data Retention(ZDR)은 미지원**입니다. 아래에서 무엇이 바뀐 건지, 우리 업무·개발에는 어떤 의미인지 살펴봤습니다.
 
-![OpenAI 2025 공식 로고 (출처: Wikimedia Commons · OpenAI 브랜드, 퍼블릭 도메인)](/assets/images/posts/openai-agents-api-public-beta-20260911/openai-logo-2025-symbol.png)
+![OpenAI 2025 공식 로고 (출처: Wikimedia Commons · OpenAI 브랜드, 퍼블릭 도메인)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-agents-api-public-beta-20260911/openai-logo-2025-symbol.png)
 *OpenAI 2025 공식 로고 (출처: Wikimedia Commons · OpenAI 브랜드, 퍼블릭 도메인)*
 
 요즘 저처럼 사내 업무 자동화를 **"에이전트로 굴려보자"** 고 벼르시는 분들, 공감하실 겁니다. 저도 최근 몇 달간 사내 반복 업무를 에이전트로 돌리려고 시도해 봤는데요, 결국 제일 오래 붙잡고 있던 게 **모델 성능이 아니라 '하네스(harness)'**였습니다. 세션을 어떻게 유지할지, 대화가 길어지면 컨텍스트를 언제 잘라낼지, 중간에 툴 호출이 실패하면 어떻게 복구할지, 여러 작업을 병렬로 돌리려면 서브에이전트 상태를 어떻게 나눌지… 솔직히 이 '접착제 코드'를 짜다가 지쳐서 원래 하려던 업무 자동화는 뒷전이 된 적이 한두 번이 아닙니다.
@@ -32,7 +32,7 @@ noindex: true
 
 한마디로 **"에이전트를 만들 때 늘 새로 짜던 오케스트레이션·상태관리·복구 로직을, OpenAI가 서비스로 대신 제공"**한다는 겁니다. Codex 하네스가 그동안 실제로 검증돼 온 물건이라, 그걸 그대로 API 뒤에 얹어 준 셈입니다.
 
-![OpenAI Codex 실행 화면 (출처: Wikimedia Commons, Wikideas1, CC0)](/assets/images/posts/openai-agents-api-public-beta-20260911/openai-codex-screenshot.png)
+![OpenAI Codex 실행 화면 (출처: Wikimedia Commons, Wikideas1, CC0)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-agents-api-public-beta-20260911/openai-codex-screenshot.png)
 *OpenAI Codex 실행 화면 (출처: Wikimedia Commons · Wikideas1, CC0)*
 
 ## 상세 분석 — 안을 뜯어보면
@@ -107,7 +107,7 @@ OpenAI가 공개한 초기 고객 수치입니다. **어디까지나 벤더가 �
 
 저처럼 사내 데이터가 민감한 곳에서 일하시는 분들께는, **US 리전·ZDR 미지원**이 첫 번째 체크 포인트가 될 겁니다. 생각보다 이 제약이 도입 여부를 가르는 결정적 조건이 되곤 하니까요.
 
-![개발자가 코드를 보는 모습 (출처: Wikimedia Commons · Unsplash, Lee Campbell, CC0)](/assets/images/posts/openai-agents-api-public-beta-20260911/developer-working-imac.jpg)
+![개발자가 코드를 보는 모습 (출처: Wikimedia Commons · Unsplash, Lee Campbell, CC0)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-agents-api-public-beta-20260911/developer-working-imac.jpg)
 *개발자가 코드를 보는 모습 (출처: Wikimedia Commons · Unsplash, Lee Campbell, CC0)*
 
 ## 영향 — 사용자와 개발자에게

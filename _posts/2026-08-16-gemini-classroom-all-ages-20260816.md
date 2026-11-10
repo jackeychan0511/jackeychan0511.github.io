@@ -14,7 +14,7 @@ noindex: true
 
 2026년 8월 10일(웹 기준)부터 구글이 **Google Classroom의 Gemini를 만 18세 이상 고등교육 학생에서 '전 연령' 학생으로 확대**했습니다. 이제 초·중·고(K-12) 학생도 클래스룸 안에서 Gemini로 **플래시카드, 연습 퀴즈, 학습 가이드**를 만들 수 있게 된 건데요. 8월 14일 뉴욕타임스(NYT)가 "Google Turns On Gemini A.I. for Students"로 보도하면서 교육계와 학부모 사이에서 뜨거운 화제가 되고 있습니다. 오늘은 **이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망** 순서로 정리해 드립니다.
 
-![Gemini in Google Classroom 전 연령 확대 공식 이미지](/assets/images/posts/gemini-classroom-all-ages-20260816/gemini-classroom-expand-google-workspace-blog.png)
+![Gemini in Google Classroom 전 연령 확대 공식 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-classroom-all-ages-20260816/gemini-classroom-expand-google-workspace-blog.png)
 *구글 공식 블로그 "Gemini in Google Classroom is expanding to users of all ages"(2026-08-04 게시) 대표 이미지 (출처: Google Workspace Updates 공식 블로그, workspaceupdates.googleblog.com)*
 
 ## 📌 이슈 요약: "이제 18세 미만 학생도 클래스룸에서 Gemini를 쓴다"
@@ -61,5 +61,5 @@ Google Classroom은 **전 세계 1억 5천만 명 이상의 학생·교사**가 
 
 다음 주 8월 17일 **모바일 확대**와, 미국 학군들의 개학 시즌 반응이 첫 시험대입니다. 특히 **미성년자 보호 논란을 어떻게 잠재우느냐**가 향후 교육 AI 시장의 판도를 가를 핵심 변수가 될 것 같습니다. 솔직히 저도 아이를 키우는 부모로서 "AI가 숙제를 대신 해주는 게 아니라 **진짜 공부를 돕는 도구**가 돼야 한다"는 원칙이 가장 중요하다고 생각하는데요, 이번 확대가 그 방향으로 가는지 지켜볼 가치가 충분합니다. 교육용 AI 도입을 고민 중이신 분들께 추천드립니다.
 
-![Google Classroom 공식 로고](/assets/images/posts/gemini-classroom-all-ages-20260816/google-classroom-logo-wikimedia.png)
+![Google Classroom 공식 로고](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-classroom-all-ages-20260816/google-classroom-logo-wikimedia.png)
 *Google Classroom 공식 로고 — 전 연령 학생 대상 Gemini가 탑재된 구글의 학습관리시스템 (출처: Wikimedia Commons, commons.wikimedia.org)*

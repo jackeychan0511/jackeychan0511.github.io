@@ -5,13 +5,13 @@ date: 2026-08-13 14:30:00 +0900
 categories: [products]
 tags: [아이폰18프로, 아이폰18, 애플, 애플이벤트, 9월9일, 폴더블아이폰, 애플워치12, 애플워치울트라4, A20프로, 신제품, 아이폰추천, 2026년8월, 공개일정]
 author: "40대 블로거"
-image: /assets/images/posts/iphone18-apple-sept-event-20260813/iphone18pro-mockup-9to5mac.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/iphone18-apple-sept-event-20260813/iphone18pro-mockup-9to5mac.jpg
 description: "2026년 8월 13일 기준, IT 업계에서 가장 뜨거운 이슈는 단연 '애플 9월 9일 신제품 공개 이벤트'입니다. 아이폰 18 프로·프로 맥스는 물론, 애플 첫 폴더블 아이폰(예상가 300만 원대), 애플워치 시리즈 12·울트라 4, 애플 TV·홈팟 미니까지 최대 8종이 공개될 것이란 전망이 나왔습니다. 초청장 발송 예상일(8/26), 국내 출시 예상일(9/18), 가격 인상 루머까지 40대 눈높이로 총정리했습니다."
 ---
 
 > **📌 한줄 요약:** 2026년 8월 현재 가장 핫한 IT 이슈는 **9월 9일로 예상되는 애플 신제품 공개 이벤트**입니다. 블룸버그·포브스 등 복수 외신에 따르면 애플은 **아이폰 18 프로·프로 맥스**, **애플 첫 폴더블 아이폰**, **애플워치 시리즈 12·울트라 4**, **애플 TV 4K·홈팟 미니 신형**까지 최대 **8종**을 한 번에 공개할 준비를 마쳤습니다. 폴더블 아이폰 예상가는 **약 2,000달러(국내 300만 원대 전망)**, 아이폰 18 프로는 부품 원가 상승으로 **가격 인상이 유력**하다는 게 외신의 공통된 관측입니다. 초청장은 **8월 26일** 발송될 가능성이 높아, 지금이 바로 '존버' 타이밍입니다.
 
-![아이폰 18 프로 목업 이미지](/assets/images/posts/iphone18-apple-sept-event-20260813/iphone18pro-mockup-9to5mac.jpg)
+![아이폰 18 프로 목업 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/iphone18-apple-sept-event-20260813/iphone18pro-mockup-9to5mac.jpg)
 *아이폰 18 프로 예상 디자인 목업 (출처: 9to5Mac 렌더링, 2026-08-13 확인)*
 
 ---
@@ -34,7 +34,7 @@ description: "2026년 8월 13일 기준, IT 업계에서 가장 뜨거운 이슈
 
 사실 저는 그동안 "아이폰은 9월에나 나오겠지" 하며 느긋하게 있었는데, 이번에는 얘기가 다릅니다. **폴더블 아이폰의 예상 가격이 국내 300만 원대**라는 보도까지 나오면서, "올해는 정말 큰 판이 벌어지겠구나" 싶더라고요. 그래서 오늘은 지금까지 나온 루머와 보도를 40대 눈높이로 싹 정리해 봤습니다.
 
-![애플 로고](/assets/images/posts/iphone18-apple-sept-event-20260813/apple-logo-official.jpg)
+![애플 로고](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/iphone18-apple-sept-event-20260813/apple-logo-official.jpg)
 *Apple 공식 로고 (출처: Apple 뉴스룸 공식 이미지)*
 
 ---
@@ -84,7 +84,7 @@ description: "2026년 8월 13일 기준, IT 업계에서 가장 뜨거운 이슈
 
 여기에 **가변 조리개 카메라**까지 들어간다면, 아이폰 카메라의 고질적인 단점이었던 '어두운 곳 실내 촬영'이 확실히 나아질 거라는 기대가 큽니다. 저처럼 아이들 운동회·학예회 사진을 자주 찍는 40대라면, 실내 스포츠 촬영 성능이 포인트가 될 거예요.
 
-![아이폰 18 프로 예상 색상](/assets/images/posts/iphone18-apple-sept-event-20260813/iphone18pro-colors-macrumors.jpg)
+![아이폰 18 프로 예상 색상](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/iphone18-apple-sept-event-20260813/iphone18pro-colors-macrumors.jpg)
 *아이폰 18 프로 예상 색상 라인업 (출처: MacRumors 렌더링, 2026-08-13 확인)*
 
 ---
@@ -106,7 +106,7 @@ description: "2026년 8월 13일 기준, IT 업계에서 가장 뜨거운 이슈
 
 개인적으로는 1세대라서 "첫 물량은 피해 가는 게 맞다"는 게 제 생각입니다. 다만 이번 9월 행사에서 **실물이 공개된다는 것 자체**가 폴더블 시장의 게임 체인저가 될 수 있어서, 눈여겨볼 가치는 충분합니다.
 
-![폴더블 아이폰 보도 이미지](/assets/images/posts/iphone18-apple-sept-event-20260813/foldable-iphone-render.jpg)
+![폴더블 아이폰 보도 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/iphone18-apple-sept-event-20260813/foldable-iphone-render.jpg)
 *애플 폴더블 아이폰 관련 보도 이미지 (출처: 케이벤치, 2026-08-13 확인)*
 
 ---
@@ -117,7 +117,7 @@ description: "2026년 8월 13일 기준, IT 업계에서 가장 뜨거운 이슈
 
 제가 지금 애플워치 9를 쓰고 있는데, 워치의 경우 **2년 주기로 바꾸는 게 가장 합리적**이라는 게 저의 경험입니다. 배터리 성능 저하가 2년쯤부터 체감되거든요. 9월에 워치 12가 나오면 9·10세대 유저라면 충분히 교체를 고민할 타이밍입니다.
 
-![애플워치 공식 이미지](/assets/images/posts/iphone18-apple-sept-event-20260813/apple-watch-official.jpg)
+![애플워치 공식 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/iphone18-apple-sept-event-20260813/apple-watch-official.jpg)
 *애플워치 (출처: Apple 공식 홈페이지, 2026-08-13 확인)*
 
 ---

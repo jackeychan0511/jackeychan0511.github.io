@@ -5,7 +5,7 @@ date: 2026-08-22 14:52:00 +0900
 categories: [career]
 tags: [GPT, OpenAI, Codex, ChatGPTWork, 2000만사용자, BankedReset, RateLimit, 코딩에이전트, AI코딩, TiboSottiaux, sub2api, AI뉴스, 2026년8월]
 author: "40대 블로거"
-image: /assets/images/posts/openai-codex-20m-banked-reset-20260822/openai-logo-2025-wikimedia.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-codex-20m-banked-reset-20260822/openai-logo-2025-wikimedia.png
 description: "2026년 8월 21일(미국 현지) OpenAI의 Codex·ChatGPT 엔지니어링 리드 티보 소티오(Tibo Sottiaux)가 X(트위터)를 통해 Codex가 활성 사용자 2,000만 명을 돌파했고, 이를 기념해 모든 Codex·ChatGPT Work 유료 사용자에게 'Banked Reset'(사용자가 원하는 시점에 쓸 수 있는 적립식 한도 리셋)을 지급하겠다고 발표했습니다. 7월 14일 800만 명 → 8월 13일 1,500만 명 → 8월 21일 2,000만 명으로 한 달여 만에 2.5배 성장한 성장 타임라인, Banked Reset의 의미, 같은 날 아침 불거진 sub2api(구독→API 전환) 한도 논란, 그리고 8월 22일 현재 '8pm PST 데드라인'까지 지급되지 않아 커진 미지급 논란까지 정리했습니다."
 sitemap: false
 noindex: true
@@ -13,7 +13,7 @@ noindex: true
 
 > **📌 한줄 요약:** OpenAI의 AI 코딩 에이전트 **Codex가 2026년 8월 21일(금, 미국 현지시간) 활성 사용자 2,000만 명을 돌파**했습니다. Codex·ChatGPT 엔지니어링 리드 **티보 소티오(Tibo Sottiaux)** 는 X(트위터)를 통해 이 소식을 알리며, 기념으로 **모든 Codex·ChatGPT Work 유료 사용자에게 'Banked Reset'(사용자가 원하는 시점에 적용할 수 있는 적립식 한도 리셋)을 지급**하겠다고 밝혔습니다. 다만 **8월 22일(오늘) 현재 약속된 8pm PST(한국시간 8/22 정오) 데드라인을 넘겨도 많은 계정에 리셋이 지급되지 않아** 사용자들의 불만과 '한도 축소 은폐' 의혹까지 불거진 상황입니다.
 
-![OpenAI 공식 로고 (2025)](/assets/images/posts/openai-codex-20m-banked-reset-20260822/openai-logo-2025-wikimedia.png)
+![OpenAI 공식 로고 (2025)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-codex-20m-banked-reset-20260822/openai-logo-2025-wikimedia.png)
 *이미지 출처: Wikimedia Commons (OpenAI logo 2025, 공식 브랜드 로고)*
 
 ## 이슈 요약 — "코딩 AI, 어느새 2,000만 명이 쓰고 있다"
@@ -89,7 +89,7 @@ Codex·ChatGPT Work는 구독 요금제(Plus·Pro·Work)마다 **주간(또는 �
 
 **8월 22일 오전(글 작성 시점) 기준으로 2,000만 명 돌파 자체와 리셋 지급 약속은 확정 사실이지만, 리셋의 실제 도착 여부는 계정마다 확인이 필요한 상황**입니다. 저도 이 글을 쓰면서 한 가지 팁을 드리자면, **"지급됐다고 믿기 전에 자신의 사용량(Usage) 페이지에서 직접 확인"** 하시는 게 좋습니다.
 
-![ChatGPT 공식 로고](/assets/images/posts/openai-codex-20m-banked-reset-20260822/chatgpt-logo-wikimedia.png)
+![ChatGPT 공식 로고](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-codex-20m-banked-reset-20260822/chatgpt-logo-wikimedia.png)
 *이미지 출처: Wikimedia Commons (ChatGPT logo, 공식 브랜드 로고)*
 
 ## 영향 — 사용자와 개발자에게는?

@@ -5,13 +5,13 @@ date: 2026-10-17 16:52:00 +0900
 categories: [career]
 tags: [Anthropic, Claude, 앤트로픽, 클로드, ECDSA, NIST, 타원곡선암호, 암호표준, lrand48, 시드, SEED, 백도어논란, 암호검증, FrontRedTeam, 레드팀, FilippoValsorda, 바운티, ISRG, Let'sEncrypt, LLL, 격자기법, AI연구자동화, 업무자동화, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/claude-ecdsa-curve-seeds-nist-20261017/claude-ecdsa-seed-process.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/claude-ecdsa-curve-seeds-nist-20261017/claude-ecdsa-seed-process.png
 description: "2026년 10월 16일(현지), Anthropic 프런티어 레드팀이 Claude가 NIST ECDSA 곡선 시드 10개의 출처를 30분 만에 밝혀냈다고 공개했습니다. 1990년대 C 라이브러리의 lrand48 난수 생성기를 유닉스 타임스탬프로 초기화해 뽑은 값이었고, 암호 해시를 이용한 백도어 설계는 아니라는 결론입니다. 발견 과정(상위 비트 0 패턴 → LLL 격자 기법 → 1997~1998년 타임스탬프)과 남은 미해결 파라미터, 사용자·개발자·보안 담당자에게 주는 영향을 정리했습니다."
 sitemap: false
 noindex: true
 ---
 
-![Claude가 NIST ECDSA 곡선 시드를 찾아낸 과정을 설명하는 공식 도표 — lrand48 난수 생성기의 출력을 20바이트 단위 후보 시드로 잘라 표준 시드와 대조하는 구조](/assets/images/posts/claude-ecdsa-curve-seeds-nist-20261017/claude-ecdsa-seed-process.png)
+![Claude가 NIST ECDSA 곡선 시드를 찾아낸 과정을 설명하는 공식 도표 — lrand48 난수 생성기의 출력을 20바이트 단위 후보 시드로 잘라 표준 시드와 대조하는 구조](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/claude-ecdsa-curve-seeds-nist-20261017/claude-ecdsa-seed-process.png)
 *시드 생성 과정 설명 도표. (이미지 출처: Anthropic Frontier Red Team, "Claude reveals ECDSA curve origins", 2026.10.16)*
 
 > **📌 한줄 요약:** **2026년 10월 16일(현지)**, **Anthropic(앤트로픽)** 의 **프런티어 레드팀(Frontier Red Team)** 이 **Claude가 NIST ECDSA 곡선 시드(seed)의 출처를 밝혀냈다**고 공개했습니다. 25년 넘게 "NSA가 몰래 약한 곡선을 골라 백도어를 심은 것 아니냐"는 의심을 받아온 값인데, 실제로는 **1990년대 C 라이브러리의 `lrand48` 난수 생성기를 유닉스 타임스탬프로 초기화해서 뽑은 출력**이었습니다. **Claude가 걸린 시간은 30분 미만**이고, 재현 코드까지 공개됐습니다. 암호가 뚫린 사건이 아니라 **"출처를 모르던 표준 파라미터의 계보가 처음으로 설명된"** 사건입니다.
@@ -52,7 +52,7 @@ SEED = C49D3608 86E70493 6A6678E1 139D26B7 819F7E90
 
 이 의심은 꽤 진지하게 다뤄졌습니다. **Neal Koblitz와 Alfred Menezes** 는 이 논쟁을 정리한 글 *"A Riddle Wrapped in an Enigma"* 를 남겼고, 아마추어 연구자들이 옛 메일링 리스트를 뒤졌으며, 암호학자 **Filippo Valsorda** 는 **시드 출처를 찾는 사람에게 상금을 주는 바운티**까지 열었습니다. 이번에 그 바운티 금액 **36,864달러**는 **ISRG(Internet Security Research Group, Let's Encrypt 운영 재단)** 에 기부됩니다.
 
-![미국 국립표준기술연구소(NIST) 게이더스버그 캠퍼스 항공 사진](/assets/images/posts/claude-ecdsa-curve-seeds-nist-20261017/nist-gaithersburg-campus.jpg)
+![미국 국립표준기술연구소(NIST) 게이더스버그 캠퍼스 항공 사진](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/claude-ecdsa-curve-seeds-nist-20261017/nist-gaithersburg-campus.jpg)
 *NIST 게이더스버그 캠퍼스. ECDSA 표준 문서(FIPS 186-2)가 나온 곳입니다. (이미지 출처: Wikimedia Commons, "NIST campus aerial 2019")*
 
 ### (2) 25년간 가장 그럴듯했던 설명, 그리고 틀렸다는 사실
@@ -71,7 +71,7 @@ Claude는 먼저 **시드 위를 1비트씩 밀어가며, 인접한 덩어리들
 
 이건 사실상 **`lrand48`의 서명**입니다. `lrand48`은 **48비트 내부 상태 중 상위 31비트만 반환**하기 때문에, 출력을 이어 붙이면 최상위 비트가 비는 자리가 생깁니다.
 
-![lrand48 출력에서 상위 비트가 비는 패턴을 시각화한 공식 도표](/assets/images/posts/claude-ecdsa-curve-seeds-nist-20261017/claude-ecdsa-lrand48-pattern.png)
+![lrand48 출력에서 상위 비트가 비는 패턴을 시각화한 공식 도표](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/claude-ecdsa-curve-seeds-nist-20261017/claude-ecdsa-lrand48-pattern.png)
 *10개 시드 중 4개에서 20개 워드 전체의 최상위 비트가 0으로 나타난 패턴. (이미지 출처: Anthropic Frontier Red Team, "Claude reveals ECDSA curve origins", 2026.10.16)*
 
 ### (4) 격자 기법(LLL)으로 잘린 상태를 복원하다

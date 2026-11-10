@@ -5,7 +5,7 @@ date: 2026-10-22 15:47:00 +0900
 categories: [career]
 tags: [Google Gemini, 구글 제미나이, Gemini 자동차, 퍼스널 인텔리전스, Personal Intelligence, Android Auto, 안드로이드 오토, 구글 빌트인, Google built-in, 안드로이드 오토미티브, Gemini 개인정보, 구글 지도 Gemini, CarPlay Gemini, AI비서, 업무자동화, AI뉴스, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/gemini-personal-intelligence-android-auto-20261022/gemini-personal-intelligence-android-auto-google.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-personal-intelligence-android-auto-20261022/gemini-personal-intelligence-android-auto-google.png
 description: "2026년 10월 20일 구글이 Gemini의 '퍼스널 인텔리전스'를 Android Auto에 배포하기 시작했습니다. Gmail·캘린더·포토·지도·유튜브·검색 기록을 옵트인 방식으로 연결해 '내 비행기 탑승구가 어디야' 같은 질문에 바로 답하는 구조입니다. 구글 빌트인 차량은 수개월 내 순차 적용, EEA·영국·스위스·나이지리아는 제외됩니다. 실제로 뭐가 달라지는지, 개인정보 설정은 어떻게 잡아야 하는지, 사용자와 개발자에게 어떤 영향이 있는지 정리했습니다."
 ---
 
@@ -13,7 +13,7 @@ description: "2026년 10월 20일 구글이 Gemini의 '퍼스널 인텔리전스
 
 2026년 10월 20일(현지시간), 구글이 공식 블로그를 통해 **Gemini의 '퍼스널 인텔리전스(Personal Intelligence)'를 Android Auto에 배포 시작**한다고 밝혔습니다. 동시에 **Google 빌트인(Android Automotive) 탑재 차량**에는 "앞으로 몇 달 안에" 순차 적용된다고 예고했습니다.
 
-![Gemini 퍼스널 인텔리전스 자동차 공식 이미지](/assets/images/posts/gemini-personal-intelligence-android-auto-20261022/gemini-personal-intelligence-android-auto-google.png)
+![Gemini 퍼스널 인텔리전스 자동차 공식 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-personal-intelligence-android-auto-20261022/gemini-personal-intelligence-android-auto-google.png)
 *출처: Google 공식 블로그(blog.google) "Personal Intelligence brings Gemini to cars globally", 2026.10.20*
 
 이번 발표의 무게는 "차에서도 Gemini 된다"가 아닙니다. 그건 이미 지난 4월에 예고된 이야기입니다. 진짜 변화는 **Gemini가 차 안에서 내 Gmail·캘린더·포토·지도 저장 기록을 근거로 답한다**는 점입니다. 검색해서 답하는 비서에서, **내 맥락을 들고 답하는 비서**로 성격이 바뀝니다.
@@ -75,7 +75,7 @@ description: "2026년 10월 20일 구글이 Gemini의 '퍼스널 인텔리전스
 
 대화 맥락까지 이어받는 케이스입니다.
 
-![Android Auto 사용 장면](/assets/images/posts/gemini-personal-intelligence-android-auto-20261022/android-auto-in-car-wikimedia.jpg)
+![Android Auto 사용 장면](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-personal-intelligence-android-auto-20261022/android-auto-in-car-wikimedia.jpg)
 *출처: Wikimedia Commons "Android Auto in usage" — 촬영 Mavila2, CC BY-SA 4.0*
 
 구글은 이 기능의 핵심을 두 가지로 설명합니다. **특정 정보를 콕 집어 꺼내오는 것**(메일·사진·저장한 장소에서)과 **여러 출처를 가로질러 추론하는 것**. 후자가 진짜 승부처입니다. 탑승구 번호는 메일에서, 지연 여부는 실시간 정보에서 가져와 하나의 답으로 합치는 게 사용자 입장에서 체감되는 가치니까요.

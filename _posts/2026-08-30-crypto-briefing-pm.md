@@ -5,13 +5,13 @@ date: 2026-08-30 17:00:00 +0900
 categories: [finance]
 tags: [비트코인, 가상화폐, 코인, BTC, 암호화폐]
 author: "40대 블로거"
-image: /assets/images/posts/crypto-briefing-20260830-pm/bitcoin-price-chart.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/crypto-briefing-20260830-pm/bitcoin-price-chart.png
 description: "8월 30일 오후 코인 브리핑. 비트코인이 3개월 최고치 8.15만 달러를 찍은 뒤 7.8만 달러대로 되돌림 받았습니다. 미국 현물 BTC ETF는 8월 28일 2억 달러 규모 순유출을 기록하며 9거래일 연속 순유입 행진을 마감했는데, 같은 날 이더리움 ETF는 블랙록 상품을 중심으로 유입세를 이어가며 기관 자금의 알트코인 로테이션 신호를 보내고 있습니다."
 sitemap: false
 noindex: true
 ---
 
-![비트코인 7일 가격 차트](/assets/images/posts/crypto-briefing-20260830-pm/bitcoin-price-chart.png)
+![비트코인 7일 가격 차트](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/crypto-briefing-20260830-pm/bitcoin-price-chart.png)
 *BTC 7일 가격 추이 (CoinGecko, 8/30 18:00 KST 기준)*
 
 **핵심 요약**: 비트코인이 이번 주 초반 22% 급등으로 3개월 최고치인 8.15만 달러를 넘어섰지만, 잭슨홀 매파 발언과 ETF 자금 이탈이 겹치며 7.8만 달러대로 되돌림 받았습니다. 주간 기준으로는 보합 마감입니다. 눈여겨볼 점은 같은 기간 이더리움 ETF가 사상 최대 규모의 연속 순유입을 기록하며 **기관 자금이 알트코인으로 향하고 있다**는 것입니다.

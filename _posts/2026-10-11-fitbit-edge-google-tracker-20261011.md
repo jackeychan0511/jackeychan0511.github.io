@@ -5,11 +5,11 @@ date: 2026-10-11 11:24:00 +0900
 categories: [products]
 tags: [FitbitEdge, 핏빗엣지, 구글핏빗, Fitbit, 피트니스트래커, 스마트밴드, OLED트래커, GPS트래커, 7일배터리, Gemini, 제미나이, 핏빗에어, FitbitAir, 핏빗차지, FitbitCharge, 픽셀워치5, PixelWatch5, 헬스웨어러블, 제품비교, 구매가이드, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/fitbit-edge-google-tracker-20261011/fitbit-edge-teaser-official.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/fitbit-edge-google-tracker-20261011/fitbit-edge-teaser-official.jpg
 description: "구글이 2026년 10월 9일 신형 피트니스 트래커 'Fitbit Edge'를 공식 티저로 예고하고 10월 12일 공개를 확정했습니다. 1.34인치 OLED 상시표시 디스플레이, 내장 GPS, 최대 7일 배터리, 제미나이 연동, 금속 섀시가 유출 정보의 핵심입니다. 무화면 Fitbit Air(99달러)와 Pixel Watch 5(400달러) 사이, 약 180달러대로 예상되는 이 트래커가 누구에게 맞는지 스펙·비교·가격 기준으로 정리했습니다."
 ---
 
-![Fitbit Edge 공식 티저 이미지 — 금속 섀시와 디스플레이 일부가 드러난 구글의 신형 트래커](/assets/images/posts/fitbit-edge-google-tracker-20261011/fitbit-edge-teaser-official.jpg)
+![Fitbit Edge 공식 티저 이미지 — 금속 섀시와 디스플레이 일부가 드러난 구글의 신형 트래커](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/fitbit-edge-google-tracker-20261011/fitbit-edge-teaser-official.jpg)
 *구글이 소셜 채널에 공개한 Fitbit Edge 공식 티저. "Get an Edge on your health. 10.12.26" 문구로 10월 12일 공개를 예고했습니다 (출처: Google Health / 9to5Google, 2026.10)*
 
 > **📌 한줄 요약:** 요즘 화면 없는 트래커와 스마트워치 사이에서 "적당한 다리"를 찾는 분들이 많습니다. 구글이 **2026년 10월 9일**, 신형 피트니스 트래커 **Fitbit Edge**를 공식 티저로 예고하고 **10월 12일 공개**를 확정했습니다. 유출 정보의 핵심은 **1.34인치 OLED 상시표시 디스플레이**, **내장 GPS**, **최대 7일 배터리**, **제미나이(Gemini) 연동**, **금속 섀시**입니다. 가격은 **약 180달러(유럽 179유로 안팎)**로 점쳐지며, **무화면 Fitbit Air(99달러)**와 **Pixel Watch 5(400달러~)** 사이를 메우는 포지션입니다. 즉 **"스크린은 원하지만 스마트워치까지는 과한"** 구간을 겨냥한 제품입니다.
@@ -61,7 +61,7 @@ description: "구글이 2026년 10월 9일 신형 피트니스 트래커 'Fitbit
 
 **Fitbit Edge**는 구글이 **Fitbit Air 다음**에 내놓는 피트니스 트래커입니다. Fitbit 제품군에서 **Air(무화면) → Edge(화면 탑재)** 순으로 라인업이 이어지는 구도입니다.
 
-![Fitbit Edge 유출 렌더 — 타원형 OLED와 금속 섀시, 양옆 버튼이 보이는 정면 모습](/assets/images/posts/fitbit-edge-google-tracker-20261011/fitbit-edge-leak-3.jpg)
+![Fitbit Edge 유출 렌더 — 타원형 OLED와 금속 섀시, 양옆 버튼이 보이는 정면 모습](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/fitbit-edge-google-tracker-20261011/fitbit-edge-leak-3.jpg)
 *유출된 Fitbit Edge 렌더. 타원형 컬러 디스플레이와 양옆 버튼, 금속 재질 섀시가 특징입니다 (출처: Android Headlines 유출 렌더 / 9to5Google, 2026.10)*
 
 공식적으로 확정된 것은 명확합니다.
@@ -102,7 +102,7 @@ Fitbit은 최근 **제미나이 기반 AI 코치**를 전면에 내세우고 있
 - **금속 섀시 + 탈착형 밴드** — 후면 밴드 탈착 메커니즘, 양옆 길쭉한 버튼 (유출)
 - **제한적 앱 지원** — 구글 지도·YouTube Music·내 기기 찾기 등 (Thurrott 보도)
 
-![Fitbit Edge 공식 티저 — 디스플레이와 캐니언 컬러, 금속 섀시가 드러난 클로즈업](/assets/images/posts/fitbit-edge-google-tracker-20261011/fitbit-edge-teaser-2.jpg)
+![Fitbit Edge 공식 티저 — 디스플레이와 캐니언 컬러, 금속 섀시가 드러난 클로즈업](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/fitbit-edge-google-tracker-20261011/fitbit-edge-teaser-2.jpg)
 *구글 티저에서 확인되는 캐니언 컬러와 금속 섀시. Pixel Watch 5의 컬러 계열을 이어받은 것으로 보입니다 (출처: Google Health 티저 / Lowyat.NET, 2026.10)*
 
 ---
@@ -133,7 +133,7 @@ Fitbit은 최근 **제미나이 기반 AI 코치**를 전면에 내세우고 있
 - **배터리를 매일 충전해도 무방**하고 **풀스마트워치 기능**이 필요한 경우
 - **Fitbit Air를 최근 구매**한 경우 — 화면 외 차이가 크지 않을 수 있습니다
 
-![Fitbit Edge와 Fitbit Charge 비교 이미지](/assets/images/posts/fitbit-edge-google-tracker-20261011/fitbit-edge-comparison.jpg)
+![Fitbit Edge와 Fitbit Charge 비교 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/fitbit-edge-google-tracker-20261011/fitbit-edge-comparison.jpg)
 *Fitbit Edge(유출 이미지)와 기존 Charge 라인의 비교. 화면 크기·버튼 배치 차이를 확인할 수 있습니다 (출처: Android Headlines 유출 이미지 / Thurrott, 2026.10)*
 
 ---

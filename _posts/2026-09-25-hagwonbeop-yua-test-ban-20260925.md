@@ -5,7 +5,7 @@ date: 2026-09-25 11:00:00 +0900
 categories: [education]
 tags: [학원법시행령, 4세고시, 7세고시, 유아레벨테스트금지, 사고력수학, 초등수학, 시매쓰, Cmath, 크레버스, CMS사고력수학, 와이즈만, 와이키즈, 소마사고력수학, 씨투엠, 씨투엠키즈, 생각하는황소, 영재교육, 학부모필수정보]
 author: "40대 블로거"
-image: /assets/images/posts/hagwonbeop-yua-test-ban-20260925/01-education-ministry-yua.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hagwonbeop-yua-test-ban-20260925/01-education-ministry-yua.jpg
 description: "교육부가 9월 22일 국무회의에서 '학원의 설립·운영 및 과외교습에 관한 법률 시행령' 일부개정령안을 의결했습니다. 10월 1일부터 유아를 대상으로 한 모집·분반 목적의 시험과 평가가 전면 금지되고, 위반 시 최대 300만 원의 과태료가 부과됩니다. 필기·구술·실기·면접은 물론 토익·토플 등 외부 성적을 활용한 평가와 서열화 평가까지 금지 대상이며, 유아 대상 개인과외교습자·교습소는 교육청 신고 의무가 새로 생깁니다."
 ---
 
@@ -15,7 +15,7 @@ description: "교육부가 9월 22일 국무회의에서 '학원의 설립·운�
 
 교육부는 **9월 22일 국무회의**에서 **「학원의 설립·운영 및 과외교습에 관한 법률(학원법) 시행령」 일부개정령안**이 심의·의결됐다고 밝혔습니다. 이번 시행령 개정은 **10월 1일 개정 학원법 시행**에 따른 후속 조치입니다. 유아 사고력수학·유아 영어·유아 과학 프로그램을 운영하는 교육 브랜드라면 모집 방식 자체를 손봐야 하는 변화입니다.
 
-![교육부 최교진 장관이 유치원을 방문해 어린이들과 함께한 모습](/assets/images/posts/hagwonbeop-yua-test-ban-20260925/01-education-ministry-yua.jpg)
+![교육부 최교진 장관이 유치원을 방문해 어린이들과 함께한 모습](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hagwonbeop-yua-test-ban-20260925/01-education-ministry-yua.jpg)
 *출처: 대한민국 정책브리핑(korea.kr) 정책뉴스 — ⓒ뉴스1 (최교진 교육부 장관, 2026.5.15 세종시 해밀동 해밀유치원 방문)*
 
 ## 📌 핵심 요약 — 3줄 정리
@@ -41,7 +41,7 @@ description: "교육부가 9월 22일 국무회의에서 '학원의 설립·운�
 
 즉, "시험은 안 보지만 성적표를 내라"거나 "정식 시험은 아니고 게임처럼 하자"는 식의 변형된 레벨테스트도 법망을 피하기 어려워졌습니다.
 
-![서울 강남구 대치동 학원가에서 어린이가 등원하는 모습](/assets/images/posts/hagwonbeop-yua-test-ban-20260925/02-daechi-academy-child.jpg)
+![서울 강남구 대치동 학원가에서 어린이가 등원하는 모습](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hagwonbeop-yua-test-ban-20260925/02-daechi-academy-child.jpg)
 *출처: 파이낸셜뉴스·뉴시스 (ⓒ뉴스1 김근수 기자) — 서울 강남구 대치동 학원가, 2025.3.13*
 
 ## ✅ 허용되는 것은 단 하나 — "등록 후 진단"
@@ -55,7 +55,7 @@ description: "교육부가 9월 22일 국무회의에서 '학원의 설립·운�
 
 학원 입장에서는 "선발 도구"로 쓰던 진단을 "교육 지원 도구"로 완전히 용도를 바꿔야 한다는 뜻입니다. 학부모 입장에서는 입학 전에 받던 비교표 형태의 진단지를 앞으로는 받을 수 없다는 의미이기도 합니다.
 
-![서울 강남구의 한 영어유치원 전경](/assets/images/posts/hagwonbeop-yua-test-ban-20260925/03-english-kindergarten.png)
+![서울 강남구의 한 영어유치원 전경](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hagwonbeop-yua-test-ban-20260925/03-english-kindergarten.png)
 *출처: 교육언론[창] — 연합뉴스 자료사진 (서울 강남구의 한 영어유치원)*
 
 ## ⏳ 추진 일정 — 3월 학원법 개정에서 10월 시행까지

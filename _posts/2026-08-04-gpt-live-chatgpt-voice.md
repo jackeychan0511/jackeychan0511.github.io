@@ -5,7 +5,7 @@ date: 2026-08-04 14:53:00 +0900
 categories: [career]
 tags: [GPT, OpenAI, GPT-Live, ChatGPT, AI음성, 풀듀플렉스, 생성형AI, AI트렌드, IT뉴스, 2026년8월]
 author: "40대 블로거"
-image: /assets/images/posts/openai-gpt-live-voice-20260804/chatgpt-logo-1280.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-gpt-live-voice-20260804/chatgpt-logo-1280.png
 description: "2026년 8월 3일 OpenAI가 공개한 GPT-Live 기반 ChatGPT 새 음성 경험을 정리했습니다. 듣고 말하는 동시에 가능한 풀듀플렉스 음성, GPT-Live-1과 mini 모델 구분, 무료·유료 사용자 영향, 개발자 관점 전망까지 다룹니다."
 sitemap: false
 noindex: true
@@ -13,7 +13,7 @@ noindex: true
 
 > **📌 한줄 요약:** OpenAI가 2026년 8월 3일 GPT-Live 기반의 새로운 ChatGPT 음성 경험을 공개했습니다. 유료 사용자는 **GPT-Live-1**, 무료 사용자는 **GPT-Live-1 mini**로 전환되며, 서로 말을 끊지 않아도 되는 **연속 대화(full-duplex)**가 핵심입니다. 음성 응답과 함께 글이 실시간으로 표시되고, 웹 검색·메모리·비주얼 위젯·이미지까지 한 대화에서 함께 동작합니다.
 
-![ChatGPT 공식 로고](/assets/images/posts/openai-gpt-live-voice-20260804/chatgpt-logo-1280.png)
+![ChatGPT 공식 로고](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-gpt-live-voice-20260804/chatgpt-logo-1280.png)
 *이미지 출처: Wikimedia Commons (OpenAI ChatGPT 로고)*
 
 ## 이슈 요약 — GPT-5.6 다음은 "목소리"다
@@ -44,7 +44,7 @@ noindex: true
 | 비주얼 위젯 | 날씨·주식·스포츠 등 질문에 카드 형태의 시각적 답변 |
 | 텍스트+이미지 | 한 대화에서 글과 이미지를 함께 처리 |
 
-![ChatGPT 실제 대화 화면](/assets/images/posts/openai-gpt-live-voice-20260804/chatgpt-screenshot.png)
+![ChatGPT 실제 대화 화면](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-gpt-live-voice-20260804/chatgpt-screenshot.png)
 *이미지 출처: Wikimedia Commons (ChatGPT 대화 화면 스크린샷)*
 
 한 가지 알아두실 점은, **출시 시점에는 음성 + 영상(비디오)이나 화면 공유는 지원하지 않는다**는 것입니다. 해당 기능은 추후 추가 예정이며, 그동안 영상 통화형 음성을 쓰던 분들은 기존 Standard·Advanced Voice Mode를 레거시로 계속 이용할 수 있습니다.

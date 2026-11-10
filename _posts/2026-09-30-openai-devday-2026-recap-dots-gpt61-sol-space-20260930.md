@@ -5,7 +5,7 @@ date: 2026-09-30 14:52:00 +0900
 categories: [career]
 tags: [OpenAI, DevDay2026, Dots, GPT6.1Sol, ChatGPTSpace, Ultrafast, AI에이전트, 업무자동화, Codex, API가격인하, always-on, AI뉴스, 2026년9월]
 author: "40대 블로거"
-image: /assets/images/posts/openai-devday-2026-recap-20260930/sam-altman-keynote.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-devday-2026-recap-20260930/sam-altman-keynote.jpg
 description: "2026년 9월 29일(현지시간) OpenAI DevDay 2026에서 53분 키노트 동안 20개 이상의 발표가 쏟아졌습니다. 핵심은 상시 가동형 AI 에이전트 'Dots'(GPT-6 Astra 기반·자체 클라우드 컴퓨터·커스텀 아바타), 프론티어 근접 성능을 1/5 가격에 제공하는 'GPT-6.1 Sol'($2/$10), 팀 협업 플랫폼 'ChatGPT Space·Pages', 속도 유료 티어 'Ultrafast', 플러그인 앱화·자동화, Decisions API, 신규 $500 Pro 요금제, 주간 활성 사용자 12억 명 돌파까지 정리했습니다. 사용자·개발자 영향과 전망을 솔직하게 짚었습니다."
 ---
 
@@ -13,7 +13,7 @@ description: "2026년 9월 29일(현지시간) OpenAI DevDay 2026에서 53분 �
 
 요즘 저처럼 **AI 에이전트를 업무에 붙여 실사용하시는 분들**, 이번 주는 정신없으셨을 겁니다. 저도 사내 반복 업무를 에이전트로 돌리고, 코딩 보조를 옆에 띄워 두고 사는데, 어제(9월 29일) **DevDay 하루 전에 'GPT-6.1 Astra' 출시 취소** 소식을 접하고 나서 "그럼 이벤트는 뭘로 채우지?" 싶었거든요. 그런데 뚜껑을 열어 보니 **Astra를 안 내는 대신, Astra를 여러 제품으로 쪼개서 쏟아내는** 구성이었습니다.
 
-![OpenAI CEO 샘 올트먼 (출처: Wikimedia Commons / TechCrunch, CC BY 2.0)](/assets/images/posts/openai-devday-2026-recap-20260930/sam-altman-keynote.jpg)
+![OpenAI CEO 샘 올트먼 (출처: Wikimedia Commons / TechCrunch, CC BY 2.0)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-devday-2026-recap-20260930/sam-altman-keynote.jpg)
 *OpenAI CEO 샘 올트먼 (출처: Wikimedia Commons / TechCrunch, CC BY 2.0)*
 
 저는 **OpenAI 공식 DevDay 2026 리캡**과 9to5Google·TechCrunch·Axios·CNBC 보도를 바탕으로, "발표 목록"이 아니라 **"이게 우리 업무 흐름을 어떻게 바꾸는가"** 기준으로 골라 정리해 봤습니다.
@@ -41,12 +41,12 @@ description: "2026년 9월 29일(현지시간) OpenAI DevDay 2026에서 53분 �
 - **생활 밀착 기능:** **전화·문자·Slack·이메일** 응대를 대신하고, 각자 **커스텀 아바타**를 가집니다.
 - **경쟁 구도:** Meta의 **Muse**, SpaceXAI의 **Grok Bot**에 대한 정면 대응 카드입니다.
 
-![OpenAI DevDay 2026에서 공개된 상시 에이전트 'Dots' 공식 이미지 (출처: OpenAI DevDay 2026 / 9to5Google)](/assets/images/posts/openai-devday-2026-recap-20260930/dots-cover.jpg)
+![OpenAI DevDay 2026에서 공개된 상시 에이전트 'Dots' 공식 이미지 (출처: OpenAI DevDay 2026 / 9to5Google)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-devday-2026-recap-20260930/dots-cover.jpg)
 *OpenAI 상시 에이전트 'Dots' 공식 이미지 (출처: OpenAI DevDay 2026 / 9to5Google)*
 
 저처럼 **"시켜 놓고 자리를 뜨는"** 작업이 많은 사람에게 이건 꽤 큰 변화입니다. 기존 챗봇은 창을 닫으면 멈췄는데, Dots는 **내가 자리를 비운 사이에도 자기 컴퓨터에서 작업을 이어 갑니다.** 반대로 말하면, **에이전트가 뭘 하고 있는지 통제·감사하는 체계**가 그만큼 중요해졌다는 뜻이기도 합니다.
 
-!['Dots' 상시 에이전트 동작 이미지 (출처: OpenAI DevDay 2026 / 9to5Google)](/assets/images/posts/openai-devday-2026-recap-20260930/openai-dots-agent-render.jpg)
+!['Dots' 상시 에이전트 동작 이미지 (출처: OpenAI DevDay 2026 / 9to5Google)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-devday-2026-recap-20260930/openai-dots-agent-render.jpg)
 *'Dots' 상시 에이전트 이미지 (출처: OpenAI DevDay 2026 / 9to5Google)*
 
 ---

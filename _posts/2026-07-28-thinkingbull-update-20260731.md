@@ -4,7 +4,7 @@ title: "[업데이트] 황소수학 8월 편입시험 접수 시작 & 수강료 
 date: 2026-07-31 17:00:00 +0900
 categories: [education]
 tags: [황소수학, 생각하는황소, 황소고시]
-image: /assets/images/posts/thinking-bull-main.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/thinking-bull-main.png
 description: "2026년 7월 28일 생각하는황소(황소수학) 일산학원이 8월 편입시험 접수 공지를 게시했습니다. 고등 과정까지 모집하는 지점별 요강과 8월부터 시행되는 수강료 면제 제도의 구체적인 절차를 정리했습니다."
 sitemap: false
 noindex: true

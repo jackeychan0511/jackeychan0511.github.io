@@ -5,14 +5,14 @@ date: 2026-09-23 14:53:00 +0900
 categories: [career]
 tags: [GPT, OpenAI, GPT6, GPT6Sol, GPT6Luna, API가격인하, AI모델, Codex, ChatGPTWork, 업무자동화, 프롬프트캐싱, AI에이전트, 개발자도구, AI뉴스, 2026년9월]
 author: "40대 블로거"
-image: /assets/images/posts/openai-gpt6-sol-luna-ga-20260923/openai-gpt6-sol-luna-official-hero.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-gpt6-sol-luna-ga-20260923/openai-gpt6-sol-luna-official-hero.png
 description: "2026년 9월 22일(미국 현지시간), OpenAI가 GPT-6 패밀리의 중간·저가 티어인 'GPT-6 Sol'과 'GPT-6 Luna'를 전격 공개했습니다. GPT-6 Astra에서 검증된 성능을 더 빠르고 저렴한 모델로 내려보내면서, API 가격을 GPT-5.6 대비 50% 인하했습니다. Sol은 $2/$10, Luna는 $0.10/$0.50(백만 토큰당)로 책정됐고, ChatGPT Work·Codex에는 Plus·Pro·Business·Enterprise·Edu 전 요금제에서 순차 배포되며 Free·Go 사용자는 데스크톱 앱에서 Luna를 쓸 수 있습니다. 프롬프트 캐싱 개선(캐시 입력 90% 할인)과 정렬(alignment) 평가 개선도 함께 발표됐습니다. 이슈 요약부터 상세 분석, 사용자·개발자 영향, 전망까지 정리했습니다."
 sitemap: false
 noindex: true
 ---
 > **📌 한줄 요약:** OpenAI가 **2026년 9월 22일(미국 현지시간)** GPT-6 패밀리의 두 번째 라인업 **'GPT-6 Sol'과 'GPT-6 Luna'**를 공개했습니다. 핵심은 **성능이 아니라 '가격'** — GPT-6 Astra에서 검증된 지능을 더 빠르고 저렴한 티어로 내려보내면서 **API 가격을 GPT-5.6 프로모션 가격 대비 정확히 50% 인하**했습니다. **Sol은 입력 $2 / 출력 $10, Luna는 입력 $0.10 / 출력 $0.50**(백만 토큰당)으로, 같은 가격대 경쟁 모델(Claude Opus 5·Fable 5)을 **작업당 비용 80~90% 낮춰** 앞선다고 주장합니다. ChatGPT Work·Codex에는 **Plus·Pro·Business·Enterprise·Edu 전 요금제에 순차 배포**되고, **Free·Go 사용자는 데스크톱 앱에서 Luna**를 쓸 수 있습니다. 아래에서 무엇이 바뀐 건지, 우리 업무와 개발에는 어떤 의미인지 살펴봤습니다.
 
-![OpenAI GPT-6 Sol·Luna 공식 발표 이미지 (출처: OpenAI 공식 홈페이지 · openai.com)](/assets/images/posts/openai-gpt6-sol-luna-ga-20260923/openai-gpt6-sol-luna-official-hero.png)
+![OpenAI GPT-6 Sol·Luna 공식 발표 이미지 (출처: OpenAI 공식 홈페이지 · openai.com)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-gpt6-sol-luna-ga-20260923/openai-gpt6-sol-luna-official-hero.png)
 *OpenAI GPT-6 Sol·Luna 공식 발표 이미지 (출처: OpenAI 공식 홈페이지 · openai.com)*
 
 요즘 저처럼 **AI 구독료와 API 청구서를 동시에 보며 한숨 쉬시는 분들** 공감하실 겁니다. 저도 사내 반복 업무를 에이전트로 돌리고, 코딩 보조를 붙여 두니 성능은 좋아지는데 **토큰 비용이 무섭게 늘어** 결국 "이 작업을 매일 돌려도 되나"를 먼저 계산하게 되더라고요. 좋은 모델을 쓰는 것보다 **그 모델을 얼마나 오래 굴릴 수 있느냐**가 실무에서는 더 큰 문제였습니다.
@@ -76,7 +76,7 @@ OpenAI에 따르면 GitHub가 **수십억 건 요청에 이 개선을 적용해 
 - **대화 스타일**: 전문 용어·불필요한 디테일·어색한 표현이 줄고 **답변이 약간 짧아짐**. 코딩·기술 대화에서 체감이 클 것으로 OpenAI는 설명
 - 주의: 정렬·기만(deception) 평가는 **일부러 실패를 유도하는 어려운 상황을 설계한 테스트**라, 일반 사용에서의 실패율로 읽으면 안 됩니다
 
-![GPT-6 Sol·Luna 공식 발표 커버 이미지 (출처: OpenAI 공식 홈페이지 · openai.com)](/assets/images/posts/openai-gpt6-sol-luna-ga-20260923/openai-gpt6-sol-luna-official-cover.webp)
+![GPT-6 Sol·Luna 공식 발표 커버 이미지 (출처: OpenAI 공식 홈페이지 · openai.com)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-gpt6-sol-luna-ga-20260923/openai-gpt6-sol-luna-official-cover.webp)
 *GPT-6 Sol·Luna 공식 발표 커버 이미지 (출처: OpenAI 공식 홈페이지 · openai.com)*
 
 ## 장점과 아쉬운 점(단점)
@@ -95,7 +95,7 @@ OpenAI에 따르면 GitHub가 **수십억 건 요청에 이 개선을 적용해 
 
 저처럼 비용을 민감하게 보시는 분들께는, **"입력이 272K를 넘는 작업이 우리 워크플로에 있는지"** 를 먼저 확인하시는 게 좋습니다. 여기서 요금이 튀면 반값 인하가 무색해지니까요.
 
-![OpenAI 본사 전경 (출처: TechCrunch · Getty Images)](/assets/images/posts/openai-gpt6-sol-luna-ga-20260923/openai-hq-getty-photo.jpg)
+![OpenAI 본사 전경 (출처: TechCrunch · Getty Images)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-gpt6-sol-luna-ga-20260923/openai-hq-getty-photo.jpg)
 *OpenAI 본사 전경 (출처: TechCrunch · Getty Images)*
 
 ## 영향 — 사용자와 개발자에게

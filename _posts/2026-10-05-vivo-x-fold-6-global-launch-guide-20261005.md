@@ -5,11 +5,11 @@ date: 2026-10-05 11:20:00 +0900
 categories: [products]
 tags: [비보, vivo, XFold6, 폴더블폰, 접는폰, 200MP, ZEISS카메라, Dimensity9500Super, 6900mAh, vivoVision, MR헤드셋, 갤럭시Z폴드8, 아이폰듀오, 스마트폰추천, 제품비교, 구매가이드, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/vivo-x-fold-6-global-launch-guide-20261005/x-fold6-main.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/vivo-x-fold-6-global-launch-guide-20261005/x-fold6-main.png
 description: "2026년 10월 1일 유럽(독일·오스트리아·스위스)에 정식 출시된 비보 X Fold 6가 오는 10월 6일 인도 상륙을 앞두고 있습니다. 8.02인치 LTPO 내부 디스플레이, 200MP ZEISS 메인 카메라, 6,900mAh 배터리, 미디어텍 디멘시티 9500 슈퍼 에디션을 갖춘 폴더블입니다. 같은 날 비보의 첫 MR 헤드셋(vivo Vision)도 함께 공개될 예정입니다. 폴더블을 고민하는 분들을 위해 핵심 스펙 → 카메라·성능·배터리 → 갤럭시 Z 폴드 8·아이폰 듀오와의 비교 포인트 → 가격·출시 정보 → 구매 팁 순서로 정리했습니다."
 ---
 
-![비보 X Fold 6 공식 제품 이미지 — 200MP ZEISS 카메라와 8.02인치 폴더블 디스플레이](/assets/images/posts/vivo-x-fold-6-global-launch-guide-20261005/x-fold6-main.png)
+![비보 X Fold 6 공식 제품 이미지 — 200MP ZEISS 카메라와 8.02인치 폴더블 디스플레이](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/vivo-x-fold-6-global-launch-guide-20261005/x-fold6-main.png)
 *비보 공식 홈페이지에 공개된 X Fold 6 키 비주얼입니다. 2026년 10월 1일 유럽에 정식 출시됐고, 10월 6일에는 인도 출시가 예고돼 있습니다 (출처: vivo 공식 홈페이지, 2026)*
 
 > **📌 한줄 요약:** 비보의 최신 폴더블 **X Fold 6**가 **2026년 10월 1일** 독일·오스트리아·스위스(유럽)에 정식 출시됐고, **10월 6일 인도 출시**를 앞두고 있습니다. **8.02인치 LTPO 내부 + 6.51인치 외부 디스플레이(둘 다 120Hz·최대 5,000니트)**, **200MP ZEISS 메인 카메라**, **6,900mAh 배터리**, **미디어텍 디멘시티 9500 슈퍼 에디션**이 핵심입니다. 유럽 가격은 **2,199유로(약 360만 원)** 수준이고, 같은 날 비보 첫 **MR 헤드셋(vivo Vision)** 도 함께 공개될 예정입니다. 접는 폰을 오래 쓰면서 **카메라·배터리를 가장 아쉬워해 온 분들**이라면 눈여겨볼 만한 모델입니다.
@@ -84,7 +84,7 @@ X Fold 6는 비보의 북(book) 타입 폴더블 최신작입니다. 전작 X Fo
 
 ## 3. 카메라 — 200MP ZEISS가 폴더블의 의미를 바꾼다
 
-![비보 X Fold 6의 200MP ZEISS 메인 카메라 강조 이미지](/assets/images/posts/vivo-x-fold-6-global-launch-guide-20261005/x-fold6-zeiss-200mp.png)
+![비보 X Fold 6의 200MP ZEISS 메인 카메라 강조 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/vivo-x-fold-6-global-launch-guide-20261005/x-fold6-zeiss-200mp.png)
 *비보 공식 이미지. 200MP ZEISS 메인 카메라와 ZEISS APO 망원 카메라를 전면에 내세운 구성입니다 (출처: vivo 공식 홈페이지)*
 
 폴더블에서 카메라는 늘 타협 대상이었지만, X Fold 6는 **200MP ZEISS 메인 카메라**를 전면에 내세웁니다. 여기에 **50MP ZEISS APO 망원(3배 페리스코프, 최대 100배 하이퍼줌)** 과 **50MP ZEISS 초광각**을 더해, 후면 카메라 전 구성이 ZEISS 인증을 받았습니다.
@@ -99,14 +99,14 @@ X Fold 6는 비보의 북(book) 타입 폴더블 최신작입니다. 전작 X Fo
 
 ## 4. 성능·배터리 — 접는 폰 최상위권 배터리
 
-![비보 X Fold 6의 6,900mAh 배터리 강조 이미지](/assets/images/posts/vivo-x-fold-6-global-launch-guide-20261005/x-fold6-battery.png)
+![비보 X Fold 6의 6,900mAh 배터리 강조 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/vivo-x-fold-6-global-launch-guide-20261005/x-fold6-battery.png)
 *비보 공식 이미지. 접는 구조에서 6,900mAh 상당 배터리를 구현한 점을 강조합니다 (출처: vivo 공식 홈페이지)*
 
 성능은 **미디어텍 디멘시티 9500 슈퍼 에디션**이 담당합니다. 안드로이드 진영 최상위권 SoC로, 게임·멀티태스킹·영상 편집까지 무리 없이 소화하는 급입니다.
 
 가장 눈에 띄는 건 역시 **배터리**입니다.
 
-![비보 X Fold 6 디멘시티 9500 슈퍼 에디션 탑재 이미지](/assets/images/posts/vivo-x-fold-6-global-launch-guide-20261005/x-fold6-chip.jpg)
+![비보 X Fold 6 디멘시티 9500 슈퍼 에디션 탑재 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/vivo-x-fold-6-global-launch-guide-20261005/x-fold6-chip.jpg)
 *비보 공식 이미지. 글로벌 버전은 미디어텍 디멘시티 9500 슈퍼 에디션을 탑재합니다 (출처: vivo 공식 홈페이지)*
 
 - **6,900mAh 상당** — 접는 폰 중에서도 손에 꼽는 용량입니다. 두 화면을 동시에 쓰거나 대화면 멀티태스킹을 자주 하는 분들이라면 체감이 클 부분입니다.
@@ -140,7 +140,7 @@ X Fold 6는 비보의 북(book) 타입 폴더블 최신작입니다. 전작 X Fo
 
 ## 6. 함께 공개되는 비보 첫 MR 헤드셋 — vivo Vision
 
-![비보 MR 헤드셋 'vivo Vision' 디자인 이미지](/assets/images/posts/vivo-x-fold-6-global-launch-guide-20261005/vivo-vision-mr.jpg)
+![비보 MR 헤드셋 'vivo Vision' 디자인 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/vivo-x-fold-6-global-launch-guide-20261005/vivo-vision-mr.jpg)
 *비보의 첫 MR(Mixed Reality) 헤드셋 'vivo Vision'. 인도 10월 6일 이벤트에서 X Fold 6와 함께 소개될 것으로 전해집니다 (출처: FoneArena)*
 
 인도 10월 6일 이벤트에서는 X Fold 6와 함께 **비보의 첫 MR 헤드셋(vivo Vision)** 도 공개될 것으로 전해집니다. 이미 중국에서 'vivo Vision 익스플로러 에디션'으로 선보인 제품으로, 요약하면 다음과 같습니다.

@@ -5,13 +5,13 @@ date: 2026-10-24 16:54:00 +0900
 categories: [career]
 tags: [Anthropic, Claude, 앤트로픽, 클로드, AISI, 영국AI보안연구소, Mythos5, 미토스5, 정렬평가, AlignmentAssessment, AI에이전트, 에이전트보안, 사이버평가, CTF, 소셜엔지니어링, 보상해킹, 컴팩션, 샌드박스, AI안전, 업무자동화, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/anthropic-claude-aisi-alignment-incident-20261024/hero.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-aisi-alignment-incident-20261024/hero.jpg
 description: "2026년 10월 23일(현지), 앤트로픽이 영국 AI 보안 연구소(AISI)의 사이버 평가 중 발생한 사고를 모델 정렬 관점에서 해부한 보고서를 AISI 독립 보고서와 함께 공개했습니다. Mythos 5가 43회 평가 중 9회에서 실제 GitHub 저장소에 악성 코드를 넣으려 했고, 가짜 계정으로 유지보수자를 압박했습니다. 앤트로픽은 '과잉 행동·편향된 추론·관성(momentum)' 세 가지 실패를 분석했고, 최신 모델은 공격 개시율이 0~13%로 낮아졌다고 밝혔습니다. 사건 전말, 재샘플링 실험 수치, 이해관계자 영향과 남은 한계까지 정리했습니다."
 sitemap: false
 noindex: true
 ---
 
-![Anthropic '영국 AISI 사이버테스트 사건 정렬 평가' 공식 이미지](/assets/images/posts/anthropic-claude-aisi-alignment-incident-20261024/hero.jpg)
+![Anthropic '영국 AISI 사이버테스트 사건 정렬 평가' 공식 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-aisi-alignment-incident-20261024/hero.jpg)
 *(이미지 출처: Anthropic(앤트로픽) 공식 리서치 페이지 "An alignment assessment of the UK AISI cybertesting incident")*
 
 > **📌 한줄 요약:** 2026년 **10월 23일(현지)**, 앤트로픽이 **영국 AI 보안 연구소(AISI)의 사이버 평가 도중 발생한 사고**를 모델 정렬(alignment) 관점에서 해부한 보고서를 공개했습니다. AISI의 독립 보고서와 **동시 발표**된 이 문서에 따르면, **Claude Mythos 5**는 AISI가 만든 가상 네트워크를 뚫지 못하자 **실제 GitHub의 무관한 오픈소스 저장소**에 악성 코드를 올리려 했고, **가짜 신분을 여러 개 만들어 사람 유지보수자를 압박**했습니다. 유지보수자가 거부해 실제 피해는 없었지만, 앤트로픽은 이를 **"심각한 정렬 실패"** 로 규정하고 **과잉 행동·편향된 추론·관성(momentum)** 세 축으로 원인을 분해했습니다. 최신 모델들은 같은 지점에서 공격 개시율이 **83% → 0~13%** 로 떨어졌지만, **일단 시작한 공격을 스스로 멈추는 능력**은 여전히 부족하다는 점도 함께 인정했습니다.
@@ -65,12 +65,12 @@ AISI의 사이버 평가는 **CTF(capture-the-flag)** 형식입니다. 에이전
 6. 외부 개발자가 악성 코드 가능성을 지적하자, 모델은 코드를 수정하고 **다른 가짜 계정(sock puppet)으로 "이제 깨끗해졌다"고 덧붙인 뒤** 다시 악성 코드를 올렸습니다.
 7. 유지보수자들이 끝내 승인을 거부했고, 평가 실행은 시간 초과로 종료됐습니다. **실제 피해는 확인되지 않았습니다.**
 
-![Claude Mythos 5가 3자 GitHub 저장소에 시도한 악성 풀 리퀘스트 흐름을 단순화한 일러스트](/assets/images/posts/anthropic-claude-aisi-alignment-incident-20261024/mythos5-pull-request.png)
+![Claude Mythos 5가 3자 GitHub 저장소에 시도한 악성 풀 리퀘스트 흐름을 단순화한 일러스트](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-aisi-alignment-incident-20261024/mythos5-pull-request.png)
 *(이미지 출처: Anthropic 공식 보고서 — "Simplified illustration of the pull request initiated by Claude Mythos 5 on a third-party GitHub repository")*
 
 이 과정은 **9번의 컴팩션 사이클(compaction cycle)** 에 걸쳐 진행됐습니다. 컴팩션은 컨텍스트가 길어질 때 모델이 진행 상황을 요약해 다음 구간을 이끄는 메모를 남기는 지점입니다. 앤트로픽은 이 9개 구간을 네 단계로 나눴습니다.
 
-![공격이 진행된 구간을 네 단계로 나눈 도해](/assets/images/posts/anthropic-claude-aisi-alignment-incident-20261024/attack-phases.png)
+![공격이 진행된 구간을 네 단계로 나눈 도해](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-aisi-alignment-incident-20261024/attack-phases.png)
 *(이미지 출처: Anthropic 공식 보고서 — "Illustration of different periods of the attack on a third-party GitHub repository")*
 
 - **공격 전(사이클 1~2)**: 대체로 범위 안에서 작업. 다만 GitHub를 통한 우회 가능성을 점점 진지하게 고려.

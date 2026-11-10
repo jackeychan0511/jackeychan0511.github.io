@@ -5,11 +5,11 @@ date: 2026-10-10 12:00:00 +0900
 categories: [education]
 tags: [크레버스, CREVERSE, 허밍고, HUMMINGo, GESS, GESSEducationAwards, 에듀테크, AI영어평가, 사고력수학, 자녀교육]
 author: "40대 블로거"
-image: /assets/images/posts/creverse-hummingo-gess-award-20261010/01-hummingo-gess-finalist.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/creverse-hummingo-gess-award-20261010/01-hummingo-gess-finalist.jpg
 description: "크레버스(CREVERSE)의 AI 영어 에세이 평가 솔루션 '허밍고(HUMMINGo)'가 국제 교육산업 시상 프로그램 'GESS Education Awards 2026'의 'Best AI Product/Tool in Education' 부문 Finalist로 선정됐습니다. 2026년 10월 7일 크레버스가 공식 발표했으며, 1,200건이 넘는 출품작 가운데 후보에 올랐습니다. 최종 수상작은 오는 11월 두바이에서 열리는 시상식에서 발표됩니다. 허밍고의 평가 방식과 교육적 의미, 학부모 관점의 시사점을 정리했습니다."
 ---
 
-![크레버스 허밍고, GESS Education Awards 2026 Finalist 선정 (출처: 크레버스 제공)](/assets/images/posts/creverse-hummingo-gess-award-20261010/01-hummingo-gess-finalist.jpg)
+![크레버스 허밍고, GESS Education Awards 2026 Finalist 선정 (출처: 크레버스 제공)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/creverse-hummingo-gess-award-20261010/01-hummingo-gess-finalist.jpg)
 
 # [속보] 크레버스 '허밍고', GESS Education Awards 2026 AI 교육 부문 Finalist 선정 — 11월 두바이 시상식
 
@@ -42,7 +42,7 @@ description: "크레버스(CREVERSE)의 AI 영어 에세이 평가 솔루션 '�
 | 손글씨 평가 | OCR 기술로 자필 에세이도 평가 |
 | 다국어 피드백 | 20개 이상 언어로 피드백 — 국제학교 등 글로벌 환경 대응 |
 
-![허밍고(HUMMINGo) 제품 이미지 (출처: 허밍고 공식 블로그)](/assets/images/posts/creverse-hummingo-gess-award-20261010/02-hummingo-product.jpg)
+![허밍고(HUMMINGo) 제품 이미지 (출처: 허밍고 공식 블로그)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/creverse-hummingo-gess-award-20261010/02-hummingo-product.jpg)
 
 크레버스는 허밍고를 **'평가 전문 AI'** 솔루션으로 정의합니다. AI가 교사를 대체하기보다는, **교사가 설정한 평가 기준(루브릭)을 더 빠르고 일관되게 적용**하도록 돕고 학생에게 구체적인 피드백과 수정 기회를 제공하는 데 초점을 둔다는 설명입니다. 공식 사이트 기준으로 허밍고는 **10년 이상 축적된 평가 데이터**와 **수백만 건의 학습 데이터**를 활용한다고 밝히고 있습니다.
 
@@ -50,7 +50,7 @@ description: "크레버스(CREVERSE)의 AI 영어 에세이 평가 솔루션 '�
 
 ## 크레버스의 최근 흐름과 이번 선정의 의미
 
-![크레버스(CREVERSE) 브랜드 (출처: 크레버스)](/assets/images/posts/creverse-hummingo-gess-award-20261010/03-creverse-brand.jpg)
+![크레버스(CREVERSE) 브랜드 (출처: 크레버스)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/creverse-hummingo-gess-award-20261010/03-creverse-brand.jpg)
 
 크레버스는 최근 **AI 기반 에듀테크 성과**를 연이어 내고 있습니다. 2026년 상반기에는 영국 런던 **BETT UK 2026**에 참가해 허밍고를 공개했고, **2026 에듀플러스어워드 동상**, **한국교원대 에듀테크페어 우수 솔루션 선정**, 미국 **타임지 '2026년 세계 최고 에듀테크 기업'** 선정 등의 소식을 전했습니다.
 

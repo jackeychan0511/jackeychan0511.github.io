@@ -4,7 +4,7 @@ title: "Hermes Agent 업무 자동화 고급 활용법 — 다중 작업(Multi-T
 date: 2026-07-25 11:00:00 +0900
 categories: [career]
 tags: [HermesAgent, AI에이전트, 업무자동화, 다중작업, 멀티태스킹, 크론잡, 서브에이전트]
-image: /assets/images/posts/hermes-multitask.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-multitask.jpg
 ---
 
 Hermes Agent는 단순한 AI 채팅이 아니라 **여러 작업을 동시에 처리하고, 자동화하고, 확장할 수 있는** 강력한 플랫폼입니다.

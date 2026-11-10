@@ -5,7 +5,7 @@ date: 2026-10-03 12:00:00 +0900
 categories: [education]
 tags: [크레버스, CREVERSE, 청담어학원, CMS영재교육센터, CMS영재관, 대표이사변경, 코스닥, 에듀테크, 사고력수학]
 author: "40대 블로거"
-image: /assets/images/posts/creverse-solo-ceo-kim-hyungjun-20261003/02-creverse-brand.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/creverse-solo-ceo-kim-hyungjun-20261003/02-creverse-brand.jpg
 description: "크레버스(096240)가 2026년 10월 1일 공시로 이동훈 대표이사의 사임과 함께 김형준 단독 대표이사 체제로 전환했습니다. 약 3년간 이어온 이동훈·김형준 각자대표 체제를 끝내고 김형준 대표가 홀로 회사를 이끌게 됩니다. 청담어학원·에이프릴어학원·CMS영재교육센터 등을 운영하는 에듀테크 기업의 지배구조 변화와 2025년 연결 실적, 학부모 관점의 의미를 정리했습니다."
 ---
 
@@ -13,7 +13,7 @@ description: "크레버스(096240)가 2026년 10월 1일 공시로 이동훈 대
 
 국내 대표 융합사고력 교육기업 **크레버스(096240)**가 각자대표 체제를 마무리하고 **김형준 단독 대표이사 체제**로 전환했습니다. 크레버스는 **2026년 10월 1일** 금융감독원 전자공시를 통해 **이동훈 대표이사의 사임**과 대표이사 변경 사실을 공시했습니다.
 
-![크레버스 로고](/assets/images/posts/creverse-solo-ceo-kim-hyungjun-20261003/01-creverse-logo.jpg)
+![크레버스 로고](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/creverse-solo-ceo-kim-hyungjun-20261003/01-creverse-logo.jpg)
 
 *크레버스(㈜크레버스) 홈페이지 로고. 출처: 크레버스 홈페이지 갈무리*
 
@@ -32,7 +32,7 @@ description: "크레버스(096240)가 2026년 10월 1일 공시로 이동훈 대
 
 자본시장 매체 보도에 따르면 약 **3년간 유지돼 온 김형준·이동훈 각자대표 체제**가 이 대표의 **자진사임**으로 막을 내렸고, 당분간 김형준 대표가 단독으로 회사를 이끌게 됩니다. 이 전 대표는 사임 후에도 **연말까지 사내이사직은 유지**할 예정이라고 전해졌습니다.
 
-![크레버스 브랜드 이미지](/assets/images/posts/creverse-solo-ceo-kim-hyungjun-20261003/02-creverse-brand.jpg)
+![크레버스 브랜드 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/creverse-solo-ceo-kim-hyungjun-20261003/02-creverse-brand.jpg)
 
 *크레버스 공식 브랜드 이미지. 출처: 크레버스 공식 홈페이지*
 
@@ -51,7 +51,7 @@ description: "크레버스(096240)가 2026년 10월 1일 공시로 이동훈 대
 
 이동훈 전 대표는 **2018년부터 2021년까지 크레버스의 전신인 청담러닝 대표이사**를 지냈고, **2023년 12월 크레버스에 복귀**해 영어 사업부를 담당했던 인물입니다. 청담어학원을 비롯한 영어 사업(B2C 어학원)이 크레버스 매출의 핵심 축인 만큼, 영어 사업을 이끌던 대표의 사임은 사업 포트폴리오 재편과 맞물려 해석될 여지가 있습니다.
 
-![청담어학원 THE OPEN 캠페인 비주얼](/assets/images/posts/creverse-solo-ceo-kim-hyungjun-20261003/03-cheongdam-the-open.jpg)
+![청담어학원 THE OPEN 캠페인 비주얼](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/creverse-solo-ceo-kim-hyungjun-20261003/03-cheongdam-the-open.jpg)
 
 *크레버스의 영어 사업 브랜드 청담어학원 캠페인 비주얼. 출처: 크레버스 공식 홈페이지*
 

@@ -16,7 +16,7 @@ noindex: true
 
 이번 글에서는 Gemini Omni 무료 이벤트의 핵심 내용과 사용 방법, 그리고 이번 프로모션이 사용자와 개발자에게 주는 의미를 요약 → 상세 분석 → 영향 → 전망 순서로 정리해 드립니다.
 
-![Gemini Omni 대표 이미지](/assets/images/posts/gemini-omni-free-20260804/gemini-omni-official.png)
+![Gemini Omni 대표 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-omni-free-20260804/gemini-omni-official.png)
 *Gemini Omni — 텍스트·이미지·영상·음성을 입력받아 영상을 만드는 구글의 멀티모달 AI 모델 (출처: Google 공식 블로그 blog.google)*
 
 > 📌 참고: 본 글은 2026년 8월 4일 기준 Google 공식 블로그, Google DeepMind, 주요 외신 보도를 바탕으로 작성한 정보형 기사입니다.

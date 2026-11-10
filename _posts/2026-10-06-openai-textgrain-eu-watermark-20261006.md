@@ -5,7 +5,7 @@ date: 2026-10-06 14:55:00 +0900
 categories: [career]
 tags: [OpenAI, textGrain, 텍스트워터마킹, 워터마킹, EUAIAct, AI규제, ChatGPT, Codex, OpenAIAPI, 콘텐츠프로비넌스, SynthID, C2PA, 업무자동화, AI뉴스, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/openai-textgrain-eu-watermark-20261006/openai-textgrain-report-cover.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-textgrain-eu-watermark-20261006/openai-textgrain-report-cover.png
 description: "2026년 10월 5일, OpenAI가 EU AI Act의 텍스트 출처 표기(provenance) 요구에 대응해 자체 텍스트 워터마킹 기술 'textGrain'을 공개했습니다. API 고객은 전 세계 어디서나 옵트인으로 켤 수 있고, EU의 ChatGPT·Codex에는 향후 몇 주간 보이지 않는 워터마크가 자동 삽입됩니다. 검출기는 연구자·전문기관 신청 방식으로만 열리며, OpenAI 자체 테스트에서 25% 단어를 바꾸면 검출률이 17%까지 떨어지는 한계도 함께 공개했습니다. 이슈 요약부터 상세 분석, 사용자·개발자 영향, 전망까지 정리했습니다."
 ---
 
@@ -15,7 +15,7 @@ AI로 만든 문장을 제품·업무 문서에 붙여 쓰는 분들이라면, �
 
 이번 글은 새 모델 출시나 가격 인하 소식이 아니라, **OpenAI가 텍스트 워터마킹을 어떻게, 어디에, 언제 적용하는지**에 대한 정책·기술 발표를 정리합니다. 무엇이 새로 나왔는지, 실제로 어떻게 동작하고 어떤 한계가 있는지, 그리고 사용자와 개발자에게 무엇이 달라지는지 짚어 보겠습니다.
 
-![OpenAI 공식 'textGrain' 기술 보고서 표지 (출처: OpenAI 공식 기술 보고서, 2026년 10월 5일)](/assets/images/posts/openai-textgrain-eu-watermark-20261006/openai-textgrain-report-cover.png)
+![OpenAI 공식 'textGrain' 기술 보고서 표지 (출처: OpenAI 공식 기술 보고서, 2026년 10월 5일)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-textgrain-eu-watermark-20261006/openai-textgrain-report-cover.png)
 *OpenAI 공식 'textGrain' 기술 보고서 표지 (출처: OpenAI 공식 기술 보고서, cdn.openai.com, 2026년 10월 5일)*
 
 ## 이슈 요약 — 무엇이 새로 나왔나
@@ -33,7 +33,7 @@ AI로 만든 문장을 제품·업무 문서에 붙여 쓰는 분들이라면, �
 
 한마디로, **"AI 텍스트를 사후에 식별할 수 있게 만드는 장치"** 를 OpenAI가 **유럽 규제에 맞춰** 공식화한 사건입니다.
 
-![OpenAI 로고 (출처: Wikimedia Commons, 퍼블릭 도메인)](/assets/images/posts/openai-textgrain-eu-watermark-20261006/openai-logo-wordmark.png)
+![OpenAI 로고 (출처: Wikimedia Commons, 퍼블릭 도메인)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-textgrain-eu-watermark-20261006/openai-logo-wordmark.png)
 *OpenAI 로고 (출처: Wikimedia Commons, 퍼블릭 도메인)*
 
 ## 상세 분석 — textGrain은 어떻게 동작하나
@@ -53,7 +53,7 @@ AI로 만든 문장을 제품·업무 문서에 붙여 쓰는 분들이라면, �
 
 정리하면, textGrain은 **"AI가 개입했다는 약한 신호"** 를 남기는 도구이지, **"저작권·책임을 판정하는 만능 심판"** 은 아니라는 것입니다.
 
-![유럽의회(European Parliament) 브뤼셀 청사 (출처: Wikimedia Commons, CC BY-SA 4.0, Steven Lek)](/assets/images/posts/openai-textgrain-eu-watermark-20261006/eu-parliament-brussels.jpg)
+![유럽의회(European Parliament) 브뤼셀 청사 (출처: Wikimedia Commons, CC BY-SA 4.0, Steven Lek)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-textgrain-eu-watermark-20261006/eu-parliament-brussels.jpg)
 *유럽의회(European Parliament) 브뤼셀 청사 (출처: Wikimedia Commons, CC BY-SA 4.0, Steven Lek)*
 
 ## 배경 — 왜 EU에서 먼저인가

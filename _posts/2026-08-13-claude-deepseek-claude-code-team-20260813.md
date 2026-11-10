@@ -16,7 +16,7 @@ noindex: true
 
 이번 글에서는 블룸버그 보도를 바탕으로 **이슈 요약 → 상세 분석 → 영향 → 전망** 순서로 정리해 드립니다.
 
-![Claude Code 공식 제품 이미지](/assets/images/posts/claude-deepseek-claude-code-team-20260813/claude-code-official.jpg)
+![Claude Code 공식 제품 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/claude-deepseek-claude-code-team-20260813/claude-code-official.jpg)
 *Claude Code — Anthropic의 AI 코딩 에이전트 (출처: Anthropic 공식 홈페이지 claude.com)*
 
 > 📌 참고: 본 글은 2026년 8월 13일 기준 블룸버그(2026-08-12) 보도와 Anthropic 공식 문서를 바탕으로 작성한 정보형 기사입니다.
@@ -75,7 +75,7 @@ DeepSeek는 지난해부터 오픈소스 모델과 초저가 API로 AI 업계의
 
 저처럼 **"가성비 좋은 코딩 에이전트"** 찾으시는 분들에겐, 당분간 경쟁이 치열해질수록 좋은 소식이 이어질 것 같습니다. 다음 업데이트가 나오면 또 정리해 드릴게요!
 
-![DeepSeek 공식 로고](/assets/images/posts/claude-deepseek-claude-code-team-20260813/deepseek-logo.png)
+![DeepSeek 공식 로고](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/claude-deepseek-claude-code-team-20260813/deepseek-logo.png)
 *DeepSeek — 오픈소스 AI 모델 기업 (출처: Wikimedia Commons, DeepSeek logo)*
 
 **참고 자료**

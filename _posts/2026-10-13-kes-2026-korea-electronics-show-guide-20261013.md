@@ -5,11 +5,11 @@ date: 2026-10-13 11:20:00 +0900
 categories: [products]
 tags: [KES2026, 한국전자전, KES, 코엑스, 삼성전자KES2026, LG전자KES2026, AIinMotion, 마이크로RGB, 비스포크AI, 갤럭시Z폴드8, LG클로이드, 스마트코티지, 칩투칠러, CES2027, CES아시아언베일드서울, 제품비교, 구매가이드, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/kes-2026-korea-electronics-show-guide-20261013/kes-2026-official-poster.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/kes-2026-korea-electronics-show-guide-20261013/kes-2026-official-poster.jpg
 description: "국내 최대 전자·IT 전시회 'KES 2026(한국전자전)'이 2026년 10월 13일 서울 코엑스 A·B홀에서 개막해 16일까지 나흘간 열립니다. 슬로건은 'AI in Motion'으로, 27개국 500개사가 1107개 부스 규모로 참가합니다. 삼성전자는 마이크로 RGB·비스포크 AI·갤럭시 Z 폴드8로 '일상의 AI'를, LG전자는 일상 레이어·산업 레이어로 나눠 홈 로봇 '클로이드'부터 AI 데이터센터 액체냉각 '칩 투 칠러'까지 선보입니다. CTA가 함께하는 'CES 아시아 언베일드 서울'에서 CES 2027 트렌드도 미리 공개됩니다. 이 글은 개요 → 삼성전자 → LG전자 → 비교 포인트 → 관람 가이드 순서로 정리했습니다."
 ---
 
-![KES 2026 한국전자전 공식 포스터 — 'AI in Motion' 슬로건과 개최 정보가 담긴 안내 이미지](/assets/images/posts/kes-2026-korea-electronics-show-guide-20261013/kes-2026-official-poster.jpg)
+![KES 2026 한국전자전 공식 포스터 — 'AI in Motion' 슬로건과 개최 정보가 담긴 안내 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/kes-2026-korea-electronics-show-guide-20261013/kes-2026-official-poster.jpg)
 *제57회 한국전자전(KES 2026) 공식 안내 이미지. 2026년 10월 13일부터 16일까지 서울 코엑스 A·B홀에서 열립니다 (출처: COEX 공식 전시 안내)*
 
 > **📌 한줄 요약:** 국내 최대 전자·IT 전시회 **KES 2026(한국전자전)**이 **2026년 10월 13일** 서울 코엑스 A·B홀에서 막을 올려 **16일까지 나흘간** 열립니다. 슬로건은 **'AI in Motion(기술을 넘어 현실로)'**이고, **27개국 500개사가 1107개 부스** 규모로 참가합니다. 삼성전자는 **마이크로 RGB·비스포크 AI·갤럭시 Z 폴드8**로 '일상에 스며든 AI'를, LG전자는 **'일상 레이어'와 '산업 레이어'**로 나눠 홈 로봇 **'클로이드'**부터 AI 데이터센터 액체냉각 **'칩 투 칠러'**까지 선보입니다. 미국 소비자기술협회(CTA)와 함께하는 **'CES 아시아 언베일드 서울'**에서는 **CES 2027 트렌드**까지 미리 엿볼 수 있습니다.
@@ -43,7 +43,7 @@ KES(한국전자전)는 1969년 시작해 올해 **57회**를 맞는 국내 최�
 
 해외 참가국이 지난해 12개국에서 두 배 이상 늘어난 점도 눈에 띕니다. 유럽 기업들이 모인 **'EU 비즈니스 허브'**, 모로코 투자수출개발청(AMDIE) 등도 합류했습니다. 같은 기간 코엑스에서는 **반도체대전**과 **스마트비즈엑스포**도 함께 열립니다.
 
-![삼성전자 KES 2026 전시 공식 이미지 — '일상에 스며든 AI 라이프'를 주제로 한 전시 키비주얼](/assets/images/posts/kes-2026-korea-electronics-show-guide-20261013/samsung-kes2026-booth.jpg)
+![삼성전자 KES 2026 전시 공식 이미지 — '일상에 스며든 AI 라이프'를 주제로 한 전시 키비주얼](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/kes-2026-korea-electronics-show-guide-20261013/samsung-kes2026-booth.jpg)
 *삼성전자가 공개한 KES 2026 전시 키비주얼. 디스플레이·가전·모바일 전반에 적용된 AI 기술을 체험형으로 구성했습니다 (출처: Samsung Newsroom, 2026.10.13)*
 
 ---
@@ -82,7 +82,7 @@ LG전자는 약 **902㎡** 전시관을 **'일상 레이어'**와 **'산업 레�
 
 LG전자관의 메시지는 명확합니다. **가전 구독(일상)**에서 **데이터센터·공장·모빌리티(산업)**까지, AI 기술을 B2B로 확장하는 그림입니다.
 
-![LG전자 KES 2026 전시관 — 일상 레이어와 산업 레이어로 나눠 구성된 전시 공간](/assets/images/posts/kes-2026-korea-electronics-show-guide-20261013/lg-kes2026-booth.jpg)
+![LG전자 KES 2026 전시관 — 일상 레이어와 산업 레이어로 나눠 구성된 전시 공간](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/kes-2026-korea-electronics-show-guide-20261013/lg-kes2026-booth.jpg)
 *LG전자는 'LG 라이프 레이어'를 주제로 약 902㎡ 전시관을 운영합니다. 입구에서는 홈 로봇 '클로이드'가 관람객을 맞이합니다 (출처: LG전자 제공 / G-News, 2026.10.13)*
 
 ---
@@ -105,7 +105,7 @@ LG전자관의 메시지는 명확합니다. **가전 구독(일상)**에서 **�
 
 한 가지 주의할 점은, 전시는 **제품의 최종 판매 조건(가격·출시일)**을 확정해 알려주는 자리가 아니라는 것입니다. 관심 제품은 전시 이후 **각 사 공식 채널의 출시 정보**로 다시 확인하는 편이 안전합니다.
 
-![코엑스(COEX) 전시장 외관 — KES 2026이 열리는 서울 강남 코엑스](/assets/images/posts/kes-2026-korea-electronics-show-guide-20261013/coex-convention-center.jpg)
+![코엑스(COEX) 전시장 외관 — KES 2026이 열리는 서울 강남 코엑스](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/kes-2026-korea-electronics-show-guide-20261013/coex-convention-center.jpg)
 *KES 2026이 열리는 서울 코엑스 전경. A·B홀에서 나흘간 전시가 진행됩니다 (출처: Wikimedia Commons)*
 
 ---

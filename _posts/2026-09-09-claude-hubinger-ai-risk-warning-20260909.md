@@ -6,7 +6,7 @@ categories: [career]
 tags: [Anthropic, Claude, 앤트로픽, 클로드, AI뉴스, AI안전, 정렬, Alignment, EvanHubinger, 에반후빈저, JacobCoxon, 제이콥콕슨, 초지능, 자기개선AI, 인류멸종위험, AI규제, 사임, 2026년9월, AI산업]
 author: "40대 블로거"
 description: "Anthropic에서 프리트레이닝 연구를 해온 제이콥 콕슨(Jacob Coxon)이 9월 8일(현지시간) 'OpenAI와 Anthropic 모두 책임 있게 행동하지 않고, 자기개선 초지능을 향해 질주하며 우리 목숨을 걸고 도박 중'이라며 사임을 알렸습니다. 여기에 현직 정렬 과학 리드 에반 후빈저(Evan Hubinger)가 '동료 말이 맞다. 우리는 AI가 인류 전체를 죽일 수 있다고 진심으로 믿는다'며 향후 10년 내 확률을 10% 이상으로 추정한다고 덧붙여, CNBC·Forbes·Business Insider·Politico 등이 9월 9일 일제히 보도했습니다. 이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망 순서로 정리했습니다."
-image: /assets/images/posts/2026-09-09-claude-hubinger-ai-risk-warning-20260909/claude-official-og.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-09-09-claude-hubinger-ai-risk-warning-20260909/claude-official-og.jpg
 sitemap: false
 noindex: true
 ---
@@ -17,7 +17,7 @@ noindex: true
 
 오늘은 이 사태를 **이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망** 순서로 정리해 드리겠습니다.
 
-![Claude 공식 웹사이트 대표(og) 이미지 — Claude](/assets/images/posts/2026-09-09-claude-hubinger-ai-risk-warning-20260909/claude-official-og.jpg)
+![Claude 공식 웹사이트 대표(og) 이미지 — Claude](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-09-09-claude-hubinger-ai-risk-warning-20260909/claude-official-og.jpg)
 *Claude 공식 웹사이트(claude.com) 대표(og) 이미지 (출처: Anthropic, 2026)*
 
 > 📌 참고: 본 글은 2026년 9월 8~9일 제이콥 콕슨·에반 후빈저의 X 게시물과 9월 9일 CNBC·Forbes·Business Insider·Politico·Economic Times 등 외신 보도를 바탕으로 작성한 정보형 기사입니다.
@@ -75,7 +75,7 @@ noindex: true
 - **개발 속도 조절(coordinated slowdown) 논의**: Forbes 등은 이번 경고가 **일부 AI 경영진이 개발 속도 조절을 촉구하는 움직임**과 맞물려 나왔다고 전했습니다. 업계 내부에서도 '속도 vs 안전'을 두고 균열이 커지고 있다는 신호입니다.
 - **IPO를 앞둔 Anthropic**: 앞선 글(9월 8일)에서 다뤘듯 Anthropic은 **IPO 로드쇼를 10월 중순으로 연기하고 11월 중간선거 직전 상장**을 노리며, 시장에서는 2조 달러 데뷔 가능성까지 거론됩니다. '안전 최우선' 서사가 기업가치의 핵심 축인 회사에서, **내부 연구원의 공개 사임 + 정렬 리더의 멸종 경고**가 겹친 것은 투자자·고객 모두에게 부담이 될 수밖에 없습니다.
 
-![Anthropic 정렬 과학 리드 에반 후빈저 — 'Alignment Stress-Testing at Anthropic' 발표 영상](/assets/images/posts/2026-09-09-claude-hubinger-ai-risk-warning-20260909/evan-hubinger-alignment-talk.jpg)
+![Anthropic 정렬 과학 리드 에반 후빈저 — 'Alignment Stress-Testing at Anthropic' 발표 영상](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-09-09-claude-hubinger-ai-risk-warning-20260909/evan-hubinger-alignment-talk.jpg)
 *에반 후빈저(Evan Hubinger)의 'Alignment Stress-Testing at Anthropic' 관련 발표 영상 (출처: YouTube, 해당 발표 영상 썸네일)*
 
 ---

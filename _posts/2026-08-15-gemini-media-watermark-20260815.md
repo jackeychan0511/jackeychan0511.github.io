@@ -13,7 +13,7 @@ noindex: true
 
 2026년 8월 14일(미국 현지시간), 구글이 **Gemini 앱과 AI 비디오 생성기 'Flow'에 'Media Watermark' 설정**을 추가했습니다. AI로 만든 이미지·영상·음악에 붙던 **보이는 워터마크를 끌 수 있게** 된 건데요. 다만 **보이지 않는 SynthID 워터마크와 C2PA 메타데이터는 그대로 남아** "AI가 만들었다는 증거"는 계속 남습니다. 오늘은 **이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망** 순서로 정리해 드립니다.
 
-![Google Gemini 공식 앱 아이콘](/assets/images/posts/gemini-media-watermark-20260815/gemini-app-icon-google-play.png)
+![Google Gemini 공식 앱 아이콘](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-media-watermark-20260815/gemini-app-icon-google-play.png)
 *Google Gemini 공식 앱 아이콘 — 'Media Watermark' 설정이 추가된 AI 앱 (출처: Google Play 스토어 공식 CDN, play.google.com)*
 
 ## 📌 이슈 요약: "보이는 워터마크는 끄게 해주되, 증거는 남긴다"
@@ -40,7 +40,7 @@ noindex: true
 
 즉, **"AI 이미지인지 눈으로 바로 구분하기는 어려워지지만, 검증 도구로는 여전히 100% 확인 가능"**한 구조입니다. 생성물의 "순도"를 높여주되, 투명성의 끈은 놓지 않겠다는 구글의 절충안이죠.
 
-![Gemini 스파클 로고 — AI 생성물 모서리 워터마크](/assets/images/posts/gemini-media-watermark-20260815/gemini-sparkle-wikimedia.png)
+![Gemini 스파클 로고 — AI 생성물 모서리 워터마크](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-media-watermark-20260815/gemini-sparkle-wikimedia.png)
 *Gemini '스파클(sparkle)' 로고 — 이번에 끄고 켤 수 있게 된, AI 생성물 모서리에 찍히는 보이는 워터마크 (출처: Wikimedia Commons, 구글 공식 로고)*
 
 ### 2. 어디서, 언제 쓸 수 있나 — 대상 서비스와 롤아웃 범위

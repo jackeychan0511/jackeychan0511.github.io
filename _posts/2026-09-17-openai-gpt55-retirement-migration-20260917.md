@@ -5,21 +5,21 @@ date: 2026-09-17 14:52:00 +0900
 categories: [career]
 tags: [GPT, OpenAI, 챗GPT, GPT5.5, GPT56Sol, GPT6Astra, Codex, 모델은퇴, 디프리케이션, 마이그레이션, AI에이전트, 업무자동화, AI뉴스, 2026년9월]
 author: "40대 블로거"
-image: /assets/images/posts/openai-gpt55-retirement-20260917/chatgpt-smartphone-hand-wikimedia.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-gpt55-retirement-20260917/chatgpt-smartphone-hand-wikimedia.jpg
 description: "2026년 9월 16일, OpenAI가 GPT-5.5를 10월 14일자로 ChatGPT·ChatGPT Work·Codex에서 전면 은퇴시킨다고 공지했습니다. 무료부터 Business·Enterprise·Edu까지 모든 플랜이 대상이고, OpenAI API는 제외됩니다. 2026년 4월 23일 출시 이후 174일 만의 은퇴로, 이동 대상은 GPT-5.6 Sol(또는 Terra·Luna)과 GPT-6 Astra입니다. 이슈 요약, 상세 분석, 사용자·개발자 영향과 마이그레이션 체크리스트, 전망까지 정리했습니다."
 sitemap: false
 noindex: true
 ---
 > **📌 한줄 요약:** **2026년 9월 16일**, OpenAI가 **GPT-5.5를 10월 14일자로 ChatGPT·ChatGPT Work·Codex에서 은퇴**시킨다고 공지했습니다. 대상은 **무료·Plus·Pro·Business·Enterprise·Edu 전 플랜**이고, **OpenAI API는 이번 은퇴 범위에서 제외**됩니다. GPT-5.5는 **2026년 4월 23일 출시**됐으니, **정확히 174일 만의 퇴장**입니다. 갈아타야 할 곳은 **GPT-5.6 Sol**(또는 Terra·Luna), 그리고 **GPT-6 Astra**입니다. 아래에서 무엇이 바뀌는지, 업무 파이프라인에 어떤 영향이 있는지 정리했습니다.
 
-![손에 쥔 스마트폰 속 ChatGPT와 OpenAI — 모델 교체 이슈를 상징하는 이미지 (출처: Wikimedia Commons · 촬영 Jernej Furman · CC BY 2.0)](/assets/images/posts/openai-gpt55-retirement-20260917/chatgpt-smartphone-hand-wikimedia.jpg)
+![손에 쥔 스마트폰 속 ChatGPT와 OpenAI — 모델 교체 이슈를 상징하는 이미지 (출처: Wikimedia Commons · 촬영 Jernej Furman · CC BY 2.0)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-gpt55-retirement-20260917/chatgpt-smartphone-hand-wikimedia.jpg)
 *손에 쥔 스마트폰 속 ChatGPT (출처: Wikimedia Commons · 촬영 Jernej Furman · CC BY 2.0)*
 
 요즘 저처럼 **특정 모델을 정해두고 업무 파이프라인을 그 위에 얹어 쓰는 분들** 많으시죠. 저도 Codex로 코드 초안을 뽑고, 챗GPT 쪽에서는 모델 선택을 거의 건드리지 않은 채로 몇 달을 굴렸습니다. **한 번 손에 익은 모델의 말투와 판단 기준**이 있으면, 굳이 바꿀 이유를 못 느끼거든요. 솔직히 저는 "모델은 알아서 좋은 걸로 가겠지" 하고 넘기는 편이었습니다.
 
 그런데 **9월 16일**, OpenAI가 짧고 단호한 공지를 띄웠습니다. **"GPT-5.5, 10월 14일 은퇴"**. 4월에 나온 모델이 **174일 만에** 구독 요금제 전반에서 사라지는 겁니다. 이건 남의 회사 이슈가 아니라, **내 자동화 스크립트와 프롬프트 세트를 다시 손봐야 하는 일정표**라서 정리해 봤습니다.
 
-![ChatGPT 공식 로고 (출처: Wikimedia Commons · OpenAI 브랜드 로고 · 퍼블릭 도메인)](/assets/images/posts/openai-gpt55-retirement-20260917/chatgpt-logo-openai-wikimedia.png)
+![ChatGPT 공식 로고 (출처: Wikimedia Commons · OpenAI 브랜드 로고 · 퍼블릭 도메인)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-gpt55-retirement-20260917/chatgpt-logo-openai-wikimedia.png)
 *ChatGPT 공식 로고 (출처: Wikimedia Commons · OpenAI 브랜드 로고 · 퍼블릭 도메인)*
 
 ## 이슈 요약 — 무엇이 확정됐나

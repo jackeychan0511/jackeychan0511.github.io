@@ -6,14 +6,14 @@ categories: [career]
 tags: [Anthropic, Claude, 앤트로픽, 클로드, AI뉴스, Salesforce, 세일즈포스, Claudeforce, 클라우드포스, CRM, AI CRO, Slack, 슬랙, Agentforce, 에이전트포스, MCP, AI에이전트, AI Agent, Headless 360, AIforce, 2026년8월, AI산업]
 author: "40대 블로거"
 description: "2026년 8월 26일 세일즈포스(Salesforce)가 Q2 FY27 실적 발표와 함께 앤트로픽(Anthropic)과의 확장 파트너십 '클라우드포스(Claudeforce)'를 발표했습니다. 핵심은 CRM 전체를 클로드(Claude) 안으로 가져오는 'Salesforce in Claude' 플러그인으로, 미팅 준비·딜 헬스 리뷰·파이프라인 리뷰 등 37개의 사전 구축 영업 스킬을 갖춰 영업 담당자에게 'AI CRO' 역할을 합니다. 슬랙(Slack)에는 클로드가 기본 모델로 탑재되고, 에이전트포스(Agentforce)와 Amazon Bedrock 기반 Trust Boundary 통합도 포함됩니다. 오픈 베타는 2026년 9월 예정이며, 발표 직후 CRM 주가는 애프터마켓에서 13% 급등했습니다. 이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망 순서로 정리했습니다."
-image: /assets/images/posts/2026-08-27-claudeforce-salesforce-partnership/claudeforce-official.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-08-27-claudeforce-salesforce-partnership/claudeforce-official.png
 sitemap: false
 noindex: true
 ---
 
 요즘 저처럼 **Claude Cowork에 업무를 맡겨보신 분들**, 많으시죠? 솔직히 저는 에이전트가 자료를 정리하고 일정을 잡아주는 게 너무 편해서, 이제는 회사 CRM에 일부러 로그인해서 화면을 클릭클릭하는 게 오히려 번거롭게 느껴지기 시작했습니다. 그런데 8월 26일, **세일즈포스(Salesforce)와 앤트로픽(Anthropic)이 '클라우드포스(Claudeforce)'라는 파트너십을 발표**하면서 이 불편이 싹 사라질 전망입니다. CRM 데이터를 클로드 안에서 바로 읽고, 업데이트하고, 실행까지 할 수 있게 됐거든요. 오늘은 이 **이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망** 순서로 정리해 드리겠습니다.
 
-![클라우드포스(Claudeforce) 파트너십 공식 발표 이미지](/assets/images/posts/2026-08-27-claudeforce-salesforce-partnership/claudeforce-official.png)
+![클라우드포스(Claudeforce) 파트너십 공식 발표 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-08-27-claudeforce-salesforce-partnership/claudeforce-official.png)
 *세일즈포스·앤트로픽 '클라우드포스(Claudeforce)' 공식 발표 이미지 (출처: Salesforce 뉴스룸 공식 보도자료, 2026.8.26)*
 
 ## 📌 이슈 요약: "세계 1위 AI와 세계 1위 CRM의 만남"
@@ -47,7 +47,7 @@ noindex: true
 
 발표는 세일즈포스 실적 발표와 함께 이뤄졌는데, 시장 반응이 상당했습니다. CRM 주가는 애프터마켓에서 **13% 급등**했고, 베니오프 CEO는 "확률적 지능(probabilistic intelligence)만으로 회사가 돌아가지 않고, 결정적 시스템(deterministic systems)은 추론하지 못한다. 클로드의 추론과 신뢰할 수 있는 데이터·워크플로·거버넌스를 결합해 **'UI가 곧 AI'인** 다이내믹 인터페이스를 만들었다. 이렇게 모든 기업이 운영하게 될 것"이라고 강조했습니다. 다리오 아모데이(Dario Amodei) 앤트로픽 CEO도 "전 세계 상업 활동이 일어나는 시스템에 프런티어 인텔리전스를 가져왔다"고 화답했습니다.
 
-![마크 베니오프와 다리오 아모데이](/assets/images/posts/2026-08-27-claudeforce-salesforce-partnership/claudeforce-benioff-amodei.jpg)
+![마크 베니오프와 다리오 아모데이](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-08-27-claudeforce-salesforce-partnership/claudeforce-benioff-amodei.jpg)
 *클라우드포스 발표를 함께한 세일즈포스 CEO 마크 베니오프(左)와 앤트로픽 CEO 다리오 아모데이(右) (출처: CNBC, 2026.8.26)*
 
 ## 💡 영향: 사용자·개발자에게 미치는 변화

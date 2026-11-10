@@ -5,13 +5,13 @@ date: 2026-07-31 11:00:00 +0900
 categories: [products]
 tags: [삼성, 프리스타일플러스, 더프리스타일, 빔프로젝터, 포터블프로젝터, AI프로젝터, AI옵티스크린, CES2026, 가전, 신제품, 캠핑용, 홈시네마]
 author: "40대 블로거"
-image: /assets/images/posts/samsung-freestyle-plus-2026/freestyle-plus-hero.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/samsung-freestyle-plus-2026/freestyle-plus-hero.jpg
 description: "삼성 더 프리스타일+는 전작 대비 2배 밝아진 430 ISO 루멘과 AI OptiScreen 자동 화면 보정을 갖춘 2026년형 AI 포터블 프로젝터입니다. 미국 출시가 $1,200, 국내 출시 전 정보를 스펙·장단점·구매 팁으로 정리했습니다."
 ---
 
 > **📌 한줄 요약:** 삼성 **더 프리스타일+** 는 전작 대비 약 2배 밝아진 **430 ISO 루멘**과 **AI OptiScreen**(자동 초점·키스톤·색보정)을 탑재한 2026년형 AI 포터블 프로젝터입니다. **1080p 해상도에 최대 100인치** 화면을 내고, 미국 기준 **$1,200**에 출시됐습니다. 국내 출시 전인 지금, 스펙과 해외 리뷰를 종합해 살펴봅니다.
 
-![삼성 더 프리스타일+ 라이프스타일 이미지 — 거실에서 사용하는 모습](/assets/images/posts/samsung-freestyle-plus-2026/freestyle-plus-hero.jpg)
+![삼성 더 프리스타일+ 라이프스타일 이미지 — 거실에서 사용하는 모습](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/samsung-freestyle-plus-2026/freestyle-plus-hero.jpg)
 *삼성 더 프리스타일+ 실사용 모습 (출처: Samsung Newsroom, 2026-07-17 확인)*
 
 ---
@@ -33,7 +33,7 @@ description: "삼성 더 프리스타일+는 전작 대비 2배 밝아진 430 IS
 
 이번 글에서는 삼성 뉴스룸과 해외 리뷰(Tom's Guide, PCMag, Engadget, Gadget Review) 정보를 종합해서, **국내 출시 전에 미리 알면 좋은 정보**를 정리했습니다.
 
-![삼성 더 프리스타일+ 라이프스타일 2 — 이동형 사용 모습](/assets/images/posts/samsung-freestyle-plus-2026/freestyle-plus-lifestyle.jpg)
+![삼성 더 프리스타일+ 라이프스타일 2 — 이동형 사용 모습](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/samsung-freestyle-plus-2026/freestyle-plus-lifestyle.jpg)
 *공간을 옮겨 다니며 쓰는 포터블 프로젝터 (출처: Samsung Newsroom, 2026-07-17 확인)*
 
 ---
@@ -68,7 +68,7 @@ description: "삼성 더 프리스타일+는 전작 대비 2배 밝아진 430 IS
 
 솔직히 "AI 기능이면 다 거기서 거기 아니야?"라고 생각할 수 있는데, 해외 리뷰 반응은 꽤 긍정적이에요. **"설정에 시간 뺏기지 않고 켜자마자 본다"**는 사용 경험을 강조하는 평가가 많습니다.
 
-![더 프리스타일+ 포인트 앤 플레이 — AI 자동 화면 보정 기능](/assets/images/posts/samsung-freestyle-plus-2026/freestyle-plus-point-and-play.jpg)
+![더 프리스타일+ 포인트 앤 플레이 — AI 자동 화면 보정 기능](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/samsung-freestyle-plus-2026/freestyle-plus-point-and-play.jpg)
 *어떤 벽면에도 자동 보정하는 AI OptiScreen (출처: Samsung Newsroom, 2026-07-17 확인)*
 
 ---
@@ -123,7 +123,7 @@ description: "삼성 더 프리스타일+는 전작 대비 2배 밝아진 430 IS
 2. **직구를 고려한다면** 미국 출시가 $1,200(약 165만 원)에 세금·배송비가 붙습니다. 국내 출시가와 비교해 **직구가 이득인지 꼭 계산**해보세요.
 3. **전작(더 프리스타일) 재고 할인**도 눈여겨볼 만합니다. 밝기가 덜 중요하고 가격이 부담된다면, 100만 원 이하로 풀리는 전작도 현실적인 선택지예요.
 
-![삼성 더 프리스타일+ 제품 이미지 (Engadget)](/assets/images/posts/samsung-freestyle-plus-2026/freestyle-plus-engadget.jpg)
+![삼성 더 프리스타일+ 제품 이미지 (Engadget)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/samsung-freestyle-plus-2026/freestyle-plus-engadget.jpg)
 *더 프리스타일+ 본체 디자인 (출처: Engadget, 2026-07 확인)*
 
 ---

@@ -4,7 +4,7 @@ title: "후쿠오카 혼밥 맛집: 야끼소바 소후렌 와타나베도리점
 date: 2026-07-29 14:00:00 +0900
 categories: [food]
 tags: [후쿠오카, 후쿠오카맛집, 야끼소바, 소후렌, 히타야키소바, 혼밥, 혼술, 와타나베도리, 일본맛집, 규슈여행]
-image: /assets/images/posts/yakisoba-sohren/hero-sohren.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/yakisoba-sohren/hero-sohren.jpg
 ---
 
 후쿠오카 여행 중 혼자 가볍게 한 끼 때우기 좋은 곳을 찾다가 발견한 **야끼소바 소후렌 와타나베도리점**. 결론부터 말하면 **2600엔**으로 맥주까지 곁들인 혼술 한 끼가 이렇게 만족스러울 수가 없었습니다.
@@ -31,7 +31,7 @@ image: /assets/images/posts/yakisoba-sohren/hero-sohren.jpg
 
 소후렌의 야키소바는 일반적인 볶음 야키소바와 다릅니다. 철판에서 **면을 바싹 구워서** 꼬들꼬들한 식감이 특징이에요. 
 
-![소후렌 야끼소바 — 철판에 구워낸 히타 야키소바](/assets/images/posts/yakisoba-sohren/1.jpg)
+![소후렌 야끼소바 — 철판에 구워낸 히타 야키소바](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/yakisoba-sohren/1.jpg)
 *히타 야키소바의 정수 — 철판에 구워 바삭한 식감이 일품*
 
 면의 일부는 살짝 타서 바삭바삭하고, 숙주는 아삭한 식감을 살려줍니다. 돼지고기와 파의 조화가 환상적이고, 비법 소스가 전체를 깔끔하게 마무리해요.
@@ -51,7 +51,7 @@ image: /assets/images/posts/yakisoba-sohren/hero-sohren.jpg
 | 아사히 병맥주 | 600엔 |
 | **합계** | **약 2,600엔** |
 
-![소후렌 교자와 계란 토핑](/assets/images/posts/yakisoba-sohren/2.jpg)
+![소후렌 교자와 계란 토핑](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/yakisoba-sohren/2.jpg)
 *계란 토핑 올린 야끼소바와 교자 — 시원한 하이볼 한 잔이면 혼술에 딱*
 
 야끼소바의 짭짤한 맛에 시원한 하이볼이 정말 잘 어울립니다. 탄산이 느끼함을 깔끔하게 잡아줘요.
@@ -62,7 +62,7 @@ image: /assets/images/posts/yakisoba-sohren/hero-sohren.jpg
 
 소후렌에는 **'굽기 장인'** 제도가 있습니다. 본부 인증을 받은 장인만이 철판 앞에 설 수 있고, 고온의 철판에서 면과 재료를 단숨에 구워내는 기술은 60년 역사가 만든 결과물입니다.
 
-![소후렌 매장 내부와 조리 모습](/assets/images/posts/yakisoba-sohren/3.jpg)
+![소후렌 매장 내부와 조리 모습](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/yakisoba-sohren/3.jpg)
 *철판 앞에 선 장인이 즉석에서 구워내는 소후렌의 야끼소바*
 
 ---

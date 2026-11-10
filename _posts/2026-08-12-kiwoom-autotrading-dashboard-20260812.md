@@ -6,7 +6,7 @@ categories: [ai-teacher]
 tags: [주식, 자동매매, 키움증권, Python, FastAPI, React, 개발일지, 2026년8월]
 author: "40대 블로거"
 description: "키움증권 OpenAPI+를 활용한 주식 자동매매 대시보드를 기획부터 구현까지 직접 만들어본 개발 일지. 기술 스택 선택 이유, 자동매매 엔진, 리스크 관리, 텔레그램 연동까지 한 번에 정리했습니다."
-image: /assets/images/posts/kiwoom-autotrading-dashboard-20260812/1.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/kiwoom-autotrading-dashboard-20260812/1.jpg
 ---
 
 요즘 저처럼 주식 자동매매에 관심 갖고 계신 분들 많으시죠? 🤖
@@ -83,7 +83,7 @@ kiwoom-dashboard/
 - **국내 지수** (KOSPI, KOSDAQ) → 키움 TR로 실시간 조회
 - **해외 지수** (다우, 나스닥, 닛케이, 상해) → 키움 REST에는 해외 지수 TR이 없어서 **Yahoo Finance API**로 대체
 
-![메인 대시보드 — 국내·해외 지수](/assets/images/posts/kiwoom-autotrading-dashboard-20260812/1.jpg)
+![메인 대시보드 — 국내·해외 지수](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/kiwoom-autotrading-dashboard-20260812/1.jpg)
 *메인 대시보드 — KOSPI/KOSDAQ(키움 TR) + 다우/나스닥/닛케이/상해(Yahoo Finance 폴백)*
 
 ```python
@@ -103,18 +103,18 @@ def get_global_indices():
 
 관심목록 → 종목 클릭 → 차트 페이지 (종목코드 + 이름 전달)
 
-![관심목록 화면](/assets/images/posts/kiwoom-autotrading-dashboard-20260812/11.jpg)
+![관심목록 화면](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/kiwoom-autotrading-dashboard-20260812/11.jpg)
 *관심목록 — 저장한 종목들이 시세와 함께 표시*
 
-![수동매매 화면](/assets/images/posts/kiwoom-autotrading-dashboard-20260812/12.jpg)
+![수동매매 화면](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/kiwoom-autotrading-dashboard-20260812/12.jpg)
 *수동매매 화면 — 직접 종목을 골라 주문을 낼 수 있는 페이지*
 
 차트 페이지에서는 일봉/분봉 캔들 + 보조지표(이동평균, RSI, MACD 등)를 함께 볼 수 있습니다.
 
-![차트 진단 — 삼성전자](/assets/images/posts/kiwoom-autotrading-dashboard-20260812/4.jpg)
+![차트 진단 — 삼성전자](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/kiwoom-autotrading-dashboard-20260812/4.jpg)
 *종목 상세 — 005930 삼성전자 시세/거래량 (2026-08-12, +4.13%)*
 
-![차트 보조지표](/assets/images/posts/kiwoom-autotrading-dashboard-20260812/8.jpg)
+![차트 보조지표](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/kiwoom-autotrading-dashboard-20260812/8.jpg)
 *보조지표 — RSI 45.5, MACD, 거래량 4,640,323 (-5.4%)*
 
 ## 6️⃣ 텔레그램 아침 리포트 봇
@@ -146,13 +146,13 @@ def morning_report():
 
 채팅창에서 보낸 메시지가 백엔드를 거쳐 Hermes 에이전트가 자연어를 이해하고 실제 API를 호출하는 구조입니다. 대화 컨텍스트(세션)도 유지돼서 "아까 그 종목 손절선은?" 같은 후속 질문도 가능해요.
 
-![AI 어시스턴트 — 지수 요약](/assets/images/posts/kiwoom-autotrading-dashboard-20260812/3.jpg)
+![AI 어시스턴트 — 지수 요약](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/kiwoom-autotrading-dashboard-20260812/3.jpg)
 *AI 채팅으로 "지수 상황 알려줘" → KOSPI +0.73%, MSCI ETF +2.53% 등 요약 응답*
 
-![AI 어시스턴트 — DeepSeek 연동](/assets/images/posts/kiwoom-autotrading-dashboard-20260812/9.jpg)
+![AI 어시스턴트 — DeepSeek 연동](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/kiwoom-autotrading-dashboard-20260812/9.jpg)
 *AI 어시스턴트 (DeepSeek 모델 연동 화면)*
 
-![AI 자연어 매매 주문](/assets/images/posts/kiwoom-autotrading-dashboard-20260812/10.jpg)
+![AI 자연어 매매 주문](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/kiwoom-autotrading-dashboard-20260812/10.jpg)
 *자연어로 "NHN 60,600원 매수" → 주문번호 0111547, return_code 0 (체결 성공)*
 
 ## 8️⃣ 자동매매 엔진 — 전략 프리셋 5종 🎯
@@ -167,7 +167,7 @@ def morning_report():
 | 📉 단타 지지선 저점 매수 | 현재가 ≤ 기준가 | 매수 |
 | 🌊 스윙 추세 돌파 매수 | 현재가 ≥ 기준가 | 매수 |
 
-![자동매매 화면](/assets/images/posts/kiwoom-autotrading-dashboard-20260812/6.jpg)
+![자동매매 화면](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/kiwoom-autotrading-dashboard-20260812/6.jpg)
 *자동매매 설정 화면 — 전략 프리셋과 조건을 등록하는 페이지*
 
 종목과 기준가만 입력하면 1초 만에 규칙이 등록됩니다. 규칙이 발동하면 시장가 주문이 나가고, 실시간 웹소켓 틱을 감시하다가 조건이 맞는 순간 주문을 실행합니다.
@@ -192,7 +192,7 @@ if rule.trigger_type == "price_threshold":
 - 승인된 종목은 익일 개장 첫 틱에 시장가 자동 매수
 - 체결 후 익절 +2% / 손절 -3% 매도 규칙이 자동 생성
 
-![볼린저 밴드 차트](/assets/images/posts/kiwoom-autotrading-dashboard-20260812/7.jpg)
+![볼린저 밴드 차트](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/kiwoom-autotrading-dashboard-20260812/7.jpg)
 *삼성전자 일봉 — MA5/20/60 + 볼린저 밴드(20, 2) 오버레이 (BB 상단 290,466 / 하단 206,262)*
 
 핵심 철학은 "종목 선택은 사람이, 실행은 기계가" 입니다. AI가 고른 종목을 무조건 사는 게 아니라, 최종 결정권은 저한테 있는 구조로 설계했어요. 🧠

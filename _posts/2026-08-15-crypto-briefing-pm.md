@@ -5,13 +5,13 @@ date: 2026-08-15 17:00:00 +0900
 categories: [finance]
 tags: [비트코인, 가상화폐, 코인, BTC, 암호화폐]
 author: "40대 블로거"
-image: /assets/images/posts/crypto-briefing-20260815-pm/bitcoin-price-chart.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/crypto-briefing-20260815-pm/bitcoin-price-chart.png
 description: "8월 15일 오후 코인 브리핑. MSCI가 '비운영 기업' 기준 신설을 협의하며 비트코인 보유 기업 스트래티지와 메타플래닛의 지수 퇴출을 검토한다. 최대 20억 달러 규모 패시브 매도 우려에 스트래티지는 공개 반박했다. 비트코인은 6.28만 달러(업비트 8,900만 원) 안팎 약보합, 장기보유자 손실 지표는 초기 바닥 신호를 시사한다."
 sitemap: false
 noindex: true
 ---
 
-![비트코인 72시간 가격 차트](/assets/images/posts/crypto-briefing-20260815-pm/bitcoin-price-chart.png)
+![비트코인 72시간 가격 차트](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/crypto-briefing-20260815-pm/bitcoin-price-chart.png)
 *비트코인(BTC) 72시간 가격 추이 — 8/15 오후 브리핑 (CoinGecko 데이터 기반 자체 제작)*
 
 **핵심 요약**: MSCI가 '비운영 기업' 기준 신설을 추진하며 비트코인 보유 기업 스트래티지·메타플래닛의 지수 퇴출을 검토하고 있습니다. 비트코인은 6.28만 달러대에서 주말 약보합을 이어가며 전일 52주 신저가(업비트 8,834만 원) 인접 구간에 머물렀습니다.

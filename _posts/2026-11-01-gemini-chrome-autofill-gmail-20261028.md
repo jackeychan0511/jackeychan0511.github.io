@@ -5,11 +5,11 @@ date: 2026-11-01 15:50:00 +0900
 categories: [career]
 tags: [Google Gemini, 구글 제미나이, Chrome 자동완성, Suggested by Gemini, Gemini in Chrome, Personal Intelligence, 퍼스널 인텔리전스, Gmail 연동, 크롬 오토필, 브라우저 자동완성, 개인정보 보호, 데이터 암호화, 구글 크롬, 업무자동화, AI뉴스, 2026년 11월]
 author: "40대 블로거"
-image: /assets/images/posts/gemini-chrome-autofill-gmail-20261028/chrome-autofill-gemini-official.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-chrome-autofill-gmail-20261028/chrome-autofill-gemini-official.png
 description: "구글이 2026년 10월 28일(미국 현지시간) 크롬의 확장 자동완성(enhanced autofill)에 Gemini와 Personal Intelligence를 붙였습니다. 이름·주소·카드번호를 넘어 Gmail에서 주문번호, 운송장 번호, 항공 예약번호, 호텔 예약 정보까지 찾아 폼에 제안하고, 드롭다운에는 'Suggested by Gemini' 라벨이 붙습니다. 대상은 미국의 Gemini in Chrome 사용자 중 Personal Intelligence를 켠 데스크톱·Android·iOS 사용자입니다. 무엇이 어떻게 바뀌었는지, 민감정보는 어떻게 다루는지, 브라우저 자동화를 운영하는 쪽에 어떤 영향이 있는지 정리했습니다."
 ---
 
-![Chrome 확장 자동완성 'Suggested by Gemini' 공식 이미지](/assets/images/posts/gemini-chrome-autofill-gmail-20261028/chrome-autofill-gemini-official.png)
+![Chrome 확장 자동완성 'Suggested by Gemini' 공식 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-chrome-autofill-gmail-20261028/chrome-autofill-gemini-official.png)
 *출처: Google 공식 블로그 "Chrome's enhanced autofill helps you fill out forms with suggestions pulled from Gmail" (2026.10.28)*
 
 > **📌 한 줄 요약:** 구글이 **2026년 10월 28일(미국 현지시간)**, 크롬의 **확장 자동완성(enhanced autofill)** 에 **Gemini + Personal Intelligence**를 붙였습니다. 이제 자동완성은 이름·주소·카드번호에서 멈추지 않고 **Gmail에서 주문번호, 운송장 번호, 항공 예약번호, 호텔 예약 정보**까지 찾아 폼에 제안합니다. 드롭다운에는 **'Suggested by Gemini'** 라벨이 표시됩니다. 대상은 **미국**의 **Gemini in Chrome** 사용자 중 **Personal Intelligence를 켠 데스크톱·Android·iOS** 사용자이며, 민감 데이터는 **암호화**되고 **크롬 설정에서 개별 제안 삭제·기능 전체 해제**가 가능하다고 구글은 설명합니다.
@@ -74,7 +74,7 @@ description: "구글이 2026년 10월 28일(미국 현지시간) 크롬의 확�
 
 바로 전에 나온 소식과 붙여서 보면 맥락이 더 분명합니다. 10월 23일에는 **Personal Intelligence가 켜져 있을 때 Gmail·포토 데이터를 광고 타기팅에 쓸 수 있다**는 정책 변경이 알려졌습니다. 같은 데이터 파이프라인 위에서 **광고(수익)** 와 **자동완성(편의)** 이 동시에 돌아가는 구조입니다. 개인정보를 민감하게 보는 사용자라면 **Personal Intelligence 설정을 한 번 점검할 시점**입니다.
 
-![Google Chrome 아이콘](/assets/images/posts/gemini-chrome-autofill-gmail-20261028/chrome-icon-wikimedia.png)
+![Google Chrome 아이콘](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-chrome-autofill-gmail-20261028/chrome-icon-wikimedia.png)
 *출처: Wikimedia Commons "Google Chrome icon (February 2022)" (CC BY-SA / 상표는 Google 소유)*
 
 ## 🧭 영향 — 사용자와 개발자·자동화 운영자

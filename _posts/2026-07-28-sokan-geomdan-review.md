@@ -4,12 +4,12 @@ title: "인천 검단 맛집 소칸 검단본점 | 부채살·살치살 와규 �
 date: 2026-07-28 17:00:00 +0900
 categories: [food]
 tags: [소칸,소칸검단본점,검단맛집,인천맛집,와규맛집,야끼니꾸,검단데이트,숯불구이,내돈내산,부채살,살치살]
-image: /assets/images/posts/sokan/00-exterior.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/sokan/00-exterior.png
 ---
 
 인천 검단에 꽤 괜찮은 와규 맛집이 있다고 해서 다녀왔습니다. **소칸 검단본점**인데요, 결론부터 말하면 고기 퀄리티 대비 가격이 괜찮아서 재방문 의사 200%입니다.
 
-![소칸 검단본점 외관 — 검단신도시 고산후로 176 1층, 프리빗 룸 감성의 모던한 인테리어](/assets/images/posts/sokan/00-exterior.png)
+![소칸 검단본점 외관 — 검단신도시 고산후로 176 1층, 프리빗 룸 감성의 모던한 인테리어](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/sokan/00-exterior.png)
 
 ---
 
@@ -29,7 +29,7 @@ image: /assets/images/posts/sokan/00-exterior.png
 
 자리에는 먼저 기본 세팅이 준비되어 있습니다. 흰색 사각 그릇과 금속 수저, 그리고 전복죽과 특제 계란찜이 먼저 자리를 잡아줍니다.
 
-![소칸 기본 테이블 세팅 — 전복죽과 특제 계란찜](/assets/images/posts/sokan/01.jpg)
+![소칸 기본 테이블 세팅 — 전복죽과 특제 계란찜](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/sokan/01.jpg)
 
 전복죽은 국물이 진하고 알이 큼직해서 속을 부드럽게 풀어주고, 특제 계란찜은 육수 맛이 은은하게 스며들어 있어요. 고기만 기다리면 허전할 수 있는데, 이렇게 따뜻한 에피타이저가 나오니 기다리는 시간이 전혀 안 지루합니다.
 
@@ -39,7 +39,7 @@ image: /assets/images/posts/sokan/00-exterior.png
 
 드디어 메인 등장! 여러 부위가 가지런히 담겨 나오고, 부위별로 **'SOKAN' 로고가 새겨진 나무 표찰**이 꽂혀 있습니다. 어떤 부위인지 한눈에 알 수 있어서 좋아요.
 
-![소칸 와규 모둠 — 부채살·살치살 부위별 나무 표찰](/assets/images/posts/sokan/02.jpg)
+![소칸 와규 모둠 — 부채살·살치살 부위별 나무 표찰](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/sokan/02.jpg)
 
 ### 살치살 — 입에서 살살
 붉은 살코기 사이로 하얀 지방이 촘촘하게 박힌 게 보이시죠? 이게 바로 마블링의 정석입니다. 숯불에 살짝만 그을려 입에 넣으면 **그냥 녹아요**.
@@ -55,7 +55,7 @@ image: /assets/images/posts/sokan/00-exterior.png
 
 소칸은 **백탄(참숯)**을 사용합니다. 불판이 달궈지자마자 고기를 올리니 지글지글 고소한 냄새가 코를 찔렀어요.
 
-![숯불에 익혀지는 소칸 소고기 — 백탄 화로 근접](/assets/images/posts/sokan/04.jpg)
+![숯불에 익혀지는 소칸 소고기 — 백탄 화로 근접](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/sokan/04.jpg)
 
 겉은 빠르게 그을리고 속은 촉촉하게. 불향이 제대로 배어서 첫 입에 바로 차이가 느껴집니다. 두툼하게 썰린 고기일수록 중간에 레어로 건져 먹는 게 가장 맛있더라고요.
 
@@ -65,7 +65,7 @@ image: /assets/images/posts/sokan/00-exterior.png
 
 고기뿐만 아니라 구성이 꽤 알찹니다. 이날 나온 육회와 반찬들이 특히 인상적이었는데요.
 
-![소칸 육회와 밑반찬 풀코스 — 된장찌개·자몽 화요·샐러드·김치까지](/assets/images/posts/sokan/05.jpg)
+![소칸 육회와 밑반찬 풀코스 — 된장찌개·자몽 화요·샐러드·김치까지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/sokan/05.jpg)
 
 ### 중앙: 한우 육회
 검은색 돌판 위에 붉게 양념된 생고기가 듬뿍. 참깨가 넉넉하게 뿌려져 있고 뒤쪽에는 무순과 어린잎채소가 곁들여져 있어요.

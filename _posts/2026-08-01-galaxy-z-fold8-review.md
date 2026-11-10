@@ -5,13 +5,13 @@ date: 2026-08-01 00:05:00 +0900
 categories: [products]
 tags: [삼성, 갤럭시, Z폴드8, 와이드폴드, 폴더블, 사전예약, 해외리뷰, IT, 신제품, 스마트폰, 2026년8월, 구매가이드]
 author: "40대 블로거"
-image: /assets/images/posts/galaxy-z-fold8-review-aug2026/fold8-wide-hero.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/galaxy-z-fold8-review-aug2026/fold8-wide-hero.jpg
 description: "갤럭시 Z 폴드8은 7.6인치 4:3 메인 화면과 5.5인치 10:16 커버 화면을 갖춘 삼성 최초의 '와이드' 폼팩터 폴더블입니다. 출시(8/7)를 앞두고 쏟아지는 해외 리뷰 첫 반응과 사전예약(8/3 마감) 혜택, 장단점을 총정리했습니다."
 ---
 
 > **📌 한줄 요약:** 갤럭시 Z 폴드8은 **7.6인치 4:3 메인 + 5.5인치 10:16 커버**의 삼성 최초 '와이드 폼팩터' 폴더블입니다. **201g 초경량, 4,800mAh 실리콘-카본 배터리, 주름이 대폭 줄어든 플렉스 티타늄**까지 갖췄고, 해외 리뷰에서는 "와이드 디자인의 승리(Wide for the win)"라는 호평이 나오고 있습니다. **사전예약은 8월 3일까지**, 정식 출시는 8월 7일입니다.
 
-![삼성 갤럭시 Z 폴드8 공식 이미지](/assets/images/posts/galaxy-z-fold8-review-aug2026/fold8-wide-hero.jpg)
+![삼성 갤럭시 Z 폴드8 공식 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/galaxy-z-fold8-review-aug2026/fold8-wide-hero.jpg)
 *갤럭시 Z 폴드8 — 여권 크기로 접히는 5.5인치 커버와 7.6인치 4:3 메인 화면 (출처: Samsung Newsroom, 2026-08-01 확인)*
 
 ---
@@ -50,7 +50,7 @@ description: "갤럭시 Z 폴드8은 7.6인치 4:3 메인 화면과 5.5인치 10
 
 폴드7까지는 "길쭉한 바형 폰을 세로로 펼친" 느낌이었다면, 폴드8은 **가로로 넓게 펼쳐지는** 구조예요. 접었을 때 커버 화면이 5.5인치 10:16 비율이라 한 손으로 잡기 좋고, 펼치면 4:3 비율이 **웹툰·유튜브·문서·사진 감상에 최적화**됩니다. 201g으로 폴더블 중 가장 가벼운 축에 속해서 휴대성 부담도 확 줄었어요.
 
-![갤럭시 Z 폴드8 언팩 현장 공식 사진](/assets/images/posts/galaxy-z-fold8-review-aug2026/fold8-official-press.jpg)
+![갤럭시 Z 폴드8 언팩 현장 공식 사진](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/galaxy-z-fold8-review-aug2026/fold8-official-press.jpg)
 *7월 22일 런던 갤럭시 언팩 2026에서 공개된 Z 폴드8 시리즈 (출처: Samsung Newsroom)*
 
 ---
@@ -77,7 +77,7 @@ ZDNET은 **"폴드8이 너무 좋아서 플립폰의 존재 이유가 흔들린�
 - **배터리**: 삼성 스마트폰 최초로 적용된 **실리콘-카본 배터리**로 용량 대비 두께가 얇아짐
 - **커버 활용성**: 10:16 커버 화면이 인스타그램 릴스·틱톡·유튜브 쇼츠 등 세로 영상에 최적화 (SamMobile도 5대 매력 포인트로 선정)
 
-![갤럭시 Z 폴드8 리뷰 실사 사진](/assets/images/posts/galaxy-z-fold8-review-aug2026/fold8-review-tomsguide.jpg)
+![갤럭시 Z 폴드8 리뷰 실사 사진](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/galaxy-z-fold8-review-aug2026/fold8-review-tomsguide.jpg)
 *해외 리뷰에서 호평받은 폴드8의 와이드 디자인 (출처: Tom's Guide 리뷰, 2026-07 확인)*
 
 ---
@@ -99,7 +99,7 @@ ZDNET은 **"폴드8이 너무 좋아서 플립폰의 존재 이유가 흔들린�
 - **앱 호환성** — 4:3 비율이 낯설어 일부 앱은 화면 여백이 생길 수 있음 (초기 리뷰에서 지적)
 - **새 폼팩터의 적응 비용** — 기존 폴드 사용자라면 화면 비율 변화에 적응 시간 필요
 
-![갤럭시 Z 폴드8 실기 사진](/assets/images/posts/galaxy-z-fold8-review-aug2026/fold8-hands-on-phonearena.jpg)
+![갤럭시 Z 폴드8 실기 사진](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/galaxy-z-fold8-review-aug2026/fold8-hands-on-phonearena.jpg)
 *실제 손에 쥔 폴드8 — 접었을 때 여권 크기 (출처: PhoneArena 실기 리뷰, 2026-07 확인)*
 
 ---
@@ -121,7 +121,7 @@ ZDNET은 **"폴드8이 너무 좋아서 플립폰의 존재 이유가 흔들린�
 3. **삼성 케어+** — 사전예약 기간 구매 시 파손보장형 혜택이 제공되는 경우가 많으니 옵션을 확인하세요.
 4. **주문 화면 캡처** — 더블 스토리지가 자동 적용되는지 주문 화면에서 확인 후 결제하는 게 안전합니다.
 
-![갤럭시 Z 폴드8 와이드 디자인 렌더](/assets/images/posts/galaxy-z-fold8-review-aug2026/fold8-wide-design-render.jpg)
+![갤럭시 Z 폴드8 와이드 디자인 렌더](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/galaxy-z-fold8-review-aug2026/fold8-wide-design-render.jpg)
 *4:3 메인 화면과 10:16 커버 화면의 와이드 구조 (출처: AndroSis 보도 이미지, 2026-05)*
 
 ---

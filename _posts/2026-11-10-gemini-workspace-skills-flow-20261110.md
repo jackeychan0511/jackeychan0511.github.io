@@ -5,11 +5,11 @@ date: 2026-11-10 15:57:00 +0900
 categories: [career]
 tags: [Google Gemini, 구글 제미나이, Google Workspace, Gemini Skills, 스킬, Workspace Studio, 업무 자동화, 노코드 자동화, Gems 종료, SKILL.md, AI 워크플로, 업무자동화]
 author: "40대 블로거"
-image: /assets/images/posts/gemini-workspace-skills-flow-20261110/gemini-skills-hero.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-workspace-skills-flow-20261110/gemini-skills-hero.png
 description: "2026년 11월 9일, 구글이 '스킬(skills)'을 Google Workspace 전반에 정식 배포하기 시작했습니다. Gmail·Docs·Slides·Drive·Chat에서 @로 호출하고, Workspace Studio 플로우의 트리거로도 쓸 수 있습니다. 같은 날 자동화 플로우를 최대 14일까지 멈춰 두는 'Wait until' 단계도 풀렸습니다. 베타에서 GA로 넘어오면서 관리자 감사 로그와 기본값 정책이 어떻게 바뀌었는지, 현업 자동화에 어떤 의미인지 정리했습니다."
 ---
 
-![Google Workspace 스킬(skills) 공식 소개 이미지](/assets/images/posts/gemini-workspace-skills-flow-20261110/gemini-skills-hero.png)
+![Google Workspace 스킬(skills) 공식 소개 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-workspace-skills-flow-20261110/gemini-skills-hero.png)
 *구글의 '스킬(skills)' 공식 소개 이미지 (출처: Google 공식 블로그)*
 
 > **📌 한 줄 요약:** 2026년 11월 9일, 구글이 **Google Workspace 전사 대상 '스킬(skills)' 배포**를 시작했습니다. 스킬은 "우리 팀은 이렇게 처리한다"는 규칙·템플릿·참조 파일을 재사용 가능한 지시문으로 묶어 Gmail·Docs·Slides·Drive·Chat에서 바로 호출하는 기능입니다. 같은 날 **Workspace Studio 플로우를 최대 14일까지 멈춰 두는 'Wait until' 단계**도 전체 배포에 들어갔습니다. 프롬프트를 매번 복사·붙여넣기 하던 반복 업무가 '한 번 정의하고 자동 적용'으로 넘어가는 지점입니다.
@@ -69,7 +69,7 @@ description: "2026년 11월 9일, 구글이 '스킬(skills)'을 Google Workspace
 
 이전에는 이런 흐름을 만들려면 **플로우를 여러 개로 쪼개 각각 스케줄**해야 했습니다. 이제 하나의 플로우 안에서 처리됩니다. 일시정지는 **조건 분기(Check if)와 반복(Repeat for each) 안에서도** 걸 수 있고, 최대 **14일**까지 유지됩니다. 재개 시각과 타임존은 Studio의 **Activity 탭**에 기록됩니다.
 
-![Workspace Studio 'Wait until' 단계 공식 예시 화면](/assets/images/posts/gemini-workspace-skills-flow-20261110/wait-until-step-workspace-studio.png)
+![Workspace Studio 'Wait until' 단계 공식 예시 화면](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-workspace-skills-flow-20261110/wait-until-step-workspace-studio.png)
 *Workspace Studio의 'Wait until' 단계 설정 화면 (출처: Google Workspace Updates, 2026.11.09)*
 
 ### 4. 공유는 '복사본'이다

@@ -5,7 +5,7 @@ date: 2026-08-16 14:52:00 +0900
 categories: [career]
 tags: [ChatGPT, OpenAI, GPT, 인터랙티브퀴즈, 프로젝트메모리, Think무료, 개인화추천, Android, AI뉴스, 2026년8월]
 author: "40대 블로거"
-image: /assets/images/posts/openai-chatgpt-app-update-20260816/openai-logo-1280.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-chatgpt-app-update-20260816/openai-logo-1280.png
 description: "2026년 8월 14일 OpenAI가 발표한 ChatGPT 앱 업데이트를 정리했습니다. 공부할 때 유용한 인터랙티브 퀴즈, 프로젝트 메모리 설정 변경, 무료·Go 사용자 대상 Think 기능의 웹 확대, Android 받아쓰기·컴포저 개선, 리눅스 앱 공개 프리뷰까지 사용자·개발자 관점에서 분석합니다."
 sitemap: false
 noindex: true
@@ -13,7 +13,7 @@ noindex: true
 
 > **📌 한줄 요약:** 지난 8월 14일, OpenAI가 **ChatGPT 앱 전반의 업데이트**를 발표했습니다. "ChatGPT에게 퀴즈를 내달라고 하면 대화창에서 바로 풀 수 있는" **인터랙티브 퀴즈**, 생성 후에도 바꿀 수 있는 **프로젝트 메모리 설정**, 무료·Go 사용자의 **Think 기능 웹 확대**가 핵심이고, Android 받아쓰기·컴포저 개선과 **리눅스 데스크톱 앱 공개 프리뷰**까지 담긴 알찬 업데이트입니다.
 
-![OpenAI 공식 로고](/assets/images/posts/openai-chatgpt-app-update-20260816/openai-logo-1280.png)
+![OpenAI 공식 로고](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-chatgpt-app-update-20260816/openai-logo-1280.png)
 *이미지 출처: Wikimedia Commons (OpenAI Logo.svg)*
 
 ## 이슈 요약 — "ChatGPT가 이제 시험 문제도 내준다"
@@ -52,7 +52,7 @@ noindex: true
 
 Android 앱도 꼼꼼하게 손봤습니다. **받아쓰기 버튼이 텍스트나 첨부파일을 추가한 뒤에도 계속 유지**돼서, 같은 메시지를 계속 이어서 입력할 수 있고, **컴포저 제안이 입력·삭제에 맞춰 실시간으로 갱신**됩니다. 블루투스 키보드를 연결해 쓰는 분들은 **컴포저 포커스가 유지**되어 타이핑이 끊기지 않습니다.
 
-![ChatGPT 공식 로고](/assets/images/posts/openai-chatgpt-app-update-20260816/chatgpt-logo-1280.png)
+![ChatGPT 공식 로고](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-chatgpt-app-update-20260816/chatgpt-logo-1280.png)
 *이미지 출처: Wikimedia Commons (ChatGPT logo.svg)*
 
 ### 5. 리눅스 데스크톱 앱: 공개 프리뷰로 전 세계 확대

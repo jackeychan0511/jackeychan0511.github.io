@@ -3,7 +3,7 @@
     <div class="header-inner">
       <div class="site-brand">
         <a href="{{ '/' | relative_url }}" class="site-logo">
-          <img src="{{ '/assets/images/logo-wide.png' | relative_url }}" alt="{{ site.title }}" class="logo-img">
+          <img src="{{ 'https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/logo-wide.png' | relative_url }}" alt="{{ site.title }}" class="logo-img">
           <span class="logo-text">AZ재찬키의 G편한세상</span>
         </a>
       </div>
@@ -21,7 +21,7 @@
           </li>
           {% endfor %}
           <li><a href="{{ '/video-dashboard/' | relative_url }}" class="nav-link {% if page.url == '/video-dashboard/' %}active{% endif %}">📺 무료강의</a></li>
-          {% if site.social.youtube %}<li><a href="https://www.youtube.com/@{{ site.social.youtube }}" target="_blank" rel="noopener" class="nav-link nav-link-yt" title="유튜브 채널 — 새 영상"><span class="nav-yt"><img src="{{ '/assets/images/youtube-icon.svg' | relative_url }}" alt="YouTube" class="nav-yt-icon" width="17" height="12"><span class="nav-yt-n" aria-hidden="true">N</span></span>유튜브</a></li>{% endif %}
+          {% if site.social.youtube %}<li><a href="https://www.youtube.com/@{{ site.social.youtube }}" target="_blank" rel="noopener" class="nav-link nav-link-yt" title="유튜브 채널 — 새 영상"><span class="nav-yt"><img src="{{ 'https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/youtube-icon.svg' | relative_url }}" alt="YouTube" class="nav-yt-icon" width="17" height="12"><span class="nav-yt-n" aria-hidden="true">N</span></span>유튜브</a></li>{% endif %}
           <li><a href="{{ '/about' | relative_url }}" class="nav-link">소개</a></li>
         </ul>
       </nav>

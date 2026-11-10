@@ -6,12 +6,12 @@ categories: [team-jackchankey]
 tags: [네온레인, NeonLane, 리듬게임, 모바일게임개발, 인디게임, 구글플레이출시, Capacitor, AdMob, Firebase, AI개발, 개발일지, 1인개발, 2026년11월]
 author: 재찬키
 description: "빨강·주황·노랑·초록 네 개의 네온 선 위를 박자에 맞춰 달리는 리듬 러너 네온 레인을 구글 플레이에 출시했습니다. 레이싱 게임에서 리듬 러너로 방향을 바꾼 이유, 가로·세로·상하반전 이벤트, 일일 랭킹, 테스트에서 찾은 점수 44배 버그와 지직거리는 소리, 12명 14일 비공개 테스트와 프로덕션 승인, AdMob 앱 인증까지의 과정을 정리했습니다."
-image: /assets/images/posts/neonlane-devlog/00-hero-1024x500.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/neonlane-devlog/00-hero-1024x500.jpg
 ---
 
 빨강·주황·노랑·초록, **네 개의 네온 선 위를 박자에 맞춰 달리는 리듬 러너 네온 레인(Neon Lane)** 을 구글 플레이에 출시했습니다. 레이싱 게임으로 시작했다가 방향을 바꾼 이유, 개발 중 가장 크게 고친 문제들, 12명 14일 비공개 테스트와 프로덕션 승인, AdMob 앱 인증까지의 과정을 시간 순서대로 정리했습니다.
 
-![네온 레인 스토어 대표 이미지](/assets/images/posts/neonlane-devlog/00-hero-1024x500.jpg)
+![네온 레인 스토어 대표 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/neonlane-devlog/00-hero-1024x500.jpg)
 
 - **Google Play:** [네온 레인 - 4색 리듬 러너](https://play.google.com/store/apps/details?id=com.jackeychankey.neonlane)
 - **웹에서 바로 해 보기:** [jackeychan0511.github.io/games/neon-lane](https://jackeychan0511.github.io/games/neon-lane/)
@@ -40,8 +40,8 @@ image: /assets/images/posts/neonlane-devlog/00-hero-1024x500.jpg
 - 음표 블록에 **한 번 부딪히면 끝**.
 - 달릴수록 BPM과 속도가 올라가다가 **170 BPM에서 유지**된다.
 
-![네온 레인 타이틀 화면](/assets/images/posts/neonlane-devlog/01-title.jpg)
-![네온 레인 플레이 화면](/assets/images/posts/neonlane-devlog/02-gameplay.jpg)
+![네온 레인 타이틀 화면](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/neonlane-devlog/01-title.jpg)
+![네온 레인 플레이 화면](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/neonlane-devlog/02-gameplay.jpg)
 
 ### 이벤트 3종: 화면이 돌아간다
 
@@ -53,9 +53,9 @@ image: /assets/images/posts/neonlane-devlog/00-hero-1024x500.jpg
 | 이벤트 2 | 가로로 전환, 오른쪽에서 왼쪽으로 진행 | ◀ = 아래, ▶ = 위 |
 | 이벤트 3 | 상하 반전 | ◀ = 오른쪽, ▶ = 왼쪽 |
 
-![이벤트 1: 가로 전환](/assets/images/posts/neonlane-devlog/03-event1-horizontal.jpg)
-![이벤트 2: 반대 방향 가로 전환](/assets/images/posts/neonlane-devlog/04-event2-reverse.jpg)
-![이벤트 3: 상하 반전](/assets/images/posts/neonlane-devlog/05-event3-flip.jpg)
+![이벤트 1: 가로 전환](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/neonlane-devlog/03-event1-horizontal.jpg)
+![이벤트 2: 반대 방향 가로 전환](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/neonlane-devlog/04-event2-reverse.jpg)
+![이벤트 3: 상하 반전](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/neonlane-devlog/05-event3-flip.jpg)
 
 처음 만든 이벤트 2는 이벤트 1과 버튼 방향이 같아서 헷갈린다는 의견이 있어서, **이벤트 1을 180° 회전한 모양**으로 바꿨습니다. 그래야 "진행 방향 기준 ◀가 왼쪽"이라는 규칙이 세 이벤트 모두에서 같아집니다.
 
@@ -65,7 +65,7 @@ image: /assets/images/posts/neonlane-devlog/00-hero-1024x500.jpg
 - **명예의 전당:** 일일 1위 기록이 남습니다.
 - **매일 바뀌는 구성:** 장애물 배치뿐 아니라 **코드 진행 6종, 키(조), 킥 드럼 변주, 아르페지오 순서·옥타브·음색**이 날짜(곡 시드)에 따라 바뀝니다. 같은 날은 모든 사람이 같은 곡을 듣습니다.
 
-![결과 화면](/assets/images/posts/neonlane-devlog/06-result.jpg)
+![결과 화면](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/neonlane-devlog/06-result.jpg)
 
 ## 3. 개발 타임라인
 
@@ -125,7 +125,7 @@ image: /assets/images/posts/neonlane-devlog/00-hero-1024x500.jpg
 
 "상하반전에서 시야가 완전히 가려져서 죽는다"는 제보였습니다. 원인은 전환 방식이었습니다. 화면이 뒤집힐 때 위치를 **직선으로 섞고 있어서**, 중간 지점에서 네 개의 레인과 모든 노트가 **화면 중앙의 한 점으로 모였다가** 펼쳐졌습니다. 전환 중 약 0.3초 동안 노트가 전혀 보이지 않았던 것입니다.
 
-![수정 전(왼쪽)은 모든 노트가 한 점에 겹치고, 수정 후(오른쪽)는 레인이 기울어진 채로 모두 보인다](/assets/images/posts/neonlane-devlog/09-flip-compare.jpg)
+![수정 전(왼쪽)은 모든 노트가 한 점에 겹치고, 수정 후(오른쪽)는 레인이 기울어진 채로 모두 보인다](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/neonlane-devlog/09-flip-compare.jpg)
 *왼쪽: 수정 전, 전환 중간 프레임. 모든 레인과 노트가 한 줄로 겹친다. 오른쪽: 수정 후, 중심을 기준으로 180° 회전하므로 레인이 겹치지 않는다.*
 
 **중심 기준 회전으로 바꿔서** 전환 중에도 모든 노트가 보이게 했습니다. 안내 문구가 플레이 영역을 가리던 것도 위쪽으로 옮겼습니다.
@@ -142,7 +142,7 @@ image: /assets/images/posts/neonlane-devlog/00-hero-1024x500.jpg
 
 속도가 빨라지면 눈이 어지럽다는 제보였습니다. 하나의 원인이 아니라서 여러 가지를 줄였습니다. 이벤트 시작 때 화면을 흔들던 효과를 없앴고, 번쩍이는 효과와 박자마다 깜빡이던 배경을 줄였고, 최고 BPM을 낮췄고, 프레임 간격을 평활화하고, 해상도 상한을 2배로 정하고, 글로우 연산을 줄였습니다. 이런 효과를 줄이는 **"눈 편한 모드"** 는 기본으로 켜 두었고 설정에서 끌 수 있습니다.
 
-![설정 화면: 눈 편한 모드와 가벼운 사운드](/assets/images/posts/neonlane-devlog/07-settings.jpg)
+![설정 화면: 눈 편한 모드와 가벼운 사운드](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/neonlane-devlog/07-settings.jpg)
 
 ### ⑥ 지직거리는 배경음
 
@@ -160,7 +160,7 @@ image: /assets/images/posts/neonlane-devlog/00-hero-1024x500.jpg
 
 버전을 올릴 때마다 테스터가 업데이트를 놓쳤습니다. 그래서 새 버전이 있으면 앱 시작 시 **"새 버전이 나왔어요"** 팝업을 띄워 Play 스토어 업데이트 화면으로 보내는 기능을 넣었습니다. 처음에는 느리게 떴는데, 앱을 켠 뒤 2.5초를 일부러 기다리는 코드가 있었습니다. 대기를 없앴고, 직전 확인 결과를 저장해 두었다가 **앱을 켜자마자 바로** 띄웁니다.
 
-![새 버전 안내 팝업](/assets/images/posts/neonlane-devlog/08-update-popup.jpg)
+![새 버전 안내 팝업](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/neonlane-devlog/08-update-popup.jpg)
 *Play 스토어 없이 확인할 수 있게 앱 API를 흉내 낸 화면입니다.*
 
 ## 7. 랭킹: Firebase
@@ -231,7 +231,7 @@ Play Console에서 한 일을 순서대로 정리하면 이렇습니다.
 - **Google Play:** [네온 레인 - 4색 리듬 러너](https://play.google.com/store/apps/details?id=com.jackeychankey.neonlane)
 - **웹 버전:** [jackeychan0511.github.io/games/neon-lane](https://jackeychan0511.github.io/games/neon-lane/)
 
-![네온 레인 앱 아이콘](/assets/images/posts/neonlane-devlog/11-app-icon-512.png)
+![네온 레인 앱 아이콘](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/neonlane-devlog/11-app-icon-512.png)
 
 박자에 맞춰 네 개의 선을 달려 보세요. 오늘의 곡은 오늘 하루만 같은 곡입니다.
 

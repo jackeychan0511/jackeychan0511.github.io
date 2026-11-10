@@ -5,11 +5,11 @@ date: 2026-11-04 11:25:00 +0900
 categories: [products]
 tags: [샤오미18프로, 샤오미18프로맥스, Xiaomi18Pro, Xiaomi18ProMax, 글로벌출시, 스냅드래곤8엘리트Gen6, 라이카200MP, 7050mAh, 6000mAh, 유럽가격, 직구비교, 플래그십비교, 제품비교, 2026년11월]
 author: "40대 블로거"
-image: /assets/images/posts/xiaomi-18-pro-global-launch-20261104/xiaomi-18-pro-max-global-hero.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/xiaomi-18-pro-global-launch-20261104/xiaomi-18-pro-max-global-hero.jpg
 description: "샤오미가 2026년 11월 샤오미 18 프로·18 프로 맥스의 글로벌 출시를 공식 예고했습니다. 중국판 7,000mAh·8,500mAh에서 글로벌판은 6,000mAh·7,050mAh로 배터리가 줄고, 유럽 예상가는 1,449유로·1,649유로(프로 맥스)로 중국가의 두 배 수준입니다. 2nm 스냅드래곤 8 엘리트 Gen 6 계열, 라이카 듀얼 200MP, 후면 디스플레이, 벨벳 레드·코스믹 블루 색상, 직구와 글로벌판 선택 기준까지 정리했습니다."
 ---
 
-![샤오미 18 프로 맥스 글로벌 색상 — 중국 한정 '투명 레드'와 다른 '벨벳 레드'가 유럽 라인업에 포함됩니다](/assets/images/posts/xiaomi-18-pro-global-launch-20261104/xiaomi-18-pro-max-global-hero.jpg)
+![샤오미 18 프로 맥스 글로벌 색상 — 중국 한정 '투명 레드'와 다른 '벨벳 레드'가 유럽 라인업에 포함됩니다](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/xiaomi-18-pro-global-launch-20261104/xiaomi-18-pro-max-global-hero.jpg)
 *샤오미 18 프로(맥스) 글로벌 색상 렌더 — 유럽에는 투명 레드 대신 불투명 '벨벳 레드'가 들어갑니다 (출처: 샤오미 공식 렌더 / Notebookcheck)*
 
 > **📌 한줄 요약:** 샤오미가 **2026년 11월, 샤오미 18 프로·18 프로 맥스의 글로벌 출시를 공식 예고**했습니다. 공식 X 계정에 "going global this November" 문구를 올리고 출시 국가만 남겨둔 상태입니다. 문제는 두 가지입니다. ① **배터리가 중국판보다 줄어듭니다** — 18 프로 7,000mAh → **6,000mAh**, 18 프로 맥스 8,500mAh → **7,050mAh**. ② **유럽 예상가가 1,449유로·1,649유로(프로 맥스)** 로, 중국 판매가(5,999위안·6,999위안)의 **약 두 배** 수준입니다. 칩은 2nm 스냅드래곤 8 엘리트 Gen 6 계열, 카메라는 라이카 듀얼 200MP, 후면 보조 디스플레이까지 중국판과 같습니다.
@@ -20,7 +20,7 @@ description: "샤오미가 2026년 11월 샤오미 18 프로·18 프로 맥스�
 
 그런데 이번엔 다릅니다. 샤오미는 **2026년 9월 23일 중국 발표 직후부터 "연내 글로벌 출시"** 를 예고했고, **11월 2일 공식 X 계정에 "Xiaomi 18 Pro series is going global this November"** 라는 문구를 올렸습니다. 어느 나라에 먼저 풀릴지 팬들에게 묻는 형식이었고, **정확한 날짜와 국가 목록은 아직 비공개**입니다.
 
-![샤오미 18 프로 글로벌 모델 공식 이미지](/assets/images/posts/xiaomi-18-pro-global-launch-20261104/xiaomi-18-pro-global-official.jpg)
+![샤오미 18 프로 글로벌 모델 공식 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/xiaomi-18-pro-global-launch-20261104/xiaomi-18-pro-global-official.jpg)
 *샤오미 18 프로 — 0.99mm 초슬림 베젤과 후면 카메라 모듈 옆 보조 디스플레이가 특징입니다 (출처: 샤오미 공식 이미지 / 3DNews)*
 
 러시아 매체 3DNews는 11월 4일 보도에서 **"글로벌 출시는 이달 안(11월 말까지)"** 이라면서도 **정확한 판매 개시일과 국가 명단은 샤오미가 여전히 공개하지 않았다**고 전했습니다. 유통 범위는 **EU, 중동, 북미·중남미**로 거론되는데, **미국 정식 출시는 여전히 불확실**합니다. 국내(한국) 일정도 아직 공지된 바가 없습니다.
@@ -75,7 +75,7 @@ description: "샤오미가 2026년 11월 샤오미 18 프로·18 프로 맥스�
 - 중국판의 파란색은 **코스믹 블루**라는 이름으로 글로벌 판매가 예상됩니다
 - 중국에 있는 **핑크는 유럽 라인업에서 빠집니다**
 
-![샤오미 18 프로 맥스 글로벌 모델 렌더](/assets/images/posts/xiaomi-18-pro-global-launch-20261104/xiaomi-18-pro-max-global-render.jpg)
+![샤오미 18 프로 맥스 글로벌 모델 렌더](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/xiaomi-18-pro-global-launch-20261104/xiaomi-18-pro-max-global-render.jpg)
 *샤오미 18 프로 맥스 — 대화면과 후면 보조 디스플레이, 라이카 카메라 모듈이 그대로 유지됩니다 (출처: 샤오미 공식 이미지 / 3DNews)*
 
 ---
@@ -148,7 +148,7 @@ description: "샤오미가 2026년 11월 샤오미 18 프로·18 프로 맥스�
 
 솔직히 말하면 **어느 쪽도 "정답"은 아닙니다.** 2nm 첫 세대 칩은 초기 발열·전력 최적화 이슈가 나오는 경우가 있었기 때문에, 어느 쪽을 고르든 **출시 후 2~4주 실사용 리뷰가 쌓인 뒤에 결정하는 편**이 후회가 적습니다.
 
-![샤오미 18 프로 맥스 색상 옵션](/assets/images/posts/xiaomi-18-pro-global-launch-20261104/xiaomi-18-pro-max-global-color.jpg)
+![샤오미 18 프로 맥스 색상 옵션](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/xiaomi-18-pro-global-launch-20261104/xiaomi-18-pro-max-global-color.jpg)
 *샤오미 18 프로 맥스 — 글로벌 라인업은 블랙·화이트·벨벳 레드·코스믹 블루로 정리될 전망입니다 (출처: 네이버 이미지 검색)*
 
 ---

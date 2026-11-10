@@ -5,13 +5,13 @@ date: 2026-08-31 17:00:00 +0900
 categories: [finance]
 tags: [비트코인, 가상화폐, 코인, BTC, 암호화폐]
 author: "40대 블로거"
-image: /assets/images/posts/crypto-briefing-20260831-pm/bitcoin-price-chart.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/crypto-briefing-20260831-pm/bitcoin-price-chart.png
 description: "8월 31일 오후 코인 브리핑. 비트코인이 장중 7만7000달러대까지 밀렸다가 7만8000달러선을 회복했습니다. 10x리서치는 단기간 내 사상 최고가 경신은 어려우며 10만 달러도 큰 성과라고 전망했고, 예측시장 미리어드는 8만4000달러 도달 확률을 77.8%로 집계했습니다. 국내에서는 5대 원화 거래소가 5년간 알트코인 1236개를 상장하고 430개를 폐지했다는 국회 자료가 공개됐습니다."
 sitemap: false
 noindex: true
 ---
 
-![비트코인 7일 가격 차트](/assets/images/posts/crypto-briefing-20260831-pm/bitcoin-price-chart.png)
+![비트코인 7일 가격 차트](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/crypto-briefing-20260831-pm/bitcoin-price-chart.png)
 *BTC 7일 가격 추이 (CoinGecko, 8/31 18:05 KST 기준)*
 
 **핵심 요약**: 비트코인이 잭슨홀 매파 발언의 여진 속에서 장중 7만7000달러대까지 밀렸다가 반등해 7만8000달러선을 회복했습니다. 단기 방향성을 두고 시장 전망이 엇갈리는 가운데, 10x리서치는 '단기간 내 사상 최고가 경신은 어렵다'는 신중론을 내놨습니다.

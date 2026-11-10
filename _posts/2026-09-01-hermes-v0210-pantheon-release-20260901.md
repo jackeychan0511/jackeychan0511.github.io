@@ -5,13 +5,13 @@ date: 2026-09-01 09:00:00 +0900
 categories: [career]
 tags: [HermesAgent, NousResearch, v0.21.0, 판테온, Pantheon, 봇모드, BotMode, hermes-peer, 크론잡, delegate_task, MCP, CLI, AI에이전트, 오픈소스AI, AI툴추천, 2026년9월]
 author: "40대 블로거"
-image: /assets/images/posts/hermes-v0210-pantheon-release-20260901/hermes-og.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-v0210-pantheon-release-20260901/hermes-og.jpg
 description: "2026년 9월 1일 기준, Nous Research의 오픈소스 AI 에이전트 Hermes Agent v0.21.0 '판테온(Pantheon)' 릴리스가 8/31 정식 출시되었습니다. v0.20.0 이후 5,800커밋·2,475개 PR·760+ 기여자가 쌓아올린 이번 업데이트는 ① 봇 모드 데스크톱 기본 내장(디스코드식 그룹챗·@멘션), ② hermes peer로 봇끼리 DM 주고받기, ③ 크론잡 영구 메모리·연속성(continuity), ④ 실행 중인 서브에이전트 실시간 조종, ⑤ MCP 커맨드 센터, ⑥ CLI 파워 웨이브(Ctrl+P 팔레트·터미널 펫), ⑦ 데스크톱 브라우저 직접 조작, ⑧ 신규 프로바이더 6종·모델 카탈로그 대거 추가, ⑨ 보안 강화까지 담았습니다. GitHub API 실측 기준 스타 238,983개·포크 48,745개, MIT 라이선스 무료 오픈소스. 이 글은 실제 릴리스 노트와 공식 문서·GitHub API를 실측 인용해 정리한 업데이트 총정리입니다."
 sitemap: false
 noindex: true
 ---
 
-![Hermes Agent 공식 대표 이미지](/assets/images/posts/hermes-v0210-pantheon-release-20260901/hermes-og.jpg)
+![Hermes Agent 공식 대표 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-v0210-pantheon-release-20260901/hermes-og.jpg)
 *Hermes Agent 공식 대표 이미지 — Nous Research가 운영하는 오픈소스 AI 에이전트 (출처: hermes-agent.nousresearch.com 공식 홈페이지)*
 
 ---
@@ -48,7 +48,7 @@ noindex: true
 
 제가 어제까지 써본 느낌으로는, **봇 3명(리서치·코딩·브리핑)을 만들어두고 그룹챗에서 회의시키는** 용도가 제일 실용적이었어요. 2~6명 봇이 최대 3라운드까지 토론하는 구조라, 아이디어 검증용으로 딱입니다.
 
-![Hermes Agent 데스크톱 태스크/자동화 기능](/assets/images/posts/hermes-v0210-pantheon-release-20260901/feature-tasks.jpg)
+![Hermes Agent 데스크톱 태스크/자동화 기능](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-v0210-pantheon-release-20260901/feature-tasks.jpg)
 *Hermes Agent 데스크톱 앱의 태스크·자동화 기능 이미지 — 봇 모드와 루틴(Routines) 패널이 기본 내장됐다 (출처: hermes-agent.nousresearch.com 공식 홈페이지)*
 
 ### ② `hermes peer` — 봇끼리 DM을 주고받는다
@@ -113,7 +113,7 @@ MCP 서버 목록과 카탈로그가 **하나의 데스크톱 페이지**로 통
 
 인앱 브라우저가 "에이전트가 바라만 보는 창"에서 **에이전트가 직접 내비게이션·클릭·읽기까지 하는 도구**로 바뀌었습니다. 페이지를 시스템 브라우저로 팝아웃하고 전체 링크 컨텍스트 메뉴도 쓸 수 있어요. **"문서 사이트를 돌아다니며 정리해줘" 같은 작업을 내 앱 안에서 지켜보는** 게 가능해졌습니다.
 
-![Hermes Agent 데스크톱 앱 아트](/assets/images/posts/hermes-v0210-pantheon-release-20260901/platform-art-mac.jpg)
+![Hermes Agent 데스크톱 앱 아트](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-v0210-pantheon-release-20260901/platform-art-mac.jpg)
 *Hermes Agent 데스크톱 앱(macOS) 아트 — v0.21.0부터 봇 모드·MCP 커맨드 센터·에이전트 구동 브라우저가 기본 내장 (출처: hermes-agent.nousresearch.com 공식 홈페이지)*
 
 ### ⑧ 신규 프로바이더 6종 + 모델 카탈로그 대거 추가
@@ -145,7 +145,7 @@ MCP 서버 목록과 카탈로그가 **하나의 데스크톱 페이지**로 통
 - **760+ 기여자·2,475개 PR을 한 릴리스로 묶다 보니** 패치 태그(v0.20.1~v0.20.6) 내용까지 포함해 분량이 방대합니다. '무엇부터 써야 할지' 처음엔 약간 막막할 수 있어요 — 저는 위 9가지부터 시작하길 권합니다.
 - 봇 그룹챗은 봇 수가 많아질수록 **토큰 사용량이 눈에 띄게 늘어**서, 방마다 모델을 다르게(가벼운 건 무료 MiniMax M3 등) 지정하는 걸 추천합니다.
 
-![Hermes Agent 샌드박스 기능](/assets/images/posts/hermes-v0210-pantheon-release-20260901/feature-sandbox.jpg)
+![Hermes Agent 샌드박스 기능](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-v0210-pantheon-release-20260901/feature-sandbox.jpg)
 *Hermes Agent 데스크톱 샌드박스 기능 이미지 — v0.21.0에서 보안 강화(지시 파일 쓰기 승인·시크릿 레드액션)가 적용된 영역 (출처: hermes-agent.nousresearch.com 공식 홈페이지)*
 
 ---
@@ -180,7 +180,7 @@ hermes doctor
 
 **"AI 에이전트를 회사처럼 운영해보고 싶다"** 하시는 분들께 Hermes Agent v0.21.0 판테온 업데이트 추천합니다.
 
-![Nous Research 밸류에이션 뉴스 이미지](/assets/images/posts/hermes-v0210-pantheon-release-20260901/nous-1.5b-valuation-hypebeast.jpg)
+![Nous Research 밸류에이션 뉴스 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-v0210-pantheon-release-20260901/nous-1.5b-valuation-hypebeast.jpg)
 *Nous Research의 Hermes AI가 약 15억 달러(한화 약 2조 원) 밸류에이션에 근접했다는 보도 이미지 — 2026년 7월 Hypebeast KR (출처: Hypebeast Korea, 네이버 이미지검색 경유)*
 
 *※ 본 포스트는 Hermes Agent 공식 릴리스 노트(GitHub v2026.8.31 태그, 2026-09-01 확인), 공식 문서(hermes-agent.nousresearch.com/docs, 2026-09-01 확인), GitHub API 실측(스타·포크·릴리스, 2026-09-01 08:00 KST), Hypebeast Korea 보도(2026-07)를 실측 인용하여 작성했습니다. 이미지는 Nous Research 공식 홈페이지 공식 이미지 4장과 Hypebeast Korea 뉴스 이미지 1장이며, AI 생성 이미지가 아닙니다.*

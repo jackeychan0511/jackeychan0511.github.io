@@ -5,13 +5,13 @@ date: 2026-10-14 16:55:00 +0900
 categories: [career]
 tags: [Anthropic, Claude, 앤트로픽, 클로드, Workday, 워크데이, WDAY, Sana, SanaAI, 사나, HR에이전트, 재무에이전트, FinanceAgent, MCP, ModelContextProtocol, WorkdayExtendAI, AgentReadyTools, 엔터프라이즈AI, 업무자동화, 에이전트워크플로, 파트너십, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/workday-anthropic-claude-sana-partnership-20261014/workday-headquarters.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/workday-anthropic-claude-sana-partnership-20261014/workday-headquarters.jpg
 description: "2026년 10월 13일(현지), Anthropic(앤트로픽)과 Workday(워크데이)가 미국 라스베이거스 'Workday Rising 2026'에서 파트너십을 발표했습니다. 클로드(Claude)의 추론 능력과 워크데이의 Sana AI 에이전트, 그리고 HR·재무 데이터와 비즈니스 콘텍스트를 연결하는 것이 골자입니다. 직원은 클로드와 사나(Sana) 어느 쪽에서든 업무를 시작해 이어서 처리할 수 있고, 워크데이의 권한·업무 규칙·감사 통제·변경 전 사람 확인 절차가 그대로 적용됩니다. 'Sana in Claude' 플러그인은 얼리 액세스로 열렸습니다. 이슈 요약 → 상세 분석 → 배경 → 영향(사용자·개발자) → 전망 순으로 정리했습니다."
 sitemap: false
 noindex: true
 ---
 
-![Workday(워크데이) 본사 전경 — 미국 캘리포니아주 플레전턴에 위치한 워크데이 캠퍼스](/assets/images/posts/workday-anthropic-claude-sana-partnership-20261014/workday-headquarters.jpg)
+![Workday(워크데이) 본사 전경 — 미국 캘리포니아주 플레전턴에 위치한 워크데이 캠퍼스](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/workday-anthropic-claude-sana-partnership-20261014/workday-headquarters.jpg)
 *Workday(워크데이) 본사(미국 캘리포니아주 플레전턴) 전경입니다. (이미지 출처: Wikimedia Commons, 촬영 Coolcaesar, CC BY-SA 4.0)*
 
 > **📌 한줄 요약:** **2026년 10월 13일(현지)**, **Anthropic(앤트로픽)** 과 **Workday(워크데이, NASDAQ: WDAY)** 가 미국 라스베이거스에서 열린 **'Workday Rising 2026'** 에서 **파트너십**을 발표했습니다. 핵심은 **클로드(Claude)의 추론 능력을 워크데이의 Sana AI 에이전트, 그리고 HR·재무 데이터와 비즈니스 콘텍스트에 연결**하는 것입니다. 직원은 **클로드와 사나(Sana) 어느 쪽에서든 업무를 시작해 이어서 처리**할 수 있고, **워크데이의 권한·업무 규칙·감사 통제·변경 전 사람 확인 절차**가 그대로 적용됩니다. **'Sana in Claude' 플러그인**은 **얼리 액세스**로 열렸습니다.
@@ -65,7 +65,7 @@ HR·재무 업무는 **개인정보와 결재**가 얽혀 있어, 자유로운 �
 
 정리하면, **완성된 기능을 쓰는 트랙(플러그인)** 과 **직접 에이전트를 만드는 트랙(도구 + Extend AI)** 이 함께 열린 셈입니다.
 
-![Claude(클로드) 공식 로고 — 앤트로픽의 AI 어시스턴트 브랜드](/assets/images/posts/workday-anthropic-claude-sana-partnership-20261014/claude-ai-logo.png)
+![Claude(클로드) 공식 로고 — 앤트로픽의 AI 어시스턴트 브랜드](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/workday-anthropic-claude-sana-partnership-20261014/claude-ai-logo.png)
 *Claude(클로드) 공식 로고입니다. (이미지 출처: Wikimedia Commons, "Claude AI logo", Public domain — Anthropic)*
 
 ---
@@ -103,7 +103,7 @@ HR·재무 업무는 **개인정보와 결재**가 얽혀 있어, 자유로운 �
 - **벤더 락인 vs. 통합:** 프런티어 모델과 업무 시스템을 묶는 만큼 **의존도**는 올라갑니다. 모델·도구를 **설정값으로 분리**해 두는 관행이 더 중요해집니다.
 - **비용 구조 변화:** 에이전트 호출량이 늘면 **토큰·크레딧 비용**이 곧 운영비가 됩니다. **작업 한 건당 비용**을 기준으로 지표를 잡아 두는 편이 좋습니다.
 
-![Workday(워크데이) 공식 로고](/assets/images/posts/workday-anthropic-claude-sana-partnership-20261014/workday-logo.png)
+![Workday(워크데이) 공식 로고](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/workday-anthropic-claude-sana-partnership-20261014/workday-logo.png)
 *Workday(워크데이) 공식 로고입니다. (이미지 출처: Wikimedia Commons, "Workday 2024 logo", Public domain — Workday)*
 
 ---

@@ -4,7 +4,7 @@ title: "후쿠오카 나카스 이자카야 하루요시 유우짱 | 활오징�
 date: 2026-07-24 09:00:00 +0900
 categories: [food]
 tags: [후쿠오카, 후쿠오카맛집, 하루요시유우짱, 나카스맛집, 이자카야, 활오징어, 야마자키12년, 하쿠슈, 텐진맛집, 후쿠오카여행, 내돈내산]
-image: /assets/images/posts/haruyoshi-yuuchan-fukuoka/01.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/haruyoshi-yuuchan-fukuoka/01.jpg
 ---
 
 후쿠오카 여행 중 텐진과 나카스 사이에 위치한 **하루요시 유우짱(春吉ゆうちゃん)** 을 다녀왔습니다. 활어와 숯불구이가 유명한 현지 이자카야로, 현지인은 물론 관광객에게도 인기 있는 곳입니다.
@@ -15,7 +15,7 @@ image: /assets/images/posts/haruyoshi-yuuchan-fukuoka/01.jpg
 
 후쿠오카 텐진과 나카스 지역 사이에 위치해 있습니다. 주소는 **2 Chome-8-18 Haruyoshi, Chuo Ward, Fukuoka**입니다. 전화번호는 **+81-92-725-0722**이고, 영업시간은 **오후 3시~새벽 1시**까지 운영합니다.
 
-![후쿠오카 하루요시 유우짱 외관 — 붉은 제등과 숯불구이 간판, 활오징어 홍보](/assets/images/posts/haruyoshi-yuuchan-fukuoka/01.jpg)
+![후쿠오카 하루요시 유우짱 외관 — 붉은 제등과 숯불구이 간판, 활오징어 홍보](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/haruyoshi-yuuchan-fukuoka/01.jpg)
 
 밤에 보니 더욱 운치 있습니다. 붉은 제등에는 **'活イカ'(활오징어)**라고 쓰여 있고, 중앙 간판에는 소·돼지·닭 실루엣 위에 **'炭'(숯)** 표식이 선명합니다. 활어와 숯불구이 모두 즐길 수 있는 곳이라는 걸 한눈에 알 수 있어요.
 
@@ -25,7 +25,7 @@ image: /assets/images/posts/haruyoshi-yuuchan-fukuoka/01.jpg
 
 자리에는 한국어·영어·중국어로 작성된 **다국어 안내문**이 준비되어 있습니다. '하루요시 유짱에 오신 것을 환영합니다'라는 반갑고 귀여운 문구로 시작합니다.
 
-![하루요시 유짱 다국어 이용안내문 — 자리세 330엔, 음료 1잔 주문, 2시간제 안내](/assets/images/posts/haruyoshi-yuuchan-fukuoka/02.jpg)
+![하루요시 유짱 다국어 이용안내문 — 자리세 330엔, 음료 1잔 주문, 2시간제 안내](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/haruyoshi-yuuchan-fukuoka/02.jpg)
 
 **이용 규칙 안내:**
 - 자리세: **1인당 330엔**
@@ -41,7 +41,7 @@ image: /assets/images/posts/haruyoshi-yuuchan-fukuoka/01.jpg
 
 주방 카운터에는 **산토리 하쿠슈**와 **야마자키 12년산** 싱글몰트 위스키가 눈에 띄게 자리잡고 있습니다.
 
-![하루요시 유짱 카운터 — 하쿠슈·야마자키 12년 위스키, DiDi 쿠폰](/assets/images/posts/haruyoshi-yuuchan-fukuoka/03.jpg)
+![하루요시 유짱 카운터 — 하쿠슈·야마자키 12년 위스키, DiDi 쿠폰](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/haruyoshi-yuuchan-fukuoka/03.jpg)
 
 녹색 병의 하쿠슈는 숲속 증류소 이미지가 인상적이고, 옆에는 야마자키 12년이 나란히 서 있습니다. 일본 위스키 애호가라면 반가울 구성입니다. 아래쪽에는 DiDi 택시 첫 이용 500엔 할인 쿠폰도 비치되어 있어요.
 
@@ -51,7 +51,7 @@ image: /assets/images/posts/haruyoshi-yuuchan-fukuoka/01.jpg
 
 자리에 앉자마자 첫 잔은 역시 **산토리 프리미엄 몰츠** 생맥주로 시작했습니다.
 
-![산토리 프리미엄 몰츠 생맥주 — 차갑게 성에가 낀 잔, 황금빛 액체](/assets/images/posts/haruyoshi-yuuchan-fukuoka/04.jpg)
+![산토리 프리미엄 몰츠 생맥주 — 차갑게 성에가 낀 잔, 황금빛 액체](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/haruyoshi-yuuchan-fukuoka/04.jpg)
 
 잔 가득 채워진 황금빛 맥주와 두꺼운 거품, 잔 표면에 맺힌 성에가 보기만 해도 시원합니다. 후쿠오카의 따뜻한 밤에 시작하는 한 잔은 여행의 피로를 녹여주기에 충분했어요.
 
@@ -61,7 +61,7 @@ image: /assets/images/posts/haruyoshi-yuuchan-fukuoka/01.jpg
 
 이 집의 시그니처 메뉴인 **오징어회**입니다. 길고 얇게 칼집낸 반투명한 회가 접시 가득 펼쳐져 있습니다.
 
-![활오징어회 — 투명하게 빛나는 신선한 회, 레몬·와사비 곁들임](/assets/images/posts/haruyoshi-yuuchan-fukuoka/05.jpg)
+![활오징어회 — 투명하게 빛나는 신선한 회, 레몬·와사비 곁들임](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/haruyoshi-yuuchan-fukuoka/05.jpg)
 
 몸통을 길게 썰어 대나무발 위에 정갈하게 펼쳐 놓았고, 다리와 지느러미 부분도 함께 나옵니다. 레몬 조각, 깻잎, 와사비, 간장이 곁들여져 있습니다. 씹을수록 달큰한 맛이 입 안 가득 퍼지고 질겨지지 않아 신선함이 느껴집니다.
 
@@ -73,14 +73,14 @@ image: /assets/images/posts/haruyoshi-yuuchan-fukuoka/01.jpg
 
 다음으로 주문한 것은 **오징어튀김(카라아게 스타일)**입니다. 노릇노릇하게 튀겨져 나온 오징어는 겉은 바삭하고 속은 쫄깃합니다.
 
-![오징어튀김 — 황금빛 바삭한 튀김, 간장 소스와 소금 곁들임](/assets/images/posts/haruyoshi-yuuchan-fukuoka/06.jpg)
+![오징어튀김 — 황금빛 바삭한 튀김, 간장 소스와 소금 곁들임](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/haruyoshi-yuuchan-fukuoka/06.jpg)
 
 몸통을 길게 자른 조각과 둥근 링 모양, 다리 부분까지 다양한 부위가 섞여 있습니다. 간장 소스에 찍어 먹어도 좋고, 가루소금에 살짝 찍어 먹어도 오징어 본연의 맛을 느낄 수 있어요. 맥주 안주로 이만한 게 없습니다.
 
 ### 📹 오징어회 영상
 
 <video controls width="100%" preload="metadata">
-  <source src="/assets/images/posts/haruyoshi-yuuchan-fukuoka/20260507_232030.mp4" type="video/mp4">
+  <source src="https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/haruyoshi-yuuchan-fukuoka/20260507_232030.mp4" type="video/mp4">
   브라우저가 동영상을 지원하지 않습니다.
 </video>
 
@@ -90,7 +90,7 @@ image: /assets/images/posts/haruyoshi-yuuchan-fukuoka/01.jpg
 
 이 집의 플레이팅이 특히 예뻤는데요, **칼집낸 오이 장식**이 인상적이었습니다.
 
-![장식 오이와 오징어회 플레이팅 — 에다마메, 와사비, 생강 곁들임](/assets/images/posts/haruyoshi-yuuchan-fukuoka/07.jpg)
+![장식 오이와 오징어회 플레이팅 — 에다마메, 와사비, 생강 곁들임](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/haruyoshi-yuuchan-fukuoka/07.jpg)
 
 오이 표면에 깊게 칼집을 넣어 비늘처럼 장식한 모습이 보기 좋았습니다. 오징어회와 함께 나온 시소 잎, 무채, 얼음 장식은 신선함을 더해줍니다. 간장 종지 옆에는 와사비와 간 생강이 함께 나와 취향대로 찍어 먹을 수 있습니다.
 
@@ -102,7 +102,7 @@ image: /assets/images/posts/haruyoshi-yuuchan-fukuoka/01.jpg
 
 일본 이자카야에서 빼놓을 수 없는 **명란구이**입니다. 겉면을 살짝 그을려 겉은 고소하고 속은 촉촉하게 구워졌어요.
 
-![명란구이 — 겉 그을린 주황빛 명란, 오이절임과 에다마메 곁들임](/assets/images/posts/haruyoshi-yuuchan-fukuoka/08.jpg)
+![명란구이 — 겉 그을린 주황빛 명란, 오이절임과 에다마메 곁들임](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/haruyoshi-yuuchan-fukuoka/08.jpg)
 
 깻잎 위에 올려진 명란은 검게 그을린 자국이 고소함을 증명합니다. 옆에 곁들여진 오이절임은 새콤달콤한 맛으로 느끼함을 잡아줍니다.
 
@@ -112,7 +112,7 @@ image: /assets/images/posts/haruyoshi-yuuchan-fukuoka/01.jpg
 
 마지막으로 주문한 **계란말이(다시마키 다마고)**입니다.
 
-![일본식 계란말이 — 두툼하고 촉촉한 다시마키, 무즙과 마요 소스 곁들임](/assets/images/posts/haruyoshi-yuuchan-fukuoka/09.jpg)
+![일본식 계란말이 — 두툼하고 촉촉한 다시마키, 무즙과 마요 소스 곁들임](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/haruyoshi-yuuchan-fukuoka/09.jpg)
 
 검은 접시에 담긴 노란 계란말이는 두툼한 직사각형 형태로, 먹기 좋게 미리 잘라져 있습니다. 표면이 촉촉하고 윤이 나며, 군데군데 옅은 갈색의 구운 흔적이 고소함을 더해줍니다. 흰색 무즙과 마요네즈를 곁들여 먹으면 부드러움과 담백함이 어우러져 아주 좋습니다. 참고로 가격은 **580엔**입니다.
 

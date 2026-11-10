@@ -14,7 +14,7 @@ noindex: true
 
 앤트로픽의 공식 데이터를 보면 호주는 인구 대비 클로드 사용률이 **세계 최상위권**입니다. 그런데 쓰는 용도가 하늘과 땅 차이입니다. 오늘은 이 **이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망** 순서로 정리해 드리겠습니다.
 
-![호주에서 가장 많이/적게 쓰이는 Claude 요청 유형 차트](/assets/images/posts/2026-08-25-claude-australia-report-20260825/claude-australia-task-share.jpg)
+![호주에서 가장 많이/적게 쓰이는 Claude 요청 유형 차트](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-08-25-claude-australia-report-20260825/claude-australia-task-share.jpg)
 *호주에서 글로벌 평균 대비 가장 많이/적게 쓰이는 Claude 요청 유형 — 일반 코딩 지원(13.5% vs 글로벌 16.8%)은 크게 낮고, 일상 생활 관리·건강·업무 문서 활용은 높다 (출처: Anthropic Economic Index, "How Australia Uses Claude")*
 
 ## 📌 이슈 요약: "사용률은 세계 최상위인데, 코딩은 평균 아래"
@@ -50,7 +50,7 @@ noindex: true
 
 반대로 글로벌 평균보다 많이 쓰는 분야는 **경영(+2.3%p), 사무·행정(+1.3%p), 생명·물리·사회과학(+1.3%p)**, 그리고 개인 영역인 **일상 생활 관리(+1.9%p), 건강·웰빙(+1.8%p), 업무 문서(+1.6%p), 금융 상담(+1.3%p)** 등입니다. 블룸버그가 표현한 **"단순한 작업(simple tasks)"**이라는 게 바로 이 부분입니다.
 
-![영어권 국가와 호주의 Claude 작업 분산도 비교 차트](/assets/images/posts/2026-08-25-claude-australia-report-20260825/claude-australia-anglosphere.jpg)
+![영어권 국가와 호주의 Claude 작업 분산도 비교 차트](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-08-25-claude-australia-report-20260825/claude-australia-anglosphere.jpg)
 *상위 100개 O*NET 작업이 전체 사용에서 차지하는 비중(낮을수록 다양한 용도) — 호주 47.3%로 미국(47.7%), 영국(48.3%), 캐나다(50.2%)보다 작업 분산도가 높다 (출처: Anthropic Economic Index, "How Australia Uses Claude")*
 
 ### ③ 협업형 사용, 그리고 더 짧은 작업

@@ -5,11 +5,11 @@ date: 2026-10-24 15:55:00 +0900
 categories: [career]
 tags: [Google Gemini, 구글 제미나이, 개인정보처리방침, 프라이버시정책, Personal Intelligence, 퍼스널 인텔리전스, Gmail 광고, 구글 포토, 구글 드라이브, 맞춤 광고, AI 모드, AI Mode, 데이터 연결, 옵트인, 구글 계정 설정, AI 프라이버시, 업무자동화, AI뉴스, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/gemini-privacy-policy-ads-20261024/gemini-official-latest-news.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-privacy-policy-ads-20261024/gemini-official-latest-news.jpg
 description: "2026년 10월 16일 발효된 구글 개인정보처리방침 개정으로, Personal Intelligence로 Gmail·Drive·Photos 데이터를 다른 구글 서비스에 연결하면 그 내용이 맞춤 광고 타깃팅에 반영될 수 있게 됐습니다. 기존 'Gmail·Drive·Photos 내용으로는 맞춤 광고를 하지 않는다'는 문장에 예외 조항이 붙은 것이 핵심입니다. 바뀐 문구 비교, 구글의 해명, 사용자·개발자·기업에 미치는 영향, 그리고 지금 바로 확인해야 할 계정 설정 경로까지 정리했습니다."
 ---
 
-![Google Gemini 공식 안내 페이지 대표 이미지 (출처: gemini.google 공식 사이트)](/assets/images/posts/gemini-privacy-policy-ads-20261024/gemini-official-latest-news.jpg)
+![Google Gemini 공식 안내 페이지 대표 이미지 (출처: gemini.google 공식 사이트)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-privacy-policy-ads-20261024/gemini-official-latest-news.jpg)
 *출처: gemini.google 공식 사이트(Google LLC) 메타 대표 이미지*
 
 ## 한 줄 요약: '광고에 안 쓴다'던 문장에 예외가 붙었다
@@ -20,7 +20,7 @@ description: "2026년 10월 16일 발효된 구글 개인정보처리방침 개�
 
 이 소식은 Android Authority가 처음 발견했고, The Verge·Ars Technica·9to5Google이 10월 23일 일제히 보도하면서 확산됐습니다. 구글의 서비스 정책 변경이고, 국내 사용자 계정에도 동일하게 적용되는 구조라 정리해 둘 가치가 있습니다.
 
-![구글 개인정보처리방침 개정 보도 이미지 (출처: The Verge)](/assets/images/posts/gemini-privacy-policy-ads-20261024/google-privacy-policy-verge.jpg)
+![구글 개인정보처리방침 개정 보도 이미지 (출처: The Verge)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-privacy-policy-ads-20261024/google-privacy-policy-verge.jpg)
 *출처: The Verge "Now Google says it might use your Gmail and Google Photos data to target ads" (2026.10.23)*
 
 ---

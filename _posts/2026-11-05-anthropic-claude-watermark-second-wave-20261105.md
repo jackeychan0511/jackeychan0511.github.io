@@ -5,13 +5,13 @@ date: 2026-11-05 16:50:00 +0900
 categories: [career]
 tags: [Anthropic, Claude, 앤트로픽, 클로드, 워터마크, watermark, EUAI법, EUAIAct, 제50조, Opus46, Opus45, Sonnet45, Haiku45, SynthID, C2PA, 탐지API, ClaudeAPI, 업무자동화, 2026년11월]
 author: "40대 블로거"
-image: /assets/images/posts/anthropic-claude-watermark-second-wave-20261105/anthropic-logo-wikimedia.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-watermark-second-wave-20261105/anthropic-logo-wikimedia.png
 description: "Anthropic이 2026년 11월 4일 API 고객에게 두 번째 워터마크 적용 일정을 메일로 알렸습니다. 11월 16일부터 Claude Opus 4.6, Opus 4.5, Sonnet 4.5, Haiku 4.5에 텍스트 워터마크가 붙습니다. 1차 대상이던 Opus 4.6은 원래 11월 3일 예정이었지만 이유 설명 없이 16일로 밀렸습니다. 문제는 temperature·top_p·top_k를 기본값에서 바꾸면 워터마크가 붙지 않는다는 점입니다. Anthropic 공식 문서도 이 우회 경로를 인정합니다. 일정, 우회 구조, 실무 영향과 점검 항목을 정리했습니다."
 sitemap: false
 noindex: true
 ---
 
-![Anthropic(앤트로픽) 공식 워드마크](/assets/images/posts/anthropic-claude-watermark-second-wave-20261105/anthropic-logo-wikimedia.png)
+![Anthropic(앤트로픽) 공식 워드마크](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-watermark-second-wave-20261105/anthropic-logo-wikimedia.png)
 *Anthropic(앤트로픽) 공식 워드마크. 2026년 11월 4일 API 고객 대상 두 번째 워터마크 적용 안내가 발송됐습니다 (이미지 출처: Wikimedia Commons, "Anthropic logo", Public domain — Anthropic)*
 
 > **📌 한줄 요약:** Anthropic이 **2026년 11월 4일** API 고객에게 **두 번째 텍스트 워터마크 적용 일정**을 메일로 알렸습니다. **11월 16일**부터 **Claude Opus 4.6, Opus 4.5, Sonnet 4.5, Haiku 4.5**에 워터마크가 붙습니다. 1차 대상이었던 **Opus 4.6은 원래 11월 3일 예정**이었는데, **이유 설명 없이 16일로 연기**됐습니다. 더 중요한 건 조건입니다. **temperature·top_p·top_k를 기본값에서 하나라도 바꾸면 워터마크가 붙지 않습니다.** Anthropic 공식 문서도 이 경로를 "탐지되지 않을 수 있는 경우"로 명시하고 있습니다.
@@ -84,7 +84,7 @@ Anthropic이 서명한 것은 EU AI법 **제50조 제2항의 'AI 생성 콘텐�
 
 법 자체의 투명성 의무 시한이 **12월**에 걸려 있고, 8월 2일 이전 모델에 대한 유예가 끝나는 시점도 그 즈음입니다. 11월 16일은 그 시한을 **약 2주 남기고** 잡힌 날짜입니다. 1차(10월 말)와 2차(11월 16일)로 나눠 소급 적용하는 것도 같은 맥락입니다. **한 번에 전 모델을 바꾸면 품질·지연 시간 리스크가 크니, 시한 안에서 최대한 쪼개서 적용하는 일정**으로 읽힙니다.
 
-![2023년 5월 프랑스 스트라스부르 유럽의회, EU AI법 관련 서한 전달 장면](/assets/images/posts/anthropic-claude-watermark-second-wave-20261105/eu-ai-act-strasbourg-parliament.jpg)
+![2023년 5월 프랑스 스트라스부르 유럽의회, EU AI법 관련 서한 전달 장면](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-watermark-second-wave-20261105/eu-ai-act-strasbourg-parliament.jpg)
 *2023년 5월 프랑스 스트라스부르 유럽의회. 시민단체 Ekō가 AI법 담당 공동보고관 2인에게 생성AI 규제 관련 서한과 회원 메시지를 담은 책자를 전달한 장면 (사진: Ekō, CC BY 2.0, Wikimedia Commons)*
 
 ---

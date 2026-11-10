@@ -5,7 +5,7 @@ date: 2026-10-02 14:50:00 +0900
 categories: [career]
 tags: [OpenAI, ChatGPT, 가상피팅, 버추얼트라이온, ChatGPT쇼핑, Images2.5, 이커머스, AI쇼핑, 업무자동화, AI뉴스, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/chatgpt-shopping-tryon-20261002/chatgpt-shopping-ui.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/chatgpt-shopping-tryon-20261002/chatgpt-shopping-ui.jpg
 description: "2026년 10월 1일(현지시간) OpenAI가 ChatGPT 쇼핑 기능 두 가지를 전 세계에 출시했습니다. 셀피·전신 사진을 올리면 의류·액세서리를 합성해 보여주는 '가상 피팅(Try On)'과 마음에 드는 상품을 저장하는 'Favorites 라이브러리'로, ChatGPT Images 2.5 모델을 기반으로 합니다. 앞서 축소된 인스턴트 체크아웃 대신 '발견·비교·피팅' 중심으로 선회한 전략을, 온라인 판매자·SMB와 개발자 관점에서 정리했습니다."
 ---
 
@@ -13,7 +13,7 @@ description: "2026년 10월 1일(현지시간) OpenAI가 ChatGPT 쇼핑 기능 �
 
 온라인 쇼핑을 하면서 **"이 옷이 나한테 어울릴까"**, **"색이 실제로 이렇게 나올까"** 하고 망설이다 결국 장바구니만 채우고 나오는 분들이라면, 이번 소식이 반가울 수 있습니다. 반대로 **온라인으로 물건을 파는 입장**이라면, AI가 '상품 발견'의 입구를 쥐는 흐름이라 그냥 지나칠 뉴스가 아닙니다.
 
-![ChatGPT 인터페이스 화면 (출처: Wikimedia Commons)](/assets/images/posts/chatgpt-shopping-tryon-20261002/chatgpt-shopping-ui.jpg)
+![ChatGPT 인터페이스 화면 (출처: Wikimedia Commons)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/chatgpt-shopping-tryon-20261002/chatgpt-shopping-ui.jpg)
 *ChatGPT 인터페이스 화면 (출처: Wikimedia Commons)*
 
 이번 글은 **OpenAI 공식 발표문과 TechCrunch·Engadget·WWD 보도**를 바탕으로, "기능 나열"이 아니라 **"이게 실제 쇼핑과 비즈니스 흐름을 어떻게 바꾸는가"** 기준으로 골라 정리했습니다.
@@ -38,7 +38,7 @@ description: "2026년 10월 1일(현지시간) OpenAI가 ChatGPT 쇼핑 기능 �
 - **활용 예:** 특정 스타일을 말로 설명하고, **그 룩을 완성할 아이템들을 한 번에 찾아 달라**고 요청하는 식의 쇼핑도 가능합니다.
 - **의미:** 검색 → 비교 → **"내 몸에 어떻게 보이는가"** 라는 마지막 심리적 장벽을 AI가 직접 겨냥합니다.
 
-![ChatGPT 공식 로고 (출처: Wikimedia Commons)](/assets/images/posts/chatgpt-shopping-tryon-20261002/chatgpt-logo.jpg)
+![ChatGPT 공식 로고 (출처: Wikimedia Commons)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/chatgpt-shopping-tryon-20261002/chatgpt-logo.jpg)
 *ChatGPT 공식 로고 (출처: Wikimedia Commons)*
 
 경쟁 구도도 분명합니다. **Google이 검색·쇼핑에 넣은 유사 기능**과 **Pinterest의 착장 미리보기** 흐름을 ChatGPT가 정면으로 따라붙는 모양새입니다. 이미지 생성 품질이 곧 쇼핑 전환율로 이어지는 국면이라, **Images 2.5의 '참조 사진 기반 변환' 성능**이 이 기능의 성패를 좌우할 가능성이 큽니다.

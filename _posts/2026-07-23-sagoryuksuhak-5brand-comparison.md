@@ -4,7 +4,7 @@ title: "사고력수학 5대 브랜드 완전 비교: 시매쓰 vs CMS vs 와이
 date: 2026-07-23 09:00:00 +0900
 categories: [education]
 tags: [사고력수학, 시매쓰, 크레버스, CMS, 와이즈만, 황소수학, 씨투엠, 초등수학, 학원비교]
-image: /assets/images/posts/education-math.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/education-math.jpg
 ---
 
 초등학생 자녀를 둔 부모라면 한 번쯤 **사고력수학 학원**을 고민해보셨을 겁니다. 문제는 브랜드가 너무 많아서 어디가 우리 아이에게 맞을지 판단하기 어렵다는 점이죠.
@@ -15,7 +15,7 @@ image: /assets/images/posts/education-math.jpg
 
 ## 📊 5대 브랜드 한눈에 비교
 
-![시매쓰 로고](/assets/images/posts/brand-cmath.png)
+![시매쓰 로고](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/brand-cmath.png)
 *시매쓰(Cmath) — ㈜오메가포인트 운영, 26년 전통의 사고력수학 브랜드*
 
 | 항목 | 시매쓰(Cmath) | CMS(크레버스) | 와이즈만 | 황소수학 | 씨투엠(C2M) |
@@ -54,22 +54,22 @@ image: /assets/images/posts/education-math.jpg
 | **위니매쓰** | 6~7세 | 교구 활용 활동 중심, 첫 수학 입문 |
 | **사고력수학 NC** | 초1~3 | 개념 탐구부터 문제 해결, 기초 사고력 형성 |
 
-![사고력수학 NC 프로그램](/assets/images/posts/cmath-nc.png)
+![사고력수학 NC 프로그램](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/cmath-nc.png)
 *시매쓰 NC 프로그램 — 교구 활용 활동 수업으로 개념 이해*
 
 | **사고력수학 AP** | 초4~6 | **2025년 12월 전면 개편** + 앙크(ANQ) 온라인 도입 |
 
-![사고력수학 AP 프로그램](/assets/images/posts/cmath-ap.png)
+![사고력수학 AP 프로그램](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/cmath-ap.png)
 *사고력수학 AP — 2025년 전면 개편, 온라인 플랫폼 앙크(ANQ) 도입*
 
 | **루트원** | 중등 | 교과 과정과 사고력 연결 |
 
-![영재1031 프로그램](/assets/images/posts/cmath-1031.png)
+![영재1031 프로그램](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/cmath-1031.png)
 *영재1031 — 영재원·경시대회 대비 심화 과정*
 
 | **기프티드** | 영재 선발생 | 영재원·과학고 입시 대비 |
 
-![기프티드 프로그램](/assets/images/posts/cmath-gifted.png)
+![기프티드 프로그램](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/cmath-gifted.png)
 *기프티드 — 영재 선발 과정을 통과한 우수 학생 대상*
 
 ### 강점

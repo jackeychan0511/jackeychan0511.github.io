@@ -5,7 +5,7 @@ date: 2026-11-02 14:52:00 +0900
 categories: [career]
 tags: [OpenAI, GPT, 오픈AI조달, IPO, 밸류에이션, AI투자, 앤트로픽, ChatGPT, API가격, AI업계, 업무자동화, AI에이전트, AI뉴스, 2026년11월]
 author: "40대 블로거"
-image: /assets/images/posts/openai-funding-target-cut-20261102/openai-logo-wordmark.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-funding-target-cut-20261102/openai-logo-wordmark.jpg
 description: "2026년 10월 31일 파이낸셜타임스가 OpenAI가 신규 라운드 조달 목표를 300억 달러에서 200억 달러로 100억 달러 낮췄다고 보도했습니다. CNBC는 '최대 200억 달러', 월스트리트저널은 '110억 달러 확보에 그쳤다'고 전했고, 밸류에이션은 1조 4,000억 달러 목표에서 1조 2,500억 달러로 조정됐습니다. 기술주 매도세와 앤트로픽의 11월 상장설이 겹친 결과라는 분석과 함께, 이 변화가 ChatGPT·API 사용자와 개발자에게 어떤 의미인지 정리했습니다."
 ---
 
@@ -15,7 +15,7 @@ AI 도구를 업무에 붙여 쓰는 쪽에서 보면, 모델 성능 발표보�
 
 이 글은 **무엇이 보도됐는지 → 숫자가 어떻게 바뀌었는지 → 왜 지금 흔들렸는지 → 사용자·개발자에게 무엇이 달라지는지 → 앞으로 무엇을 봐야 하는지** 순서로 정리했습니다.
 
-![OpenAI 워드마크 (출처: Wikimedia Commons, 퍼블릭 도메인)](/assets/images/posts/openai-funding-target-cut-20261102/openai-logo-wordmark.jpg)
+![OpenAI 워드마크 (출처: Wikimedia Commons, 퍼블릭 도메인)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-funding-target-cut-20261102/openai-logo-wordmark.jpg)
 *OpenAI 워드마크 (출처: Wikimedia Commons, 퍼블릭 도메인)*
 
 ## 이슈 요약 — 한 장으로 정리
@@ -46,7 +46,7 @@ AI 도구를 업무에 붙여 쓰는 쪽에서 보면, 모델 성능 발표보�
 
 여기서 짚어둘 점이 있습니다. **"조달 축소"와 "밸류에이션 하향"은 별개의 두 사건**입니다. 라운드 크기가 줄어든 것은 **투자 수요**의 문제이고, 밸류에이션이 내려간 것은 **가격 협상력**의 문제입니다. 이번에는 두 가지가 동시에 일어났습니다.
 
-![나스닥 타워 전경 (2026년 5월, 출처: Wikimedia Commons, CC BY 4.0)](/assets/images/posts/openai-funding-target-cut-20261102/nasdaq-tower-may2026.jpg)
+![나스닥 타워 전경 (2026년 5월, 출처: Wikimedia Commons, CC BY 4.0)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-funding-target-cut-20261102/nasdaq-tower-may2026.jpg)
 *나스닥 타워 전경 (2026년 5월, 출처: Wikimedia Commons, CC BY 4.0)*
 
 ## 2. 숫자로 보는 6주 — 목표는 올라갔다가 다시 내려왔다

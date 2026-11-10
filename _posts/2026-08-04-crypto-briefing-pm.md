@@ -5,13 +5,13 @@ date: 2026-08-04 17:00:00 +0900
 categories: [finance]
 tags: [비트코인, 가상화폐, 코인, BTC, 암호화폐, 가상자산과세, 업비트, DEX]
 author: "40대 블로거"
-image: /assets/images/posts/crypto-briefing-20260801/crypto-bitcoin.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/crypto-briefing-20260801/crypto-bitcoin.jpg
 description: "8월 4일 오후 코인 브리핑. 미·이란 협상 기대에 BTC 6.35만달러대 반등, 거래량 54% 급증. 정부 2026년 세제개편안에 가상자산 과세 추가 유예 제외…2027년 1월 예정대로 과세. 업비트 디파이앱(HOME) 신규 상장, 클래리티법 통과 확률 31%로 하락."
 sitemap: false
 noindex: true
 ---
 
-![비트코인 차트](/assets/images/posts/crypto-briefing-20260801/crypto-bitcoin.jpg)
+![비트코인 차트](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/crypto-briefing-20260801/crypto-bitcoin.jpg)
 *비트코인 — 업비트 기준 9,058만원, 6.35만달러대 반등 (확인일: 2026.08.04 17:00 KST)*
 
 **핵심 요약**: 미·이란 협상 진전 기대에 비트코인이 **6.35만달러대로 반등**하며 거래량이 54% 급증했습니다. 정부는 2026년 세제개편안에서 **가상자산 과세 추가 유예를 제외**했고, 업비트는 **디파이앱(HOME)** 을 신규 상장했습니다.

@@ -5,7 +5,7 @@ date: 2026-10-18 12:00:00 +0900
 categories: [education]
 tags: [시매쓰, Cmath, 사고력수학, 사고력수학NC, 초등수학, 학부모설명회, 앙크, ANQ, 오메가포인트, 자녀교육]
 author: "40대 블로거"
-image: /assets/images/posts/cmath-2026-nationwide-parent-briefing-20261014/01-cmath-2026-nationwide-briefing-poster.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/cmath-2026-nationwide-parent-briefing-20261014/01-cmath-2026-nationwide-briefing-poster.jpg
 description: "시매쓰학원이 2026년 10월 14일 공식 공지로 '2026 시매쓰 전국 학부모 설명회' 일정을 공개했습니다. 서울·경기·인천·대전·대구·경북·부산·울산·전북·전남 10개 지역, 10월 14일부터 2027년 1월 14일까지 20여 회차가 예정돼 있습니다. 유치~초등 저학년과 초등 고학년 설명회가 분리 운영되고, 일부 지역은 예약자 개별 안내 방식입니다. 지역별 일정과 사전에 확인해야 할 포인트를 정리했습니다."
 ---
 
@@ -13,7 +13,7 @@ description: "시매쓰학원이 2026년 10월 14일 공식 공지로 '2026 시�
 
 사고력수학 브랜드 **시매쓰**를 운영하는 **㈜오메가포인트**가 **2026년 10월 14일**, 공식 홈페이지 공지사항을 통해 **'2026 시매쓰 전국 학부모 설명회'** 일정을 공개했습니다. 이번 공지는 특정 센터 하나의 행사 안내가 아니라, **본사가 전국 센터의 설명회 일정을 하나의 표로 묶어 공지한 전국 단위 일정표**라는 점이 특징입니다. 공개된 일정만 해도 **서울·경기·인천·대전·대구·경북·부산·울산·전북·전남 10개 지역, 20회차가 넘습니다.** 기간은 **2026년 10월 14일부터 2027년 1월 14일까지**로, 사실상 2027학년도 신학기 준비 시즌 전체를 덮는 일정입니다.
 
-![2026 시매쓰 전국 학부모 설명회 일정 안내](/assets/images/posts/cmath-2026-nationwide-parent-briefing-20261014/01-cmath-2026-nationwide-briefing-poster.jpg)
+![2026 시매쓰 전국 학부모 설명회 일정 안내](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/cmath-2026-nationwide-parent-briefing-20261014/01-cmath-2026-nationwide-briefing-poster.jpg)
 *2026 시매쓰 전국 학부모 설명회 일정 안내 이미지 (출처: 시매쓰 공식 홈페이지 공지사항, 2026.10.14 게시)*
 
 ## 📌 핵심 요약
@@ -93,7 +93,7 @@ description: "시매쓰학원이 2026년 10월 14일 공식 공지로 '2026 시�
 - 수 개념 학습 직후 연산으로 이어지도록 **학습 순서를 재조정**
 - 온라인 학습 플랫폼 **'앙크(ANQ)'** 도입 — '개념 익히기 → 유형 익히기 → 실력 키우기 → 평가하기' 4단계, 자동 채점·해설·쌍둥이 문제 제공
 
-![사고력수학 NC 개편 교재와 온라인 학습 플랫폼 앙크](/assets/images/posts/cmath-2026-nationwide-parent-briefing-20261014/02-cmath-nc-grade1-anq-textbooks.jpg)
+![사고력수학 NC 개편 교재와 온라인 학습 플랫폼 앙크](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/cmath-2026-nationwide-parent-briefing-20261014/02-cmath-nc-grade1-anq-textbooks.jpg)
 *'사고력수학 NC' 개편 교재 3종과 온라인 학습 플랫폼 '앙크(ANQ)' (출처: 시매쓰 제공, 조선에듀 2026.09.30 보도)*
 
 여기에 시매쓰는 **2027년 봄 2~3학년 과정 개편**을 예고했습니다. 앞서 2025년 12월에 4~6학년 대상 '사고력수학 AP' 개편을 마쳤기 때문에, 내년 봄 개편이 끝나면 **초등 전 학년을 아우르는 온·오프라인 연계 체계가 완성**됩니다. 즉 이번 가을~겨울 설명회는 **개편이 막 적용된 1학년 과정과, 곧 바뀔 2~3학년 과정을 동시에 확인할 수 있는 구간**에 놓여 있습니다. 학년별로 개편 시점이 다르기 때문에, 설명회 내용도 센터별·학년별로 달라질 수밖에 없습니다.

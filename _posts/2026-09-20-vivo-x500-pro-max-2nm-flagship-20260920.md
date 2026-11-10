@@ -5,7 +5,7 @@ date: 2026-09-20 11:20:00 +0900
 categories: [products]
 tags: [vivo X500 프로 맥스, vivo X500 Pro Max, 디멘시티 9600 프로, 세계 최초 2nm 스마트폰, 2nm 폰, 200MP 페리스코프, 7000mAh 배터리, 오리진OS 6, 아이폰 18 프로, 갤럭시 S26 울트라, 스냅드래곤 8 엘리트 Gen 6, 플래그십 스마트폰 추천, 제품 비교]
 author: "40대 블로거"
-image: /assets/images/posts/vivo-x500-pro-max-20260920/vivo-x500-pro-max-01-official-design.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/vivo-x500-pro-max-20260920/vivo-x500-pro-max-01-official-design.jpg
 description: "vivo가 9월 21일 중국에서 X500·X500 Pro·X500 Pro Max를 공개합니다. 3종 모두 TSMC 2nm 공정의 미디어텍 디멘시티 9600 프로(프로·프로 맥스)를 얹어 '세계 최초 2nm 스마트폰' 타이틀을 가져갑니다. 6.85인치 2K LIPO LTPO 144Hz 디스플레이, 200MP ZEISS 페리스코프 망원, 7,000mAh 배터리+100W 충전까지 유출 스펙을 정리하고, 아이폰 18 프로·갤럭시 S26 울트라·픽셀 11 프로 XL과 무엇이 다른지, 9월 22일 OPPO Find X10 Pro Max와 스냅드래곤 서밋까지 앞둔 시점의 구매 판단 포인트를 솔직하게 짚었습니다. 이미지는 vivo 공개 이미지와 미디어텍 공식 제품 이미지, GSMArena·케이벤치 보도 이미지입니다."
 ---
 
@@ -17,7 +17,7 @@ description: "vivo가 9월 21일 중국에서 X500·X500 Pro·X500 Pro Max를 �
 
 이번 글에서는 **X500 시리즈, 특히 X500 프로 맥스가 정확히 무엇이 다른지, 그리고 지금 폰을 바꿀 사람에게 의미가 있는지**를 정리해 봤습니다.
 
-![vivo X500 프로 맥스 공개 디자인 — 실버·오렌지 투톤 후면과 ZEISS 카메라 모듈 (출처: vivo 공개 이미지 / MobileDokan)](/assets/images/posts/vivo-x500-pro-max-20260920/vivo-x500-pro-max-01-official-design.jpg)
+![vivo X500 프로 맥스 공개 디자인 — 실버·오렌지 투톤 후면과 ZEISS 카메라 모듈 (출처: vivo 공개 이미지 / MobileDokan)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/vivo-x500-pro-max-20260920/vivo-x500-pro-max-01-official-design.jpg)
 *X500 프로 맥스는 ZEISS 카메라 모듈과 투톤 후면으로 디자인이 크게 바뀝니다 (출처: vivo 공개 이미지 / MobileDokan)*
 
 ## vivo X500 시리즈 — 무엇이 달라졌나
@@ -33,7 +33,7 @@ description: "vivo가 9월 21일 중국에서 X500·X500 Pro·X500 Pro Max를 �
 
 '2nm'이라는 숫자는 언제나 마케팅처럼 들리기 쉬운데, 이번에는 **전력 효율 수치와 벤치마크가 같이 따라왔다는 점**이 다릅니다. 참고로 **기본형 X500은 디멘시티 9600M**(일부 매체는 9600으로 표기), **프로·프로 맥스만 9600 프로**를 씁니다.
 
-![미디어텍 디멘시티 9600 프로 공식 제품 이미지 (출처: MediaTek 공식 제품 페이지)](/assets/images/posts/vivo-x500-pro-max-20260920/mediatek-dimensity-9600-pro-chip.jpg)
+![미디어텍 디멘시티 9600 프로 공식 제품 이미지 (출처: MediaTek 공식 제품 페이지)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/vivo-x500-pro-max-20260920/mediatek-dimensity-9600-pro-chip.jpg)
 *디멘시티 9600 프로는 미디어텍 최초의 2nm 플래그십 칩입니다 (출처: MediaTek 공식)*
 
 ### 2) 디스플레이 — 6.85인치 2K, 144Hz
@@ -49,7 +49,7 @@ vivo가 공식 공개한 X500 프로 맥스의 화면은 **6.85인치 플랫 LIP
 
 vivo가 "**2K가 아니면 프로 맥스가 아니다**"라는 문구로 화면을 홍보한 것도 이 때문입니다. 플랫 디스플레이라 게임할 때 가장자리 터치 오작동이 적다는 점도 실사용에서 은근히 큽니다.
 
-![vivo X500 프로 맥스 2K LTPO 디스플레이 공개 자료 (출처: GSMArena 보도 이미지 / vivo 공개 자료)](/assets/images/posts/vivo-x500-pro-max-20260920/vivo-x500-pro-max-03-display.jpg)
+![vivo X500 프로 맥스 2K LTPO 디스플레이 공개 자료 (출처: GSMArena 보도 이미지 / vivo 공개 자료)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/vivo-x500-pro-max-20260920/vivo-x500-pro-max-03-display.jpg)
 *6.85인치 2K LTPO 144Hz — 시리즈 중 유일하게 2K 해상도를 씁니다 (출처: GSMArena / vivo 공개 자료)*
 
 ### 3) 카메라 — 200MP 페리스코프가 핵심
@@ -61,7 +61,7 @@ vivo가 "**2K가 아니면 프로 맥스가 아니다**"라는 문구로 화면�
 
 프로 맥스의 차별점은 단연 **200MP 망원**입니다. 1/1.4인치라는 센서 크기는 폰 망원 중에서도 손에 꼽는 수준이라, 망원으로 인물을 찍을 때 디테일과 배경 압축이 확실히 달라집니다. 반면 **프로(6.36~6.37인치)는 64MP APO 페리스코프(85mm)** 로, 크기를 포기한 대신 광학 품질을 챙긴 구성입니다.
 
-![vivo X500·X500 프로·X500 프로 맥스 시리즈 디자인 (출처: GSMArena 보도 이미지 / vivo 공개 자료)](/assets/images/posts/vivo-x500-pro-max-20260920/vivo-x500-pro-max-04-series-design.jpg)
+![vivo X500·X500 프로·X500 프로 맥스 시리즈 디자인 (출처: GSMArena 보도 이미지 / vivo 공개 자료)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/vivo-x500-pro-max-20260920/vivo-x500-pro-max-04-series-design.jpg)
 *기본형은 원형, 프로·프로 맥스는 사각형 카메라 모듈로 블록이 다릅니다 (출처: GSMArena / vivo 공개 자료)*
 
 ### 4) 배터리·충전 — 7,000mAh + 100W
@@ -72,7 +72,7 @@ vivo가 "**2K가 아니면 프로 맥스가 아니다**"라는 문구로 화면�
 
 배터리 7,000mAh에 100W 충전이면 **하루 종일 카메라를 돌려도 충전기를 찾지 않는 구성**입니다. 다만 두께와 무게는 발표장에서 직접 확인해야 합니다. 7,000mAh 셀을 넣고도 얇게 뽑아내는 게 요즘 중국 폰들의 진짜 경쟁력이니까요.
 
-![케이벤치 국내 보도 — 비보 X500 프로, 세계 최초 2nm 디멘시티 탑재 확인 (출처: 케이벤치)](/assets/images/posts/vivo-x500-pro-max-20260920/vivo-x500-pro-max-05-2nm.jpg)
+![케이벤치 국내 보도 — 비보 X500 프로, 세계 최초 2nm 디멘시티 탑재 확인 (출처: 케이벤치)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/vivo-x500-pro-max-20260920/vivo-x500-pro-max-05-2nm.jpg)
 *국내에서도 "세계 최초 2nm 탑재" 소식이 먼저 전해졌습니다 (출처: 케이벤치)*
 
 ## 3종 비교 — X500 / X500 프로 / X500 프로 맥스

@@ -5,13 +5,13 @@ date: 2026-08-06 08:00:00 +0900
 categories: [finance]
 tags: [비트코인, 가상화폐, 코인, BTC, 암호화폐, 클래리티법, 솔라나]
 author: "40대 블로거"
-image: /assets/images/posts/crypto-briefing-20260806/bitcoin-coin.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/crypto-briefing-20260806/bitcoin-coin.jpg
 description: "8월 6일 오전 코인 브리핑. 클래리티법 상원 표결이 8/7 휴회 전 분수령. 루미스 의원 '민주당과 매일 협상' 발언, 스트래티지 매도 규모 2.5억 달러 추산, 美 제조업 PMI 55.6 반등, 하이퍼리퀴드 실물자산 거래 75%, 솔라나 공급량 축소 제안. BTC 6.4만달러대 지지."
 sitemap: false
 noindex: true
 ---
 
-![비트코인](/assets/images/posts/crypto-briefing-20260806/bitcoin-coin.jpg)
+![비트코인](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/crypto-briefing-20260806/bitcoin-coin.jpg)
 *비트코인 — 6.4만달러대 지지 (2026.08.06 08:00 KST) / 사진: Wikimedia Commons ([크레딧](http://www.quotecatalog.com))*
 
 **핵심 요약**: 클래리티법 상원 표결이 **8/7 휴회 전 분수령**입니다. 루미스 의원은 "민주당과 매일 협상"이라고 밝혔고, 美 제조업 PMI도 55.6으로 반등했습니다.

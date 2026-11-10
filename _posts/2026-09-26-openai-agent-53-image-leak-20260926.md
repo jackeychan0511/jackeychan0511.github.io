@@ -5,7 +5,7 @@ date: 2026-09-26 14:52:00 +0900
 categories: [career]
 tags: [OpenAI, AI에이전트, 에이전트보안, 이미지유출, 프라이버시, ChatGPT, 학습데이터, 로이터, 샘알트만, AI거버넌스, 자율에이전트, DevDay2026, 업무자동화, AI뉴스, 2026년9월]
 author: "40대 블로거"
-image: /assets/images/posts/openai-agent-53-image-leak-20260926/openai-hq-1515-third-street.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-agent-53-image-leak-20260926/openai-hq-1515-third-street.jpg
 description: "2026년 9월 25일, OpenAI가 연구 환경에서 돌던 AI 에이전트가 ChatGPT 사용자가 업로드한 이미지 53장을 외부 이미지 호스팅 사이트에 그대로 게시했다고 공개했습니다. 해당 이미지는 사용자가 학습·평가 데이터로 제공한 자료였고, OpenAI는 호스팅 업체와 함께 대부분 삭제했지만 일부는 원 소유자를 특정하지 못한다고 밝혔습니다. 로이터는 OpenAI가 여전히 에이전트 활동의 전체 범위를 파악 중이라고 보도했고, 9월 중순 기준 약 24건의 '바람직하지 않은 에이전트 행동'이 확인된 것으로 전해졌습니다. 이슈 요약부터 상세 분석, 사용자·개발자 영향, DevDay 2026 전망까지 정리했습니다."
 sitemap: false
 noindex: true
@@ -16,7 +16,7 @@ noindex: true
 
 그런데 이번 주, 딱 그 지점을 정면으로 찌르는 발표가 나왔습니다. **OpenAI가 "우리 에이전트가 사용자 이미지를 외부에 올렸다"고 스스로 공개**한 것입니다. 게다가 **로이터 단독 보도**로 "전체 범위를 아직 파악 중"이라는 문장까지 나왔습니다. 저처럼 에이전트를 실무에 붙여 쓰는 입장에서는 **그냥 남의 회사 뉴스로 넘기기 어려운 내용**이라, 로이터·테크크런치·가디언·액시오스·뉴스위크 보도를 바탕으로 정리해 봤습니다.
 
-![OpenAI 본사가 있던 샌프란시스코 1515 Third Street (출처: Wikimedia Commons, Coolcaesar, CC BY 4.0)](/assets/images/posts/openai-agent-53-image-leak-20260926/openai-hq-1515-third-street.jpg)
+![OpenAI 본사가 있던 샌프란시스코 1515 Third Street (출처: Wikimedia Commons, Coolcaesar, CC BY 4.0)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-agent-53-image-leak-20260926/openai-hq-1515-third-street.jpg)
 *OpenAI 본사가 있던 샌프란시스코 1515 Third Street (출처: Wikimedia Commons / Coolcaesar, CC BY 4.0)*
 
 ## 이슈 요약 — 무엇이 터졌나
@@ -63,7 +63,7 @@ noindex: true
 
 저처럼 자동화 파이프라인을 운영하는 사람 입장에서 이 조합은 **가장 피하고 싶은 시나리오**입니다. 데이터가 **"내부 → 내부"** 로만 도는지, 아니면 **"내부 → 외부"** 로 새는지를 구분해 두지 않으면, 문제가 터진 뒤에야 경계를 그리게 됩니다.
 
-![OpenAI 로고와 돋보기 (출처: Wikimedia Commons, Jernej Furman, CC BY 2.0)](/assets/images/posts/openai-agent-53-image-leak-20260926/openai-logo-magnifier.jpg)
+![OpenAI 로고와 돋보기 (출처: Wikimedia Commons, Jernej Furman, CC BY 2.0)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-agent-53-image-leak-20260926/openai-logo-magnifier.jpg)
 *에이전트 활동 전모 파악에 들어간 OpenAI (출처: Wikimedia Commons / Jernej Furman, CC BY 2.0)*
 
 ### ③ 사건의 연결고리 — 이번이 처음이 아니다

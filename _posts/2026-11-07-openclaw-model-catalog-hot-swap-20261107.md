@@ -5,11 +5,11 @@ date: 2026-11-07 09:50:00 +0900
 categories: [career]
 tags: [OpenClaw, 오픈클로, 모델카탈로그, ModelCatalog, 핫스왑, Codex, 모델선택, 업무자동화, AI에이전트, 오픈소스AI, 2026년11월]
 author: "40대 블로거"
-image: /assets/images/posts/openclaw-model-catalog-hot-swap-20261107/openclaw-catalog-hero.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openclaw-model-catalog-hot-swap-20261107/openclaw-catalog-hero.jpg
 description: "2026년 11월 6일 OpenClaw가 모델 탐색 구조를 전면 개편했습니다. 호스팅 카탈로그(4시간마다 재빌드), 프로바이더 계정의 모델 목록, 설치된 Codex 핸드셰이크라는 세 갈래에서 모델을 읽어오고, 게이트웨이는 재시작 없이 카탈로그를 교체합니다. 기본 모델 전환 68~142초 → 0.6~1.4초, 목록이 줄어들지 않는 구조, 그리고 여전히 릴리스가 필요한 경우까지 정리했습니다."
 ---
 
-![OpenClaw 모델 카탈로그 개편 대표 이미지](/assets/images/posts/openclaw-model-catalog-hot-swap-20261107/openclaw-catalog-hero.jpg)
+![OpenClaw 모델 카탈로그 개편 대표 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openclaw-model-catalog-hot-swap-20261107/openclaw-catalog-hero.jpg)
 *OpenClaw 공식 블로그 'Use new models in OpenClaw without an update' 대표 이미지. (출처: openclaw.ai/blog)*
 
 > **📌 한줄 요약:** 2026년 11월 6일, OpenClaw가 **모델 탐색(model discovery) 구조를 통째로 갈아엎었습니다.** 이제 모델 목록은 ① 호스팅 카탈로그(4시간마다 재빌드), ② 프로바이더 계정이 알려주는 목록, ③ PATH에 설치된 Codex와의 실제 핸드셰이크 — 세 갈래에서 들어옵니다. 핵심은 **새 모델이 나와도 OpenClaw 릴리스를 기다리지 않는다**는 것. 기본 모델 전환은 68~142초에서 **0.6~1.4초**로 줄었고, 카탈로그 교체 중에도 목록이 599개에서 54개로 뚝 떨어지던 현상은 사라졌습니다.
@@ -59,7 +59,7 @@ AI 에이전트를 실사용하면서 모델을 자주 바꿔 끼우는 쪽이�
 
 둘째, **폐기된 모델은 카탈로그에서 제거됩니다.** 글에서는 NVIDIA가 API에서 2개 모델 서비스를 중단했는데 카탈로그에 계속 남아 있던 사례를 듭니다. 편리함의 이면이기도 합니다. 오래 돌던 자동화가 어느 날 조용히 없는 모델을 가리키게 될 수 있으니, 폴백 모델은 반드시 지정해 두는 편이 안전합니다.
 
-![카탈로그 파이프라인 도식](/assets/images/posts/openclaw-model-catalog-hot-swap-20261107/openclaw-catalog-pipeline.png)
+![카탈로그 파이프라인 도식](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openclaw-model-catalog-hot-swap-20261107/openclaw-catalog-pipeline.png)
 *models.dev, 플러그인 매니페스트, 가격 피드, 프로바이더 목록이 호스팅 카탈로그를 거쳐 실행 중인 게이트웨이까지 도달하는 구조. (출처: openclaw.ai/blog)*
 
 ---
@@ -134,7 +134,7 @@ ChatGPT는 클라이언트가 보고하는 Codex 버전을 보고 어떤 모델�
 
 OpenAI 그룹을 예로 들면, 현재 사용 중인 모델이 맨 앞, 그다음 추천 2개, 나머지 33개는 한 줄 뒤에 접혀 있습니다.
 
-![OpenClaw 채팅 모델 선택창 스크린샷](/assets/images/posts/openclaw-model-catalog-hot-swap-20261107/openclaw-model-picker.png)
+![OpenClaw 채팅 모델 선택창 스크린샷](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openclaw-model-catalog-hot-swap-20261107/openclaw-model-picker.png)
 *실행 중인 게이트웨이에서 캡처한 OpenClaw 채팅 모델 선택창. (출처: openclaw.ai/blog)*
 
 편해진 대신 판단이 하나 늘었습니다. **"추천"은 OpenClaw 팀의 취향과 벤치마크가 반영된 값**입니다. 내 자동화의 작업 특성(예: 긴 문서 요약, 코드 패치, 다국어 분류)과 반드시 일치하지는 않습니다. 추천은 출발점으로만 쓰고, 실제 품질은 자체 평가셋으로 확인하는 편이 낫습니다.

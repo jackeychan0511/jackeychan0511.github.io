@@ -5,11 +5,11 @@ date: 2026-10-03 09:54:00 +0900
 categories: [career]
 tags: [OpenClaw, 오픈클로, extendedstable, 확장안정판, LTS, 2026.8.35, 2026.8.34, GPT6.1Sol, Sol모델, 보안패치, ClawHub, ClawScan, 텐센트, TencentAIG, AIInfraGuard, SkillTrustBench, 스킬보안, 업무자동화, AI에이전트, 오픈소스AI, AI툴추천, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/openclaw-extended-stable-2026835-tencent-clawscan-20261003/openclaw-official-og.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openclaw-extended-stable-2026835-tencent-clawscan-20261003/openclaw-official-og.png
 description: "2026년 10월 2일, 오픈소스 AI 에이전트 OpenClaw의 LTS 대응 채널인 extended-stable이 2026.8.34와 2026.8.35로 잇달아 갱신됐습니다. 2026.8.34는 업그레이드·Doctor·인증·샌드박스·플러그인 스캔 전반에서 113개 감사 선별 수정을 백포트한 롤업이고, 2026.8.35는 여기에 GPT-6.1 Sol 모델 지원과 크론 출력 복구·시크릿 소유권 강화를 얹었습니다. 같은 날 ClawHub 스킬 보안에는 텐센트(자주랩) AI-Infra-Guard가 ClawScan에 합류했다는 소식도 올라왔습니다. 프로덕션에서 에이전트를 굴리는 분들이 지금 확인해야 할 포인트를 실사용 관점에서 정리했습니다."
 ---
 
-![OpenClaw 공식 홈페이지 대표 이미지 — 오픈소스 AI 에이전트 OpenClaw](/assets/images/posts/openclaw-extended-stable-2026835-tencent-clawscan-20261003/openclaw-official-og.png)
+![OpenClaw 공식 홈페이지 대표 이미지 — 오픈소스 AI 에이전트 OpenClaw](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openclaw-extended-stable-2026835-tencent-clawscan-20261003/openclaw-official-og.png)
 *OpenClaw 공식 홈페이지(openclaw.ai) 대표 이미지 — "The AI that really does things. Any OS. Any Platform." (출처: openclaw.ai, 2026.10.3)*
 
 > **📌 한줄 요약:** 요즘 오픈소스 AI 에이전트를 업무 파이프라인에 붙여 쓰시는 분들 많으시죠? **2026년 10월 2일**, OpenClaw의 **LTS 대응 채널인 `extended-stable`이 2026.8.34와 2026.8.35로 하루에 두 번 갱신**됐습니다. **2026.8.34**는 업그레이드·Doctor·인증·샌드박스·플러그인 스캔 전반에 걸쳐 **113개 감사 선별 수정을 백포트한 롤업**이고, **2026.8.35**는 여기에 **GPT-6.1 Sol 모델 지원**과 **크론 출력 복구·시크릿 소유권 강화**를 얹은 판입니다. 그리고 **같은 날**, ClawHub 스킬 보안 쪽에는 **텐센트(자주랩) AI-Infra-Guard(AIG)가 ClawScan에 합류**했다는 공식 발표도 올라왔습니다. 즉 이번 업데이트는 **"LTS 보안 + 신모델 + 스킬 공급망 보안"이 한 주에 몰려온** 셈입니다.
@@ -47,7 +47,7 @@ description: "2026년 10월 2일, 오픈소스 AI 에이전트 OpenClaw의 LTS �
 
 즉 **기능이 쏟아지는 2026.9.x 정규 라인과 별개로, 보수적으로 관리되는 LTS 트랙이 같은 날 두 번 조여진 것**입니다. 참고로 확장 안정판은 원래 배포 경로가 npm·플러그인 중심이라, 실사용자는 **npm 태그와 릴리스 노트를 같이 보는 게 정확**합니다.
 
-![OpenClaw GitHub 공식 저장소 대표 이미지](/assets/images/posts/openclaw-extended-stable-2026835-tencent-clawscan-20261003/openclaw-github-repo-og.png)
+![OpenClaw GitHub 공식 저장소 대표 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openclaw-extended-stable-2026835-tencent-clawscan-20261003/openclaw-github-repo-og.png)
 *OpenClaw GitHub 공식 저장소 — "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞" (출처: github.com/openclaw/openclaw)*
 
 ---
@@ -88,7 +88,7 @@ description: "2026년 10월 2일, 오픈소스 AI 에이전트 OpenClaw의 LTS �
 
 같은 날 **OpenClaw 공식 블로그(10월 2일)** 에는 보안 쪽 소식도 올라왔습니다. **텐센트의 AI-Infra-Guard(AIG)가 ClawScan에 통합**됐다는 발표입니다.
 
-![텐센트 AIG, ClawScan 합류 공식 발표 이미지](/assets/images/posts/openclaw-extended-stable-2026835-tencent-clawscan-20261003/openclaw-tencent-clawscan-official.png)
+![텐센트 AIG, ClawScan 합류 공식 발표 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openclaw-extended-stable-2026835-tencent-clawscan-20261003/openclaw-tencent-clawscan-official.png)
 *OpenClaw 공식 블로그 — "Tencent AIG joins ClawScan" (출처: openclaw.ai/blog/tencent-aig-joins-clawscan, 2026.10.2)*
 
 정리하면 이렇습니다.

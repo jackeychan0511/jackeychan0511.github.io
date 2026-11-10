@@ -13,10 +13,10 @@ noindex: true
 
 2026년 8월 17일(미국 현지시간), 구글이 **Gemini API의 Imagen 4 모델 3종을 공식 종료**했습니다. 이미 6월 24일 Firebase 경유 Imagen이 닫힌 데 이어, **구글의 독립 이미지 생성 API는 이제 완전히 사라지고 '나노 바나나(Nano Banana)'로 불리는 Gemini 이미지 모델로 통합**되는 건데요. 오늘은 **이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망** 순서로 정리해 드립니다.
 
-![Google DeepMind의 Gemini 이미지 모델(나노 바나나) 공식 대표 이미지](/assets/images/posts/gemini-imagen4-shutdown-20260818/gemini-image-deepmind-official.jpg)
+![Google DeepMind의 Gemini 이미지 모델(나노 바나나) 공식 대표 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-imagen4-shutdown-20260818/gemini-image-deepmind-official.jpg)
 *Imagen 종료 후 구글 AI 이미지 생성의 중심이 된 Gemini 이미지 모델(나노 바나나) (출처: Google DeepMind 공식 페이지, deepmind.google/models/gemini-image/)*
 
-![Google Gemini 로고](/assets/images/posts/gemini-imagen4-shutdown-20260818/gemini-logo-wikimedia.png)
+![Google Gemini 로고](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-imagen4-shutdown-20260818/gemini-logo-wikimedia.png)
 *Google Gemini 로고 — 이미지 생성까지 흡수하며 '텍스트·이미지·편집'을 하나로 통합하는 구글 AI (출처: Wikimedia Commons, commons.wikimedia.org)*
 
 ## 📌 이슈 요약: "마지막 Imagen API가 8월 17일 종료됐다"

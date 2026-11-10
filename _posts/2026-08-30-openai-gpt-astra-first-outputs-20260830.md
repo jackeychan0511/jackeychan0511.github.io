@@ -5,7 +5,7 @@ date: 2026-08-30 14:53:00 +0900
 categories: [career]
 tags: [GPT, OpenAI, Astra, GPT-6, mozaik-alpha-fdm, 샘알트만, SamAltman, DALL-E, ChatGPTImages, GPTImage2, AI뉴스, 2026년8월, AI모델, 추론, 멀티에이전트, 코덱스, Codex]
 author: "40대 블로거"
-image: /assets/images/posts/openai-gpt-astra-first-outputs-20260830/openai-logo-2025-symbol.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-gpt-astra-first-outputs-20260830/openai-logo-2025-symbol.png
 description: "2026년 8월 29일, OpenAI 차세대 모델 'Astra(GPT-6급)'의 첫 출력물이 유출되며 출시가 임박했다는 신호가 포착됐습니다. 새 체크포인트 'mozaik-alpha-fdm'으로 내부 테스트가 확대됐고, GTA 2 스타일 게임을 한 번에 만들어내는 등 코딩·시각 생성에 강점을 보여줬습니다. 같은 날 기준으로 8월 30일 오늘은 ChatGPT 내 공식 DALL·E GPT가 은퇴하는 날이기도 합니다. Astra 유출 내용, DALL·E GPT 은퇴 정리, 사용자·개발자에게 미치는 영향과 전망까지 정리했습니다."
 sitemap: false
 noindex: true
@@ -13,7 +13,7 @@ noindex: true
 
 > **📌 한줄 요약:** 8월 29일 OpenAI의 차세대 모델 **Astra(GPT-6급)** 의 첫 출력물이 유출됐습니다. 내부 체크포인트 **'mozaik-alpha-fdm'** 으로 테스트 범위가 확대되며 출시가 임박했다는 관측이 나오고, 유출된 결과물은 **Max effort·zero-shot** 조건에서 GTA 2 스타일 게임·웹사이트·3D 오브젝트를 한 번에 생성하는 수준입니다. 또한 **오늘(8/30) ChatGPT 내 공식 DALL·E GPT가 공식 은퇴**하며 이미지 생성은 'ChatGPT Images'로 통합됩니다.
 
-![OpenAI 공식 로고 (출처: Wikimedia Commons)](/assets/images/posts/openai-gpt-astra-first-outputs-20260830/openai-logo-2025-symbol.png)
+![OpenAI 공식 로고 (출처: Wikimedia Commons)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-gpt-astra-first-outputs-20260830/openai-logo-2025-symbol.png)
 
 요즘 저처럼 ChatGPT로 코딩도 하고, 이미지 생성도 하고, 회사 업무 자료까지 정리하시는 분들 많으시죠? 저도 GPT-5.6 Sol을 메인으로 쓰면서 '다음 모델은 뭐가 나올까' 궁금해하고 있었는데, 어제(8/29)부터 **Astra라는 차세대 모델의 첫 출력물이 유출**됐다는 소식이 쏟아지더라고요. 게다가 오늘(8/30)은 **DALL·E GPT가 ChatGPT에서 공식 은퇴**하는 날이기도 합니다. 두 가지를 오늘 포스팅에 함께 정리해 봤습니다.
 
@@ -66,7 +66,7 @@ Astra 소식만큼이나 실사용자에게 바로 와닿는 변화가 **오늘*
 - **사용자가 챙길 것** — 보관하고 싶은 이미지가 있다면 오늘(8/30) 이전에 미리 다운로드해 두는 것이 좋습니다.
 - **영향 없는 것** — 사용자가 직접 만든 GPT 중 이미지 생성이 활성화된 GPT는 영향이 없습니다.
 
-![ChatGPT 로고 (출처: Wikimedia Commons)](/assets/images/posts/openai-gpt-astra-first-outputs-20260830/chatgpt-logo-wikimedia.png)
+![ChatGPT 로고 (출처: Wikimedia Commons)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-gpt-astra-first-outputs-20260830/chatgpt-logo-wikimedia.png)
 
 솔직히 DALL·E라는 브랜드가 사라지는 건 아쉽지만, 이미지 생성이 별도 GPT를 거치지 않고 채팅창에서 바로 처리되는 흐름은 오히려 더 편해진 셈입니다. Astra가 이미지 생성까지 통합한다면, 이 흐름은 더 가속화될 것 같습니다.
 

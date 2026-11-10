@@ -5,11 +5,11 @@ date: 2026-09-29 11:22:00 +0900
 categories: [products]
 tags: [Honor Magic9 Pro Max, 아너 매직9 프로 맥스, ARRI 카메라폰, 듀얼 200MP, 200MP 망원, ARRI LogC3, ARRI CINEMA Mode, 500mm 망원 증배경, HONOR Imaging Chip H1, 8800mAh 배터리, 100W 충전, 10000니트 디스플레이, 스냅드래곤 8 엘리트 익스트림 6세대, MagicOS 11, IP69K, 아이폰 18 프로 맥스, 갤럭시 S26 울트라, 샤오미 18 프로 맥스, 카메라폰 추천, 플래그십 스마트폰 비교, 제품 비교, 2026년9월]
 author: "40대 블로거"
-image: /assets/images/posts/honor-magic9-pro-max-official-launch-20260929/honor-magic9-pro-max-press-official.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/honor-magic9-pro-max-official-launch-20260929/honor-magic9-pro-max-press-official.jpg
 description: "Honor Magic9 Pro Max가 2026년 9월 28일 중국에서 정식 출시됐습니다. 시작가 6,499위안(약 91만 원), 12GB+256GB부터 16GB+1TB까지 4개 구성, 샤도우 블랙·글레이셔 실버·모스 그린 3색입니다. 핵심은 ARRI와 공동 개발한 엔드투엔드 시네마 워크플로로, 200MP 초야신 메인(1/1.28인치·f/1.57)+200MP 초야신 망원(1/1.4인치·f/2.6) 듀얼 200MP, ARRI LogC3 커브·10비트 컬러·ARRI Wide Gamut 3, ARRI CINEMA Mode 4K 60fps, 14종 ARRI 룩 프리셋, 자체 이미징 칩 H1(6nm·18.8 TOPS/W), 8,800mAh 실리콘카본 배터리+100W 유선·80W 무선, 6.8인치 LTPO OLED 최대 10,000니트, IP68/IP69/IP69K입니다. 확정 스펙과 가격, 아이폰 18 프로 맥스·갤럭시 S26 울트라·샤오미 18 프로 맥스와의 비교 포인트, 직구 전 체크리스트까지 정리했습니다. 이미지는 Honor 공식 뉴스룸과 ARRI 공식 보도자료, Honor 공식 제품 이미지입니다."
 ---
 
-![Honor Magic9 Pro Max 공식 출시 이미지 — 2026년 9월 28일 중국 정식 발매](/assets/images/posts/honor-magic9-pro-max-official-launch-20260929/honor-magic9-pro-max-press-official.jpg)
+![Honor Magic9 Pro Max 공식 출시 이미지 — 2026년 9월 28일 중국 정식 발매](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/honor-magic9-pro-max-official-launch-20260929/honor-magic9-pro-max-press-official.jpg)
 *▲ Honor 공식 뉴스룸 보도자료 이미지 — 2026년 9월 28일 중국 출시 (출처: Honor 공식 홈페이지 뉴스룸)*
 
 요즘 저처럼 "여행 갈 때 카메라를 또 챙길까, 폰으로 다 해결할까" 고민하시는 분들 많으시죠. 저도 아이폰 18 프로 맥스와 갤럭시 S26 울트라를 번갈아 쓰면서 영상 쪽은 확실히 편해졌는데, 막상 색을 제대로 잡으려면 결국 별도 장비가 필요하다는 벽에 계속 부딪혔습니다.
@@ -24,7 +24,7 @@ description: "Honor Magic9 Pro Max가 2026년 9월 28일 중국에서 정식 출
 
 게다가 Honor는 이번에 **"발표 당일 판매(발매 즉시 개시)"**로 밀어붙였습니다. 보통 플래그십은 예약 판매를 길게 끌고 가는데, 9월 28일 발표와 동시에 중국 정식 판매가 시작됐다는 건 그만큼 재고와 자신감이 있다는 뜻으로 읽힙니다. 여기에 미국 시장은 사실상 배제된 채 **유럽·중동·동남아 출시를 "곧 발표"**한다고 예고해서, 국내 직구 시장에서도 관심이 붙는 분위기입니다.
 
-![Honor Magic9 Pro Max 공식 프레스 이미지 — 시네마 카메라 디자인 언어](/assets/images/posts/honor-magic9-pro-max-official-launch-20260929/honor-magic9-pro-max-official-2.jpg)
+![Honor Magic9 Pro Max 공식 프레스 이미지 — 시네마 카메라 디자인 언어](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/honor-magic9-pro-max-official-launch-20260929/honor-magic9-pro-max-official-2.jpg)
 *▲ Honor 공식 뉴스룸 배포 이미지 (출처: Honor 공식 홈페이지 뉴스룸)*
 
 ## 핵심 스펙·특징 — 이번엔 공식 확정입니다
@@ -60,7 +60,7 @@ description: "Honor Magic9 Pro Max가 2026년 9월 28일 중국에서 정식 출
 **3) H1 이미징 칩 — RAW 단계 노이즈 제거**
 자체 개발 **HONOR Imaging Chip H1**(6nm, 18.8 TOPS/W)이 AI 노이즈 제거를 **RAW 영역에서 실시간**으로 처리합니다. Honor 자체 테스트 기준 **신호대잡음비 8dB 개선**, **최대 14스톱 시네마틱 다이나믹 레인지**를 주장합니다. 어두운 곳에서 계조가 뭉개지지 않고 살아남는지가 관전 포인트입니다.
 
-![ARRI 공식 보도자료 이미지 — Honor Magic9 Pro Max ARRI 에디션](/assets/images/posts/honor-magic9-pro-max-official-launch-20260929/honor-magic9-pro-max-arri-official.jpg)
+![ARRI 공식 보도자료 이미지 — Honor Magic9 Pro Max ARRI 에디션](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/honor-magic9-pro-max-official-launch-20260929/honor-magic9-pro-max-arri-official.jpg)
 *▲ ARRI 공식 보도자료 배포 이미지 — 기기와 패키징에 ARRI 브랜딩 적용 (출처: ARRI 공식 홈페이지 보도자료)*
 
 ## 실물 후기가 아직 없어서 아쉬운 부분
@@ -88,7 +88,7 @@ description: "Honor Magic9 Pro Max가 2026년 9월 28일 중국에서 정식 출
 - **"일관된 색과 워크플로 안정성"** → 아이폰 18 프로 맥스. 망원 화소·배터리 숫자는 밀리지만 마감과 편집 연동은 여전히 강합니다.
 - **"펜 입력과 국내 정식 AS"** → 갤럭시 S26 울트라. 이건 직구 모델이 절대 못 이기는 영역입니다.
 
-![Honor 공식 이미징 액세서리 — 카메라 마스터 키트](/assets/images/posts/honor-magic9-pro-max-official-launch-20260929/honor-magic9-pro-max-camera-master-kit-official.png)
+![Honor 공식 이미징 액세서리 — 카메라 마스터 키트](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/honor-magic9-pro-max-official-launch-20260929/honor-magic9-pro-max-camera-master-kit-official.png)
 *▲ Honor 공식 이미징 액세서리 이미지 — 텔레컨버터 G200/G500과 SmallRig 모바일 비디오 키트 (출처: Honor 공식 홈페이지 제품 페이지)*
 
 ## 가격·출시 정보와 구매 팁

@@ -5,12 +5,12 @@ date: 2026-09-07 12:00:00 +0900
 categories: [products]
 tags: [애플 이벤트, 아이폰 폴드, 9월 신제품, IT 신제품, 애플, 2026]
 description: "2026년 9월 9일 애플 연례 이벤트에서 신제품 6종이 공개될 것이라는 보도가 나왔습니다. 관심을 모으는 애플 첫 폴더블 '아이폰 폴드' 전망과 함께, 이벤트 전 확인하면 좋은 구매 판단 기준을 정리했습니다. (확인일 2026.9.7)"
-image: /assets/images/posts/2026-09-07-apple-event-sep9-preview/event-preview.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-09-07-apple-event-sep9-preview/event-preview.png
 ---
 
 9월은 IT 신제품의 달입니다. 올해 9월의 정점은 9월 9일(수)로 예정된 애플의 연례 이벤트입니다. 해외 IT 매체들은 이날 **신제품 6종**이 공개될 것이라고 보도했고, 그중 최대 관심은 애플의 첫 폴더블 폰으로 알려진 '아이폰 폴드'입니다. 이벤트 이틀 전, 보도 기준으로 미리 정리해 봅니다. (확인일: 2026. 9. 7 — 이 글의 내용은 공개 보도 기준이며, 실제 발표로 확정되기 전까지는 '전망'입니다)
 
-![9월 9일 애플 이벤트 프리뷰 요약](/assets/images/posts/2026-09-07-apple-event-sep9-preview/event-preview.png)
+![9월 9일 애플 이벤트 프리뷰 요약](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-09-07-apple-event-sep9-preview/event-preview.png)
 *9/9 애플 이벤트 — 보도 기준 프리뷰 (자체 제작 요약 그래픽, 확인일 2026.9.7)*
 
 ## 9월 9일 이벤트, 무엇이 나오나

@@ -16,7 +16,7 @@ noindex: true
 
 이번 글에서는 Reuters, TechCrunch, Business Insider 등 주요 보도를 바탕으로 **이슈 요약 → 상세 분석 → 영향 → 전망** 순서로 정리해 드립니다.
 
-![Claude 로고](/assets/images/posts/claude-custom-chip-team-20260806/claude-logo.png)
+![Claude 로고](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/claude-custom-chip-team-20260806/claude-logo.png)
 *Claude — Anthropic의 AI 모델 패밀리 (출처: Wikimedia Commons, Claude AI logo)*
 
 > 📌 참고: 본 글은 2026년 8월 6일 기준 Reuters(2026-08-05), TechCrunch(2026-08-05), TechTimes(2026-08-05) 등 주요 보도를 바탕으로 작성한 정보형 기사입니다.
@@ -86,7 +86,7 @@ Anthropic은 8월 5일 대변인을 통해 **자체 '커스텀 실리콘 팀'을
 - **마이크로소프트의 자체 칩 'Maia 200'**을 외부 칩 옵션으로 쓰는 방안도 초기 논의 중
 - 중요한 점은 **기존 파트너십(AWS Trainium, Google TPU, NVIDIA GPU, AMD MI450)이 계속 핵심**이라는 것. 자체 칩은 '미래 시제'이고, 기존 협력은 '현재형'입니다.
 
-![GPU 칩 다이 실물 사진](/assets/images/posts/claude-custom-chip-team-20260806/nvidia-gpu-chip-die.jpg)
+![GPU 칩 다이 실물 사진](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/claude-custom-chip-team-20260806/nvidia-gpu-chip-die.jpg)
 *GPU 칩 다이(die) 실물 사진 — 커스텀 AI 칩 경쟁을 이해하는 참고 이미지 (출처: Wikimedia Commons, NVidia GK107-860-A2, CC BY-SA)*
 
 ---

@@ -5,7 +5,7 @@ date: 2026-08-12 14:52:00 +0900
 categories: [career]
 tags: [ChatGPT, OpenAI, Linux, Codex, 리눅스, 데스크톱앱, 우분투, 페도라, AI뉴스, 2026년8월]
 author: "40대 블로거"
-image: /assets/images/posts/chatgpt-linux-app-20260812/chatgpt-logo.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/chatgpt-linux-app-20260812/chatgpt-logo.png
 description: "2026년 8월 11일 OpenAI가 ChatGPT 데스크톱 앱 리눅스 프리뷰를 전 세계에 공개했습니다. Ubuntu 24.04/26.04 LTS, Debian 13, Fedora 43/44를 지원하며 ChatGPT·ChatGPT Work·Codex가 하나의 네이티브 앱에 담깁니다. 지원 배포판, 설치 방법, 개발자에게 주는 의미와 전망까지 정리했습니다."
 sitemap: false
 noindex: true
@@ -13,7 +13,7 @@ noindex: true
 
 > **📌 한줄 요약:** 2026년 8월 11일(화), OpenAI가 **ChatGPT 데스크톱 앱 리눅스 버전을 프리뷰로 전 세계 공개**했습니다. Ubuntu 24.04/26.04 LTS, Debian 13, Fedora 43/44를 지원하고, **ChatGPT·ChatGPT Work·Codex가 하나의 네이티브 앱**에 담깁니다. 그동안 macOS·Windows에만 있던 공식 앱이 드디어 리눅스에도 온 것입니다.
 
-![ChatGPT 공식 로고](/assets/images/posts/chatgpt-linux-app-20260812/chatgpt-logo.png)
+![ChatGPT 공식 로고](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/chatgpt-linux-app-20260812/chatgpt-logo.png)
 *이미지 출처: Wikimedia Commons (ChatGPT logo.svg)*
 
 ## 이슈 요약 — "리눅스 쓰시는 분들, 드디어 공식 앱 나왔습니다"
@@ -85,7 +85,7 @@ OpenAI 공식 커뮤니티 글에 따르면 이번 프리뷰의 지원 범위는
 
 프리뷰라서 아직 완성도는 다듬어지는 중이지만, **"AI 도구를 개발 환경에 자연스럽게 녹여 쓰고 싶다"** 하시는 분들께는 지금 바로 써볼 만한 가치가 있다고 생각합니다. 다음 OpenAI GPT 소식으로 다시 찾아뵙겠습니다!
 
-![리눅스 마스코트 Tux](/assets/images/posts/chatgpt-linux-app-20260812/tux-linux-mascot.png)
+![리눅스 마스코트 Tux](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/chatgpt-linux-app-20260812/tux-linux-mascot.png)
 *이미지 출처: Wikimedia Commons (Tux, Linux 마스코트, lewing@isc.tamu.edu / Larry Ewing)*
 
 ---

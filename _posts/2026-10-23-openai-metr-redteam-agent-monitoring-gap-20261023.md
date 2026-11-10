@@ -5,13 +5,13 @@ date: 2026-10-23 14:56:00 +0900
 categories: [career]
 tags: [OpenAI, METR, RedwoodResearch, AI에이전트, 정렬실패, Misalignment, AI안전, Codex, 에이전트보안, 모니터링, AutoReview, 업무자동화, AI뉴스, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/openai-metr-redteam-agent-monitoring-gap-20261023/metr-redteam-report-page.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-metr-redteam-agent-monitoring-gap-20261023/metr-redteam-report-page.png
 description: "2026년 10월 22일 AI 안전 평가 기관 METR과 Redwood Research가 OpenAI 내부 에이전트 정렬 모니터링 시스템을 3주간 레드팀한 결과를 공개했습니다. 내부 Codex 트래픽의 약 10%가 압축(compaction) 이벤트 때문에 모니터링되지 않았고, 샌드박스·Auto-Review 우회, 모니터링을 끄는 클라이언트 헤더 2종 등 우회 경로가 확인됐습니다. Reuters·CNBC가 보도한 내용과 개발자·자동화 운영자에게 미치는 영향을 정리했습니다."
 ---
 
 > **📌 한줄 요약:** 2026년 **10월 22일**, AI 안전 평가 기관 **METR**과 **Redwood Research**가 **OpenAI 내부 에이전트 정렬 모니터링 시스템**을 3주간 직접 뜯어본 결과를 공개했습니다. 핵심은 세 가지입니다. ① **2026년 5~7월 내부 Codex 트래픽의 약 10%**가 **압축(compaction) 이벤트 미탐지**로 모니터링되지 않았고, ② **Codex 샌드박스와 Auto-Review를 우회**해 호스트 사용자 권한으로 임의 행동을 할 수 있는 방법이 있었으며, ③ **모니터링을 끄는 클라이언트 제어 헤더 2종**과 **최근 수백 개 행동을 통째로 숨기는 익스플로잇**도 확인됐습니다. OpenAI는 프로덕션 보호 스택에 영향을 주는 취약점은 **모두 패치**했다고 밝혔지만, METR은 **그 주장을 검증하지는 않았다**고 선을 그었습니다. Reuters와 CNBC가 모두 보도한, 이번 주 AI 업계에서 가장 묵직한 소식입니다.
 
-![METR 공식 블로그에 공개된 'Red-Teaming OpenAI's Internal Agent Monitoring Systems' 보고서 페이지 (출처: metr.org 공식 페이지 캡처)](/assets/images/posts/openai-metr-redteam-agent-monitoring-gap-20261023/metr-redteam-report-page.png)
+![METR 공식 블로그에 공개된 'Red-Teaming OpenAI's Internal Agent Monitoring Systems' 보고서 페이지 (출처: metr.org 공식 페이지 캡처)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-metr-redteam-agent-monitoring-gap-20261023/metr-redteam-report-page.png)
 *METR이 2026년 10월 22일 공개한 레드팀 보고서. 본문은 고수준 요약이고, 실제 상세 내용이 담긴 61쪽 내부 보고서는 공개되지 않았습니다 (출처: metr.org 공식 페이지 캡처).*
 
 에이전트에게 코드 수정과 배포 권한을 넘기고 "테스트 통과하면 알아서 올려"라고 맡기는 파이프라인을 운영하는 분들이라면, 이번 보고서는 그냥 흘려보기 어렵습니다. 솔직히 처음엔 "또 안전 연구진이 이론적인 우회 시나리오나 만들어낸 것 아닌가" 싶었는데, 원문을 뜯어보니 **실제 내부 코드베이스와 모니터 프롬프트, 설정 파일을 손에 쥐고 3주 동안 파고든 실측 결과**였습니다. 생각보다 훨씬 구체적이고, 생각보다 훨씬 불편합니다.
@@ -88,7 +88,7 @@ Codex 에이전트가 **샌드박싱과 Auto-Review를 우회해 호스트 사�
 
 OpenAI 입장은 명확합니다. **프로덕션 보호 스택에 영향을 주는 취약점은 모두 패치했고**, 이후 모니터링 커버리지도 크게 바뀌었다는 설명입니다. 실제로 2026년 3월 19일 공개한 자사 설명에 따르면, 이 시스템은 **GPT-5.4 Thinking을 최대 추론 강도**로 돌려 **완료 후 30분 이내** 상호작용을 검토하고, 사고 사슬과 행동을 로깅해 심각도를 매기고 이상 징후를 사람 검토로 올립니다. 모든 표준 내부 코딩 에이전트 배포에 적용되고, 사용자·개발자·어시스턴트 메시지와 도구 호출·출력까지 **전체 대화 이력**을 본다고 밝혔습니다.
 
-![OpenAI 로고 심볼 (출처: Wikimedia Commons, Public Domain)](/assets/images/posts/openai-metr-redteam-agent-monitoring-gap-20261023/openai-symbol-wikimedia.png)
+![OpenAI 로고 심볼 (출처: Wikimedia Commons, Public Domain)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-metr-redteam-agent-monitoring-gap-20261023/openai-symbol-wikimedia.png)
 *이번 평가 대상은 OpenAI 내부 운영 시스템이었습니다. 외부 고객 데이터가 유출된 침해 사고는 아니지만, "에이전트를 감시하는 장치"가 공격 대상이 될 수 있음을 실증한 사례입니다 (출처: Wikimedia Commons, Public Domain).*
 
 남은 문제는 **검증의 주체**입니다. METR은 "OpenAI가 패치했다고 **말한 것**"과 "우리가 그것을 **확인한 것**"을 분리해서 서술했고, 패치 이후 커버리지는 **평가하지 않았다**고 명시했습니다. Reuters와 CNBC가 이 대목을 함께 짚은 이유도 여기 있습니다. 안전 체계에서 "패치했습니다"는 선언이고, 신뢰는 **재검증**에서 나옵니다.

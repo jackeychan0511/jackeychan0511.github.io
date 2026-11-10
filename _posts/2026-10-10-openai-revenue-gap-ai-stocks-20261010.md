@@ -5,13 +5,13 @@ date: 2026-10-10 14:56:00 +0900
 categories: [career]
 tags: [OpenAI, GPT, 오픈AI매출, 연환산매출, AI주가, 엔비디아, 오라클, CoreWeave, 매출회계, 엔터프라이즈AI, AI업계, 업무자동화, AI에이전트, AI뉴스, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/openai-revenue-gap-ai-stocks-20261010/openai-logo-wikimedia.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-revenue-gap-ai-stocks-20261010/openai-logo-wikimedia.png
 description: "2026년 10월 8일(현지시간) 파이낸셜타임스(FT)가 OpenAI의 연환산 매출이 약 500억 달러로, 9월에 널리 인용된 약 680억 달러보다 200억 달러가량 낮다고 보도했습니다. 이른바 '총액(gross)·순액(net)' 회계 기준 차이로, 수요 부진이 아니라 집계 방식의 문제라는 설명입니다. 보도 직후 엔비디아·오라클·CoreWeave 등 AI 칩·인프라 주가가 급락했습니다. 다음 날인 10월 9일 블룸버그는 OpenAI가 연말까지 연환산 매출 700억 달러를 달성·초과할 것으로 예상한다고 전했고, 약 300억 달러 규모 신규 펀딩도 협상 중입니다. 이슈 요약부터 상세 분석, 사용자·개발자 영향, 전망까지 정리했습니다."
 ---
 
 > **📌 한줄 요약:** 2026년 **10월 8일(현지시간) 파이낸셜타임스(FT)** 가 OpenAI의 **연환산 매출이 약 500억 달러**로, 9월에 널리 인용된 **약 680억 달러보다 200억 달러가량 낮다**고 보도했습니다. 회사가 투자자들에게 밝힌 **9월 말 연환산 매출이 약 500억 달러**였다는 것으로, 차액의 정체는 **'총액(gross) vs 순액(net)' 회계 기준 차이** — 즉 **수요가 줄어든 게 아니라 세는 방식이 달랐다**는 설명입니다. 그런데 시장은 이 **'측정 차이'에 반응**했고, **엔비디아·오라클·CoreWeave 등 AI 칩·인프라 주가가 급락**했습니다. 다음 날인 **10월 9일, 블룸버그는 OpenAI가 연말까지 연환산 매출 700억 달러를 달성·초과할 것으로 예상**한다고 전했고, **약 300억 달러 신규 펀딩** 협상 소식까지 나오며 관련주가 반등했습니다. 아래에서 무엇이 문제였고, 무엇이 사실인지 살펴봤습니다.
 
-![OpenAI 로고 (출처: Wikimedia Commons)](/assets/images/posts/openai-revenue-gap-ai-stocks-20261010/openai-logo-wikimedia.png)
+![OpenAI 로고 (출처: Wikimedia Commons)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-revenue-gap-ai-stocks-20261010/openai-logo-wikimedia.png)
 *OpenAI 로고 (출처: Wikimedia Commons)*
 
 요즘 AI 업계 뉴스를 보다 보면, 모델 성능 못지않게 **'돈' 이야기**가 자주 나옵니다. 그런데 그 숫자가 **하루아침에 200억 달러씩 달라진다면**, 그것도 **하루 만에 관련 주식시장 전체를 흔든다면** 이야기가 달라집니다. 이번 사건은 **"AI가 얼마나 잘 나가는가"보다 "그 매출 숫자를 어떻게 세는가"** 가 시장을 움직인다는 걸 보여줍니다.
@@ -56,7 +56,7 @@ description: "2026년 10월 8일(현지시간) 파이낸셜타임스(FT)가 Open
 
 즉 **"회계 기준 하나"가 아니라, 그 숫자를 전제로 쌓아 올린 'AI 성장 서사'가 흔들린 것**입니다.
 
-![뉴욕증권거래소(NYSE) 트레이딩 플로어 (출처: Wikimedia Commons / Library of Congress, Public Domain)](/assets/images/posts/openai-revenue-gap-ai-stocks-20261010/nyse-trading-floor-wikimedia.jpg)
+![뉴욕증권거래소(NYSE) 트레이딩 플로어 (출처: Wikimedia Commons / Library of Congress, Public Domain)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-revenue-gap-ai-stocks-20261010/nyse-trading-floor-wikimedia.jpg)
 *뉴욕증권거래소(NYSE) 트레이딩 플로어 (출처: Wikimedia Commons / Library of Congress, Public Domain)*
 
 ### ③ 다음 날의 반전 — 연말 700억 달러 목표

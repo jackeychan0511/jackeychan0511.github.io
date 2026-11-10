@@ -5,7 +5,7 @@ date: 2026-10-15 07:52:00 +0900
 categories: [career]
 tags: [HermesAgent, NousResearch, v0220, Threshold, 로컬모델, llamaCpp, 커넥터, Connectors, 온보딩, 업무자동화, AI에이전트, 오픈소스, 패키지매니저, 플러그인카탈로그, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/2026-10-15-hermes-v0220-threshold-release-20261015/hermes-v0220-official-og.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-10-15-hermes-v0220-threshold-release-20261015/hermes-v0220-official-og.png
 description: "2026년 10월 13일(UTC 14일 공개), 오픈소스 AI 에이전트 Hermes Agent가 v0.22.0 'The Threshold Release'를 배포했습니다. 무료 체험 모델로 시작하는 가이드 온보딩, Linear·Notion 등 호스티드 앱 커넥터, llama.cpp 원클릭 로컬 모델, 테스트된 SemVer 안정 채널, 600개 플러그인 카탈로그까지 담겼습니다. 업무 자동화 파이프라인을 운영하는 분들이라면 꼭 봐야 할 변경점과 업그레이드 주의사항만 정리했습니다."
 ---
 
@@ -15,7 +15,7 @@ description: "2026년 10월 13일(UTC 14일 공개), 오픈소스 AI 에이전�
 
 그런데 2026년 10월 13일, Nous Research가 **Hermes Agent v0.22.0 — "The Threshold Release"**를 배포했습니다. 10월 14일 UTC 기준으로 각 IT 매체에 일제히 실렸고, 릴리스 노트 표현을 그대로 옮기면 **"프로젝트가 지금까지 내보낸 가장 큰 창(window)"**입니다. v0.21.0 사이클의 약 2.5배 규모라고 하니, 단순 패치가 아니라 세대 교체급입니다.
 
-![Hermes Agent 공식 홈페이지 대표 이미지](/assets/images/posts/2026-10-15-hermes-v0220-threshold-release-20261015/hermes-v0220-official-hero.webp)
+![Hermes Agent 공식 홈페이지 대표 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-10-15-hermes-v0220-threshold-release-20261015/hermes-v0220-official-hero.webp)
 *출처: Hermes Agent 공식 홈페이지(hermes-agent.nousresearch.com) — 1순위 공식 홈페이지 대표 이미지*
 
 규모만 보면 이렇습니다. **약 24,200 커밋, 6,080개 머지 PR, 15,600개 파일 변경, 약 7,180개 이슈 종료, 약 2,520명 기여자.** 이번 한 번의 릴리스가 v0.21.1부터 v0.21.7까지의 패치 릴리스를 전부 흡수·문서화했습니다. 숫자만 봐도 "이슈급"이라는 게 바로 이해됩니다.
@@ -58,7 +58,7 @@ description: "2026년 10월 13일(UTC 14일 공개), 오픈소스 AI 에이전�
 
 참고로 2순위/3순위 이미지 검색까지 동원해 봤지만, 이 릴리스 자체를 찍은 별도 실사진은 없고 공식 배포 자산이 가장 정확했습니다. 아래 릴리스 대표 카드도 공식 og 이미지입니다.
 
-![Hermes Agent v0.22.0 공식 대표(og) 이미지](/assets/images/posts/2026-10-15-hermes-v0220-threshold-release-20261015/hermes-v0220-official-og.png)
+![Hermes Agent v0.22.0 공식 대표(og) 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-10-15-hermes-v0220-threshold-release-20261015/hermes-v0220-official-og.png)
 *출처: Hermes Agent 공식 홈페이지 og-image (1200×630) — 1순위 공식 홈페이지 자산*
 
 ## 4. 테스트된 SemVer 안정 채널 — 업데이트가 "반쯤 적용"되지 않습니다

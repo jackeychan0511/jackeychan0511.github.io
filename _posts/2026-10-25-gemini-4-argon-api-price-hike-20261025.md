@@ -5,11 +5,11 @@ date: 2026-10-25 15:50:00 +0900
 categories: [career]
 tags: [Google Gemini, 구글 제미나이, Gemini 4 Argon, 제미나이4 아르곤, Gemini API, API 가격 인상, 토큰 가격, Gemini 3.8 Flash, 컴퓨트 부족, 순다르 피차이, Sundar Pichai, 배치 API, 컨텍스트 캐싱, 프롬프트 캐싱, AI 에이전트 비용, 업무자동화, AI뉴스, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/gemini-4-argon-api-price-hike-20261025/gemini-4-argon-header-official.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-4-argon-api-price-hike-20261025/gemini-4-argon-header-official.jpg
 description: "구글 Gemini API 공식 가격표에 2026년 12월 1일부터 Gemini 4 Argon 단가가 2배로 오른다는 내용이 명시됐습니다. 입력 100만 토큰당 2달러에서 4달러, 출력은 10달러에서 20달러로 인상되고 배치·플렉스·프라이오리티 티어도 같은 비율로 오릅니다. Gemini 3.8 Flash도 2027년 1월 1일부터 2배가 됩니다. 순다르 피차이가 밝힌 '72시간 25조 토큰' 수요와 컴퓨트 부족이 배경으로, 개발자·자동화 파이프라인에 미치는 영향과 대응 전략을 정리했습니다."
 ---
 
-![Gemini 4 Argon 공식 발표 이미지 (출처: blog.google)](/assets/images/posts/gemini-4-argon-api-price-hike-20261025/gemini-4-argon-header-official.jpg)
+![Gemini 4 Argon 공식 발표 이미지 (출처: blog.google)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-4-argon-api-price-hike-20261025/gemini-4-argon-header-official.jpg)
 *출처: Google 공식 블로그 "Gemini 4 Argon: Built to solve your hardest problems" (blog.google)*
 
 ## 한 줄 요약: '출시 기념가'가 12월 1일에 끝난다
@@ -69,7 +69,7 @@ Argon보다 한 달 늦게, 같은 2배 인상이 예고된 셈입니다. 사실
 
 ---
 
-![순다르 피차이 구글 CEO (출처: Wikimedia Commons, 촬영 Lukasz Kobus / European Commission, CC BY 4.0)](/assets/images/posts/gemini-4-argon-api-price-hike-20261025/sundar-pichai-commons.jpg)
+![순다르 피차이 구글 CEO (출처: Wikimedia Commons, 촬영 Lukasz Kobus / European Commission, CC BY 4.0)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-4-argon-api-price-hike-20261025/sundar-pichai-commons.jpg)
 *출처: Wikimedia Commons "Sundar Pichai - 2023 (cropped).jpg" — Lukasz Kobus(European Commission), CC BY 4.0*
 
 ## 왜 갑자기 2배인가 — "컴퓨트가 부족하다"

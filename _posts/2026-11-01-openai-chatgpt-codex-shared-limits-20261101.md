@@ -5,7 +5,7 @@ date: 2026-11-01 14:52:00 +0900
 categories: [career]
 tags: [OpenAI, ChatGPT, Codex, 사용량한도, 토큰과금, ChatGPTPlus, ChatGPTPro, ChatGPTBusiness, 요금제개편, 업무자동화, AI에이전트, AI뉴스, 2026년11월]
 author: "40대 블로거"
-image: /assets/images/posts/openai-chatgpt-codex-shared-limits-20261101/codex-cli-screenshot.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-chatgpt-codex-shared-limits-20261101/codex-cli-screenshot.png
 description: "2026년 11월 1일 OpenAI 도움말 센터의 'ChatGPT와 Codex 사용량 한도' 문서가 갱신되며, 12월부터 Plus·Pro·Business 요금제의 사용량이 ChatGPT와 Codex에 걸쳐 하나로 공유된다는 내용이 확인됐습니다. 기준은 메시지 건수가 아니라 토큰이며, Instant 채팅은 사용량에서 제외됩니다. 10월 30일 체크아웃 화면에서 먼저 포착된 문구와 OpenAI 조직 책임자의 발언, 그리고 아직 공개되지 않은 것(정확한 시행일·요금제별 토큰 수·5시간 창 유지 여부)을 구분해 정리했습니다."
 ---
 
@@ -15,7 +15,7 @@ description: "2026년 11월 1일 OpenAI 도움말 센터의 'ChatGPT와 Codex �
 
 이 글은 **무엇이 공식 문서에 적혀 있는지 → 무엇이 아직 확인되지 않았는지 → 왜 지금 이런 변화가 나오는지 → 12월 전에 무엇을 준비하면 되는지** 순서로 정리했습니다.
 
-![OpenAI Codex CLI 실행 화면 (출처: Wikimedia Commons, Apache License 2.0, OpenAI Codex CLI 저장소)](/assets/images/posts/openai-chatgpt-codex-shared-limits-20261101/codex-cli-screenshot.png)
+![OpenAI Codex CLI 실행 화면 (출처: Wikimedia Commons, Apache License 2.0, OpenAI Codex CLI 저장소)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-chatgpt-codex-shared-limits-20261101/codex-cli-screenshot.png)
 *OpenAI Codex CLI 실행 화면 (출처: Wikimedia Commons, Apache License 2.0, OpenAI Codex CLI 저장소)*
 
 ## 이슈 요약 — 한 장으로 정리
@@ -35,7 +35,7 @@ description: "2026년 11월 1일 OpenAI 도움말 센터의 'ChatGPT와 Codex �
 
 표만 보면 "요금제 안내문 한 줄 바뀐 것"처럼 보입니다. 하지만 계량 단위가 메시지에서 토큰으로 넘어가면, 같은 금액으로 할 수 있는 일의 양이 **작업 종류에 따라 달라집니다.** 이 지점이 실무에서 가장 크게 체감되는 부분입니다.
 
-![ChatGPT 웹 인터페이스 예시 (출처: Wikimedia Commons, 퍼블릭 도메인)](/assets/images/posts/openai-chatgpt-codex-shared-limits-20261101/chatgpt-interface.png)
+![ChatGPT 웹 인터페이스 예시 (출처: Wikimedia Commons, 퍼블릭 도메인)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-chatgpt-codex-shared-limits-20261101/chatgpt-interface.png)
 *ChatGPT 웹 인터페이스 예시 (출처: Wikimedia Commons, 퍼블릭 도메인)*
 
 ## 1. 무슨 일이 있었나 — 도움말 문서 한 줄이 시작

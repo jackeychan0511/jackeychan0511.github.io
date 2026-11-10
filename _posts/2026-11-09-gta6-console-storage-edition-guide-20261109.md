@@ -5,11 +5,11 @@ date: 2026-11-09 11:22:00 +0900
 categories: [products]
 tags: [GTA6, GTA6출시일, GTA6사전다운로드, GTA6가격, GTA6얼티밋에디션, GTA6스탠다드에디션, PS5, PS5프로, XboxSeriesX, XboxSeriesS, 콘솔비교, 저장공간, 212GB, 제품비교, 구매가이드, 2026년11월]
 author: "40대 블로거"
-image: /assets/images/posts/gta6-console-buying-guide-20261109/official-vice-city.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gta6-console-buying-guide-20261109/official-vice-city.jpg
 description: "GTA 6가 2026년 11월 19일 PS5와 Xbox Series X/S로 출시됩니다. 락스타가 공식 확인한 설치 용량은 최대 212GB이고, 사전 다운로드는 11월 10일부터 시작됩니다. 콘솔별 실제 사용 가능한 저장공간과 212GB를 설치했을 때 남는 용량, 스탠다드(89,800원)와 얼티밋(112,800원) 에디션 차이, 디스크판과 디지털판 선택 기준까지 한 번에 정리했습니다."
 ---
 
-![GTA 6 공식 스크린샷, 바이스시티 전경](/assets/images/posts/gta6-console-buying-guide-20261109/official-vice-city.jpg)
+![GTA 6 공식 스크린샷, 바이스시티 전경](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gta6-console-buying-guide-20261109/official-vice-city.jpg)
 *GTA 6 공식 런치 갤러리 스크린샷. 2026년 11월 5일 락스타가 약 40장을 한꺼번에 공개했습니다 (출처: Rockstar Games 공식 홈페이지)*
 
 > **📌 한줄 요약:** GTA 6는 **2026년 11월 19일** PS5·Xbox Series X/S로 나옵니다. 락스타가 공식적으로 밝힌 설치 용량은 **최대 212GB**이고, 사전 다운로드는 원래 11월 12일 예정이었는데 **11월 10일로 이틀 앞당겨졌습니다**. 국내 가격은 **스탠다드 89,800원 / 얼티밋 112,800원**입니다. 문제는 용량입니다. 512GB 모델에 212GB를 설치하면 남는 공간이 150GB 안팎이라, 지금 콘솔을 고민 중이라면 **저장공간부터 계산하는 게 순서**입니다.
@@ -34,7 +34,7 @@ GTA 5가 2013년 9월에 나왔으니, 넘버링 기준으로 **13년 만의 신
 
 최근 분위기를 끌어올린 건 11월 5일 공개된 **런치 갤러리**입니다. 락스타가 공식 홈페이지에 약 40장의 스크린샷을 한 번에 올렸고, 바이스시티 야경과 그라스리버스, 레오니다키스, 포트 겔혼 같은 지역 컷이 함께 풀렸습니다. 같은 날 사전 다운로드 일정과 설치 용량까지 공식 확인되면서, 이제 남은 건 "무엇으로, 얼마나 담을 공간을 만들어 두고, 어느 에디션을 살지"입니다.
 
-![GTA 6 공식 스크린샷, 주인공 제이슨과 루시아](/assets/images/posts/gta6-console-buying-guide-20261109/official-jason-lucia.jpg)
+![GTA 6 공식 스크린샷, 주인공 제이슨과 루시아](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gta6-console-buying-guide-20261109/official-jason-lucia.jpg)
 *GTA 6의 두 주인공 제이슨과 루시아. 이번 작품은 두 인물을 오가는 구성입니다 (출처: Rockstar Games 공식 홈페이지)*
 
 ---
@@ -55,7 +55,7 @@ GTA 5가 2013년 9월에 나왔으니, 넘버링 기준으로 **13년 만의 신
 
 여기서 눈에 띄는 항목이 두 가지입니다. 첫째, **PC 버전이 없다**는 점입니다. 콘솔 독점 기간이 얼마나 될지는 아직 공식 발표가 없습니다. 둘째, **물리 패키지가 코드 방식**이라는 점입니다. 디스크를 넣고 바로 하는 구조가 아니라 박스에 든 코드를 입력해 내려받는 방식이라, 디스크판을 사도 212GB 다운로드는 똑같이 필요합니다.
 
-![GTA 6 공식 스크린샷, 그라스리버스 지역](/assets/images/posts/gta6-console-buying-guide-20261109/official-grassrivers.jpg)
+![GTA 6 공식 스크린샷, 그라스리버스 지역](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gta6-console-buying-guide-20261109/official-grassrivers.jpg)
 *레오니다 주의 그라스리버스. 이번 작품은 바이스시티 외곽 지역의 규모도 크게 늘었습니다 (출처: Rockstar Games 공식 홈페이지)*
 
 ---
@@ -82,7 +82,7 @@ GTA 5가 2013년 9월에 나왔으니, 넘버링 기준으로 **13년 만의 신
 
 ### Xbox Series S — 가장 저렴하지만 가장 빠듯
 
-![Xbox Series X 콘솔과 패드](/assets/images/posts/gta6-console-buying-guide-20261109/xbox-series-x-console.jpg)
+![Xbox Series X 콘솔과 패드](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gta6-console-buying-guide-20261109/xbox-series-x-console.jpg)
 *Xbox Series X. Series S는 디스크 드라이브가 없는 소형 모델입니다 (출처: Wikimedia Commons, Der. Bellemer, CC BY-SA 4.0)*
 
 본체 가격이 가장 낮고 Game Pass와 조합하기 좋습니다. 다만 저장공간 512GB에 212GB 게임을 담는 구조라, 다른 게임을 지우고 다시 받는 일이 반복될 가능성이 큽니다. **GTA 6만 주력으로 하고 다른 게임은 거의 안 하는 경우**라면 여전히 합리적인 선택입니다.
@@ -93,14 +93,14 @@ GTA 5가 2013년 9월에 나왔으니, 넘버링 기준으로 **13년 만의 신
 
 ### PS5 기본형 — 가장 현실적인 선택
 
-![PS5 콘솔과 듀얼센스 컨트롤러](/assets/images/posts/gta6-console-buying-guide-20261109/ps5-console.jpg)
+![PS5 콘솔과 듀얼센스 컨트롤러](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gta6-console-buying-guide-20261109/ps5-console.jpg)
 *PS5 기본형과 듀얼센스. 초기형은 825GB, 슬림은 1TB입니다 (출처: Wikimedia Commons, Osh33m, CC BY-SA 4.0)*
 
 초기형 825GB 모델이라면 잔여가 455GB 수준입니다. 게임 3~4개를 함께 설치하는 편이라면 슬림(1TB)이나 M.2 SSD 추가를 권합니다. PS5는 M.2 NVMe SSD를 비교적 간단히 추가할 수 있어서, 저장공간 대응이 세 기종 중 가장 쉽습니다.
 
 ### PS5 Pro — 4K·고주사율 TV를 쓰는 경우
 
-![PS5 Pro 콘솔](/assets/images/posts/gta6-console-buying-guide-20261109/ps5-pro-console.jpg)
+![PS5 Pro 콘솔](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gta6-console-buying-guide-20261109/ps5-pro-console.jpg)
 *PS5 Pro. 디스크 드라이브가 없는 디지털 모델이 기본입니다 (출처: Wikimedia Commons, BeatEmUps, CC BY 3.0)*
 
 2TB라 용량 걱정은 사실상 사라집니다. 다만 **GTA 6가 PS5 Pro에서 60fps로 돌아가는지는 아직 공식 확정이 아닙니다.** 락스타는 프레임 모드에 대해 구체적으로 발표하지 않았고, 해외 매체들도 확인된 사실과 루머를 구분해 다루고 있는 상황입니다. 즉 지금 PS5 Pro를 사는 이유는 "GTA 6를 60fps로 하기 위해서"가 아니라 **"다른 게임까지 포함해 4K 화질과 2TB 용량을 함께 얻기 위해서"** 로 잡는 게 안전합니다.
@@ -130,7 +130,7 @@ GTA 5가 2013년 9월에 나왔으니, 넘버링 기준으로 **13년 만의 신
 
 참고로 예약 특전인 **빈티지 바이스시티 팩과 GTA+ 1개월은 두 에디션 모두**에게 주어집니다. 즉 얼티밋을 사는 이유는 특전이 아니라 전용 콘텐츠입니다.
 
-![GTA 6 공식 스크린샷, 레오니다키스](/assets/images/posts/gta6-console-buying-guide-20261109/official-leonida-keys.jpg)
+![GTA 6 공식 스크린샷, 레오니다키스](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gta6-console-buying-guide-20261109/official-leonida-keys.jpg)
 *레오니다키스 지역. 이번 작품의 맵은 바이스시티를 포함해 주 전체로 확장됐습니다 (출처: Rockstar Games 공식 홈페이지)*
 
 ---
@@ -164,7 +164,7 @@ GTA 5가 2013년 9월에 나왔으니, 넘버링 기준으로 **13년 만의 신
 
 가성비만 놓고 보면 **스탠다드 + 저장공간 확보**가 여전히 답입니다. 23,000원 차이는 콘텐츠 취향 문제이지, 성능이나 편의의 차이는 아니기 때문입니다.
 
-![GTA 6 공식 스크린샷, 포트 겔혼](/assets/images/posts/gta6-console-buying-guide-20261109/official-port-gellhorn.jpg)
+![GTA 6 공식 스크린샷, 포트 겔혼](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gta6-console-buying-guide-20261109/official-port-gellhorn.jpg)
 *포트 겔혼 지역. 11월 5일 공개된 런치 갤러리에는 이런 지역 컷이 다수 포함됐습니다 (출처: Rockstar Games 공식 홈페이지)*
 
 ---

@@ -5,7 +5,7 @@ date: 2026-09-28 16:53:00 +0900
 categories: [career]
 tags: [Anthropic, Claude, 앤트로픽, 클로드, Claude마켓플레이스, ClaudeMarketplace, MCP, AgentSkills, 커넥터, 플러그인, AI에이전트, 업무자동화, 자동화파이프라인, 엔터프라이즈AI, ClaudeCode, Snowflake, Atlassian, 2026년9월]
 author: "40대 블로거"
-image: /assets/images/posts/claude-marketplace-launch-20260928/claude-marketplace-official-hero.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/claude-marketplace-launch-20260928/claude-marketplace-official-hero.jpg
 description: "2026년 9월 23일(현지시간), Anthropic(앤트로픽)이 'Claude Marketplace(클로드 마켓플레이스)'를 공식 출시했습니다. MCP·Agent Skills 오픈 표준으로 만든 2,000개 이상의 커넥터·플러그인, 약 15종의 Claude 기반 에이전트·제품, 컨설팅 서비스 파트너를 한 곳에 모은 통합 스토어입니다. 핵심은 '이미 약정한 Anthropic 지출(committed spend) 일부로 파트너 제품을 구매'할 수 있다는 점으로, 기업 구매 절차(조달)를 크게 줄여줍니다. 이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 솔직한 장단점 → 전망 순서로 정리했습니다."
 sitemap: false
 noindex: true
@@ -15,7 +15,7 @@ noindex: true
 
 요즘 저처럼 **AI 에이전트를 실사용하고 업무 자동화 파이프라인을 운영하시는 분들**은, 요즘 뉴스를 보는 관점이 예전과 많이 달라지셨을 겁니다. 예전엔 "새 모델이 얼마나 똑똑해졌나"만 봤는데, 이제는 **"이 에이전트가 우리 회사 툴(Jira, Notion, 사내 DB)이랑 얼마나 자연스럽게 붙는가"** 를 먼저 봅니다. 제가 이 소식을 눈여겨본 이유도 그겁니다. 모델 성능 1~2% 차이보다, **커넥터 하나가 잘 붙느냐 못 붙느냐**가 실제 업무 자동화 성패를 갈랐거든요.
 
-![Claude Marketplace 공식 발표 이미지 — 커넥터·플러그인, 에이전트·제품, 서비스 파트너를 하나의 창구로 모은 Anthropic의 통합 스토어](/assets/images/posts/claude-marketplace-launch-20260928/claude-marketplace-official-hero.jpg)
+![Claude Marketplace 공식 발표 이미지 — 커넥터·플러그인, 에이전트·제품, 서비스 파트너를 하나의 창구로 모은 Anthropic의 통합 스토어](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/claude-marketplace-launch-20260928/claude-marketplace-official-hero.jpg)
 *(이미지 출처: Anthropic Claude 공식 블로그·마켓플레이스 페이지)*
 
 ## 이슈 요약 — 무엇이 바뀌었나
@@ -50,7 +50,7 @@ Anthropic이 밀어온 **MCP(Model Context Protocol)** 는 이제 업계에서 �
 
 Accenture, BCG, Deloitte 같은 파트너가 **AI 전략 수립과 조직 전사 롤아웃**을 맡는 구조입니다. 개인·소규모 개발자에게는 크게 와닿지 않을 수 있지만, **국내 대기업·공공 도입을 준비하는 실무자**라면 이 레인이 실제 도입 경로가 될 가능성이 큽니다.
 
-![Claude Marketplace 공식 페이지 이미지 — 커넥터·플러그인, 에이전트·제품, 서비스 파트너를 한 화면에서 탐색하는 구조](/assets/images/posts/claude-marketplace-launch-20260928/claude-marketplace-page-og.jpg)
+![Claude Marketplace 공식 페이지 이미지 — 커넥터·플러그인, 에이전트·제품, 서비스 파트너를 한 화면에서 탐색하는 구조](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/claude-marketplace-launch-20260928/claude-marketplace-page-og.jpg)
 *(이미지 출처: claude.com/marketplace 공식 페이지)*
 
 ## 영향 — 사용자(실무자) 입장

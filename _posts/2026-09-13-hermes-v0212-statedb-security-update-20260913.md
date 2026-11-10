@@ -5,11 +5,11 @@ date: 2026-09-13 07:52:00 +0900
 categories: [career]
 tags: [HermesAgent, NousResearch, v0212, stateDB, 보안패치, 자격증명유출, 멀티프로필, 업무자동화, AI에이전트, AI툴추천, 플러그인카탈로그, 크론잡, 자동화 작업, 2026년9월]
 author: "40대 블로거"
-image: /assets/images/posts/hermes-v0212-statedb-20260913/desktop-preview.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-v0212-statedb-20260913/desktop-preview.jpg
 description: "2026년 9월 11일(현지시간) 공개된 Hermes Agent v0.21.2(v2026.9.11) 업데이트를 정리했습니다. 이번 릴리스는 표기상 '패치 릴리스'지만 내용은 이슈급입니다. ① v0.21.0 판테온에서 대개편된 세션 저장소(state.db) 때문에 일부 설치본의 DB가 손상·오인 보고되고 sessions list가 죽던 문제를 6개 PR·44개 이슈 클로즈로 근본 원인까지 수정했고, ② 멀티 프로필(멀티플렉스) 환경에서 보조 프로필 봇이 기본 프로필의 allow-list를 상속하거나, 어댑터가 자격증명을 다른 프로필 호스트로 보내거나, stdio MCP 서버가 기본 프로필의 vault 시크릿을 받거나, MEDIA: 배달이 남의 .env·auth.json·state.db를 첨부할 수 있던 자격증명 격리 취약점 묶음을 닫았습니다. 여기에 패스워드 블라인드 자격증명 볼트(1Password·Bitwarden·로컬), SHA 고정 플러그인 카탈로그, Nous 무료 티어와 첫 실행 가이드까지. v0.21.1 이후 나흘간 947커밋·312개 PR·140명 기여자가 들어간 실사용 후기와 솔직한 장단점을 정리했습니다."
 ---
 
-![Hermes Agent 데스크톱 공식 미리보기 — 멀티 프로필·봇 모드·플러그인 페이지가 한 화면에](/assets/images/posts/hermes-v0212-statedb-20260913/desktop-preview.jpg)
+![Hermes Agent 데스크톱 공식 미리보기 — 멀티 프로필·봇 모드·플러그인 페이지가 한 화면에](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-v0212-statedb-20260913/desktop-preview.jpg)
 *Hermes Agent Desktop 공식 미리보기 이미지 — 이번 v0.21.2에서 자격증명 격리와 플러그인 페이지가 크게 손봐진 화면입니다 (출처: hermes-agent.nousresearch.com 공식 홈페이지)*
 
 > **📌 한줄 요약:** 요즘 저처럼 **Hermes Agent로 크론잡 자동화 작업·업무 자동화를 돌리시는 분들**은 이번 주에 꼭 `hermes update` 한 번 하세요. 9월 11일 공개된 **v0.21.2(v2026.9.11)**는 이름은 "state.db 패치 릴리스"인데, 실제 내용은 **① 세션 DB(state.db) 손상 사고의 근본 원인 제거(6개 PR·44개 이슈 종료)** 그리고 **② 멀티 프로필 환경의 계정 자격증명 유출 경로 차단**입니다. 특히 ②는 제가 이 블로그를 게이트웨이로 돌리는 입장에서 **가장 반가운 보안 패치**였습니다. 공짜(MIT) 업데이트니 안 할 이유가 없습니다.
@@ -48,7 +48,7 @@ description: "2026년 9월 11일(현지시간) 공개된 Hermes Agent v0.21.2(v2
 
 솔직히 저는 이 항목들을 읽으면서 **"패치 릴리스에 이걸 다 넣는다고?"** 싶었습니다. 그만큼 이 사고는 자동화를 24시간 돌리는 사람에게는 치명적이었거든요.
 
-![Hermes Agent 크론·자동화 공식 기능 이미지 — 예약 실행이 세션 DB에 의존합니다](/assets/images/posts/hermes-v0212-statedb-20260913/feature-automation.jpg)
+![Hermes Agent 크론·자동화 공식 기능 이미지 — 예약 실행이 세션 DB에 의존합니다](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-v0212-statedb-20260913/feature-automation.jpg)
 *Hermes Agent 공식 홈페이지의 자동화(스케줄·크론) 기능 소개 이미지 — 이번 state.db 사고는 바로 이 자동화 계층에 영향을 줬습니다 (출처: hermes-agent.nousresearch.com 공식 홈페이지)*
 
 ---
@@ -68,7 +68,7 @@ description: "2026년 9월 11일(현지시간) 공개된 Hermes Agent v0.21.2(v2
 
 저처럼 **"봇 하나는 뉴스 수집, 하나는 포스팅, 하나는 이미지"** 식으로 프로필을 나눠 쓰는 사람에게 이건 남 일이 아닙니다. `.env`나 `auth.json`, 심지어 세션 DB까지 다른 프로필 봇을 통해 밖으로 나갈 수 있었다는 뜻이니까요. 보안 사고가 나고 나서 알았으면 늦었을 겁니다.
 
-![Hermes Agent 서브에이전트 위임 기능 공식 이미지 — 프로필이 늘어날수록 격리가 중요합니다](/assets/images/posts/hermes-v0212-statedb-20260913/feature-delegate.jpg)
+![Hermes Agent 서브에이전트 위임 기능 공식 이미지 — 프로필이 늘어날수록 격리가 중요합니다](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-v0212-statedb-20260913/feature-delegate.jpg)
 *Hermes Agent 공식 홈페이지의 서브에이전트 위임 기능 이미지 — 봇·프로필을 여러 개 돌릴수록 프로필 간 자격증명 격리가 핵심이 됩니다 (출처: hermes-agent.nousresearch.com)*
 
 ---
@@ -82,10 +82,10 @@ description: "2026년 9월 11일(현지시간) 공개된 Hermes Agent v0.21.2(v2
 - **Nous 무료 티어와 첫 실행 가이드** — 명령 하나로 무료 추론·커넥터를 붙이고, 채팅에서 바로 `/login`도 됩니다. Gmail·Linear·Notion 같은 커넥터 도구는 `tool_search`로 검색해 씁니다.
 - **데스크톱 백엔드 폭주 종료** — 봇 모드가 실행할 때마다, 로스터를 훑을 때마다 프로필마다 백엔드를 새로 띄우던 문제도 정리됐습니다. 노트북에서 돌리는 분들에겐 체감이 큽니다.
 
-![Hermes Agent 메모리 공식 이미지](/assets/images/posts/hermes-v0212-statedb-20260913/feature-memory.jpg)
+![Hermes Agent 메모리 공식 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-v0212-statedb-20260913/feature-memory.jpg)
 *Hermes Agent 공식 홈페이지의 메모리(세션 지속) 기능 이미지 — 이 기능의 바닥에 깔린 저장소가 바로 이번에 손본 state.db입니다 (출처: hermes-agent.nousresearch.com)*
 
-![Hermes Agent 샌드박스 공식 이미지](/assets/images/posts/hermes-v0212-statedb-20260913/feature-sandbox.jpg)
+![Hermes Agent 샌드박스 공식 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-v0212-statedb-20260913/feature-sandbox.jpg)
 *Hermes Agent 공식 홈페이지의 샌드박스 기능 이미지 (출처: hermes-agent.nousresearch.com)*
 
 ---
@@ -111,7 +111,7 @@ hermes doctor
 hermes sessions recover --inspect-only
 ```
 
-![Hermes Agent 데스크톱 쇼케이스 공식 이미지](/assets/images/posts/hermes-v0212-statedb-20260913/desktop-showcase.jpg)
+![Hermes Agent 데스크톱 쇼케이스 공식 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-v0212-statedb-20260913/desktop-showcase.jpg)
 *Hermes Agent 공식 데스크톱 쇼케이스 이미지 (출처: hermes-agent.nousresearch.com 공식 홈페이지)*
 
 ---

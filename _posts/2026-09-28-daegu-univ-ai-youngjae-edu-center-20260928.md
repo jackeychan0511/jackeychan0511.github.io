@@ -5,7 +5,7 @@ date: 2026-09-28 12:00:00 +0900
 categories: [education]
 tags: [AI영재교육원, 대구대, 글로벌브릿지AI영재교육원, 영재교육원, 영재교육원모집, 2027영재교육원, 경북영재교육원, 인공지능영재교육원, AI교육, 영재교육, 사고력수학, 초등수학, 시매쓰, Cmath, 크레버스, CMS영재관, 와이즈만영재교육, 소마사고력수학, 씨투엠, 생각하는황소, 학부모필수정보]
 author: "40대 블로거"
-image: /assets/images/posts/daegu-univ-ai-youngjae-edu-center-20260928/01-daegu-univ-campus.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/daegu-univ-ai-youngjae-edu-center-20260928/01-daegu-univ-campus.jpg
 description: "대구대학교가 경상북도교육청으로부터 '글로벌브릿지 AI 영재교육원' 설립 최종 승인을 받아 2027년 3월 개원합니다. 경북 지역 최초의 대학부설 AI 영재교육원으로, 초등 4학년부터 고등 1학년까지 무학년제 2개 과정과 고2 독립연구 과정을 합쳐 총 45명을 선발합니다. 2027학년도 원서접수는 2026년 10월 16일부터 11월 6일까지이며, 11월 28일 최종 합격자를 발표합니다."
 ---
 
@@ -15,7 +15,7 @@ description: "대구대학교가 경상북도교육청으로부터 '글로벌브
 
 그리고 그 흐름이 이번에는 **경상북도**에서 시작됐습니다. **2026년 9월 22일, 대구대학교는 경상북도교육청으로부터 '글로벌브릿지 AI 영재교육원' 설립 최종 승인을 받았다고 밝혔습니다.** 경북 지역에서 대학부설 **AI 전문 영재교육원**이 들어서는 것은 이번이 처음입니다.
 
-![대구대학교 캠퍼스(성산홀) 전경](/assets/images/posts/daegu-univ-ai-youngjae-edu-center-20260928/01-daegu-univ-campus.jpg)
+![대구대학교 캠퍼스(성산홀) 전경](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/daegu-univ-ai-youngjae-edu-center-20260928/01-daegu-univ-campus.jpg)
 *AI 영재교육원이 들어서는 대구대학교 경산캠퍼스 전경. 출처: 대구대학교 공식 홈페이지(DU 스토리) 제공*
 
 ## 📌 핵심 요약 — 6줄 정리
@@ -37,7 +37,7 @@ description: "대구대학교가 경상북도교육청으로부터 '글로벌브
 
 대구대 글로벌브릿지 AI 영재교육원의 소재지는 **[경상북도 경산시 진량읍 대구대로 201](https://maps.google.com/?q=경상북도+경산시+진량읍+대구대로+201)** 대구대학교 경산캠퍼스이며, 관련 문의는 **글로벌브릿지 사무국(053-850-5847)** 또는 교육원 홈페이지에서 확인할 수 있습니다.
 
-![보안 강화 설계 과정을 학습하고 있는 학생들](/assets/images/posts/daegu-univ-ai-youngjae-edu-center-20260928/02-daegu-ai-security-class.jpg)
+![보안 강화 설계 과정을 학습하고 있는 학생들](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/daegu-univ-ai-youngjae-edu-center-20260928/02-daegu-ai-security-class.jpg)
 *대구대 SW중심대학사업단에서 '보안 강화 설계 과정'을 학습하고 있는 학생들. AI 영재교육원은 이 사업단의 교수진과 인프라를 연계해 운영됩니다. 출처: 대구대학교 공식 홈페이지 제공*
 
 ## 🧩 3개 트랙 · 정원 — "몇 학년이 지원할 수 있나요?"
@@ -83,7 +83,7 @@ description: "대구대학교가 경상북도교육청으로부터 '글로벌브
 
 이미순 글로벌브릿지 영재교육원장은 **"AI 기술 자체를 배우는 데 그치지 않고, AI를 도구로 활용해 인문·사회·과학·예술 등 여러 학문과 결합하는 교육을 진행할 것"**이라며 **"'AI를 활용해 어떻게 혁신할 것인가'를 학생들이 직접 경험하도록 하겠다"**고 밝혔습니다.
 
-![양궁 자세 인식 VR 콘텐츠를 개발 중인 학생들](/assets/images/posts/daegu-univ-ai-youngjae-edu-center-20260928/03-daegu-ai-vr-project.jpg)
+![양궁 자세 인식 VR 콘텐츠를 개발 중인 학생들](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/daegu-univ-ai-youngjae-edu-center-20260928/03-daegu-ai-vr-project.jpg)
 *대구대에서 '양궁 자세 인식 VR 콘텐츠'를 개발 중인 학생들. AI 영재교육원이 지향하는 융합 프로젝트형 수업의 사례입니다. 출처: 대구대학교 공식 홈페이지 제공*
 
 ## 🔄 왜 지금 이 소식이 중요한가 — 2027 영재교육 시즌의 흐름

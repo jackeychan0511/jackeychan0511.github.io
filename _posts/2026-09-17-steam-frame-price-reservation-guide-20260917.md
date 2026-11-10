@@ -5,7 +5,7 @@ date: 2026-09-17 11:25:00 +0900
 categories: [products]
 tags: [스팀 프레임, Steam Frame, 밸브 VR, 무선 VR 헤드셋, 스팀OS, 포비티드 스트리밍, 밸브 인덱스, 메타 퀘스트 3, VR 헤드셋 추천, 하프라이프 알릭스, 스팀 하드웨어, 제품 비교]
 author: "40대 블로거"
-image: /assets/images/posts/2026-09-17-steam-frame/steam-frame-official-01.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-09-17-steam-frame/steam-frame-official-01.jpg
 description: "밸브가 스팀 프레임(Steam Frame) 가격을 256GB 1,059달러·1TB 1,299달러로 공개하고 9월 14일부터 예약(추첨제)을 받고 있습니다. 예약 마감은 9월 17일 오후 5시(UTC), 한국 시간으로 9월 18일 새벽 2시입니다. 스냅드래곤 8 Gen 3·16GB 램·2160×2160 LCD·아이트래킹 포비티드 스트리밍 등 핵심 스펙, 밸브 인덱스·메타 퀘스트 3와의 비교, 국내 구매 시 걸림돌까지 솔직하게 정리했습니다. 이미지는 밸브 공식 페이지·위키미디어 공용입니다."
 ---
 
@@ -15,7 +15,7 @@ description: "밸브가 스팀 프레임(Steam Frame) 가격을 256GB 1,059달�
 
 그런데 밸브가 이 고민을 정면으로 겨냥한 물건을 내놨습니다. 2025년 11월에 예고만 해두고 감감무소식이던 **스팀 프레임**인데요. **9월 14일 가격과 예약 방식이 공개**되면서 커뮤니티가 다시 들썩이고 있습니다. 이번 글에서는 **스팀 프레임이 정확히 어떤 기기인지, 스펙과 가격, 그리고 지금 예약을 걸어야 하는지**를 솔직하게 정리해 봤습니다.
 
-![밸브 스팀 프레임 공식 제품 이미지 (출처: Valve / Steam 공식 스토어 하드웨어 페이지)](/assets/images/posts/2026-09-17-steam-frame/steam-frame-official-01.jpg)
+![밸브 스팀 프레임 공식 제품 이미지 (출처: Valve / Steam 공식 스토어 하드웨어 페이지)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-09-17-steam-frame/steam-frame-official-01.jpg)
 *스팀 프레임은 밸브 인덱스 이후 7년 만의 새 VR 헤드셋입니다 (출처: Valve / Steam 공식)*
 
 ## 스팀 프레임은 무엇이 다른가 — "본체가 곧 PC"
@@ -30,7 +30,7 @@ description: "밸브가 스팀 프레임(Steam Frame) 가격을 256GB 1,059달�
 
 인덱스 시절에는 PC와 케이블로 묶여 있고 베이스 스테이션 2개를 세팅해야 했는데, 이번에는 **헤드셋 하나만 쓰면 끝**이라는 구조로 완전히 바뀐 셈이죠. 밸브가 **"스팀 프레임 자체가 PC"** 라고 표현한 이유입니다.
 
-![밸브 스팀 하드웨어 공식 페이지 이미지 (출처: Valve / Steam 공식 스토어)](/assets/images/posts/2026-09-17-steam-frame/steam-frame-official-02.jpg)
+![밸브 스팀 하드웨어 공식 페이지 이미지 (출처: Valve / Steam 공식 스토어)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-09-17-steam-frame/steam-frame-official-02.jpg)
 *스팀 프레임은 밸브가 함께 준비해 온 스팀 하드웨어 라인의 중심 제품입니다 (출처: Valve / Steam 공식)*
 
 ## 핵심 스펙 한눈에 정리
@@ -55,7 +55,7 @@ description: "밸브가 스팀 프레임(Steam Frame) 가격을 256GB 1,059달�
 | 컨트롤러 | AA 건전지 사용, 게임패드형 버튼 배치(D-패드 포함) |
 | 가격 | **256GB 1,059달러 / 1TB 1,299달러** (VAT 포함 기준) |
 
-![스팀 프레임 공식 로고 (출처: 위키미디어 공용, 퍼블릭 도메인)](/assets/images/posts/2026-09-17-steam-frame/steam-frame-logo.png)
+![스팀 프레임 공식 로고 (출처: 위키미디어 공용, 퍼블릭 도메인)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-09-17-steam-frame/steam-frame-logo.png)
 *스팀 프레임(Steam Frame) 공식 로고 (출처: Wikimedia Commons / Public Domain)*
 
 ## 실제로 쓸 때 좋은 부분 — 스트리밍이 진짜 무기입니다
@@ -111,10 +111,10 @@ description: "밸브가 스팀 프레임(Steam Frame) 가격을 256GB 1,059달�
 
 정리하면 **"퀘스트 3의 편의성 + 스팀 라이브러리 + 인덱스급 추적·아이 트래킹"** 을 한 기기에 몰아넣은 그림입니다. 대신 **가격이 퀘스트 3의 두 배 이상**이라는 게 가장 큰 진입 장벽이에요. VR을 이미 취미로 하고 있고 스팀 라이브러리가 두꺼운 분이라면 값어치가 있지만, "한 번 해보고 싶다" 단계라면 퀘스트 쪽이 여전히 합리적입니다.
 
-![전작 밸브 인덱스를 착용한 모습 (출처: 위키미디어 공용 / 퍼블릭 도메인, 미 공군 사진)](/assets/images/posts/2026-09-17-steam-frame/valve-index.jpg)
+![전작 밸브 인덱스를 착용한 모습 (출처: 위키미디어 공용 / 퍼블릭 도메인, 미 공군 사진)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-09-17-steam-frame/valve-index.jpg)
 *전작 밸브 인덱스는 PC 유선 + 베이스 스테이션이 필수였습니다 (출처: Wikimedia Commons / Public Domain)*
 
-![경쟁 기기인 메타 퀘스트 3 (출처: 위키미디어 공용 / CC BY-SA 4.0, Roy.wonder.cohen)](/assets/images/posts/2026-09-17-steam-frame/meta-quest-3.jpg)
+![경쟁 기기인 메타 퀘스트 3 (출처: 위키미디어 공용 / CC BY-SA 4.0, Roy.wonder.cohen)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-09-17-steam-frame/meta-quest-3.jpg)
 *퀘스트 3은 499달러 수준의 출시가로 사실상 기준점 역할을 해왔습니다 (출처: Wikimedia Commons / CC BY-SA 4.0)*
 
 ## 솔직한 장점과 단점

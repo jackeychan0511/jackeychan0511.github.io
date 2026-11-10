@@ -5,13 +5,13 @@ date: 2026-10-31 16:50:00 +0900
 categories: [career]
 tags: [Anthropic, Claude, 앤트로픽, 클로드, ClaudeCode, 클로드코드, Cursor, 커서, VSCode, 확장프로그램, 공급망공격, SupplyChain, SSH백도어, 리버스터널, svc-telemetry, 개발자보안, 아이오씨, IOC, 자격증명탈취, 업무자동화, AI에이전트, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/anthropic-claude-code-extension-cursor-backdoor-20261031/claude-code-attack-chain.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-code-extension-cursor-backdoor-20261031/claude-code-attack-chain.jpg
 description: "2026년 10월 29일, Cursor 확장 마켓플레이스에서 Anthropic 공식 계정으로 배포된 Claude Code 확장 프로그램 2.1.312·2.1.313 버전에 SSH 백도어 코드가 삽입된 사실이 확인됐습니다. 약 11시간 노출, 최대 5,000명 영향, 2.1.314로 긴급 교체. 공격 체인 5단계와 IOC, 확장 삭제만으로 끝나지 않는 이유, 개발자·보안 담당자가 지금 확인해야 할 항목을 정리했습니다."
 sitemap: false
 noindex: true
 ---
 
-![Claude Code 악성 확장 프로그램의 5단계 공격 체인 도식 — 정찰, SSH 키 설치, 역터널, 지속성 확보, 지연 보고](/assets/images/posts/anthropic-claude-code-extension-cursor-backdoor-20261031/claude-code-attack-chain.jpg)
+![Claude Code 악성 확장 프로그램의 5단계 공격 체인 도식 — 정찰, SSH 키 설치, 역터널, 지속성 확보, 지연 보고](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-code-extension-cursor-backdoor-20261031/claude-code-attack-chain.jpg)
 *정찰 수집 → SSH 키 삽입 → 역방향 SSH 터널 → 플랫폼별 지속성 → 지연 콜백으로 이어지는 5단계 공격 체인. 확장 프로그램은 로딩되는 순간 이 코드를 먼저 실행하고, 이후 정상 동작을 계속해 사용자가 이상을 느끼기 어렵게 만들었습니다 (출처: Microsoft Security Blog, 2026.10.30, Figure 1)*
 
 > **📌 한줄 요약:** 2026년 **10월 29일(현지)**, **Cursor 확장 마켓플레이스**에서 **Anthropic 공식 계정으로 배포되는 Claude Code 확장 프로그램**(`anthropic.claude-code`) **2.1.312·2.1.313** 버전에 **SSH 백도어 코드가 삽입된 채 약 11시간** 유통됐습니다. 영향 범위는 **최대 5,000명**, 확장 프로그램은 **자동 업데이트가 기본값**이라 손대지 않아도 감염될 수 있는 구조였습니다. Cursor는 마켓플레이스를 전면 폐쇄하고 키를 교체했고, Anthropic은 **2.1.314**를 배포했습니다. 그런데 **확장을 삭제해도 지속성 파일은 남습니다.**
@@ -57,7 +57,7 @@ Microsoft 위협 인텔리전스가 주입된 자바스크립트를 분석한 �
 | ④ 지속성 | macOS LaunchAgent / Linux cron / Windows 작업 스케줄러 | `com.apple.sysmond.plist`, `@reboot` 항목, `SysMon` 작업 |
 | ⑤ 지연 보고 | 앞 단계가 끝난 뒤 호스트 정보 전송 | `134.209.82.225:8099/beacon` 으로 HTTP POST |
 
-![역방향 SSH 터널을 구성하는 실제 명령줄 — 호스트 키 검증 비활성화, 60초 간격 재시도](/assets/images/posts/anthropic-claude-code-extension-cursor-backdoor-20261031/reverse-ssh-tunnel-command.jpg)
+![역방향 SSH 터널을 구성하는 실제 명령줄 — 호스트 키 검증 비활성화, 60초 간격 재시도](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-code-extension-cursor-backdoor-20261031/reverse-ssh-tunnel-command.jpg)
 *원격 서버가 할당한 포트를 워크스테이션의 로컬 22번 포트로 포워딩하는 명령. `-N`은 원격에서 명령을 실행하지 않겠다는 뜻이고, 호스트 키 검증과 known_hosts 사용을 꺼서 중간 확인 절차를 우회합니다 (출처: Microsoft Security Blog, 2026.10.30, Figure 2)*
 
 몇 가지 디테일이 이 코드의 성격을 잘 보여줍니다.

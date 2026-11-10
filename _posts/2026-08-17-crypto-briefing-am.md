@@ -5,13 +5,13 @@ date: 2026-08-17 06:30:00 +0900
 categories: [finance]
 tags: [비트코인, 가상화폐, 코인, BTC, 암호화폐]
 author: "40대 블로거"
-image: /assets/images/posts/crypto-briefing-20260817-am/bitcoin-price-chart.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/crypto-briefing-20260817-am/bitcoin-price-chart.png
 description: "8월 17일 오전 코인 브리핑. 미국 BTC 현물 ETF가 지난주(8/10~14) 약 3.9억 달러 순유출로 재전환했고, ETH 현물 ETF도 5주 연속 순유입 행진을 마감했다. 직전 주 4월 이후 최대 순유입(+8.5억 달러)의 되돌림이다. 비트코인은 6.3만 달러(업비트 약 8,900만 원) 보합, 리플은 1달러 목전. 윈터뮤트는 '강세 전환 판단은 아직 이르다'고 분석했다."
 sitemap: false
 noindex: true
 ---
 
-![비트코인 7일 가격 차트](/assets/images/posts/crypto-briefing-20260817-am/bitcoin-price-chart.png)
+![비트코인 7일 가격 차트](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/crypto-briefing-20260817-am/bitcoin-price-chart.png)
 *비트코인(BTC) 7일 가격 추이 — 8/17 오전 브리핑 (Binance 4시간봉 기반 자체 제작)*
 
 **핵심 요약**: 직전 주 '4월 이후 최대 순유입'을 기록했던 미국 비트코인 현물 ETF가 지난주 다시 순유출로 돌아섰습니다. 이더리움 현물 ETF의 5주 연속 순유입 행진도 끝났습니다. 가격은 6.3만 달러 안팎 보합권입니다.

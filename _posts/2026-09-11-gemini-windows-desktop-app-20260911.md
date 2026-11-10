@@ -6,7 +6,7 @@ categories: [career]
 tags: [Gemini, Google, 제미나이, 구글, Gemini데스크톱앱, Windows앱, Alt+Space, GeminiSpark, 나노바나나, NanoBanana, GeminiOmni, 데스크톱자동화, 업무자동화, AI에이전트, AI뉴스, 2026년9월, 구글AI]
 author: "40대 블로거"
 description: "2026년 9월 10일, 구글이 공식 블로그 'The Gemini app is now available for Windows'를 통해 Gemini 데스크톱 앱의 Windows 버전을 전 세계 정식 출시했습니다. Alt+Space 단축키로 작업 중인 화면 위에서 Gemini를 즉시 호출하고, Gemini Spark 에이전트로 로컬 파일·Google 앱을 넘나드는 멀티스텝 작업을 위임하며, Nano Banana 이미지·Gemini Omni 영상 생성까지 한 앱에서 처리합니다. Windows 10·11(x64·ARM64) 지원, macOS(4월)에 이어 약 5개월 만의 Windows 진출입니다. 이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망 순서로 정리했습니다."
-image: /assets/images/posts/gemini-windows-desktop-app-20260911/gemini-windows-desktop-hero.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-windows-desktop-app-20260911/gemini-windows-desktop-hero.png
 sitemap: false
 noindex: true
 ---
@@ -15,7 +15,7 @@ noindex: true
 
 **2026년 9월 10일, 구글이 공식 블로그 "The Gemini app is now available for Windows"를 통해 Gemini 데스크톱 앱의 Windows 버전을 전 세계에 정식 출시**했습니다. macOS용 데스크톱 앱이 나온 게 올해 4월이니, **약 5개월 만에 Windows 사용자도 '네이티브 Gemini'를 손에 넣은 셈**입니다. 오늘은 이 소식을 **이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망** 순서로 정리해 드립니다.
 
-![Google 공식 블로그 'The Gemini app is now available for Windows' 대표 이미지](/assets/images/posts/gemini-windows-desktop-app-20260911/gemini-windows-desktop-hero.png)
+![Google 공식 블로그 'The Gemini app is now available for Windows' 대표 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-windows-desktop-app-20260911/gemini-windows-desktop-hero.png)
 *Google 공식 블로그 "The Gemini app is now available for Windows" 대표 이미지 — Alt + Space 한 번으로 작업 화면 위에서 Gemini를 호출한다 (출처: blog.google 공식 발표, 2026.9.10)*
 
 > 📌 참고: 본 글은 2026년 9월 10일 Google 공식 블로그 발표(Erin Pettigrew, Director of Product Management, Gemini App), 9to5Google(9/10), Android Authority, Neowin, Android Sage(9/11) 등의 보도를 바탕으로 작성한 정보형 기사입니다.
@@ -49,7 +49,7 @@ noindex: true
 
 결국 **"AI를 쓰려면 앱을 전환한다"는 전제를 없앤 것**이 이번 출시의 본질입니다. 9to5Google은 실제 창 구성이 **사실상 웹 버전에 Notebooks·Recents용 사이드 패널을 붙인 형태**라고 전하면서도, "가볍고 조용하게(lightweight and quiet) 동작한다"는 구글의 설명을 함께 소개했습니다.
 
-![9to5Google 보도 이미지 — Windows용 Gemini 데스크톱 앱 화면](/assets/images/posts/gemini-windows-desktop-app-20260911/gemini-windows-app-overlay.jpg)
+![9to5Google 보도 이미지 — Windows용 Gemini 데스크톱 앱 화면](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-windows-desktop-app-20260911/gemini-windows-app-overlay.jpg)
 *Windows용 Gemini 데스크톱 앱 — 활성 창 위에 겹쳐 뜨는 오버레이 방식으로 동작한다 (출처: 9to5Google 보도 이미지, 2026.9.10)*
 
 ### 2. Windows 사용자가 기다린 진짜 이유 — '로컬 파일'과 Spark

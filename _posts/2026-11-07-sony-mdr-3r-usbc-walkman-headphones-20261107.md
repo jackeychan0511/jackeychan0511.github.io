@@ -5,11 +5,11 @@ date: 2026-11-07 11:20:00 +0900
 categories: [products]
 tags: [소니MDR-3R, MDR-3R, 소니워크맨헤드폰, 워크맨, TPS-L2, 유선헤드폰추천, USBC헤드폰, 오픈형헤드폰, 온이어헤드폰, 스트레인저싱스에디션, 소니코리아, 유선오디오, 제품비교, 구매가이드, 2026년11월]
 author: "40대 블로거"
-image: /assets/images/posts/sony-mdr-3r-usbc-walkman-headphones-20261107/sony-mdr-3r-hero.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/sony-mdr-3r-usbc-walkman-headphones-20261107/sony-mdr-3r-hero.jpg
 description: "소니가 1979년 워크맨 TPS-L2와 함께 나온 MDR-3를 USB-C 유선 헤드폰 MDR-3R로 되살렸습니다. 23mm 드라이버와 38g 오픈형 구조, 인라인 리모컨·마이크, 블루·오렌지 이어패드 2세트가 특징입니다. 소니코리아 가격은 8만 9,000원이고, 해외 가격은 60달러·49파운드입니다. 무선 노이즈캔슬링 이어폰과 무엇이 다르고 어떤 사람에게 맞는지, 아쉬운 점까지 정리했습니다."
 ---
 
-![소니 MDR-3R 공식 제품 이미지](/assets/images/posts/sony-mdr-3r-usbc-walkman-headphones-20261107/sony-mdr-3r-hero.jpg)
+![소니 MDR-3R 공식 제품 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/sony-mdr-3r-usbc-walkman-headphones-20261107/sony-mdr-3r-hero.jpg)
 *소니 MDR-3R — 1979년 워크맨 TPS-L2에 동봉됐던 MDR-3의 디자인을 그대로 계승한 USB-C 유선 헤드폰입니다 (출처: Sony)*
 
 > **📌 한줄 요약:** 소니가 **1979년 워크맨 TPS-L2와 함께 나온 MDR-3**를 현대식으로 다시 만들었습니다. 이름은 **MDR-3R**, 가격은 **8만 9,000원(미국 60달러·영국 49파운드)** 입니다. **23mm 드라이버와 38g 오픈형 구조**는 원형 그대로이고, 바뀐 건 **3.5mm 대신 USB-C 단자**, **마이크·3버튼 인라인 리모컨**, **블루·오렌지 이어패드 2세트 기본 제공**입니다. 블루투스도 배터리도 노이즈캔슬링도 없습니다. 그런데도 화제인 이유는 **유선으로 돌아가는 흐름**과 **8만 원대 가격**이 맞물렸기 때문입니다.
@@ -42,7 +42,7 @@ description: "소니가 1979년 워크맨 TPS-L2와 함께 나온 MDR-3를 USB-C
 
 즉 **"감성 + 실용 + 가격"** 세 가지가 겹친 제품입니다. 복각 제품은 보통 비싸게 나오는데, 이건 오히려 저가형 무선 이어폰과 비슷한 가격대라는 점이 이례적입니다.
 
-![1979년 오리지널 소니 워크맨 TPS-L2](/assets/images/posts/sony-mdr-3r-usbc-walkman-headphones-20261107/walkman-tps-l2-1979.jpg)
+![1979년 오리지널 소니 워크맨 TPS-L2](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/sony-mdr-3r-usbc-walkman-headphones-20261107/walkman-tps-l2-1979.jpg)
 *MDR-3R의 원형이 된 1979년산 소니 워크맨 TPS-L2. 이 플레이어에 MDR-3 헤드폰이 동봉됐습니다 (출처: Wikimedia Commons, Anna Gerdén / Tekniska museet, CC BY-SA 3.0)*
 
 ---
@@ -70,7 +70,7 @@ description: "소니가 1979년 워크맨 TPS-L2와 함께 나온 MDR-3를 USB-C
 ### 바꾼 것
 가장 큰 변화는 단자입니다. **3.5mm 이어폰 잭이 사라지고 USB-C 케이블이 달렸습니다.** 케이블에는 **마이크와 3버튼 리모컨**이 들어가서 재생·일시정지, 곡 넘김, 볼륨 조절, 통화, 음성 비서 호출까지 됩니다. 요즘 스마트폰에 3.5mm 단자가 없는 상황을 생각하면 합리적인 선택입니다.
 
-![소니 MDR-3R 제품 이미지](/assets/images/posts/sony-mdr-3r-usbc-walkman-headphones-20261107/sony-mdr-3r-design.jpg)
+![소니 MDR-3R 제품 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/sony-mdr-3r-usbc-walkman-headphones-20261107/sony-mdr-3r-design.jpg)
 *38g의 가는 메탈 밴드와 각진 힌지 구조까지 원형의 실루엣을 유지했습니다 (출처: Sony)*
 
 ---
@@ -88,7 +88,7 @@ description: "소니가 1979년 워크맨 TPS-L2와 함께 나온 MDR-3를 USB-C
 **③ 38g은 확실한 강점입니다.**
 무선 온이어 헤드폰이 보통 150~250g인 것과 비교하면 **4분의 1 수준**입니다. 안경을 쓰거나 머리카락이 많아 정수리 압박이 신경 쓰이는 경우, 이 무게 차이는 오래 쓸수록 크게 체감됩니다. 다만 밴드가 얇은 만큼 **머리 크기에 따라 압박 위치가 달라질 수 있습니다.**
 
-![소니 MDR-3R 디테일](/assets/images/posts/sony-mdr-3r-usbc-walkman-headphones-20261107/sony-mdr-3r-detail.jpg)
+![소니 MDR-3R 디테일](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/sony-mdr-3r-usbc-walkman-headphones-20261107/sony-mdr-3r-detail.jpg)
 *이어컵 안쪽의 사운드 홀 구조. 원형처럼 귀를 덮지 않는 오픈형 방식입니다 (출처: Sony)*
 
 ---
@@ -134,7 +134,7 @@ description: "소니가 1979년 워크맨 TPS-L2와 함께 나온 MDR-3를 USB-C
 
 일반판과 에디션의 차이는 **색상과 각인뿐**이고, 드라이버·구조·케이블은 같습니다. 국내에서는 일반판이 먼저 풀리고, 에디션은 추후 결정될 가능성이 큽니다. 해외 직구를 고려한다면 배송비와 관부가세를 포함해 계산해야 합니다. 8만 원대 제품은 **미국 200달러 면세 한도** 안에 들어가지만, 유럽발 구매는 부가세가 붙을 수 있습니다.
 
-![소니 MDR-3R 컬러 에디션](/assets/images/posts/sony-mdr-3r-usbc-walkman-headphones-20261107/sony-mdr-3r-edition.jpg)
+![소니 MDR-3R 컬러 에디션](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/sony-mdr-3r-usbc-walkman-headphones-20261107/sony-mdr-3r-edition.jpg)
 *이어패드를 교체해 색을 바꿀 수 있고, 스트레인저 싱스 에디션은 블랙·레드 조합으로 나옵니다 (출처: Sony)*
 
 ---

@@ -5,7 +5,7 @@ date: 2026-10-22 16:52:00 +0900
 categories: [career]
 tags: [Anthropic, Claude, 앤트로픽, 클로드, ClaudeAPI, API버전, 20261021, temperature, top_p, top_k, 샘플링파라미터, 브레이킹체인지, BreakingChange, SDK, PythonSDK, TypeScriptSDK, ApacheLicense, ClaudeCode, UserProfiles, 업무자동화, 마이그레이션, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/anthropic-api-version-20261021/api-version-migration-og.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-api-version-20261021/api-version-migration-og.png
 description: "2026년 10월 21일(미국 태평양시간) 앤트로픽이 Claude API 버전 2026-10-21을 배포했습니다. 2023-06-01 이후 사실상 고정이던 버전이 교체되면서 temperature·top_p·top_k 샘플링 파라미터가 완전히 삭제되고, assistant 메시지의 document 블록과 user 메시지의 citations가 400 에러로 거부됩니다. 전 언어 SDK 메이저 버전(Python 2.0.0, TypeScript 1.0.0 등)과 ant CLI 2.0.0이 함께 나왔고 라이선스는 MIT에서 Apache 2.0으로 바뀌었습니다. Admin API 필드 개명, Bearer 인증 전환, Text Completions 제거까지 마이그레이션 체크리스트 형식으로 정리했습니다."
 ---
 
@@ -19,7 +19,7 @@ description: "2026년 10월 21일(미국 태평양시간) 앤트로픽이 Claude
 
 ## 1. 무슨 일이 있었나 — 3년 만의 API 버전 교체
 
-![Anthropic 공식 문서 「Migrating to API version 2026-10-21」 대표 이미지](/assets/images/posts/anthropic-api-version-20261021/api-version-migration-og.png)
+![Anthropic 공식 문서 「Migrating to API version 2026-10-21」 대표 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-api-version-20261021/api-version-migration-og.png)
 *앤트로픽 공식 개발자 문서 「Migrating to API version 2026-10-21」 대표 이미지. (이미지 출처: platform.claude.com 공식 문서)*
 
 공식 릴리스 노트의 10월 21일 항목은 짧고 건조합니다. "**API 버전 `2026-10-21`을 배포했다.**" 그런데 그 한 줄이 뜻하는 무게는 작지 않습니다. Claude API의 `anthropic-version` 헤더가 **`2023-06-01`에서 `2026-10-21`로** 넘어간 것이기 때문입니다.
@@ -106,7 +106,7 @@ API 키의 `workspace_id`는 특히 헷갈리는 부분입니다. 기존에는 *
 
 SDK 쪽은 "라이브러리를 새로 설치했다" 수준이 아니라 **코드 구조를 손봐야 하는** 변경이 섞여 있습니다.
 
-![Anthropic Claude Platform 공식 릴리스 노트 대표 이미지](/assets/images/posts/anthropic-api-version-20261021/release-notes-og.png)
+![Anthropic Claude Platform 공식 릴리스 노트 대표 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-api-version-20261021/release-notes-og.png)
 *앤트로픽 공식 「Claude Platform release notes」 대표 이미지. 10월 21일 항목에 API 버전 배포와 SDK 메이저 버전이 함께 기록돼 있습니다. (이미지 출처: platform.claude.com 공식 문서)*
 
 **① API 키가 `X-Api-Key` → `Authorization: Bearer`**

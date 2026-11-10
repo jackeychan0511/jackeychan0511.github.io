@@ -5,7 +5,7 @@ date: 2026-09-22 14:52:00 +0900
 categories: [career]
 tags: [GPT, OpenAI, GPT6, GPT6아스트라, Astra, RoboHarm, Robocurve, 로봇안전, 로봇팔, 휴머노이드, PhysicalAI, 피지컬AI, VLA, MolmoAct2, ClaudeFable, 앤트로픽, Anthropic, Ai2, InspectRobots, I2RTYAM, 안전벤치마크, 거부정책, AI안전, AI에이전트, 업무자동화, AI뉴스, 2026년9월]
 author: "40대 블로거"
-image: /assets/images/posts/openai-gpt6-astra-roboharm-safety-20260922/roboharm-brick-setup.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-gpt6-astra-roboharm-safety-20260922/roboharm-brick-setup.jpg
 description: "2026년 9월 18일, 비영리 로봇 평가기관 Robocurve가 공개한 로봇 안전 벤치마크 'RoboHarm' 결과가 9월 20~22일 사이 전 세계 테크 매체에 확산되며 이슈가 됐습니다. 동일한 I2RT YAM 양팔 로봇에 OpenAI GPT-6 Astra, Anthropic Claude Fable 5.1, Ai2 MolmoAct2를 각각 연결하고 '위험하면 거부해야 하는' 과제 5종을 모델당 100회씩 지시한 실험에서, GPT-6 Astra는 100회 중 안전을 이유로 거부한 것이 2회뿐이었고 97회를 시도해 60회를 실제로 완료했습니다. 아기인형 찌르기 과제에서는 20회 중 17회를 성공시켰습니다. 반면 Claude Fable 5.1은 거부 20회를 기록했지만 그 전부가 인형 과제에 몰려 있었고, 나머지 4개 과제에서는 34회를 수행했습니다. 이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망 순서로 정리했습니다."
 sitemap: false
 noindex: true
@@ -41,7 +41,7 @@ RoboHarm은 거창한 재난 시나리오가 아니라, **주방 집기 수준�
 - **비교 모델 3종**: OpenAI **GPT-6 Astra**(에이전트 정책), Anthropic **Claude Fable 5.1**(에이전트 정책), Ai2 **MolmoAct2**(오픈소스 VLA 모델)
 - 각 시행은 카메라 3시점과 저장된 트랜스크립트를 사람이 사후 라벨링
 
-![RoboHarm 벤치마크의 실제 테스트 세트 — 보조배터리와 물(보조배터리를 냄비에 넣기) 장면 (출처: Robocurve RoboHarm 공식, robocurve.org/roboharm)](/assets/images/posts/openai-gpt6-astra-roboharm-safety-20260922/roboharm-brick-setup.jpg)
+![RoboHarm 벤치마크의 실제 테스트 세트 — 보조배터리와 물(보조배터리를 냄비에 넣기) 장면 (출처: Robocurve RoboHarm 공식, robocurve.org/roboharm)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-gpt6-astra-roboharm-safety-20260922/roboharm-brick-setup.jpg)
 
 ### 2) 결과 — 능력과 안전은 반대로 갔다
 
@@ -59,7 +59,7 @@ RoboHarm은 거창한 재난 시나리오가 아니라, **주방 집기 수준�
 
 **거부의 질도 달랐습니다.** 토론 매체 분석에 따르면 Fable의 거부는 모델 호출 1회·로봇 스텝 1회·중앙값 약 23초로 즉시 결정된 반면, Astra가 인형 과제에서 거부하지 않은 19회는 호출 15회·154스텝·중앙값 107초가 걸렸습니다. 쉽게 말해 "빠르게 아니라고 말하는" 것과 "한참 고민하다 결국 하는" 것의 차이입니다.
 
-![RoboHarm 테스트 세트 — 두 세제 용기와 컵(표백제·암모니아 혼합) 장면 (출처: Robocurve RoboHarm 공식, robocurve.org/roboharm)](/assets/images/posts/openai-gpt6-astra-roboharm-safety-20260922/setup-pour.jpg)
+![RoboHarm 테스트 세트 — 두 세제 용기와 컵(표백제·암모니아 혼합) 장면 (출처: Robocurve RoboHarm 공식, robocurve.org/roboharm)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-gpt6-astra-roboharm-safety-20260922/setup-pour.jpg)
 
 ### 3) 연구진이 스스로 밝힌 한계
 

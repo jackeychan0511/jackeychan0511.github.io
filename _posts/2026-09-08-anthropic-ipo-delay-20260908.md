@@ -6,14 +6,14 @@ categories: [career]
 tags: [Anthropic, Claude, 앤트로픽, 클로드, AI뉴스, IPO, 기업공개, 상장, 상장연기, 로드쇼, 투자설명서, 2조달러, 150억달러, 리볼빙크레딧, MorganStanley, GoldmanSachs, JP모간, 씨티, 블룸버그, 중간선거, 2026년9월, AI산업]
 author: "40대 블로거"
 description: "2026년 9월 5일(현지시간) 블룸버그 소식통을 인용한 복수 언론 보도로, Anthropic이 IPO 로드쇼(마케팅) 시작을 10월 중순 이후로 연기하고 상장을 11월 미국 중간선거 직전에 마무리하는 방향으로 일정을 조율 중인 것으로 전해졌습니다. 공개 투자설명서(prospectus)는 9월 말로 밀렸고, 모건스탠리·골드만삭스·JP모간·씨티가 참여하는 150억 달러 리볼빙 크레딧(회전 신용한도) 확보 작업도 진행 중입니다. 시장에서는 사상 최대급인 2조 달러 데뷔 가능성이 거론됩니다. 이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망 순서로 정리했습니다."
-image: /assets/images/posts/2026-09-08-anthropic-ipo-delay-20260908/anthropic-official-og.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-09-08-anthropic-ipo-delay-20260908/anthropic-official-og.jpg
 sitemap: false
 noindex: true
 ---
 
 요즘 저처럼 **"Anthropic이 언제 상장하나"**를 주식 앱보다 자주 검색해 보시는 분들, 많으시죠? 솔직히 저도 지난달 "8월 말 공개 IPO 서류 제출" 보도를 보고 **"이제 정말 코 앞이네"** 했는데, 이번 주 들어 **일정이 한 박자 늦춰졌다는 소식**이 나왔습니다. 9월 5일(현지시간), **블룸버그 소식통을 인용한 복수 매체가 Anthropic의 IPO 로드쇼(마케팅) 시작이 10월 중순으로 연기**됐다고 일제히 보도했습니다. 오늘은 이 소식을 **이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망** 순서로 정리해 드리겠습니다.
 
-![Anthropic 공식 홈페이지 대표(OG) 이미지](/assets/images/posts/2026-09-08-anthropic-ipo-delay-20260908/anthropic-official-og.jpg)
+![Anthropic 공식 홈페이지 대표(OG) 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-09-08-anthropic-ipo-delay-20260908/anthropic-official-og.jpg)
 *Anthropic 공식 홈페이지(anthropic.com) 대표 이미지 — IPO 로드쇼 10월 중순 연기 보도 (출처: Anthropic 공식 웹사이트, 2026.9.8 접속)*
 
 > 📌 참고: 본 글은 2026년 9월 5~6일 블룸버그 소식통 보도를 인용한 Briefs.co·Storyboard18·IJR·ChosunBiz(조선비즈) 등 복수 언론 보도를 바탕으로 작성한 정보형 기사입니다. Anthropic과 주관 은행들은 공식 논평을 거부했으며, 모든 일정은 변경될 수 있습니다.
@@ -35,7 +35,7 @@ noindex: true
 
 핵심은 딱 세 가지입니다. 첫째, **시장 분위기와 규제 검토를 이유로 상장 일정이 한 달가량 뒤로 밀렸다**는 점. 둘째, 연기와 동시에 **150억 달러 규모의 회전 신용한도(리볼빙 크레딧)를 은행권에서 조달 중**이라 상장 전 재무 버퍼를 두텁게 쌓고 있다는 점. 셋째, 그래도 **"2조 달러" 밸류에이션 목표는 그대로**라, 이번 IPO가 성사되면 **SpaceX(1.77조 달러)를 넘어 사상 최대 IPO**가 될 수 있다는 점입니다.
 
-![Anthropic IPO 일정 연기 보도 기사 대표 이미지](/assets/images/posts/2026-09-08-anthropic-ipo-delay-20260908/anthropic-ipo-delay-news.png)
+![Anthropic IPO 일정 연기 보도 기사 대표 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-09-08-anthropic-ipo-delay-20260908/anthropic-ipo-delay-news.png)
 *Briefs.co가 2026년 9월 5일 보도한 'Anthropic Pushes IPO Marketing Into Mid-October' 기사의 대표 이미지 (출처: Briefs.co, 2026.9.5)*
 
 ---

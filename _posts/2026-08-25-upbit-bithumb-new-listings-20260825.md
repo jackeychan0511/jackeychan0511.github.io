@@ -5,13 +5,13 @@ date: 2026-08-25 06:00:00 +0900
 categories: [finance]
 tags: [신규상장, 업비트, 빗썸, LIT, 라이터, PROM, 프롬, FOLD, 인터폴드, CRV, 커브, 코인, 가상자산]
 author: "40대 블로거"
-image: /assets/images/posts/upbit-bithumb-new-listings-20260825/lighter-hero.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/upbit-bithumb-new-listings-20260825/lighter-hero.jpg
 description: "8월 21일부터 24일까지 업비트와 빗썸에 새로 상장된 코인 4종을 정리했습니다. 업비트 원화마켓에 라이터(LIT)와 커브(CRV), KRW·BTC·USDT 마켓에 인터폴드(FOLD), 빗썸 원화마켓에 프롬(PROM)이 추가됐어요. 각 코인의 상장 일정·거래 제한·프로젝트 정보·현재 시세를 한 번에 모았습니다."
 ---
 
 8월 넷째 주, 업비트와 빗썸에 **신규 상장 소식이 4건** 이어졌습니다. 8/24 오후 1시에는 업비트 **라이터(LIT)** 와 빗썸 **프롬(PROM)** 이 동시에 거래를 시작했고, 하루 전인 8/23에는 업비트에 **인터폴드(FOLD)** , 8/21에는 **커브(CRV)** 가 원화마켓에 새로 들어왔습니다. 상장 일정과 프로젝트 정보, 지금 시세까지 한 번에 정리해 드릴게요.
 
-![라이터(Lighter) 공식 홈페이지 메인 배너](/assets/images/posts/upbit-bithumb-new-listings-20260825/lighter-hero.jpg)
+![라이터(Lighter) 공식 홈페이지 메인 배너](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/upbit-bithumb-new-listings-20260825/lighter-hero.jpg)
 *라이터(Lighter) 공식 홈페이지 메인 — ZK 기반 제로 수수료 무기한선물 DEX (출처: lighter.xyz, 확인일: 2026.08.25)*
 
 **핵심 요약**: 8/21~8/24 사이 **업비트 3종(LIT·FOLD·CRV) + 빗썸 1종(PROM)** 이 신규 상장됐습니다. 특히 8/24 오후 1시 업비트 라이터(LIT) 원화마켓 상장과 빗썸 프롬(PROM) 원화마켓 상장이 겹치며 관심이 쏠렸어요. 8/25 오전 6시 30분 기준 프롬은 업비트에서 **+31.7% 급등**(5,185원) 중이고, 인터폴드는 상장 빔 이후 **-23.6% 조정**(123원)을 받고 있습니다.
@@ -31,7 +31,7 @@ description: "8월 21일부터 24일까지 업비트와 빗썸에 새로 상장�
 
 업비트가 8/24 공지를 통해 **라이터(Lighter·LIT)** 의 원화(KRW) 마켓 거래지원을 안내했고, 예고대로 **8/24 오후 1시 거래가 시작**됐습니다. LIT는 이미 업비트 BTC·USDT 마켓에서 거래되던 종목이라, 이번 원화마켓 추가로 국내 투자자 접근성이 한층 높아졌습니다.
 
-![LIT 공식 로고](/assets/images/posts/upbit-bithumb-new-listings-20260825/upbit-lit.png)
+![LIT 공식 로고](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/upbit-bithumb-new-listings-20260825/upbit-lit.png)
 *LIT 공식 로고 (출처: 업비트 로고 CDN static.upbit.com, 확인일: 2026.08.25)*
 
 ### 상장 정보
@@ -66,7 +66,7 @@ description: "8월 21일부터 24일까지 업비트와 빗썸에 새로 상장�
 
 빗썸도 8/24 오전 공지를 통해 **프롬(PROM)** 을 원화마켓에 추가한다고 밝혔고, 같은 날 **오후 1시 거래를 시작**했습니다. PROM은 업비트에 8/12 원화·USDT 마켓으로 먼저 상장된 종목인데(아래 링크에서 자세히 정리했어요), 이번에 빗썸까지 합류하며 국내 '빅2' 동시 거래가 가능해졌습니다.
 
-![프롬(Prom) 공식 배너](/assets/images/posts/upbit-bithumb-new-listings-20260825/prom-meta.jpg)
+![프롬(Prom) 공식 배너](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/upbit-bithumb-new-listings-20260825/prom-meta.jpg)
 *프롬(Prom) 공식 홈페이지 대표 이미지 "Scalability Without Borders" (출처: prom.io, 확인일: 2026.08.25)*
 
 ### 상장 정보
@@ -94,7 +94,7 @@ PROM은 **Polygon CDK 기반 고성능 레이어2 네트워크**로, ZK 증명 �
 | 업비트 KRW | **5,185원** | **+31.73%** | **약 814억원** (고가 5,560 / 저가 3,679) |
 | 빗썸 KRW | 5,105원 | +1,130원 | — |
 
-![PROM 공식 로고](/assets/images/posts/upbit-bithumb-new-listings-20260825/upbit-prom.png)
+![PROM 공식 로고](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/upbit-bithumb-new-listings-20260825/upbit-prom.png)
 *PROM 공식 로고 (출처: 업비트 로고 CDN static.upbit.com, 확인일: 2026.08.25)*
 
 ---
@@ -103,7 +103,7 @@ PROM은 **Polygon CDK 기반 고성능 레이어2 네트워크**로, ZK 증명 �
 
 업비트가 8/23 **인터폴드(FOLD)** 를 KRW·BTC·USDT **세 마켓에 동시 신규 거래지원**했습니다. 거래 개시는 **8/23 12:30**이었고, 지원 네트워크는 Ethereum 단일입니다.
 
-![FOLD 공식 로고](/assets/images/posts/upbit-bithumb-new-listings-20260825/upbit-fold.png)
+![FOLD 공식 로고](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/upbit-bithumb-new-listings-20260825/upbit-fold.png)
 *FOLD 공식 로고 (출처: 업비트 로고 CDN static.upbit.com, 확인일: 2026.08.25)*
 
 ### 상장 정보
@@ -141,7 +141,7 @@ PROM은 **Polygon CDK 기반 고성능 레이어2 네트워크**로, ZK 증명 �
 
 업비트가 8/21 **커브(CRV)** 를 KRW·USDT 마켓에 신규 상장했습니다. 거래 개시는 **8/21 13:00**였고, 상장 소식에 빗썸에서 하루 +17.26%(428원)까지 오르며 **7개월 만에 최고가**를 기록하기도 했습니다.
 
-![커브(Curve) 공식 로고](/assets/images/posts/upbit-bithumb-new-listings-20260825/curve-logo.png)
+![커브(Curve) 공식 로고](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/upbit-bithumb-new-listings-20260825/curve-logo.png)
 *커브(Curve) 공식 로고 (출처: curve.fi 공식 브랜딩, 확인일: 2026.08.25)*
 
 ### 상장 정보

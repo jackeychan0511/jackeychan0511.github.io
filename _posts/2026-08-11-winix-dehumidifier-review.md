@@ -5,13 +5,13 @@ date: 2026-08-11 17:45:00 +0900
 categories: [products]
 tags: [제습기, 위닉스, 뽀송, 인버터22L, DXWE228-OYK, 장마철, 여름가전, 가전추천, 제습기추천, 1등급, 리빙, 2026년8월, 구매가이드]
 author: "40대 블로거"
-image: /assets/images/posts/winix-dehumidifier-20260811/winix-22l-inverter.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/winix-dehumidifier-20260811/winix-22l-inverter.png
 description: "2026년 8월, 장마와 폭염이 겹치며 제습기 시장이 다시 폭발했습니다. 위닉스 제습기 판매량은 전월 대비 140% 급증했고, 뽀송 인버터 16L은 완판 품절, 22L 대용량 모델이 판매를 주도 중입니다. 국민 제습기 위닉스 뽀송 인버터 22L(DXWE228-OYK) 실사용 후기와 용량별 선택 가이드, 최대혜택가 42만 9천 원에 사는 법까지 정리했습니다."
 ---
 
 > **📌 한줄 요약:** 2026년 8월 현재 가정용 제습기 시장에서 가장 핫한 제품은 **위닉스 뽀송 인버터 22L(DXWE228-OYK)**입니다. 위닉스는 장마가 시작된 7월 자사몰·네이버 브랜드스토어 기준 제습기 판매량이 **전월 대비 140% 급증**했다고 밝혔고, '뽀송 인버터 16L'은 완판 품절, **22L 대용량 모델이 판매를 주도**하고 있습니다. **에너지 1등급 + 최저소음 31.8dB + UV팬살균**까지 갖춘 22L 모델은 공식몰 기준 **최대혜택가 42만 9천 원**(쿠폰 적용 시)에 구매 가능합니다.
 
-![머니투데이 보도: 위닉스, 장마철 제습기 판매량 140% 증가](/assets/images/posts/winix-dehumidifier-20260811/winix-sales-140pct-news.jpg)
+![머니투데이 보도: 위닉스, 장마철 제습기 판매량 140% 증가](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/winix-dehumidifier-20260811/winix-sales-140pct-news.jpg)
 *위닉스, 장마철 본격화에 제습기 판매량 전월 동기 대비 140%↑ (출처: 머니투데이, 2026-07-10)*
 
 ---
@@ -49,7 +49,7 @@ description: "2026년 8월, 장마와 폭염이 겹치며 제습기 시장이 �
 | **크기/무게** | 360(W)×280(D)×660(H)mm, 약 17.2kg |
 | **가격** | 정가 599,000원 → 할인가 509,000원 → **최대혜택가 429,000원** (공식몰 쿠폰 적용 시, 2026-08-11 확인) |
 
-![위닉스 뽀송 인버터 22L 제품 이미지](/assets/images/posts/winix-dehumidifier-20260811/winix-22l-inverter.png)
+![위닉스 뽀송 인버터 22L 제품 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/winix-dehumidifier-20260811/winix-22l-inverter.png)
 *위닉스 뽀송 인버터 22L(DXWE228-OYK) — 에너지 1등급·최저소음 31.8dB 인버터 제습기 (출처: 위닉스 공식 홈페이지, 2026-08-11 확인)*
 
 공식 홈페이지 기준 현재 **리뷰 1,556개에 평점 4.9점**을 기록 중입니다. 장마철마다 품절 대란이 일어난다는 말이 실감 나는 수치예요.
@@ -73,7 +73,7 @@ description: "2026년 8월, 장마와 폭염이 겹치며 제습기 시장이 �
 ### ⑤ Winix Smart 앱 연동 — 퇴근 전에 미리 켜둡니다
 외출 중에도 스마트폰 앱으로 집안 습도를 확인하고 원격으로 켤 수 있습니다. 퇴근 1~2시간 전에 미리 가동해두면, 집에 도착했을 때 보송한 공기를 맞이할 수 있어요. 저녁에 잠들기 전 옷방 습도를 빼두는 용도로도 활용 중입니다.
 
-![위닉스 뽀송 시리즈 상세 기능 이미지](/assets/images/posts/winix-dehumidifier-20260811/winix-22l-detail.jpg)
+![위닉스 뽀송 시리즈 상세 기능 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/winix-dehumidifier-20260811/winix-22l-detail.jpg)
 *위닉스 뽀송 시리즈 — 인버터·연속배수·UV살균 등 주요 기능 (출처: 위닉스 공식 홈페이지)*
 
 ---
@@ -109,10 +109,10 @@ description: "2026년 8월, 장마와 폭염이 겹치며 제습기 시장이 �
 | **인버터/앱** | O / O | X / X | X / X |
 | **가격대** | 최대혜택가 42.9만 원 | 쿠팡 최저가 약 25만 원 | 20만 원대 초중반 |
 
-![위닉스 뽀송 12L 제습기](/assets/images/posts/winix-dehumidifier-20260811/winix-12l.png)
+![위닉스 뽀송 12L 제습기](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/winix-dehumidifier-20260811/winix-12l.png)
 *위닉스 뽀송 12L — 16평형 이하 원룸·자취방에 적합한 가성비 모델 (출처: 위닉스 공식 홈페이지)*
 
-![위닉스 뽀송 10L DXTP100-KWK](/assets/images/posts/winix-dehumidifier-20260811/winix-10l-dxtp100.jpg)
+![위닉스 뽀송 10L DXTP100-KWK](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/winix-dehumidifier-20260811/winix-10l-dxtp100.jpg)
 *위닉스 뽀송 10L DXTP100-KWK — 쿠팡 별점 4.7점·리뷰 1,767개의 소형 베스트셀러 (출처: 다나와 상품 이미지, 2026-08-11 확인)*
 
 **선택 기준은 간단합니다.**

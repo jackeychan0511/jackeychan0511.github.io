@@ -5,13 +5,13 @@ date: 2026-08-25 14:00:00 +0900
 categories: [products]
 tags: [갤럭시탭S12, 갤럭시탭S12울트라, GalaxyTabS12, 삼성, 태블릿추천, 디멘시티9500, 미디어텍, OneUI9, 갤럭시이벤트, S26FE, 태블릿가격, 2026년8월, IT뉴스]
 author: "40대 블로거"
-image: /assets/images/posts/galaxy-tab-s12-price-leak-20260825/galaxy-tab-s12-ultra-render-1.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/galaxy-tab-s12-price-leak-20260825/galaxy-tab-s12-ultra-render-1.jpg
 description: "2026년 8월 25일, 삼성 차세대 플래그십 태블릿 갤럭시 탭 S12+와 갤럭시 탭 S12 울트라의 미국 출시 가격이 유출됐습니다. IT 팁스터 롤랜드 콴트 보고서에 따르면 S12+는 1,199.99달러부터, S12 울트라는 1,399.99달러부터 시작하며 최상위 16GB 램 1TB 모델은 1,999.99달러에 이를 전망입니다. 미디어텍 디멘시티 9500, 12.4형·14.6형 OLED 120Hz, 안드로이드 17 기반 One UI 9.0 등 예상 스펙과 함께, 이틀 앞으로 다가온 8월 27일 갤럭시 이벤트 공개 가능성, 전작 S11 시리즈와의 가격 비교, 구매 타이밍 팁까지 총정리했습니다."
 ---
 
 > **📌 한줄 요약:** 삼성의 차세대 플래그십 태블릿 **갤럭시 탭 S12+ / S12 울트라**의 미국 출시 가격이 8월 25일 유출됐습니다. IT 팁스터 롤랜드 콴트의 보고서에 따르면 **S12+는 1,199.99달러(약 165만 원)부터, S12 울트라는 1,399.99달러(약 193만 원)부터** 시작하고, 최상위 **16GB 램 + 1TB 모델은 1,999.99달러(약 276만 원)**에 이를 전망입니다. 여기에 **미디어텍 디멘시티 9500**, **14.6형 OLED 120Hz**, **안드로이드 17 기반 One UI 9.0**까지 예상됩니다. 그리고 결정적으로 **8월 27일(목) 오후 9시 갤럭시 이벤트**가 예고된 상태라, 탭 S12 시리즈가 이 자리에서 공개될 가능성도 제기되고 있습니다. 태블릿 교체를 고민 중이셨다면, 지금이 딱 '지켜볼 타이밍'입니다.
 
-![갤럭시 탭 S12 울트라 공식 렌더링 유출 컷](/assets/images/posts/galaxy-tab-s12-price-leak-20260825/galaxy-tab-s12-ultra-render-1.jpg)
+![갤럭시 탭 S12 울트라 공식 렌더링 유출 컷](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/galaxy-tab-s12-price-leak-20260825/galaxy-tab-s12-ultra-render-1.jpg)
 *갤럭시 탭 S12 울트라 렌더링 — 전작 S11 울트라와 유사한 디자인에 U자형 노치와 S펜을 유지한 것으로 보인다 (출처: Android Headlines 유출 이미지, 케이벤치 재인용)*
 
 ---
@@ -52,7 +52,7 @@ description: "2026년 8월 25일, 삼성 차세대 플래그십 태블릿 갤럭
 
 디자인은 "전작과 거의 똑같다"가 요약입니다. 처음엔 펀치홀 카메라로 바뀔 거라는 루머도 있었는데, 최근 유출된 CAD 렌더링을 보면 **S11 울트라의 U자형 노치를 그대로 유지**할 것으로 보입니다. 실사용자 입장에서 솔직히 이 노치, 영상 볼 때 거슬리긴 하는데 삼성 입장에선 S펜 수납과 전면 카메라 위치 때문에 쉽게 못 바꾸는 모양입니다.
 
-![갤럭시 탭 S12 울트라 CAD 렌더링](/assets/images/posts/galaxy-tab-s12-price-leak-20260825/galaxy-tab-s12-ultra-cad-2.jpg)
+![갤럭시 탭 S12 울트라 CAD 렌더링](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/galaxy-tab-s12-price-leak-20260825/galaxy-tab-s12-ultra-cad-2.jpg)
 *갤럭시 탭 S12 울트라 CAD 렌더링 — 초슬림 바디와 U자형 노치 디자인이 전작과 유사할 것으로 예상 (출처: GSMArena, OnLeaks 렌더 기반)*
 
 ---
@@ -83,7 +83,7 @@ description: "2026년 8월 25일, 삼성 차세대 플래그십 태블릿 갤럭
 
 참고로 국내에서는 지난해 갤럭시 탭 S11 울트라가 **159만 8,300원 ~ 240만 6,800원**(16GB/1TB)에 팔렸는데, 이번 가격 흐름대로라면 **S12 울트라 1TB는 국내에서 250만 원을 훌쩍 넘길 가능성**도 있습니다.
 
-![갤럭시 탭 S11 울트라 그레이 (전작 비교용)](/assets/images/posts/galaxy-tab-s12-price-leak-20260825/galaxy-tab-s11-ultra-gray-3.jpg)
+![갤럭시 탭 S11 울트라 그레이 (전작 비교용)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/galaxy-tab-s12-price-leak-20260825/galaxy-tab-s11-ultra-gray-3.jpg)
 *전작 갤럭시 탭 S11 울트라 그레이 — 두께 5.1mm로 역대 갤럭시 탭 중 가장 얇았던 모델 (출처: 삼성전자 뉴스룸 공식 보도자료 이미지)*
 
 ---
@@ -102,7 +102,7 @@ description: "2026년 8월 25일, 삼성 차세대 플래그십 태블릿 갤럭
 - **디자인 변화가 거의 없다** — 노치도 그대로, 외관도 전작과 비슷합니다. '새 폰 샀는데 옆 사람이 눈치 못 채는' 그 느낌이 태블릿에서도 이어질 것 같아요.
 - **울트라의 셀룰러 모델 불투명** — 5G 모델이 아예 안 나올 수도 있다는 얘기가 있어서, 외근 많은 분들은 옵션 선택이 제한될 수 있습니다.
 
-![갤럭시 탭 S11 울트라 실버 (전작 비교용)](/assets/images/posts/galaxy-tab-s12-price-leak-20260825/galaxy-tab-s11-ultra-silver-4.jpg)
+![갤럭시 탭 S11 울트라 실버 (전작 비교용)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/galaxy-tab-s12-price-leak-20260825/galaxy-tab-s11-ultra-silver-4.jpg)
 *전작 갤럭시 탭 S11 울트라 실버 — S12 울트라도 이와 유사한 2색 구성이 유력 (출처: 삼성전자 뉴스룸 공식 보도자료 이미지)*
 
 ---
@@ -113,7 +113,7 @@ description: "2026년 8월 25일, 삼성 차세대 플래그십 태블릿 갤럭
 
 다만 케이벤치 등 IT 매체들은 **갤럭시 탭 S12 시리즈가 이 이벤트에서 함께 공개될 가능성**도 조심스럽게 점치고 있습니다. 이미 펌웨어 테스트(X946B 기반 One UI 9 테스트 빌드)까지 들어간 상태라 출시 준비가 막바지라는 신호이고, 9월 공개 전망과도 맞물리거든요. 이틀 뒤에 직접 확인하면 됩니다.
 
-![지난해 갤럭시 탭 S11 시리즈 공개 행사 현장](/assets/images/posts/galaxy-tab-s12-price-leak-20260825/galaxy-tab-s11-event-5.jpg)
+![지난해 갤럭시 탭 S11 시리즈 공개 행사 현장](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/galaxy-tab-s12-price-leak-20260825/galaxy-tab-s11-event-5.jpg)
 *지난해 IFA 2025에서 공개된 갤럭시 탭 S11 시리즈 현장 사진 — S12 시리즈도 비슷한 행사에서 베일을 벗을 전망 (출처: 삼성전자 뉴스룸 공식 보도자료 이미지)*
 
 ---

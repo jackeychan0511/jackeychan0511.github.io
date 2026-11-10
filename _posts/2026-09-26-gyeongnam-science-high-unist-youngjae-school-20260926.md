@@ -5,7 +5,7 @@ date: 2026-09-26 11:00:00 +0900
 categories: [education]
 tags: [영재학교, 영재학교전환, 경남과학고, UNIST, 울산과학기술원, 과학기술원부설영재학교, 과기정통부공모, 영재학교공모, 지역인재선발, 창원과학고, 전북과학고, 사고력수학, 영재교육, 시매쓰, Cmath, 크레버스, CMS영재관, 와이즈만영재교육, 소마사고력수학, 씨투엠, 생각하는황소, 초등수학, 학부모필수정보]
 author: "40대 블로거"
-image: /assets/images/posts/gyeongnam-science-high-unist-youngjae-20260926/01-unist-campus.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gyeongnam-science-high-unist-youngjae-20260926/01-unist-campus.jpg
 description: "경상남도교육청이 2026년 9월 24일 경남과학고등학교를 과학기술정보통신부 산하 '울산과학기술원(UNIST) 부설 영재학교'로 전환하기 위한 공모 참여를 공식 발표했습니다. 공모 신청 마감은 10월 16일, 국비는 중앙·지역 7대3 분담 원칙으로 최대 450억 원이 지원됩니다. 과기정통부는 영재학교가 없는 7개 시도 중 3곳을 지정하는 공모를 지난 8월 7일 시작했고, 전북과학고도 카이스트 부설 전환에 도전했습니다. 전국 영재학교 8곳 체제가 최대 11곳으로 재편될 수 있는 분기점입니다."
 ---
 
@@ -15,7 +15,7 @@ description: "경상남도교육청이 2026년 9월 24일 경남과학고등학�
 
 그리고 그 첫 번째 신청 주자가 경남에서 나왔습니다. **2026년 9월 24일, 경상남도교육청은 경남과학고등학교를 과학기술정보통신부 산하 '울산과학기술원(UNIST) 부설 영재학교'로 전환하기 위한 공모 참여를 공식 발표**했습니다. 경남에는 지금까지 영재학교가 단 한 곳도 없었습니다.
 
-![울산과학기술원(UNIST) 캠퍼스 전경](/assets/images/posts/gyeongnam-science-high-unist-youngjae-20260926/01-unist-campus.jpg)
+![울산과학기술원(UNIST) 캠퍼스 전경](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gyeongnam-science-high-unist-youngjae-20260926/01-unist-campus.jpg)
 *경남과학고가 전환을 추진 중인 '울산과학기술원(UNIST) 부설 영재학교'의 모태가 되는 UNIST 캠퍼스(울산 울주군). 출처: Wikimedia Commons, ⓒ Jong Bhak (CC BY-SA 3.0)*
 
 ## 📌 핵심 요약 — 5줄 정리
@@ -28,7 +28,7 @@ description: "경상남도교육청이 2026년 9월 24일 경남과학고등학�
 | 얼마나 | 국비 **최대 450억 원**(중앙:지역 7대3 분담), 나머지는 경남교육청·경상남도 분담 |
 | 다음 일정 | **10월 2일** 학부모 공청회 → **10월 16일** 공모 신청 마감 → **12월** 교육부 중앙위원회 심의·최종 지정 |
 
-![창원과학고등학교 교사 전경](/assets/images/posts/gyeongnam-science-high-unist-youngjae-20260926/02-changwon-science-high.jpg)
+![창원과학고등학교 교사 전경](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gyeongnam-science-high-unist-youngjae-20260926/02-changwon-science-high.jpg)
 *2029년 입학 정원 확대가 추진되는 창원과학고등학교(경남 창원). 경남교육청은 영재학교 전환과 별개로 창원과학고 정원도 늘려 도내 수요에 대응한다는 구상입니다. 출처: Wikimedia Commons, ⓒ Jytim (CC BY-SA 4.0)*
 
 ## 🗺️ 왜 지금인가 — 과기정통부가 연 '영재학교 공모'의 구조
@@ -82,7 +82,7 @@ description: "경상남도교육청이 2026년 9월 24일 경남과학고등학�
 
 권순기 경남교육감은 **"역량이 뛰어난 학생들이 자신의 실력과 수준에 맞는 교육을 받을 수 있도록 수월성 교육 기반을 확대해야 한다"**며 **"경남과학고의 영재학교 전환은 '5극 3특' 국가균형발전 정책과 동남권 우주항공 전략산업의 성장을 뒷받침할 미래 인재를 육성하는 중요한 기반이 될 것"**이라고 밝혔습니다.
 
-![UNIST 중앙광장과 본관 전경](/assets/images/posts/gyeongnam-science-high-unist-youngjae-20260926/03-unist-center-square.jpg)
+![UNIST 중앙광장과 본관 전경](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gyeongnam-science-high-unist-youngjae-20260926/03-unist-center-square.jpg)
 *UNIST 중앙광장. 입구에서 바라본 모습으로 오른쪽 건물이 본관입니다. 부설 영재학교로 지정되면 이 대학의 연구 인프라와 연계한 교육과정을 운영하게 됩니다. 출처: Wikimedia Commons, ⓒ Jong Bhak (CC BY-SA 3.0)*
 
 ## 🗓️ 추진 일정 — 학부모가 챙겨야 할 3개 날짜

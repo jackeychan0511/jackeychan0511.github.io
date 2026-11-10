@@ -5,10 +5,10 @@ date: 2026-09-03 09:00:00 +0900
 categories: [career]
 tags: [HermesAgent, NousResearch, 봇모드, BotMode, 멀티에이전트, 그룹챗, message_agent, hermes-peer, 루틴, routines, v0.21.0, 판테온, Pantheon, 데스크톱앱, AI에이전트, 오픈소스AI, AI툴추천, 2026년9월]
 author: "40대 블로거"
-image: /assets/images/posts/hermes-botmode-guide-20260903/hermes-botmode-announce.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-botmode-guide-20260903/hermes-botmode-announce.jpg
 description: "2026년 9월 3일 기준, Nous Research의 오픈소스 AI 에이전트 Hermes Agent가 v0.21.0 '판테온' 정식 출시(8/31) 사흘 만에 GitHub 스타 24만 개를 돌파했습니다(9/3 오전 실측 240,093개). 이 글은 판테온의 핵심 기능인 봇 모드(Bot Mode) 3일 실사용을 바탕으로, AI 에이전트 여러 개를 '이름·직책·아바타가 있는 AI 직원'으로 등록해 채팅 앱처럼 운영하는 법을 정리한 실전 가이드입니다. 봇 = 프로필이라는 핵심 원칙, New Agent 3필드 생성, 2~6명 그룹챗 토론 규칙(3라운드·@멘션·needs you), @researcher 같은 업무 인수인계(message_agent), 봇별 루틴(=[bot:이름] 크론잡), 머신 간 봇 DM(hermes peer)까지 다룹니다. 같은 여름 xAI Grok Bot(8/11)·Block Buzz가 'AI 동료' 시장에서 경쟁한 구도와 공식 문서·GitHub API 실측 데이터를 함께 정리했습니다."
 ---
-![Hermes Agent 봇 모드 공개 당시 X 게시 화면](/assets/images/posts/hermes-botmode-guide-20260903/hermes-botmode-announce.jpg)
+![Hermes Agent 봇 모드 공개 당시 X 게시 화면](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-botmode-guide-20260903/hermes-botmode-announce.jpg)
 *Hermes Agent '봇 모드(Bot Mode)'를 처음 공개하며 Teknium(@Teknium, Nous Research 공동창업자)이 X에 게시한 데스크톱 화면 — 에이전트 프로필이 '직원 명단'처럼 보이는 게 핵심 (출처: Teknium X 공식 발표, Digg 보도 경유)*
 
 > **📌 한줄 요약:** 요즘 저처럼 **AI 에이전트를 두세 개씩 따로따로 굴리면서 "한 명이 아니라 팀이었으면"** 하시는 분들 위한 봇 모드(Bot Mode) 실전 가이드입니다. v0.21.0 판테온부터 Hermes 데스크톱에 **기본 내장(default-on)**된 이 기능은, 에이전트 프로필을 그대로 **이름·직책·아바타가 있는 '봇'으로 바꿔서** 채팅 앱처럼 관리하게 해줍니다. 봇 3명을 만들어 그룹챗에서 회의시키고, `@리서치야 이거 봐` 한마디로 업무를 넘기고, 봇마다 아침 루틴을 걸어두면 — **AI 비서 1명이 아니라 AI 팀**이 생깁니다. 오늘(9/3) 오전 실측 기준 GitHub 스타 **240,093개(24만 돌파)**, MIT 라이선스 **무료** 오픈소스입니다.
@@ -79,7 +79,7 @@ Teknium은 8/17 X 공지를 통해 *"Bot Mode is an alternative to sessions mode
 
 그리고 **봇 모드는 데스크톱 앱에 기본 내장**이라 따로 설치할 것도 없습니다. 왼쪽 사이드바의 세션 목록이 `Sessions | Bots` 탭 구조로 바뀌고, Bots 탭에 들어가면 **봇 '명단(로스터)'**이 뜹니다. 아바타·최근 메시지 미리보기·타임스탬프가 한 줄씩 보이는, 말 그대로 직원 명단 화면이에요.
 
-![Hermes Agent 데스크톱 앱 공식 기능 화면](/assets/images/posts/hermes-botmode-guide-20260903/feature-browse.jpg)
+![Hermes Agent 데스크톱 앱 공식 기능 화면](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-botmode-guide-20260903/feature-browse.jpg)
 *Hermes Agent 데스크톱 앱 공식 기능 화면 — v0.21.0부터 Bots 탭·Routines 패널이 기본 내장돼 프로필이 '직원 명단'으로 보인다 (출처: hermes-agent.nousresearch.com 공식 홈페이지)*
 
 ### AI 직원 3명, 3필드로 고용하기
@@ -117,7 +117,7 @@ Teknium은 8/17 X 공지를 통해 *"Bot Mode is an alternative to sessions mode
 - 안전장치도 확실합니다. **메시지 1회당 10개, 라운드 3회** 하드캡이 있어서 봇들끼리 끝없이 떠들다 토큰을 태우는 일이 없습니다.
 - **방은 게이트웨이를 따라갑니다.** 방 이름·멤버·최근 대화가 연결된 모든 데스크톱·게이트웨이에 동기화되어서, 다른 PC에서 같은 게이트웨이에 붙으면 같은 방이 그대로 보여요. 방 이름을 바꾸면 모든 클라이언트에 일괄 반영되고, 해체하면 오프라인이었던 기기까지 전부 정리됩니다.
 
-![봇 모드 데모 영상 스틸](/assets/images/posts/hermes-botmode-guide-20260903/hermes-botmode-demo-still.jpg)
+![봇 모드 데모 영상 스틸](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-botmode-guide-20260903/hermes-botmode-demo-still.jpg)
 *Teknium이 X에 공개한 봇 모드 데모 영상 스틸 — 봇들이 그룹챗에서 서로를 멘션하며 일하는 모습을 보여준다 (출처: Teknium X 공개 게시물, Digg 보도 경유)*
 
 실사용 팁을 하나 드리면, 저는 **아이디어 검증용 회의**를 이렇게 돌립니다. "리서치야, 이번 주 블로그 주제 후보 3개 조사해줘" → "블로그야, 리서치 결과 받아서 각 주제별 초안 방향 잡아봐" → "검수야, 마지막에 다듬어". 각 봇이 자기 전문 영역에서만 말하고, 제가 중간중간 @멘션으로 방향만 틀어주면 됩니다.
@@ -201,7 +201,7 @@ hermes peer stop spark run_abc123
 - **봇 이름을 바꾸면 멘션 태그도 따라 바뀝니다** — "Research Buddy"로 개명하면 `@research-buddy`로도, 예전 프로필 이름으로도 멘션됩니다.
 - **끄고 싶으면 플러그인 토글** — Settings → Plugins → Bots에서 끄면 로스터·Routines 패널이 재시작 없이 바로 사라집니다. 그래도 **프로필·세션·크론잡 데이터는 그대로**라서 다시 켜면 그대로 돌아와요.
 
-![Hermes Agent 데스크톱 Windows 공식 아트](/assets/images/posts/hermes-botmode-guide-20260903/platform-art-windows.jpg)
+![Hermes Agent 데스크톱 Windows 공식 아트](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-botmode-guide-20260903/platform-art-windows.jpg)
 *Hermes Agent 데스톱 앱 Windows 10/11 공식 아트 — 봇 모드는 macOS·Windows·Linux 데스크톱 어디서든 동일하게 동작한다 (출처: hermes-agent.nousresearch.com 공식 홈페이지)*
 
 ---

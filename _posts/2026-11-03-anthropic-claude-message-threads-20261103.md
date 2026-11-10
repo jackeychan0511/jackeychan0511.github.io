@@ -5,11 +5,11 @@ date: 2026-11-03 16:55:00 +0900
 categories: [career]
 tags: [Anthropic, Claude, 앤트로픽, 클로드, 메시지스레드, MessageThreads, ClaudeAPI, MessagesAPI, TTFT, 에이전트지연, ClaudeCode, 클로드코드, AI에이전트, 개발자API, 업무자동화, 2026년11월]
 author: "40대 블로거"
-image: /assets/images/posts/anthropic-claude-message-threads-20261103/message-threads-claude-official.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-message-threads-20261103/message-threads-claude-official.png
 description: "Anthropic이 2026년 11월 2일 Messages API에 '메시지 스레드(message threads)' 공개 베타를 열었습니다. 매 턴마다 대화 전체를 다시 보내던 방식을 바꿔, 서버가 대화를 들고 있고 클라이언트는 새 메시지만 보내는 구조입니다. 50만~100만 토큰 요청에서 첫 토큰 도착 시간(TTFT) 중앙값이 약 35% 줄었고, Claude Code 사용자 대부분에게는 기본 활성화됐습니다. 다만 토큰 사용량과 비용은 그대로이고, 스레드는 마지막 요청 후 5분이 지나면 만료됩니다. 작동 원리, 숫자의 의미, 상태 유지 API가 만드는 설계상 함정, 팀이 점검할 항목까지 정리했습니다."
 ---
 
-![Anthropic 메시지 스레드 공식 발표 대표 이미지](/assets/images/posts/anthropic-claude-message-threads-20261103/message-threads-claude-official.png)
+![Anthropic 메시지 스레드 공식 발표 대표 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-message-threads-20261103/message-threads-claude-official.png)
 *Anthropic이 2026년 11월 2일 공개한 "Make long-running agents faster with message threads" 공식 아티클 대표 이미지. Claude Platform의 Messages API에 공개 베타로 들어간 기능입니다 (출처: Claude 공식 사이트 claude.com/resources/articles/message-threads)*
 
 > **📌 한줄 요약:** Anthropic이 **2026년 11월 2일**, Messages API에 **메시지 스레드(message threads)** 공개 베타를 열었습니다. 매 요청마다 대화 전체를 다시 실어 보내던 구조를 바꿔, **서버가 대화를 들고 있고 클라이언트는 새 메시지만 보내는** 방식입니다. **50만~100만 토큰 구간에서 첫 토큰 도착 시간(TTFT) 중앙값이 약 35% 감소**했고, **Claude Code 사용자 대부분은 이미 기본으로 켜진 상태**입니다. 단, **토큰 사용량과 비용은 그대로**입니다. 속도만 개선된 기능입니다.
@@ -52,7 +52,7 @@ Anthropic 개발자 플랫폼 릴리스 노트에도 같은 날짜로 등록됐�
 
 즉 **"대화 전체를 매번 우편으로 부치던 것을, 서버에 잠시 맡겨두고 추가분만 보내는 방식"** 으로 바꾼 것입니다. 다만 중요한 단서가 하나 붙습니다. **Claude는 여전히 매 턴 전체 대화를 읽습니다.** 요청 본문만 작아질 뿐, 모델이 참조하는 컨텍스트는 그대로입니다. 이 단서가 3장의 숫자를 이해하는 열쇠입니다.
 
-![Claude Platform 공식 문서 메시지 스레드 안내 이미지](/assets/images/posts/anthropic-claude-message-threads-20261103/message-threads-docs-official.png)
+![Claude Platform 공식 문서 메시지 스레드 안내 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-message-threads-20261103/message-threads-docs-official.png)
 *Claude Platform 공식 문서의 메시지 스레드 페이지 대표 이미지. 스레드는 서버에 짧게 유지되는 대화 상태로, 마지막 요청 후 5분이 지나면 만료됩니다 (출처: Claude Platform 공식 문서 platform.claude.com/docs)*
 
 ---

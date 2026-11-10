@@ -5,13 +5,13 @@ date: 2026-09-01 12:30:00 +0900
 categories: [products]
 tags: [아이폰울트라, 아이폰폴드, 폴더블아이폰, 애플, 아이폰18프로, A20프로, 마크구루먼, 블룸버그, 테스터반응, 터치ID, 망원카메라, 갤럭시Z폴드8, 애플이벤트, 9월10일, 스마트폰추천, 2026년9월]
 author: "40대 블로거"
-image: /assets/images/posts/iphone-ultra-tester-reaction-20260901/apple-event-poster-official.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/iphone-ultra-tester-reaction-20260901/apple-event-poster-official.jpg
 description: "9월 10일(한국시간) 새벽 2시 애플 첫 폴더블 '아이폰 울트라' 공개를 앞두고, 블룸버그 마크 구루먼이 전한 실사용 테스터들의 첫인상이 화제입니다. 테스터들은 디자인·힌지·휴대성·소프트웨어는 극찬하면서도 ①망원 카메라 부재 ②Face ID 대신 터치 ID로의 변화 두 가지를 아쉬워했습니다. 예상 스펙(내부 7.8인치·A20 프로·5,500mAh 이상 배터리·48MP 듀얼 카메라), 시작가 2,000달러(약 277만 원), 갤럭시 Z 폴드8과의 비교, 한국 1차 출시국 포함 소식과 사전예약 예상 일정까지 실사용 반응 중심으로 정리했습니다. 이미지는 애플 공식 포스터와 뉴시스·인사이트·위키트리·앱스토리 보도 사진입니다."
 ---
 
 > **📌 한줄 요약:** 애플 첫 폴더블 **'아이폰 울트라'**가 9월 10일(한국시간) 새벽 2시 공개를 앞두고, 블룸버그 **마크 구루먼**이 전한 **실사용 테스터들의 첫인상**이 IT 업계 최대 화제입니다. 테스터들은 **디자인·힌지·휴대성·소프트웨어는 극찬**하면서도 **① 망원 카메라 부재 ② Face ID 대신 터치 ID** 두 가지를 아쉬워했습니다. 예상 스펙은 **내부 7.8인치 + 외부 5.5인치, A20 프로, 5,500mAh 이상 배터리, 48MP 듀얼 카메라, 펼치면 4.5mm 초박형**, 가격은 **2,000달러(약 277만 원)~2,500달러(약 346만 원)** 수준입니다. 한국은 **1차 출시국 포함** 보도가 나왔고, 사전예약은 9월 11~12일, 출시는 9월 18일 전후로 예상됩니다.
 
-![애플 9월 9일 'Surprise and shine' 신제품 발표 행사 공식 포스터](/assets/images/posts/iphone-ultra-tester-reaction-20260901/apple-event-poster-official.jpg)
+![애플 9월 9일 'Surprise and shine' 신제품 발표 행사 공식 포스터](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/iphone-ultra-tester-reaction-20260901/apple-event-poster-official.jpg)
 *애플 'Surprise and shine(깜짝 빛날 시간)' 9월 9일(한국 9/10 새벽 2시) 신제품 행사 공식 포스터 (출처: Apple Newsroom 공식 홈페이지)*
 
 ---
@@ -51,7 +51,7 @@ description: "9월 10일(한국시간) 새벽 2시 애플 첫 폴더블 '아이�
 
 특히 인사이트(8/25)는 **"휴대성은 굿, 카메라는 아쉽다"**고 요약했고, 뉴시스(8/27)는 **"7년 늦게 폴더블폰에 뛰어드는 애플"**이라며 삼성 갤럭시 Z 폴드8 흥행 돌풍과의 정면승부를 짚었습니다.
 
-![아이폰 울트라 예상 렌더링 (IT팁스터 마진부 X 이미지)](/assets/images/posts/iphone-ultra-tester-reaction-20260901/iphone-ultra-render.jpg)
+![아이폰 울트라 예상 렌더링 (IT팁스터 마진부 X 이미지)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/iphone-ultra-tester-reaction-20260901/iphone-ultra-render.jpg)
 *아이폰 울트라 예상 렌더링 — 5.5인치 커버 + 7.8인치 내부 디스플레이 북타입 폴딩 (출처: 뉴시스 보도, IT팁스터 마진부 X 이미지 캡처)*
 
 ### 테스터들이 아쉬워한 2가지
@@ -59,7 +59,7 @@ description: "9월 10일(한국시간) 새벽 2시 애플 첫 폴더블 '아이�
 1. **망원 카메라가 없다** — 후면 카메라는 48MP 광각 + 48MP 초광각 **듀얼 구성**입니다. 2,000달러(약 277만 원)가 넘는 역대 최고가 제품에서 **줌(망원) 카메라가 빠진다**는 건 외신들도 '명백한 약점(glaring weakness)'이라고 지적했습니다.
 2. **Face ID가 사라지고 터치 ID가 부활한다** — 초박형(펼쳤을 때 4.5mm) 설계와 디스플레이 2개 구조 때문에 Face ID 부품을 두 벌 넣기 어려워, **전원 버튼 통합 터치 ID**로 돌아갈 가능성이 유력합니다. 9to5Mac은 "초슬림 설계 때문"이라고 분석했죠.
 
-![아이폰 울트라 사전 체험 보도 이미지](/assets/images/posts/iphone-ultra-tester-reaction-20260901/iphone-ultra-hands-on.jpg)
+![아이폰 울트라 사전 체험 보도 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/iphone-ultra-tester-reaction-20260901/iphone-ultra-hands-on.jpg)
 *"휴대성은 굿, 카메라는 아쉽다" — 사전 체험자 반응을 전한 인사이트 보도 이미지 (출처: 인사이트, 2026.8.25)*
 
 ---
@@ -103,7 +103,7 @@ description: "9월 10일(한국시간) 새벽 2시 애플 첫 폴더블 '아이�
 
 솔직한 제 생각은 이렇습니다. **"애플 폴더블을 가장 먼저 경험하고 싶다"는 분에겐 충분히 설레는 제품**이고, 반대로 **"카메라와 가성비를 우선한다면 아이폰18 프로 맥스가 더 합리적"**입니다. 첫 폴더블은 '가성비'보다 '경험'을 사는 제품이라는 점, 미리 인지하시는 걸 추천해요.
 
-![아이폰18 프로 예상 렌더링 (다크체리 컬러 보도)](/assets/images/posts/iphone-ultra-tester-reaction-20260901/iphone18pro-render.jpg)
+![아이폰18 프로 예상 렌더링 (다크체리 컬러 보도)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/iphone-ultra-tester-reaction-20260901/iphone18pro-render.jpg)
 *아이폰18 프로 — 다이내믹 아일랜드 축소·가변 조리개·C2 자체 모뎀 탑재 전망 (출처: 위키트리 보도, 2026.8)*
 
 ---
@@ -124,7 +124,7 @@ description: "9월 10일(한국시간) 새벽 2시 애플 첫 폴더블 '아이�
 
 **"손맛은 삼성, 흥행은 애플"**이라는 업계 평가가 나오는 이유가 여기 있습니다. 폴더블의 기본기(힌지·멀티태스킹)는 삼성이 앞서지만, **iOS 유저에게 폴더블은 사실상 '아이폰 울트라 = 유일한 선택지'**라서 수요가 몰릴 수밖에 없다는 거죠.
 
-![갤럭시 Z 폴드8 시리즈 보도 이미지](/assets/images/posts/iphone-ultra-tester-reaction-20260901/galaxy-z-fold8.jpg)
+![갤럭시 Z 폴드8 시리즈 보도 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/iphone-ultra-tester-reaction-20260901/galaxy-z-fold8.jpg)
 *갤럭시 Z 폴드8 시리즈 — 미국 판매 가격 유출 보도에 등장한 제품 이미지 (출처: 앱스토리 보도, 2026.7)*
 
 ---

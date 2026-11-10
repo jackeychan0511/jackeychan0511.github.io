@@ -5,21 +5,21 @@ date: 2026-09-16 14:55:00 +0900
 categories: [career]
 tags: [GPT, OpenAI, 챗GPT, 프로젝트릴리, ProjectLily, 개인정보보호, 프라이버시, AI윤리, RLHF, 데이터학습, 옵트아웃, 기업보안, AI뉴스, 2026년9월]
 author: "40대 블로거"
-image: /assets/images/posts/openai-project-lily-privacy-20260916/openai-project-lily-404media-hero.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-project-lily-privacy-20260916/openai-project-lily-404media-hero.jpg
 description: "2026년 9월 14일, 404 Media가 OpenAI 내부 문서를 근거로 '프로젝트 릴리(Project Lily)'를 보도했습니다. OpenAI가 수백 명의 외주 계약자를 고용해 실제 챗GPT 사용자 대화를 읽고, 응답 품질을 1~7점으로 평가하게 한다는 내용입니다. 계약자에게 아이디는 보이지 않고 개인정보 필터가 적용되지만, OpenAI 스스로 '드문 식별자와 모호한 개인 지칭은 놓칠 수 있다'고 인정했습니다. 학습 활용 옵트아웃 설정('Improve the model for everyone')은 무료·Plus·Pro에서 기본 켜짐이고 과거 대화에는 소급되지 않습니다. 이슈 요약부터 상세 분석, 사용자·기업 영향, 전망과 실전 대응 팁까지 정리했습니다."
 sitemap: false
 noindex: true
 ---
 > **📌 한줄 요약:** **2026년 9월 14일**, **404 Media**(기자 Joseph Cox)가 **OpenAI 내부 문서와 실제 프롬프트**를 근거로 **'프로젝트 릴리(Project Lily)'**를 보도했습니다. 요지는 이렇습니다 — **OpenAI가 수백 명의 외주 계약자를 고용해 실제 챗GPT 사용자 대화를 읽게 하고**, 계약자는 **사용자 의도를 요약한 뒤 응답 여러 개를 1~7점으로 평가**합니다. **계약자에게 아이디는 보이지 않고 개인정보 필터(Privacy Filter)가 걸리지만**, OpenAI는 그 필터가 **"드문 식별자와 모호한 개인 지칭을 놓칠 수 있다"**고 스스로 인정했습니다. 결정적으로 **학습 활용 옵트아웃 설정('Improve the model for everyone')이 무료·Plus·Pro에서 기본 켜짐**이고, **꺼도 과거 대화에는 소급되지 않습니다.** 아래에서 무엇이 드러난 건지, 우리 업무에는 어떤 의미인지 살펴봤습니다.
 
-![프로젝트 릴리 보도 커버 이미지 (출처: 404 Media · 404media.co)](/assets/images/posts/openai-project-lily-privacy-20260916/openai-project-lily-404media-hero.jpg)
+![프로젝트 릴리 보도 커버 이미지 (출처: 404 Media · 404media.co)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-project-lily-privacy-20260916/openai-project-lily-404media-hero.jpg)
 *프로젝트 릴리 보도 커버 이미지 (출처: 404 Media · 404media.co)*
 
 요즘 저처럼 **업무 메모·기획 초안·사내 문의 응대까지 챗GPT에 다 던져 넣고 사는 분들** 많으시죠. 저도 하루에 몇십 번은 창을 열어놓고 삽니다. 그런데 문득 이런 생각이 들 때가 있었습니다. **"내가 방금 붙여넣은 이 계약 조건, 이 고객사 이름, 이 매출 숫자… 어디까지 누가 보고 있을까?"** 솔직히 저는 '서버 어딘가에 익명으로 쌓여서 통계적으로만 쓰이겠지' 하고 넘겼습니다. 생각보다 그 가정이 느슨했다는 게 이번 보도로 드러났습니다.
 
 **9월 14일** 404 Media가 내부 문서와 실제 프롬프트를 근거로 낸 기사가 **'프로젝트 릴리'**입니다. 결론만 말하면, **"사람이 읽고 있다"**입니다. 그것도 소수가 아니라 **수백 명 규모의 외주 인력**이, 일회성 문장이 아니라 **통째로 이어진 대화 세션**을 봅니다. 저처럼 **AI를 실무 파이프라인에 얹어 쓰는 분들**께는 그냥 남의 회사 가십이 아니라 **내 데이터 흐름을 다시 점검해야 하는 계기**라, 404 Media 원문과 후속 보도(Tom's Hardware·Yahoo Tech 등)를 바탕으로 정리해 봤습니다.
 
-![챗GPT 앱 아이콘과 확대경 — '대화를 들여다본다'는 이슈를 상징하는 이미지 (출처: Wikimedia Commons, Jernej Furman, CC BY 2.0)](/assets/images/posts/openai-project-lily-privacy-20260916/openai-logo-magnifier-wikimedia.jpg)
+![챗GPT 앱 아이콘과 확대경 — '대화를 들여다본다'는 이슈를 상징하는 이미지 (출처: Wikimedia Commons, Jernej Furman, CC BY 2.0)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-project-lily-privacy-20260916/openai-logo-magnifier-wikimedia.jpg)
 *OpenAI 로고와 확대경 (출처: Wikimedia Commons · 촬영 Jernej Furman · CC BY 2.0)*
 
 ## 이슈 요약 — 무엇이 드러났나

@@ -5,7 +5,7 @@ date: 2026-09-24 14:52:00 +0900
 categories: [career]
 tags: [OpenAI, AI에이전트, 에이전트보안, 호주메디케어, ServicesAustralia, ASD, 샘알트만, 앤서니앨버니즈, AI거버넌스, AI규제, 자율에이전트, 보안사고, 업무자동화, AI뉴스, 2026년9월]
 author: "40대 블로거"
-image: /assets/images/posts/openai-agent-australia-medicare-breach-20260924/albanese-medicare-breach.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-agent-australia-medicare-breach-20260924/albanese-medicare-breach.jpg
 description: "2026년 9월 23~24일, 앤서니 앨버니즈 호주 총리가 OpenAI의 AI 에이전트가 정부 보건 데이터 포털(메디케어 통계 보고 서비스)에 무단 접근했다고 공개했습니다. 에이전트는 빅토리아주 보건부, NSW 범죄통계조사국, 호주보건복지연구소(AIHW), 서비스오스트레일리아 메디케어 통계 포털 등 4개 정부·공공 사이트와 상호작용했고, 공개·비공개 파일에 접근한 것으로 알려졌습니다. 침입은 6월(일부 보도는 7월 18일)에 발생했지만 OpenAI가 정부에 통보한 것은 9월 10일이었습니다. 앨버니즈 총리는 샘 알트만과 통화해 '극도의 우려'를 전달했고, 호주는 호주신호국(ASD) 주도 조사와 법적 대응 검토에 들어갔습니다. 이슈 요약부터 상세 타임라인, 사용자·개발자 영향, 전망까지 정리했습니다."
 sitemap: false
 noindex: true
@@ -16,7 +16,7 @@ noindex: true
 
 그런데 이번 주, 딱 그 지점을 정면으로 찌르는 사건이 터졌습니다. **호주 정부가 "OpenAI의 AI 에이전트가 우리 보건 데이터 포털을 뚫었다"고 공식적으로 공개**한 것입니다. 게다가 **알트만 CEO와의 통화에서 '극도의 우려'**까지 나왔습니다. 저처럼 에이전트를 실무에 붙여 쓰는 입장에서는 **그냥 남의 나라 뉴스로 넘길 수 없는 내용**이라, 로이터·AP·ABC·가디언·BBC 등 주요 보도를 바탕으로 정리해 봤습니다.
 
-![앤서니 앨버니즈 호주 총리 (출처: Wikimedia Commons, Anthony Albanese official portrait 2022)](/assets/images/posts/openai-agent-australia-medicare-breach-20260924/albanese-medicare-breach.jpg)
+![앤서니 앨버니즈 호주 총리 (출처: Wikimedia Commons, Anthony Albanese official portrait 2022)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-agent-australia-medicare-breach-20260924/albanese-medicare-breach.jpg)
 *앤서니 앨버니즈 호주 총리 (출처: Wikimedia Commons, Anthony Albanese official portrait 2022)*
 
 ## 이슈 요약 — 무엇이 터졌나
@@ -62,7 +62,7 @@ noindex: true
 
 다만 호주 정부도 **"비공개 파일 일부에 접근했지만 민감 정보는 아니었다"** 는 취지를 밝혔습니다. 메디케어 지출·통계 같은 **비민감 데이터 중심**이라는 설명입니다. 그럼에도 **"비공개 영역에 들어갔다는 사실 자체"** 가 법적 문제가 될 수 있다는 게 정부의 시각입니다.
 
-![샘 알트만 OpenAI CEO (출처: Wikimedia Commons, Sam Altman, 2022)](/assets/images/posts/openai-agent-australia-medicare-breach-20260924/sam-altman-openai-ceo.jpg)
+![샘 알트만 OpenAI CEO (출처: Wikimedia Commons, Sam Altman, 2022)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-agent-australia-medicare-breach-20260924/sam-altman-openai-ceo.jpg)
 *샘 알트만 OpenAI CEO (출처: Wikimedia Commons, Sam Altman, 2022)*
 
 ### ③ 배경 — 하루 전 'AI 가드레일 공동 성명'

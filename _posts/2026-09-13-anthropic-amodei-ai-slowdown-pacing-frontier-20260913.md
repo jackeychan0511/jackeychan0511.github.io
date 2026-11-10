@@ -6,7 +6,7 @@ categories: [career]
 tags: [Anthropic, Claude, 앤트로픽, 클로드, DarioAmodei, 다리오아모데이, PacingtheFrontier, 프런티어속도조절, AI안전, AI규제, SamAltman, 샘알트만, ElonMusk, 일론머스크, DemisHassabis, 데미스하사비스, METR, 임베디드평가자, 재귀적자기개선, RecursiveSelfImprovement, 에이전트스웜, OAI-HF, 보안, AI거버넌스, 업무자동화, 2026년9월, AI산업]
 author: "40대 블로거"
 description: "2026년 9월 12일(현지시간), Anthropic 공동창업자 겸 CEO 다리오 아모데이(Dario Amodei)가 개인 홈페이지에 'We Must Pace the Frontier(우리는 프런티어의 속도를 조절해야 한다)'라는 에세이를 공개했습니다. '우리는 AI 모델의 성능 향상 속도를 늦춰야 한다'는 선언과 함께, 임베디드 평가자 → 민주국가 간 조율 → 글로벌 조율로 이어지는 3단계 '속도 조절' 계획을 제시했고, Anthropic은 1단계를 단독으로 즉시 이행하겠다고 밝혔습니다. 샘 알트만(OpenAI)·일론 머스크(xAI)·데미스 하사비스(구글 딥마인드)가 곧바로 지지 의사를 밝혔습니다. 무엇이 바뀌는 건지, 사용자·개발자에게 어떤 의미인지 정리했습니다."
-image: /assets/images/posts/2026-09-13-anthropic-amodei-ai-slowdown-20260913/amodei-pace-frontier-official-hero.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-09-13-anthropic-amodei-ai-slowdown-20260913/amodei-pace-frontier-official-hero.jpg
 sitemap: false
 noindex: true
 ---
@@ -15,7 +15,7 @@ noindex: true
 
 요즘 저처럼 **"AI는 계속 빨라지는데, 안전장치가 그 속도를 따라가고 있나"** 하는 뉴스를 하나씩 챙겨 보시는 분들 많으시죠? 솔직히 저는 이번 주 초에 정리했던 **Anthropic 위협 인텔리전스 보고서**(9월 11일 글)를 읽고도 꽤 무거운 마음이었습니다. 생물무기·미사일·대규모 증류까지 나오는데, 정작 그 모델을 만든 회사는 계속 더 센 모델을 내놓고 있으니까요. 그런데 **9월 12일(현지시간), 이 회사의 CEO가 직접 "속도를 늦추자"고 나섰습니다.** 그것도 그냥 푸념이 아니라 실행 계획까지 붙여서요. 이번 글은 이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망 순서로 정리해 드리겠습니다.
 
-![다리오 아모데이 에세이 'We Must Pace the Frontier' 공식 대표 이미지](/assets/images/posts/2026-09-13-anthropic-amodei-ai-slowdown-20260913/amodei-pace-frontier-official-hero.jpg)
+![다리오 아모데이 에세이 'We Must Pace the Frontier' 공식 대표 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-09-13-anthropic-amodei-ai-slowdown-20260913/amodei-pace-frontier-official-hero.jpg)
 *다리오 아모데이 개인 홈페이지(darioamodei.com)에 게시된 에세이 'We Must Pace the Frontier'의 공식 대표(OG) 이미지 (출처: darioamodei.com 공식, 2026.9.13 접속)*
 
 ## 🗞️ 이슈 요약 — 한눈에 보기
@@ -86,7 +86,7 @@ noindex: true
 
 즉 **"추가로 1~2년을 벌면, 정렬과 해석가능성에서 결정적 진전을 만들 수 있다"**는 게 그의 계산입니다. 생각보다 이 대목이 이번 제안의 실질적인 알맹이입니다. "느려지자"가 아니라 **"버는 시간을 어디에 쓸지"를 먼저 정의**했기 때문입니다.
 
-![다리오 아모데이 Anthropic CEO (출처: Wikimedia Commons, CC BY 2.0)](/assets/images/posts/2026-09-13-anthropic-amodei-ai-slowdown-20260913/dario-amodei-wikimedia.jpg)
+![다리오 아모데이 Anthropic CEO (출처: Wikimedia Commons, CC BY 2.0)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-09-13-anthropic-amodei-ai-slowdown-20260913/dario-amodei-wikimedia.jpg)
 *Anthropic 공동창업자 겸 CEO 다리오 아모데이 — 2023년 TechCrunch Disrupt 무대. 이번 'Pacing the Frontier' 에세이는 그의 개인 홈페이지에 게재됐습니다 (출처: Wikimedia Commons, TechCrunch / CC BY 2.0, 2026.9.13 접속)*
 
 ## 🌊 영향 — 사용자와 개발자에게

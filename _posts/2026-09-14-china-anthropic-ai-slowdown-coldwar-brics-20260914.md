@@ -6,7 +6,7 @@ categories: [career]
 tags: [Anthropic, Claude, 앤트로픽, 클로드, DarioAmodei, 다리오아모데이, 중국, China, 냉전전술, ColdWar, GlobalTimes, 환구시보, 시진핑, XiJinping, BRICS, 브릭스, 오픈소스AI, OpenSourceAI, AI거버넌스, AIGovernance, 미중AI경쟁, AI규제, AI안전, Reuters, Bloomberg, 업무자동화, 오픈소스모델, 2026년9월, AI산업]
 author: "40대 블로거"
 description: "2026년 9월 14일(현지시간), 중국 관영 매체와 전문가들이 Anthropic CEO 다리오 아모데이의 'AI 감속(Pacing the Frontier)' 제안을 '냉전 전술(Cold War playbook)'이자 '근거 없는 적대적 주장'이라고 정면 반박했습니다. 같은 시기 시진핑 주석은 인도 뉴델리 BRICS 정상회의에서 'BRICS AI 오픈소스 커뮤니티' 창설을 제안하며 미국 주도 안전 프레임워크에 맞불을 놨습니다. 무엇이 쟁점이고, 사용자·개발자에게 어떤 의미인지 정리했습니다."
-image: /assets/images/posts/2026-09-14-china-anthropic-ai-slowdown-coldwar-brics-20260914/xi-brics-2026-official.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-09-14-china-anthropic-ai-slowdown-coldwar-brics-20260914/xi-brics-2026-official.jpg
 sitemap: false
 noindex: true
 ---
@@ -15,7 +15,7 @@ noindex: true
 
 요즘 저처럼 **"AI는 계속 빨라지는데, 안전 논의는 어디까지 진짜일까"** 하는 뉴스를 하나씩 챙겨 보시는 분들 많으시죠? 솔직히 저는 어제 이 블로그에 정리했던 **아모데이의 'We Must Pace the Frontier' 에세이(9월 13일 글)**를 쓰면서도, 마지막 문단에 "가장 큰 난제는 검증(verification)과 중국"이라고 적었습니다. 그런데 **채 하루도 지나지 않아 그 난제가 현실로 터졌습니다.** 중국이 곧바로 반응한 거죠. 게다가 단순한 논평이 아니라 **'냉전 전술'이라는 프레임**으로 정면 반박하고, 그 사이 시진핑 주석은 BRICS 무대에서 **'오픈소스 AI 연합'**이라는 대안 카드를 꺼내 들었습니다. 이번 글은 이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망 순서로 정리해 드리겠습니다.
 
-![시진핑 중국 국가주석이 제18차 BRICS 정상회의에서 발언하는 모습](/assets/images/posts/2026-09-14-china-anthropic-ai-slowdown-coldwar-brics-20260914/xi-brics-2026-official.jpg)
+![시진핑 중국 국가주석이 제18차 BRICS 정상회의에서 발언하는 모습](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-09-14-china-anthropic-ai-slowdown-coldwar-brics-20260914/xi-brics-2026-official.jpg)
 *시진핑 중국 국가주석, 제18차 BRICS 정상회의(인도 뉴델리) 2세션에서 발언 — 중국 외교부 공식 보도자료 사진 (출처: 중국 외교부(Ministry of Foreign Affairs of the PRC) 공식 홈페이지, 2026.9.13)*
 
 ## 🗞️ 이슈 요약 — 한눈에 보기
@@ -78,7 +78,7 @@ noindex: true
 
 즉 **"안전 리더십"이라는 서사와 "초대형 상장·컴퓨트 확장"이라는 현실**이 동시에 진행 중인 겁니다. 이 간극이 바로 중국과 회의론자들이 파고든 지점입니다.
 
-![다리오 아모데이 Anthropic CEO](/assets/images/posts/2026-09-14-china-anthropic-ai-slowdown-coldwar-brics-20260914/dario-amodei-wikimedia.jpg)
+![다리오 아모데이 Anthropic CEO](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-09-14-china-anthropic-ai-slowdown-coldwar-brics-20260914/dario-amodei-wikimedia.jpg)
 *Anthropic 공동창업자 겸 CEO 다리오 아모데이 — 이번 'AI 감속' 제안을 둘러싸고 미·중 논쟁의 중심에 섰습니다 (출처: Wikimedia Commons, CC BY 2.0, 2026.9.14 접속)*
 
 ## 🌊 영향 — 사용자와 개발자에게

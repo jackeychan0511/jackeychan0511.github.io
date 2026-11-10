@@ -14,7 +14,7 @@ noindex: true
 
 2026년 8월 20일 **블룸버그(Bloomberg)가 Anthropic이 이르면 8월 말(늦어도 이번 달 안) 공개 IPO 서류(public S-1)를 제출할 예정**이며, **SpaceX가 세운 사상 최대 IPO 기록을 맞추거나 넘어서는 것을 목표**로 하고 있다고 단독 보도했습니다. 8월 21일에는 Benzinga, NDTV 등이 잇달아 후속 보도를 이어가며 AI 업계 최대 화제가 됐습니다. 오늘은 **이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망** 순서로 정리해 드립니다.
 
-![Anthropic 공식 대표 이미지](/assets/images/posts/anthropic-ipo-public-filing-20260821/anthropic-og-official.jpg)
+![Anthropic 공식 대표 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-ipo-public-filing-20260821/anthropic-og-official.jpg)
 *Anthropic 공식 홈페이지(anthropic.com) 오픈그래프 대표 이미지 — 이르면 8월 말 공개 IPO 서류 제출을 준비 중 (출처: Anthropic 공식 웹사이트, anthropic.com)*
 
 ## 📌 이슈 요약: "SpaceX 규모 IPO에 도전장"
@@ -70,5 +70,5 @@ Anthropic의 IPO는 매우 빠르게 진행되고 있습니다.
 
 솔직히 1년 전만 해도 "AI 회사가 상장?"이라고 생각했는데, 이제는 **세계 최대 규모의 IPO가 AI 회사에서 나올 수 있다**는 얘기까지 나오니 세상이 정말 빠르게 변하고 있습니다. Claude를 실제 업무에 쓰고 계신 분이라면, 8월 말 공개 서류 제출 시점과 로드쇼 이후 확정될 공모가·상장 시점을 눈여겨보시길 추천드립니다. 앞으로 나올 요금제와 기능 변화도 함께 지켜보시면 좋겠습니다. AI 시대에 가성비 좋은 툴을 고민 중이신 분들께도 참고가 되길 바랍니다.
 
-![Claude 공식 로고](/assets/images/posts/anthropic-ipo-public-filing-20260821/claude-ai-logo-wikimedia.png)
+![Claude 공식 로고](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-ipo-public-filing-20260821/claude-ai-logo-wikimedia.png)
 *Claude 로고 — 이르면 8월 말 공개 IPO 서류 제출을 앞둔 Anthropic의 AI 어시스턴트 (출처: Wikimedia Commons, commons.wikimedia.org — "Claude AI logo")*

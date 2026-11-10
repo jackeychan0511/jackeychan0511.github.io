@@ -5,11 +5,11 @@ date: 2026-10-08 15:59:00 +0900
 categories: [career]
 tags: [Google Gemini, 구글 제미나이, SynthID, 신스ID, SynthID Detector, AI 워터마크, AI 생성 콘텐츠 탐지, 딥페이크 탐지, OpenAI, 엔비디아, 카카오, 애플, C2PA, 콘텐츠 진위 확인, Google DeepMind, 업무자동화, AI뉴스, 2026년 10월]
 author: "40대 블로거"
-image: /assets/images/posts/gemini-synthid-detector-global-20261007/synthid-detector-demo-google.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-synthid-detector-global-20261007/synthid-detector-demo-google.png
 description: "2026년 10월 7일, 구글 딥마인드가 AI 생성 콘텐츠 탐지 도구 'SynthID Detector'를 전 세계에 개방했습니다. 기존에는 연구자·언론인 등 일부만 쓸 수 있었지만, 이제 누구나 synthid.com에서 이미지·영상·오디오 파일에 남은 워터마크를 확인할 수 있습니다. 특히 구글뿐 아니라 OpenAI·엔비디아·카카오, 그리고 곧 애플의 워터마크까지 한 곳에서 검사합니다. 구글은 지금까지 이미지·영상 1,800억 건 이상, 오디오 24만 년 분량에 워터마크를 넣었다고 밝혔습니다. 이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망 순으로 정리했습니다."
 ---
 
-![SynthID Detector로 AI 생성 영상을 검사하는 화면 — 구글 공식 데모 이미지](/assets/images/posts/gemini-synthid-detector-global-20261007/synthid-detector-demo-google.png)
+![SynthID Detector로 AI 생성 영상을 검사하는 화면 — 구글 공식 데모 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-synthid-detector-global-20261007/synthid-detector-demo-google.png)
 *SynthID Detector로 AI 생성 미디어를 검사하는 화면 (출처: Google 공식 블로그)*
 
 > **📌 한줄 요약:** **2026년 10월 7일**, 구글 딥마인드가 AI 생성 콘텐츠 탐지 도구 **'SynthID Detector'를 전 세계에 개방**했습니다. 기존에는 연구자·언론인 등 **일부만** 쓸 수 있었지만, 이제 **누구나 synthid.com에서** 이미지·영상·오디오에 남은 **워터마크를 확인**할 수 있습니다. 더 중요한 변화는 **탐지 범위 확대**입니다. 구글뿐 아니라 **OpenAI·엔비디아·카카오**, 그리고 **곧 애플**의 워터마크까지 **한 곳에서 검사**합니다. 구글은 지금까지 **이미지·영상 1,800억 건 이상, 오디오 24만 년 분량**에 워터마크를 새겼다고 밝혔습니다.
@@ -36,14 +36,14 @@ SynthID는 **2023년** 구글이 선보인 **비가시(눈에 안 보이는) 워
 
 이번 발표에서 실질적으로 가장 중요한 부분은 **단순 공개가 아니라 통합**입니다. 기존 구글 탐지기는 **구글 자체 SynthID만** 인식했습니다. 그래서 ChatGPT로 만든 이미지에 SynthID가 들어 있어도 구글 도구에서는 **잡히지 않았습니다**. 이제는 **OpenAI·엔비디아·카카오**의 워터마크를 지원하고, **애플도 곧** 합류합니다. 즉 "제각각인 탐지기를 하나씩 돌아다닐 필요 없이" **단일 창구에서 여러 회사 AI의 흔적을 확인**할 수 있게 된 것이 핵심 변화입니다.
 
-![SynthID Detector가 AI 생성 이미지의 워터마크를 인식한 결과 화면](/assets/images/posts/gemini-synthid-detector-global-20261007/synthid-detector-screenshot-arstechnica.png)
+![SynthID Detector가 AI 생성 이미지의 워터마크를 인식한 결과 화면](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-synthid-detector-global-20261007/synthid-detector-screenshot-arstechnica.png)
 *SynthID Detector가 여러 AI 도구의 워터마크를 확인해 결과를 보여주는 화면 (출처: Google / Ars Technica)*
 
 ### 3) 어떻게 워터마크를 심고 찾아내나
 
 SynthID 계열 기술은 생성 모델이 **출력 픽셀·토큰을 만들 때 미세한 통계적 편향**을 넣어, 겉보기엔 자연스럽지만 **통계적으로는 특정 패턴**이 남도록 합니다. 텍스트 쪽에서 대표적으로 쓰이는 방식이 **토너먼트 샘플링(tournament sampling)** 으로, 다음 단어를 고를 때 후보를 묶어 점수화하면서 **편향을 일부러 주입**해 나중에 검출기가 되짚어낼 수 있게 합니다. 아래 도식은 그 원리를 요약한 것입니다.
 
-![SynthID-Text의 토너먼트 샘플링 워터마킹 원리 도식](/assets/images/posts/gemini-synthid-detector-global-20261007/synthid-text-diagram-wikimedia.png)
+![SynthID-Text의 토너먼트 샘플링 워터마킹 원리 도식](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-synthid-detector-global-20261007/synthid-text-diagram-wikimedia.png)
 *SynthID-Text의 토너먼트 샘플링 워터마킹 원리 (출처: Wikimedia Commons)*
 
 ### 4) 한계도 분명하다 — '모든 AI'를 잡지는 못한다

@@ -6,12 +6,12 @@ categories: [career]
 tags: [Anthropic, Claude, 앤트로픽, 클로드, IPO, S1, 증권신고서, 나스닥, NASDAQ, ANT, 상장, 공모가, NRR, 순매출유지율, LongTermBenefitTrust, 지배구조, 다리오아모데이, DarioAmodei, AI산업, 업무자동화, 2026년10월]
 author: "40대 블로거"
 description: "2026년 10월 26일(미국 현지), Anthropic(앤트로픽)이 나스닥 상장을 위한 S-1 증권신고서를 공개 제출했습니다. 티커는 'ANT', 주관은 골드만삭스·모건스탠리 등 24개 증권사입니다. 신고서에는 상반기 매출 162억 9천만 달러(전년 동기 11억 6천만 달러), 순손실 807억 달러, 영업손실 6억 9,300만 달러, 순매출유지율(NRR) 약 900%가 담겼습니다. 숫자의 성격과 지배구조, 사용자·개발자에게 미칠 영향을 정리했습니다."
-image: /assets/images/posts/anthropic-claude-ipo-s1-nasdaq-ant-20261027/anthropic-official-s1-og.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-ipo-s1-nasdaq-ant-20261027/anthropic-official-s1-og.jpg
 sitemap: false
 noindex: true
 ---
 
-![Anthropic 공식 뉴스룸 S-1 제출 발표 대표 이미지](/assets/images/posts/anthropic-claude-ipo-s1-nasdaq-ant-20261027/anthropic-official-s1-og.jpg)
+![Anthropic 공식 뉴스룸 S-1 제출 발표 대표 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-ipo-s1-nasdaq-ant-20261027/anthropic-official-s1-og.jpg)
 *Anthropic 공식 뉴스룸 'Anthropic files S-1 with the SEC for proposed initial public offering'(2026.10.26) 대표 이미지 — 5년 된 AI 연구기업이 공개 시장의 문을 두드린 시점입니다 (출처: anthropic.com 공식)*
 
 > **📌 한줄 요약:** 2026년 **10월 26일(미국 현지)**, Anthropic이 미국 증권거래위원회(SEC)에 **S-1 등록신고서를 공개 제출**했습니다. 상장 시장은 **나스닥 글로벌 셀렉트 마켓**, 티커는 **"ANT"** 입니다. 공모 주식 수와 가격 범위는 아직 정해지지 않았고, 신고서가 아직 **효력 발생 전**이라 당장 청약은 불가능합니다. 신고서가 처음으로 드러낸 숫자는 **상반기 매출 162억 9,000만 달러**, **순손실 807억 달러**, **순매출유지율(NRR) 약 900%** 입니다.
@@ -134,7 +134,7 @@ AI 업계 전체로 보면, 이 상장은 **"모델 성능 경쟁"이 "자본시
 - **개발자**: 사용량 확산 구조를 전제로 **비용 가드레일과 폴백 설계**를 먼저 갖춰 두는 편이 안전합니다.
 - **투자자**: 공모 청약은 신고서 효력 발생 이후에만 가능합니다. 그 전까지 나오는 "청약 안내"는 공식 공시와 대조해 확인해야 합니다.
 
-![나스닥 마켓사이트 전경 (Wikimedia Commons)](/assets/images/posts/anthropic-claude-ipo-s1-nasdaq-ant-20261027/nasdaq-marketsite-commons.jpg)
+![나스닥 마켓사이트 전경 (Wikimedia Commons)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-ipo-s1-nasdaq-ant-20261027/nasdaq-marketsite-commons.jpg)
 *미국 뉴욕 타임스스퀘어의 나스닥 마켓사이트 — Anthropic은 이 시장의 글로벌 셀렉트 마켓에 'ANT' 티커로 상장을 신청했습니다 (출처: Wikimedia Commons, 촬영 ajay_suresh, CC BY 2.0)*
 
 > **참고 자료**

@@ -16,7 +16,7 @@ noindex: true
 
 이번 글에서는 공식 발표(alignment.anthropic.com)와 주요 보도를 바탕으로 **이슈 요약 → 상세 분석 → 영향 → 전망** 순서로 정리해 드립니다.
 
-![Conceptual Reasoning Index 공식 대표 이미지](/assets/images/posts/claude-conceptual-reasoning-index-20260814/cri-og-card.png)
+![Conceptual Reasoning Index 공식 대표 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/claude-conceptual-reasoning-index-20260814/cri-og-card.png)
 *Conceptual Reasoning Index(CRI) — Redwood Research·Anthropic 공동 개발 (출처: 공식 사이트 conceptualreasoning.ai)*
 
 > 📌 참고: 본 글은 2026년 8월 14일 기준 Anthropic Alignment Science 블로그(2026-08-12)와 Cryptonomist 등 주요 보도를 바탕으로 작성한 정보형 기사입니다.
@@ -63,7 +63,7 @@ CRI는 이 셋을 **LMCA 60%·ACCoRD 20%·DTBench 20%** 가중 평균한 단일 
 - 2024년 말 이후 각사 최고 모델 기준 점수는 **거의 선형적으로 상승 중이며 둔화 징후가 없음**
 - 재미있는 디테일: Fable 5는 질문 일부를 거부해 **Opus 5를 폴백**으로 사용해 점수를 계산했고, GPT-4는 ACCoRD 문항의 18%를 완전히 답하지 않아 부분 데이터로 반영
 
-![CRI 뉴스 보도 대표 이미지](/assets/images/posts/claude-conceptual-reasoning-index-20260814/cri-cryptonomist.jpg)
+![CRI 뉴스 보도 대표 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/claude-conceptual-reasoning-index-20260814/cri-cryptonomist.jpg)
 *CRI 공개를 보도한 Cryptonomist 기사 삽화 (출처: Cryptonomist, 2026-08-12)*
 
 ## 영향 — 사용자·개발자에게 주는 시사점

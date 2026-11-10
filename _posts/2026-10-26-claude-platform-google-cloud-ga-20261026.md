@@ -6,12 +6,12 @@ categories: [career]
 tags: [Anthropic, Claude, 앤트로픽, 클로드, ClaudePlatform, GoogleCloud, 구글클라우드, GCP, Bedrock, ClaudeManagedAgents, FastMode, Opus55, IAM, 커밋먼트, 업무자동화, AI에이전트, 2026년10월]
 author: "40대 블로거"
 description: "2026년 10월 22일, Anthropic이 'Claude Models on Google Cloud (Anthropic managed)'를 정식 출시(GA)했습니다. 구글 클라우드 IAM 인증과 단일 청구서, 기존 커밋먼트 차감으로 Claude Platform의 전체 기능을 쓸 수 있고, 신기능·베타도 네이티브 플랫폼과 같은 날 들어옵니다. Opus 5.5 Fast Mode 가격($8/$40)까지 포함해 개발자·인프라 담당자 관점에서 무엇이 달라지는지 정리했습니다."
-image: /assets/images/posts/claude-platform-google-cloud-ga-20261026/claude-platform-google-cloud-official.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/claude-platform-google-cloud-ga-20261026/claude-platform-google-cloud-official.png
 sitemap: false
 noindex: true
 ---
 
-![Anthropic 공식 리소스 'The full Claude Platform, available on Google Cloud' 대표 이미지](/assets/images/posts/claude-platform-google-cloud-ga-20261026/claude-platform-google-cloud-official.png)
+![Anthropic 공식 리소스 'The full Claude Platform, available on Google Cloud' 대표 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/claude-platform-google-cloud-ga-20261026/claude-platform-google-cloud-official.png)
 *Anthropic 공식 리소스 페이지(claude.com)에 게시된 'The full Claude Platform, available on Google Cloud' 대표 이미지 — 이번 발표의 핵심은 '기능 축소판'이 아니라 '플랫폼 전체'가 구글 클라우드로 들어왔다는 점입니다 (출처: claude.com 공식, 2026.10.22)*
 
 > **📌 한줄 요약:** 2026년 **10월 22일**, Anthropic이 **Claude Models on Google Cloud (Anthropic managed)** 를 **정식 출시(GA)** 했습니다. 구글 클라우드 **IAM 자격증명**으로 인증하고, **단일 구글 클라우드 청구서**로 결제하며, 사용량이 **기존 구글 클라우드 커밋먼트**에서 차감됩니다. 기능은 축약판이 아닙니다. **Claude Managed Agents(베타)·코드 실행·컴퓨터 유즈·에이전트 스킬·Files API·MCP 커넥터(베타)·프롬프트 캐싱·배치**까지 Claude Platform의 전체 세트가 들어오고, **신기능과 베타가 네이티브 플랫폼과 같은 날** 제공됩니다. 함께 **Opus 5.5 Fast Mode**도 GA로 열렸고 가격은 **입력 $8 / 출력 $40(100만 토큰당)** 입니다.
@@ -155,7 +155,7 @@ Fast Mode는 **속도를 우선**하는 모드로, 출력 생성이 최대 **2.5
 
 결국 이번 업데이트는 "새 모델"이 아니라 **"같은 모델을 어디서, 어떤 청구서로, 어떤 권한으로 쓸 것인가"** 를 정리해 준 발표입니다. 그 질문에 막혀 있던 팀이라면, 이번 GA는 검토 목록에서 가장 먼저 꺼내 볼 항목입니다.
 
-![Google Cloud 공식 로고 (Wikimedia Commons)](/assets/images/posts/claude-platform-google-cloud-ga-20261026/google-cloud-logo-wikimedia.png)
+![Google Cloud 공식 로고 (Wikimedia Commons)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/claude-platform-google-cloud-ga-20261026/google-cloud-logo-wikimedia.png)
 *Google Cloud 로고 — Claude Platform이 구글 클라우드의 인증·청구·커밋먼트 체계 안으로 들어온 것이 이번 발표의 실질 변화입니다 (출처: Wikimedia Commons, Google Cloud logo full color)*
 
 > **참고 자료**

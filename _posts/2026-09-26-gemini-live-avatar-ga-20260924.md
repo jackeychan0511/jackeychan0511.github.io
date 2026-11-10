@@ -5,11 +5,11 @@ date: 2026-09-26 15:53:00 +0900
 categories: [career]
 tags: [Google Gemini, 구글 제미나이, Gemini 3.8 Live, Live Avatar, 라이브 아바타, Gemini Enterprise, 음성AI, Voice AI, 비디오 아바타, 립싱크, Tool Calling, 비동기 함수호출, Gemini Live API, ADK, SynthID, 멀티모달, AI에이전트, 고객응대, 업무자동화, AI뉴스, 2026년 9월]
 author: "40대 블로거"
-image: /assets/images/posts/2026-09-26-gemini-live-avatar-ga-20260924/gemini-live-avatar-hero-cloudblog.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-09-26-gemini-live-avatar-ga-20260924/gemini-live-avatar-hero-cloudblog.png
 description: "2026년 9월 24~25일(현지시간), 구글이 Gemini 3.8 Live with Live Avatar를 Gemini Enterprise에서 정식 출시(GA)했습니다. 음성 대화 모델에 실시간 영상 아바타를 결합해 립싱크·표정·턴테이킹을 구현하고, 대화를 끊지 않고 백그라운드에서 도구를 호출하며, 97개 언어를 자동 전환합니다. 음성 대화는 US·EU 엔드포인트로 제공되고 생성된 모든 오디오·영상에 SynthID 워터마크가 들어갑니다. 이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망 순으로 정리했습니다."
 ---
 
-![Gemini 3.8 Live with Live Avatar 공식 이미지 — 음성 대화 모델에 실시간 영상 아바타를 결합한 기업용 기능 (출처: Google Cloud 공식 블로그)](/assets/images/posts/2026-09-26-gemini-live-avatar-ga-20260924/gemini-live-avatar-hero-cloudblog.png)
+![Gemini 3.8 Live with Live Avatar 공식 이미지 — 음성 대화 모델에 실시간 영상 아바타를 결합한 기업용 기능 (출처: Google Cloud 공식 블로그)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-09-26-gemini-live-avatar-ga-20260924/gemini-live-avatar-hero-cloudblog.png)
 *Gemini 3.8 Live with Live Avatar 공식 이미지 — 말하고, 보고, 들으면서 표정까지 짓는 "대화형 아바타" 기능이 기업용으로 정식 출시됐습니다 (출처: Google Cloud 공식 블로그)*
 
 > **📌 한줄 요약:** 요즘 저처럼 **콜센터 응대나 예약·주문 접수 같은 "말로 하는 업무"**를 AI로 넘기려는 분들 많으시죠. 지난주 구글이 **Gemini 3.8 Live**로 실시간 음성 대화 모델을 내놨는데, 이번엔 여기에 **얼굴이 붙었습니다.** 2026년 9월 24~25일(현지시간) Google이 **Gemini 3.8 Live with Live Avatar**를 **Gemini Enterprise**에서 정식 출시(GA)했습니다. 실시간 영상 아바타가 **립싱크·표정·턴테이킹**을 하면서 대화하고, **말하는 도중 백그라운드에서 도구를 호출**하며, **97개 언어를 자동으로 넘나듭니다.** 핵심은 "더 예쁜 아바타"가 아니라, **음성 에이전트가 화면 앞에 실제로 존재하게 됐다**는 점입니다.
@@ -63,7 +63,7 @@ description: "2026년 9월 24~25일(현지시간), 구글이 Gemini 3.8 Live wit
 
 공식 데모에는 **호텔 체크인**처럼 "대화는 끊기지 않고 백그라운드에서 여러 도구를 호출하는" 시나리오가 등장합니다. 실무 자동화 관점에서는 이게 아바타 자체보다 더 중요한 변화입니다 — **대화 품질과 업무 처리량을 동시에 가져가는 구조**가 API로 열렸다는 뜻이니까요.
 
-![Gemini 3.8 Live with Live Avatar 도구 호출 데모 이미지 — 대화를 끊지 않고 백그라운드에서 도구를 실행하는 구조 (출처: Google Cloud 공식 블로그)](/assets/images/posts/2026-09-26-gemini-live-avatar-ga-20260924/gemini-live-avatar-toolcalling.png)
+![Gemini 3.8 Live with Live Avatar 도구 호출 데모 이미지 — 대화를 끊지 않고 백그라운드에서 도구를 실행하는 구조 (출처: Google Cloud 공식 블로그)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-09-26-gemini-live-avatar-ga-20260924/gemini-live-avatar-toolcalling.png)
 *Gemini 3.8 Live with Live Avatar 도구 호출 데모 — 말하는 도중에도 백그라운드에서 API·도구를 실행해 "대화가 멈추지 않는" 응대를 구현합니다 (출처: Google Cloud 공식 블로그)*
 
 ### 2-3. 시각 이해 — 사용자가 보는 것을 에이전트도 본다

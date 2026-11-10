@@ -5,7 +5,7 @@ date: 2026-09-12 16:52:00 +0900
 categories: [career]
 tags: [Anthropic, Claude, 앤트로픽, 클로드, AI뉴스, Nvidia, 엔비디아, IPO, 기업공개, 상장, 앵커투자, 앵커인베스터, 2조달러, 1000억달러, DGX, GPU, AWS, Trainium, TPU, Amazon, Google, Broadcom, 젠슨황, 다리오아모데이, 2026년9월, AI산업]
 author: "40대 블로거"
-image: /assets/images/posts/2026-09-12-anthropic-nvidia-ipo-anchor-investment-20260912/nvidia-headquarters-wikimedia.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-09-12-anthropic-nvidia-ipo-anchor-investment-20260912/nvidia-headquarters-wikimedia.jpg
 description: "2026년 9월 11일(현지시간) 로이터가 단독 보도한 내용입니다. Anthropic이 사상 최대 규모가 될 자사 IPO에 엔비디아(Nvidia)를 '앵커 투자자'로 끌어들이는 방안을 논의 중이며, 엔비디아는 최대 100억 달러 투자를 검토하고 있다는 소식입니다. 이번 상장은 최대 1,000억 달러 조달·약 2조 달러 기업가치를 목표로 합니다. 무엇이 바뀌는 건지, 사용자·개발자에게 어떤 의미인지, 앞으로 뭘 봐야 하는지 정리했습니다."
 sitemap: false
 noindex: true
@@ -15,7 +15,7 @@ noindex: true
 
 요즘 저처럼 **"AI 회사들, 자금은 대체 어디서 계속 끌어오나"** 하는 뉴스를 하나씩 챙겨 보시는 분들 많으시죠? 솔직히 저는 지난 9월 8일에 정리했던 **앤트로픽 상장 로드쇼 연기 소식**(9월 8일 글)을 읽고도 "2조 달러면 너무 큰 거 아니야" 싶었는데, **9월 11일(현지시간)** 로이터가 훨씬 더 묵직한 단독 기사를 터뜨렸습니다. **엔비디아가 앤트로픽 IPO에 '앵커 투자자'로 들어가 최대 100억 달러를 넣는 방안을 검토 중**이라는 겁니다. 이번 글은 이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망 순서로 정리해 드리겠습니다.
 
-![엔비디아 본사(미국 캘리포니아주 산타클라라) 외관 전경](/assets/images/posts/2026-09-12-anthropic-nvidia-ipo-anchor-investment-20260912/nvidia-headquarters-wikimedia.jpg)
+![엔비디아 본사(미국 캘리포니아주 산타클라라) 외관 전경](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-09-12-anthropic-nvidia-ipo-anchor-investment-20260912/nvidia-headquarters-wikimedia.jpg)
 *엔비디아 본사(미국 캘리포니아 산타클라라). 로이터는 2026년 9월 11일 엔비디아가 앤트로픽 IPO의 '앵커 투자자'로 최대 100억 달러 투자를 검토 중이라고 단독 보도했습니다 (출처: Wikimedia Commons, 촬영 Coolcaesar, CC BY-SA 4.0, 2026.9.12 접속)*
 
 ## 🗞️ 이슈 요약 — 한눈에 보기
@@ -102,7 +102,7 @@ noindex: true
 
 **Claude를 업무 자동화에 쓰면서 '이 회사가 계속 안정적으로 서비스를 제공할 수 있을까'를 고민하는 분들께** 이번 뉴스가 참고가 되셨으면 합니다. 저는 계속 Claude와 함께 다른 AI 툴 소식도 챙겨서 정리해 올리겠습니다.
 
-![앤트로픽 CEO 다리오 아모데이(Dario Amodei) — 2023년 TechCrunch Disrupt 무대](/assets/images/posts/2026-09-12-anthropic-nvidia-ipo-anchor-investment-20260912/anthropic-dario-amodei-wikimedia.jpg)
+![앤트로픽 CEO 다리오 아모데이(Dario Amodei) — 2023년 TechCrunch Disrupt 무대](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-09-12-anthropic-nvidia-ipo-anchor-investment-20260912/anthropic-dario-amodei-wikimedia.jpg)
 *앤트로픽 공동창업자 겸 CEO 다리오 아모데이. 로이터에 따르면 앤트로픽은 약 2조 달러 기업가치를 목표로 최대 1,000억 달러 규모의 IPO를 추진 중입니다 (출처: Wikimedia Commons, 촬영 TechCrunch, CC BY 2.0, 2026.9.12 접속)*
 
 > 📌 참고: 본 글은 2026년 9월 11일(현지시간) 로이터통신의 단독 보도와, 로이터를 인용한 블룸버그·CNBC·이코노미스트타임스·인베스팅닷컴 등 복수 외신 보도를 바탕으로 작성한 정보형 기사입니다. 보도에 따르면 해당 논의는 **확정된 계약이 아니라 협상 단계**이며, Anthropic은 논평을 거부하고 엔비디아는 즉시 답변하지 않았습니다. 내용은 협상 진행에 따라 변경될 수 있습니다.

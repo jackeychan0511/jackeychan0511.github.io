@@ -5,13 +5,13 @@ date: 2026-08-03 12:00:00 +0900
 categories: [products]
 tags: [음식물처리기, 미닉스, 더플렌더PRO, 루펜, 건조분쇄, 주방가전, 보조금, 여름가전, 가전추천, 리빙, 2026년8월, 구매가이드]
 author: "40대 블로거"
-image: /assets/images/posts/food-waste-disposer-minix-pro-20260803/minix-plender-pro.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/food-waste-disposer-minix-pro-20260803/minix-plender-pro.jpg
 description: "2026년 여름, 음식물처리기 시장이 다시 달아올랐습니다. 브랜드 검색 1위 미닉스 더플렌더 PRO(MNFD-120G)의 핵심 기능과 실사용 리뷰 종합, 가성비 대안 루펜 SLW-01 비교, 지자체 보조금 최대 70만 원 받는 방법까지 정리했습니다."
 ---
 
 > **📌 한줄 요약:** 2026년 8월 현재 음식물처리기는 **미닉스 더플렌더 PRO(MNFD-120G)**가 가장 핫합니다. 브랜드 검색 1위, 시리즈 누적 판매 20만 대 돌파, 쿠팡 별점 4.8점(리뷰 4,500개+). **분쇄+건조 방식, 2L 용량, 소음 19.9dB**에 지자체 **보조금(최대 50~70%, 최대 70만 원)**까지 받을 수 있어, 여름철 주방 냄새 고민이 있는 1~2인 가구라면 지금이 구매 타이밍입니다.
 
-![미닉스 더플렌더 PRO (MNFD-120G) 그레이지](/assets/images/posts/food-waste-disposer-minix-pro-20260803/minix-plender-pro.jpg)
+![미닉스 더플렌더 PRO (MNFD-120G) 그레이지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/food-waste-disposer-minix-pro-20260803/minix-plender-pro.jpg)
 *미닉스 더플렌더 PRO(MNFD-120G) — 분쇄+건조 방식의 2L 가정용 음식물처리기 (출처: 롯데하이마트 공식 상품 이미지, 2026-08-03 확인)*
 
 ---
@@ -53,7 +53,7 @@ description: "2026년 여름, 음식물처리기 시장이 다시 달아올랐�
 
 이 제품이 다른 음식물처리기와 다른 가장 큰 포인트는 **"자동"**입니다. 음식물을 넣고 버튼을 누르면 **자동보관 → 자동처리 → 자동세척**까지 알아서 진행되고, 처리가 끝나면 **자동절전**으로 넘어갑니다. "매번 모드를 설정하고 기다려야 한다"는 기존 건조분쇄기의 불편함을 줄인 게 특징이에요.
 
-![미닉스 더플렌더 PRO 제품 상세 이미지](/assets/images/posts/food-waste-disposer-minix-pro-20260803/minix-plender-pro-detail.jpg)
+![미닉스 더플렌더 PRO 제품 상세 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/food-waste-disposer-minix-pro-20260803/minix-plender-pro-detail.jpg)
 *더플렌더 PRO의 제품 상세 컷 — 상판에 올려두는 스탠드형 구조 (출처: 다나와 상품 DB, 2026-08-03 확인)*
 
 ---
@@ -74,7 +74,7 @@ description: "2026년 여름, 음식물처리기 시장이 다시 달아올랐�
 ### ✅ 장점 4: 디자인이 주방에 잘 어울린다
 매트한 그레이지 컬러와 낮은 높이(341mm) 덕분에 **상판 위에 올려도 공간을 많이 차지하지 않는다**는 후기가 많습니다. 인테리어에 민감한 분들에게도 무난하게 맞는 디자인이에요.
 
-![미닉스 더플렌더 PRO 전용 바구니 구조 이미지](/assets/images/posts/food-waste-disposer-minix-pro-20260803/minix-plender-pro-3rd.jpg)
+![미닉스 더플렌더 PRO 전용 바구니 구조 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/food-waste-disposer-minix-pro-20260803/minix-plender-pro-3rd.jpg)
 *더플렌더 PRO의 내부 바구니와 활성탄 필터 구조 (출처: 다나와 상품 DB, 2026-08-03 확인)*
 
 ---
@@ -101,7 +101,7 @@ description: "2026년 여름, 음식물처리기 시장이 다시 달아올랐�
 
 "일단 가성비로 시작해 보겠다"는 분들에게 가장 많이 언급되는 모델이 **루펜 SLW-01**입니다. 같은 분쇄+건조 방식이면서 가격이 절반 수준이라, 첫 음식물처리기로 고르는 분들이 많아요.
 
-![루펜 음식물처리기 SLW-01 화이트](/assets/images/posts/food-waste-disposer-minix-pro-20260803/lupen-slw01.jpg)
+![루펜 음식물처리기 SLW-01 화이트](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/food-waste-disposer-minix-pro-20260803/lupen-slw01.jpg)
 *루펜 SLW-01 화이트 — 가성비 분쇄+건조 방식 음식물처리기 (출처: 롯데하이마트 공식 상품 이미지, 2026-08-03 확인)*
 
 | 비교 항목 | 미닉스 더플렌더 PRO | 루펜 SLW-01 |

@@ -5,11 +5,11 @@ date: 2026-10-09 15:53:00 +0900
 categories: [career]
 tags: [Google Gemini, 구글 제미나이, Gemini agent, 제미나이 에이전트, Gemini at Work 2026, Gemini Enterprise, 유니버설 에이전트, 업무자동화, AI 에이전트, 서브에이전트, Google Workspace, Slack 연동, Microsoft 365, Claude 모델, 기업용 AI, 비공개 프리뷰, AI뉴스, 2026년 10월]
 author: "40대 블로거"
-image: /assets/images/posts/gemini-agent-universal-work-20261008/gemini-agent-official-hero.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-agent-universal-work-20261008/gemini-agent-official-hero.png
 description: "2026년 10월 8일, 구글이 클라우드 행사 'Gemini at Work 2026'에서 'Gemini agent'를 공개했습니다. 질문 응답부터 지식 업무, 미디어 생성, 코드 작성·실행까지 하나의 인터페이스에서 처리하는 '단일 유니버설 업무 에이전트'입니다. 지시(instructions)가 아니라 목표(objectives)를 주면 알아서 끝내고, Gemini Enterprise 앱·Workspace·Slack·Microsoft 365를 넘나들며 폰·노트북·브라우저 어디서든 같은 맥락을 유지합니다. 자체 이메일 주소를 가진 '코워커 에이전트'와 특화 서브에이전트 조율, 비용 통제·보안 거버넌스가 포함되며, 현재는 기업 고객 대상 비공개 프리뷰입니다. 이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망 순으로 정리했습니다."
 ---
 
-![Google Cloud 'Gemini at Work 2026'에서 공개된 Gemini agent 공식 비주얼](/assets/images/posts/gemini-agent-universal-work-20261008/gemini-agent-official-hero.png)
+![Google Cloud 'Gemini at Work 2026'에서 공개된 Gemini agent 공식 비주얼](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-agent-universal-work-20261008/gemini-agent-official-hero.png)
 *Gemini at Work 2026에서 공개된 Gemini agent 공식 키비주얼 (출처: Google 공식 블로그)*
 
 > **📌 한줄 요약:** **2026년 10월 8일**, 구글이 클라우드 행사 **'Gemini at Work 2026'**에서 **'Gemini agent'**를 공개했습니다. 질문 응답부터 **지식 업무·미디어 생성·코드 작성 및 실행**까지 **하나의 인터페이스**에서 처리하는 **"단일 유니버설 업무 에이전트(single, universal agent for work)"**입니다. 핵심은 사용법이 바뀐다는 점 — **지시(instructions)가 아니라 목표(objectives)를 던져주면, 돌아와서 완성된 결과물을 받는** 방식입니다. **Gemini Enterprise 앱·Workspace·Slack·Microsoft 365**를 넘나들고, **폰·노트북·브라우저** 어디서든 **같은 맥락**을 유지합니다. 자체 이메일 주소를 가진 **'코워커 에이전트'**와 **특화 서브에이전트 조율**, **비용 통제·보안 거버넌스**가 포함되며, 현재는 **기업 고객 대상 비공개 프리뷰**입니다.
@@ -51,7 +51,7 @@ Gemini agent는 **Gemini Enterprise 앱**에 상주하면서 **Gmail·Drive·Doc
 
 Gemini agent는 **특화된 서브에이전트(sub-agents)를 조율하는 중앙 오케스트레이터**로 동작합니다. 업무별로 잘 맞는 스킬을 붙이는 **플러그인 모델**의 성격이 강하고, 금융·법률·정부·헬스케어·리테일 등 **산업별 에이전트**도 함께 예고됐습니다. 여기에 **비용 통제(cost controls)와 보안 거버넌스**가 기본 내장되어, 기업이 통제 가능한 범위에서 도입을 검토할 수 있게 했습니다.
 
-![Google Cloud 블로그 'Gemini at Work 2026: Introducing Gemini agent' 이미지](/assets/images/posts/gemini-agent-universal-work-20261008/gemini-agent-cloud-blog.png)
+![Google Cloud 블로그 'Gemini at Work 2026: Introducing Gemini agent' 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-agent-universal-work-20261008/gemini-agent-cloud-blog.png)
 *Gemini at Work 2026 공지 — 하나의 에이전트, 하나의 API로 업무를 위임하는 구조 (출처: Google Cloud 공식 블로그)*
 
 ## 🏢 영향 — 사용자·개발자 관점
@@ -72,7 +72,7 @@ Gemini agent는 **특화된 서브에이전트(sub-agents)를 조율하는 중�
 
 앞으로 지켜볼 포인트는 세 가지입니다. ① **일반 공개(GA) 시점**과 가격·과금 모델, ② **서브에이전트를 개발자가 직접 만들 수 있는 API·SDK** 제공 여부, ③ **Claude 등 타사 모델 연동**이 공식화될지. 참고로 구글은 **Fortune 100의 약 90%가 Gemini Enterprise를 사용**한다고 밝혔는데, 이번 발표로 **기업용 에이전트 경쟁(OpenAI·Anthropic·Microsoft)**이 한층 달아오를 전망입니다.
 
-![Google Gemini 공식 로고](/assets/images/posts/gemini-agent-universal-work-20261008/gemini-logo-wikimedia.png)
+![Google Gemini 공식 로고](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-agent-universal-work-20261008/gemini-logo-wikimedia.png)
 *Google Gemini 로고 (출처: Wikimedia Commons)*
 
 ## ✅ 마무리 — 도입 검토 팁

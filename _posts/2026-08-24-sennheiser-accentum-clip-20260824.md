@@ -5,13 +5,13 @@ date: 2026-08-24 18:00:00 +0900
 categories: [products]
 tags: [젠하이저, 엑센텀클립, ACCENTUMClip, 무선이어폰, 클립형이어폰, 오픈형이어폰, LDAC, 블루투스6.0, HiRes오디오, IP54, 러닝이어폰, 운동이어폰, 이어폰추천, 2026년8월, 사전예약]
 author: "40대 블로거"
-image: /assets/images/posts/sennheiser-accentum-clip-20260824/accentum-clip-cream-1.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/sennheiser-accentum-clip-20260824/accentum-clip-cream-1.png
 description: "2026년 8월 18일, 젠하이저가 오픈형 클립 이어폰 신제품 '엑센텀 클립(ACCENTUM Clip)'의 국내 출시를 발표했습니다. 한쪽 6.8g의 초경량 실리콘 클립 디자인에 12mm 다이내믹 드라이버, LDAC·블루투스 6.0, 이어버드 단독 9시간·케이스 포함 최대 36시간 배터리, IP54 방진방수까지 갖췄고 가격은 29만 9,000원, 9월 1일부터 쿠팡에서 사전예약을 진행합니다. 클립형 오픈형 이어폰을 1년 넘게 써온 사용자 관점에서, 샥즈 오픈닷·보스 울트라 오픈 등 경쟁 제품과의 비교를 곁들여 핵심 기능부터 실제 사용감, 솔직한 장단점, 구매 팁까지 총정리했습니다."
 ---
 
 > **📌 한줄 요약:** 2026년 8월 현재 무선이어폰 시장에서 가장 뜨거운 카테고리는 **클립형 오픈형 이어폰**입니다. 그 중심에 독일 음향 명가 **젠하이저의 신작 '엑센텀 클립(ACCENTUM Clip)'**이 8월 18일 국내 출시를 발표하며 합류했습니다. 한쪽 **6.8g 초경량** 실리콘 클립에 **12mm 드라이버 + LDAC + 블루투스 6.0**, 이어버드 단독 **9시간·케이스 포함 최대 36시간** 배터리, **IP54 방진방수**를 갖춘 프리미엄 오픈형 이어폰입니다. 가격은 **29만 9,000원**, **9월 1일부터 쿠팡에서 사전예약**이 시작됩니다. 출퇴근·러닝·재택근무까지 귀를 막지 않고 오래 쓰는 이어폰을 찾는 분이라면, 지금이 예약을 저울질해볼 타이밍입니다.
 
-![젠하이저 엑센텀 클립 크림 컬러 실사 컷](/assets/images/posts/sennheiser-accentum-clip-20260824/accentum-clip-cream-1.png)
+![젠하이저 엑센텀 클립 크림 컬러 실사 컷](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/sennheiser-accentum-clip-20260824/accentum-clip-cream-1.png)
 *젠하이저 엑센텀 클립(ACCENTUM Clip) 크림 컬러 — 유연한 실리콘 브릿지 클립으로 귀에 거는 오픈형 클립 이어폰 (출처: Sennheiser 공식 뉴스룸 보도자료, 2026-06-18)*
 
 ---
@@ -33,7 +33,7 @@ description: "2026년 8월 18일, 젠하이저가 오픈형 클립 이어폰 신
 
 젠하이저가 8월 18일 국내 출시를 발표한 **'엑센텀 클립(ACCENTUM Clip)'**은 한쪽 6.8g의 초경량 클립 디자인에, 젠하이저 특유의 음색을 담은 12mm 드라이버, 그리고 이 가격대 오픈형에서는 드문 **LDAC + 블루투스 6.0**을 얹은 프리미엄 신작입니다. 발표 직후 IT 커뮤니티에서도 "클립형 끝판왕이 나왔다"는 반응이 나올 정도로 화제였습니다. 오늘은 이 제품을 **1년 넘게 클립형을 써온 사용자 관점**에서, 스펙과 경쟁 제품 비교, 예약 구매 팁까지 솔직하게 정리해드릴게요.
 
-![엑센텀 클립 블랙 제품 컷](/assets/images/posts/sennheiser-accentum-clip-20260824/accentum-clip-black-2.png)
+![엑센텀 클립 블랙 제품 컷](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/sennheiser-accentum-clip-20260824/accentum-clip-black-2.png)
 *엑센텀 클립 블랙 컬러 — 클립 위쪽에 터치 컨트롤 영역이 자리잡고, 한쪽 무게는 6.8g (출처: Sennheiser 공식 뉴스룸 보도자료, 2026-06-18)*
 
 ---
@@ -81,7 +81,7 @@ description: "2026년 8월 18일, 젠하이저가 오픈형 클립 이어폰 신
 
 클립형의 가장 큰 약점이 통화음질이었는데, 엑센텀 클립은 **이어버드당 듀얼 마이크 + AI 노이즈 감소**로 바람소리와 주변 소음을 걸러내고 목소리를 강조합니다. 오픈형 특유의 "상대방이 내 목소리를 또렷하게 듣기 어려운" 문제를 어느 정도 해결한 설계입니다. 다만 AI 노이즈 감소는 완벽하지 않으니, **러닝 중 강풍이 부는 한강변 통화는 여전히 어렵다**고 보는 게 솔직합니다.
 
-![엑센텀 클립 도시 라이프스타일 컷](/assets/images/posts/sennheiser-accentum-clip-20260824/accentum-clip-city-3.jpg)
+![엑센텀 클립 도시 라이프스타일 컷](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/sennheiser-accentum-clip-20260824/accentum-clip-city-3.jpg)
 *출퇴근·외출 중 주변 소리를 들으며 음악을 즐기는 엑센텀 클립 라이프스타일 컷 (출처: Sennheiser 공식 뉴스룸 보도자료, 2026-06-18)*
 
 ---
@@ -95,7 +95,7 @@ description: "2026년 8월 18일, 젠하이저가 오픈형 클립 이어폰 신
 5. **젠하이저 사운드 시그니처**: 80년 오디오 명가의 튜닝 + 다이내믹 EQ로 오픈형에서도 균형 잡힌 음색을 기대할 수 있습니다.
 6. **Auracast 예정**: 추후 펌웨어 업데이트로 Auracast(공개 방송 오디오) 지원이 예고되어 있어, 공항·체육관 등에서의 활용도가 열려 있습니다.
 
-![엑센텀 클립 러닝 라이프스타일 컷](/assets/images/posts/sennheiser-accentum-clip-20260824/accentum-clip-sport-4.jpg)
+![엑센텀 클립 러닝 라이프스타일 컷](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/sennheiser-accentum-clip-20260824/accentum-clip-sport-4.jpg)
 *IP54 방진방수와 안정적인 클립 고정으로 러닝·운동 중에도 부담 없이 사용할 수 있는 엑센텀 클립 (출처: Sennheiser 공식 뉴스룸 보도자료, 2026-06-18)*
 
 ---
@@ -108,7 +108,7 @@ description: "2026년 8월 18일, 젠하이저가 오픈형 클립 이어폰 신
 4. **무선 충전 미지원**: 케이스가 USB-C 유선 충전만 지원한다는 점은, 무선 충전패드에 올려두는 습관이 있는 분에겐 작은 아쉬움.
 5. **국내 정식 출시 전**: 아직 사전예약 전이라 실제 사용 후기가 쌓이지 않았습니다. "이어폰은 직접 들어보고 사야 한다"는 분은 예약보다는 9월 초 실사용 리뷰를 기다려도 좋습니다.
 
-![엑센텀 클립 충전 케이스 컷](/assets/images/posts/sennheiser-accentum-clip-20260824/accentum-clip-case-5.png)
+![엑센텀 클립 충전 케이스 컷](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/sennheiser-accentum-clip-20260824/accentum-clip-case-5.png)
 *엑센텀 클립 충전 케이스 — USB-C 고속 충전 지원, 케이스 포함 최대 36시간 사용 (출처: Sennheiser 공식 뉴스룸 보도자료, 2026-06-18)*
 
 ---

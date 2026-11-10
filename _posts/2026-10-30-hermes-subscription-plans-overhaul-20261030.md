@@ -5,7 +5,7 @@ date: 2026-10-30 07:53:00 +0900
 categories: [career]
 tags: [헤르메스에이전트, HermesAgent, NousPortal, 구독요금제, 사용량한도, 클라우드에이전트, 크론잡, 업무자동화, AI에이전트, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/hermes-subscription-plans-20261030/hermes-hero.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-subscription-plans-20261030/hermes-hero.jpg
 description: "2026년 10월 27일 노우스 리서치가 헤르메스 에이전트 구독 구조를 개편했습니다. 월 단위 크레딧 한 덩어리 대신 일·주·월 사용 한도를 조합하고, 일부 고가 모델에는 별도 월 한도를 두며, 모든 신규 플랜에 클라우드 에이전트를 포함합니다. 사용량 페이지에 리셋 시각이 표시되고, 레거시 유료 플랜에서의 전환은 되돌릴 수 없습니다. 크론잡과 장기 세션을 돌리는 쪽에서 실제로 무엇이 달라지는지, 확인 절차와 주의점까지 정리했습니다."
 ---
 
@@ -13,7 +13,7 @@ description: "2026년 10월 27일 노우스 리서치가 헤르메스 에이전�
 
 2026년 10월 27일, 노우스 리서치(Nous Research)가 헤르메스 에이전트(Hermes Agent) 구독 구조를 개편했습니다. 핵심은 세 가지입니다. **월 단위 크레딧 한 덩어리를 일·주·월 사용 한도 조합으로 바꾸고**, **모든 신규 플랜에 클라우드 에이전트를 포함하고**, **일부 고가 모델에는 별도의 월 한도를 둡니다.** 여기에 "레거시 유료 플랜에서 새 플랜으로 넘어가면 되돌릴 수 없다"는 조건이 붙습니다.
 
-![헤르메스 에이전트 공식 홈페이지 대표 이미지](/assets/images/posts/hermes-subscription-plans-20261030/hermes-hero.jpg)
+![헤르메스 에이전트 공식 홈페이지 대표 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-subscription-plans-20261030/hermes-hero.jpg)
 *헤르메스 에이전트 공식 사이트의 대표 아트워크 (출처: Nous Research 공식 홈페이지)*
 
 > **📌 한줄 요약:** 10월 27일부로 헤르메스 에이전트 구독은 "월 크레딧 한 덩어리"에서 **일·주·월 다층 한도 구조**로 바뀌었습니다. 고가 모델에는 별도 월 한도가 붙고, 사용량 페이지에 리셋 시각이 표시되며, 모든 신규 플랜에 클라우드 에이전트가 포함됩니다. 기존 구독자는 Nous Portal 결제 페이지에서 전환할 수 있지만 **레거시 유료 플랜으로 되돌아가는 것은 불가능**합니다. 코드 쪽에서는 v0.22.5에 이미 플랜 게이지와 리밋 카드가 들어와 있었기 때문에, UI가 먼저 준비되고 정책이 뒤따라온 순서입니다.
@@ -36,7 +36,7 @@ description: "2026년 10월 27일 노우스 리서치가 헤르메스 에이전�
 
 숫자로 된 정확한 플랜별 가격표나 한도량은 이 글을 쓰는 시점에 공식 문서에 아직 반영되지 않았습니다. 확인 가능한 건 **구조가 바뀌었다는 사실과 되돌릴 수 없다는 조건**입니다. 그래서 이 글에서는 "얼마인가"보다 **"무엇이 달라지고, 무엇을 먼저 확인해야 하는가"** 에 초점을 맞춥니다.
 
-![헤르메스 에이전트 플랫폼 아트워크](/assets/images/posts/hermes-subscription-plans-20261030/hermes-platform.jpg)
+![헤르메스 에이전트 플랫폼 아트워크](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-subscription-plans-20261030/hermes-platform.jpg)
 *헤르메스 에이전트는 데스크톱·CLI·클라우드를 같은 구독으로 묶는 구조다 (출처: Nous Research 공식 홈페이지)*
 
 ---
@@ -57,7 +57,7 @@ description: "2026년 10월 27일 노우스 리서치가 헤르메스 에이전�
 
 자동화를 돌리는 입장에서 이 디테일이 중요한 이유는, **"한도에 닿았을 때 에이전트가 어떻게 행동하는가"가 코드로 정의되어 있다**는 뜻이기 때문입니다. 리밋 카드가 뜨고 모델 전환이 복구된다는 건, 한도 도달이 **조용한 실패가 아니라 화면에 드러나는 이벤트**로 취급된다는 이야기입니다.
 
-![헤르메스 에이전트 자동화 기능 이미지](/assets/images/posts/hermes-subscription-plans-20261030/hermes-automation.jpg)
+![헤르메스 에이전트 자동화 기능 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-subscription-plans-20261030/hermes-automation.jpg)
 *공식 사이트의 자동화 기능 섹션. 크론잡·예약 실행은 이 영역에 속한다 (출처: Nous Research 공식 홈페이지)*
 
 ---

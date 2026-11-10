@@ -5,13 +5,13 @@ date: 2026-09-21 11:25:00 +0900
 categories: [products]
 tags: [샤오미, Xiaomi, 샤오미 18 프로, Xiaomi 18 Pro, 샤오미 18 프로 맥스, Xiaomi 18 Pro Max, 스냅드래곤 8 엘리트 6세대, Snapdragon 8 Elite Gen 6, 2nm, 200MP, 라이카, Leica, 8500mAh, 실리콘 카본 배터리, 후면 디스플레이, HyperOS 4, 플래그십 추천, 2026년9월]
 author: "40대 블로거"
-image: /assets/images/posts/xiaomi-18-pro-max-launch-guide-20260921/xiaomi-18-pro-launch-poster.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/xiaomi-18-pro-max-launch-guide-20260921/xiaomi-18-pro-launch-poster.jpg
 description: "샤오미가 9월 23일 저녁 7시(중국시간) '샤오미 18 프로·프로 맥스' 공개를 공식 확정했습니다. 2nm 공정 플래그십 칩(스냅드래곤 8 엘리트 6세대 예상), 듀얼 200MP 라이카 카메라(메인+페리스코프 망원), 0.99mm 초슬림 베젤 신형 Super Pixel 패널, 7,000mAh(프로)·8,500mAh(프로 맥스) 실리콘 카본 배터리, 후면 AI 디스플레이, HyperOS 4까지. 두 모델의 차이와 국내 구매 전에 따져야 할 포인트를 솔직하게 정리했습니다."
 ---
 
 > **📌 한줄 요약:** 샤오미가 **9월 23일 저녁 7시(중국시간) '샤오미 18 프로·프로 맥스' 공개를 공식 확정**했습니다. 두 모델 모두 **2nm 공정 플래그십 칩**, **듀얼 200MP 라이카 카메라(메인 + 페리스코프 망원)**, **0.99mm 초슬림 베젤의 신형 Super Pixel 패널**, **후면 AI 디스플레이**를 공유하고, **배터리만 7,000mAh(프로) vs 8,500mAh(프로 맥스)**로 갈립니다. 작년 '샤오미 17 프로 맥스'보다 1,000mAh 늘어난 용량인데, 실리콘 함량 32% 배터리 기술 덕분에 두께를 크게 늘리지 않았다는 점이 핵심입니다. 가격은 아직 미공개, 올해 플래그십 흐름상 **전작보다 오를 가능성**이 큽니다.
 
-![샤오미 18 프로 시리즈 공식 티저 포스터 — 'Full Upgrade' (출처: 샤오미 공식 티저, Gizmochina)](/assets/images/posts/xiaomi-18-pro-max-launch-guide-20260921/xiaomi-18-pro-launch-poster.jpg)
+![샤오미 18 프로 시리즈 공식 티저 포스터 — 'Full Upgrade' (출처: 샤오미 공식 티저, Gizmochina)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/xiaomi-18-pro-max-launch-guide-20260921/xiaomi-18-pro-launch-poster.jpg)
 *샤오미 18 프로 시리즈 공식 티저 — 다섯 가지 핵심 업그레이드를 예고하는 'Full Upgrade' 포스터 (출처: 샤오미 공식 티저 / Gizmochina)*
 
 요즘 저처럼 **"올해 안드로이드 플래그십, 뭘로 갈아탈까"** 벼르고 계신 분들 많으시죠. 솔직히 저도 지난주 '비보 X500 프로 맥스' 소식에 한 번 흔들렸고, 아이폰 18 프로가 국내에 풀린 뒤에도 "역시 카메라는 라이카지" 하는 마음에 샤오미 쪽을 계속 눈여겨보고 있었습니다.
@@ -37,7 +37,7 @@ description: "샤오미가 9월 23일 저녁 7시(중국시간) '샤오미 18 �
 ### ③ 0.99mm 초슬림 베젤 · 신형 Super Pixel 패널
 디스플레이는 **신형 Super Pixel 패널**에 **M11 발광 시스템**, 그리고 **새로운 녹색 발광 소재**를 적용했습니다. 밝기는 높이면서 전력은 줄이는 방향이에요. 베젤은 **0.99mm**까지 줄였는데, 새 스크린 패키징 공정 덕이라고 합니다. 손에 쥐었을 때 "화면이 꽉 찼다"는 느낌은 확실히 달라질 부분입니다.
 
-![샤오미 18 프로 공식 이미지 (출처: 샤오미 공식 웨이보)](/assets/images/posts/xiaomi-18-pro-max-launch-guide-20260921/xiaomi-18-pro-official-weibo.jpg)
+![샤오미 18 프로 공식 이미지 (출처: 샤오미 공식 웨이보)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/xiaomi-18-pro-max-launch-guide-20260921/xiaomi-18-pro-official-weibo.jpg)
 *샤오미가 공개한 샤오미 18 프로 공식 이미지 — 후면 카메라 모듈과 커진 후면 디스플레이가 보입니다 (출처: 샤오미 공식 웨이보 / XimiTime)*
 
 ### ④ 7,000mAh / 8,500mAh 실리콘 카본 배터리
@@ -54,7 +54,7 @@ description: "샤오미가 9월 23일 저녁 7시(중국시간) '샤오미 18 �
 ### ⑤ 후면 AI 디스플레이 + HyperOS 4
 샤오미 17 시리즈에서 처음 나온 **후면 보조 디스플레이가 더 커지고 카메라 모듈과 평평하게 맞춰져** 돌아옵니다. 이번엔 **AI 생성 카드** 기능이 붙어서, 원하는 내용을 설명하면 **HyperOS 4가 후면 화면용 카드를 만들어 주는** 방식입니다. 폰을 뒤집어 놓고도 알림·정보를 보는 용도로, 실사용 편의성은 써봐야 아는 부분입니다.
 
-![샤오미 18 프로 시리즈 — 'Full Upgrade' 티저 (출처: 샤오미 공식 티저, Notebookcheck)](/assets/images/posts/xiaomi-18-pro-max-launch-guide-20260921/xiaomi-18-pro-teaser.jpg)
+![샤오미 18 프로 시리즈 — 'Full Upgrade' 티저 (출처: 샤오미 공식 티저, Notebookcheck)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/xiaomi-18-pro-max-launch-guide-20260921/xiaomi-18-pro-teaser.jpg)
 *샤오미 18 프로 시리즈 공식 티저 — 프로·프로 맥스가 다섯 가지 핵심 스펙을 공유합니다 (출처: 샤오미 공식 티저 / Notebookcheck)*
 
 ---
@@ -78,7 +78,7 @@ description: "샤오미가 9월 23일 저녁 7시(중국시간) '샤오미 18 �
 
 작년까지는 맥스가 카메라 구성까지 위였던 경우도 있었는데, 이번엔 **카메라가 동일 스펙으로 내려온 것**이 오히려 실용적으로 느껴집니다.
 
-![샤오미 18 프로 시리즈 — 국내에서는 아직 정식 출시 미정 (출처: Xiaomi 18 Pro 시리즈 자료)](/assets/images/posts/xiaomi-18-pro-max-launch-guide-20260921/xiaomi-18-pro-series.jpg)
+![샤오미 18 프로 시리즈 — 국내에서는 아직 정식 출시 미정 (출처: Xiaomi 18 Pro 시리즈 자료)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/xiaomi-18-pro-max-launch-guide-20260921/xiaomi-18-pro-series.jpg)
 *샤오미 18 프로·프로 맥스 — 중국 우선 출시, 글로벌 출시는 이어질 전망 (출처: Xiaomi 18 Pro 시리즈 이미지 / NTV Telugu)*
 
 ---

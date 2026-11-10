@@ -5,13 +5,13 @@ date: 2026-08-31 18:30:00 +0900
 categories: [products]
 tags: [애플, 아이폰18, 아이폰18프로, 아이폰18프로맥스, 아이폰울트라, 폴더블아이폰, A20프로, 애플이벤트, 9월9일, 애플워치12, 에어팟5, 스마트폰추천, 2026년9월]
 author: "40대 블로거"
-image: /assets/images/posts/apple-iphone18-pro-ultra-event-20260831/apple-event-poster.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/apple-iphone18-pro-ultra-event-20260831/apple-event-poster.jpg
 description: "애플이 9월 9일(현지시간) 애플파크에서 'Surprise and shine(깜짝 빛날 시간)' 슬로건의 신제품 발표 행사를 확정했습니다. 이번 행사에서는 ▲아이폰18 프로 ▲아이폰18 프로 맥스 ▲애플 최초의 폴더블 '아이폰 울트라' 3종이 공개될 전망입니다. 일반 아이폰18·18e·에어2는 2027년 봄으로 분리 출시되고, 아이폰18 프로에는 2나노 A20 프로 칩·가변 조리개 메인 카메라·애플 C2 자체 모뎀·축소된 다이내믹 아일랜드가 적용될 것으로 보입니다. 아이폰 울트라는 북타입 인폴딩 방식에 내부 7.6~7.8인치 디스플레이, 펼쳤을 때 4.5mm의 초박형 두께, 전원 버튼 통합 터치 ID가 유력하며 예상 가격은 1,999달러(약 267만 원)부터입니다. 애플워치 시리즈 12·울트라 4·에어팟 5 동반 공개와 존 터너스 신임 CEO 체제 첫 행사라는 점도 포인트입니다. 이 글에서는 발표 전 확인된 정보를 핵심 기능 → 기대 포인트 → 솔직한 장단점 → 구매 팁 순서로 정리했습니다. 이미지는 애플 공식 포스터·초대장과 외신의 예상 렌더링·실물 더미 사진입니다."
 ---
 
 > **📌 한줄 요약:** 애플이 **9월 9일(수) 오전 10시(미국 태평양 기준, 한국 9월 10일 새벽 2시)** 애플파크에서 **'Surprise and shine(깜짝 빛날 시간)'** 슬로건의 신제품 행사를 확정했습니다. 이번 행사는 **아이폰18 프로·아이폰18 프로 맥스·애플 첫 폴더블 '아이폰 울트라'** 3종이 주인공이고, 일반 **아이폰18·18e·에어2는 2027년 봄으로 분리 출시**됩니다. 아이폰18 프로에는 **2나노 A20 프로 칩·가변 조리개 메인 카메라·애플 C2 자체 모뎀·축소된 다이내믹 아일랜드**, 아이폰 울트라에는 **북타입 폴딩 + 내부 7.6~7.8인치 + 펼쳤을 때 4.5mm 두께 + 전원 버튼 통합 터치 ID**가 유력하며, 가격은 **1,999달러(약 267만 원)~2,500달러(약 334만 원)** 수준으로 예상됩니다. 애플워치 시리즈 12·울트라 4·에어팟 5 동반 공개와 **존 터너스 신임 CEO 체제 첫 행사**라는 점까지, 지금 가장 뜨거운 IT 이슈를 정리했습니다.
 
-![애플 9월 9일 신제품 발표 행사 공식 포스터](/assets/images/posts/apple-iphone18-pro-ultra-event-20260831/apple-event-poster.jpg)
+![애플 9월 9일 신제품 발표 행사 공식 포스터](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/apple-iphone18-pro-ultra-event-20260831/apple-event-poster.jpg)
 *애플 9월 9일 'Surprise and shine' 공식 이벤트 포스터 (출처: Apple Newsroom 공식 이미지)*
 
 ## 도입 — "요즘 저처럼 아이폰 17 프로 쓰면서 '올해는 뭐가 나오지?' 하시는 분들"
@@ -28,7 +28,7 @@ description: "애플이 9월 9일(현지시간) 애플파크에서 'Surprise and
 
 애플은 8월 27일 **9월 9일(수) 오전 10시(미국 태평양 기준)** 애플파크에서 신제품 행사를 연다고 공식 발표했습니다. 한국 시간으로는 **9월 10일 새벽 2시**입니다. 슬로건은 **'Surprise and shine'**, 초대장에는 **태양이 비치는 빛나는 애플 로고**가 적용됐습니다. 행사는 애플 공식 웹사이트와 유튜브, 애플 TV 앱에서 생중계됩니다.
 
-![애플 9월 9일 이벤트 공식 초대장](/assets/images/posts/apple-iphone18-pro-ultra-event-20260831/apple-event-invite.png)
+![애플 9월 9일 이벤트 공식 초대장](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/apple-iphone18-pro-ultra-event-20260831/apple-event-invite.png)
 *애플 'Surprise and shine' 공식 초대장 (출처: 애플 제공 사진, 디지털데일리 보도)*
 
 ### 2. 라인업 — 아이폰18 프로·프로 맥스·울트라 3종
@@ -55,7 +55,7 @@ description: "애플이 9월 9일(현지시간) 애플파크에서 'Surprise and
 
 디자인은 전작과 비슷한 틀을 유지하면서 **다이내믹 아일랜드가 더 작아진다**는 보도가 있습니다. 또 통신 모뎀도 **애플이 직접 설계한 C2 모뎀**으로 넘어가면서 퀄컴 의존도가 한층 줄어들 전망입니다. 색상은 **다크 체리, 블랙, 실버, 라이트 블루 4종**이 유력하고, 전면 카메라는 **2,400만 화소**로 올라갈 것이라는 이야기도 나옵니다.
 
-![아이폰18 프로 다크 체리 예상 렌더링](/assets/images/posts/apple-iphone18-pro-ultra-event-20260831/iphone18pro-darkcherry-render.jpg)
+![아이폰18 프로 다크 체리 예상 렌더링](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/apple-iphone18-pro-ultra-event-20260831/iphone18pro-darkcherry-render.jpg)
 *아이폰18 프로 다크 체리 컬러 예상 이미지 (출처: MacRumors 예상 렌더링, 실제 제품과 다를 수 있음)*
 
 ## 핵심 정보 3 — 아이폰 울트라: "애플의 첫 폴더블, 267만 원부터 시작?"
@@ -72,14 +72,14 @@ description: "애플이 9월 9일(현지시간) 애플파크에서 'Surprise and
 
 폴더블 특성상 전면 트루뎁스 카메라 모듈을 얇게 넣기 어려워서, **페이스 ID 대신 전원 버튼 통합형 터치 ID**가 탑재될 가능성이 높습니다. 전면 카메라 2개, 후면 듀얼 카메라 구성이 유력합니다.
 
-![아이폰 울트라 실물 더미 사진](/assets/images/posts/apple-iphone18-pro-ultra-event-20260831/iphone-ultra-dummy.jpg)
+![아이폰 울트라 실물 더미 사진](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/apple-iphone18-pro-ultra-event-20260831/iphone-ultra-dummy.jpg)
 *아이폰 울트라(폴더블) 실물 더미 유출 사진 (출처: 다음 뉴스 보도 갈무리, 실제 제품과 다를 수 있음)*
 
 ### 4. 가격 — 1,999달러부터, '역대 가장 비싼 아이폰'
 
 예상 출고가는 **1,999달러(약 267만 원)에서 최대 2,500달러(약 334만 원)** 수준입니다. 출시 초기엔 **미국 단독 선출시** 후 물량이 차차 확대된다는 보도도 있어서, 한국 출시는 예약 경쟁이 꽤 치열할 수 있습니다.
 
-![아이폰 폴드 고화질 3D 렌더링](/assets/images/posts/apple-iphone18-pro-ultra-event-20260831/iphone-ultra-render3d.jpg)
+![아이폰 폴드 고화질 3D 렌더링](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/apple-iphone18-pro-ultra-event-20260831/iphone-ultra-render3d.jpg)
 *아이폰 울트라(폴더블) 고화질 3D 렌더링 (출처: 케이벤치 보도, 실제 제품과 다를 수 있음)*
 
 ## 실제 사용감 관점 — "아이폰 17 프로 유저로서 솔직하게"

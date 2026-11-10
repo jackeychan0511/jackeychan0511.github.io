@@ -16,7 +16,7 @@ noindex: true
 
 이번 글에서는 이 이슈를 **요약 → 상세 분석 → 영향(사용자·개발자) → 전망** 순서로 정리해 드립니다.
 
-![Gemini Omni 대표 이미지](/assets/images/posts/gemini-omni-builders-20260809/gemini-omni-hero.jpg)
+![Gemini Omni 대표 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-omni-builders-20260809/gemini-omni-hero.jpg)
 *Gemini Omni — 텍스트·이미지·영상·음성 등 어떤 입력이든 영상으로 만들어 주는 구글의 멀티모달 AI 모델 (출처: Google 공식 블로그 blog.google)*
 
 ## 📌 이슈 요약: 구글, Gemini Omni Flash 빌더 사례 5선 공개

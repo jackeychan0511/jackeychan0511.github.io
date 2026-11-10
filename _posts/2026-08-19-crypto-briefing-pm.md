@@ -5,13 +5,13 @@ date: 2026-08-19 17:30:00 +0900
 categories: [finance]
 tags: [비트코인, 가상화폐, 코인, BTC, 암호화폐]
 author: "40대 블로거"
-image: /assets/images/posts/crypto-briefing-20260819-pm/bitcoin-price-chart.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/crypto-briefing-20260819-pm/bitcoin-price-chart.png
 description: "8월 19일 오후 코인 브리핑. 비트코인 6.4만 달러대 횡보(업비트 8,986만 원). 금감원 전자공시로 공개된 반기 보고서에서 두나무 자체 보유 가상자산 평가가치가 1조3,779억 원으로 작년 말 대비 39.6% 급감했다. 반면 회원 위탁 비트코인은 17만3,911개로 늘며 '저가 매수·장기 보유' 수요는 이어지는 모습. 오늘 밤 백악관 암호화폐 정상회의와 내일 새벽 FOMC 의사록이 최대 변수다."
 sitemap: false
 noindex: true
 ---
 
-![비트코인 7일 가격 차트](/assets/images/posts/crypto-briefing-20260819-pm/bitcoin-price-chart.png)
+![비트코인 7일 가격 차트](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/crypto-briefing-20260819-pm/bitcoin-price-chart.png)
 *비트코인(BTC) 7일 가격 추이 — 8/19 오후 브리핑 (CoinGecko 기준, KST)*
 
 **핵심 요약**: 비트코인이 6.4만 달러대에서 숨고르기를 이어가는 가운데, 오늘 금감원 전자공시로 공개된 반기 보고서에서 업비트·빗썸의 보유 코인 가치가 급감한 것으로 확인됐습니다. 반면 회원 위탁 물량은 늘어 '저가 축적' 심리가 읽힙니다.

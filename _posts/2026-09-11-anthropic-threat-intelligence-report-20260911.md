@@ -6,14 +6,14 @@ categories: [career]
 tags: [Anthropic, Claude, 앤트로픽, 클로드, 위협인텔리전스, ThreatIntelligence, AI안전, AI악용, 생물무기, 미사일, 후티, 알리바바, Moonshot, DeepSeek, 증류, Distillation, API보안, ClaudeCode, AI에이전트, AI규제, 2026년9월]
 author: "40대 블로거"
 description: "Anthropic이 2026년 9월 10일 'Detecting and countering misuse of AI: September 2026' 위협 인텔리전스 보고서를 공개했습니다. 2025년 12월~2026년 8월 사이 7개 피해 영역에서 Claude를 악용한 사례를 정리한 것으로, 후티(Houthi)가 Claude Code로 유도탄·탄도미사일 소프트웨어를 작성한 정황, 생물무기 개발로 이어질 수 있었던 5건, 알리바바 연계 1억 5,100만 건 규모의 불법 증류(151 million exchanges) 등이 담겼습니다. 이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망 순서로 정리했습니다."
-image: /assets/images/posts/2026-09-11-anthropic-threat-intelligence-report-20260911/anthropic-threat-report-official-hero.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-09-11-anthropic-threat-intelligence-report-20260911/anthropic-threat-report-official-hero.jpg
 sitemap: false
 noindex: true
 ---
 
 요즘 저처럼 **"AI가 대체 어디까지 악용되고 있나"라는 뉴스**를 하나씩 챙겨 보시는 분들 많으시죠? 솔직히 저는 8월 17일에 정리했던 **186쪽짜리 '리스크 리포트'(8월 17일 글)**를 읽고도 꽤 무거운 마음이었는데, 9월 9일 **전 Anthropic 직원의 경고 발언**(9월 9일 글)까지 나오니까 "이 회사가 요즘 안전 쪽으로 계속 무거운 얘기만 꺼내 놓네" 싶었습니다. 그런데 **9월 10일(현지 기준), Anthropic이 훨씬 더 묵직한 문서를 하나 더 공개했습니다.** 바로 **'Detecting and countering misuse of AI: September 2026'**, 즉 **위협 인텔리전스 보고서(Threat Intelligence Report)**입니다. 이번 글은 이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망 순서로 정리해 드리겠습니다.
 
-![Anthropic 공식 위협 인텔리전스 보고서 'Detecting and countering misuse of AI: September 2026' 대표 이미지](/assets/images/posts/2026-09-11-anthropic-threat-intelligence-report-20260911/anthropic-threat-report-official-hero.jpg)
+![Anthropic 공식 위협 인텔리전스 보고서 'Detecting and countering misuse of AI: September 2026' 대표 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-09-11-anthropic-threat-intelligence-report-20260911/anthropic-threat-report-official-hero.jpg)
 *Anthropic 공식 홈페이지에 게시된 9월 위협 인텔리전스 보고서 대표 이미지 (출처: Anthropic 공식 웹사이트, 2026.9.11 접속)*
 
 ## 🗞️ 이슈 요약 — 한눈에 보기
@@ -98,7 +98,7 @@ Anthropic은 이번 보고서에서 처음으로 피해 유형을 **7개 축**�
 
 **Claude를 업무 자동화에 쓰면서 '안전하게 오래 쓰는 법'을 고민하는 분들께** 이번 보고서를 한 번쯤 직접 읽어보시길 추천드립니다. 원문은 Anthropic 공식 페이지(Threat Intelligence Report, September 2026)에서 무료로 볼 수 있고, 한국어 요약은 주요 외신(NYT·BBC·Al Jazeera·CNBC) 보도를 함께 보시면 훨씬 이해가 빠릅니다.
 
-![Anthropic 샌프란시스코 사옥 (출처: Wikimedia Commons, 영국 정부 OGL)](/assets/images/posts/2026-09-11-anthropic-threat-intelligence-report-20260911/anthropic-sanfrancisco-office-wikimedia.jpg)
+![Anthropic 샌프란시스코 사옥 (출처: Wikimedia Commons, 영국 정부 OGL)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-09-11-anthropic-threat-intelligence-report-20260911/anthropic-sanfrancisco-office-wikimedia.jpg)
 *Anthropic 샌프란시스코 사옥 — 2024년 10월 영국 과학기술부 장관 방문 당시 촬영. 이번 보고서는 이 사옥의 Threat Intelligence 팀이 8개월간 수집·분석한 결과를 담았습니다 (출처: Wikimedia Commons, UK Government / OGL v3, 2026.9.11 접속)*
 
 > 📌 참고: 본 글은 2026년 9월 10일(현지시간) Anthropic이 공개한 'Detecting and countering misuse of AI: September 2026' 위협 인텔리전스 보고서와, NYT·BBC·Guardian·CBS·Al Jazeera·CNBC·TechCrunch·India Today·Free Malaysia Today 등 복수 외신 보도를 바탕으로 작성한 정보형 기사입니다. 기업이 밝힌 조사 결과이며, 일부 당사자(알리바바·Moonshot 등)는 반론을 제기할 수 있습니다.

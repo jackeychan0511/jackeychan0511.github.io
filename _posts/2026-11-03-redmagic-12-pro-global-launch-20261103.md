@@ -5,11 +5,11 @@ date: 2026-11-03 11:26:00 +0900
 categories: [products]
 tags: [레드매직12프로, RedMagic12Pro, 게이밍폰, 게이밍스마트폰, 스냅드래곤8엘리트익스트림Gen6, 185Hz디스플레이, 8400mAh, 80W무선충전, 레드매직12프로플러스, 원플러스16, 게이밍폰비교, 제품비교, 2026년11월]
 author: "40대 블로거"
-image: /assets/images/posts/redmagic-12-pro-global-launch-20261103/redmagic-12-pro-hero.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/redmagic-12-pro-global-launch-20261103/redmagic-12-pro-hero.jpg
 description: "2026년 11월 3일 글로벌 공개된 레드매직 12 프로(RedMagic 12 Pro)를 정리했습니다. 6.85형 185Hz AMOLED, 스냅드래곤 8 엘리트 익스트림 Gen 6, 8,400mAh 배터리, 80W 유선·80W 무선 충전, 듀얼 루프 수랭과 액티브 팬, 223g·8.6mm 본체가 핵심입니다. 중국 전용으로 먼저 나온 12 프로플러스(120W 유선)와의 차이, 원플러스 16과의 비교 포인트, 899달러로 거론되는 가격과 직구 전 확인사항까지 정리했습니다."
 ---
 
-![레드매직 12 프로 글로벌 모델 공식 제품 이미지](/assets/images/posts/redmagic-12-pro-global-launch-20261103/redmagic-12-pro-hero.jpg)
+![레드매직 12 프로 글로벌 모델 공식 제품 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/redmagic-12-pro-global-launch-20261103/redmagic-12-pro-hero.jpg)
 *2026년 11월 3일 글로벌 공개된 레드매직 12 프로 (출처: RedMagic 공식 제품 이미지 / GSMArena)*
 
 > **📌 한줄 요약:** 레드매직이 **2026년 11월 3일(미 동부시간 오전 7시)** 글로벌 시장에 **레드매직 12 프로(RedMagic 12 Pro)** 를 공개합니다. 핵심은 **6.85형 185Hz AMOLED + 스냅드래곤 8 엘리트 익스트림 Gen 6 + 8,400mAh** 조합입니다. 여기에 **듀얼 루프 수랭과 액티브 팬**, **유선 80W·무선 80W 충전**, **223g·8.6mm** 본체가 더해집니다. 10월 15일 중국에서 먼저 나온 **12 프로플러스(유선 120W)** 와는 충전 구성과 색상 이름이 다르고, 글로벌 가격은 **899달러 선**으로 거론됩니다(공식 확정 전).
@@ -22,7 +22,7 @@ description: "2026년 11월 3일 글로벌 공개된 레드매직 12 프로(RedM
 
 중국 발표 때만 해도 "글로벌 일정은 미정"이었는데, 그 답이 3주 만에 나온 셈입니다. 문제는 이름이 하나 늘었다는 점입니다. **12 프로**와 **12 프로플러스**가 같이 존재하게 되면서, 어느 쪽을 골라야 하는지가 새로운 고민거리가 됐습니다.
 
-![레드매직 12 프로 공식 렌더링 — 투명 후면과 RGB 링이 드러나는 게이밍 디자인](/assets/images/posts/redmagic-12-pro-global-launch-20261103/redmagic-12-pro-official.jpg)
+![레드매직 12 프로 공식 렌더링 — 투명 후면과 RGB 링이 드러나는 게이밍 디자인](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/redmagic-12-pro-global-launch-20261103/redmagic-12-pro-official.jpg)
 *레드매직 12 프로 공식 제품 이미지 (출처: RedMagic 글로벌 런치 페이지)*
 
 ## 한눈에 보는 핵심 스펙
@@ -63,7 +63,7 @@ description: "2026년 11월 3일 글로벌 공개된 레드매직 12 프로(RedM
 
 즉 **유선 충전만 120W → 80W로 낮아진 대신, 중국 밖에서 정식으로 살 수 있는 모델**이 글로벌 12 프로입니다. 무선 80W는 그대로라서, 평소 무선 충전 패드를 쓰는 분이라면 체감 차이는 크지 않습니다. 반대로 "10분 충전으로 하루 버티기"가 중요한 분이라면 120W 쪽이 여전히 매력적입니다.
 
-![레드매직 12 프로 쿨링 구조 이미지 — 듀얼 루프 수랭과 팬이 결합된 ICE 쿨링 시스템](/assets/images/posts/redmagic-12-pro-global-launch-20261103/redmagic-12-pro-cooling.jpg)
+![레드매직 12 프로 쿨링 구조 이미지 — 듀얼 루프 수랭과 팬이 결합된 ICE 쿨링 시스템](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/redmagic-12-pro-global-launch-20261103/redmagic-12-pro-cooling.jpg)
 *듀얼 루프 수랭 + 액티브 팬 구조 (출처: RedMagic 공식 자료 / GSMArena)*
 
 ## 핵심 특징 — 게이머가 실제로 체감하는 부분
@@ -96,7 +96,7 @@ description: "2026년 11월 3일 글로벌 공개된 레드매직 12 프로(RedM
 
 카메라는 "게이밍폰치고 준수하다" 수준입니다. 200MP급 카메라를 넣은 경쟁 모델과 비교하면 사진 쪽 우위는 분명히 아닙니다. 게임 비중이 압도적이고 사진은 서브로 쓰는 분에게 맞는 구성입니다.
 
-![레드매직 12 프로 공식 제품 이미지 — 후면 투명 디자인과 RGB 링](/assets/images/posts/redmagic-12-pro-global-launch-20261103/redmagic-12-pro-render.jpg)
+![레드매직 12 프로 공식 제품 이미지 — 후면 투명 디자인과 RGB 링](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/redmagic-12-pro-global-launch-20261103/redmagic-12-pro-render.jpg)
 *레드매직 12 프로 공식 제품 이미지 (출처: RedMagic 공식 이미지 / GSMArena)*
 
 ## 경쟁 비교 — 원플러스 16과는 결이 다릅니다

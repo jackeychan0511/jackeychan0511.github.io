@@ -5,7 +5,7 @@ date: 2026-09-10 11:22:00 +0900
 categories: [products]
 tags: [아이폰 듀오, iPhone Duo, 아이폰18 프로, iPhone 18 Pro, 아이폰18 프로맥스, 폴더블 아이폰, 애플 첫 폴더블, 애플 이벤트 2026, A20 Pro, 가변 조리개, 애플워치 시리즈12, 애플워치 울트라4, 에어팟5, AirPods 5, Siri AI, 애플 인텔리전스, 스마트폰 추천, 아이폰 비교]
 author: "40대 블로거"
-image: /assets/images/posts/apple-iphone-duo-20260910/iphone-duo-hero.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/apple-iphone-duo-20260910/iphone-duo-hero.jpg
 description: "2026년 9월 9일(현지시간) 애플 이벤트에서 애플 최초의 폴더블폰 '아이폰 듀오'(미국 $1,999~, 국내 329만원~)와 아이폰 18 프로·프로 맥스($1,199·$1,299), 애플워치 시리즈 12·울트라 4, 에어팟 5가 공개됐습니다. 7.6인치 내부 디스플레이와 A20 Pro를 담은 아이폰 듀오 vs 가변 조리개 카메라의 아이폰 18 프로 — 스펙·가격·출시일을 한 번에 비교하고, 어떤 분이 어떤 제품을 사야 하는지 솔직하게 정리했습니다. 이미지는 애플 공식 뉴스룸입니다."
 ---
 
@@ -13,7 +13,7 @@ description: "2026년 9월 9일(현지시간) 애플 이벤트에서 애플 최�
 
 요즘 저처럼 "이번 애플 이벤트에서 뭐가 나오는지" 밤새 기다리신 분들 많으시죠. 저도 새벽에 발표를 보고, 솔직히 **폴더블이 정말 나올까** 반신반의했는데 이번엔 진짜로 나왔습니다. 애플이 9월 9일(현지시간) 쿠퍼티노에서 연례 이벤트를 열고 신제품을 대거 공개했는데요, 이번 발표는 새 CEO 존 테르누스 체제의 첫 대형 하드웨어 행사이기도 했습니다. 오늘은 관심이 가장 큰 **아이폰 듀오**와 **아이폰 18 프로**를 중심으로, 실제로 사려는 분들이 궁금해할 스펙·가격·출시일을 한 번에 정리해 봤습니다.
 
-![아이폰 듀오 스타 화이트·나이트 스카이 색상 (출처: Apple 공식 뉴스룸 apple.com/newsroom)](/assets/images/posts/apple-iphone-duo-20260910/iphone-duo-hero.jpg)
+![아이폰 듀오 스타 화이트·나이트 스카이 색상 (출처: Apple 공식 뉴스룸 apple.com/newsroom)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/apple-iphone-duo-20260910/iphone-duo-hero.jpg)
 *아이폰 듀오 — 스타 화이트·나이트 스카이 2색 (출처: Apple 공식 뉴스룸)*
 
 ## 애플 첫 폴더블 '아이폰 듀오' — 핵심 스펙
@@ -29,7 +29,7 @@ description: "2026년 9월 9일(현지시간) 애플 이벤트에서 애플 최�
 
 솔직히 **페이스 ID가 빠지고 터치 ID로 간 건 호불호**가 갈릴 부분입니다. 다만 접었을 때 여권 크기라 한 손으로 쓰기 편하고, 폈을 때는 태블릿처럼 멀티태스킹이 된다는 점이 이 제품의 핵심 가치예요.
 
-![아이폰 듀오 접었을 때(5.4인치) vs 폈을 때(7.6인치) 화면 크기 비교 (출처: Apple 공식 뉴스룸)](/assets/images/posts/apple-iphone-duo-20260910/iphone-duo-display.jpg)
+![아이폰 듀오 접었을 때(5.4인치) vs 폈을 때(7.6인치) 화면 크기 비교 (출처: Apple 공식 뉴스룸)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/apple-iphone-duo-20260910/iphone-duo-display.jpg)
 *접으면 5.4인치, 펴면 7.6인치 — 아이폰 듀오 디스플레이 (출처: Apple 공식 뉴스룸)*
 
 ## 아이폰 18 프로·프로 맥스 — 달라진 점
@@ -41,7 +41,7 @@ description: "2026년 9월 9일(현지시간) 애플 이벤트에서 애플 최�
 - **배터리**: 차세대 베이퍼 챔버로 지속 성능을 끌어올렸고, **아이폰 18 프로 맥스는 아이폰 역사상 가장 큰 배터리 증가**를 이뤘다고 합니다
 - **색상**: **버건디·글레이셔·실버·블랙** 4색, 저장용량은 256GB·512GB·1TB·2TB
 
-![아이폰 18 프로 4가지 색상 (출처: Apple 공식 뉴스룸)](/assets/images/posts/apple-iphone-duo-20260910/iphone-18-pro.jpg)
+![아이폰 18 프로 4가지 색상 (출처: Apple 공식 뉴스룸)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/apple-iphone-duo-20260910/iphone-18-pro.jpg)
 *아이폰 18 프로 — 버건디·글레이셔·실버·블랙 (출처: Apple 공식 뉴스룸)*
 
 ## 아이폰 듀오 vs 아이폰 18 프로 — 한눈 비교
@@ -68,13 +68,13 @@ description: "2026년 9월 9일(현지시간) 애플 이벤트에서 애플 최�
 - **애플워치 울트라 4** ($799~): 야외 운동 기준 **최대 45시간** 배터리, 스포츠 워치 중 가장 정확한 온디바이스 GPS를 내세웠습니다.
 - **에어팟 5** ($129~ / 무선충전 케이스 $149): 드디어 **기본형에도 ANC(액티브 노이즈 캔슬링)가 기본 탑재**됐습니다. 이전 세대 대비 최대 1.5배 강한 ANC, ANC 켜고 최대 5시간 재생이에요.
 
-![애플워치 시리즈 12 (출처: Apple 공식 뉴스룸)](/assets/images/posts/apple-iphone-duo-20260910/watch-series-12.jpg)
+![애플워치 시리즈 12 (출처: Apple 공식 뉴스룸)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/apple-iphone-duo-20260910/watch-series-12.jpg)
 *애플워치 시리즈 12 — 새 헬스 센싱 시스템 (출처: Apple 공식 뉴스룸)*
 
-![애플워치 울트라 4 (출처: Apple 공식 뉴스룸)](/assets/images/posts/apple-iphone-duo-20260910/watch-ultra-4.jpg)
+![애플워치 울트라 4 (출처: Apple 공식 뉴스룸)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/apple-iphone-duo-20260910/watch-ultra-4.jpg)
 *애플워치 울트라 4 — 야외 운동 최대 45시간 (출처: Apple 공식 뉴스룸)*
 
-![에어팟 5 (출처: Apple 공식 뉴스룸)](/assets/images/posts/apple-iphone-duo-20260910/airpods-5.jpg)
+![에어팟 5 (출처: Apple 공식 뉴스룸)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/apple-iphone-duo-20260910/airpods-5.jpg)
 *에어팟 5 — 기본형에도 ANC 기본 탑재 (출처: Apple 공식 뉴스룸)*
 
 ## 가격·출시일 총정리 (한국 기준)

@@ -5,11 +5,11 @@ date: 2026-11-06 11:20:00 +0900
 categories: [products]
 tags: [로직프로13, LogicPro13, 로직프로, 애플, AppleCreatorStudio, 크리에이터스튜디오, DAW추천, 음악제작, 스템분리, 통합브라우저, 플레이서피스, AI어시스턴트, 구독경제, 제품비교, 구매가이드, 2026년11월]
 author: "40대 블로거"
-image: /assets/images/posts/logic-pro-13-ai-subscription-guide-20261106/logic-pro-13-hero.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/logic-pro-13-ai-subscription-guide-20261106/logic-pro-13-hero.jpg
 description: "애플이 2026년 11월 5일(미국 시간) Logic Pro 13을 배포했습니다. 기존 구매자에게는 무료 업데이트이고, 통합 브라우저와 드럼 세부 스템 분리, 플레이 서피스, 리퀴드 글래스 UI가 들어갑니다. 다만 간판 기능인 AI 인텔리전트 어시스턴트는 Apple Creator Studio 구독(월 1만 9,000원)에서만 동작하고 macOS 27·미국 영어 환경이 필요합니다. 단독 29만 9,000원 구매자는 이 기능을 쓸 수 없습니다. 12와 13의 차이, 단독 구매와 구독의 손익분기점, 아쉬운 점까지 정리했습니다."
 ---
 
-![리퀴드 글래스 디자인이 적용된 로직 프로 13 화면](/assets/images/posts/logic-pro-13-ai-subscription-guide-20261106/logic-pro-13-hero.jpg)
+![리퀴드 글래스 디자인이 적용된 로직 프로 13 화면](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/logic-pro-13-ai-subscription-guide-20261106/logic-pro-13-hero.jpg)
 *로직 프로 13은 리퀴드 글래스 기반의 새 다크 인터페이스를 적용했습니다. 페이더 캡이 반투명해져 위치가 한눈에 보입니다 (출처: Apple Newsroom, 2026.10.27)*
 
 > **📌 한줄 요약:** 애플이 **2026년 11월 5일(미국 시간)** Logic Pro 13을 App Store에 배포했습니다. 새 앱이 아니라 **기존 앱의 13.0 업데이트**이고, 기존 구매자·구독자 모두 **추가 결제 없이** 받습니다. 핵심은 **통합 브라우저**, **드럼을 6갈래로 나누는 스템 분리**, **플레이 서피스**, **리퀴드 글래스 UI**입니다. 문제는 간판 기능인 **AI 인텔리전트 어시스턴트**가 **Apple Creator Studio 구독(월 1만 9,000원)** 에서만 동작하고, **macOS 27 + 애플 실리콘 + 미국 영어** 환경을 요구한다는 점입니다. **단독 29만 9,000원**으로 산 사람에게는 이 기능이 열리지 않습니다.
@@ -50,7 +50,7 @@ description: "애플이 2026년 11월 5일(미국 시간) Logic Pro 13을 배포
 
 애플이 가장 앞세운 기능은 AI가 아니라 **브라우저**입니다. 그동안 Logic Pro는 사운드를 찾는 창이 두 개로 쪼개져 있었습니다. 라이브러리(악기·패치)와 루프 브라우저(애플 루프)가 따로 놀았고, 서드파티 샘플은 Finder에서 직접 찾아야 했습니다.
 
-![통합 브라우저가 열린 로직 프로 13](/assets/images/posts/logic-pro-13-ai-subscription-guide-20261106/logic-pro-browser.jpg)
+![통합 브라우저가 열린 로직 프로 13](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/logic-pro-13-ai-subscription-guide-20261106/logic-pro-browser.jpg)
 *루프·악기·이펙트 패치·서드파티 샘플을 한 창에서 검색하고 미리 듣습니다 (출처: Apple Newsroom, 2026.10.27)*
 
 13에서는 이게 하나로 합쳐집니다. 실사용에서 체감이 큰 부분은 네 가지입니다.
@@ -68,7 +68,7 @@ description: "애플이 2026년 11월 5일(미국 시간) Logic Pro 13을 배포
 
 Logic Pro 11에서 들어온 Stem Splitter는 보컬·드럼·베이스·기타 네 갈래로 나누는 기능이었습니다. 13에서는 **드럼 안쪽을 다시 분해**합니다.
 
-![스템 분리 화면](/assets/images/posts/logic-pro-13-ai-subscription-guide-20261106/logic-pro-stem-splitter.jpg)
+![스템 분리 화면](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/logic-pro-13-ai-subscription-guide-20261106/logic-pro-stem-splitter.jpg)
 *킥·스네어·하이햇·톰·심벌·기타 타악기까지 분리하고, 각 파트의 볼륨을 다시 잡거나 교체할 수 있습니다 (출처: Apple Newsroom, 2026.10.27)*
 
 - **킥, 스네어, 하이햇, 톰, 심벌, 그 외 타악기**로 나뉩니다.
@@ -157,7 +157,7 @@ MacRumors가 11월 5일 보도한 내용에 따르면, **13.0 단독 구매 버�
 
 세르히오 조지 프로듀서 팩은 그래미 20회 수상자인 살사·라틴 음악 프로듀서의 피아노 사운드와 살사 퍼커션, 브라스, 베이스 루프를 담았습니다. 라틴 장르를 다루지 않아도 타악기 루프 소스로 쓸 만합니다.
 
-![스템 분리와 프로듀서 팩 관련 공식 이미지](/assets/images/posts/logic-pro-13-ai-subscription-guide-20261106/logic-pro-producer-pack.jpg)
+![스템 분리와 프로듀서 팩 관련 공식 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/logic-pro-13-ai-subscription-guide-20261106/logic-pro-producer-pack.jpg)
 *세르히오 조지 프로듀서 팩은 살사 퍼커션과 브라스 루프를 포함합니다 (출처: Apple Newsroom, 2026.10.27)*
 
 ---

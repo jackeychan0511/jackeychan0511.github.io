@@ -28,13 +28,13 @@ description: "2026년 8월 기준 GPT-5.x, Gemini 3.x, Claude 4.x 3대 LLM을 �
 
 ## 🏆 2026년 8월 최신 모델 라인업
 
-![OpenAI 로고](/assets/images/posts/llm-comparison-2026/openai-logo.svg)
+![OpenAI 로고](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/llm-comparison-2026/openai-logo.svg)
 *OpenAI — GPT 시리즈 (출처: Wikimedia Commons)*
 
-![Google Gemini 로고](/assets/images/posts/llm-comparison-2026/gemini-logo.svg)
+![Google Gemini 로고](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/llm-comparison-2026/gemini-logo.svg)
 *Google — Gemini 시리즈 (출처: Wikimedia Commons)*
 
-![Anthropic Claude 로고](/assets/images/posts/llm-comparison-2026/claude-logo.svg)
+![Anthropic Claude 로고](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/llm-comparison-2026/claude-logo.svg)
 *Anthropic — Claude 시리즈 (출처: Wikimedia Commons)*
 
 | 구분 | **OpenAI** | **Google** | **Anthropic** |

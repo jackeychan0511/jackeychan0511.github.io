@@ -5,7 +5,7 @@ date: 2026-11-03 14:52:00 +0900
 categories: [career]
 tags: [OpenAI, GPT, 아부다비, MachineReadableGovernment, AI에이전트, ADNOC, G42, 무바달라, 컴플라이언스자동화, 데이터주권, 규제자동화, 업무자동화, AI뉴스, 2026년11월]
 author: "40대 블로거"
-image: /assets/images/posts/openai-abu-dhabi-mrg-deals-20261103/abu-dhabi-openai-signing.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-abu-dhabi-mrg-deals-20261103/abu-dhabi-openai-signing.jpg
 description: "2026년 11월 2일 아부다비 왕세자 셰이크 칼레드 빈 모하메드와 샘 올트먼 OpenAI CEO가 회동하고 에너지·정부·투자 분야 4개 협약을 체결했습니다. 핵심은 정부 정책과 규정을 기계가 읽는 형태로 바꾸는 세계 첫 'Machine-Readable Government' 이니셔티브와, ADNOC가 에너지 업계 최초로 OpenAI 프론티어 기술을 UAE 현지 추론 인프라에서 도입하는 건입니다. 무엇이 확정됐고 무엇이 아직 추정인지, 그리고 업무 자동화 관점에서 무엇이 달라지는지 정리했습니다."
 ---
 
@@ -17,7 +17,7 @@ AI를 업무에 붙여 쓰는 쪽에서 요즘 가장 자주 나오는 질문은
 
 이 글은 **무엇이 체결됐는지 → 4개 협약의 내용 → 왜 아부다비인지 → 사용자·개발자에게 무엇이 달라지는지 → 솔직한 한계와 전망** 순서로 정리했습니다.
 
-![아부다비 왕세자 셰이크 칼레드 빈 모하메드와 샘 올트먼 OpenAI CEO의 회동 및 협약 서명 (사진: Abu Dhabi Media Office)](/assets/images/posts/openai-abu-dhabi-mrg-deals-20261103/abu-dhabi-openai-signing.jpg)
+![아부다비 왕세자 셰이크 칼레드 빈 모하메드와 샘 올트먼 OpenAI CEO의 회동 및 협약 서명 (사진: Abu Dhabi Media Office)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-abu-dhabi-mrg-deals-20261103/abu-dhabi-openai-signing.jpg)
 *아부다비 왕세자 셰이크 칼레드 빈 모하메드와 샘 올트먼 OpenAI CEO의 회동 및 협약 서명 (사진: Abu Dhabi Media Office)*
 
 ## 이슈 요약 — 한 장으로 정리
@@ -76,7 +76,7 @@ CNBC 보도에 따르면 OpenAI는 현재 **UAE 투자자들이 공동으로 이
 
 두 번째 축은 **현지 추론**입니다. 이번 4개 협약 중 최소 두 건(에너지·정부)은 모델 연산이 **UAE 안에서** 이뤄진다고 명시합니다. 정부 규정과 국가 에너지 운영 데이터를 다루는 사업에서 **데이터가 국경을 넘지 않는다**는 조건은 계약의 핵심 요구사항입니다.
 
-![아부다비 ADNOC 타워 (출처: Wikimedia Commons, Bahaa aldien, CC BY-SA 4.0)](/assets/images/posts/openai-abu-dhabi-mrg-deals-20261103/adnoc-tower-abu-dhabi.jpg)
+![아부다비 ADNOC 타워 (출처: Wikimedia Commons, Bahaa aldien, CC BY-SA 4.0)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-abu-dhabi-mrg-deals-20261103/adnoc-tower-abu-dhabi.jpg)
 *아부다비 ADNOC 타워 (출처: Wikimedia Commons, Bahaa aldien, CC BY-SA 4.0)*
 
 ## 실질 영향 — 사용자와 개발자에게 무엇이 달라지나

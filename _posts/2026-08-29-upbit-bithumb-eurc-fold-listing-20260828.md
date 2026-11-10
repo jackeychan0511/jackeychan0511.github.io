@@ -5,7 +5,7 @@ date: 2026-08-29 05:00:00 +0900
 categories: [finance]
 tags: [신규상장, 업비트, 빗썸, EURC, 이유알코인, 유로코인, FOLD, 인터폴드, 스테이블코인, 서클, Circle, 코인, 가상자산]
 author: "40대 블로거"
-image: /assets/images/posts/upbit-bithumb-eurc-fold-listing-20260828/eurc-hero.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/upbit-bithumb-eurc-fold-listing-20260828/eurc-hero.jpg
 description: "8/28 업비트와 빗썸에 이유알코인(EURC)과 인터폴드(FOLD)가 동시에 상장됐습니다. 서클(Circle)이 발행한 유로 스테이블코인 EURC는 국내 거래소 최초 상장으로 업비트가 14시(KRW·BTC·USDT), 빗썸이 15시(KRW)에 거래를 시작했고, FOLD는 빗썸 원화마켓에 14시부터 추가됐습니다. 상장 정보·프로젝트·시세·주의사항을 정리했습니다."
 sitemap: false
 noindex: true
@@ -13,7 +13,7 @@ noindex: true
 
 어제(8/28)는 유독 **상장 소식이 풍성한 날**이었어요. 서클(Circle)의 유로 스테이블코인 **이유알코인(EURC)** 이 업비트와 빗썸에 같은 날 나란히 상장됐고, 인터폴드(FOLD)도 빗썸 원화마켓에 새로 들어왔습니다. 특히 EURC는 **국내 거래소 최초 상장**이라 시장의 관심이 컸는데요, 상장 정보와 프로젝트, 현재 시세까지 한 번에 정리해 드릴게요.
 
-![EURC 공식 홈페이지 대표 이미지 — 유로 스테이블코인 코인](/assets/images/posts/upbit-bithumb-eurc-fold-listing-20260828/eurc-hero.jpg)
+![EURC 공식 홈페이지 대표 이미지 — 유로 스테이블코인 코인](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/upbit-bithumb-eurc-fold-listing-20260828/eurc-hero.jpg)
 *EURC 공식 홈페이지 대표 이미지 (출처: circle.com/eurc, 확인일: 2026.08.29)*
 
 **핵심 요약**: 8/28 오후 **업비트가 이유알코인(EURC)을 KRW·BTC·USDT 세 마켓에 14시부터**, **빗썸이 EURC를 원화마켓에 15시부터**, **인터폴드(FOLD)를 원화마켓에 14시부터** 각각 거래 지원했습니다. EURC는 서클이 발행하는 유로화(EUR) 기반 스테이블코인으로 **국내 거래소 최초 상장**이며, 두 종목 모두 지원 네트워크는 **Ethereum 단일**입니다. 8/29 06:30 기준 업비트에서 EURC는 **1,605원(-0.62%)**, FOLD는 **128원(+10.34%)** 에 거래 중입니다.
@@ -32,7 +32,7 @@ noindex: true
 
 업비트가 8/28 오전 10시 49분 공지를 통해 **이유알코인(EURC)** 의 KRW·BTC·USDT 마켓 거래지원을 안내했고, 예고대로 **오후 2시 거래가 시작**됐습니다. 빗썸도 같은 날 **오후 3시**부터 원화마켓에서 EURC 거래를 열며, **업비트·빗썸 동시 상장**이 성사됐어요. 서클의 유로 스테이블코인이 국내 거래소에 상장된 것은 이번이 처음입니다.
 
-![EURC 공식 로고 (업비트 로고 CDN)](/assets/images/posts/upbit-bithumb-eurc-fold-listing-20260828/eurc-logo-upbit.png)
+![EURC 공식 로고 (업비트 로고 CDN)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/upbit-bithumb-eurc-fold-listing-20260828/eurc-logo-upbit.png)
 *EURC 공식 로고 (출처: 업비트 로고 CDN static.upbit.com, 확인일: 2026.08.29)*
 
 ### 업비트 상장 정보
@@ -85,7 +85,7 @@ EURC는 **USDC 발행사 서클(Circle)이 만든 유로화 기반 법정화폐 
 
 빗썸이 8/28 공지를 통해 **인터폴드(FOLD)** 를 원화(KRW) 마켓에 추가했고, **오후 2시 거래를 시작**했습니다. FOLD는 지난 8/23 업비트에 KRW·BTC·USDT 마켓으로 먼저 상장된 종목인데(아래 링크에서 자세히 정리했어요), 이번에 빗썸까지 합류하며 **국내 '빅2' 동시 거래**가 가능해졌습니다.
 
-![인터폴드(Interfold) 공식 홈페이지 대표 이미지 — "Private Inputs. Collective Outcomes."](/assets/images/posts/upbit-bithumb-eurc-fold-listing-20260828/fold-hero.jpg)
+![인터폴드(Interfold) 공식 홈페이지 대표 이미지 — "Private Inputs. Collective Outcomes."](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/upbit-bithumb-eurc-fold-listing-20260828/fold-hero.jpg)
 *인터폴드(Interfold) 공식 홈페이지 대표 이미지 (출처: theinterfold.com, 확인일: 2026.08.29)*
 
 ### 상장 정보
@@ -102,7 +102,7 @@ EURC는 **USDC 발행사 서클(Circle)이 만든 유로화 기반 법정화폐 
 
 ### 인터폴드(Interfold)는 어떤 프로젝트?
 
-![FOLD 공식 로고 (업비트 로고 CDN)](/assets/images/posts/upbit-bithumb-eurc-fold-listing-20260828/fold-logo-upbit.png)
+![FOLD 공식 로고 (업비트 로고 CDN)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/upbit-bithumb-eurc-fold-listing-20260828/fold-logo-upbit.png)
 *FOLD 공식 로고 (출처: 업비트 로고 CDN static.upbit.com, 확인일: 2026.08.29)*
 
 인터폴드는 **'기밀 조정(confidential coordination)' 인프라**를 만드는 프로젝트입니다. 서로 다른 주체들이 원본 입력값을 공개하지 않은 채 공동 연산 결과를 만들고, 그 결과를 검증할 수 있도록 설계됐어요. E3(암호화 실행 환경)와 분산 **ciphernode 네트워크** 기반으로, FHE(완전동형암호)·ZK proof·분산 임계 암호를 함께 사용합니다. 봉인입찰(sealed-bid auction), 비공개 투표·거버넌스, 민감 데이터 공동 분석 등이 대표 활용 사례입니다.

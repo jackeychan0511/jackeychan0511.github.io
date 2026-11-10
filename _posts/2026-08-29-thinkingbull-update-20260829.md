@@ -5,13 +5,13 @@ date: 2026-08-29 12:00:00 +0900
 categories: [education]
 tags: [황소수학, 생각하는황소, 황소고시, 수강료면제, 기초생활수급자, 차상위계층, 언론보도, 아시아투데이]
 author: "40대 블로거"
-image: /assets/images/posts/thinkingbull-update-20260829/01-logo.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/thinkingbull-update-20260829/01-logo.png
 description: "생각하는황소(황소수학)의 기초생활수급자·차상위계층 자녀 수강료 전액 면제 정책이 8/26 아시아투데이에 보도되며 온라인에서 화제가 되고 있습니다. 면제 대상 학생도 입학시험은 일반 학생과 동일하게 치르고, 현재 실제 수혜 학생이 다니고 있다는 점이 새롭게 확인됐습니다."
 ---
 
 # [업데이트] 생각하는황소 수강료 면제 정책, 언론 보도로 화제
 
-![생각하는황소 공식 로고](/assets/images/posts/thinkingbull-update-20260829/01-logo.png)
+![생각하는황소 공식 로고](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/thinkingbull-update-20260829/01-logo.png)
 *생각하는황소 공식 로고 (출처: 생각하는황소 공식 홈페이지)*
 
 안녕하세요. 40대 라이프 블로그입니다.

@@ -35,7 +35,7 @@ description: "아이가 모르는 문제를 텍스트나 사진으로 올리면 
 
 같은 앱 안에서 질문 형태에 따라 AI를 자동으로 골라 쓰는 구조입니다.
 
-![Flutter 로고](/assets/images/posts/ai-teacher/flutter-logo.png)
+![Flutter 로고](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/ai-teacher/flutter-logo.png)
 *Flutter — 크로스 플랫폼 앱 개발 프레임워크 (출처: Wikimedia Commons)*
 
 ---
@@ -341,7 +341,7 @@ flutter build apk --release
 
 > 실제 빌드된 안드로이드 APK를 아래에서 받아서 바로 설치해보실 수 있습니다.
 
-**[⬇️ AI 선생님 APK 다운로드 (약 50MB)](/assets/downloads/ai-teacher-app-release.apk)**
+**[⬇️ AI 선생님 APK 다운로드 (약 50MB)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/downloads/ai-teacher-app-release.apk)**
 
 > ⚠️ **설치 전 확인사항**
 > - Android 기기에서 "출처를 알 수 없는 앱" 허용 필요

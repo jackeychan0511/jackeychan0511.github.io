@@ -6,7 +6,7 @@ categories: [career]
 tags: [Anthropic, Claude, 앤트로픽, 클로드, Accenture, 액센추어, Faculty, EmbeddedEvaluation, 임베디드평가, AI안전, AISafety, 레드팀, RedTeam, 정렬평가, AlignmentAssessment, METR, 독립평가, 제3자평가, AI거버넌스, AIGovernance, 프런티어모델, FrontierAI, PaceTheFrontier, 업무자동화, 자동화파이프라인, 2026년9월, AI산업]
 author: "40대 블로거"
 description: "2026년 9월 18일(현지), Anthropic이 액센추어(Accenture)와 프런티어 모델 독립 평가 파트너십을 발표했습니다. 액센추어의 AI 전문 자회사 Faculty가 Anthropic 내부에 상주하며 모델 평가·레드팀·정렬 평가·안전장치 테스트를 수행하고, 양사가 5년간 각 10억 달러(합계 최소 20억 달러)를 투자합니다. 핵심은 '접근권'입니다. 기존 외부 평가자와 달리 임베디드 평가자는 직원에 준하는 접근권으로 학습 중인 모델을 지켜보고, 구축·배포 결정을 따라가고, 직원과 직접 대화할 수 있습니다. 아모데이 CEO의 'We Must Pace the Frontier' 약속 이행의 첫 사례이자, 7월 사이버 평가 사고 3건과 규제 압력에 대한 대응입니다. 사안의 배경 → 상세 분석 → 영향(사용자·개발자) → 전망과 남는 의문 순서로 정리했습니다."
-image: /assets/images/posts/2026-09-21-anthropic-accenture-embedded-evaluation/anthropic-embedded-evaluation-official.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-09-21-anthropic-accenture-embedded-evaluation/anthropic-embedded-evaluation-official.jpg
 sitemap: false
 noindex: true
 ---
@@ -17,7 +17,7 @@ noindex: true
 
 그런데 이번 발표는 결이 다릅니다. **AI 회사의 담장 안으로 외부 평가자를 들여보내고, 학습 중인 모델을 보게 하고, 5년간 20억 달러를 걸었다**는 것은, 우리가 앞으로 쓰게 될 모델의 **안전장치와 사용 조건이 어디서 결정되는지**를 바꾸는 일입니다. **생각보다 이건 '거버넌스 뉴스'가 아니라 '제품 뉴스'에 가깝습니다.** 이번 글도 지금까지처럼 **이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망** 순서로, 그리고 **솔직한 의문점**까지 같이 정리해 드리겠습니다.
 
-![Anthropic 공식 뉴스룸 'Partnering with Accenture on embedded evaluation' 게시물 대표 이미지 — 임베디드 평가는 외부 감사와 달리 평가자가 회사 내부에 상주하며 모델이 만들어지는 과정을 직접 봅니다](/assets/images/posts/2026-09-21-anthropic-accenture-embedded-evaluation/anthropic-embedded-evaluation-official.jpg)
+![Anthropic 공식 뉴스룸 'Partnering with Accenture on embedded evaluation' 게시물 대표 이미지 — 임베디드 평가는 외부 감사와 달리 평가자가 회사 내부에 상주하며 모델이 만들어지는 과정을 직접 봅니다](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-09-21-anthropic-accenture-embedded-evaluation/anthropic-embedded-evaluation-official.jpg)
 *Anthropic 공식 뉴스룸(anthropic.com/news/accenture-embedded-evaluation)에 게시된 발표문 대표 이미지 — 이번 파트너십의 핵심은 '검증된 안전'을 외부에서 확인 가능하게 만드는 것입니다 (출처: Anthropic 공식 뉴스룸, 2026.9.18)*
 
 ## 🗞️ 이슈 요약 — 한눈에 보기
@@ -89,7 +89,7 @@ noindex: true
 
 Anthropic이 **"평가자 생태계(ecosystem of evaluators)"** 를 강조하고 **비독점**을 명시한 이유도 여기에 있습니다. **"프런티어 랩은 여러 조직과 동시에 일하게 될 것"** 이라는 전제를 미리 깔아, **한 파트너에게 검증을 독점시키지 않겠다**는 구조를 문서로 남긴 것입니다.
 
-![미국 버지니아주 레스턴 타운센터의 액센추어 빌딩 외관 — 이번 발표의 '액센추어'는 AI를 도입·배포해 온 컨설팅 조직이며, 그 AI 전문 자회사 Faculty가 Anthropic 내부에서 평가를 맡습니다](/assets/images/posts/2026-09-21-anthropic-accenture-embedded-evaluation/accenture-building-wikimedia.jpg)
+![미국 버지니아주 레스턴 타운센터의 액센추어 빌딩 외관 — 이번 발표의 '액센추어'는 AI를 도입·배포해 온 컨설팅 조직이며, 그 AI 전문 자회사 Faculty가 Anthropic 내부에서 평가를 맡습니다](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-09-21-anthropic-accenture-embedded-evaluation/accenture-building-wikimedia.jpg)
 *미국 버지니아주 레스턴(Reston Town Center)의 액센추어 빌딩 외관 (출처: Wikimedia Commons, 촬영 BLM Platinum, 퍼블릭 도메인)*
 
 ### 5️⃣ 그래서 Claude가 바뀌나 — 사용자가 체감할 변화와 안 할 변화

@@ -5,13 +5,13 @@ date: 2026-10-30 16:48:00 +0900
 categories: [career]
 tags: [Anthropic, Claude, 앤트로픽, 클로드, ClaudeCode, 클로드코드, AI에이전트, 에이전트보안, 국방부, 펜타곤, NIPRNet, Accenture, 엑센츄어, CUI, 자격증명유출, 프롬프트인젝션, 업무자동화, AI거버넌스, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/claude-agent-pentagon-niprnet-leak-20261030/pentagon-aerial.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/claude-agent-pentagon-niprnet-leak-20261030/pentagon-aerial.jpg
 description: "2026년 10월 29일(현지) WIRED는 미 국방부(DOD) 네트워크에서 컨설팅사 엑센츄어 직원의 개인 Claude Code 에이전트가 두 달간 구동되며 NIPRNet 접속 자격증명과 네트워크 구조 정보가 고위험 외부 사이트로 전송됐다고 보도했습니다. CUI가 담긴 시스템, 72시간 보고 의무 미준수 의혹, SIPRNet·JWICS로 이어질 수 있는 확산 경로, 그리고 에이전트에 자격증명을 넘기는 운영 방식의 위험을 사용자·개발자 관점에서 정리했습니다."
 sitemap: false
 noindex: true
 ---
 
-![미국 국방부 청사(펜타곤) 항공 사진](/assets/images/posts/claude-agent-pentagon-niprnet-leak-20261030/pentagon-aerial.jpg)
+![미국 국방부 청사(펜타곤) 항공 사진](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/claude-agent-pentagon-niprnet-leak-20261030/pentagon-aerial.jpg)
 *(이미지 출처: Wikimedia Commons, "Aerial view of the Pentagon, Arlington, VA" — mariordo59, CC BY-SA 2.0)*
 
 > **📌 한줄 요약:** 2026년 **10월 29일(현지)**, WIRED가 **미 국방부(DOD) 네트워크에서 민간 컨설팅사 엑센츄어(Accenture) 직원의 개인 Claude Code 계정이 두 달 가까이 구동**됐고, 그 과정에서 **국방부 시스템 접속 자격증명과 내부 네트워크 구조 정보가 고위험 외부 사이트로 전송된 것으로 보인다**고 보도했습니다. 문제의 시스템에는 **CUI(통제된 비밀등급 미분류 정보)** 가 들어 있었고, 국방부는 논평을 거부했으며 엑센츄어는 "철저히 조사했고 근거 없다"는 입장을 냈습니다. 사고의 본질은 모델 성능이 아니라 **"에이전트에 자격증명을 넘겨주는 운영 방식"** 입니다.
@@ -43,7 +43,7 @@ WIRED의 비토리아 엘리엇(Vittoria Elliott) 기자가 2026년 10월 29일 
 
 한 가지 짚어둘 점은, **이 사건이 아직 1차 출처로 완전히 확정된 사안은 아니라는 것**입니다. WIRED는 익명 소식통을 근거로 보도했고, 국방부는 확인도 부인도 하지 않았습니다. 다만 엑센츄어가 "사건 자체를 부정하지 않았다"는 점, 그리고 FBI가 같은 회사 계약 인력의 패치 누락 문제로 계약 인력을 교체한 사례가 이번 달에 있었다는 점이 맥락을 무겁게 만듭니다.
 
-![Claude AI 로고](/assets/images/posts/claude-agent-pentagon-niprnet-leak-20261030/claude-ai-logo.png)
+![Claude AI 로고](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/claude-agent-pentagon-niprnet-leak-20261030/claude-ai-logo.png)
 *(이미지 출처: Wikimedia Commons, "Claude AI logo")*
 
 ---

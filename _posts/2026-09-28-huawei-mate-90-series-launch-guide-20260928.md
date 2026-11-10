@@ -5,11 +5,11 @@ date: 2026-09-28 11:24:00 +0900
 categories: [products]
 tags: [화웨이 메이트 90, Huawei Mate 90, 메이트 90 프로 맥스, Mate 90 Pro Max, Mate 90 RS Ultimate, 기린 9050 프로, Kirin 9050 Pro, 200MP 페리스코프, XMAGE Z10, 듀얼 레이어 OLED, 10000니트, 6800mAh, 하모니OS 7, LogicFolding, 카메라폰 추천, 플래그십 스마트폰 비교, 아이폰 18 프로 맥스, 갤럭시 S26 울트라, 제품 비교, 2026년9월]
 author: "40대 블로거"
-image: /assets/images/posts/huawei-mate-90-series-launch-guide-20260928/huawei-mate-90-launch-poster.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/huawei-mate-90-series-launch-guide-20260928/huawei-mate-90-launch-poster.jpg
 description: "화웨이 메이트 90 시리즈가 2026년 10월 1일 14:30(베이징 시간) 공개를 앞두고 있습니다. 화웨이 자사 페이지와 유출 포스터로 확인된 핵심은 메이트 90·90 프로·90 프로 맥스·90 RS 얼티밋 4종 구성, 기린 9050 프로(LogicFolding 아키텍처)·16GB 램·듀얼 레이어 OLED(1만 니트·144Hz)·200MP 페리스코프 망원·XMAGE Z10 10배 외장 렌즈·6,800mAh·100W 충전입니다. 오프라인 매장 '블라인드 예약'과 새 그린 색상 실물 사진까지 정리했고, 아이폰 18 프로 맥스·갤럭시 S26 울트라와 무엇이 다른지 비교 포인트와 구매 전 체크리스트를 담았습니다. 이미지는 화웨이 공식 포스터와 중국 매장 실물 사진입니다."
 ---
 
-![화웨이 메이트 90 시리즈 공식 발표 포스터 — 2026년 10월 1일 14:30(베이징 시간) 공개 예고](/assets/images/posts/huawei-mate-90-series-launch-guide-20260928/huawei-mate-90-launch-poster.jpg)
+![화웨이 메이트 90 시리즈 공식 발표 포스터 — 2026년 10월 1일 14:30(베이징 시간) 공개 예고](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/huawei-mate-90-series-launch-guide-20260928/huawei-mate-90-launch-poster.jpg)
 *▲ 화웨이 메이트 90 시리즈 발표 포스터 (출처: 화웨이 공식 포스터 / Huawei Central)*
 
 요즘 저처럼 "플래그십은 바꿔야 하는데 아이폰·갤럭시는 좀 식상하다"는 생각 하시는 분들 많으시죠. 저도 아이폰 18 프로 맥스와 갤럭시 S26 울트라를 번갈아 쓰면서, 정작 카메라 망원 성능과 야간 색감에서는 늘 아쉬움이 남았습니다. 그런데 이번 주말 중국 쪽 소식을 보다가 오랜만에 눈이 번쩍 뜨이는 걸 발견했어요. **화웨이 메이트 90 시리즈**가 **10월 1일** 공개를 눈앞에 두고, **오프라인 매장 '블라인드 예약'**까지 시작됐다는 소식입니다. 발표도 안 했는데 예약부터 받는 이 방식이 화웨이다운데요, 올해는 실물 사진까지 벌써 풀려서 정리해 보려고 합니다.
@@ -22,7 +22,7 @@ description: "화웨이 메이트 90 시리즈가 2026년 10월 1일 14:30(베�
 
 여기에 더 흥미로운 대목이 있습니다. 화웨이 **자사 중국 사이트에 메이트 90 발표 페이지가 잠깐 올라왔다가 내려갔는데**, 그 화면에 **10월 1일 행사**가 적혀 있었다는 겁니다. 공식 발표는 아직 아니지만, 자사 페이지에서 흘러나온 날짜라 신뢰도가 높은 편입니다. 포스터와 실물 사진의 디자인이 서로 일치하는 것도 "곧 나온다"는 신호로 읽힙니다.
 
-![중국 매장에 도착한 화웨이 메이트 90 시리즈 실물 — 새 그린 색상](/assets/images/posts/huawei-mate-90-series-launch-guide-20260928/huawei-mate-90-green-live.jpg)
+![중국 매장에 도착한 화웨이 메이트 90 시리즈 실물 — 새 그린 색상](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/huawei-mate-90-series-launch-guide-20260928/huawei-mate-90-green-live.jpg)
 *▲ 새 그린 색상의 메이트 90 시리즈 매장 실물 사진 (출처: 중국 매장 실물 유출 사진 / Huawei Central)*
 
 ## 어디까지가 공식이고, 어디부터가 유출인가
@@ -60,7 +60,7 @@ description: "화웨이 메이트 90 시리즈가 2026년 10월 1일 14:30(베�
 **2) 200MP 페리스코프 망원 + XMAGE Z10 외장 렌즈**
 제가 플래그십에서 늘 아쉬웠던 지점이 "당겨 찍으면 뭉개지는" 망원이었는데, 여기에 **2억 화소 페리스코프**를 넣고, **탈착식 10배 광학 렌즈(XMAGE Z10)**까지 붙인다는 이야기입니다. 무거운 망원 렌즈를 들고 다니지 않아도 된다는 점에서 사진 취미로 쓰는 분들에겐 매력적입니다. 다만 이런 외장 렌즈는 **번들 포함인지 별도 구매인지**가 실질 가격을 크게 좌우합니다.
 
-![화웨이 메이트 90 RS 얼티밋 실물 — 투톤 패널과 레드 세라믹 포인트](/assets/images/posts/huawei-mate-90-series-launch-guide-20260928/huawei-mate-90-rs-live.jpg)
+![화웨이 메이트 90 RS 얼티밋 실물 — 투톤 패널과 레드 세라믹 포인트](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/huawei-mate-90-series-launch-guide-20260928/huawei-mate-90-rs-live.jpg)
 *▲ 메이트 90 RS 얼티밋 매장 실물 사진 (출처: 중국 매장 실물 유출 사진 / Huawei Central)*
 
 **3) 기린 9050 프로 — 'LogicFolding' 3D 적층**
@@ -70,7 +70,7 @@ description: "화웨이 메이트 90 시리즈가 2026년 10월 1일 14:30(베�
 
 매장 실물을 보면 후면이 **두 부분으로 나뉘는 투톤**입니다. 위쪽은 세로·가로 줄무늬가 들어간 **광택**, 아래쪽은 **무광** 마감이고, 가운데 원형 카메라 링은 메이트 60 시리즈를 떠올리게 합니다. RS 얼티밋은 여기에 **레드 세라믹 인서트**를 더한 투톤으로, 한눈에 상위 모델임이 보입니다. 색상은 블랙·화이트·골드에 **노바 시리즈를 닮은 강렬한 그린**이 새로 추가됐습니다.
 
-![화웨이 메이트 90 시리즈 라인업 — 후면 투톤 디자인](/assets/images/posts/huawei-mate-90-series-launch-guide-20260928/huawei-mate-90-series.jpg)
+![화웨이 메이트 90 시리즈 라인업 — 후면 투톤 디자인](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/huawei-mate-90-series-launch-guide-20260928/huawei-mate-90-series.jpg)
 *▲ 메이트 90 시리즈 디자인·라인업 (출처: 화웨이 공개 자료 / Huawei Central)*
 
 ## 비교 포인트 — 아이폰 18 프로 맥스·갤럭시 S26 울트라와 뭐가 다른가

@@ -5,13 +5,13 @@ date: 2026-08-31 13:00:00 +0900
 categories: [products]
 tags: [삼성전자, 오디세이, 게이밍모니터, 모니터추천, 게임스컴2026, OLEDG9, OLEDG8, OLEDG7, 오디세이G6, 1100Hz, QD-OLED, 펜타탠덤, HDR10+게이밍, 무안경3D, 콜오브듀티, FPS, 2027년형]
 author: "40대 블로거"
-image: /assets/images/posts/samsung-odyssey-2027-gamescom-20260831/odyssey-4models.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/samsung-odyssey-2027-gamescom-20260831/odyssey-4models.jpg
 description: "2026년 8월 27일 삼성전자가 독일 쾰른 게임스컴 2026에서 2027년형 오디세이(Odyssey) 게이밍 모니터 4종을 공개했습니다. 세계 최초 360Hz 주사율의 49형 커브드 '오디세이 OLED G9(G95SJ)', 트리플 모드 최대 680Hz의 32형 'OLED G8(G80SJ)', 세계 최초 42형 커브드 OLED 'OLED G7(G75SJ)', 듀얼 모드로 세계 최초 1,100Hz를 구현한 27형 '오디세이 G6(G60H)'까지 — 지난주 LG 네이티브 1000Hz 모니터에 이어 치열해진 게이밍 모니터 '주사율 전쟁'의 최신판을 핵심 기능 → 라인업별 스펙 → 장점 → 단점 → 구매 팁 순서로 솔직하게 정리했습니다. 이미지는 모두 삼성 뉴스룸 공식 보도자료 사진입니다."
 ---
 
 > **📌 한줄 요약:** 삼성전자가 8월 27일(현지시간) 독일 쾰른 **게임스컴 2026**에서 **2027년형 오디세이 게이밍 모니터 4종**을 공개했습니다. ▲**세계 최초 360Hz**를 지원하는 49형 커브드 **OLED G9(G95SJ)** ▲5세대 QD-OLED 펜타 탠덤 기반 **트리플 모드 최대 680Hz**의 32형 **OLED G8(G80SJ)** ▲**세계 최초 42형 커브드 OLED** 게이밍 모니터 **OLED G7(G75SJ)** ▲듀얼 모드로 **세계 최초 1,100Hz**를 구현한 27형 **오디세이 G6(G60H)**입니다. 4종 모두 엔비디아 지싱크 호환·AMD 프리싱크 프리미엄 프로를 지원하며, 무안경 3D 모니터 '오디세이 3D'의 호환 게임도 연내 120개 이상으로 확대됩니다. **가격과 출시 시기는 아직 미정**입니다.
 
-![2027년형 오디세이 게이밍 모니터 신제품 4종](/assets/images/posts/samsung-odyssey-2027-gamescom-20260831/odyssey-4models.jpg)
+![2027년형 오디세이 게이밍 모니터 신제품 4종](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/samsung-odyssey-2027-gamescom-20260831/odyssey-4models.jpg)
 *2027년형 오디세이 게이밍 모니터 신제품 4종 — OLED G9·G8·G7, G6 (출처: 삼성전자 뉴스룸 공식 보도자료, 2026-08-27)*
 
 ## 도입 — "요즘 저처럼 주사율 숫자에 눈이 커지시는 분들"
@@ -35,28 +35,28 @@ description: "2026년 8월 27일 삼성전자가 독일 쾰른 게임스컴 2026
 
 이번 라인업의 간판 모델입니다. **32:9 비율의 5세대 'QD-OLED 펜타 탠덤' 패널**에 **0.03ms(GtG) 응답속도**, **최대 1,300nit 밝기**를 갖췄습니다. 49형 듀얼 QHD에서 360Hz, 듀얼 HD로 전환하면 **720Hz**까지 주사율을 끌어올릴 수 있어요. 32:9 울트라와이드에서 레이싱이나 FPS를 돌리면 좌우 시야가 확 트이는 맛이 있는데, 거기에 360Hz가 더해지니 몰입감이 상상 이상일 것 같습니다.
 
-![오디세이 OLED G9 제품 이미지](/assets/images/posts/samsung-odyssey-2027-gamescom-20260831/odyssey-oled-g9.jpg)
+![오디세이 OLED G9 제품 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/samsung-odyssey-2027-gamescom-20260831/odyssey-oled-g9.jpg)
 *2027년형 오디세이 OLED G9(G95SJ) — 세계 최초 360Hz 49형 커브드 게이밍 모니터 (출처: 삼성전자 뉴스룸 공식 보도자료, 2026-08-27)*
 
 ### 2. 오디세이 OLED G8(G80SJ) — 게임 장르에 맞추는 '트리플 모드'
 
 32형 OLED G8의 특징은 **하나의 모니터에서 해상도와 주사율을 세 가지 방식으로 고르는 '트리플 모드'**입니다. **4K 360Hz를 기본**으로, 고주사율 모드에서는 **QHD 520Hz, FHD 680Hz**로 전환할 수 있어요. 싱글 RPG는 4K 화질로, 배틀로얄은 FHD 680Hz로 — 게임 장르에 따라 세팅을 바꾸는 게임을 즐기는 분들께 딱 맞는 구성입니다. 특히 **DisplayPort 2.1(UHBR 20, 최대 80Gbps)**을 탑재해 고화질·초고주사율 영상을 손실 없이 보내주는 점도 눈에 띄었습니다.
 
-![오디세이 OLED G8 제품 이미지](/assets/images/posts/samsung-odyssey-2027-gamescom-20260831/odyssey-oled-g8.jpg)
+![오디세이 OLED G8 제품 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/samsung-odyssey-2027-gamescom-20260831/odyssey-oled-g8.jpg)
 *2027년형 오디세이 OLED G8(G80SJ) — 트리플 모드 최대 680Hz (출처: 삼성전자 뉴스룸 공식 보도자료, 2026-08-27)*
 
 ### 3. 오디세이 OLED G7(G75SJ) — 세계 최초 42형 커브드 OLED
 
 **세계 최초 42형 OLED 게이밍 모니터**라는 타이틀을 가진 모델입니다. 전작(32형) 대비 **디스플레이 면적이 약 72% 커졌고**, 16:9 비율의 **1000R 곡률 커브드 스크린**에 **0.03ms 응답속도**, 4K OLED 패널에 **HDR10+ 게이밍** 기술을 적용했습니다. 42형이면 책상 위에서 '모니터인지 TV인지' 헷갈리는 사이즈인데, 커브드로 감싸주니 게임 몰입감은 별도로 취급해야 할 수준일 것 같아요.
 
-![오디세이 OLED G7 제품 이미지](/assets/images/posts/samsung-odyssey-2027-gamescom-20260831/odyssey-oled-g7.jpg)
+![오디세이 OLED G7 제품 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/samsung-odyssey-2027-gamescom-20260831/odyssey-oled-g7.jpg)
 *2027년형 오디세이 OLED G7(G75SJ) — 세계 최초 42형 커브드 OLED 게이밍 모니터 (출처: 삼성전자 뉴스룸 공식 보도자료, 2026-08-27)*
 
 ### 4. 오디세이 G6(G60H) — 세계 최초 1,100Hz, 1000Hz의 벽을 넘다
 
 27형 QHD(2,560×1,440) 해상도에 **600Hz 고주사율**을 기본으로 하는 모델입니다. 여기에 **듀얼 모드로 전환하면 세계 최초로 1,000Hz를 뛰어넘는 1,100Hz(HD 화질 기준)**를 지원합니다. **Fast IPS 패널과 1ms 응답속도**로 빠른 화면 전환에서도 왜곡 없이 균일한 색감을 유지해, 총기 반동이 심한 FPS에서 진가를 발휘할 모델입니다.
 
-![오디세이 G6 제품 이미지](/assets/images/posts/samsung-odyssey-2027-gamescom-20260831/odyssey-g6.jpg)
+![오디세이 G6 제품 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/samsung-odyssey-2027-gamescom-20260831/odyssey-g6.jpg)
 *2027년형 오디세이 G6(G60H) — 듀얼 모드 세계 최초 1,100Hz (출처: 삼성전자 뉴스룸 공식 보도자료, 2026-08-27)*
 
 ## 장점 — "숫자만 높은 게 아니라 생태계까지 챙겼다"

@@ -5,7 +5,7 @@ date: 2026-09-26 07:48:00 +0900
 categories: [career]
 tags: [HermesAgent, NousResearch, AI에이전트보안, Strix, Cairn, AI해킹, 카드스키머, 봇모드, YOLO모드, 프롬프트인젝션, 업무자동화, AI에이전트, 보안이슈, 2026년9월]
 author: "40대 블로거"
-image: /assets/images/posts/2026-09-26-hermes-agent-strix-cairn-ai-agent-cyberattack-20260926/hermes-agent-official-hero.webp
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-09-26-hermes-agent-strix-cairn-ai-agent-cyberattack-20260926/hermes-agent-official-hero.webp
 description: "2026년 9월 25일 보안 업계에 올라온 이슈입니다. 오픈소스 AI 에이전트 3종(Strix·Cairn·Hermes)을 묶어 돌린 공격자가 27개 조직을 뚫고 카드 정보 60만건 이상을 유출했습니다. 제가 매일 쓰는 Hermes Agent가 공격 도구로 이름을 올린 사건이라, 실제 사용자 입장에서 무엇이 문제였고 지금 뭘 점검해야 하는지 정리했습니다."
 ---
 
@@ -17,7 +17,7 @@ description: "2026년 9월 25일 보안 업계에 올라온 이슈입니다. 오
 
 처음엔 "설마" 싶었는데, BleepingComputer·HackRead·TechRadar까지 같은 내용을 다뤘고 위협 인텔리전스 업체 Gambit의 분석 보고서가 출처라서 그냥 흘려보기 어려웠습니다. 그래서 제가 확인한 내용을 사용자 입장에서 정리해봤습니다.
 
-![Hermes Agent 공식 홈페이지 랜딩 이미지](/assets/images/posts/2026-09-26-hermes-agent-strix-cairn-ai-agent-cyberattack-20260926/hermes-agent-official-hero.webp)
+![Hermes Agent 공식 홈페이지 랜딩 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-09-26-hermes-agent-strix-cairn-ai-agent-cyberattack-20260926/hermes-agent-official-hero.webp)
 *Hermes Agent 공식 홈페이지(hermes-agent.nousresearch.com) 랜딩 이미지 — 출처: Nous Research 공식 사이트*
 
 ## 무슨 일이 있었던 건가
@@ -51,7 +51,7 @@ Hermes Agent가 나쁜 도구라서 이런 일이 벌어진 게 아닙니다. �
 - **권한 최소화 + 샌드박스.** 에이전트가 도는 환경에 관리자 권한이나 결제 수단 자격증명을 그대로 얹지 않았습니다. Hermes는 샌드박스 실행과 사용자 인가 레이어를 기본 제공하니, 문서의 보안 가이드를 한 번 정독할 가치가 있습니다.
 - **로그를 본다.** 에이전트 스스로 남기는 실행 로그가 이번 사건에서도 핵심 단서였습니다. 정기적으로 훑어보는 습관이 결국 제일 싸게 먹힙니다.
 
-![Hermes Agent 데스크톱 화면](/assets/images/posts/2026-09-26-hermes-agent-strix-cairn-ai-agent-cyberattack-20260926/hermes-agent-desktop-preview.webp)
+![Hermes Agent 데스크톱 화면](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-09-26-hermes-agent-strix-cairn-ai-agent-cyberattack-20260926/hermes-agent-desktop-preview.webp)
 *Hermes Agent 데스크톱 화면 — 출처: Nous Research 공식 사이트 배포 이미지*
 
 ## 단점, 그리고 현실적인 조언

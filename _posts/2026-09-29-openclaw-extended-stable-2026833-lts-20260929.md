@@ -5,11 +5,11 @@ date: 2026-09-29 09:52:00 +0900
 categories: [career]
 tags: [OpenClaw, 오픈클로, extendedstable, LTS, 2026.8.33, 확장안정판, 보안패치, GHSA, Nodemailer, GPT6Astra, GPTImage25, Fable51, MuseSpark13, Discord보안, Prometheus인증, 프로덕션배포, 무중단업데이트, 업무자동화, AI에이전트, 오픈소스AI, AI툴추천, 2026년9월]
 author: "40대 블로거"
-image: /assets/images/posts/openclaw-extended-stable-2026833-lts-20260929/openclaw-official-og.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openclaw-extended-stable-2026833-lts-20260929/openclaw-official-og.png
 description: "2026년 9월 28일 22:37 UTC(한국시간 9월 29일 07:37), 오픈소스 AI 에이전트 OpenClaw의 LTS 대응 채널인 'extended-stable' 태그가 2026.7.35에서 2026.8.33으로 이동했습니다. 즉 확장 안정판이 드디어 2026.8(2.0) 라인으로 올라온 것입니다. v2026.8.2 커밋을 기준으로 GPT-6 Astra·GPT Image 2.5·Fable 5.1·Muse Spark 1.3 모델 백포트와 함께, Prometheus 스크레이프 인증 요구·Discord 미디어 정책 강제·Discord 실시간 재생 소유권 보존 등 보안 백포트 3건, Nodemailer 9.1.1 고정까지 묶여 들어왔습니다. 릴리스 준비 PR(#151452) 문서에 따르면 커밋 10,196개를 감사해 20개 변경만 선별했습니다. 프로덕션에서 에이전트를 굴리는 분들이 지금 확인해야 할 포인트를 실사용 관점에서 정리했습니다."
 ---
 
-![OpenClaw 공식 홈페이지 대표 이미지 — 오픈소스 AI 에이전트 OpenClaw](/assets/images/posts/openclaw-extended-stable-2026833-lts-20260929/openclaw-official-og.png)
+![OpenClaw 공식 홈페이지 대표 이미지 — 오픈소스 AI 에이전트 OpenClaw](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openclaw-extended-stable-2026833-lts-20260929/openclaw-official-og.png)
 *OpenClaw 공식 홈페이지(openclaw.ai) 대표 이미지 — "The AI that really does things. Any OS. Any Platform." (출처: openclaw.ai, 2026.9.29)*
 
 > **📌 한줄 요약:** 요즘 저처럼 **오픈소스 AI 에이전트를 실제 업무에 굴리시는 분들** — 반가운 소식입니다. **2026년 9월 28일 22:37 UTC(한국시간 9월 29일 07:37)**, OpenClaw의 **LTS 대응 채널인 `extended-stable` 태그가 2026.7.35 → 2026.8.33으로 이동**했습니다. 쉽게 말해 **확장 안정판(Production/LTS 트랙)이 드디어 2026.8, 즉 2.0 라인으로 올라온 것**입니다. 내용도 알찹니다. **GPT-6 Astra, GPT Image 2.5, Fable 5.1, Muse Spark 1.3** 모델이 백포트됐고, **Prometheus 스크레이프 인증 요구·Discord 미디어 정책 강제·Discord 실시간 재생 소유권 보존** 같은 **보안 백포트 3건**과 **Nodemailer 9.1.1 고정**까지 묶여 들어왔습니다. 준비 PR 문서 기준으로 **커밋 10,196개를 감사해 20개 변경만 선별**했다고 하니, "이번 달 LTS는 뭘 담았나"가 궁금한 분께 딱 맞는 소식입니다.
@@ -48,7 +48,7 @@ description: "2026년 9월 28일 22:37 UTC(한국시간 9월 29일 07:37), 오�
 
 즉 **기능이 쏟아지는 2026.9.x 라인과는 별개로, 보수적으로 관리되는 LTS 트랙이 2.0 세대의 안정 기준점으로 갈아탄 것**입니다. 참고로 이번 시점까지 GitHub Releases 페이지에는 v2026.8.33의 별도 릴리스 노트가 아직 올라오지 않았고, **npm 배포가 먼저 이뤄진 상태**였습니다. 확장 안정판은 원래 배포 경로가 npm/플러그인 중심이라, 실사용자는 npm 태그를 기준으로 보는 게 정확합니다.
 
-![OpenClaw 공식 릴리스 노트 페이지 대표 이미지 — 릴리스 노트·체인지로그·기여 기록](/assets/images/posts/openclaw-extended-stable-2026833-lts-20260929/openclaw-releases-docs-og.png)
+![OpenClaw 공식 릴리스 노트 페이지 대표 이미지 — 릴리스 노트·체인지로그·기여 기록](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openclaw-extended-stable-2026833-lts-20260929/openclaw-releases-docs-og.png)
 *OpenClaw 공식 릴리스 노트 페이지 — 확장 안정판을 포함한 모든 릴리스 체인지로그와 기여 기록을 제공합니다 (출처: docs.openclaw.ai/releases, 2026.9.29)*
 
 ---
@@ -131,7 +131,7 @@ description: "2026년 9월 28일 22:37 UTC(한국시간 9월 29일 07:37), 오�
 - 두 트랙을 섞어 쓰는 게 실질적으로 유리합니다. **핵심 업무 파이프라인은 extended-stable, 실험용은 latest.** 저도 이 구조로 돌리고 있습니다.
 - 업데이트는 **한 대씩, 순차적으로.** 한 번에 다 올리면 문제 원인을 못 찾습니다.
 
-![OpenClaw GitHub 공식 저장소 대표 이미지](/assets/images/posts/openclaw-extended-stable-2026833-lts-20260929/openclaw-github-repo-og.png)
+![OpenClaw GitHub 공식 저장소 대표 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openclaw-extended-stable-2026833-lts-20260929/openclaw-github-repo-og.png)
 *OpenClaw GitHub 공식 저장소 — "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞" (출처: github.com/openclaw/openclaw)*
 
 ---

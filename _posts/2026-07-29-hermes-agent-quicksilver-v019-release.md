@@ -4,7 +4,7 @@ title: "Hermes Agent v0.19.0 퀵실버(Quicksilver) 출시! 80% 빨라진 AI 에
 date: 2026-07-29 10:00:00 +0900
 categories: [tech]
 tags: [HermesAgent, NousResearch, AI에이전트, Quicksilver, v0.19.0, 오픈소스, AI업데이트]
-image: /assets/images/posts/hermes-quicksilver/hermes-banner.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-quicksilver/hermes-banner.png
 ---
 
 요즘 저처럼 AI 에이전트에 관심 많으신 분들, Hermes Agent 들어보셨죠? Nous Research에서 만든 이 오픈소스 AI 에이전트가 **v0.19.0 퀵실버(Quicksilver) 릴리즈**를 7월 20일에 쏘아올렸습니다.
@@ -13,7 +13,7 @@ image: /assets/images/posts/hermes-quicksilver/hermes-banner.png
 
 직접 써보며 느낀 변화와 핵심 기능들을 정리해봤습니다.
 
-![Hermes Agent 데스크톱 앱 화면](/assets/images/posts/hermes-quicksilver/desktop-showcase.webp)
+![Hermes Agent 데스크톱 앱 화면](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-quicksilver/desktop-showcase.webp)
 *Hermes Agent 데스크톱 앱 — v0.19.0부터 더 빨라진 UI와 실시간 스트리밍*
 
 ---

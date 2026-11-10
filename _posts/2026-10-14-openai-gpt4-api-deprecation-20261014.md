@@ -5,13 +5,13 @@ date: 2026-10-14 14:56:00 +0900
 categories: [career]
 tags: [OpenAI, GPT, GPT-4o, GPT4.1, API종료, 디프리케이션, gpt-6-luna, OpenAIAPI, 마이그레이션, 파인튜닝, 개발자, 업무자동화, AI뉴스, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/openai-gpt4-api-deprecation-20261014/openai-wordmark-2025-wikimedia.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-gpt4-api-deprecation-20261014/openai-wordmark-2025-wikimedia.png
 description: "2026년 10월 14일 OpenAI API 디프리케이션 페이지에 GPT-4o(2024-08-06·2024-11-20), GPT-4o mini(2024-07-18), GPT-4.1(2025-04-14), GPT-4.1 mini(2025-04-14)가 2027년 1월 14일 API에서 제거된다고 공지됐습니다. 파인튜닝 버전도 같은 일정으로 종료되며, 네 모델 모두의 권장 대체 모델은 gpt-6-luna입니다. 가격은 100만 토큰당 입력 0.10달러·출력 0.50달러로, GPT-4o의 2.50달러·10달러 대비 크게 낮습니다. 공지 내용과 상세 분석, 개발자·사용자 영향, 전망을 정리했습니다."
 ---
 
 > **📌 한줄 요약:** 2026년 **10월 14일, OpenAI API 디프리케이션 페이지**에 **GPT-4o·GPT-4o mini·GPT-4.1·GPT-4.1 mini**가 **2027년 1월 14일자로 API에서 제거**된다는 공지가 올라왔습니다. 넷 다 **권장 대체 모델은 gpt-6-luna** 하나로 통일됐고, **파인튜닝 버전도 원본 모델과 같은 날 함께 종료**됩니다. 가격은 100만 토큰당 **입력 0.10달러·출력 0.50달러**(gpt-6-luna)로, GPT-4o의 **2.50달러·10달러**와 비교하면 **입력 기준 25분의 1 수준**입니다. 이제 남은 시간은 약 3개월입니다.
 
-![OpenAI 워드마크 (출처: Wikimedia Commons, 퍼블릭 도메인)](/assets/images/posts/openai-gpt4-api-deprecation-20261014/openai-wordmark-2025-wikimedia.png)
+![OpenAI 워드마크 (출처: Wikimedia Commons, 퍼블릭 도메인)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-gpt4-api-deprecation-20261014/openai-wordmark-2025-wikimedia.png)
 *OpenAI 워드마크 (출처: Wikimedia Commons, 퍼블릭 도메인)*
 
 API 위에서 서비스를 굴리는 분들이라면, 모델 하나가 사라지는 공지가 **"나중에 정리해야지" 목록에 들어가는 일**이 얼마나 무서운지 아실 겁니다. 특히 **오래된 모델을 그대로 붙여둔 자동화 파이프라인**은 공지가 뜬 시점에는 아무 증상이 없다가, **종료일 다음 날 아침에 조용히 죽어 있는** 경우가 많습니다. 이번 공지는 그 시계를 다시 돌려놓았습니다.
@@ -33,7 +33,7 @@ OpenAI의 API 디프리케이션 페이지에는 **2026-10-14: GPT-4 series mode
 
 공식 문서에 함께 적힌 한 줄이 실무에서 가장 중요합니다. **"이 모델들의 파인튜닝 버전은 원본 모델과 동일한 종료 일정을 따릅니다."** 즉 **베이스 모델만 교체하면 되는 게 아니라, 그 위에 올려둔 파인튜닝 모델까지 같이 재학습**해야 합니다.
 
-![OpenAI 아이콘을 든 사용자 (출처: Wikimedia Commons, CC BY 4.0)](/assets/images/posts/openai-gpt4-api-deprecation-20261014/openai-icon-person-wikimedia.jpg)
+![OpenAI 아이콘을 든 사용자 (출처: Wikimedia Commons, CC BY 4.0)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-gpt4-api-deprecation-20261014/openai-icon-person-wikimedia.jpg)
 *OpenAI 아이콘을 든 사용자 (출처: Wikimedia Commons, CC BY 4.0)*
 
 ---

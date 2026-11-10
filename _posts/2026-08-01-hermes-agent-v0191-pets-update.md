@@ -5,7 +5,7 @@ date: 2026-08-01 09:20:00 +0900
 categories: [career]
 tags: [HermesAgent, NousResearch, AI에이전트, 오픈소스, v0.19.1, Petdex, 펫마스코트, AI업데이트, 커리어]
 author: "40대 블로거"
-image: /assets/images/posts/hermes-agent-v0191-2026/hermes-mascot.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-agent-v0191-2026/hermes-mascot.png
 description: "2026년 8월 1일 기준 Hermes Agent 최신 소식 정리. 7월 30일 v0.19.1 패치 릴리즈(약 1,000+ PR 반영, 게이트웨이·음성·데스크톱·인스톨러 버그픽스)와 3,200종 이상의 애니메이션 펫 마스코트(Petdex) 기능을 소개하고, 실제 사용 관점의 장단점과 업데이트 방법을 정리합니다."
 ---
 
@@ -13,14 +13,14 @@ description: "2026년 8월 1일 기준 Hermes Agent 최신 소식 정리. 7월 3
 
 바로 **펫(Pet) 마스코트 기능**이에요. 에이전트가 일하는 모습을 옆에서 지켜봐 주는 애니메이션 캐릭터인데, 이게 생각보다 귀엽고 유용해서 오늘 한 자리에 정리해봤습니다.
 
-![Hermes Agent 공식 마스코트](/assets/images/posts/hermes-agent-v0191-2026/hermes-mascot.png)
+![Hermes Agent 공식 마스코트](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-agent-v0191-2026/hermes-mascot.png)
 *Hermes Agent — Nous Research가 만든 자기학습형 오픈소스 AI 에이전트 (출처: 공식 GitHub 저장소)*
 
 ---
 
 ## 🏆 Hermes Agent, 지금 어디까지 왔나?
 
-![Hermes Agent 공식 배너](/assets/images/posts/hermes-agent-v0191-2026/hermes-banner.png)
+![Hermes Agent 공식 배너](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-agent-v0191-2026/hermes-banner.png)
 *Hermes Agent — 2026년 2월 첫 릴리즈 이후 가장 빠르게 성장한 오픈소스 AI 에이전트 (출처: 공식 GitHub 저장소)*
 
 2026년 2월 25일 첫 릴리즈 이후 불과 5개월 만에 **GitHub 스타 180,000개를 돌파**했습니다. 해외 IT 미디어 디크립트(Decrypt)도 "에이전트가 이제 펫까지 키운다"며 기능을 소개할 만큼 커뮤니티 반응이 뜨거운데요.
@@ -81,7 +81,7 @@ hermes doctor
 
 이번에 가장 재미있게 본 기능입니다. Hermes가 이제 **애니메이션 펫 마스코트**를 보여줄 수 있어요. CLI, TUI, 데스크톱 앱 어디서든 에이전트 옆에서 캐릭터가 살아 움직입니다.
 
-![Hermes 펫 스프라이트 시트](/assets/images/posts/hermes-agent-v0191-2026/hermes-pet-sprite.png)
+![Hermes 펫 스프라이트 시트](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-agent-v0191-2026/hermes-pet-sprite.png)
 *공식 저장소에 포함된 Hermes 펫 스프라이트 — 상태별 애니메이션이 시트로 구성됨 (출처: 공식 GitHub 저장소)*
 
 ### 펫이 "일하는 모습"을 보여줍니다
@@ -98,7 +98,7 @@ hermes doctor
 | 승인 대기(사용자 차단) | ⏳ `waiting` |
 | 아무것도 안 함 | 😴 `idle` |
 
-![Hermes 펫 애니메이션 프레임](/assets/images/posts/hermes-agent-v0191-2026/hermes-pet-frame.png)
+![Hermes 펫 애니메이션 프레임](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-agent-v0191-2026/hermes-pet-frame.png)
 *펫 애니메이션 프레임 예시 — 작업 성공 시 점프하며 축하하는 모션 (출처: 공식 GitHub 저장소)*
 
 ### 왜 유용한가?
@@ -129,7 +129,7 @@ hermes pets scale 0.5
 hermes pets off
 ```
 
-![Petdex 갤러리 — Hermes Agent 카드](/assets/images/posts/hermes-agent-v0191-2026/petdex-hermes-card.webp)
+![Petdex 갤러리 — Hermes Agent 카드](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-agent-v0191-2026/petdex-hermes-card.webp)
 *Petdex — Hermes 공식 문서가 참조하는 공개 펫 갤러리 (출처: crafter-station/petdex 공식 저장소)*
 
 펫은 공개 갤러리 **Petdex**에서 가져옵니다. 커뮤니티에서 만든 3,200종 이상의 캐릭터가 등록되어 있어서, 취향에 맞는 걸 골라 설치하면 됩니다. 프로필별로 각자 다른 펫을 키울 수 있어요.

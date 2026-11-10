@@ -5,11 +5,11 @@ date: 2026-10-11 15:55:00 +0900
 categories: [career]
 tags: [Google Gemini, 구글 제미나이, Gemini 4, 제미나이4, Gemini 4 Carbon, 카본, Gemini 4 Argon, 아르곤, Jetski, 젯스키, 구글 내부 테스트, 코딩 성능, Claude Opus 5.5, 오퍼스5.5, 프론티어 모델, Google DeepMind, 구글 딥마인드, Business Insider, 업무자동화, AI뉴스, 2026년 10월]
 author: "40대 블로거"
-image: /assets/images/posts/gemini-4-carbon-internal-test-20261010/gemini-4-keyart-official.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-4-carbon-internal-test-20261010/gemini-4-keyart-official.png
 description: "2026년 10월 9일(미국 현지시간), 미국 매체 비즈니스 인사이더가 구글 사내에서 차세대 플래그십 '제미나이 4(아르곤)'의 후속 모델 '카본(Carbon)'을 내부 테스트 중이라고 보도했습니다. 카본은 구글 내부 코딩 플랫폼 '젯스키(Jetski)'에 최근 풀렸고, 한 직원은 코딩에서 앤트로픽의 최상위 모델 '클로드 오퍼스 5.5'급이라는 평가를 내렸습니다(추가 검증 필요 단서). 구글은 내부 코드명과 공개명이 달라 카본의 공개명·출시일은 미정이며, 구글은 논평을 거부했습니다. 이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망 순으로 정리했습니다."
 ---
 
-![Google Gemini 4 공식 키아트 — '차세대 프론티어 인텔리전스'](/assets/images/posts/gemini-4-carbon-internal-test-20261010/gemini-4-keyart-official.png)
+![Google Gemini 4 공식 키아트 — '차세대 프론티어 인텔리전스'](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-4-carbon-internal-test-20261010/gemini-4-keyart-official.png)
 *구글 공식 블로그가 공개한 Gemini 4(아르곤) 키아트 (출처: Google 공식 블로그)*
 
 > **📌 한줄 요약:** **2026년 10월 9일(미국 현지시간)**, 미국 매체 **비즈니스 인사이더(Business Insider)** 가 구글 사내에서 차세대 플래그십 **'제미나이 4(아르곤)'의 후속 체크포인트 모델 '카본(Carbon)'** 을 **내부 테스트 중**이라고 단독 보도했습니다. 카본은 구글 내부 코딩 플랫폼 **'젯스키(Jetski)'** 에 최근 풀렸고, 한 직원은 코딩에서 앤트로픽의 최상위 모델 **'클로드 오퍼스 5.5'급**이라는 평가를 내렸습니다(단, 추가 검증이 필요하다는 단서를 붙였습니다). 구글은 **내부 코드명과 공개명이 달라서** 카본의 **공개명·출시일은 미정**이며, **구글은 논평을 거부**했습니다.
@@ -44,7 +44,7 @@ description: "2026년 10월 9일(미국 현지시간), 미국 매체 비즈니�
 
 카본이 올라온 **젯스키**는 구글이 내부에서 코드 생성·검증에 쓰는 플랫폼입니다. 새 모델을 **사내 개발 업무에 먼저 투입해 반응을 보는** 구글의 관행이 드러나는 대목입니다. 실제로 구글은 아르곤도 **데이터센터 메모리 최적화 같은 내부 작업**에 먼저 써 봤다고 밝힌 바 있습니다. 즉 **"내부 실사용 → 외부 공개"** 순서가 자리 잡은 셈입니다.
 
-![구글 딥마인드 런던 사무실이 있는 6 Pancras Square 건물 외관](/assets/images/posts/gemini-4-carbon-internal-test-20261010/google-deepmind-hq-wikimedia.jpg)
+![구글 딥마인드 런던 사무실이 있는 6 Pancras Square 건물 외관](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-4-carbon-internal-test-20261010/google-deepmind-hq-wikimedia.jpg)
 *런던 6 Pancras Square — 구글 및 자회사 구글 딥마인드가 위치한 건물 외관 (출처: Wikimedia Commons)*
 
 ## 📉 영향 — 사용자·개발자에게 뭐가 달라지나

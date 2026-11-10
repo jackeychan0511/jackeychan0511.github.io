@@ -5,13 +5,13 @@ date: 2026-08-27 12:00:00 +0900
 categories: [products]
 tags: [폴더블아이폰, 아이폰울트라, 아이폰18프로, 애플이벤트, SurpriseAndShine, 존터너스, 아이폰폴드, 스마트폰추천, IT뉴스, 애플]
 author: "40대 블로거"
-image: /assets/images/posts/apple-september-event-foldable-iphone-20260827/apple-event-invite.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/apple-september-event-foldable-iphone-20260827/apple-event-invite.jpg
 description: "애플이 8/27(한국시간) 9월 9일 신제품 이벤트 'Surprise and Shine' 초대장을 공식 발송했습니다. 2017년 아이폰X 이후 가장 큰 변화로 꼽히는 첫 폴더블 아이폰(아이폰 울트라 가칭)과 아이폰18 프로 공개가 유력한데요. 공개 일정·예상 스펙·가격 루머(2000달러대)·시청 방법까지 한 번에 정리했습니다."
 ---
 
 요즘 저처럼 **"폴더블 폰은 탐나는데, 갤럭시 Z 폴드 가격표를 보면 고개가 저절로 숙여지는 분들"**, 많으시죠? 저도 Z 폴드 시리즈를 만져볼 때마다 "이건 사고 싶다"와 "이건 너무 비싸다" 사이에서 매번 줄다리기를 했거든요. 그런데 오늘(8/27) 아침, 드디어 **애플이 첫 폴더블 아이폰을 공개한다는 초대장**을 공식 발송했습니다. 2017년 아이폰X 이후 가장 큰 변화라던 그 제품, 이제 두 손 꼽아 기다리면 됩니다.
 
-![애플 9월 9일 이벤트 공식 초대장 (Surprise and Shine)](/assets/images/posts/apple-september-event-foldable-iphone-20260827/apple-event-invite.jpg)
+![애플 9월 9일 이벤트 공식 초대장 (Surprise and Shine)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/apple-september-event-foldable-iphone-20260827/apple-event-invite.jpg)
 *▲ 애플 9/9 이벤트 'Surprise and Shine' 공식 초대장 (출처: Apple, 머니투데이 기사 게재 이미지, 확인일: 2026.08.27)*
 
 > **📌 한줄 요약:** 애플이 **9월 9일(수) 오전 10시(PT)** — 한국시간으로 **9월 10일(목) 새벽 2시** — 애플파크에서 신제품 이벤트 **'Surprise and Shine'**을 개최합니다. 외신들은 이 자리에서 **애플 최초의 폴더블 아이폰(아이폰 울트라·가칭)**과 **아이폰18 프로/프로 맥스**가 공개될 것으로 전망하고 있어요. 기본형 아이폰18은 내년 봄으로 미뤄지는 '사상 첫 분할 출시'도 점쳐집니다.
@@ -32,7 +32,7 @@ description: "애플이 8/27(한국시간) 9월 9일 신제품 이벤트 'Surpri
 
 ## 2. 공개 예정 제품 — 폴더블 아이폰 + 아이폰18 프로
 
-![폴더블 아이폰(아이폰 울트라) 유출 렌더 이미지](/assets/images/posts/apple-september-event-foldable-iphone-20260827/iphone-fold-render.jpg)
+![폴더블 아이폰(아이폰 울트라) 유출 렌더 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/apple-september-event-foldable-iphone-20260827/iphone-fold-render.jpg)
 *▲ 폴더블 아이폰(아이폰 울트라·가칭)으로 알려진 유출 렌더 (출처: MacRumors, 확인일: 2026.08.27)*
 
 - **폴더블 아이폰 (아이폰 울트라·가칭)**: 애플 첫 폴더블. 삼성전자가 7년간 쌓아온 폴더블 아성에 정면 도전장을 내민다는 점에서 업계 관심이 가장 큽니다. '아이폰 울트라'라는 이름이 유력하게 거론되지만, '아이폰 폴드' 등 정식 명칭은 행사에서 확인해야 합니다.
@@ -59,7 +59,7 @@ description: "애플이 8/27(한국시간) 9월 9일 신제품 이벤트 'Surpri
 
 ## 4. 실제 사용감 포인트 — 폴더블을 기다려온 입장에서
 
-![폴더블 아이폰 더미(목업) 모델 실사](/assets/images/posts/apple-september-event-foldable-iphone-20260827/iphone-fold-dummy.jpg)
+![폴더블 아이폰 더미(목업) 모델 실사](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/apple-september-event-foldable-iphone-20260827/iphone-fold-dummy.jpg)
 *▲ 유출된 폴더블 아이폰 더미 모델 실사 — 실물 비율을 가늠할 수 있는 사진 (출처: MacRumors/Sonny Dickson, 확인일: 2026.08.27)*
 
 갤럭시 Z 폴드를 몇 대 써본 입장에서, 폴더블의 사용감은 "대화면의 자유로움" 하나로 요약됩니다. 회의 자료를 접은 화면으로 보다가 펼쳐서 문서 비교하고, 지하철에서 영상 볼 때는 거의 태블릿급 화면을 쓰는 느낌이거든요. 애플 생태계(아이패드·맥 연동)를 쓰는 분들이라면 이 경험이 아이폰에서도 이어지는 순간, 다시는 일반 바(bar)형 폰으로 못 돌아갈 수도 있습니다.
@@ -82,7 +82,7 @@ description: "애플이 8/27(한국시간) 9월 9일 신제품 이벤트 'Surpri
 
 ## 7. 구매 팁 — 9/9 이벤트부터 사전예약까지
 
-![애플 이벤트 공식 페이지](/assets/images/posts/apple-september-event-foldable-iphone-20260827/apple-events-page.png)
+![애플 이벤트 공식 페이지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/apple-september-event-foldable-iphone-20260827/apple-events-page.png)
 *▲ 애플 공식 이벤트 페이지 대표 이미지 — 생중계와 다시보기가 여기서 제공됩니다 (출처: apple.com, 확인일: 2026.08.27)*
 
 1. **9월 10일(목) 새벽 2시, 알람 맞춰두세요**: 한국시간 새벽이라 피곤하지만, 폴더블 아이폰 실물 공개는 놓치기 아깝습니다. 애플 이벤트 페이지나 유튜브에서 생중계되니, 출근 전에 다시보기로 확인해도 됩니다.

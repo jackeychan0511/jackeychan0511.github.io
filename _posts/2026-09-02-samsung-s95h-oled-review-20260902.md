@@ -5,11 +5,11 @@ date: 2026-09-02 12:00:00 +0900
 categories: [products]
 tags: [삼성, 삼성전자, S95H, OLED, QD-OLED, OLED TV, TV추천, NQ4, AI업스케일링, 글레어프리, 무반사, 165Hz, 게이밍TV, 삼성비전AI, 와이어리스원박스, RTINGS, 컨슈머리포트, 포브스, WhatHiFi, 2026년9월]
 author: "40대 블로거"
-image: /assets/images/posts/samsung-s95h-oled-20260902/samsung-s95h-hero-77.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/samsung-s95h-oled-20260902/samsung-s95h-hero-77.jpg
 description: "요즘 저처럼 '밝은 거실에서도 반사 없는 OLED TV'를 찾으시는 분들 많으시죠? 2026년형 삼성 플래그십 QD-OLED TV 'S95H'가 올해 OLED 시장의 기준이 되고 있습니다. RTINGS는 '현재 살 수 있는 최고의 TV', PCMag는 '우리가 테스트한 OLED 중 가장 밝고 빠르고 기능이 풍부한 TV'라고 평가했고, 미국 컨슈머리포트에서는 77형 91점(70형 이상 1위)·55형 90점(55~60형 1위)을 기록했습니다. 포브스는 '다른 TV들이 넘어야 할 독보적 기준'이라고까지 표현했어요. 이 글에서는 S95H의 핵심 기능(NQ4 AI Gen3 프로세서·글레어프리 무반사·와이어리스 원박스·165Hz 게이밍), 실제 리뷰어들의 사용감, 솔직한 장단점, 그리고 55/65/77/83인치별 패널 차이와 구매 팁까지 정리했습니다. 이미지는 삼성전자 공식 홈페이지와 RTINGS, 국내 커뮤니티 DVDPrime의 실제 사진입니다."
 ---
 
-![삼성 S95H 77형 공식 제품 이미지](/assets/images/posts/samsung-s95h-oled-20260902/samsung-s95h-hero-77.jpg)
+![삼성 S95H 77형 공식 제품 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/samsung-s95h-oled-20260902/samsung-s95h-hero-77.jpg)
 *삼성 S95H 77형 — 2026년형 플래그십 QD-OLED TV 공식 제품 이미지 (출처: 삼성전자 미국 공식 홈페이지)*
 
 > **📌 한줄 요약:** 요즘 저처럼 **"거실이 밝아서 OLED 반사가 신경 쓰이시는 분들"** 많으시죠? 2026년형 삼성 플래그십 **S95H**가 올해 OLED TV 시장의 기준이 되고 있습니다. RTINGS는 **"현재 살 수 있는 최고의 TV"**, PCMag는 **"테스트한 OLED 중 가장 밝고 빠르고 기능이 풍부한 TV"**, 미국 컨슈머리포트는 **77형 91점·55형 90점으로 각각 1위**, 포브스는 **"다른 TV들이 넘어야 할 독보적 기준"**이라고 평가했습니다. 핵심은 **QD-OLED 패널 + NQ4 AI Gen3 프로세서 + 글레어프리(무반사) + 와이어리스 원박스 + 165Hz 게이밍**입니다. 미국 65인치 기준 약 3,400달러(한화 약 450만 원 안팎)의 프리미엄 가격이지만, **"올해 TV는 이게 기준"**이라고 해도 과언이 아닌 제품입니다.
@@ -54,7 +54,7 @@ description: "요즘 저처럼 '밝은 거실에서도 반사 없는 OLED TV'를
 
 핵심은 **"QD-OLED의 색 표현 + AI 프로세서의 업스케일링 + 무반사 코팅"**이라는 삼박자가 한 제품에 다 들어갔다는 점입니다. 이게 왜 중요한지는 다음 항목에서 풀어드릴게요.
 
-![삼성 S95H 65형 라이프스타일 공식 이미지](/assets/images/posts/samsung-s95h-oled-20260902/samsung-s95h-lifestyle-65.jpg)
+![삼성 S95H 65형 라이프스타일 공식 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/samsung-s95h-oled-20260902/samsung-s95h-lifestyle-65.jpg)
 *삼성 S95H 65형 라이프스타일 공식 이미지 — 슬림한 디자인과 스탠드가 강조된 제품 사진 (출처: 삼성전자 미국 공식 홈페이지)*
 
 ---
@@ -81,7 +81,7 @@ S95H는 **별도의 원박스(One Box)에 모든 포트를 몰아 넣고, TV 본
 
 S95H는 **165Hz 고주사율 + 낮은 입력지연**을 지원합니다. PCMag는 **"우리가 테스트한 OLED TV 중 가장 밝고 빠르고 기능이 풍부하다"**며 **클래스 최고 화질과 최저 입력지연**을 꼽았어요. PS5·Xbox는 120Hz까지, PC 게이머는 165Hz까지 활용할 수 있습니다. HDMI 포트도 4개라 게임기+사운드바+셋톱박스 동시 연결이 넉넉합니다.
 
-![RTINGS.com의 S95H 디자인 이미지](/assets/images/posts/samsung-s95h-oled-20260902/rtings-s95h-design.jpg)
+![RTINGS.com의 S95H 디자인 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/samsung-s95h-oled-20260902/rtings-s95h-design.jpg)
 *RTINGS.com이 "현재 살 수 있는 최고의 TV"로 평가한 S95H (출처: RTINGS.com 공식 리뷰)*
 
 ---
@@ -108,7 +108,7 @@ PCMag 리뷰 제목 자체가 **"The Brightest, Fastest, and Most Feature-Packed
 
 What Hi-Fi는 2026년 8월 최고의 OLED TV를 선정하며 S95H를 **"OLED의 왕(king of OLED)"**이라고 불렀습니다. 최대 밝기 **약 2,700니트** 수준의 QD-OLED 성능을 높이 샀습니다.
 
-![국내 커뮤니티에 올라온 S95H 실물 사진](/assets/images/posts/samsung-s95h-oled-20260902/dvdprime-s95h-review.jpg)
+![국내 커뮤니티에 올라온 S95H 실물 사진](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/samsung-s95h-oled-20260902/dvdprime-s95h-review.jpg)
 *국내 커뮤니티 DVDPrime S95H 리뷰 게시글에 올라온 실물 사진 (출처: DVDPrime, 2026.6)*
 
 ---

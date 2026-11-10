@@ -5,11 +5,11 @@ date: 2026-09-22 15:52:00 +0900
 categories: [career]
 tags: [Google Gemini, 구글북, Googlebook, Gemini Intelligence, 매직 포인터, Magic Pointer, 램블러, Rambler, 온디바이스 제미나이, AI 노트북, AI PC, 구글 AI 프로, 안드로이드 노트북, 업무자동화, 2026년 9월]
 author: "40대 블로거"
-image: /assets/images/posts/googlebook-gemini-preorder-20260921/googlebook-official-hero.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/googlebook-gemini-preorder-20260921/googlebook-official-hero.jpg
 description: "2026년 9월 21일(현지시간) Google이 Gemini Intelligence를 전면에 세운 새 노트북 카테고리 'Googlebook'의 사전예약을 열었습니다. 시작가 $899, Acer·ASUS·Dell·HP·Lenovo 5개사 모델, 10월 4일 첫 출하입니다. 포인터를 흔들면 Gemini가 깨어나는 Magic Pointer, 군더더기를 지워주는 받아쓰기 Rambler, 설명만 하면 위젯을 만들어주는 Create My Widget, 노트북을 닫아도 돌아가는 Gemini 앱 에이전트까지 — 온디바이스 Gemini가 들어간 첫 대중형 노트북입니다. 모든 모델에 12개월 Google AI Pro(5TB 저장공간 + Gemini Advanced)가 포함되고, 최대 10년 업데이트가 예고됐습니다. 이슈 요약과 상세 분석, 사용자·개발자 영향, 솔직한 장단점, 구매 팁을 정리했습니다. 이미지는 Google 공식 홈페이지 및 Google 공식 블로그 이미지입니다."
 ---
 
-![Googlebook 공식 이미지 — Gemini Intelligence를 위해 처음부터 설계된 노트북 (출처: googlebook.google 공식 홈페이지)](/assets/images/posts/googlebook-gemini-preorder-20260921/googlebook-official-hero.jpg)
+![Googlebook 공식 이미지 — Gemini Intelligence를 위해 처음부터 설계된 노트북 (출처: googlebook.google 공식 홈페이지)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/googlebook-gemini-preorder-20260921/googlebook-official-hero.jpg)
 *Googlebook 공식 이미지 — Google이 "Gemini Intelligence를 위해 설계된 첫 노트북"이라고 소개한 신규 카테고리입니다 (출처: googlebook.google 공식 홈페이지)*
 
 > **📌 한줄 요약:** 요즘 저처럼 **노트북에서 AI를 "브라우저 탭 하나"로만 쓰고 있는 분들** 많으시죠. 9월 21일(현지시간) Google이 **$899부터 시작하는 Gemini 전용 노트북 'Googlebook'의 사전예약을 열었습니다.** 포인터를 흔들면 Gemini가 깨어나는 **Magic Pointer**, 말한 내용의 군더더기를 지워주는 **Rambler**, 설명만 하면 위젯이 되는 **Create My Widget**까지 — **온디바이스 Gemini**가 OS 레벨에 들어간 첫 대중형 노트북입니다. **Acer·ASUS·Dell·HP·Lenovo 5개사** 모델, **10월 4일 첫 출하**, 모든 모델에 **12개월 Google AI Pro(5TB + Gemini Advanced)** 포함입니다.
@@ -55,7 +55,7 @@ Google은 9월 21일(월) **Googlebook 사전예약을 공식 오픈**했습니�
 
 중요한 건 이 동작이 **온디바이스 AI 처리를 전제로 설계됐다**는 점입니다. 포인터를 흔들 때마다 서버 왕복이 일어나면 쓸 수 없으니, 반응성 자체가 로컬 추론에 걸려 있습니다. 데스크톱에서 AI를 "앱 실행 → 프롬프트 입력"으로 쓰던 흐름이 **커서 제스처 한 번**으로 줄어드는 셈입니다.
 
-![Magic Pointer 공식 이미지 — 포인터를 흔들어 Gemini를 호출하고 화면 요소를 바로 선택합니다 (출처: blog.google 공식 블로그)](/assets/images/posts/googlebook-gemini-preorder-20260921/googlebook-magic-pointer.jpg)
+![Magic Pointer 공식 이미지 — 포인터를 흔들어 Gemini를 호출하고 화면 요소를 바로 선택합니다 (출처: blog.google 공식 블로그)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/googlebook-gemini-preorder-20260921/googlebook-magic-pointer.jpg)
 *Magic Pointer 공식 이미지 — "당신의 포인터가 이제 마법봉입니다"라는 설명 그대로, 커서가 AI 호출 버튼이 됩니다 (출처: blog.google Googlebook 공식 포스트)*
 
 ### 2-2. Rambler — 받아쓰기의 "정리"를 AI가 맡는다
@@ -68,7 +68,7 @@ Google은 9월 21일(월) **Googlebook 사전예약을 공식 오픈**했습니�
 
 Google 공식 설명에 따르면 **노트북을 닫은 상태에서도 Gemini 앱의 에이전트가 할 일을 처리**합니다. 여기에 화면에 보이는 내용을 바탕으로 **다음 행동을 먼저 제안하는 프로액티브 제안**, 파일명이 아니라 **내용으로 파일·사진을 찾는 검색**, "Hey Google"로 시작하는 **Gemini Live** 대화가 더해집니다.
 
-![Gemini Intelligence 소개 이미지 — 에이전트·프로액티브 제안·스마트 파일 검색이 OS에 녹아 있습니다 (출처: googlebook.google 공식 홈페이지)](/assets/images/posts/googlebook-gemini-preorder-20260921/googlebook-intelligence-os.jpg)
+![Gemini Intelligence 소개 이미지 — 에이전트·프로액티브 제안·스마트 파일 검색이 OS에 녹아 있습니다 (출처: googlebook.google 공식 홈페이지)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/googlebook-gemini-preorder-20260921/googlebook-intelligence-os.jpg)
 *Gemini Intelligence 소개 이미지 — "Gemini의 최고가 완전히 새로운 종류의 노트북을 만난다"는 카피가 이 제품의 정체성입니다 (출처: googlebook.google 공식 홈페이지)*
 
 ### 2-4. 하드웨어와 폼팩터

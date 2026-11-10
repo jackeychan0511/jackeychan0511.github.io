@@ -5,7 +5,7 @@ date: 2026-09-24 12:00:00 +0900
 categories: [education]
 tags: [생각하는황소, 황소수학, 개인정보유출, 해킹, 초등수학, 사고력수학, 최선어학원, DYB교육, 개인정보보호위원회, 보이스피싱]
 author: "40대 블로거"
-image: /assets/images/posts/thinkingbull-hack-notice-20260923/01-thinkingbull-notice-capture.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/thinkingbull-hack-notice-20260923/01-thinkingbull-notice-capture.jpg
 description: "생각하는황소가 9월 18일 공식 홈페이지에 '시험예약 사이트 해킹에 의한 개인정보 유출 고지'를 게시했습니다. 9월 17일 시험 예약 사이트에 정체불명의 해커가 침입해 학생 이름·학교·학년·생년월일과 학부모 전화번호가 유출됐을 가능성이 높은 상황이며, 개인정보보호위원회는 사실관계를 파악 중입니다. 학원은 보이스피싱 주의를 당부했습니다."
 ---
 
@@ -13,7 +13,7 @@ description: "생각하는황소가 9월 18일 공식 홈페이지에 '시험예
 
 전국 80여 개 지점을 운영하는 초등 수학학원 **생각하는황소**의 시험 예약 사이트가 해킹 공격을 받았습니다. 시험을 예약한 이력이 있는 **모든 학생과 학부모의 개인정보가 유출됐을 가능성이 높은 상황**이라는 것이 본사가 직접 밝힌 입장입니다. 학부모 입장에서는 자녀의 이름·학교·학년·생년월일에 본인 연락처까지 연결된 정보가 새 나갔을 수 있어, 단순한 사이트 장애와는 차원이 다른 사안입니다.
 
-![생각하는황소 공식 공지 원문 캡처](/assets/images/posts/thinkingbull-hack-notice-20260923/01-thinkingbull-notice-capture.jpg)
+![생각하는황소 공식 공지 원문 캡처](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/thinkingbull-hack-notice-20260923/01-thinkingbull-notice-capture.jpg)
 *출처: 생각하는황소 공식 홈페이지 공지사항 (2026.9.18 게시) — '시험예약 사이트 해킹에 의한 개인정보 유출 고지'*
 
 ## 📌 핵심 요약 — 3줄 정리
@@ -35,7 +35,7 @@ description: "생각하는황소가 9월 18일 공식 홈페이지에 '시험예
 
 공지에는 이어지는 조치도 함께 담겼습니다. 해당 사이트를 **임시 폐쇄**하고 **관계 기관에 개인정보 유출 사실을 신고**했으며, 대상 학부모들에게는 **문자로 사고 사실을 안내**했다는 내용입니다. 또한 **경찰 수사 요청을 위한 자료를 준비**하고 있으며, **재발 방지를 위한 모든 조치를 완료한 이후에 운영을 재개**하겠다고 밝혔습니다.
 
-![생각하는황소 공식 홈페이지 공지사항 화면](/assets/images/posts/thinkingbull-hack-notice-20260923/02-thinkingbull-homepage-capture.jpg)
+![생각하는황소 공식 홈페이지 공지사항 화면](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/thinkingbull-hack-notice-20260923/02-thinkingbull-homepage-capture.jpg)
 *출처: 생각하는황소 공식 홈페이지 공지사항 목록 (2026.9.18)*
 
 ## 🔍 유출 가능성이 제기된 개인정보 항목
@@ -62,7 +62,7 @@ description: "생각하는황소가 9월 18일 공식 홈페이지에 '시험예
 
 개인정보보호위원회 관계자는 두 업체(생각하는황소·DYB교육)로부터 **개인정보 유출 신고를 접수했다**며, 구체적인 사고 경위와 피해 규모는 **조사가 끝난 뒤 확인할 수 있다**는 입장을 밝혔습니다. 9월 18일 연합뉴스 보도 시점 기준으로도 개인정보위는 "사실관계를 파악 중"이라고 답했습니다.
 
-![연합뉴스 보도 화면 캡처](/assets/images/posts/thinkingbull-hack-notice-20260923/03-yonhap-hwangso-capture.jpg)
+![연합뉴스 보도 화면 캡처](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/thinkingbull-hack-notice-20260923/03-yonhap-hwangso-capture.jpg)
 *출처: 연합뉴스 (2026.9.18 15:58 보도) — '수학학원 생각하는황소 해킹…학생·학부모 정보 유출 가능성'*
 
 ## ⚠️ 학부모 대응 가이드 — 지금 해야 할 일

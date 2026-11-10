@@ -5,7 +5,7 @@ date: 2026-09-14 11:26:00 +0900
 categories: [products]
 tags: [아이폰 18 프로 맥스, 픽셀 11 프로 XL, iPhone 18 Pro Max, Pixel 11 Pro XL, 플래그십 비교, 가변 조리개, A20 프로, 텐서 G6, iOS 27, Siri AI, Gemini, 안드로이드 17, 2026 스마트폰 추천, 아이폰 가격, 픽셀 가격]
 author: "40대 블로거"
-image: /assets/images/posts/iphone-18-pro-max-vs-pixel-11-pro-xl-20260914/apple-iphone-18-pro-max-hero.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/iphone-18-pro-max-vs-pixel-11-pro-xl-20260914/apple-iphone-18-pro-max-hero.jpg
 description: "2026년 최고의 플래그십 두 대, 아이폰 18 프로 맥스(219만 원부터)와 구글 픽셀 11 프로 XL($1,299)을 비교했습니다. 가변 조리개 48MP 카메라·A20 프로(2nm)·동영상 45시간 대 텐서 G6·120배 줌·5,115mAh·7년 업데이트까지. 디스플레이·성능·카메라·배터리·AI·가격을 표로 정리하고, 솔직한 장단점과 구매 팁까지 담았습니다. 이미지는 애플 공식 뉴스룸과 구글 공식 블로그입니다."
 ---
 
@@ -15,7 +15,7 @@ description: "2026년 최고의 플래그십 두 대, 아이폰 18 프로 맥스
 
 특히 이번 두 대는 서로 정반대로 진화했습니다. 애플은 **카메라에 '조리개'라는 물리적 무기**를 들고 나왔고, 구글은 **AI와 줌, 그리고 업데이트 기간**으로 승부를 겁니다. 아래에서는 **아이폰 18 프로 맥스와 픽셀 11 프로 XL을 스펙·실사용 관점에서 비교**하고, **어떤 분이 어느 쪽을 사야 하는지** 정리해 봤습니다.
 
-![아이폰 18 프로와 프로 맥스 (출처: Apple 공식 뉴스룸 apple.com/newsroom)](/assets/images/posts/iphone-18-pro-max-vs-pixel-11-pro-xl-20260914/apple-iphone-18-pro-max-hero.jpg)
+![아이폰 18 프로와 프로 맥스 (출처: Apple 공식 뉴스룸 apple.com/newsroom)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/iphone-18-pro-max-vs-pixel-11-pro-xl-20260914/apple-iphone-18-pro-max-hero.jpg)
 *아이폰 18 프로 시리즈 — 블랙·실버·글레이셔·버건디 4가지 마감 (출처: Apple 공식 뉴스룸)*
 
 ## 한눈에 보는 결론 — 30초 요약
@@ -34,7 +34,7 @@ description: "2026년 최고의 플래그십 두 대, 아이폰 18 프로 맥스
 
 이게 왜 대단하냐면, **어두우면 조리개를 최대로 열어(ƒ/1.48) 빛을 더 받고, 단체 사진처럼 전체에 초점을 맞추고 싶으면 조리개를 조여(ƒ/4) 심도를 깊게** 만들 수 있기 때문입니다. 해외 리뷰들이 "스마트폰 카메라의 계산 사진을 물리 광학으로 한 발 물린 것"이라고 평한 이유입니다.
 
-![A20 프로 칩과 차세대 베이퍼 챔버 (출처: Apple 공식 뉴스룸 apple.com/newsroom)](/assets/images/posts/iphone-18-pro-max-vs-pixel-11-pro-xl-20260914/apple-a20-pro-chip.jpg)
+![A20 프로 칩과 차세대 베이퍼 챔버 (출처: Apple 공식 뉴스룸 apple.com/newsroom)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/iphone-18-pro-max-vs-pixel-11-pro-xl-20260914/apple-a20-pro-chip.jpg)
 *2nm 공정 A20 프로 칩 + 차세대 베이퍼 챔버 — 발열 관리가 이번 세대 핵심 (출처: Apple 공식 뉴스룸)*
 
 핵심 스펙을 정리하면 이렇습니다.
@@ -49,14 +49,14 @@ description: "2026년 최고의 플래그십 두 대, 아이폰 18 프로 맥스
 
 솔직히 **베이퍼 챔버가 들어온 게 저는 가장 반갑습니다.** 그동안 아이폰 프로는 게임이나 영상 편집을 오래 돌리면 발열로 성능이 떨어지는 게 아쉬웠는데, 애플이 이번엔 "지속 성능"을 전면에 내세웠습니다. 숫자보다 실제 체감이 중요한 부분이라, 실사용 리뷰가 나오면 다시 짚어봐야 할 것 같습니다.
 
-![아이폰 18 프로 4가지 색상 라인업 (출처: Apple 공식 뉴스룸 apple.com/newsroom)](/assets/images/posts/iphone-18-pro-max-vs-pixel-11-pro-xl-20260914/apple-iphone-18-pro-max-colors.jpg)
+![아이폰 18 프로 4가지 색상 라인업 (출처: Apple 공식 뉴스룸 apple.com/newsroom)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/iphone-18-pro-max-vs-pixel-11-pro-xl-20260914/apple-iphone-18-pro-max-colors.jpg)
 *블랙·실버·글레이셔·버건디 — 이번 신규 색은 버건디입니다 (출처: Apple 공식 뉴스룸)*
 
 ## 픽셀 11 프로 XL — AI와 줌, 그리고 '7년' 무기
 
 구글 픽셀 11 프로 XL은 **"구글이 만들 수 있는 가장 똑똑한 폰"** 컨셉을 그대로 밀고 갑니다. 8월 공개된 픽셀 11 라인업의 최상위 모델로, 구글의 자체 칩 **텐서 G6**와 **Gemini**를 앞세웁니다.
 
-![픽셀 11 프로 XL 패밀리 (출처: Google 공식 블로그 blog.google)](/assets/images/posts/iphone-18-pro-max-vs-pixel-11-pro-xl-20260914/pixel-11-pro-xl-family.jpg)
+![픽셀 11 프로 XL 패밀리 (출처: Google 공식 블로그 blog.google)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/iphone-18-pro-max-vs-pixel-11-pro-xl-20260914/pixel-11-pro-xl-family.jpg)
 *픽셀 11 프로 XL — Canyon·Fog·Olive·올매트 Obsidian 4가지 색상 (출처: Google 공식 블로그)*
 
 핵심 스펙은 이렇습니다.
@@ -72,7 +72,7 @@ description: "2026년 최고의 플래그십 두 대, 아이폰 18 프로 맥스
 
 생각보다 실용적인 부분이 **HiLight**입니다. 폰을 엎어놔도 플래시 주변 LED 색으로 누가 전화했는지, Gemini가 듣고 있는지 알 수 있대요. 사소해 보이지만 "화면 안 보고 알림 확인"은 생각보다 자주 쓰게 되는 기능이라 눈에 들어옵니다.
 
-![픽셀 11 프로 시리즈 (출처: Google 스토어 store.google.com)](/assets/images/posts/iphone-18-pro-max-vs-pixel-11-pro-xl-20260914/pixel-11-pro-xl-hero.jpg)
+![픽셀 11 프로 시리즈 (출처: Google 스토어 store.google.com)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/iphone-18-pro-max-vs-pixel-11-pro-xl-20260914/pixel-11-pro-xl-hero.jpg)
 *픽셀 11 프로 — 카메라 바 두께가 전작 대비 40% 얇아져 '덜그럭거림'이 줄었습니다 (출처: Google 스토어)*
 
 ## 아이폰 18 프로 맥스 vs 픽셀 11 프로 XL — 스펙 비교표

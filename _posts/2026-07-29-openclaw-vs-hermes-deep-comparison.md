@@ -4,7 +4,7 @@ title: "OpenClaw vs Hermes Agent 심층 비교 (2026): 345K 스타 vs 110K 스�
 date: 2026-07-29 15:00:00 +0900
 categories: [career]
 tags: [AI에이전트, OpenClaw, HermesAgent, AI도구, 오픈소스AI, AI자동화, 에이전트프레임워크, AI비교, 커리어]
-image: /assets/images/posts/openclaw-vs-hermes/hermes-logo.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openclaw-vs-hermes/hermes-logo.png
 description: "2026년 최고의 오픈소스 AI 에이전트 프레임워크 OpenClaw와 Hermes Agent를 메모리, 스킬, 보안, 비용, 커뮤니티 5개 축에서 심층 비교했습니다. 실제 사용자 데이터와 보안 감사 결과를 바탕으로 나에게 맞는 선택을 정리합니다."
 ---
 
@@ -12,10 +12,10 @@ description: "2026년 최고의 오픈소스 AI 에이전트 프레임워크 Ope
 
 최근 블로그에서 두 도구를 모두 직접 사용해보면서 느낀 점과, 공식 문서·보안 감사·1,300개 이상의 Reddit 댓글 분석을 종합해 **솔직한 비교**를 정리했습니다.
 
-![Hermes Agent 로고](/assets/images/posts/openclaw-vs-hermes/hermes-logo.png)
+![Hermes Agent 로고](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openclaw-vs-hermes/hermes-logo.png)
 *Hermes Agent — Nous Research가 만든 자기개선형 AI 에이전트 (출처: Hermes Agent 공식 문서)*
 
-![OpenClaw 로고](/assets/images/posts/openclaw-vs-hermes/openclaw-logo.png)
+![OpenClaw 로고](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openclaw-vs-hermes/openclaw-logo.png)
 *OpenClaw — 2025년 말 등장, 345K 스타를 돌파한 최대 오픈소스 AI 에이전트 (출처: Wikimedia Commons)*
 
 ---

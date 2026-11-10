@@ -5,12 +5,12 @@ date: 2026-08-15 14:03:00 +0900
 categories: [career]
 tags: [OpenClaw, HermesAgent, ClaudeCode, AI코딩에이전트, AI에이전트, 비교, 개발자도구, 오픈소스AI, NousResearch, Anthropic, 코딩, 선택가이드, 2026년8월]
 author: "40대 블로거"
-image: /assets/images/posts/openclaw-vs-hermes-vs-claude-code-20260815/openclaw-github-og.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openclaw-vs-hermes-vs-claude-code-20260815/openclaw-github-og.png
 description: "2026년 8월, AI 코딩 에이전트 시장은 사실상 OpenClaw·Hermes Agent·Claude Code 3파전으로 정리됩니다. GitHub 스타 386K의 오픈소스 1위 OpenClaw, Nous Research의 자가학습형 에이전트 Hermes Agent(v0.20.0 Herald), 그리고 코딩 에이전트 매출 1위 Claude Code(Auto Mode 기본 전환)까지. 각각의 핵심 기능·가격·장단점을 비교하고, 코딩 성능·자동화·가격·확장성·생태계 5개 항목의 승자 판정과 상황별 추천 기준까지 정리했습니다."
 ---
 > **📌 한줄 요약:** 2026년 8월 현재 **AI 코딩 에이전트 시장은 사실상 '오픈소스 2강 + 상용 1강' 구도**입니다. 메신저 기반 일상 자동화의 **OpenClaw**(GitHub 스타 386,329개, MIT 라이선스), 자가학습 스킬과 크론잡 자동화의 **Hermes Agent**(Nous Research, v0.20.0 Herald, MIT 라이선스), 그리고 실제 코드 품질·기업 도입 1위인 **Claude Code**(Anthropic, Pro 17~20달러/월)가 각자의 강점이 뚜렷합니다. **터미널에서 진짜 코드를 많이 치는 분은 Claude Code, 메신저로 일상을 자동화하실 분은 OpenClaw, 무료로 장기 자동화 파이프라인을 돌리실 분은 Hermes Agent**를 고르면 됩니다. 셋 다 써보면 결국 "용도가 다르다"는 결론에 도달하게 됩니다.
 
-![OpenClaw 공식 GitHub 저장소 소셜 카드 — 스타 386,329개·포크 81,198개](/assets/images/posts/openclaw-vs-hermes-vs-claude-code-20260815/openclaw-github-og.png)
+![OpenClaw 공식 GitHub 저장소 소셜 카드 — 스타 386,329개·포크 81,198개](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openclaw-vs-hermes-vs-claude-code-20260815/openclaw-github-og.png)
 *OpenClaw 공식 GitHub 저장소 소셜 카드 — GitHub 전체 프로젝트 중 최다 스타(386,329개, 확인일 2026-08-15) (출처: github.com/openclaw/openclaw)*
 
 ---
@@ -41,7 +41,7 @@ OpenClaw는 오스트리아 개발자 **피터 스타인버거(Peter Steinberger
 
 정체성은 한 문장으로, **"이미 쓰고 있는 채팅 앱이 곧 인터페이스"**입니다. 텔레그램·왓츠앱·디스코드·슬랙·시그널 등 **22개 이상의 메신저 채널**에서 봇처럼 대화하며 이메일 정리, 캘린더 관리, 항공권 체크인, 리드 발굴 자동화까지 처리합니다. 사용자 데이터와 설정은 전부 로컬에 저장되고, 모델은 Claude·GPT·제미나이·DeepSeek 등 **내가 원하는 LLM을 골라 연결**하는 구조입니다.
 
-![OpenClaw 공식 홈페이지 대표 이미지 — "Your own personal AI assistant"](/assets/images/posts/openclaw-vs-hermes-vs-claude-code-20260815/openclaw-site-og.png)
+![OpenClaw 공식 홈페이지 대표 이미지 — "Your own personal AI assistant"](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openclaw-vs-hermes-vs-claude-code-20260815/openclaw-site-og.png)
 *OpenClaw 공식 홈페이지 대표 이미지 — 오픈소스·내 기기에서 실행되는 개인 AI 어시스턴트 (출처: openclaw.ai, 확인일 2026-08-15)*
 
 ### 2-2. Hermes Agent — "스스로 성장하는" Nous Research의 자가학습 에이전트
@@ -50,7 +50,7 @@ Hermes Agent는 **Nous Research**가 2026년 2월 25일 출시한 MIT 라이선�
 
 가장 큰 차별점은 **'자가학습(Self-improving)'**입니다. 작업을 하면서 스킬 파일을 스스로 만들어 저장해 두고, 다음에 비슷한 작업을 하면 처음부터가 아니라 **이전 경험 위에서 시작**합니다. Nous Research 측은 "자가 생성 스킬 20개 이상 보유 시 동일 작업을 약 40% 더 빠르게 처리"한다고 설명합니다. 크론잡(예약 작업), 게이트웨이(텔레그램·디스코드·슬랙·왓츠앱·시그널·이메일 등 옴니채널), MCP, A2A 프로토콜까지 갖춰 **"시간을 가로지르는 에이전트"**라는 평가를 받습니다.
 
-![Hermes Agent 공식 홈페이지 대표 이미지 — "The open-source agent that grows with you"](/assets/images/posts/openclaw-vs-hermes-vs-claude-code-20260815/hermes-agent-og.png)
+![Hermes Agent 공식 홈페이지 대표 이미지 — "The open-source agent that grows with you"](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openclaw-vs-hermes-vs-claude-code-20260815/hermes-agent-og.png)
 *Hermes Agent 공식 홈페이지 대표 이미지 — "the open-source agent that grows with you" (출처: hermes-agent.nousresearch.com, 확인일 2026-08-15)*
 
 ### 2-3. Claude Code — "코딩 에이전트의 넘버 1" Anthropic의 상용 제품
@@ -59,7 +59,7 @@ Claude Code는 **Anthropic**이 만든 터미널 기반 AI 코딩 에이전트�
 
 특히 **8월 14일부터 Pro·Max·Team 요금제에서 'Auto Mode(자동 모드)'가 기본 설정**으로 전환되면서 "AI가 사람의 승인 없이도 장시간 스스로 일하는 시대"가 기본값이 됐습니다. Anthropic은 자체 실험에서 **사람이 위험 명령을 막아낸 비율 13.6% vs Auto Mode 89%**라는 데이터를 공개하기도 했어요. 터미널·IDE(VS Code, JetBrains)·웹·iOS·안드로이드·슬랙·GitHub 어디서든 쓸 수 있습니다.
 
-![Claude Code 공식 제품 이미지 — Anthropic의 AI 코딩 에이전트](/assets/images/posts/openclaw-vs-hermes-vs-claude-code-20260815/claude-code-og.jpg)
+![Claude Code 공식 제품 이미지 — Anthropic의 AI 코딩 에이전트](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openclaw-vs-hermes-vs-claude-code-20260815/claude-code-og.jpg)
 *Claude Code — Anthropic의 에이전트형 코딩 도구, 터미널·IDE·웹·슬랙에서 사용 가능 (출처: claude.com/product/claude-code, 확인일 2026-08-15)*
 
 ---

@@ -14,7 +14,7 @@ noindex: true
 
 2026년 8월 19일(수), IT 전문 매체 **Android Authority**가 구글 Gemini 앱 최신 버전(1.0.954677852)을 분석해 **Gemini Live 'Guided Vision'을 한 번에 켜는 접근성 단축키**가 개발 중임을 포착했습니다. 이 소식은 8월 21일 이탈리아 TuttoAndroid 등 해외 매체로 이어지며 다시 주목받고 있는데요. 오늘은 **이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망** 순서로 정리해 드립니다.
 
-![Gemini Live Guided Vision 접근성 단축키 설정 화면 (출처: Android Authority, 2026-08-19 보도)](/assets/images/posts/gemini-guided-vision-shortcut-20260822/guided-vision-shortcut-2-androidauthority.jpg)
+![Gemini Live Guided Vision 접근성 단축키 설정 화면 (출처: Android Authority, 2026-08-19 보도)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-guided-vision-shortcut-20260822/guided-vision-shortcut-2-androidauthority.jpg)
 *Gemini Live Guided Vision 접근성 단축키 설정 화면 (출처: Android Authority, 2026-08-19 보도 / AssembleDebug·Mishaal Rahman, Google 앱 v1.0.954677852 디컴파일 분석)*
 
 ## 📌 이슈 요약: "카메라 모드까지 4단계 → 버튼 하나로"
@@ -46,7 +46,7 @@ Android Authority 분석에 따르면 구글은 Guided Vision을 **안드로이�
 
 특히 볼륨 버튼 방식은 **화면을 전혀 보지 않아도 되는 물리 버튼 조작**이라, 시각 장애인에게 훨씬 실용적입니다. 폰을 주머니에서 꺼내는 순간 버튼만 누르면 도우미가 켜지는 구조죠.
 
-![Guided Vision 단축키 — 볼륨 버튼 동시 길게 누르기 옵션 (출처: Android Authority, 2026-08-19 보도)](/assets/images/posts/gemini-guided-vision-shortcut-20260822/guided-vision-shortcut-3-androidauthority.jpg)
+![Guided Vision 단축키 — 볼륨 버튼 동시 길게 누르기 옵션 (출처: Android Authority, 2026-08-19 보도)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-guided-vision-shortcut-20260822/guided-vision-shortcut-3-androidauthority.jpg)
 *Guided Vision 단축키 — 볼륨 버튼 동시 길게 누르기 옵션 화면 (출처: Android Authority, 2026-08-19 보도 / Google 앱 v1.0.954677852 분석)*
 
 ### 3) 7월 토글 발견 → 8월 단축키 발견, 흐름이 보인다

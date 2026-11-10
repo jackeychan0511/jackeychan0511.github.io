@@ -5,7 +5,7 @@ date: 2026-08-20 12:00:00 +0900
 categories: [education]
 tags: [황소수학, 생각하는황소, 황소고시, 수강료면제, 기초생활수급자, 차상위계층, 입학시험, 편입시험, 초등수학, 사고력수학]
 author: "40대 블로거"
-image: /assets/images/posts/thinkingbull-update-20260820/01-logo.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/thinkingbull-update-20260820/01-logo.png
 description: "2026년 8월부터 생각하는황소(황소수학) 전국 지점에서 기초생활수급자와 차상위계층 자녀의 수강료를 전액 면제합니다. 공식 공지(2026-07-20 게시) 내용과 준비 서류, 8월 편입시험, 11월 황소고시 준비 동향을 정리했습니다."
 sitemap: false
 noindex: true
@@ -13,7 +13,7 @@ noindex: true
 
 # [업데이트] 생각하는황소, 기초생활수급자·차상위계층 자녀 수강료 전액 면제 — 2026년 8월부터 전국 지점 적용
 
-![생각하는황소 공식 로고](/assets/images/posts/thinkingbull-update-20260820/01-logo.png)
+![생각하는황소 공식 로고](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/thinkingbull-update-20260820/01-logo.png)
 *생각하는황소 공식 로고 (출처: 생각하는황소 공식 홈페이지, 확인일 2026-08-20)*
 
 안녕하세요. 40대 라이프 블로그입니다.

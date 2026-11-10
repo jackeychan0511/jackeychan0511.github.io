@@ -5,11 +5,11 @@ date: 2026-10-07 11:20:00 +0900
 categories: [products]
 tags: [갤럭시탭S12, 갤럭시탭S12울트라, 갤럭시탭S12플러스, GalaxyTabS12, 삼성태블릿, 디멘시티9500, 안드로이드태블릿, 갤럭시AI, 어도비포토샵, S펜, 프리미엄태블릿, 제품비교, 구매가이드, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/galaxy-tab-s12-ultra-plus-launch-guide-20261007/galaxy-tab-s12-ultra-main.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/galaxy-tab-s12-ultra-plus-launch-guide-20261007/galaxy-tab-s12-ultra-main.jpg
 description: "삼성전자가 '갤럭시 탭 S12 울트라'와 '갤럭시 탭 S12+'를 2026년 10월 7일 한국을 포함한 주요 시장에 출시했습니다. 두께 5.1mm의 초슬림 디자인, 미디어텍 디멘시티 9500, NPU 61% 향상, 안드로이드 태블릿 최초 어도비 포토샵 탑재가 핵심입니다. 국내 출고가는 울트라 189만 9,700원, 플러스 154만 9,900원부터입니다. 이 글은 제품 소개 → 핵심 스펙 비교(울트라 vs 플러스) → 성능·배터리 → AI·생산성 기능 → 가격·구매 가이드 순서로 정리했습니다."
 ---
 
-![갤럭시 탭 S12 시리즈 공식 공개 이미지 — 대화면 디스플레이와 얇은 베젤이 강조된 정면 모습](/assets/images/posts/galaxy-tab-s12-ultra-plus-launch-guide-20261007/galaxy-tab-s12-ultra-main.jpg)
+![갤럭시 탭 S12 시리즈 공식 공개 이미지 — 대화면 디스플레이와 얇은 베젤이 강조된 정면 모습](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/galaxy-tab-s12-ultra-plus-launch-guide-20261007/galaxy-tab-s12-ultra-main.jpg)
 *삼성전자가 공개한 갤럭시 탭 S12 시리즈. 14.6형 울트라와 12.6형 플러스 두 모델로 출시됩니다 (출처: Samsung Newsroom, 2026.9)*
 
 > **📌 한줄 요약:** 삼성전자가 **2026년 10월 7일**, 프리미엄 태블릿 **갤럭시 탭 S12 울트라**와 **갤럭시 탭 S12+**를 국내 출시했습니다. 핵심은 **두께 5.1mm의 초슬림 설계**, **미디어텍 디멘시티 9500(3nm)**, 전작 대비 **NPU 61%·CPU 19%·GPU 17% 향상**, 그리고 **안드로이드 태블릿 최초의 어도비 포토샵 기본 탑재**입니다. 국내 출고가는 **울트라 189만 9,700원부터**, **플러스 154만 9,900원부터**입니다. 노트북 대용으로 대화면 태블릿을 고민하는 분들이라면 눈여겨볼 만한 라인업입니다.
@@ -76,7 +76,7 @@ description: "삼성전자가 '갤럭시 탭 S12 울트라'와 '갤럭시 탭 S1
 | **방수·방진** | IP68 | IP68 |
 | **출고가(시작)** | **189만 9,700원** | **154만 9,900원** |
 
-![갤럭시 탭 S12 플러스 공식 이미지 — 12.6형 대화면과 얇아진 베젤](/assets/images/posts/galaxy-tab-s12-ultra-plus-launch-guide-20261007/galaxy-tab-s12-plus-main.jpg)
+![갤럭시 탭 S12 플러스 공식 이미지 — 12.6형 대화면과 얇아진 베젤](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/galaxy-tab-s12-ultra-plus-launch-guide-20261007/galaxy-tab-s12-plus-main.jpg)
 *갤럭시 탭 S12+는 12.6형 화면에 전작보다 얇아진 베젤을 적용해, 휴대성을 강화한 모델입니다 (출처: Samsung Newsroom, 2026.9)*
 
 한눈에 정리하면, **울트라는 "고정형 작업 스테이션", 플러스는 "들고 다니는 대화면"**에 가깝습니다.
@@ -111,7 +111,7 @@ description: "삼성전자가 '갤럭시 탭 S12 울트라'와 '갤럭시 탭 S1
 | **갤럭시 탭 S12 플러스** | **10,600mAh** | 최대 **21시간** |
 | 충전 | 45W 어댑터 | 0→100% **약 95분** |
 
-![갤럭시 탭 S12 시리즈 공식 이미지 — 얇은 두께를 강조한 측면 디자인](/assets/images/posts/galaxy-tab-s12-ultra-plus-launch-guide-20261007/galaxy-tab-s12-ultra-thin.jpg)
+![갤럭시 탭 S12 시리즈 공식 이미지 — 얇은 두께를 강조한 측면 디자인](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/galaxy-tab-s12-ultra-plus-launch-guide-20261007/galaxy-tab-s12-ultra-thin.jpg)
 *울트라는 5.1mm, 플러스는 5.3mm 두께로 설계됐습니다. 이 얇은 두께에 IP68 방수·방진까지 갖췄습니다 (출처: Samsung Newsroom, 2026.9)*
 
 여기에 **IP68 등급 방수·방진**이 더해집니다. 얇은 태블릿을 카페·도서관 같은 야외 환경에서도 부담 없이 쓰고 싶은 분들에게는 실질적인 장점입니다.
@@ -130,12 +130,12 @@ description: "삼성전자가 '갤럭시 탭 S12 울트라'와 '갤럭시 탭 S1
 - **갤럭시 AI**: 문서·필기 요약, 수식 풀이, 번역 등 학습·업무 보조 기능
 - **DeX**: 키보드를 붙이면 데스크톱형 작업 환경으로 전환
 
-![갤럭시 탭 S12 시리즈 공식 이미지 — 태블릿에서 어도비 포토샵으로 작업하는 모습](/assets/images/posts/galaxy-tab-s12-ultra-plus-launch-guide-20261007/galaxy-tab-s12-adobe-photoshop.jpg)
+![갤럭시 탭 S12 시리즈 공식 이미지 — 태블릿에서 어도비 포토샵으로 작업하는 모습](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/galaxy-tab-s12-ultra-plus-launch-guide-20261007/galaxy-tab-s12-adobe-photoshop.jpg)
 *안드로이드 태블릿 최초로 어도비 포토샵이 기본 탑재됩니다. S펜을 이용한 이미지 편집에 최적화돼 있습니다 (출처: Samsung Newsroom, 2026.9)*
 
 S펜도 **인박스로 기본 포함**됩니다(다만 BLE 미지원이라 공중 제스처 같은 원격 기능은 빠집니다). 노트북처럼 쓰려면 **프로 키보드** 같은 별도 액세서리를 더해야 하니, 총비용은 그만큼 올라간다는 점을 기억해 두면 좋습니다.
 
-![갤럭시 탭 S12 시리즈 공식 이미지 — S펜으로 필기하는 모습](/assets/images/posts/galaxy-tab-s12-ultra-plus-launch-guide-20261007/galaxy-tab-s12-s-pen.jpg)
+![갤럭시 탭 S12 시리즈 공식 이미지 — S펜으로 필기하는 모습](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/galaxy-tab-s12-ultra-plus-launch-guide-20261007/galaxy-tab-s12-s-pen.jpg)
 *S펜은 기본 구성에 포함됩니다. 필기·드로잉 중심으로 쓰는 분들에게는 반가운 부분입니다 (출처: Samsung Newsroom, 2026.9)*
 
 ---

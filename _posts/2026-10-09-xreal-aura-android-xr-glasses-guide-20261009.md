@@ -5,11 +5,11 @@ date: 2026-10-09 11:15:00 +0900
 categories: [products]
 tags: [XREALAura, XREAL, 안드로이드XR, AndroidXR, 스마트글래스, AR글래스, XR글래스, 제미나이, Gemini, 스냅드래곤, 퀄컴, 스마트안경, 공간컴퓨팅, 제품비교, 구매가이드, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/2026-10-09-xreal-aura-android-xr-glasses-guide-20261009/xreal-aura-main.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-10-09-xreal-aura-android-xr-glasses-guide-20261009/xreal-aura-main.jpg
 description: "XREAL이 2026년 10월 7~8일, 구글과 공동 개발한 안드로이드 XR 스마트글라스 'XREAL Aura'의 가격과 출시 정보를 공개했습니다. 12GB/256GB 모델 1,279달러부터, 무게 95g 미만, 양안 마이크로 OLED 70도 시야각, 퀄컴 스냅드래곤 Reality Elite 기반 컴퓨트 퍽 구성이 핵심입니다. 11월 중순 미국·캐나다·일본·한국 우선 출시. 이 글은 제품 소개 → 핵심 스펙·특징 → 경쟁 제품 비교 → 가격·출시 가이드 순서로 정리했습니다."
 ---
 
-![XREAL Aura를 착용한 모습 — 구글과 공동 개발한 안드로이드 XR 스마트글라스](/assets/images/posts/2026-10-09-xreal-aura-android-xr-glasses-guide-20261009/xreal-aura-main.jpg)
+![XREAL Aura를 착용한 모습 — 구글과 공동 개발한 안드로이드 XR 스마트글라스](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-10-09-xreal-aura-android-xr-glasses-guide-20261009/xreal-aura-main.jpg)
 *XREAL Aura 착용 이미지. 안경형 폼팩터 그대로 공간 컴퓨팅을 구현하는 것이 핵심입니다 (출처: XREAL 공식 홈페이지, 2026.10)*
 
 > **📌 한줄 요약:** XREAL이 **2026년 10월 7~8일**, 구글과 공동 개발한 **안드로이드 XR 스마트글라스 'XREAL Aura'**의 가격과 출시 계획을 공개했습니다. **12GB/256GB 모델 1,279달러**, **16GB/512GB 모델 1,499달러**로 책정됐고, **무게 95g 미만**, **양안 70도 시야각 마이크로 OLED**, **퀄컴 스냅드래곤 Reality Elite 기반 컴퓨트 퍽** 구성이 특징입니다. **11월 중순 미국·캐나다·일본·한국**에서 우선 출시되며, 2027년에 추가 시장이 열릴 예정입니다.
@@ -31,10 +31,10 @@ XREAL Aura는 XREAL이 **구글과 공동 개발**한 **세계 최초의 안드�
 
 핵심 콘셉트는 단순합니다. **큰 화면을 눈앞에 띄우되, 무게는 일반 안경 수준으로 유지**하는 것. 별도의 무거운 헤드셋을 쓰지 않고, 안경처럼 쓰면 주변은 그대로 보이면서 그 위에 가상의 대형 화면이 겹쳐지도록 설계됐습니다. AI 비서인 **제미나이(Gemini)**가 시야 안에서 바로 호출된다는 점도 안드로이드 XR 글래스만의 차별점입니다.
 
-![XREAL Aura 안경 본체와 컴퓨트 퍽 — 연산·배터리를 분리해 무게를 줄인 구조](/assets/images/posts/2026-10-09-xreal-aura-android-xr-glasses-guide-20261009/xreal-aura-puck.jpg)
+![XREAL Aura 안경 본체와 컴퓨트 퍽 — 연산·배터리를 분리해 무게를 줄인 구조](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-10-09-xreal-aura-android-xr-glasses-guide-20261009/xreal-aura-puck.jpg)
 *안경 본체와 퍽(연산·배터리 유닛). 유선으로 연결해 무게와 발열을 분산하는 구조입니다 (출처: XREAL 공식 홈페이지, 2026.10)*
 
-![XREAL Aura의 옵티컬 시스루(광학 투과) 디자인 — 주변 시야가 살아 있는 렌즈 구조](/assets/images/posts/2026-10-09-xreal-aura-android-xr-glasses-guide-20261009/xreal-aura-design.jpg)
+![XREAL Aura의 옵티컬 시스루(광학 투과) 디자인 — 주변 시야가 살아 있는 렌즈 구조](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-10-09-xreal-aura-android-xr-glasses-guide-20261009/xreal-aura-design.jpg)
 *주변 시야를 가리지 않는 시스루(see-through) 광학 설계 (출처: XREAL 공식 홈페이지, 2026.10)*
 
 ---
@@ -63,10 +63,10 @@ XREAL Aura는 XREAL이 **구글과 공동 개발**한 **세계 최초의 안드�
 - 퍽에 내장된 **트랙패드**로 포인팅 조작
 - 지문인식·'눈이 보이는' 소셜 프레즌스 설계
 
-![제미나이와 안드로이드 XR을 결합한 XREAL Aura — 시야 안에서 AI 비서를 호출하는 화면 구성](/assets/images/posts/2026-10-09-xreal-aura-android-xr-glasses-guide-20261009/xreal-aura-gemini.jpg)
+![제미나이와 안드로이드 XR을 결합한 XREAL Aura — 시야 안에서 AI 비서를 호출하는 화면 구성](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-10-09-xreal-aura-android-xr-glasses-guide-20261009/xreal-aura-gemini.jpg)
 *제미나이 연동 안드로이드 XR 화면 예시 (출처: XREAL 공식 홈페이지, 2026.10)*
 
-![XREAL Aura로 거실에서 프라이빗 대형 화면을 즐기는 사용 예시](/assets/images/posts/2026-10-09-xreal-aura-android-xr-glasses-guide-20261009/xreal-aura-private-screen.jpg)
+![XREAL Aura로 거실에서 프라이빗 대형 화면을 즐기는 사용 예시](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-10-09-xreal-aura-android-xr-glasses-guide-20261009/xreal-aura-private-screen.jpg)
 *집 안에서 거대한 프라이빗 스크린을 구현하는 활용 예시 (출처: XREAL 공식 홈페이지, 2026.10)*
 
 ---
@@ -107,7 +107,7 @@ XREAL Aura는 **"안경처럼 쓰는 대화면"과 "독립 실행(스탠드얼�
 - 예약 시 **99달러 예약금**을 넣으면 **199달러 런치 크레딧**을 주는 방식이 운영됐고, 예약은 **1만 건 이상**을 넘긴 것으로 알려졌습니다.
 - 한국이 1차 출시국에 포함된 만큼, 국내 정식 유통·가격이 곧 확정될 가능성이 큽니다. **도수 렌즈가 필요한 분**은 프레임 사이즈(미디엄/라지)와 처방 렌즈 대응 여부를 먼저 확인하시는 것이 좋습니다.
 
-![XREAL Aura 제품 이미지 — 컴퓨트 퍽과 안경 본체 구성](/assets/images/posts/2026-10-09-xreal-aura-android-xr-glasses-guide-20261009/xreal-aura-product.jpg)
+![XREAL Aura 제품 이미지 — 컴퓨트 퍽과 안경 본체 구성](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-10-09-xreal-aura-android-xr-glasses-guide-20261009/xreal-aura-product.jpg)
 *XREAL Aura와 컴퓨트 퍽 구성 (출처: XREAL 공식 스토어, 2026.10)*
 
 ---

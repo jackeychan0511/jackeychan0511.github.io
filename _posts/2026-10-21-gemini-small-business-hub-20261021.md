@@ -5,7 +5,7 @@ date: 2026-10-21 15:52:00 +0900
 categories: [career]
 tags: [Google Gemini, 구글 제미나이, Gemini 소상공인, 비즈니스 허브, Nano Banana 2.1, 커넥티드 앱, Shopify, Canva, Xero, Google Workspace, Google Business Profile, 소상공인 마케팅, 소상공인 재무관리, 업무자동화, AI뉴스, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/gemini-small-business-hub-20261021/gemini-business-hub-official.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-small-business-hub-20261021/gemini-business-hub-official.png
 description: "2026년 10월 20일 구글이 Gemini 앱에 소상공인 전용 '비즈니스 허브'를 공개했습니다. 브랜드 스타일을 한 번 정의하면 Nano Banana 2.1이 일관된 마케팅 이미지를 만들어 주고, 흩어진 스프레드시트와 영수증은 재무 인사이트로 바뀝니다. Shopify·Canva·Xero·Google Workspace까지 연결되는 커넥티드 앱, 전 세계 모든 Gemini 앱 사용자 대상 순차 배포 내용과 실무 영향, 한계까지 정리했습니다."
 ---
 
@@ -13,7 +13,7 @@ description: "2026년 10월 20일 구글이 Gemini 앱에 소상공인 전용 '�
 
 2026년 10월 20일(현지시간), 구글이 공식 블로그를 통해 Gemini 앱에 **소상공인 전용 비즈니스 허브(business landing page)** 와 **마케팅·재무 스킬**, 그리고 **서드파티 커넥티드 앱**을 추가한다고 발표했습니다. 배포 범위가 제한적이지 않다는 점이 핵심입니다. 구글은 "**앞으로 며칠 안에 전 세계 모든 Gemini 앱 사용자에게 순차 배포**"된다고 명시했습니다.
 
-![Gemini 소상공인 비즈니스 허브 공식 이미지](/assets/images/posts/gemini-small-business-hub-20261021/gemini-business-hub-official.png)
+![Gemini 소상공인 비즈니스 허브 공식 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-small-business-hub-20261021/gemini-business-hub-official.png)
 *출처: Google 공식 블로그(blog.google) "New Gemini tools for small business owners", 2026.10.20*
 
 지금까지 Gemini 앱 업데이트는 대부분 "모델이 좋아졌다", "속도가 빨라졌다" 수준이었습니다. 이번 발표는 결이 다릅니다. **브랜드 자산·재무 데이터·외부 SaaS를 한 화면에서 묶는 작업 공간**을 앱 안에 심는다는 선언에 가깝습니다. 1인 사업자나 소규모 팀에게는 실질적인 변화이고, 개발자에게는 새 유통 채널이 열리는 소식이라 '이슈급'으로 다룰 만합니다.
@@ -68,7 +68,7 @@ Gemini 앱 안에 소상공인 전용 **랜딩 페이지**가 생깁니다. 구�
 - **Barelz Arena(스포츠·엔터테인먼트 공간)** — 브랜딩 경험 없이 '브라질 거리' 스타일 비주얼을 만들고 굿즈 디자인과 제휴 제안서 초안 작성
 - **Burger Butcher(수제 버거·정육점)** — 마케팅 전담 인력 없이 교대 근무 사이에 Google Business Profile과 함께 지역 검색·지도 성과를 추적하고, 주말 프로모션 문구와 지역 취향 트렌드 분석
 
-![Gemini를 활용해 브랜드 콘텐츠를 만드는 소상공인 사례](/assets/images/posts/gemini-small-business-hub-20261021/gemini-business-case.jpg)
+![Gemini를 활용해 브랜드 콘텐츠를 만드는 소상공인 사례](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-small-business-hub-20261021/gemini-business-case.jpg)
 *출처: Google 공식 블로그(blog.google) "New Gemini tools for small business owners" 사례 이미지, 2026.10.20*
 
 패턴이 보입니다. **"전문 인력이 없어서 못 하던 일"을 AI로 대체**하는 것이지, 전문가를 완전히 대체하는 것은 아닙니다. 회계사·디자이너를 없애는 게 아니라, 그 앞단의 초안 작성과 1차 정리를 AI가 맡는 구조입니다.

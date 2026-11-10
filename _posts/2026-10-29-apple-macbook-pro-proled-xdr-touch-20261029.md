@@ -5,11 +5,11 @@ date: 2026-10-29 11:20:00 +0900
 categories: [products]
 tags: [맥북프로, MacBookPro, PROLEDXDR, 애플터치스크린, 맥북터치, M5Pro, M5Max, 탠덤OLED, 다이내믹아일랜드, 애플신제품, 맥북프로추천, 맥북프로비교, 노트북추천, 제품비교, 구매가이드, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/apple-macbook-pro-proled-xdr-touch-20261029/macbook-pro-proled-hero.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/apple-macbook-pro-proled-xdr-touch-20261029/macbook-pro-proled-hero.jpg
 description: "애플이 2026년 10월 28일(현지시간) 맥 사상 처음으로 터치를 지원하는 PROLED XDR 디스플레이 탑재 맥북프로 14·16인치를 공개했습니다. 탠덤 OLED 기반 최대 2000니트 밝기와 1,000만:1 명암비, 120Hz 가변 주사율, 패널에 직접 내장한 터치 센서, 맥 최초 다이내믹 아일랜드가 특징입니다. M5 Pro·M5 Max, 최대 128GB 메모리·16TB 저장장치, 최대 24시간 배터리를 갖췄고 국내 가격은 14인치 M5 Pro 479만원부터입니다. M6 맥북프로(329만원부터)와 무엇이 다르고 어느 쪽을 골라야 하는지, 솔직히 아쉬운 점까지 정리했습니다."
 ---
 
-![PROLED XDR 디스플레이를 연 채 놓인 맥북프로](/assets/images/posts/apple-macbook-pro-proled-xdr-touch-20261029/macbook-pro-proled-hero.jpg)
+![PROLED XDR 디스플레이를 연 채 놓인 맥북프로](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/apple-macbook-pro-proled-xdr-touch-20261029/macbook-pro-proled-hero.jpg)
 *탠덤 OLED 기반 PROLED XDR 디스플레이를 탑재한 맥북프로. 맥 사상 처음으로 화면을 직접 만질 수 있게 됐습니다 (출처: Apple Newsroom, 2026.10.28)*
 
 > **📌 한줄 요약:** 애플이 **2026년 10월 28일(현지시간)**, 맥 역사상 처음으로 **터치를 지원하는 맥북프로**를 공개했습니다. 이름은 **PROLED XDR 디스플레이 탑재 맥북프로**이고, **탠덤 OLED** 패널에 **최대 2000니트 밝기**, **1,000만:1 명암비**, **10~120Hz 가변 주사율**을 얹었습니다. 터치 센서는 화면 위에 덧대는 방식이 아니라 **패널 자체에 내장**해 지연을 줄였고, 맥에는 처음으로 **다이내믹 아일랜드**가 들어갑니다. 칩은 **M5 Pro·M5 Max**, 메모리 최대 **128GB**, 저장장치 최대 **16TB**, 배터리 최대 **24시간**입니다. 국내 가격은 **14인치 M5 Pro 479만원, 16인치 M5 Pro 559만원, 14인치 M5 Max 759만원, 16인치 M5 Max 809만원**부터이며, **10월 30일 사전 주문, 11월 6일 출시**입니다.
@@ -43,7 +43,7 @@ description: "애플이 2026년 10월 28일(현지시간) 맥 사상 처음으�
 
 이 제품의 본체는 사실 터치보다 화면입니다. 애플은 PROLED XDR을 두고 "세계 최고의 노트북 디스플레이"라고 표현했습니다. 과장이 섞였더라도, 숫자만 보면 기존 미니 LED보다 확실히 위로 올라간 건 맞습니다.
 
-![포토샵을 띄운 맥북프로 PROLED XDR 디스플레이](/assets/images/posts/apple-macbook-pro-proled-xdr-touch-20261029/macbook-pro-proled-display.jpg)
+![포토샵을 띄운 맥북프로 PROLED XDR 디스플레이](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/apple-macbook-pro-proled-xdr-touch-20261029/macbook-pro-proled-display.jpg)
 *PROLED XDR은 P3와 Adobe RGB를 한 프리셋에서 함께 지원합니다. 사진·인쇄·영상 색보정 작업을 염두에 둔 구성입니다 (출처: Apple Newsroom, 2026.10.28)*
 
 핵심은 **탠덤 OLED**입니다. 빛을 내는 픽셀층을 두 겹으로 쌓아 밝기와 수명을 확보하는 방식으로, 애플은 여기에 디스플레이 엔진의 실시간 픽셀 제어와 공장 캘리브레이션을 더했습니다. 기존 OLED에서 지적되던 휘도 불균일과 내부 반사를 줄이는 것이 목표입니다.
@@ -73,7 +73,7 @@ description: "애플이 2026년 10월 28일(현지시간) 맥 사상 처음으�
 
 터치 구현 방식부터 봐야 합니다. 애플은 터치 센서를 디스플레이 **위에 얹지 않고 패널 자체에 통합**했습니다. 별도 레이어가 없으니 지연이 줄고, 두께도 늘지 않습니다. 애플 표현대로 "화면 속 콘텐츠를 직접 만지는" 감각에 가깝다는 설명입니다.
 
-![테이블에서 맥북프로 화면을 만지는 사용자](/assets/images/posts/apple-macbook-pro-proled-xdr-touch-20261029/macbook-pro-proled-touch.jpg)
+![테이블에서 맥북프로 화면을 만지는 사용자](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/apple-macbook-pro-proled-xdr-touch-20261029/macbook-pro-proled-touch.jpg)
 *새로 설계한 힌지를 적용해 화면을 터치할 때 흔들림을 줄였습니다. 화상통화 중 터치 시에는 영상 손떨림 보정이 자동으로 동작합니다 (출처: Apple Newsroom, 2026.10.28)*
 
 동작은 아이패드와 비슷합니다. 스와이프로 웹페이지 스크롤, 핀치로 사진 확대, 더블 탭으로 창 최대화, 살짝 튕겨서 타일 배치. 여기에 **새 힌지 설계**로 화면을 눌렀을 때 상판이 덜 흔들리게 했고, 화상통화 중 터치할 때 카메라 영상이 흔들리면 **실시간 영상 보정**이 들어갑니다.
@@ -95,7 +95,7 @@ description: "애플이 2026년 10월 28일(현지시간) 맥 사상 처음으�
 
 디자인 변화도 작지 않습니다. 그동안 맥북프로 화면 상단 한가운데를 차지하던 **노치가 없어지고, 그 자리에 다이내믹 아일랜드**가 들어갑니다. 카메라 하우징 자체가 작아지면서 남는 공간을 정보 표시에 쓰는 방식입니다.
 
-![애플 뮤직 재생 중인 다이내믹 아일랜드 클로즈업](/assets/images/posts/apple-macbook-pro-proled-xdr-touch-20261029/macbook-pro-proled-dynamic-island.jpg)
+![애플 뮤직 재생 중인 다이내믹 아일랜드 클로즈업](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/apple-macbook-pro-proled-xdr-touch-20261029/macbook-pro-proled-dynamic-island.jpg)
 *맥 최초로 들어간 다이내믹 아일랜드는 Spotlight, 실시간 현황, Siri AI의 거처가 됩니다 (출처: Apple Newsroom, 2026.10.28)*
 
 다이내믹 아일랜드는 **Spotlight, 실시간 현황(Live Activities), Siri AI**를 담는 자리입니다. 아이폰처럼 음악을 일시정지하거나 에어드롭 요청을 수락하고, 통화를 받고, 지금 재생 중인 곡을 확인하는 동작을 화면 상단에서 처리합니다. 맥에서 Spotlight를 자주 쓰는 편이라면 손이 가는 위치가 한결 가까워진 셈입니다.
@@ -111,7 +111,7 @@ description: "애플이 2026년 10월 28일(현지시간) 맥 사상 처음으�
 
 14인치 1.38kg은 "프로 노트북" 치고 상당히 가벼운 축입니다. 다만 16인치 1.82kg은 여전히 매일 들고 다니기엔 무게가 있는 편이라, 휴대가 잦다면 14인치 쪽이 무난합니다.
 
-![맥북프로 PROLED XDR의 포트 구성](/assets/images/posts/apple-macbook-pro-proled-xdr-touch-20261029/macbook-pro-proled-ports.jpg)
+![맥북프로 PROLED XDR의 포트 구성](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/apple-macbook-pro-proled-xdr-touch-20261029/macbook-pro-proled-ports.jpg)
 *썬더볼트 5 3개, HDMI, SDXC, MagSafe, 헤드폰 잭. M5 Pro는 외장 디스플레이 3대, M5 Max는 4대까지 지원합니다 (출처: Apple Newsroom, 2026.10.28)*
 
 포트는 썬더볼트 5 3개, HDMI, SDXC 카드 슬롯, MagSafe, 헤드폰 잭으로 구성됩니다. 외장 모니터는 **M5 Pro가 3대, M5 Max가 4대**까지입니다. 무선은 Wi-Fi 7과 블루투스 6(N1 칩), 카메라는 12MP Center Stage, 충전은 30분에 50%까지 됩니다. 오디오는 6스피커에 새 우퍼를 넣어 저음이 50% 더 깊어졌고, **덮개를 닫고 외장 모니터에 연결한 상태를 위한 전용 오디오 튜닝**이 처음으로 들어갔습니다. 클램셸로 쓰는 시간이 긴 경우엔 은근히 체감되는 부분입니다.

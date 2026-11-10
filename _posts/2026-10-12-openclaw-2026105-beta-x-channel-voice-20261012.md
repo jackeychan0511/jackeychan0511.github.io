@@ -5,11 +5,11 @@ date: 2026-10-12 09:55:00 +0900
 categories: [career]
 tags: [OpenClaw, 오픈클로, 2026.10.5, 베타릴리스, X채널, 트위터플러그인, 음성통화, VoiceCall, 보이스메일감지, ClawHub, 워커로컬추론, 재시작안전, 게이트웨이성능, 업무자동화, AI에이전트, 오픈소스AI, 오픈클로업데이트, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/openclaw-v2026105-beta-x-channel-voice-20261012/openclaw-official-og.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openclaw-v2026105-beta-x-channel-voice-20261012/openclaw-official-og.png
 description: "2026년 10월 11일, 오픈소스 AI 에이전트 OpenClaw가 베타 채널에 2026.10.5-beta.1을 올렸습니다. 새 X(트위터) 멘션 채널 플러그인, 음성 통화의 통화 브리핑·통화 리포트·보이스메일 감지, 게이트웨이 안에서의 ClawHub 탐색, 워커 로컬 추론 런타임, 그리고 재시작을 넘어가는 대화·업데이트 안정성까지. 업무 자동화 파이프라인에 에이전트를 붙여 쓰는 분들이 지금 확인해야 할 포인트만 실사용 관점에서 정리했습니다."
 ---
 
-![OpenClaw 공식 홈페이지 대표 이미지 — 오픈소스 AI 에이전트 OpenClaw](/assets/images/posts/openclaw-v2026105-beta-x-channel-voice-20261012/openclaw-official-og.png)
+![OpenClaw 공식 홈페이지 대표 이미지 — 오픈소스 AI 에이전트 OpenClaw](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openclaw-v2026105-beta-x-channel-voice-20261012/openclaw-official-og.png)
 *OpenClaw 공식 홈페이지(openclaw.ai) 대표 이미지 — "The AI that really does things. Any OS. Any Platform." (출처: openclaw.ai, 2026.10.12)*
 
 > **📌 한줄 요약:** 요즘 오픈소스 AI 에이전트를 업무 자동화에 붙여 굴리는 분들이라면, 이번 소식은 눈여겨볼 만합니다. **2026년 10월 11일**, OpenClaw가 베타 채널에 **`2026.10.5-beta.1`** 을 올렸습니다. 하루 전 정식판 `2026.10.1`이 나온 직후라 "또 업데이트?" 싶지만, 내용은 결이 다릅니다. 핵심은 **새 X(트위터) 멘션 채널 플러그인**, **음성 통화의 통화 브리핑·통화 리포트·실시간 개입·콜백·보이스메일 감지**, **게이트웨이 안에서 ClawHub 플러그인·스킬 탐색**, **워커 로컬 추론 런타임**, 그리고 **재시작을 넘어가는 대화·업데이트 안정성**입니다. 즉 "채널과 입력 경로를 넓히고, 런타임을 더 단단하게 만든 베타"입니다.
@@ -45,7 +45,7 @@ description: "2026년 10월 11일, 오픈소스 AI 에이전트 OpenClaw가 베�
 
 정리하면, **정식 라인은 `2026.10.1`에서 안정화에 무게를 두고, 베타 채널은 그 위에서 다음 판(`2026.10.5`)의 신기능을 먼저 굴리는 구도**입니다. 릴리스 노트에는 npm 패키지·tarball·무결성 해시(integrity)·릴리스 SHA·CI 리포트 링크까지 함께 공개돼 있어, 태그 진위 확인까지 가능합니다.
 
-![OpenClaw GitHub 공식 릴리스 페이지 — v2026.10.5-beta.1](/assets/images/posts/openclaw-v2026105-beta-x-channel-voice-20261012/openclaw-release-github-og.png)
+![OpenClaw GitHub 공식 릴리스 페이지 — v2026.10.5-beta.1](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openclaw-v2026105-beta-x-channel-voice-20261012/openclaw-release-github-og.png)
 *OpenClaw GitHub 공식 릴리스(v2026.10.5-beta.1, 게시 2026-10-11 13:08 UTC) — 베타 채널 기준 최신 판 (출처: github.com/openclaw/openclaw/releases)*
 
 ---
@@ -61,7 +61,7 @@ description: "2026년 10월 11일, 오픈소스 AI 에이전트 OpenClaw가 베�
 
 자동화 관점에서 의미가 있는 지점은 명확합니다. **"외부에서 들어오는 공개 문의를 자동으로 받아 답하는 통로"** 가 하나 생긴 겁니다. 다만 릴리스 노트가 **비용 한도와 작성자 검증을 기본으로 깔아 둔 것**이 핵심입니다. 공개 채널은 잘못 열면 API 비용과 스팸이 같이 들어오는데, 그 두 가지를 플러그인 차원에서 먼저 막아 둔 셈입니다.
 
-![OpenClaw 공식 문서 — X / Twitter 채널 플러그인](/assets/images/posts/openclaw-v2026105-beta-x-channel-voice-20261012/openclaw-x-channel-docs-og.png)
+![OpenClaw 공식 문서 — X / Twitter 채널 플러그인](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openclaw-v2026105-beta-x-channel-voice-20261012/openclaw-x-channel-docs-og.png)
 *OpenClaw 공식 문서(docs.openclaw.ai/channels/x) — 멘션을 대화로 바꾸고 공개 답글을 게시하는 X 채널 플러그인 (출처: docs.openclaw.ai)*
 
 ---
@@ -77,7 +77,7 @@ description: "2026년 10월 11일, 오픈소스 AI 에이전트 OpenClaw가 베�
 
 공식 문서 기준으로 음성 통화 플러그인은 기본 **`sessionScope: "per-phone"`** 을 써서, **같은 발신자의 반복 통화가 대화 기억을 이어갑니다**. 업무 자동화 쪽에서 보면 **"예약·확인 전화를 에이전트가 받고, 요약을 남기고, 필요하면 다시 걸게 하는"** 흐름이 문서 수준에서 정리되기 시작한 겁니다. 다만 음성은 실패 모드가 많아서(끊김, 배경 소음, 보이스메일), **바로 프로덕션에 붙이기보다는 시나리오를 좁혀 검증하는 편**이 안전합니다.
 
-![OpenClaw 공식 문서 — 음성 통화(voice call) 플러그인](/assets/images/posts/openclaw-v2026105-beta-x-channel-voice-20261012/openclaw-voice-call-docs-og.png)
+![OpenClaw 공식 문서 — 음성 통화(voice call) 플러그인](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openclaw-v2026105-beta-x-channel-voice-20261012/openclaw-voice-call-docs-og.png)
 *OpenClaw 공식 문서(docs.openclaw.ai/plugins/voice-call) — 통화 브리핑·리포트·실시간 개입·콜백·보이스메일 감지가 추가된 음성 통화 플러그인 (출처: docs.openclaw.ai)*
 
 ---

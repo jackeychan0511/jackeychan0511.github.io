@@ -4,7 +4,7 @@ title: "후쿠오카 8월 여행 준비물 총정리 — 날씨·태풍·체크�
 date: 2026-08-05 13:55:00 +0900
 categories: [travel]
 tags: [후쿠오카, 8월날씨, 여행준비물, 태풍대비, 일본여행, 여름휴가, 후쿠오카여행, 해외여행]
-image: /assets/images/posts/fukuoka-august-weather-2026/fukuoka-momochi-beach.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/fukuoka-august-weather-2026/fukuoka-momochi-beach.jpg
 ---
 
 안녕하세요, 재찬키입니다 ✈️
@@ -31,7 +31,7 @@ image: /assets/images/posts/fukuoka-august-weather-2026/fukuoka-momochi-beach.jp
 
 > 📌 **한국 한여름과 비슷하지만 자외선은 한 단계 위**예요. 기온 자체는 한국 폭염과 비슷하지만, 자외선 지수가 11+(위험)까지 올라가기 때문에 **자외선 차단 3종 세트(선크림·모자·선글라스)**가 필수입니다.
 
-![후쿠오카 모모치 해변 여름 풍경](/assets/images/posts/fukuoka-august-weather-2026/fukuoka-momochi-beach.jpg)
+![후쿠오카 모모치 해변 여름 풍경](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/fukuoka-august-weather-2026/fukuoka-momochi-beach.jpg)
 *후쿠오카 시내에서 가장 가까운 모모치 해변 — 8월엔 해수욕 절정 시즌 (출처: Wikimedia Commons, そらみみ, CC BY-SA 4.0)*
 
 ### 📅 8월 시기별 날씨 경향
@@ -54,7 +54,7 @@ image: /assets/images/posts/fukuoka-august-weather-2026/fukuoka-momochi-beach.jp
 | **8월** | **1.5회** | 항공 결항·지연 가능성 ↑. 시내는 단시간 폭우 위주 |
 | 9월 | 1.7회 | 1년 중 가장 강한 태풍 직격 가능성 |
 
-![태풍 위성 사진 — 태풍 하기비스](/assets/images/posts/fukuoka-august-weather-2026/typhoon-hagibis-satellite.jpg)
+![태풍 위성 사진 — 태풍 하기비스](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/fukuoka-august-weather-2026/typhoon-hagibis-satellite.jpg)
 *태풍의 눈이 선명한 위성 사진 — 일본 기상청 히마와리 8호 위성 촬영 (출처: Wikimedia Commons, JMA Himawari-8, CC BY 4.0)*
 
 오키나와처럼 며칠씩 발이 묶이는 케이스는 드물지만, **인천·김해 ↔ 후쿠오카 항공편이 결항·지연되는 시나리오**는 7월보다 확연히 늘어납니다. 다음 3가지만 미리 준비해 두세요.
@@ -141,7 +141,7 @@ image: /assets/images/posts/fukuoka-august-weather-2026/fukuoka-momochi-beach.jp
 - **오전**: 야나기바시 와쿠와쿠 시장에서 명란젓·해산물 식사
 - 점심 후 공항으로 — 출발 2시간 전 도착 필수
 
-![후쿠오카 나카스 나카강 강변](/assets/images/posts/fukuoka-august-weather-2026/fukuoka-nakasu-night.jpg)
+![후쿠오카 나카스 나카강 강변](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/fukuoka-august-weather-2026/fukuoka-nakasu-night.jpg)
 *후쿠오카 나카스 나카강 강변 — 해질녘부터 야타이(포장마차)가 들어서는 여름 밤의 명소 (출처: Wikimedia Commons, STA3816, CC BY-SA 3.0)*
 
 ---

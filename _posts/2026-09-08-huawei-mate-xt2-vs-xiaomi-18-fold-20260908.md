@@ -5,13 +5,13 @@ date: 2026-09-08 11:27:00 +0900
 categories: [products]
 tags: [화웨이, Huawei, 메이트 XT 2, Mate XT 2, 메이트 XT2, 트리플 폴더블, 3단 폴더, 키린 9050 Pro, Kirin 9050 Pro, 하모니OS 7, HarmonyOS 7, 샤오미, Xiaomi, 18 Fold, 18폴드, XRING O3, 자체칩, 라이카, Leica, 폴더블폰, 폴더블 비교, 폴더블 추천, 애플 폴더블, 아이폰 울트라, 2026년9월]
 author: "40대 블로거"
-image: /assets/images/posts/huawei-mate-xt2-vs-xiaomi-18-fold-20260908/huawei-mate-xt2-black.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/huawei-mate-xt2-vs-xiaomi-18-fold-20260908/huawei-mate-xt2-black.jpg
 description: "애플의 첫 폴더블 아이폰(9월 9일) 공개를 하루 앞둔 9월 7일, 중국에서 '폴더블 대전'이 터졌습니다. 화웨이는 2세대 트리플 폴더블 '메이트 XT 2(非凡大师)'를, 샤오미는 자체 칩 XRING O3를 탑재한 첫 와이드 폴더블 '18 Fold'를 같은 날 공개했어요. 10.2형 3K 대화면·키린 9050 Pro·링둔 보안 디스플레이를 갖춘 메이트 XT 2(최저 19,999위안, 약 2,980달러)와 7.58형 내부 디스플레이·라이카 200MP·6,000mAh의 18 Fold(최저 10,999위안, 약 1,638달러)의 스펙과 가격을 한눈에 비교하고, 국내에서 실제로 사려면 무엇을 따져야 하는지 정리했습니다. 두 제품 모두 중국 출시 우선이며 이미지는 각 제조사 공식 자료입니다."
 ---
 
 > **📌 한줄 요약:** 애플의 첫 폴더블 **'아이폰 울트라' 공개(9월 9일)를 하루 앞둔 9월 7일**, 중국에서 폴더블 신제품 두 개가 같은 날 쏟아졌습니다. **화웨이 '메이트 XT 2'(10.2형 트리플 폴더블, 키린 9050 Pro, 최저 19,999위안·약 2,980달러)** 와 **샤오미 '18 Fold'(7.58형 와이드 폴더블, 자체 칩 XRING O3, 라이카 200MP, 최저 10,999위안·약 1,638달러)** 가 그 주인공인데요. 둘 다 **중국 출시 우선**이고, 화웨이는 '세계 유일의 상용 트리플 폴더블' 2세대, 샤오미는 '첫 와이드(여권형) 폴더블'이라는 점에서 방향성이 확 갈립니다. 가격 차이는 최저가 기준 **약 1.8배**까지 벌어져요.
 
-![화웨이 메이트 XT 2 — 블랙 (출처: 화웨이 중국 공식 홈페이지)](/assets/images/posts/huawei-mate-xt2-vs-xiaomi-18-fold-20260908/huawei-mate-xt2-black.jpg)
+![화웨이 메이트 XT 2 — 블랙 (출처: 화웨이 중국 공식 홈페이지)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/huawei-mate-xt2-vs-xiaomi-18-fold-20260908/huawei-mate-xt2-black.jpg)
 *화웨이 메이트 XT 2 — 블랙 (출처: 화웨이 중국 공식 홈페이지 consumer.huawei.com)*
 
 요즘 저처럼 **"폴더블, 이제 사도 되나?"** 고민하시는 분들 많으시죠. 솔직히 저도 지난 7월 삼성 갤럭시 Z 폴드8가 나왔을 때부터 "이번엔 진짜 바꿀까" 벼르고 있었는데, 곧 9월 9일 애플의 첫 폴더블(아이폰 울트라) 공개까지 예고되면서 **"하나만 더 기다려 보자"**가 됐거든요. 그런데 어제 아침, 블룸버그까지 '폴더블 아이폰을 앞둔 중국의 승부수'라고 보도한 소식 하나를 보고 깜짝 놀랐습니다. **화웨이와 샤오미가 9월 7일, 같은 날 폴더블 플래그십을 동시에 꺼내들었더라고요.** 삼성·애플만 보다가 놓치기 쉬운, 그야말로 '진짜 핫한' 신제품 2개입니다.
@@ -43,7 +43,7 @@ description: "애플의 첫 폴더블 아이폰(9월 9일) 공개를 하루 앞�
 
 ## ② 화웨이 메이트 XT 2 — "트리플 폴더블의 2세대, 이번엔 보안까지"
 
-![화웨이 메이트 XT 2 — 퍼플 (출처: 화웨이 중국 공식 홈페이지)](/assets/images/posts/huawei-mate-xt2-vs-xiaomi-18-fold-20260908/huawei-mate-xt2-purple.jpg)
+![화웨이 메이트 XT 2 — 퍼플 (출처: 화웨이 중국 공식 홈페이지)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/huawei-mate-xt2-vs-xiaomi-18-fold-20260908/huawei-mate-xt2-purple.jpg)
 *화웨이 메이트 XT 2 — 퍼플 (출처: 화웨이 중국 공식 홈페이지 consumer.huawei.com)*
 
 **메이트 XT 2(중국명 '비범대사'/영문 Ultimate Design)** 는 2024년 화제를 모았던 세계 최초 상용 트리플 폴더블 '메이트 XT'의 후속작입니다. 접으면 일반 폰, 반만 펼치면 태블릿, 완전히 펼치면 **10.2형 3K OLED**가 되는 '여닫이 3단' 구조를 이어받았어요. 핵심 스펙만 정리하면 이렇습니다.
@@ -69,7 +69,7 @@ description: "애플의 첫 폴더블 아이폰(9월 9일) 공개를 하루 앞�
 
 ## ③ 샤오미 18 Fold — "자체 칩 XRING O3를 탑재한 첫 와이드 폴더블"
 
-![샤오미 18 Fold — 공식 렌더 (출처: 샤오미 공식 공개 렌더, IT매체 GizGuide 게재분)](/assets/images/posts/huawei-mate-xt2-vs-xiaomi-18-fold-20260908/xiaomi-18-fold-1.png)
+![샤오미 18 Fold — 공식 렌더 (출처: 샤오미 공식 공개 렌더, IT매체 GizGuide 게재분)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/huawei-mate-xt2-vs-xiaomi-18-fold-20260908/xiaomi-18-fold-1.png)
 *샤오미 18 Fold — 공식 렌더 (출처: 샤오미 공식 공개 렌더, IT매체 GizGuide 게재분)*
 
 **샤오미 18 Fold**는 샤오미 최초의 **와이드(wide) 폴더블**입니다. 기존 믹스 폴드 같은 '북 타입'이 아니라, 두께를 접었을 때 여권(passport)처럼 가로로 긴 **'미드 폴드' 폼팩터**를 채택했는데요. 7.58형 내부 화면을 가로로 눕혀 쓰는 방식이라 영상·게임·독서에 최적화됐다는 평가를 받고 있습니다.
@@ -91,7 +91,7 @@ description: "애플의 첫 폴더블 아이폰(9월 9일) 공개를 하루 앞�
 
 ## ④ 한눈에 보는 비교 — 메이트 XT 2 vs 18 Fold
 
-![샤오미 18 Fold — 공식 렌더 2 (출처: 샤오미 공식 공개 렌더, IT매체 GizGuide 게재분)](/assets/images/posts/huawei-mate-xt2-vs-xiaomi-18-fold-20260908/xiaomi-18-fold-4.png)
+![샤오미 18 Fold — 공식 렌더 2 (출처: 샤오미 공식 공개 렌더, IT매체 GizGuide 게재분)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/huawei-mate-xt2-vs-xiaomi-18-fold-20260908/xiaomi-18-fold-4.png)
 *샤오미 18 Fold — 공식 렌더 (출처: 샤오미 공식 공개 렌더, IT매체 GizGuide 게재분)*
 
 | 비교 항목 | 화웨이 메이트 XT 2 | 샤오미 18 Fold |

@@ -5,7 +5,7 @@ date: 2026-10-16 11:28:00 +0900
 categories: [products]
 tags: [레드매직12프로플러스, RedMagic12ProPlus, 레드매직, RedMagic, 게이밍폰, 게이밍스마트폰, 스냅드래곤8엘리트익스트림Gen6, Snapdragon8EliteExtremeGen6, 185Hz디스플레이, 8400mAh, RGB수랭, 아이스블루, 스마트폰추천, 제품비교, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/redmagic-12-pro-plus-guide-20261016/redmagic12pro-official-reveal.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/redmagic-12-pro-plus-guide-20261016/redmagic12pro-official-reveal.jpg
 description: "2026년 10월 15일 중국에서 공식 발표된 레드매직 12 프로플러스(RedMagic 12 Pro+)를 정리했습니다. 6.85형 BOE X11 OLED 185Hz 디스플레이, 스냅드래곤 8 엘리트 익스트림 Gen 6, 8400mAh 배터리, 120W 유선·80W 무선 충전, 25,500rpm 팬과 RGB 수랭까지 갖춘 게이밍폰입니다. 0.96mm 베젤과 9세대 디스플레이 일체형 카메라, 모델별 중국 출고가, 같은 칩을 쓴 원플러스 16·아이쿠 16과의 비교 포인트, 솔직한 장단점과 구매 팁 순서로 정리했습니다."
 ---
 
@@ -13,7 +13,7 @@ description: "2026년 10월 15일 중국에서 공식 발표된 레드매직 12 
 
 그 흐름의 최신작이 바로 **레드매직 12 프로플러스(RedMagic 12 Pro+, 중국명 红魔 12 Pro+)** 입니다. 2026년 10월 15일 중국에서 공식 발표됐고, 발표 전부터 "지금까지 나온 스냅드래곤 8 엘리트 익스트림 Gen 6 기기 중 가장 높은 점수"라는 이야기가 돌면서 관심이 몰렸습니다. 핵심 스펙부터 실제 포지션, 경쟁 모델과의 비교, 가격까지 한 번에 정리해 봤습니다.
 
-![레드매직 12 프로플러스 공식 제품 이미지 — 0.96mm 베젤의 무노치 디스플레이와 RGB 수랭 쿨링이 적용된 게이밍폰 (출처: RedMagic 공식 티저 / Gizmochina)](/assets/images/posts/redmagic-12-pro-plus-guide-20261016/redmagic12pro-official-reveal.jpg)
+![레드매직 12 프로플러스 공식 제품 이미지 — 0.96mm 베젤의 무노치 디스플레이와 RGB 수랭 쿨링이 적용된 게이밍폰 (출처: RedMagic 공식 티저 / Gizmochina)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/redmagic-12-pro-plus-guide-20261016/redmagic12pro-official-reveal.jpg)
 
 > **📌 한줄 요약:** 레드매직 12 프로플러스는 **6.85형 185Hz OLED + 스냅드래곤 8 엘리트 익스트림 Gen 6 + 8400mAh** 조합에, 스마트폰 최초로 **RGB 수랭 쿨링**과 **25,500rpm 액티브 팬**을 얹은 게이밍폰입니다. 중국 출고가는 12GB/256GB 기준 환산 약 1,050달러 수준이고, **글로벌 출시 일정은 아직 공식 발표되지 않았습니다.**
 
@@ -38,13 +38,13 @@ description: "2026년 10월 15일 중국에서 공식 발표된 레드매직 12 
 
 ## 제품 소개 — "더 가볍고, 더 얇고, 더 둥글게"
 
-![레드매직 12 프로플러스 공식 전신 이미지 — 노치 없는 풀스크린과 튀어나오지 않는 카메라 모듈 (출처: 레드매직 공식 공개 이미지, 중국 IT 매체 보도)](/assets/images/posts/redmagic-12-pro-plus-guide-20261016/redmagic12pro-fullbody-1.jpg)
+![레드매직 12 프로플러스 공식 전신 이미지 — 노치 없는 풀스크린과 튀어나오지 않는 카메라 모듈 (출처: 레드매직 공식 공개 이미지, 중국 IT 매체 보도)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/redmagic-12-pro-plus-guide-20261016/redmagic12pro-fullbody-1.jpg)
 
 레드매직은 이번 모델을 두고 **"지금까지 나온 레드매직 플래그십 중 손에 쥐었을 때 가장 좋은 제품"** 이라고 표현했습니다. 실제로 전작(11 프로플러스)과 비교해 **더 가볍고, 더 얇고, 더 좁고, 모서리가 더 둥글어졌습니다.** 게이밍폰은 성능만 앞세우다 보면 각진 프레임 때문에 오래 들고 있기 불편하다는 평가가 많았는데, 그 부분을 정면으로 손본 겁니다.
 
 전면은 트렌드를 거스르는 방향입니다. 펀치홀도, 노치도 없이 **전면 카메라를 디스플레이 아래에 숨긴 9세대 UDC**를 그대로 유지했습니다. 여기에 좌우상하 베젤을 **0.96mm**까지 줄이면서, 화면을 켰을 때의 몰입감은 확실히 게이밍폰답습니다. 후면 카메라 모듈도 "완전히 튀어나오지 않는" 설계라, 눕혀 놓았을 때 흔들리지 않습니다.
 
-![레드매직 12 프로플러스 RGB 수랭 쿨링 공식 티저 — 업계 최초로 스마트폰에 RGB 수랭을 적용했습니다 (출처: RedMagic 공식 티저 / Gizmochina)](/assets/images/posts/redmagic-12-pro-plus-guide-20261016/redmagic12pro-official-teaser.jpg)
+![레드매직 12 프로플러스 RGB 수랭 쿨링 공식 티저 — 업계 최초로 스마트폰에 RGB 수랭을 적용했습니다 (출처: RedMagic 공식 티저 / Gizmochina)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/redmagic-12-pro-plus-guide-20261016/redmagic12pro-official-teaser.jpg)
 
 ## 핵심 스펙과 특징
 
@@ -58,7 +58,7 @@ description: "2026년 10월 15일 중국에서 공식 발표된 레드매직 12 
 
 ### 3) 쿨링 — "AI 서버용 냉각수를 휴대폰에"
 
-![레드매직 12 프로플러스 발표 현장 이미지 — 액티브 팬과 수랭 루프가 결합된 쿨링 구조 (출처: RedMagic 공식 발표 자료 / Gagadget)](/assets/images/posts/redmagic-12-pro-plus-guide-20261016/redmagic12pro-cooling.jpg)
+![레드매직 12 프로플러스 발표 현장 이미지 — 액티브 팬과 수랭 루프가 결합된 쿨링 구조 (출처: RedMagic 공식 발표 자료 / Gagadget)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/redmagic-12-pro-plus-guide-20261016/redmagic12pro-cooling.jpg)
 
 이 제품의 진짜 차별점은 쿨링입니다. 업계 최초로 **RGB 수랭 쿨링**을 적용했는데, 단순한 조명 장식이 아니라 **AI 서버 클러스터에 쓰이는 불소계 냉각수**를 이중 순환 채널에 흘려보내 칩·배터리·풍로를 함께 식히는 구조입니다. 여기에 **25,500rpm 액티브 팬**(IPX8 방수)과 **업계 최초 임베디드 복합 액체금속 4.0**, 초박형 항공강 그래핀, 4D 아이스 스텝 VC까지 더했습니다. 쉽게 말해, **발열 때문에 프레임이 떨어지는 걸 막는 데 예산을 아낌없이 쓴 기기**입니다.
 
@@ -74,7 +74,7 @@ description: "2026년 10월 15일 중국에서 공식 발표된 레드매직 12 
 - USB 3.2 Gen 2, 그리고 **3.5mm 이어폰 잭**(요즘 보기 드문 장점)
 - 디스플레이 아래 지문인식 센서, 본체 IP68/IP69 등급
 
-![레드매직 12 프로플러스 아이스 블루 색상 — 투명 디테일이 살아 있는 게이밍 디자인 (출처: RedMagic 공식 발표 자료 / Gagadget)](/assets/images/posts/redmagic-12-pro-plus-guide-20261016/redmagic12pro-launch-hero.jpg)
+![레드매직 12 프로플러스 아이스 블루 색상 — 투명 디테일이 살아 있는 게이밍 디자인 (출처: RedMagic 공식 발표 자료 / Gagadget)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/redmagic-12-pro-plus-guide-20261016/redmagic12pro-launch-hero.jpg)
 
 ## 비교 포인트 — 같은 칩, 다른 무기
 

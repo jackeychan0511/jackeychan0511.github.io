@@ -5,13 +5,13 @@ date: 2026-10-20 14:50:00 +0900
 categories: [career]
 tags: [OpenAI, GPT6, COBOL, 포트란, Fortran, MultiLangBench, 레거시마이그레이션, 코드마이그레이션, AI코딩, GPT6Astra, GPT61Sol, 업무자동화, AI뉴스, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/openai-gpt-legacy-languages-cobol-20261020/grace-hopper-cobol-wikimedia.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-gpt-legacy-languages-cobol-20261020/grace-hopper-cobol-wikimedia.jpg
 description: "2026년 10월 19일 OpenAI가 COBOL·포트란·비주얼베이직 같은 저자원 프로그래밍 언어에서 GPT 최신 모델의 코딩 역량이 크게 올랐다고 발표했습니다. 자체 평가셋 MultiLangBench와 COBOL 마이그레이션 평가를 공개했고, GPT-6 Astra는 20개 언어 평균 통과율 87.4%, GPT-6.1 Sol은 COBOL→타 언어 마이그레이션에서 97.9%까지 도달했습니다. 수치의 의미와 한계, 실무 영향, 전망을 정리했습니다."
 ---
 
 > **📌 한줄 요약:** 2026년 **10월 19일**, OpenAI가 **COBOL·포트란·비주얼베이직** 같은 이른바 '저자원(low-resource) 프로그래밍 언어'에서 **GPT 최신 모델의 코딩 역량이 크게 좋아졌다**고 발표했습니다. 핵심은 숫자보다 **평가 도구를 함께 공개**했다는 점입니다. **MultiLangBench**(20개 언어로 SQLite 호환 엔진을 처음부터 구현)와 **COBOL 마이그레이션 평가**(동작을 그대로 보존하며 다른 언어로 옮기기)를 깃허브에 풀었습니다. 결과는 **GPT-6 Astra 평균 통과율 87.4%**(이전 GPT-5.6 Sol 26.8%), **COBOL 이전 작업은 GPT-6.1 Sol이 97.9%**까지 나왔습니다. 화려한 숫자 뒤에 **아직 안 풀린 부분**도 같이 보입니다.
 
-![그레이스 호퍼(Grace Hopper) 미국 해군 준장 공식 초상 (출처: Wikimedia Commons, Public Domain, James S. Davis / U.S. Navy)](/assets/images/posts/openai-gpt-legacy-languages-cobol-20261020/grace-hopper-cobol-wikimedia.jpg)
+![그레이스 호퍼(Grace Hopper) 미국 해군 준장 공식 초상 (출처: Wikimedia Commons, Public Domain, James S. Davis / U.S. Navy)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-gpt-legacy-languages-cobol-20261020/grace-hopper-cobol-wikimedia.jpg)
 *COBOL을 설계한 그레이스 호퍼 준장의 공식 초상 (출처: Wikimedia Commons, Public Domain, James S. Davis / U.S. Navy). 1950년대 컴파일러와 비즈니스 언어의 출발점을 만든 인물입니다.*
 
 은행·보험·공공 시스템을 다루는 쪽에서 일하거나, 그런 시스템을 **유지보수하는 팀과 일하는 분들이라면** 한 번쯤 같은 이야기를 듣습니다. "그 코드는 건드리면 안 됩니다. 돌아가고 있으니까요." 문서는 없고, 원래 만든 사람은 퇴사했고, 바꾸려면 **몇 달짜리 영향도 분석**부터 해야 하는 코드. AI 코딩 도구가 아무리 좋아져도 이런 영역에서는 늘 한 발 물러서 있었습니다. 학습 데이터가 파이썬·자바스크립트에 몰려 있으니까요.
@@ -108,7 +108,7 @@ OpenAI가 예로 든 부분이 실무자에게는 가장 와닿습니다. COBOL�
 
 여기에 **추론 강도(reasoning effort) 선택**이 새 변수로 들어옵니다. 위 수치를 보면 **낮은 강도로도 86.6%**가 나오고, 높은 강도에서 97.9%까지 올라갑니다. 즉 **"싸게 많이"와 "비싸게 정확히"를 작업 난이도별로 섞는 운영**이 가능해집니다. 다만 이건 **평가셋 기준**이므로, 실제 코드베이스에서 같은 비율이 나온다고 가정하면 안 됩니다. 파일럿에서 **자체 측정**이 먼저입니다.
 
-![IBM 메인프레임 시스템 (출처: Wikimedia Commons, CC BY-SA 4.0, Agiorgio)](/assets/images/posts/openai-gpt-legacy-languages-cobol-20261020/ibm-mainframe-z13-wikimedia.jpg)
+![IBM 메인프레임 시스템 (출처: Wikimedia Commons, CC BY-SA 4.0, Agiorgio)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-gpt-legacy-languages-cobol-20261020/ibm-mainframe-z13-wikimedia.jpg)
 *IBM z13과 LinuxONE 랙 (출처: Wikimedia Commons, CC BY-SA 4.0, Agiorgio). COBOL·포트란 코드가 실제로 도는 환경은 대개 이런 대형 시스템입니다. 제품 홍보 이미지가 아닌 참고 사진입니다.*
 
 ---

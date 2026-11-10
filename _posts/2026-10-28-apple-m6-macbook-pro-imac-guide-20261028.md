@@ -5,11 +5,11 @@ date: 2026-10-28 11:20:00 +0900
 categories: [products]
 tags: [M6, 애플M6, 맥북프로M6, 아이맥M6, MacBookProM6, iMacM6, 애플신제품, 맥북프로추천, 아이맥추천, 노트북추천, 일체형PC, 제품비교, 구매가이드, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/apple-m6-macbook-pro-imac-guide-20261028/macbook-pro-m6-hero.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/apple-m6-macbook-pro-imac-guide-20261028/macbook-pro-m6-hero.jpg
 description: "애플이 2026년 10월 27일(미국) 2나노 M6 칩을 탑재한 14인치 맥북프로와 24인치 아이맥을 공개했습니다. M5 대비 그래픽 최대 30%·AI 최대 25% 향상, 맥북프로는 최대 24시간 배터리와 Wi-Fi 7, 아이맥은 7가지 색상과 최대 4개 썬더볼트 4 포트가 특징입니다. 국내 가격은 맥북프로 329만원·아이맥 249만원부터, 사전 주문은 10월 29일 오전 2시 10분, 출시는 11월 6일입니다. 두 제품의 스펙 차이와 선택 기준, 솔직한 아쉬운 점까지 정리했습니다."
 ---
 
-![M6 칩을 탑재한 14인치 맥북프로 공식 이미지](/assets/images/posts/apple-m6-macbook-pro-imac-guide-20261028/macbook-pro-m6-hero.jpg)
+![M6 칩을 탑재한 14인치 맥북프로 공식 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/apple-m6-macbook-pro-imac-guide-20261028/macbook-pro-m6-hero.jpg)
 *애플이 2026년 10월 27일(미국 시간) 공개한 M6 탑재 14인치 맥북프로. 색상은 스페이스 블랙과 실버 두 가지입니다 (출처: Apple Newsroom, 2026.10.27)*
 
 > **📌 한줄 요약:** 애플이 **2026년 10월 27일(미국 시간)** 2나노 **M6** 칩을 얹은 **14인치 맥북프로**와 **24인치 아이맥**을 공개했습니다. M6는 **12코어 CPU·12코어 GPU·듀얼 16코어 Neural Engine** 구성으로, M5 대비 **그래픽 최대 30%·온디바이스 AI 최대 25%** 향상됐습니다. 맥북프로는 **최대 24시간 배터리**와 **Wi-Fi 7·블루투스 6**, 아이맥은 **7가지 색상**과 **최대 4개 썬더볼트 4 포트**가 핵심입니다. 국내 가격은 **맥북프로 329만원, 아이맥 249만원부터**이며 **10월 29일 오전 2시 10분 사전 주문, 11월 6일 출시**입니다.
@@ -44,7 +44,7 @@ description: "애플이 2026년 10월 27일(미국) 2나노 M6 칩을 탑재한 
 
 차이점은 폼팩터에서 갈립니다. 맥북프로는 **휴대성과 배터리**, 아이맥은 **화면 크기와 색상, 확장 포트**에 초점이 맞춰져 있습니다.
 
-![M6 칩 공식 이미지](/assets/images/posts/apple-m6-macbook-pro-imac-guide-20261028/macbook-pro-m6-chip.jpg)
+![M6 칩 공식 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/apple-m6-macbook-pro-imac-guide-20261028/macbook-pro-m6-chip.jpg)
 *M6는 12코어 CPU와 12코어 GPU, 듀얼 16코어 Neural Engine으로 구성됩니다. 코어 수는 M5보다 CPU·GPU 각각 2개씩 늘었습니다 (출처: Apple Newsroom, 2026.10.27)*
 
 ---
@@ -91,7 +91,7 @@ description: "애플이 2026년 10월 27일(미국) 2나노 M6 칩을 탑재한 
 - 외장 디스플레이 **최대 2대** 지원
 - **12MP Center Stage 카메라 + Desk View**, 6스피커, 3마이크
 
-![맥북프로 M6 포트 구성](/assets/images/posts/apple-m6-macbook-pro-imac-guide-20261028/macbook-pro-m6-ports.jpg)
+![맥북프로 M6 포트 구성](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/apple-m6-macbook-pro-imac-guide-20261028/macbook-pro-m6-ports.jpg)
 *HDMI·MagSafe 3·썬더볼트 4 3개·SDXC·헤드폰 잭을 갖췄습니다. M6 모델에서도 포트 구성은 그대로 유지됐습니다 (출처: Apple Newsroom, 2026.10.27)*
 
 ---
@@ -127,10 +127,10 @@ description: "애플이 2026년 10월 27일(미국) 2나노 M6 칩을 탑재한 
 - **12MP Center Stage + Desk View**, 6스피커(우퍼 2조 + 트위터 2개)
 - 색상 맞춤 **매직 키보드(Touch ID)·마우스·트랙패드** 동봉
 
-![24인치 아이맥 M6 공식 이미지](/assets/images/posts/apple-m6-macbook-pro-imac-guide-20261028/imac-m6-hero.jpg)
+![24인치 아이맥 M6 공식 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/apple-m6-macbook-pro-imac-guide-20261028/imac-m6-hero.jpg)
 *24인치 4.5K Retina 디스플레이에 M6를 얹은 새 아이맥. 디자인은 이전 세대와 동일합니다 (출처: Apple Newsroom, 2026.10.27)*
 
-![아이맥 M6 색상 라인업](/assets/images/posts/apple-m6-macbook-pro-imac-guide-20261028/imac-m6-colors.jpg)
+![아이맥 M6 색상 라인업](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/apple-m6-macbook-pro-imac-guide-20261028/imac-m6-colors.jpg)
 *블루·그린·핑크·옐로·퍼플·오렌지·실버 7가지 색상으로 나옵니다 (출처: Apple Newsroom, 2026.10.27)*
 
 ---

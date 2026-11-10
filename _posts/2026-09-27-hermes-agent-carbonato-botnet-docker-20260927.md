@@ -5,7 +5,7 @@ date: 2026-09-27 07:54:00 +0900
 categories: [career]
 tags: [HermesAgent, NousResearch, CARBONATO, 도커보안, Docker2375, AI에이전트보안, AIAPI키탈취, 봇넷, SOUL.md, GH0ST, 업무자동화, 홈서버, 보안이슈, 2026년9월]
 author: "40대 블로거"
-image: /assets/images/posts/2026-09-27-hermes-agent-carbonato-botnet-docker-20260927/hermes-agent-official-hero.webp
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-09-27-hermes-agent-carbonato-botnet-docker-20260927/hermes-agent-official-hero.webp
 description: "2026년 9월, 위협 인텔리전스 업체 ThreatDown이 'CARBONATO'라는 도커 봇넷을 공개했습니다. 핵심은 이 봇넷이 오픈소스 AI 에이전트 Hermes Agent를 그대로 설치한 뒤 페르소나 파일 하나만 바꿔 원격 조종 도구로 쓴다는 점입니다. 제가 매일 쓰는 도구라 실제 사용자 입장에서 공격 흐름과 점검 포인트를 정리했습니다."
 ---
 
@@ -17,7 +17,7 @@ description: "2026년 9월, 위협 인텔리전스 업체 ThreatDown이 'CARBONA
 
 2026년 9월, 위협 인텔리전스 업체 **ThreatDown**이 **CARBONATO**라는 도커 봇넷을 분석해 공개했습니다. 그리고 그 봇넷의 한가운데에 **Hermes Agent**가 있습니다. 제가 매일 쓰는 그 Hermes Agent입니다.
 
-![Hermes Agent 공식 홈페이지 랜딩 이미지](/assets/images/posts/2026-09-27-hermes-agent-carbonato-botnet-docker-20260927/hermes-agent-official-hero.webp)
+![Hermes Agent 공식 홈페이지 랜딩 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-09-27-hermes-agent-carbonato-botnet-docker-20260927/hermes-agent-official-hero.webp)
 *Hermes Agent 공식 홈페이지(hermes-agent.nousresearch.com) 랜딩 이미지 — 출처: Nous Research 공식 사이트*
 
 ## 무슨 일이 있었던 건가 — 노출된 도커 레지스트리에서 시작된 추적
@@ -40,7 +40,7 @@ ThreatDown 연구진은 2026년 8월, 인터넷에 인증 없이 열려 있던 �
 4. **운영** — 운영자가 텔레그램으로 작업을 보내면, 에이전트가 모델에게 물어 명령을 쓰고, 실행하고, 결과를 다시 텔레그램으로 돌려줍니다. 사람이 앉아 치는 것과 거의 같은 "대화형 명령 루프"입니다.
 5. **확산** — 5분마다 주변 네트워크의 /24 대역을 훑어 2375 포트가 열린 도커를 다시 찾습니다. 새로 뚫린 서버는 레지스트리에서 이미지를 받아 같은 루프에 합류합니다.
 
-![ThreatDown 보고서에 공개된 GH0ST 페르소나(SOUL.md) 캡처](/assets/images/posts/2026-09-27-hermes-agent-carbonato-botnet-docker-20260927/hermes-carbonato-ghost-soulmd.png)
+![ThreatDown 보고서에 공개된 GH0ST 페르소나(SOUL.md) 캡처](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-09-27-hermes-agent-carbonato-botnet-docker-20260927/hermes-carbonato-ghost-soulmd.png)
 *ThreatDown 분석 보고서에 실린 GH0ST 페르소나 파일 캡처 — 출처: ThreatDown 블로그 "CARBONATO: a botnet built around an AI agent"*
 
 ## 제가 이걸 '이슈급'으로 본 이유 — 탈취 1순위가 AI API 키입니다
@@ -82,7 +82,7 @@ ThreatDown 연구진은 2026년 8월, 인터넷에 인증 없이 열려 있던 �
 
 AI 에이전트를 실사용하는 입장에서 이런 소식은 반갑지 않습니다. 그래도 아는 것과 모르는 것의 차이는 큽니다. 저처럼 도커 위에 자동화 파이프라인을 얹어 돌리시는 분들이라면, 오늘 한 번쯤 `docker ps` 띄우기 전에 방화벽 규칙과 2375 포트부터 확인해보시길 권합니다. 크게 바꿀 건 없어도, 그 몇 분이 나중에 몇 시간을 아껴줄 수 있습니다.
 
-![Docker 공식 홈페이지 브랜드 이미지](/assets/images/posts/2026-09-27-hermes-agent-carbonato-botnet-docker-20260927/docker-official-meta.png)
+![Docker 공식 홈페이지 브랜드 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-09-27-hermes-agent-carbonato-botnet-docker-20260927/docker-official-meta.png)
 *Docker 공식 홈페이지(docker.com) 브랜드 이미지 — 출처: Docker, Inc. 공식 사이트*
 
 ---

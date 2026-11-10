@@ -5,11 +5,11 @@ date: 2026-08-27 18:00:00 +0900
 categories: [products]
 tags: [OpenAI, 엔비디아, NVIDIA, Jalapeño, 할라페뇨, AI칩, 추론칩, 반도체, Blackwell, GB300, GB200, VeraRubin, VeraCPU, HBM4, Broadcom, HotChips2026, InferenceX, SemiAnalysis, GPT-OSS, DeepSeekR1, KimiK2.5, 실적발표, 962억달러, AI반도체, 2026년8월]
 author: "40대 블로거"
-image: /assets/images/posts/openai-jalapeno-nvidia-20260827/openai-jalapeno-chip.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-jalapeno-nvidia-20260827/openai-jalapeno-chip.jpg
 description: "2026년 8월 25~26일, AI 반도체 업계에 상징적인 48시간이 펼쳐졌습니다. 8/25(화) 미국 Hot Chips 2026에서 OpenAI가 브로드컴(Broadcom)과 공동 설계한 자체 추론 칩 'Jalapeño'의 첫 벤치마크를 공개했는데, 무려 엔비디아 GB300(1,400W)보다 kW당 처리량이 최대 1.9배, 종단 간 지연시간은 최대 3.6배 짧다는 결과입니다. 하루 뒤인 8/26(수)에는 엔비디아가 분기 매출 962억 달러(+106% YoY)라는 사상 최대 실적을 발표하며 맞불을 놓았습니다. 이 글은 ① Jalapeño가 어떤 칩인지(HBM4 216GB·700W·TSMC N3P), ② 벤치마크 숫자를 솔직하게 까보고(단일 토큰 예측 vs MTP 형평성, Vera Rubin 미비교 등), ③ 엔비디아 실적과 Vera CPU·Groq 3 LPX 발표까지 정리한 뒤, ④ 'AI 구독료·GPU 비용이 부담되는 분' 관점에서 구매(활용) 팁과 전망을 정리한 핫이슈 분석입니다."
 ---
 
-![OpenAI Jalapeño 칩 (OpenAI 제공)](/assets/images/posts/openai-jalapeno-nvidia-20260827/openai-jalapeno-chip.jpg)
+![OpenAI Jalapeño 칩 (OpenAI 제공)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-jalapeno-nvidia-20260827/openai-jalapeno-chip.jpg)
 *OpenAI가 공개한 자체 추론 칩 'Jalapeño' (출처: OpenAI, Tom's Hardware 2026-08-25 기사 인용, 2026-08-27 확인)*
 
 ---
@@ -36,7 +36,7 @@ description: "2026년 8월 25~26일, AI 반도체 업계에 상징적인 48시�
 
 이 글은 그 **48시간의 핫이슈**를, 저처럼 "AI를 쓰는 사람" 관점에서 정리한 후기입니다. 칩을 직접 살 수는 없지만, **우리가 내는 구독료·API 비용이 어떤 방향으로 움직일지**를 가늠하는 데는 이 이야기만큼 좋은 재료가 없더라고요.
 
-![NVIDIA 공식 로고 (nvidia.com)](/assets/images/posts/openai-jalapeno-nvidia-20260827/nvidia-official-logo.png)
+![NVIDIA 공식 로고 (nvidia.com)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-jalapeno-nvidia-20260827/nvidia-official-logo.png)
 *NVIDIA 공식 로고 (출처: nvidia.com 공식 브랜드 자산, 2026-08-27 확인)*
 
 ---
@@ -65,7 +65,7 @@ description: "2026년 8월 25~26일, AI 반도체 업계에 상징적인 48시�
 
 포인트는 **"메모리 대역폭을 더 많이 붙이는 게 아니라, 붙어 있는 대역폭을 최대한 끌어내는"** 구조라는 점입니다. 또 TDP가 700W로 GB300(1,400W)의 절반인데 **정격 전력당 메모리는 약 50% 더 많습니다.** 전력 효율로 승부를 거는 설계라는 뜻이죠.
 
-![NVIDIA 공식 보도자료 이미지 — Vera CPU](/assets/images/posts/openai-jalapeno-nvidia-20260827/nvidia-vera-cpu.jpg)
+![NVIDIA 공식 보도자료 이미지 — Vera CPU](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-jalapeno-nvidia-20260827/nvidia-vera-cpu.jpg)
 *NVIDIA가 실적 발표와 함께 공개한 첫 AI 에이전트용 CPU 'Vera' (출처: nvidianews.nvidia.com 공식 보도자료 이미지, 2026-08-27 확인)*
 
 ---
@@ -98,7 +98,7 @@ OpenAI가 테스트한 모델은 **GPT-OSS 120B, DeepSeek R1 670B, Moonshot Kimi
 
 또 하나 재미있는 사실 — **엔비디아도 8/17에 OpenAI의 오하이오 데이터센터 캠퍼스에 최대 1,050억 달러 규모 파이낸싱을 제공하기로 했습니다.** OpenAI 하드웨어 담당 부사장 리처드 호는 "엔비디아는 정말 좋은 파트너이고, 우리는 계속 엔비디아를 많이 필요로 한다"고 말했죠. **싸우면서도 서로 필요한 관계**, 이게 지금 AI 반도체 시장의 실제 모습입니다.
 
-![OpenAI 공식 워드마크 로고 (Wikimedia Commons)](/assets/images/posts/openai-jalapeno-nvidia-20260827/openai-logo-wikimedia.png)
+![OpenAI 공식 워드마크 로고 (Wikimedia Commons)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-jalapeno-nvidia-20260827/openai-logo-wikimedia.png)
 *OpenAI 공식 워드마크 로고 (출처: Wikimedia Commons 'OpenAI Logo.svg', 2026-08-27 확인)*
 
 ---
@@ -121,7 +121,7 @@ Jalapeño 발표 하루 만에, 엔비디아가 **2027 회계연도 2분기(6/26
 
 즉, **"OpenAI가 내 칩으로 도전장을 던졌지만, 나는 여전히 사상 최대 실적을 내고 있고, 차세대(Rubin)도 이미 나왔다"**는 메시지인 셈입니다. 시장 시가총액이 약 5조 달러(한화 약 6,600조 원)에 달하는 기업답게, 실적 발표 후 주가도 급반등했다고 하네요.
 
-![NVIDIA H100 GPU 실물 사진 (Wikimedia Commons)](/assets/images/posts/openai-jalapeno-nvidia-20260827/nvidia-h100-commons.png)
+![NVIDIA H100 GPU 실물 사진 (Wikimedia Commons)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-jalapeno-nvidia-20260827/nvidia-h100-commons.png)
 *NVIDIA H100 GPU 실물 사진 (출처: Wikimedia Commons 'NVIDIA H100', 2026-08-27 확인)*
 
 ---

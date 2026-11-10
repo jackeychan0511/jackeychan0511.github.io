@@ -5,11 +5,11 @@ date: 2026-10-29 15:52:00 +0900
 categories: [career]
 tags: [Google Gemini, 구글 제미나이, Gemini 4 Carbon, 제미나이 4 카본, 카본, Gemini 4 Argon, 아르곤, 프론티어 모델, 사이버보안 AI, 취약점 탐지, SEC-bench Pro, ExploitGym, CWE-bench, Artificial Analysis, WebDev Arena, 장기 작업, 에이전트 코딩, Fairwind, Gemini API 가격, 구글 딥마인드, AI뉴스, 업무자동화, 2026년 10월]
 author: "40대 블로거"
-image: /assets/images/posts/gemini-4-carbon-launch-20261028/gemini-4-carbon-keyart.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-4-carbon-launch-20261028/gemini-4-carbon-keyart.jpg
 description: "구글이 2026년 10월 28일(미국 현지시간) 차세대 프론티어 모델 '제미나이 4 카본(Gemini 4 Carbon)'을 공식 발표했습니다. 인공지능 분석 지수 v5.0에서 59점으로 1위, SEC-bench Pro 88.2%, ExploitGym 54.8%, CWE-bench 71.0%를 기록했고, 내부 테스트에서는 며칠씩 장기 작업을 이어가는 모습이 관찰됐다고 합니다. 다만 이번 주부터 사이버 방어팀 일부에게만 순차 개방되며 일반 사용자·개발자 공개 일정은 '가능한 한 빠르게'라는 표현뿐입니다. 발표 내용, 성능 지표의 의미, API 가격, 아직 검증되지 않은 부분, 실무 영향까지 정리했습니다."
 ---
 
-![Gemini 4 Carbon 공식 키아트](/assets/images/posts/gemini-4-carbon-launch-20261028/gemini-4-carbon-keyart.jpg)
+![Gemini 4 Carbon 공식 키아트](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-4-carbon-launch-20261028/gemini-4-carbon-keyart.jpg)
 *출처: Google 공식 블로그 "Gemini 4 Carbon: our next frontier model" (2026.10.28)*
 
 > **📌 한 줄 요약:** 구글이 **2026년 10월 28일(미국 현지시간)**, 새 프론티어 모델 **'제미나이 4 카본(Gemini 4 Carbon)'** 을 공식 발표했습니다. 인공지능 분석 지수(Artificial Analysis Intelligence Index) **v5.0에서 59점으로 1위**, 취약점 탐지 **SEC-bench Pro 88.2%**, 익스플로잇 검증 **ExploitGym 54.8%**, 패치 작성 **CWE-bench 71.0%** 를 기록했습니다. 내부적으로는 **며칠씩 걸리는 장기 엔지니어링 작업을 포기하지 않고 이어갔다**고 밝혔습니다. 다만 이번 주부터 **사이버 방어팀 일부에게만** 열리고, 개발자·기업·일반 사용자 공개 시점은 **"가능한 한 빠르게(as soon as possible)"** 라는 표현뿐입니다.
@@ -39,7 +39,7 @@ AI 에이전트로 코드 리뷰·보안 점검·반복 업무를 자동화하�
 
 구글이 공개한 외부 벤치마크는 세 가지입니다. 셋 다 **"보안 담당자의 일"을 쪼갠 것**이라 서로 다른 걸 측정합니다.
 
-![Gemini 4 Carbon 벤치마크 평가표](/assets/images/posts/gemini-4-carbon-launch-20261028/gemini-4-carbon-evals.jpg)
+![Gemini 4 Carbon 벤치마크 평가표](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-4-carbon-launch-20261028/gemini-4-carbon-evals.jpg)
 *출처: Google 공식 블로그 평가표 (2026.10.28). 가드레일 없이 평가한 수치*
 
 | 벤치마크 | 무엇을 재나 | 카본 점수 | 해석 |
@@ -72,7 +72,7 @@ AI 에이전트로 코드 리뷰·보안 점검·반복 업무를 자동화하�
 
 마지막 항목은 특히 의미가 있습니다. 에이전트에 웹 페이지나 외부 문서를 읽히는 구조라면 **프롬프트 인젝션**이 가장 현실적인 위협인데, 평가된 모든 공격 시도에서 성공률 0%를 기록했다는 주장입니다. 물론 **"평가된 공격"에 한정**된 이야기이고, 새로운 공격 기법은 계속 나옵니다. 그래도 에이전트에 외부 입력을 물리는 파이프라인이라면 **모델 선택 기준에 이 지표를 넣을 만하다**는 생각이 듭니다.
 
-![간접 프롬프트 인젝션 저항성 평가 그래프](/assets/images/posts/gemini-4-carbon-launch-20261028/gemini-4-carbon-prompt-injection.jpg)
+![간접 프롬프트 인젝션 저항성 평가 그래프](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-4-carbon-launch-20261028/gemini-4-carbon-prompt-injection.jpg)
 *출처: Google 공식 블로그 — Gray Swan 간접 프롬프트 인젝션 평가 결과*
 
 ### 4) 왜 하필 '사이버보안'을 전면에 세웠나

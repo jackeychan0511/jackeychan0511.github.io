@@ -4,13 +4,13 @@ title: "업비트 콘플럭스(CFX)·빗썸 그래비티토큰(GRVT) 7월 31일 
 date: 2026-08-01 07:00:00 +0900
 categories: [finance]
 tags: [업비트, 빗썸, CFX, 콘플럭스, GRVT, 그래비티토큰, 신규상장, 코인, 가상자산, 상장]
-image: /assets/images/posts/upbit-bithumb-new-listing-cfx-grvt/cfx-hero.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/upbit-bithumb-new-listing-cfx-grvt/cfx-hero.jpg
 description: "7월 31일 업비트 콘플럭스(CFX)와 빗썸 그래비티토큰(GRVT)이 신규 상장됐습니다. 상장 개요, 기준가, 현재 시세, 프로젝트 정보와 입금 시 필수 확인사항을 정리했습니다."
 ---
 
 7월 31일, 국내 1·2위 거래소가 하루에 신규 상장 코인을 한 종씩 내놨습니다. **업비트는 콘플럭스(CFX)**, **빗썸은 그래비티토큰(GRVT)**입니다. 두 코인 모두 이번이 국내 원화 거래 첫 상장이라 관심이 큽니다.
 
-![콘플럭스(CFX) 공식 브랜드 배너](/assets/images/posts/upbit-bithumb-new-listing-cfx-grvt/cfx-hero.jpg)
+![콘플럭스(CFX) 공식 브랜드 배너](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/upbit-bithumb-new-listing-cfx-grvt/cfx-hero.jpg)
 *콘플럭스(Conflux) 공식 브랜드 이미지 (출처: confluxnetwork.org, 확인일: 2026.08.01)*
 
 **핵심 요약**: 업비트 CFX 7/31 18:00 거래 시작(첫날 +14%대), 빗썸 GRVT 7/31 14:00 거래 시작(기준가 346원 → 8/1 오전 372원). 두 종목 모두 상장 초기 5분 매수 제한·2시간 지정가 주문 제한이 적용됩니다.
@@ -32,7 +32,7 @@ description: "7월 31일 업비트 콘플럭스(CFX)와 빗썸 그래비티토�
 
 > 업비트는 공지 후 입출금 테스트 과정에서 일정을 한 차례 연기했다가, 같은 날 오후 6시에 거래를 정상 개시했습니다.
 
-![CFX 로고](/assets/images/posts/upbit-bithumb-new-listing-cfx-grvt/cfx-logo.png)
+![CFX 로고](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/upbit-bithumb-new-listing-cfx-grvt/cfx-logo.png)
 *CFX 공식 토큰 로고 (출처: CoinGecko)*
 
 ### 콘플럭스(Conflux)는 어떤 프로젝트?
@@ -60,7 +60,7 @@ CFX는 콘플럭스 네트워크의 **네이티브 토큰**으로, 네트워크 
 | **입금 컨펌 수** | 33 |
 | **현재 시세 (8/1 오전)** | **372원** (기준가 대비 +7.5%, 장중 고가 424원) |
 
-![그래비티토큰(GRVT) 공식 브랜드 배너](/assets/images/posts/upbit-bithumb-new-listing-cfx-grvt/grvt-hero.jpg)
+![그래비티토큰(GRVT) 공식 브랜드 배너](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/upbit-bithumb-new-listing-cfx-grvt/grvt-hero.jpg)
 *GRVT 공식 브랜드 이미지 "Finance that just flows" (출처: grvt.io, 확인일: 2026.08.01)*
 
 ### 그래비티토큰(GRVT)은 어떤 프로젝트?
@@ -71,7 +71,7 @@ GRVT는 **온체인 무기한 선물거래(Perp DEX)**를 시작으로, 거래·
 - **GRVT 토큰의 역할**: 유틸리티 토큰으로 **스테이킹 및 서비스 이용** 등에 활용됩니다.
 - 참고로 **그래비티(G)와 국문 명칭이 유사**해서, 거래·입출금 시 심볼명과 국문명을 반드시 확인해야 합니다.
 
-![GRVT 로고](/assets/images/posts/upbit-bithumb-new-listing-cfx-grvt/grvt-logo.jpg)
+![GRVT 로고](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/upbit-bithumb-new-listing-cfx-grvt/grvt-logo.jpg)
 *GRVT 공식 토큰 로고 (출처: CoinGecko)*
 
 ---

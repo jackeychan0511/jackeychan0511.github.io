@@ -5,13 +5,13 @@ date: 2026-08-01 06:05:00 +0900
 categories: [products]
 tags: [애플, 아이폰, 아이폰울트라, 폴더블아이폰, 아이폰18, 스마트폰, 9월공개, 루머, 신제품, IT, 2026년8월, 구매가이드]
 author: "40대 블로거"
-image: /assets/images/posts/iphone-ultra-foldable-guide-20260801/iphone-ultra-dummy-9to5mac.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/iphone-ultra-foldable-guide-20260801/iphone-ultra-dummy-9to5mac.jpg
 description: "애플의 첫 폴더블 아이폰(가칭 아이폰 울트라)이 9월 공개를 앞두고 있습니다. 유출된 모형 사진으로 확인된 7.8인치 와이드 디자인, 300만 원대 예상 가격, 출시일 전망(MacRumors 7/31 기준)과 갤럭시 Z 폴드8과의 비교까지 루머를 총정리했습니다."
 ---
 
 > **📌 한줄 요약:** 애플의 첫 폴더블 아이폰(가칭 **'아이폰 울트라'**)이 **9월, 아이폰18 프로와 함께 공개될 예정**입니다. 유출된 모형 사진 기준으로 **7.8인치 4:3 내부 화면 + 5.5인치 커버**의 '여권형 와이드' 디자인이며, 예상 가격은 **2,000달러(약 310만 원) 이상**입니다. 다만 출시가 늦어질 수 있다는 분석(아이폰X 스토리 재현설)도 있어, **9월 공식 발표 전까지는 모든 내용이 루머**임을 감안하고 읽어주세요.
 
-![아이폰 울트라(폴더블 아이폰) 모형 실사 사진 — 펼친 모습과 접은 모습](/assets/images/posts/iphone-ultra-foldable-guide-20260801/iphone-ultra-dummy-9to5mac.jpg)
+![아이폰 울트라(폴더블 아이폰) 모형 실사 사진 — 펼친 모습과 접은 모습](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/iphone-ultra-foldable-guide-20260801/iphone-ultra-dummy-9to5mac.jpg)
 *IT 팁스터 소니 딕슨(Sonny Dickson)이 공개한 아이폰 울트라 모형. 왼쪽이 펼친 화면, 오른쪽이 접은(커버) 화면 (출처: 9to5Mac, 2026-06-07 확인)*
 
 ---
@@ -53,7 +53,7 @@ description: "애플의 첫 폴더블 아이폰(가칭 아이폰 울트라)이 9
 | **버튼** | 볼륨 버튼 상단 이동, **액션 버튼 제외** 예상 |
 | **색상** | **화이트 단일 색상** 출시설 (소니 딕슨·인스턴트 디지털·마크 거먼) |
 
-![아이폰 울트라 모형 정면 사진](/assets/images/posts/iphone-ultra-foldable-guide-20260801/iphone-ultra-dummy-front.jpg)
+![아이폰 울트라 모형 정면 사진](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/iphone-ultra-foldable-guide-20260801/iphone-ultra-dummy-front.jpg)
 *6월 유출된 아이폰 울트라 모형. 여권형으로 접히는 폼팩터가 특징 (출처: ZDNet Korea / Sonny Dickson, 2026-06-08 확인)*
 
 여기서 주목할 점은 **화면 비율이 4:3으로 '가로로 넓다'**는 거예요. 기존 갤럭시 폴드(세로로 긴 북스타일)와 달리 **웹툰·문서·사진·멀티태스킹에 최적화된 와이드형**이고, 이는 7월 공개된 갤럭시 Z 폴드8이 같은 4:3 와이드 폼팩터로 나온 이유이기도 합니다. 접었을 때의 커버 화면이 5.5인치라는 점도 폴드8(5.5인치 커버)과 거의 같아요.
@@ -87,7 +87,7 @@ description: "애플의 첫 폴더블 아이폰(가칭 아이폰 울트라)이 9
 
 같은 9월에 나오는 아이폰18 프로·프로맥스보다 한 단계 위, **애플 라인업 최상위**로 자리 잡을 가능성이 높습니다. 폴더블 자체가 부품 단가가 높고, 애플이 '프리미엄 이미지'를 유지하는 전략을 쓸 것이라는 게 업계의 공통된 예상이에요.
 
-![아이폰 울트라 디자인 렌더링 이미지](/assets/images/posts/iphone-ultra-foldable-guide-20260801/iphone-ultra-render-newneek.jpg)
+![아이폰 울트라 디자인 렌더링 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/iphone-ultra-foldable-guide-20260801/iphone-ultra-render-newneek.jpg)
 *아이폰 울트라 예상 렌더링. 4:3 와이드 화면이 강조된 이미지 (출처: 뉴닉, 2026-04 확인)*
 
 ---
@@ -127,7 +127,7 @@ description: "애플의 첫 폴더블 아이폰(가칭 아이폰 울트라)이 9
 | **예상 가격** | 310만 원 이상 | 227만 8,100원 (256GB) |
 | **출시 시점** | 9월 공개설 (출시는 지연 가능) | **8월 7일 출시, 사전예약 8/3 마감** |
 
-![갤럭시 Z 폴드8 공식 보도사진](/assets/images/posts/iphone-ultra-foldable-guide-20260801/galaxy-z-fold8-press.jpg)
+![갤럭시 Z 폴드8 공식 보도사진](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/iphone-ultra-foldable-guide-20260801/galaxy-z-fold8-press.jpg)
 *애플의 와이드 폼팩터에 맞서 4:3 와이드형으로 출시된 갤럭시 Z 폴드8 (출처: 아시아에이 / 삼성전자, 2026-06 보도)*
 
 정리하면, **디자인 방향은 두 회사가 비슷하게 좁혀졌지만, 가격은 100만 원 가까이 차이**가 날 가능성이 높아요. 삼성은 이미 8월 7일 출시가 확정된 상태이고, 애플은 9월 발표 후 실제 구매까지는 시간이 더 걸릴 수 있습니다.

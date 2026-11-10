@@ -5,13 +5,13 @@ date: 2026-09-22 09:52:00 +0900
 categories: [career]
 tags: [OpenClaw, 오픈클로, 보안감사, SecurityAudit, TrailofBits, 트레일오브비츠, PatchthePlanet, 패치더플래닛, OpenAI, Codex, 취약점, 보안취약점, GitHubSecurityAdvisory, 신뢰경계, 권한경계, AI에이전트보안, 에이전트보안, 오픈소스AI, LTS, 업무자동화, 자동화파이프라인, AI툴추천, 2026년9월]
 author: "40대 블로거"
-image: /assets/images/posts/openclaw-trail-of-bits-audit-20260922/official-post-hero.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openclaw-trail-of-bits-audit-20260922/official-post-hero.png
 description: "2026년 9월 21일(현지), OpenClaw 재단이 공식 블로그에서 'OpenAI Patch the Planet 이니셔티브를 통한 트레일 오브 비츠(Trail of Bits) 보안 감사 완료' 결과를 공개했습니다. 비공개 저장소 권고 27건과 독립 하드닝 PR 3건이 제출됐고, 심각도 평가된 24건은 0 Critical·2 High·16 Medium·6 Low, 이 중 23건이 확인된 취약점입니다. 조치 대상은 전부 수정돼 2026.8.1과 2026.7.33 LTS에 반영됐습니다. 반복된 원인은 ①단계 사이에서 사라지는 권한 ②한 대상에 두 개의 이름(별칭·식별자 불일치) ③검사 대상과 실제 사용 대상의 불일치 ④에이전트 실행 중 바뀐 설정이 이미 돌고 있는 작업에 반영되지 않는 문제였습니다. 이슈 요약 → 등급 분포 → 4가지 실패 패턴 → 내가 지금 해야 할 일 → 솔직한 한계 순서로 정리했습니다."
 sitemap: false
 noindex: true
 ---
 
-![OpenClaw 공식 블로그 'OpenClaw Completes Security Audit Through OpenAI's Patch the Planet Initiative' 게시물 대표 이미지](/assets/images/posts/openclaw-trail-of-bits-audit-20260922/official-post-hero.png)
+![OpenClaw 공식 블로그 'OpenClaw Completes Security Audit Through OpenAI's Patch the Planet Initiative' 게시물 대표 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openclaw-trail-of-bits-audit-20260922/official-post-hero.png)
 *OpenClaw 공식 블로그(2026.9.21) 대표 이미지 — 트레일 오브 비츠 감사 결과를 공개한 게시물입니다 (출처: openclaw.ai/blog 공식 블로그)*
 
 > **📌 한줄 요약:** **2026년 9월 21일(현지시간)**, OpenClaw 재단이 공식 블로그에 **"OpenClaw Completes Security Audit Through OpenAI's Patch the Planet Initiative"** 라는 결과 보고를 올렸습니다. 요약하면 이렇습니다. ① 감사는 보안회사 **트레일 오브 비츠(Trail of Bits)** 가 **OpenAI의 'Patch the Planet' 이니셔티브**를 통해 진행했고, ② **비공개 저장소 보안 권고 27건 + 독립 하드닝 PR 3건**이 제출됐으며, ③ 심각도가 매겨진 24건은 **0 Critical / 2 High / 16 Medium / 6 Low**, 그중 **23건이 '확인된(confirmed)' 취약점**입니다. ④ 나머지 3건은 **신뢰 경계를 넘지 않은 방어심층(defense-in-depth) 소견**이라 등급을 받지 않았고, ⑤ **조치 가능한 이슈는 전부 수정되어 2026.8.1과 2026.7.33 LTS 안정판에 이미 반영**됐습니다. 숫자보다 중요한 건 **"왜 같은 종류의 문제가 반복됐는가"** — 권한·이름·검사 시점·실행 중 변경, 이 네 가지였습니다.
@@ -56,7 +56,7 @@ noindex: true
 
 그리고 **Critical 0건**이라는 점은 분명히 좋은 소식입니다. 다만 **High 2건**은 가볍게 볼 게 아닙니다. High 등급은 보통 "조건이 갖춰지면 권한 상승이나 정보 노출로 이어질 수 있다"는 뜻이니까요. 감사팀이 **"문서화된 신뢰 경계를 넘은 것"** 과 **"넘지 않은 것"** 을 엄격히 갈랐다는 사실 자체도, 이 보고서가 과장되지 않았다는 신호로 읽힙니다.
 
-![Trail of Bits 공식 'Patch the Planet' 페이지 대표 이미지 — 트레일 오브 비츠가 OpenAI와 함께 운영하는 오픈소스 보안 이니셔티브](/assets/images/posts/openclaw-trail-of-bits-audit-20260922/ptp-official.png)
+![Trail of Bits 공식 'Patch the Planet' 페이지 대표 이미지 — 트레일 오브 비츠가 OpenAI와 함께 운영하는 오픈소스 보안 이니셔티브](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openclaw-trail-of-bits-audit-20260922/ptp-official.png)
 *트레일 오브 비츠 공식 'Patch the Planet' 페이지 이미지 — OpenAI와 공동 운영하는 오픈소스 보안 이니셔티브로, OpenClaw 감사도 이 경로로 진행됐습니다 (출처: trailofbits.com/patch-the-planet 공식 홈페이지)*
 
 ---

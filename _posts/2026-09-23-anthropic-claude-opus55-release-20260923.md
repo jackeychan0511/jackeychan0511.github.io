@@ -5,7 +5,7 @@ date: 2026-09-23 16:52:00 +0900
 categories: [career]
 tags: [Anthropic, Claude, 앤트로픽, 클로드, ClaudeOpus55, Opus55, 오푸스5.5, Claude55패밀리, Fable51, 팹블, API가격인하, 프롬프트캐싱, ClaudeCode, 아마존베드락, 버텍스AI, MicrosoftFoundry, 터미널벤치, ArtificialAnalysis, METR, pacingthefrontier, 업무자동화, 자동화파이프라인, 2026년9월, AI산업]
 author: "40대 블로거"
-image: /assets/images/posts/anthropic-claude-opus55-20260923/anthropic-claude-opus55-official.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-opus55-20260923/anthropic-claude-opus55-official.jpg
 description: "2026년 9월 22일(미국 현지시간), Anthropic이 새 플래그십 '클로드 오푸스 5.5(Claude Opus 5.5)'를 전격 공개했습니다. 새 'Claude 5.5 패밀리'의 첫 모델로, 대부분의 작업에서 상위 모델인 '팹블 5.1(Fable 5.1)' 수준의 성능을 내면서 실행 비용은 오푸스 5보다 약 40% 낮췄습니다. API 가격은 입력 $4 / 출력 $20(백만 토큰당)으로 오푸스 5보다 20% 인하, 캐시 읽기는 $0.20으로 60% 내렸습니다. 100만 토큰 컨텍스트·128K 출력, 텍스트·이미지 입력을 지원하고 출시 당일 Claude 앱·Claude Code·API·Amazon Bedrock·Google Cloud Vertex AI·Microsoft Foundry에 동시 공개됐습니다. 이슈 요약부터 상세 분석, 솔직한 장단점, 사용자·개발자 영향, 전망까지 정리했습니다."
 sitemap: false
 noindex: true
@@ -15,7 +15,7 @@ noindex: true
 
 요즘 저처럼 **AI 에이전트를 실사용하고 업무 자동화 파이프라인을 운영하시는 분들**은, 모델이 새로 나올 때마다 **"성능이 얼마나 올랐나"보다 "작업당 비용이 얼마나 내려갔나"를 먼저 보게** 되실 겁니다. 저도 그렇습니다. 파이프라인을 돌리는 입장에서 **모델 성능 10% 상승은 체감이 크지 않지만, 토큰 단가 20% 인하는 청구서에 바로 찍히기** 때문입니다. 그래서 이번 **오푸스 5.5**는 제 기준에서 **꽤 반가운 뉴스**였습니다. 아래에서 무엇이 바뀐 건지, 그리고 **솔직히 아쉬운 부분까지** 정리해 보겠습니다.
 
-![Anthropic 공식 홈페이지의 'Introducing Claude Opus 5.5' 발표 페이지 대표 이미지 — 새 Claude 5.5 패밀리의 첫 모델입니다](/assets/images/posts/anthropic-claude-opus55-20260923/anthropic-claude-opus55-official.jpg)
+![Anthropic 공식 홈페이지의 'Introducing Claude Opus 5.5' 발표 페이지 대표 이미지 — 새 Claude 5.5 패밀리의 첫 모델입니다](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-opus55-20260923/anthropic-claude-opus55-official.jpg)
 *Anthropic 공식 홈페이지(anthropic.com) 'Introducing Claude Opus 5.5' 발표 페이지의 대표 이미지 — 2026년 9월 22일 공개된 Claude 5.5 패밀리의 첫 모델입니다 (출처: Anthropic 공식 홈페이지, 2026)*
 
 ## 🗞️ 이슈 요약 — 한눈에 보기
@@ -106,7 +106,7 @@ Anthropic이 공개한 벤치마크와 독립 측정치를 나란히 놓으면 �
 - **'생물·사이버 = 미토스급'이라는 평가의 무게.** **일반 공개 모델로 풀린 이상, 가드레일이 실제로 그 역량을 어디까지 막는지**는 계속 지켜봐야 합니다
 - **가격 경쟁의 배경이 '압박'입니다.** 같은 날 OpenAI도 저가 모델을 냈고, **양사 모두 오픈 웨이트 모델의 추격을 받고 있다**는 분석이 나옵니다. **인하가 지속될지, 아니면 점유율 확보 후 되돌릴지**는 미지수입니다
 
-![Anthropic CEO 다리오 아모데이 — 그는 2026년 9월 초 '최전선의 속도 조절(pacing the frontier)'을 주장했고, 오푸스 5.5는 그 선언 이후 나온 첫 신모델입니다](/assets/images/posts/anthropic-claude-opus55-20260923/dario-amodei-techcrunch-2023.jpg)
+![Anthropic CEO 다리오 아모데이 — 그는 2026년 9월 초 '최전선의 속도 조절(pacing the frontier)'을 주장했고, 오푸스 5.5는 그 선언 이후 나온 첫 신모델입니다](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-opus55-20260923/dario-amodei-techcrunch-2023.jpg)
 *Anthropic CEO 다리오 아모데이(Dario Amodei) (출처: Wikimedia Commons, TechCrunch, CC BY 2.0, TechCrunch Disrupt 2023)*
 
 ## 💼 영향 — 사용자와 개발자에게 실제로 뭐가 바뀌나

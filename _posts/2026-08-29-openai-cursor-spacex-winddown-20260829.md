@@ -5,13 +5,13 @@ date: 2026-08-29 14:50:00 +0900
 categories: [career]
 tags: [OpenAI, GPT, GPT-5.6, Cursor, Anysphere, SpaceX, xAI, 일론머스크, 샘앨트먼, AI코딩, 코딩에이전트, Codex, Claude, Gemini, 개발자, AI뉴스, 2026년8월]
 author: "40대 블로거"
-image: /assets/images/posts/openai-cursor-spacex-20260829/cursor-og-official.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-cursor-spacex-20260829/cursor-og-official.png
 description: "2026년 8월 28일(미국 시간), OpenAI가 공식 성명을 통해 SpaceX에 인수된 AI 코딩 에디터 Cursor(Anysphere)에 대한 GPT 모델 공급 계약 종료를 통보했습니다. 제안된 종료일은 11월 12일이며, OpenAI는 계약상 허용된 최대 통지 기간을 사용해 개발자들의 전환 시간을 확보해주겠다고 밝혔습니다. 배경에는 8월 14일 마감된 600억 달러 규모의 SpaceX-Anysphere 인수(역대 최대 소프트웨어 인수)와 머스크-알트만 간의 오랜 갈등이 자리합니다. 이 글은 ① 이슈 요약, ② 인수·계약 해지의 상세 분석, ③ Cursor에서 GPT-5.x·Codex를 쓰던 사용자/개발자에게 미치는 영향, ④ AI 코딩 도구 시장 재편 전망과 실전 대응 팁까지 정리한 핫이슈 분석입니다."
 sitemap: false
 noindex: true
 ---
 
-![Cursor 공식 홈페이지 대표 이미지 (cursor.com)](/assets/images/posts/openai-cursor-spacex-20260829/cursor-og-official.png)
+![Cursor 공식 홈페이지 대표 이미지 (cursor.com)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-cursor-spacex-20260829/cursor-og-official.png)
 *Cursor 공식 홈페이지 대표(OG) 이미지 (출처: cursor.com 공식 사이트, 2026-08-29 확인)*
 
 ---
@@ -34,7 +34,7 @@ noindex: true
 
 이 소식은 단순한 '기업 간 계약 문제'가 아니라, **지금 이 순간 AI 코딩 도구를 쓰고 있는 모든 개발자에게 직접 닿는 이야기**입니다. 이 글은 그 배경(600억 달러 인수, 머스크-알트만 갈등)부터 실제 영향, 그리고 **11월 12일까지 우리가 할 수 있는 대응**까지 정리한 후기입니다.
 
-![OpenAI 공식 워드마크 로고 (Wikimedia Commons)](/assets/images/posts/openai-cursor-spacex-20260829/openai-logo-wikimedia.png)
+![OpenAI 공식 워드마크 로고 (Wikimedia Commons)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-cursor-spacex-20260829/openai-logo-wikimedia.png)
 *OpenAI 공식 워드마크 로고 (출처: Wikimedia Commons 'OpenAI Logo.svg', 2026-08-29 확인)*
 
 ---

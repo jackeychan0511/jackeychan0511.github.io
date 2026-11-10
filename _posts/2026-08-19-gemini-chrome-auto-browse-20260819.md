@@ -13,7 +13,7 @@ noindex: true
 
 2026년 8월 18일(미국 현지), 구글이 **안드로이드 크롬(Chrome)에 Gemini를 미국 전체 사용자에게 공개**하고, AI 구독자 전용 **에이전트 기능 '오토 브라우즈(Auto Browse)'**를 정식 출시했습니다. 오늘은 **이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망** 순서로 정리해 드립니다.
 
-![구글 공식 발표 이미지 — 안드로이드 크롬에 탑재된 Gemini(오토 브라우즈 발표 히어로 이미지)](/assets/images/posts/gemini-chrome-auto-browse-20260819/chrome-gemini-announce-google-official.png)
+![구글 공식 발표 이미지 — 안드로이드 크롬에 탑재된 Gemini(오토 브라우즈 발표 히어로 이미지)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-chrome-auto-browse-20260819/chrome-gemini-announce-google-official.png)
 *안드로이드 크롬의 Gemini 정식 출시를 알린 구글 공식 블로그 대표 이미지 (출처: Google 공식 블로그, blog.google/products-and-platforms/products/chrome/gemini-in-chrome-android-auto-browse/)*
 
 ## 📌 이슈 요약: "크롬이 Gemini를 달고, 할 일을 대신 하기 시작했다"
@@ -65,7 +65,7 @@ noindex: true
 
 즉 **"미국 영어 사용자 + AI 구독자"**라면 풀 스펙, 그 외에는 **부분 기능**으로 시작한다고 보시면 됩니다. 한국어 사용자 입장에서는 "언제 한국어 되지?"가 자연스러운 질문인데, 구글의 최근 속도(연결 앱 14종 → 3.7 Flash 전방위 확산)를 보면 지역·언어 확장도 생각보다 빠를 수 있습니다.
 
-![Google Gemini 공식 로고 — 크롬까지 영역을 넓힌 구글 AI](/assets/images/posts/gemini-chrome-auto-browse-20260819/gemini-logo-2025-wikimedia.png)
+![Google Gemini 공식 로고 — 크롬까지 영역을 넓힌 구글 AI](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-chrome-auto-browse-20260819/gemini-logo-2025-wikimedia.png)
 *Google Gemini 로고 — 앱·검색·API에 이어 브라우저(크롬)까지 영역을 확장하는 구글 AI (출처: Wikimedia Commons, commons.wikimedia.org)*
 
 ## 💡 영향: 사용자와 개발자에게 무엇이 달라지나

@@ -6,7 +6,7 @@ categories: [career]
 tags: [Gemini, Google, 제미나이, 구글, GoogleWorkspace, 구글워크스페이스, WorkspaceIntelligence, 업무자동화, AI에이전트, 크로스앱, GeminiSpark, 문서자동화, 이메일자동화, 회의자동화, AI뉴스, 2026년9월, 구글AI]
 author: "40대 블로거"
 description: "2026년 9월 9~10일 구글이 Google Workspace 공식 블로그를 통해 Gemini가 워크스페이스 앱을 넘나들며 백그라운드에서 복합 작업을 처리하는 '크로스앱 에이전트' 기능을 공개했습니다. Gmail·Drive·Docs·Slides·Chat 어디서든 프롬프트 한 줄로 문서·시트·슬라이드를 생성하고, 딥리서치·이메일 초안·회의 잡기·할 일 등록까지 처리합니다. Workspace Intelligence 기반이며 기업 보안·권한·Human-in-the-Loop 통제가 내장됐습니다. 이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망 순서로 정리했습니다."
-image: /assets/images/posts/gemini-workspace-agentic-20260910/gemini-workspace-hero.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-workspace-agentic-20260910/gemini-workspace-hero.jpg
 sitemap: false
 noindex: true
 ---
@@ -15,7 +15,7 @@ noindex: true
 
 **2026년 9월 9일과 10일, 구글이 Workspace 공식 블로그를 통해 Gemini가 워크스페이스 앱을 넘나들며 복합 작업을 처리하는 기능을 공개**했습니다. 쉽게 말해 **"앱을 넘나드는 백그라운드 에이전트"**로 Gemini가 한 단계 진화한 겁니다. 오늘은 이 소식을 **이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망** 순서로 정리해 드립니다.
 
-![Google Workspace 공식 블로그 'Less switching, more flow: 5 new agentic capabilities across Google Workspace apps' 대표 이미지](/assets/images/posts/gemini-workspace-agentic-20260910/gemini-workspace-hero.jpg)
+![Google Workspace 공식 블로그 'Less switching, more flow: 5 new agentic capabilities across Google Workspace apps' 대표 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-workspace-agentic-20260910/gemini-workspace-hero.jpg)
 *Google Workspace 공식 블로그 "Less switching, more flow: 5 new agentic capabilities" 대표 이미지 — 이제 어느 앱에 있든 Gemini에게 크로스앱 작업을 지시할 수 있다 (출처: Google Workspace 공식 블로그, 2026.9.10)*
 
 > 📌 참고: 본 글은 2026년 9월 9일 Google Workspace Updates 공식 공지, 9월 10일 Google Workspace 공식 블로그 "Less switching, more flow: 5 new agentic capabilities across Google Workspace apps", 9to5Google(9/9) 등의 보도를 바탕으로 작성한 정보형 기사입니다.
@@ -43,7 +43,7 @@ noindex: true
 
 이제는 다릅니다. Google은 **모든 워크스페이스 앱의 Gemini 인스턴스를 같은 기능 세트로 통일**했습니다. 적용 대상은 **Gmail·Drive·Docs·Slides·Chat의 측면 패널**이고, 이를 가능케 한 게 **Workspace Intelligence**와 앱 간 깊은 연동입니다. 예를 들어 **Docs에 있으면서 바로 "내 영업팀에 검토용 메일 보내줘"라고 지시**할 수 있고, **Chat에서 문서·덱을 만들거나 회의 시간을 잡을 수 있습니다.**
 
-![Google Workspace 공식 블로그 이미지 — 다른 앱에 있으면서도 문서를 만들고 슬라이드를 다듬는 모습](/assets/images/posts/gemini-workspace-agentic-20260910/gemini-workspace-edit-slide.png)
+![Google Workspace 공식 블로그 이미지 — 다른 앱에 있으면서도 문서를 만들고 슬라이드를 다듬는 모습](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-workspace-agentic-20260910/gemini-workspace-edit-slide.png)
 *다른 앱에 머무른 채 Gemini가 백그라운드에서 만들어 준 문서·슬라이드를 바로 다듬을 수 있다 (출처: Google Workspace 공식 블로그 이미지, 2026.9.10)*
 
 ### 2. 실무에서 바로 쓰는 5가지 — "탭 전환 없이 끝내기"

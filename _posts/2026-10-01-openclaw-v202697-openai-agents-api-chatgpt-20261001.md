@@ -5,11 +5,11 @@ date: 2026-10-01 09:51:00 +0900
 categories: [career]
 tags: [OpenClaw, 오픈클로, OpenClaw업데이트, v2026.9.7, AgentsAPI, 오픈AI, OpenAI, ChatGPT로그인, SigninwithChatGPT, 에이전트런타임, 호스팅워크스페이스, 롤백보호, ClaudeOpus5.5, GPT6, 비디오생성, AI에이전트, 업무자동화, 자동화파이프라인, 오픈소스, 2026년10월, AI뉴스]
 author: "40대 블로거"
-image: /assets/images/posts/2026-10-01-openclaw-v202697-openai-agents-api-chatgpt-20261001/openclaw-202697-release-official.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-10-01-openclaw-v202697-openai-agents-api-chatgpt-20261001/openclaw-202697-release-official.png
 description: "2026년 9월 30일, 오픈소스 AI 에이전트 오픈클로(OpenClaw)가 v2026.9.7을 배포했습니다. 이번 버전의 핵심은 오픈AI Agents API 런타임(호스팅 워크스페이스) 공식 지원과 'Sign in with ChatGPT(Beta)' 로그인 추가, 그리고 업데이트 백업·자동 롤백 보호입니다. 여기에 부하 상황 성능 개선, 긴 대화 안정화, Claude Opus 5.5 등 모델 추가, Kie AI·Z.AI·Novita 비디오 생성 지원까지 얹혔습니다. 커밋 로그와 공식 문서를 직접 열어 확인한 내용을, 에이전트를 업무 자동화에 붙여 쓰는 입장에서 무엇이 달라지는지 솔직한 장단점과 함께 정리했습니다."
 ---
 
-![오픈클로 v2026.9.7 공식 릴리스 대표 이미지](/assets/images/posts/2026-10-01-openclaw-v202697-openai-agents-api-chatgpt-20261001/openclaw-202697-release-official.png)
+![오픈클로 v2026.9.7 공식 릴리스 대표 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-10-01-openclaw-v202697-openai-agents-api-chatgpt-20261001/openclaw-202697-release-official.png)
 *OpenClaw 공식 문서(docs.openclaw.ai/releases/2026.9.7)가 공개한 v2026.9.7 릴리스 대표 이미지 (출처: openclaw.ai 공식 문서)*
 
 ## AI 에이전트를 업무에 붙여 쓰는 분들이라면, 이번 릴리스는 그냥 지나치기 아깝습니다
@@ -50,7 +50,7 @@ description: "2026년 9월 30일, 오픈소스 AI 에이전트 오픈클로(Open
 
 셀프호스팅 실행도 가능하지만, 이 경우 **직접 컨트롤러와 일치하는 워크스페이스 경로**가 필요하고 파일 전송은 지원되지 않습니다. 제출 데드라인은 60초로 공유된다는 점도 알아두면 좋습니다.
 
-![오픈클로 오픈AI 프로바이더 공식 문서 이미지](/assets/images/posts/2026-10-01-openclaw-v202697-openai-agents-api-chatgpt-20261001/openclaw-openai-provider-official.png)
+![오픈클로 오픈AI 프로바이더 공식 문서 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-10-01-openclaw-v202697-openai-agents-api-chatgpt-20261001/openclaw-openai-provider-official.png)
 *OpenClaw 공식 문서의 OpenAI 프로바이더 페이지 이미지. v2026.9.7부터 Agents API 런타임이 정식 지원된다 (출처: docs.openclaw.ai)*
 
 ## 2) Sign in with ChatGPT (Beta) — 구독으로 연결하는 새 경로
@@ -115,5 +115,5 @@ openclaw update
 
 가성비 좋은(=공짜로 강력한) 오픈소스 에이전트를 찾는 분이라면, 이번 v2026.9.7은 한 번 올려볼 만한 업데이트입니다. 다만 "새 기능"보다 "안정성"에 방점이 찍힌 릴리스라는 점은 미리 알고 접근하시면 좋겠습니다.
 
-![오픈클로 공식 사이트 대표 이미지](/assets/images/posts/2026-10-01-openclaw-v202697-openai-agents-api-chatgpt-20261001/openclaw-official-og.png)
+![오픈클로 공식 사이트 대표 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-10-01-openclaw-v202697-openai-agents-api-chatgpt-20261001/openclaw-official-og.png)
 *OpenClaw 공식 사이트(openclaw.ai) 대표 이미지 (출처: openclaw.ai)*

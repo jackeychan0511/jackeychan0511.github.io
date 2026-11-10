@@ -5,7 +5,7 @@ date: 2026-10-12 11:55:00 +0900
 categories: [education]
 tags: [한양대ERICA, 영재교육원, 안산시, 2027영재교육원, 영재교육, 로봇AI영재, 과학영재교육원, 영재교육종합데이터베이스, GED, 안산인재육성재단, 사고력수학, 초등수학, 영재교육입시, 학부모필수정보, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/hanyang-erica-youngjae-20261012/01-erica-campus.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hanyang-erica-youngjae-20261012/01-erica-campus.png
 description: "경기도교육청의 설치 승인을 받은 한양대 ERICA 부설 영재교육원이 2027학년도 첫 신입생 120명을 모집합니다. 기초과학·로봇·인공지능(AI) 분야 총 8개 학급을 편성하고, 안산시 거주 초등학교 4학년~중학교 1학년 학생을 대상으로 10월 16일부터 25일까지 영재교육종합데이터베이스(GED)에서 온라인 원서를 접수합니다. 영재교육진흥법에 따라 승인된 정식 기관으로 수료 사실이 학교생활기록부에 기록되는 점이 핵심입니다."
 ---
 
@@ -15,7 +15,7 @@ description: "경기도교육청의 설치 승인을 받은 한양대 ERICA 부�
 
 앞서 **10월 10일** 한양대 ERICA에서 입학 설명회가 열렸고, **10월 16일부터 25일까지** 영재교육종합데이터베이스(GED)를 통해 온라인 원서를 접수합니다. 관내 초4~중1 학생 120명을 뽑는 **첫 신입생 선발**이라, 영재교육을 준비해 온 학부모라면 일정을 꼭 챙겨야 합니다.
 
-![한양대학교 에리카(ERICA) 캠퍼스 전경](/assets/images/posts/hanyang-erica-youngjae-20261012/01-erica-campus.png)
+![한양대학교 에리카(ERICA) 캠퍼스 전경](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hanyang-erica-youngjae-20261012/01-erica-campus.png)
 *한양대학교 에리카(ERICA) 캠퍼스 전경. 출처: 인천일보 DB*
 
 ## 📌 핵심 요약 — 3줄 정리
@@ -43,7 +43,7 @@ description: "경기도교육청의 설치 승인을 받은 한양대 ERICA 부�
 
 최근 영재교육은 순수 수학·과학 심화에서 나아가 **로봇·AI 등 첨단 분야 학급**을 별도로 편성하는 흐름이 뚜렷합니다. 이번 영재교육원도 8개 학급을 기초과학과 로봇·AI로 나눠 편성한 점이 눈에 띕니다.
 
-![안산시청사 전경](/assets/images/posts/hanyang-erica-youngjae-20261012/02-ansan-cityhall.jpg)
+![안산시청사 전경](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hanyang-erica-youngjae-20261012/02-ansan-cityhall.jpg)
 *안산시청사. 출처: 연합뉴스 — 안산시 제공*
 
 ## 배경 — 2024년 제안에서 2027년 개원까지

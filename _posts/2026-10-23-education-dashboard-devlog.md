@@ -5,7 +5,7 @@ date: 2026-10-23 10:00:00 +0900
 categories: [ai-teacher]
 tags: [공공데이터, 데이터분석, 학원창업, 입지분석, 파이썬, FastAPI, SQLite, 대시보드개발, 학교알리미, 행정동]
 description: "전국 학교 13,113개교와 학원 121,436개를 행정동 단위로 조회하는 대시보드를 공공데이터만으로 만들었습니다. 데이터 출처, 개발 과정, 실제로 막혔던 지점과 해결 방법을 정리했습니다. (기준일 2026.10.23)"
-image: /assets/images/posts/2026-10-23-education-dashboard-devlog/00-cover.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-10-23-education-dashboard-devlog/00-cover.png
 ---
 
 ### 들어가며 — "이 동네에 수학학원이 몇 개지?"
@@ -18,7 +18,7 @@ image: /assets/images/posts/2026-10-23-education-dashboard-devlog/00-cover.png
 
 그래서 만들었습니다. 학교·학생·학령인구·학원을 **행정동 하나를 기준으로** 한 화면에서 보여주는 내부용 웹 대시보드입니다.
 
-![대표 이미지](/assets/images/posts/2026-10-23-education-dashboard-devlog/00-cover.png)
+![대표 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-10-23-education-dashboard-devlog/00-cover.png)
 *전국 교육현황 대시보드 — 학교 13,113개교 · 학원 121,436개 · 행정동 3,623개*
 
 ---
@@ -38,10 +38,10 @@ image: /assets/images/posts/2026-10-23-education-dashboard-devlog/00-cover.png
 | 학구·유아인구 | 초등 통학구역, 만 4~5세 인구 |
 | 수동 지정 | 자동 매핑이 안 되는 학교를 사람이 지정 |
 
-![홈 화면](/assets/images/posts/2026-10-23-education-dashboard-devlog/01-home.png)
+![홈 화면](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-10-23-education-dashboard-devlog/01-home.png)
 *홈 — 전국 요약과 시도별 현황. 조회는 버튼을 눌러야 실행됩니다(자동 전체 조회 없음).*
 
-![지역·행정동 화면](/assets/images/posts/2026-10-23-education-dashboard-devlog/02-region.png)
+![지역·행정동 화면](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-10-23-education-dashboard-devlog/02-region.png)
 *지역·행정동 — 서울특별시 427개 동 조회 결과. 동명뿐 아니라 **도로명 주소**(예: 대학로 64)로도 찾을 수 있습니다.*
 
 특히 신경 쓴 부분은 **지역 리포트**입니다. 한 동을 고르면 이렇게 나옵니다.
@@ -51,7 +51,7 @@ image: /assets/images/posts/2026-10-23-education-dashboard-devlog/00-cover.png
 - 학교별 학년별 학생 수
 - 수학학원 수와 **반경 500m 안의 학원 밀집도**, 가까운 학원 목록(거리순)
 
-![지역 리포트](/assets/images/posts/2026-10-23-education-dashboard-devlog/03-report-mangpo1.png)
+![지역 리포트](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-10-23-education-dashboard-devlog/03-report-mangpo1.png)
 *수원시 망포1동 리포트 — 반경 500m 안 수학학원 45곳·전체 124곳, 동 전체 수학학원 29곳. 반경이 동 경계를 넘어가면 역전될 수 있습니다.*
 
 ---
@@ -77,7 +77,7 @@ image: /assets/images/posts/2026-10-23-education-dashboard-devlog/00-cover.png
 
 ### 3. 개발 과정 — 5주간의 순서
 
-![개발 흐름](/assets/images/posts/2026-10-23-education-dashboard-devlog/07-flow.png)
+![개발 흐름](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-10-23-education-dashboard-devlog/07-flow.png)
 *Phase 1~4로 기반을 만들고, 이후 학원·좌표·정확도 교정을 확장으로 붙였습니다.*
 
 **Phase 1 — 뼈대**
@@ -127,7 +127,7 @@ image: /assets/images/posts/2026-10-23-education-dashboard-devlog/00-cover.png
 
 ### 5. 결과
 
-![학원 화면](/assets/images/posts/2026-10-23-education-dashboard-devlog/04-academy.png)
+![학원 화면](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-10-23-education-dashboard-devlog/04-academy.png)
 *행정동별 학원 현황 — 강남구 대치4동은 수학학원 369곳·전체 학원 876곳. 개인정보(설립자·전화)는 저장하지 않습니다.*
 
 | 항목 | 수치 |
@@ -139,7 +139,7 @@ image: /assets/images/posts/2026-10-23-education-dashboard-devlog/00-cover.png
 | 행정동 매핑 | 120,322개 (99.08%) |
 | 경계 판정 교정 | 29,351건 |
 
-![지도](/assets/images/posts/2026-10-23-education-dashboard-devlog/05-map.jpg)
+![지도](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-10-23-education-dashboard-devlog/05-map.jpg)
 *행정동 경계 지도 — 색상으로 지표를 비교하고, 학원 마커와 반경 검색을 함께 봅니다.*
 
 외부 지도 API 없이 보유한 경계 데이터로 그렸고, 서버는 로컬에서만 돌아갑니다. 조회·집계·지도 모두 로컬 SQLite 연산이라 **AI 호출이나 유료 API가 발생하지 않습니다.**
@@ -155,7 +155,7 @@ image: /assets/images/posts/2026-10-23-education-dashboard-devlog/00-cover.png
 - 반경 500m 밀집도는 "이 건물에서 걸어갈 수 있는 경쟁"을 보여줍니다.
 - 학교별 학년별 학생 수는 **특정 초등학교 배후수요**를 확인하는 데 씁니다.
 
-![지표 비교](/assets/images/posts/2026-10-23-education-dashboard-devlog/06-compare.png)
+![지표 비교](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-10-23-education-dashboard-devlog/06-compare.png)
 *지표 비교 — 대치4동·잠실4동·상일제1동·망포1동을 나란히. 지표별 최댓값은 굵게 표시됩니다.*
 
 ---

@@ -5,7 +5,7 @@ date: 2026-10-08 07:52:00 +0900
 categories: [career]
 tags: [HermesAgent, NousResearch, 시리즈B, SeriesB, AI에이전트, 업무자동화, 기업용AI, HermesforBusinesses, AI투자, MIT라이선스, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/2026-10-08-nous-research-90m-series-b-hermes-enterprise/hermes-agent-official-hero.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-10-08-nous-research-90m-series-b-hermes-enterprise/hermes-agent-official-hero.png
 description: "2026년 10월 7일, 오픈소스 AI 에이전트 Hermes Agent를 만든 Nous Research가 9천만 달러(약 1,200억 원대) 시리즈B 투자를 유치했습니다. 기업가치는 15억 달러. 이번 라운드는 기업용 'Hermes for Businesses'와 모바일 앱 계획에 쓰입니다. 업무 자동화 파이프라인을 운영하는 입장에서 이 소식이 왜 '이슈급'인지 핵심만 정리했습니다."
 ---
 
@@ -17,7 +17,7 @@ AI 에이전트를 실사용하고 있습니다. 크론잡으로 정해진 시�
 
 2026년 10월 7일, 바로 그런 뉴스가 떴습니다. 오픈소스 AI 에이전트 **Hermes Agent**를 만든 **Nous Research**가 **9천만 달러(약 $90M)** 규모의 **시리즈B 투자**를 유치했고, **기업가치 15억 달러($1.5B)**를 인정받았습니다. The Wall Street Journal이 처음 보도했고, TechCrunch가 확인 보도를 냈습니다.
 
-![Hermes Agent 공식 홈페이지 랜딩 이미지](/assets/images/posts/2026-10-08-nous-research-90m-series-b-hermes-enterprise/hermes-agent-official-hero.png)
+![Hermes Agent 공식 홈페이지 랜딩 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-10-08-nous-research-90m-series-b-hermes-enterprise/hermes-agent-official-hero.png)
 *Hermes Agent 공식 홈페이지(hermes-agent.nousresearch.com) 랜딩 이미지 — 출처: Nous Research 공식 사이트*
 
 업무 자동화에 AI 에이전트를 얹어 쓰는 분들이라면, 이번 라운드가 **어디에 쓰이는지**가 핵심입니다. 결론부터 말하면, 이 돈은 **"기업용 Hermes"**와 **모바일 앱**으로 갑니다. 그 얘기를 아래에서 하나씩 풀어보겠습니다.
@@ -62,7 +62,7 @@ AI 에이전트를 실사용하고 있습니다. 크론잡으로 정해진 시�
 - 회사 **지식(knowledge)의 소유권을 회사가 갖는다**
 - 데이터를 외부로 내보내지 않고 **사내에서 안전하게** 멀티스텝 워크플로를 처리한다
 
-![Hermes Business 공식 페이지 카드 이미지](/assets/images/posts/2026-10-08-nous-research-90m-series-b-hermes-enterprise/hermes-business-official.png)
+![Hermes Business 공식 페이지 카드 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-10-08-nous-research-90m-series-b-hermes-enterprise/hermes-business-official.png)
 *기업용 'Hermes for Businesses' 공식 페이지 카드 — 출처: Nous Research Portal(portal.nousresearch.com/business)*
 
 둘째는 **모바일 앱 계획**입니다. 이미 데스크톱(Mac/Windows/Linux)과 Telegram·Slack·WhatsApp 같은 메신저 게이트웨이가 있는데, 여기에 모바일 앱이 더해진다는 구상입니다.
@@ -90,7 +90,7 @@ Nous Research CEO **Dillon Rolnick**은 회사 웹사이트에 남긴 메모에�
 
 반대로 반길 만한 변화도 있습니다. 그동안 오픈소스 AI 에이전트 생태계는 "취미 프로젝트"라는 인식이 있었는데, Nvidia·Microsoft·삼성 같은 투자자가 들어왔다는 건 **생태계가 산업 표준으로 인정받기 시작했다**는 신호입니다.
 
-![TNW 보도 이미지](/assets/images/posts/2026-10-08-nous-research-90m-series-b-hermes-enterprise/hermes-tnw-headline.jpg)
+![TNW 보도 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-10-08-nous-research-90m-series-b-hermes-enterprise/hermes-tnw-headline.jpg)
 *TNW "Nous Research raises $90M to take its Hermes AI agent to businesses" 보도 이미지 — 출처: The Next Web*
 
 ## 지금 시점에서 챙겨볼 포인트

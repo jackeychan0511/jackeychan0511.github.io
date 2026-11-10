@@ -5,13 +5,13 @@ date: 2026-09-22 11:22:00 +0900
 categories: [products]
 tags: [스냅드래곤 8 Elite Gen 6, Snapdragon 8 Elite Gen 6, 스냅드래곤 8 Elite Gen 6 Pro, Snapdragon 8 Elite Gen 6 Pro, 스냅드래곤 서밋 2026, Snapdragon Summit 2026, 퀄컴, Qualcomm, 오라이온 CPU, Oryon CPU, 2nm, TSMC, Adreno 850, LPDDR6, 플래그십 칩 비교, 모토로라 시그니처 27, 샤오미 18 프로, 갤럭시 S27 울트라, 2026년9월]
 author: "40대 블로거"
-image: /assets/images/posts/snapdragon-8-elite-gen-6-pro-vs-gen-6-20260922/snapdragon-summit-official.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/snapdragon-8-elite-gen-6-pro-vs-gen-6-20260922/snapdragon-summit-official.jpg
 description: "퀄컴이 9월 22일(현지시간) 스냅드래곤 서밋 2026에서 스냅드래곤 8 Elite Gen 6와 8 Elite Gen 6 Pro(내부 모델명 SM8950·SM8975)를 공개합니다. TSMC 2nm 공정, 5GHz를 넘보는 Oryon CPU, 새 캐시 시스템 Oryon FlexCache, Adreno 850 GPU, LPDDR6·UFS 5.0 지원설까지. 두 칩의 차이와 첫 탑재 기기(모토로라 시그니처 27·샤오미 18 프로·갤럭시 S27 울트라), 그리고 가격 인상 신호까지 솔직하게 정리했습니다."
 ---
 
 > **📌 한줄 요약:** 퀄컴이 **9월 22일(현지시간) 미국 하와이 마우이에서 열리는 '스냅드래곤 서밋 2026'(9월 22~24일)** 에서 **스냅드래곤 8 Elite Gen 6**와 상위 모델 **8 Elite Gen 6 Pro(내부 모델명 SM8950·SM8975)** 를 나란히 공개합니다. 퀄컴 플래그십이 **TSMC 2nm 공정**으로 넘어가는 첫 세대이고, **오라이온(Oryon) CPU 클럭은 최대 5GHz대**(유출 벤치마크 기준 5.11GHz)까지 거론됩니다. 핵심은 **한 세대에 두 개의 플래그십 칩**이라는 점 — 오늘 처음으로 "어느 칩을 고르느냐"가 스마트폰 구매 기준이 됩니다.
 
-![퀄컴 스냅드래곤 서밋 2026 공식 이미지 (출처: 퀄컴 공식 홈페이지)](/assets/images/posts/snapdragon-8-elite-gen-6-pro-vs-gen-6-20260922/snapdragon-summit-official.jpg)
+![퀄컴 스냅드래곤 서밋 2026 공식 이미지 (출처: 퀄컴 공식 홈페이지)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/snapdragon-8-elite-gen-6-pro-vs-gen-6-20260922/snapdragon-summit-official.jpg)
 *퀄컴 스냅드래곤 8 시리즈 플래그십 — 스냅드래곤 서밋 2026은 9월 22일부터 24일까지 마우이에서 열립니다 (출처: 퀄컴 공식 홈페이지)*
 
 요즘 저처럼 **"올해 말이 아니라 내년 초 플래그십을 노리는"** 분들, 요즘 참 복잡하시죠. 아이폰 18 프로와 폴더블 아이폰 '듀오'가 나왔고, 샤오미·비보·갤럭시까지 줄줄이 신제품을 쏟아내는데, 정작 **안드로이드 진영의 심장인 퀄컴 칩은 아직 베일이 벗겨지지 않았습니다.** 폰을 사려고 해도 "이 폰이 올해 칩인지, 내년 칩인지"가 헷갈리는 시기예요.
@@ -40,7 +40,7 @@ description: "퀄컴이 9월 22일(현지시간) 스냅드래곤 서밋 2026에�
 
 즉, **오늘 키노트가 끝나면 이 '유출 목록'의 대부분이 공식 확정 또는 정정**됩니다. 그래서 지금 시점의 정리는 **"발표 직전 스냅샷"** 으로 보시는 게 정확합니다.
 
-![퀄컴 스냅드래곤 신형 칩 2종 예고 이미지 (출처: 퀄컴 공식 티저 / GSMArena)](/assets/images/posts/snapdragon-8-elite-gen-6-pro-vs-gen-6-20260922/snapdragon-8-elite-gen-6-teaser.jpg)
+![퀄컴 스냅드래곤 신형 칩 2종 예고 이미지 (출처: 퀄컴 공식 티저 / GSMArena)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/snapdragon-8-elite-gen-6-pro-vs-gen-6-20260922/snapdragon-8-elite-gen-6-teaser.jpg)
 *퀄컴이 공개한 신형 스냅드래곤 8 Elite 티저 — "두 개의 선택지"를 강조한 공식 예고 (출처: 퀄컴 공식 티저 / GSMArena)*
 
 ---
@@ -53,7 +53,7 @@ description: "퀄컴이 9월 22일(현지시간) 스냅드래곤 서밋 2026에�
 
 그래서 퀄컴을 비롯한 애플 같은 설계 회사들이 **TSMC 2nm 물량을 두고 경쟁**하는 구조가 만들어졌고, 이 이야기가 뒤에서 **가격 인상**으로 연결됩니다.
 
-![TSMC Fab 12B 전경 (출처: Wikimedia Commons, CC BY-SA)](/assets/images/posts/snapdragon-8-elite-gen-6-pro-vs-gen-6-20260922/tsmc-fab-12b-2nm.jpg)
+![TSMC Fab 12B 전경 (출처: Wikimedia Commons, CC BY-SA)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/snapdragon-8-elite-gen-6-pro-vs-gen-6-20260922/tsmc-fab-12b-2nm.jpg)
 *대만 TSMC 신주 Fab 12B — 스냅드래곤 8 Elite Gen 6 계열이 2nm 공정으로 생산될 것으로 보입니다 (출처: Wikimedia Commons / CC BY-SA)*
 
 ### ② 오라이온 CPU 5GHz 돌파 — 그리고 새 코어 배치
@@ -68,7 +68,7 @@ description: "퀄컴이 9월 22일(현지시간) 스냅드래곤 서밋 2026에�
 
 퀄컴이 서밋 전에 **상위 칩의 NPU 개선점을 따로 설명하는 자료**를 풀었습니다. 칩 발표에서 GPU나 클럭보다 **온디바이스 AI 성능을 앞세우는 흐름**이 이번 세대에도 이어지는 셈입니다. 폰 안에서 사진 보정·번역·요약을 돌리는 게 기본값이 되면, NPU 차이가 **"상위 모델을 사야 하는 이유"** 로 작동합니다.
 
-![스냅드래곤 8 Elite Gen 6 Pro NPU 관련 퀄컴 발표 자료 (출처: 퀄컴 / GSMArena)](/assets/images/posts/snapdragon-8-elite-gen-6-pro-vs-gen-6-20260922/snapdragon-8-elite-gen-6-pro-npu.jpg)
+![스냅드래곤 8 Elite Gen 6 Pro NPU 관련 퀄컴 발표 자료 (출처: 퀄컴 / GSMArena)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/snapdragon-8-elite-gen-6-pro-vs-gen-6-20260922/snapdragon-8-elite-gen-6-pro-npu.jpg)
 *퀄컴이 공개한 상위 칩 NPU 개선 설명 자료 — 이번 세대는 온디바이스 AI가 전면에 나옵니다 (출처: 퀄컴 / GSMArena)*
 
 ---
@@ -89,7 +89,7 @@ description: "퀄컴이 9월 22일(현지시간) 스냅드래곤 서밋 2026에�
 
 표에서 보시면 아시겠지만, **오늘 발표 전까지 '확정 스펙'은 사실상 CPU 클럭과 캐시 기술뿐**입니다. GPU·메모리·저장 규격은 모두 유출이고, 특히 **안투투 4,835,412점**은 안투투 자체 데이터베이스에서 조회가 안 된다는 지적이 나온 **미검증 수치**입니다. 스크린샷은 돌지만, 공식 기록은 아니라는 뜻이죠. 참고로 노트북체크는 이 점수를 **전작(8 Elite Gen 5) 대비 약 15% 향상** 수준으로 해석했습니다. "15%"면 나쁘지 않은 개선이지만, 세대를 갈아탈 만큼 극적인 숫자는 아닙니다.
 
-![스냅드래곤 8 Elite Gen 6 Pro 클럭 관련 보도 이미지 (출처: 퀄컴 / GSMArena)](/assets/images/posts/snapdragon-8-elite-gen-6-pro-vs-gen-6-20260922/snapdragon-8-elite-gen-6-pro-5ghz.jpg)
+![스냅드래곤 8 Elite Gen 6 Pro 클럭 관련 보도 이미지 (출처: 퀄컴 / GSMArena)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/snapdragon-8-elite-gen-6-pro-vs-gen-6-20260922/snapdragon-8-elite-gen-6-pro-5ghz.jpg)
 *스냅드래곤 8 Elite Gen 6 Pro의 5GHz대 클럭 — 퀄컴 예고 자료와 유출 벤치마크가 같은 방향을 가리킵니다 (출처: 퀄컴 / GSMArena)*
 
 **제가 보는 실질적 차이는 이겁니다.** 예전에는 "플래그십 칩 하나"만 있어서 폰을 고를 때 칩은 고민 대상이 아니었습니다. 이번부터는 **표준형을 쓴 폰과 상위형을 쓴 폰이 같은 브랜드 라인업 안에서 공존**합니다. 갤럭시 S27 울트라에만 상위 칩이 들어가고 기본형은 다른 칩을 쓴다는 관측이 대표적이죠. 즉 **"울트라/프로 이름값"이 이제 칩으로 증명되는 구조**로 바뀝니다.
@@ -111,7 +111,7 @@ description: "퀄컴이 9월 22일(현지시간) 스냅드래곤 서밋 2026에�
 **① 모토로라 시그니처 27 — 오늘(9/22) 서밋에서 공개**
 모토로라가 **9월 22일 스냅드래곤 서밋에서 '시그니처 27'을 공개**합니다. 공식 티저에서 **거대한 카메라 아일랜드**와 **2억 화소 카메라**가 예고됐고, 스와로브스키 협업 버전도 함께 나온다는 관측입니다. 스냅드래곤 탑재를 직접 언급하며 서밋 일정에 맞춰 발표를 예고한 만큼, **신형 칩의 첫 실물 중 하나**가 될 가능성이 큽니다.
 
-![모토로라 시그니처 27 공식 티저 (출처: 모토로라 공식 티저 / Android Authority)](/assets/images/posts/snapdragon-8-elite-gen-6-pro-vs-gen-6-20260922/motorola-signature-27-teaser.jpg)
+![모토로라 시그니처 27 공식 티저 (출처: 모토로라 공식 티저 / Android Authority)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/snapdragon-8-elite-gen-6-pro-vs-gen-6-20260922/motorola-signature-27-teaser.jpg)
 *모토로라 시그니처 27 티저 — 거대한 카메라 아일랜드와 2억 화소 카메라가 예고됐습니다 (출처: 모토로라 공식 티저 / Android Authority)*
 
 **② 샤오미 18 프로·프로 맥스 — 9월 23일(중국)**

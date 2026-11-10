@@ -5,13 +5,13 @@ date: 2026-11-09 16:50:00 +0900
 categories: [career]
 tags: [Anthropic, Claude, 앤트로픽, 클로드, ClaudeCode, 클로드코드, settings.local.json, 시크릿유출, 보안취약점, GitHub, Apiiro, API키유출, 개발자보안, AI에이전트보안, 업무자동화, 2026년11월]
 author: "40대 블로거"
-image: /assets/images/posts/anthropic-claude-code-settings-secrets-leak-20261109/claude-code-official-hero.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-code-settings-secrets-leak-20261109/claude-code-official-hero.jpg
 description: "Claude Code의 'Yes, and don't ask again' 승인이 명령줄을 통째로 .claude/settings.local.json에 저장하면서, DB 비밀번호와 API 키가 평문으로 GitHub에 남는 문제가 드러났습니다. 보안업체 Apiiro가 2026년 11월 1~3일 공개 저장소를 전수 조사해 확인한 104,185개 파일·1,122개 유출 사례, 63개 피해 조직, Anthropic의 공식 반응과 지금 당장 할 수 있는 5분 점검법을 정리했습니다."
 sitemap: false
 noindex: true
 ---
 
-![Claude Code 공식 이미지](/assets/images/posts/anthropic-claude-code-settings-secrets-leak-20261109/claude-code-official-hero.jpg)
+![Claude Code 공식 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-code-settings-secrets-leak-20261109/claude-code-official-hero.jpg)
 *Anthropic 공식 Claude Code 제품 페이지 대표 이미지. 2026년 11월, 이 도구의 '다시 묻지 않기' 승인이 개발자 비밀번호를 공개 저장소로 흘려보내는 통로였다는 연구 결과가 나왔습니다 (이미지 출처: Anthropic 공식 사이트 anthropic.com/claude-code)*
 
 > **📌 한줄 요약:** Claude Code가 셸 명령을 승인할 때 뜨는 **"Yes, and don't ask again"** 버튼을 누르면, 승인한 명령줄이 **글자 그대로** `.claude/settings.local.json`에 저장됩니다. 문제는 그 명령줄 안에 `PGPASSWORD=...`나 `Authorization: Bearer ...`가 섞여 있을 수 있다는 것. 보안업체 **Apiiro**가 2026년 11월 1~3일 GitHub 공개 저장소를 훑어보니, 이 파일 **104,185개** 가운데 **1,122개**에 진짜 비밀번호·토큰이 평문으로 들어 있었습니다. Anthropic은 11월 7일 "무엇을 할 수 있을지 살펴보는 중"이라고 답했고, **수정 일정은 아직 없습니다.**
@@ -153,5 +153,5 @@ Anthropic이 기본 시크릿 스캔을 실제로 넣으면 재발은 상당 부
 - Anthropic Claude Code 공식 문서, Settings files and precedence — code.claude.com/docs
 - iTnews, CyberSecurityNews, 조선일보 등 국내외 보도 (2026.11.8~9)
 
-![Claude Code 공식 문서 설정 안내](/assets/images/posts/anthropic-claude-code-settings-secrets-leak-20261109/claude-code-settings-docs.png)
+![Claude Code 공식 문서 설정 안내](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-code-settings-secrets-leak-20261109/claude-code-settings-docs.png)
 *Anthropic Claude Code 공식 문서의 'Settings files and precedence' 페이지. `.claude/settings.local.json`은 원래 저장소에 커밋하지 않는 로컬 설정 파일로 안내됩니다 (이미지 출처: Anthropic Claude Code 공식 문서 code.claude.com/docs)*

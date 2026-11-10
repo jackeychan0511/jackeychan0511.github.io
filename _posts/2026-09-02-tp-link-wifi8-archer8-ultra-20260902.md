@@ -5,13 +5,13 @@ date: 2026-09-02 18:00:00 +0900
 categories: [products]
 tags: [TP-Link, 티피링크, Wi-Fi 8, 와이파이8, 802.11bn, UHR, Archer 8 Ultra, 아처 8 울트라, Deco 8 Ultra, 데코 8 울트라, 공유기, 공유기추천, 메시와이파이, 메시공유기, StabilityEngine, BN19000, BN22000, 10G, IFA2026, IFA, 베를린, 차세대와이파이, 2026년9월]
 author: "40대 블로거"
-image: /assets/images/posts/tp-link-wifi8-archer8-ultra-20260902/tp-link-archer8-deco8-ultra-hero.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/tp-link-wifi8-archer8-ultra-20260902/tp-link-archer8-deco8-ultra-hero.jpg
 description: "TP-Link가 IFA 2026(독일 베를린, 9월 4~8일)에서 세계 최초로 선보인 Wi-Fi 8(차세대 무선 표준 IEEE 802.11bn 기반) 완전체 라인업을 정리했습니다. 플래그십 공유기 Archer 8 Ultra BN19000(무선 최대 19Gbps·10G 유선 포트·내장 안테나 18개)과 메시 시스템 Deco 8 Ultra BN22000(3팩 기준 최대 22Gbps·약 9,800sq ft 커버리지·200대 이상 동시 접속)의 핵심 스펙, Wi-Fi 7 대비 최대 30% 높은 처리량을 내세운 StabilityEngine(ELR·DRU·NPCA·UEQM) 기술, 그리고 9월 30일 글로벌 온라인 런칭 이벤트와 사전예약 일정까지 담았습니다. '지금 공유기를 바꿔야 할까' 고민하는 분들을 위한 솔직한 판단 기준도 포함했습니다. 이미지는 TP-Link 공식 보도자료 사진입니다."
 ---
 
 > **📌 한줄 요약:** TP-Link가 **9월 1일(현지시간) IFA 2026 보도자료**를 통해 **세계 최초의 Wi-Fi 8 완전체 라인업**을 공개했습니다. 주인공은 플래그십 공유기 **Archer 8 Ultra BN19000**(무선 최대 **19Gbps**, 유선 **10Gbps**, 내장 안테나 18개)과 메시 시스템 **Deco 8 Ultra BN22000**(3팩 기준 최대 **22Gbps**, 약 9,800sq ft 커버리지, **200대 이상** 동시 접속)입니다. 둘 다 차세대 표준 **IEEE 802.11bn**을 기반으로 하며, TP-Link가 'Wi-Fi 7 대비 최대 30% 높은 처리량'을 자신하는 **StabilityEngine**(ELR·DRU·NPCA·UEQM) 기술이 탑재됩니다. **9월 30일 글로벌 온라인 런칭 이벤트**에서 가격과 전체 라인업이 공개되며, 일부 지역에서 같은 날 **사전예약**이 시작됩니다.
 
-![TP-Link 세계 최초 Wi-Fi 8 라인업 — Archer 8 Ultra 공유기와 Deco 8 Ultra 메시 시스템 (출처: TP-Link 공식 보도자료)](/assets/images/posts/tp-link-wifi8-archer8-ultra-20260902/tp-link-archer8-deco8-ultra-hero.jpg)
+![TP-Link 세계 최초 Wi-Fi 8 라인업 — Archer 8 Ultra 공유기와 Deco 8 Ultra 메시 시스템 (출처: TP-Link 공식 보도자료)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/tp-link-wifi8-archer8-ultra-20260902/tp-link-archer8-deco8-ultra-hero.jpg)
 *TP-Link 세계 최초 Wi-Fi 8 라인업 — Archer 8 Ultra(공유기)와 Deco 8 Ultra(메시) (출처: TP-Link 공식 보도자료)*
 
 요즘 저처럼 **"거실 공유기 하나로는 도저히 안 되겠다"** 싶어서 메시 와이파이를 알아보시는 분들 많으시죠? 솔직히 저도 2년 전 Wi-Fi 7 공유기로 바꾸면서 "이제 와이파이 걱정은 끝났다"고 생각했는데, 막상 거실에서 2칸짜리 신호로 유튜브 보다가 버퍼링 걸리면 그 생각이 싹 사라지더라고요. 그런데 오늘 아침, **IFA 2026(9월 4~8일, 베를린)을 앞두고 TP-Link가 공개한 보도자료** 하나를 보고 깜짝 놀랐습니다. **세계 최초로 Wi-Fi 8 공유기 라인업**을 공개한다는 소식이었거든요. Wi-Fi 7도 제대로 안 퍼졌는데 벌써 8이라니, 솔직히 "또 스펙 낭비 아니야?" 싶은 마음이 먼저 들었습니다.
@@ -40,7 +40,7 @@ TP-Link는 이번 Wi-Fi 8 라인업을 만들면서 **Broadcom·Qualcomm·MediaT
 
 ## ② Archer 8 Ultra BN19000 — "19Gbps 공유기, 이제 인테리어 소품?"
 
-![TP-Link Archer 8 Ultra — 미니멀 건축적 디자인의 플래그십 Wi-Fi 8 공유기 (출처: TP-Link 공식 보도자료)](/assets/images/posts/tp-link-wifi8-archer8-ultra-20260902/tp-link-archer8-ultra-lifestyle.jpg)
+![TP-Link Archer 8 Ultra — 미니멀 건축적 디자인의 플래그십 Wi-Fi 8 공유기 (출처: TP-Link 공식 보도자료)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/tp-link-wifi8-archer8-ultra-20260902/tp-link-archer8-ultra-lifestyle.jpg)
 *TP-Link Archer 8 Ultra — 거실에 놓고 싶어지는 디자인 (출처: TP-Link 공식 보도자료)*
 
 **Archer 8 Ultra(모델명 BN19000, 코드명 Archer BN800)** 는 이번 라인업의 플래그십 **트라이밴드 Wi-Fi 8 공유기**입니다. 핵심 스펙만 추리면 이렇습니다.
@@ -60,7 +60,7 @@ TP-Link는 이번 Wi-Fi 8 라인업을 만들면서 **Broadcom·Qualcomm·MediaT
 
 ## ③ Deco 8 Ultra BN22000 — "3팩이면 집 전체가 22Gbps"
 
-![TP-Link Deco 8 Ultra — 3팩 기준 최대 22Gbps의 Wi-Fi 8 메시 시스템 (출처: TP-Link 공식 보도자료)](/assets/images/posts/tp-link-wifi8-archer8-ultra-20260902/tp-link-deco8-ultra.jpg)
+![TP-Link Deco 8 Ultra — 3팩 기준 최대 22Gbps의 Wi-Fi 8 메시 시스템 (출처: TP-Link 공식 보도자료)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/tp-link-wifi8-archer8-ultra-20260902/tp-link-deco8-ultra.jpg)
 *TP-Link Deco 8 Ultra — Wi-Fi 8 메시 시스템 (출처: TP-Link 공식 보도자료)*
 
 메시 와이파이를 쓰고 싶은 분들이라면 **Deco 8 Ultra(모델명 BN22000, 코드명 Deco BN85)** 가 더 눈에 들어오실 겁니다. 이 제품도 **트라이밴드 Wi-Fi 8 메시 시스템**인데요.

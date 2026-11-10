@@ -5,13 +5,13 @@ date: 2026-08-06 17:00:00 +0900
 categories: [finance]
 tags: [비트코인, 가상화폐, 코인, BTC, 암호화폐]
 author: "40대 블로거"
-image: /assets/images/posts/crypto-briefing-20260806-pm/bitcoin-holding.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/crypto-briefing-20260806-pm/bitcoin-holding.jpg
 description: "8월 6일 오후 코인 브리핑. 미국 BTC·ETH 현물 ETF에 하루 3억520만달러 순유입, 클래리티법은 상원 의사일정에 또 오르지 못하며 지연. 연준 6월 PCE 전망 3.6% 상향 여파에 금 4,235달러. BTC 6만4792달러(+0.92%), 업비트 약 9,175만 원."
 sitemap: false
 noindex: true
 ---
 
-![손에 쥔 비트코인 실물 코인](/assets/images/posts/crypto-briefing-20260806-pm/bitcoin-holding.jpg)
+![손에 쥔 비트코인 실물 코인](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/crypto-briefing-20260806-pm/bitcoin-holding.jpg)
 *비트코인 실물 코인 — ETF 자금 유입 속 6.5만달러 회복 시도 (2026.08.06 18:00 KST) / 사진: Satheesh Sankaran (Flickr, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/))*
 
 **핵심 요약**: 미국 비트코인·이더리움 현물 ETF에 하루 합산 **3억520만달러**가 순유입되며 기관 수요가 재확인됐습니다. 반면 클래리티법은 상원 의사일정에 또 오르지 못하며 지연, 규제 불확실성은 이어졌습니다.

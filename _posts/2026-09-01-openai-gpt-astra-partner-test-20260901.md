@@ -5,7 +5,7 @@ date: 2026-09-01 14:53:00 +0900
 categories: [career]
 tags: [GPT, OpenAI, Astra, GPT-6, ultima-alpha, mozaik-alpha-fdm, 출시일, 파트너테스트, 도그푸딩, GPT-Image2, Fable5.1, AI뉴스, 2026년9월, 예측시장, 샘알트만, SamAltman, 코딩, Codex]
 author: "40대 블로거"
-image: /assets/images/posts/openai-gpt-astra-partner-test-20260901/openai-magnifier-logo.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-gpt-astra-partner-test-20260901/openai-magnifier-logo.jpg
 description: "2026년 8월 29~31일, OpenAI 차세대 모델 'Astra(GPT-6급)'가 내부 도그푸딩 단계를 마치고 일부 파트너 대상 테스트로 전환됐다는 제보가 잇따랐습니다. 파트너 화면에 노출된 코드명은 'ultima-alpha', 광범위 출시 목표는 9월 3일(목)부터 다음 주 말 사이로 알려졌습니다. GPT-Image 2 업데이트 동시 출시설과 Anthropic Fable 5.1 견제 구도, OpenAI의 공식 입장(GPT-6 vs GPT-5.7 네이밍 미정), 예측시장 베팅까지 정리했습니다."
 sitemap: false
 noindex: true
@@ -13,7 +13,7 @@ noindex: true
 
 > **📌 한줄 요약:** OpenAI의 차세대 모델 **Astra(GPT-6급)** 가 지난 8월 29일(현지시각)을 기점으로 **내부 도그푸딩(dogfooding) 단계를 끝내고 일부 파트너 대상 테스트로 전환**됐다는 제보가 나왔습니다. 파트너 화면에 노출된 코드명은 **'ultima-alpha'**, 유출 체크포인트는 **'mozaik-alpha-fdm'** 이며, **광범위 출시 목표는 9월 3일(목)~다음 주 말 사이**로 전해집니다. 같은 시점에 **GPT-Image 2 업데이트 동시 출시설**과 Anthropic **Fable 5.1** 출시를 견제하는 구도까지 겹치며, 9월 첫째 주 AI 업계가 술렁이고 있습니다.
 
-![OpenAI 로고를 확대경으로 살펴보는 모습 (출처: Jernej Furman / Flickr, Wikimedia Commons, CC BY 2.0)](/assets/images/posts/openai-gpt-astra-partner-test-20260901/openai-magnifier-logo.jpg)
+![OpenAI 로고를 확대경으로 살펴보는 모습 (출처: Jernej Furman / Flickr, Wikimedia Commons, CC BY 2.0)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-gpt-astra-partner-test-20260901/openai-magnifier-logo.jpg)
 *OpenAI 로고를 확대경으로 살펴보는 모습 (출처: Jernej Furman / Flickr, Wikimedia Commons, CC BY 2.0)*
 
 요즘 저처럼 챗GPT를 메인 AI로 쓰면서 "다음 모델은 언제 나오지?" 하고 공식 블로그를 매일 들여다보시는 분들 많으시죠? 솔직히 저도 지난주에 유출된 Astra 출력물 글을 쓰면서 "이제 정말 멀지 않았다"고 생각했는데, 이번 주 들어 **파트너 테스트 돌입**이라는 더 구체적인 신호가 연달아 나왔습니다. 오늘은 그 내용을 제보자별 증언과 예측시장 데이터까지 모아 정리해 봤습니다.
@@ -97,7 +97,7 @@ Decrypt 보도에 따르면 예측시장 트레이더들은 **9월 30일까지 A
 
 만약 제보대로 **9월 3일(목)** 에 Astra가 나온다면, GPT-5.5(4월)→GPT-5.6 Sol(7월)→Astra(9월)로 이어지는 **6개월간의 초고속 세대교체**가 완성됩니다. Anthropic의 Fable 5.1과 거의 같은 주에 겹칠 경우, 2026년 하반기 '모델 전쟁'의 서막이 되는 셈이죠.
 
-![OpenAI 2025 공식 로고 (출처: Wikimedia Commons / openai.com/brand)](/assets/images/posts/openai-gpt-astra-partner-test-20260901/openai-logo-2025-symbol.png)
+![OpenAI 2025 공식 로고 (출처: Wikimedia Commons / openai.com/brand)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-gpt-astra-partner-test-20260901/openai-logo-2025-symbol.png)
 *OpenAI 2025 공식 로고 (출처: Wikimedia Commons, OpenAI 브랜드 페이지, Public Domain)*
 
 다만 변수도 분명합니다. 8월 초 사이버 역량 우려로 롤아웃이 늦춰진 전례가 있기 때문에, **안전 검증이 다시 길어지면 9월 중순 이후로 밀릴 가능성**도 배제할 수 없습니다. 결국 공식 발표가 나오기 전까지는 "9월 3일이 유력한 1차 목표"라는 수준으로 이해하는 게 맞습니다.

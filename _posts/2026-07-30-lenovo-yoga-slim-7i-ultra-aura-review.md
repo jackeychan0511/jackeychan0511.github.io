@@ -5,13 +5,13 @@ date: 2026-07-30 10:00:00 +0900
 categories: [products]
 tags: [레노버, 요가슬림7i, 노트북추천, AI노트북, 초경량노트북, 인텔코어울트라, IT, 가전, 신제품, 크리에이터노트북]
 author: "40대 블로거"
-image: /assets/images/posts/lenovo-yoga-slim-7i-ultra-aura/yoga-slim-7i-ultra-hero.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/lenovo-yoga-slim-7i-ultra-aura/yoga-slim-7i-ultra-hero.jpg
 description: "975g 초경량에 2.8K OLED 120Hz, 인텔 코어 울트라 X9, 75Wh 배터리까지. 레노버 요가 슬림 7i 울트라 아우라 에디션을 직접 살펴보고 정리한 솔직 후기입니다."
 ---
 
 > **📌 한줄 요약:** 레노버 요가 슬림 7i 울트라 아우라 에디션은 **975g**의 초경량 바디에 **2.8K OLED 120Hz** 디스플레이, **인텔 코어 울트라 X9** 프로세서, **75Wh** 대용량 배터리를 탑재한 2026년형 프리미엄 AI 노트북입니다. 가벼운 무게와 긴 배터리로 이동이 많은 직장인·크리에이터에게 특히 추천합니다. **가격은 약 189만 원대부터 시작**합니다.
 
-![레노버 요가 슬림 7i 울트라 아우라 에디션](/assets/images/posts/lenovo-yoga-slim-7i-ultra-aura/yoga-slim-7i-ultra-hero.jpg)
+![레노버 요가 슬림 7i 울트라 아우라 에디션](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/lenovo-yoga-slim-7i-ultra-aura/yoga-slim-7i-ultra-hero.jpg)
 *레노버 요가 슬림 7i 울트라 아우라 에디션 — 975g 초경량 디자인 (출처: Tom's Guide)*
 
 ---
@@ -52,7 +52,7 @@ description: "975g 초경량에 2.8K OLED 120Hz, 인텔 코어 울트라 X9, 75W
 
 이 스펙을 975g에 담았다는 게 가장 놀라운 부분입니다. LG 그램 Pro(16인치 1.2kg)보다 가볍고, 맥북 에어 M4(1.24kg)보다 확연히 가벼워요.
 
-![레노버 요가 슬림 7i 울트라 아우라 에디션 디자인](/assets/images/posts/lenovo-yoga-slim-7i-ultra-aura/yoga-slim-7i-ultra-design.jpg)
+![레노버 요가 슬림 7i 울트라 아우라 에디션 디자인](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/lenovo-yoga-slim-7i-ultra-aura/yoga-slim-7i-ultra-design.jpg)
 *마그네슘 알루미늄 합금 소재의 슬림한 바디 (출처: Tom's Guide)*
 
 ---
@@ -91,7 +91,7 @@ Copilot+ PC로 윈도우 AI 기능을 완전히 쓸 수 있고, 레노버 자체
 
 썬더볼트 4가 2개, USB-A가 1개, HDMI 2.1이 1개 있습니다. 허브 없이 사용하기에는 충분하지만, SD 카드 슬롯이 없다는 점이 사진/영상 편집하는 분들에게는 단점이 될 수 있습니다.
 
-![레노버 요가 슬림 7i 울트라 아우라 에디션 디스플레이](/assets/images/posts/lenovo-yoga-slim-7i-ultra-aura/yoga-slim-7i-ultra-display.jpg)
+![레노버 요가 슬림 7i 울트라 아우라 에디션 디스플레이](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/lenovo-yoga-slim-7i-ultra-aura/yoga-slim-7i-ultra-display.jpg)
 *2.8K OLED 120Hz 디스플레이 — 색감과 선명도가 뛰어납니다 (출처: Tom's Guide)*
 
 ---

@@ -5,7 +5,7 @@ date: 2026-09-29 11:00:00 +0900
 categories: [education]
 tags: [영재학교, 영재학교전환, 전북과학고, KAIST, 카이스트부설영재학교, 전북교육청, 천호성교육감, 제2과학고, 과기정통부공모, 영재학교공모, 과학기술원부설영재학교, 지역인재선발, 익산, 사고력수학, 영재교육, 시매쓰, Cmath, 크레버스, CMS영재관, 와이즈만영재교육, 소마사고력수학, 씨투엠, 생각하는황소, 초등수학, 학부모필수정보]
 author: "40대 블로거"
-image: /assets/images/posts/jeonbuk-science-high-kaist-youngjae-20260929/01-jeonbuk-science-high.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/jeonbuk-science-high-kaist-youngjae-20260929/01-jeonbuk-science-high.jpg
 description: "전북특별자치도교육청이 2026년 9월 28일 전북과학고등학교의 KAIST(카이스트) 부설 영재학교 전환과 관련해 도내 교직원·학부모·도민을 대상으로 한 인식조사를 10월 2일까지 실시한다고 밝혔습니다. 조사는 전환 공감도와 기대·우려, 도내 학생 우선선발 비율, KAIST 교육·연구 인프라 연계, 지역 대학·연구기관 협력, 제2과학고 이전·설립 시 고려사항까지 묻습니다. 전북교육청은 조사 결과를 10월 14일 공모 계획서 제출과 제2과학고 전주권 이전 계획에 반영할 방침입니다."
 ---
 
@@ -15,7 +15,7 @@ description: "전북특별자치도교육청이 2026년 9월 28일 전북과학�
 
 **2026년 9월 28일, 전북특별자치도교육청(교육감 천호성)은 전북과학고등학교의 KAIST(카이스트) 부설 영재학교 전환과 관련해 도내 교직원·학부모·도민을 대상으로 한 '인식조사'를 10월 2일까지 실시한다고 밝혔습니다.** 아이뉴스24, 노컷뉴스, 아주경제, 뉴스1, 전북제일신문, 전북일보 등 다수 매체가 같은 날 보도했습니다.
 
-![전북과학고등학교 교사 전경](/assets/images/posts/jeonbuk-science-high-kaist-youngjae-20260929/01-jeonbuk-science-high.jpg)
+![전북과학고등학교 교사 전경](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/jeonbuk-science-high-kaist-youngjae-20260929/01-jeonbuk-science-high.jpg)
 *KAIST 부설 영재학교 전환을 추진 중인 전북과학고등학교(전북 익산시 금마면). 출처: Wikimedia Commons, ⓒ Mintz0223 (CC BY-SA 3.0)*
 
 ## 📌 핵심 요약 — 5줄 정리
@@ -41,7 +41,7 @@ description: "전북특별자치도교육청이 2026년 9월 28일 전북과학�
 
 조사는 각 학교를 통한 안내와 전북과학고 공식 홈페이지(설문 배너) 등으로 진행되며, 대상은 **도내 교직원·학부모·도민 전체**입니다. 즉 학부모라면 누구나 의견을 낼 수 있는 창구가 열려 있다는 뜻입니다.
 
-![전북과학고등학교 캠퍼스 전경](/assets/images/posts/jeonbuk-science-high-kaist-youngjae-20260929/02-jeonbuk-science-high-campus.jpg)
+![전북과학고등학교 캠퍼스 전경](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/jeonbuk-science-high-kaist-youngjae-20260929/02-jeonbuk-science-high-campus.jpg)
 *전북과학고등학교 캠퍼스. 전북교육청은 이번 조사 결과를 제2과학고 이전·설립 계획에도 반영할 방침입니다. 출처: Wikimedia Commons, ⓒ Qazwsxedcrfv4321 (CC BY-SA 4.0)*
 
 ## 🏫 "없애지 않고, 두 학교 함께" — 천호성 교육감의 구상
@@ -54,7 +54,7 @@ description: "전북특별자치도교육청이 2026년 9월 28일 전북과학�
 - 학교알리미 기준 **학생 약 182명(남 126명·여 56명), 교원 약 36명** 규모입니다.
 - 즉 "과학고를 영재학교로 승격"하는 동시에, **과학고 자리는 다른 부지에서 다시 채운다**는 이중 구상입니다.
 
-![전북특별자치도교육청 청사](/assets/images/posts/jeonbuk-science-high-kaist-youngjae-20260929/03-jeonbuk-edu-office.jpg)
+![전북특별자치도교육청 청사](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/jeonbuk-science-high-kaist-youngjae-20260929/03-jeonbuk-edu-office.jpg)
 *인식조사를 주관하는 전북특별자치도교육청(전주). 출처: Wikimedia Commons, ⓒ Ha98574 (CC BY-SA 3.0)*
 
 ## 🗺️ 큰 그림 — 과기정통부 공모가 바꾸는 '영재학교 지도'
@@ -68,7 +68,7 @@ description: "전북특별자치도교육청이 2026년 9월 28일 전북과학�
 
 결국 이번 공모는 **"영재학교 없는 지역에 최상위권 과학영재 인프라를 배치하는 정책"**입니다. 경남에 이어 전북이 조사 단계에 들어갔고, 충남 등 다른 지역도 유사한 의견수렴 절차를 밟고 있습니다. **12월 선정 발표**까지가 1차 승부처입니다.
 
-![KAIST(한국과학기술원) 캠퍼스](/assets/images/posts/jeonbuk-science-high-kaist-youngjae-20260929/04-kaist-campus.jpg)
+![KAIST(한국과학기술원) 캠퍼스](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/jeonbuk-science-high-kaist-youngjae-20260929/04-kaist-campus.jpg)
 *전북과학고가 부설로 전환을 추진 중인 KAIST(한국과학기술원, 대전) 캠퍼스. 출처: Wikimedia Commons, ⓒ AhmadElq (CC BY-SA 4.0)*
 
 ## ✅ 학부모 체크포인트 — 지금 챙겨야 할 3가지

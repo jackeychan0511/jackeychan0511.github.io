@@ -5,11 +5,11 @@ date: 2026-10-18 15:55:00 +0900
 categories: [career]
 tags: [Google Gemini, 구글 제미나이, AI Pro, AI Pro 무료 체험, 체험 계정 제한, Gemini 4 Argon, 제미나이 4 아르곤, Google Antigravity, 구글 안티그래비티, YouTube Premium Lite, Google One, 픽셀 11, 갤럭시 Z 폴드 8, 구글북, 크롬북, 구독 혜택, 요금제 정책, 업무자동화, AI뉴스, 2026년 10월]
 author: "40대 블로거"
-image: /assets/images/posts/gemini-ai-pro-trial-restrictions-20261016/google-ai-pro-official.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-ai-pro-trial-restrictions-20261016/google-ai-pro-official.jpg
 description: "2026년 10월 16일, 구글의 AI Pro 무료 체험 계정이 유료 구독자와 같은 혜택을 주지 않는다는 점이 드러났습니다. 체험 계정은 '사용량 한도만 늘린 무료 사용자'로 분류돼 구글 안티그래비티에서 제미나이 4 아르곤을 쓸 수 없고, 유튜브 프리미엄 라이트와 구글 스토어 10% 캐시백도 빠집니다. 픽셀 11·구글북·갤럭시 Z 폴드 8·크롬북 구매에 붙는 6~12개월 체험의 실제 범위가 어디까지인지, 무엇을 미리 확인해야 하는지 정리했습니다. 이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망 순입니다. 이미지는 구글 공식 요금제 페이지 이미지와 9to5Google 보도 이미지입니다."
 ---
 
-![Google AI 요금제 안내 — AI Pro 무료 체험은 유료 구독과 혜택 범위가 다릅니다 (출처: Google 공식 요금제 페이지 — one.google.com)](/assets/images/posts/gemini-ai-pro-trial-restrictions-20261016/google-ai-pro-official.jpg)
+![Google AI 요금제 안내 — AI Pro 무료 체험은 유료 구독과 혜택 범위가 다릅니다 (출처: Google 공식 요금제 페이지 — one.google.com)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-ai-pro-trial-restrictions-20261016/google-ai-pro-official.jpg)
 *구글 공식 AI 요금제 안내 이미지 (출처: Google 공식 요금제 페이지 — one.google.com)*
 
 > **📌 한줄 요약:** **픽셀 11, 구글북, 갤럭시 Z 폴드 8, 크롬북** 구매에 붙는 **"AI Pro 6~12개월 무료"** 혜택, 그냥 같은 구독을 공짜로 쓰는 줄 알기 쉽습니다. 그런데 **2026년 10월 16일** 9to5Google 보도로 드러난 바로는, **무료 체험 계정은 유료 구독자와 동일한 권한이 아닙니다.** 체험 계정은 사실상 **"사용량 한도만 늘려준 무료 사용자"** 로 분류돼 **구글 안티그래비티에서 제미나이 4 아르곤이 빠지고**, **유튜브 프리미엄 라이트**와 **구글 스토어 10% 캐시백**도 제공되지 않습니다. 솔직히 약관 어딘가에 적혀 있다는 걸 알면서도, 가입 화면에서 이렇게까지 다르게 동작할 거라고 생각하기는 어렵습니다. 결제 전에 확인할 지점을 정리했습니다.
@@ -63,7 +63,7 @@ AI Pro가 "가성비가 좋다"고 평가받는 이유는 **제미나이 사용�
 
 구글 스토어는 픽셀 11의 AI Pro 체험을 소개하면서 **"제미나이 사용량 확대, 구글 앱 내 제미나이 접근, 5TB 저장공간"** 과 헬스 프리미엄을 내세웁니다. 유튜브 혜택을 약속하지는 않지만, **안티그래비티의 모델 제한에 대해서는 어떤 힌트도 주지 않습니다.** 체험을 받는 사람이 **지원 문서를 뒤져 권한 차이를 먼저 확인할 이유가 없는 구조**라는 게 문제입니다.
 
-![Google AI Pro 안내 이미지 (출처: 9to5Google 보도 — 9to5google.com)](/assets/images/posts/gemini-ai-pro-trial-restrictions-20261016/google-ai-pro-hero.jpg)
+![Google AI Pro 안내 이미지 (출처: 9to5Google 보도 — 9to5google.com)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-ai-pro-trial-restrictions-20261016/google-ai-pro-hero.jpg)
 *AI Pro 무료 체험은 유료 구독과 권한이 같지 않습니다 (출처: 9to5Google — 9to5google.com)*
 
 ---

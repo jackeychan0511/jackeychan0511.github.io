@@ -5,13 +5,13 @@ date: 2026-07-29 14:00:00 +0900
 categories: [products]
 tags: [삼성, 갤럭시, 갤럭시워치9, 갤럭시워치울트라2, 스마트워치, 스냅드래곤, 웨어러블, IT, 신제품, 사전예약, 건강, 가전]
 author: "40대 블로거"
-image: /assets/images/posts/galaxy-watch9-vs-ultra2/hero-watch9-ultra2.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/galaxy-watch9-vs-ultra2/hero-watch9-ultra2.png
 description: "갤럭시 워치9(49만 9천 원)과 워치 울트라2(96만 9천 원)는 같은 칩셋을 썼는데도 가격이 두 배 차이납니다. 디스플레이 밝기·배터리·내구성·건강 기능을 실제 사용 기준으로 비교하고, 40대 직장인에게 맞는 모델을 정리했습니다."
 ---
 
 > **📌 한줄 요약:** 갤럭시 워치9(49만 9천 원~)과 워치 울트라2(96만 9천 원)는 같은 스냅드래곤 웨어 엘리트 칩셋을 공유하지만, **배터리(390→800mAh), 디스플레이 밝기(3,000→5,000nit), 내구성(5ATM→10ATM+다이빙)** 에서 확연히 갈립니다. **사전예약(7/28~8/3) 진행 중, 8월 7일 출시입니다.**
 
-![갤럭시 워치9](/assets/images/posts/galaxy-watch9-vs-ultra2/watch9-hero.jpg)
+![갤럭시 워치9](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/galaxy-watch9-vs-ultra2/watch9-hero.jpg)
 *삼성 갤럭시 워치9 — 더 가벼워진 디자인, 건강 추적 기능 강화 (출처: 삼성전자)*
 
 ---

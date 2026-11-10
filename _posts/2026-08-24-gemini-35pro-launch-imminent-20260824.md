@@ -14,7 +14,7 @@ noindex: true
 
 솔직히 저도 이번 주 내내 그 보도를 곱씹고 있었는데, 어제(8월 23일) 테크 미디어에서 **"Gemini 3.5 Pro가 곧 출시될 수 있다"는 새로운 보도**가 나왔습니다. 취소설이 불과 2주 만에 뒤집힐 조짐인 건데요. 오늘은 이 이슈를 **요약 → 상세 분석 → 영향(사용자·개발자) → 전망** 순서로, **확정된 사실과 루머를 확실히 구분**해서 정리해 드립니다.
 
-![Google Gemini 로고](/assets/images/posts/gemini-35pro-launch-imminent-20260824/gemini-logo-wikimedia.png)
+![Google Gemini 로고](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-35pro-launch-imminent-20260824/gemini-logo-wikimedia.png)
 *Google Gemini 로고 — Google의 AI 어시스턴트·모델 브랜드 (출처: Wikimedia Commons)*
 
 ## 📌 이슈 요약: 8월 23일, "Gemini 3.5 Pro 출시 임박" 보도 재점화
@@ -26,7 +26,7 @@ noindex: true
 
 > ⚠️ 본 글은 2026년 8월 24일 기준 공식 발표와 주요 매체 보도를 바탕으로 작성했습니다. 출시설(루머)은 별도로 표기했으니 참고해 주세요.
 
-![Google DeepMind 로고](/assets/images/posts/gemini-35pro-launch-imminent-20260824/google-deepmind-logo-wikimedia.png)
+![Google DeepMind 로고](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-35pro-launch-imminent-20260824/google-deepmind-logo-wikimedia.png)
 *Google DeepMind 로고 — Gemini 모델 개발 주체 (출처: Wikimedia Commons)*
 
 ## 🔍 상세 분석: 취소설 → 출시설, 무엇이 달라졌나

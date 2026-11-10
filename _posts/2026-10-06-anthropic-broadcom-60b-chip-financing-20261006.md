@@ -5,7 +5,7 @@ date: 2026-10-06 16:55:00 +0900
 categories: [career]
 tags: [Anthropic, Claude, 앤트로픽, 클로드, AI뉴스, Broadcom, 브로드컴, AI칩, AI인프라, 600억달러, 순환금융, CircularFinancing, 채무금융, 블랙스톤, Blackstone, 뱅크오브아메리카, 씨티그룹, 모건스탠리, TPU, 임대구조, IPO, 업무자동화, 자동화파이프라인, 2026년10월, AI산업]
 author: "40대 블로거"
-image: /assets/images/posts/broadcom-anthropic-60b-chip-financing-20261006/broadcom-hq-san-jose-wikimedia.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/broadcom-anthropic-60b-chip-financing-20261006/broadcom-hq-san-jose-wikimedia.jpg
 description: "2026년 10월 5일(미국 현지시간), 파이낸셜타임스가 월가 은행들이 브로드컴(Broadcom)·앤트로픽(Anthropic) 관련 사상 최대 규모의 600억 달러(약 80조 원대) AI 칩 금융 패키지 신디케이션을 시작했다고 보도했습니다. 크게 420억 달러 선순위 담보부(Class A) 트랜치(뱅크오브아메리카·씨티그룹·모건스탠리 주도)와 180억 달러 후순위(Class B) 트랜치(블랙스톤 주도, 자체 자금 90억 달러)로 나뉘며, 칩을 사서 앤트로픽에 임대하는 구조(lease, don't buy)입니다. 알려진 앤트로픽 IPO 투자설명서에는 브로드컴의 최대 420억 달러 대출(지분 전환 가능)이 담겼고, 이는 1,252억 달러 규모 TPU 5년 임대 약정의 약 3분의 1을 뒷받침합니다. 공급자가 고객에게 돈을 빌려주는 '순환금융(circular financing)' 논쟁과 이해상충 경고도 함께 정리했습니다."
 sitemap: false
 noindex: true
@@ -15,7 +15,7 @@ noindex: true
 
 AI 에이전트를 실사용하고 업무 자동화 파이프라인을 운영하다 보면, 어느 순간 **"모델 성능표"보다 "이 회사가 컴퓨트를 어떤 조건으로, 누구 돈으로 사오는가"** 가 더 중요해지는 지점이 옵니다. 파이프라인을 오래 굴릴수록 특정 모델·특정 회사에 대한 의존도가 올라가고, 그 회사의 자금 조달 구조는 결국 **실사용자의 청구서와 서비스 안정성**으로 되돌아오기 때문입니다. 그런 관점에서 이번 **600억 달러 칩 금융**은 단순한 금융 뉴스가 아니라 **"앞으로 Claude를 어떤 조건으로 계속 쓸 수 있는가"를 가늠하는 재료**에 가깝습니다. 무엇이 담겼는지, 그리고 **솔직히 걸리는 대목까지** 정리해 보겠습니다.
 
-![브로드컴(Broadcom) 본사가 있는 미국 캘리포니아주 산호세 사옥 전경 — 이번 600억 달러 칩 금융의 중심에 선 회사입니다](/assets/images/posts/broadcom-anthropic-60b-chip-financing-20261006/broadcom-hq-san-jose-wikimedia.jpg)
+![브로드컴(Broadcom) 본사가 있는 미국 캘리포니아주 산호세 사옥 전경 — 이번 600억 달러 칩 금융의 중심에 선 회사입니다](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/broadcom-anthropic-60b-chip-financing-20261006/broadcom-hq-san-jose-wikimedia.jpg)
 *브로드컴 본사(미국 캘리포니아주 산호세) 전경 — 이번 600억 달러 칩 금융의 중심에 선 회사입니다 (출처: Wikimedia Commons, 촬영 Coolcaesar, CC BY-SA 4.0)*
 
 ## 🗞️ 이슈 요약 — 한눈에 보기
@@ -66,7 +66,7 @@ AI 에이전트를 실사용하고 업무 자동화 파이프라인을 운영하
 
 **브로드컴 쪽 지표도 부담을 보여줍니다.** 매출은 강하지만(최근 분기 +85% 수준), **XPU 고객은 6곳에 불과**하고 **총 고정금리 부채가 596억 달러** 수준으로 거론됩니다. **소수의 고객, 그중 한 곳(앤트로픽)에 대한 의존도가 커지는데 그 고객을 자기가 돈으로 지원하는** 구조라, **위험이 한 곳에 집중**됩니다.
 
-![Anthropic 공식 뉴스룸 대표 이미지 — 이번 금융의 실수요자이자 Claude를 만드는 회사의 공식 브랜드 이미지입니다](/assets/images/posts/broadcom-anthropic-60b-chip-financing-20261006/anthropic-official-newsroom.jpg)
+![Anthropic 공식 뉴스룸 대표 이미지 — 이번 금융의 실수요자이자 Claude를 만드는 회사의 공식 브랜드 이미지입니다](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/broadcom-anthropic-60b-chip-financing-20261006/anthropic-official-newsroom.jpg)
 *Anthropic 공식 뉴스룸 대표 이미지 — 이번 600억 달러 금융의 실수요자이자 Claude를 만드는 회사의 공식 브랜드 이미지입니다 (출처: Anthropic 공식 홈페이지 anthropic.com, 2026)*
 
 ### 4️⃣ 배경 — '웨이퍼에서 지분까지' 이어진 한 해

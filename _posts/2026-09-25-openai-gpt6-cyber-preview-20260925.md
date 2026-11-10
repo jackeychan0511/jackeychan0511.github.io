@@ -5,7 +5,7 @@ date: 2026-09-25 14:54:00 +0900
 categories: [career]
 tags: [OpenAI, GPT6Cyber, DevDay2026, 사이버보안, AI보안, 제로데이취약점, 펜테스트, Daybreak, Mythos, Anthropic, 보안자동화, 업무자동화, AI규제, AI뉴스, 2026년9월]
 author: "40대 블로거"
-image: /assets/images/posts/openai-gpt6-cyber-preview-20260925/openai-hq-1515-third-street.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-gpt6-cyber-preview-20260925/openai-hq-1515-third-street.jpg
 description: "2026년 9월 24일(현지시간) 포춘(Fortune)은 로이터 등 주요 매체를 통해 OpenAI가 사이버보안 특화 모델 'GPT-6 Cyber'를 수일 내 프리뷰할 예정이라고 보도했습니다. GPT-6 Cyber는 올해 OpenAI가 내놓는 네 번째 보안 특화 모델(GPT-5.4 Cyber 4월, GPT-5.5 Cyber 6월, GPT-5.6 Cyber 8월)이며, 9월 29일 샌프란시스코 DevDay에서 공개될 가능성이 큽니다. 함께 '고객이 더 안전하고 자동화된 방식으로 배포하도록 돕는 새 제품'도 발표될 예정입니다. Anthropic의 Mythos에 맞서는 포지셔닝이라는 분석이 나오는 가운데, 이슈 요약부터 상세 분석, 사용자·개발자 영향, 전망까지 정리했습니다."
 sitemap: false
 noindex: true
@@ -16,7 +16,7 @@ noindex: true
 
 그런데 이번 주, 그 흐름의 **반대편에서 흥미로운 소식**이 하나 들어왔습니다. OpenAI가 **보안에 특화된 새 모델, GPT-6 Cyber를 수일 내 선보인다**는 보도입니다. 저처럼 **IT·보안 업무를 자동화로 굴리는 입장**에서는 그냥 넘길 수 없는 내용이라, 포춘·로이터·벤징가·지즈모도 등 보도를 종합해 정리해 봤습니다.
 
-![OpenAI 본사가 있던 샌프란시스코 미션베이 1515 Third Street 빌딩 (출처: Wikimedia Commons, Coolcaesar, CC BY 4.0)](/assets/images/posts/openai-gpt6-cyber-preview-20260925/openai-hq-1515-third-street.jpg)
+![OpenAI 본사가 있던 샌프란시스코 미션베이 1515 Third Street 빌딩 (출처: Wikimedia Commons, Coolcaesar, CC BY 4.0)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-gpt6-cyber-preview-20260925/openai-hq-1515-third-street.jpg)
 *OpenAI 본사가 있던 샌프란시스코 미션베이 1515 Third Street 빌딩 (출처: Wikimedia Commons, Coolcaesar, CC BY 4.0)*
 
 ## 이슈 요약 — 무엇이 나오나
@@ -74,7 +74,7 @@ noindex: true
 
 즉 OpenAI가 **"싸고 빠른 모델(Sol·Luna)"과 "특수 목적 모델(Cyber)"을 동시에 밀고 있는** 구도입니다. 저처럼 자동화 파이프라인을 운영하는 입장에서는 **단가가 낮은 모델로 대량 작업을 돌리고, 민감한 보안 작업만 Cyber로 돌리는 조합**이 자연스럽게 그려집니다.
 
-![OpenAI 로고와 돋보기 — 보안·조사 이미지 (출처: Wikimedia Commons, Jernej Furman, CC BY 2.0)](/assets/images/posts/openai-gpt6-cyber-preview-20260925/openai-logo-security.jpg)
+![OpenAI 로고와 돋보기 — 보안·조사 이미지 (출처: Wikimedia Commons, Jernej Furman, CC BY 2.0)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-gpt6-cyber-preview-20260925/openai-logo-security.jpg)
 *OpenAI 로고와 돋보기 — 보안·조사 이미지 (출처: Wikimedia Commons, Jernej Furman, CC BY 2.0)*
 
 ### ④ 나온 타이밍이 묘하다 — 자사 보안 우려 한가운데

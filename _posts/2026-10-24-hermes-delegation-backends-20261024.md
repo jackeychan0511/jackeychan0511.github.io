@@ -5,7 +5,7 @@ date: 2026-10-24 07:52:00 +0900
 categories: [career]
 tags: [헤르메스에이전트, HermesAgent, 서브에이전트, delegate_task, 모델라우팅, 프로필라우트, 모델맵, 업무자동화, AI에이전트, 오픈소스AI, v0.22.5, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/hermes-delegation-backends-20261024/desktop-preview.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-delegation-backends-20261024/desktop-preview.jpg
 description: "2026년 10월 22일 헤르메스 에이전트에 병합된 PR #142563으로 delegate_task의 위임 방식이 플러그형 백엔드로 바뀌었습니다. 배치 안의 하위 작업마다 model_map으로 모델을 고르거나 profile_routes로 프로필 자체를 바꿔 실행할 수 있고, 모든 결과에 route 영수증이 붙습니다. 설정 예시, 실패 처리 규칙, 전환·복귀 명령, 어떤 전략이 어떤 상황에 맞는지, 그리고 아직 남은 제약까지 정리했습니다."
 ---
 
@@ -15,7 +15,7 @@ description: "2026년 10월 22일 헤르메스 에이전트에 병합된 PR #142
 
 AI 에이전트를 실사용하는 입장에서 이건 기능 하나 추가된 수준이 아니라, **에이전트 배치를 굴리는 비용 구조 자체가 바뀌는 변화**라고 봅니다. 설정 파일 몇 줄로 배치 안에서 모델 등급을 섞을 수 있게 됐기 때문입니다.
 
-![헤르메스 에이전트 공식 홈페이지의 서브에이전트 위임 섹션](/assets/images/posts/hermes-delegation-backends-20261024/feature-delegate.jpg)
+![헤르메스 에이전트 공식 홈페이지의 서브에이전트 위임 섹션](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-delegation-backends-20261024/feature-delegate.jpg)
 *헤르메스 에이전트 공식 홈페이지의 대표 기능 이미지. 이번 변경은 이 위임 계층의 "라우팅 결정"만 떼어내 플러그인으로 만든 것이다 (출처: Nous Research 공식 홈페이지)*
 
 > **📌 한줄 요약:** `delegate_task`의 위임 방식이 `delegation.backend`로 분리됐습니다. `default`는 기존 동작 그대로(도구 스키마까지 동일), `model_map`은 등급별 모델 목록에서 모델이 작업마다 하나를 고르고, `profile_routes`는 하위 작업을 **프로필 단위로 실행**해 그 프로필의 모델·크레덴셜·스킬·페르소나·터미널 정책을 그대로 물려줍니다. 두 전략 모두 공식 플러그인 `advanced-delegation`으로 제공되고, 모든 결과에 **어디서 실제로 돌았는지 알려주는 route 영수증**이 붙습니다. 실패는 조용한 폴백 대신 그 자리에서 거부됩니다.
@@ -30,7 +30,7 @@ AI 에이전트를 실사용하는 입장에서 이건 기능 하나 추가된 �
 
 작업 난이도가 들쭉날쭉한 배치를 자주 돌리는 쪽이라면, 이 타협이 얼마나 비싼지 아실 겁니다. 조회 작업 아홉 개에 최상위 모델을 붙이면 청구서가 튀고, 반대로 최저가 모델을 붙이면 어려운 두 개를 사람이 다시 손봐야 합니다.
 
-![헤르메스 에이전트 데스크톱 앱 화면](/assets/images/posts/hermes-delegation-backends-20261024/desktop-preview.jpg)
+![헤르메스 에이전트 데스크톱 앱 화면](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-delegation-backends-20261024/desktop-preview.jpg)
 *헤르메스 데스크톱 앱 공식 스크린샷. 이번 변경의 후속 PR에서는 데스크톱에 위임 모드 선택기와 모델 라우트 편집기까지 붙을 예정이다 (출처: Nous Research 공식 홈페이지)*
 
 ---
@@ -86,7 +86,7 @@ delegation:
 
 `profile_routes`는 결이 다릅니다. 자식이 **신원 자체를 바꿉니다.** 각 프로필은 자기 모델, 크레덴셜 풀, `SOUL.md`, 터미널 정책을 들고 있고, 하위 작업은 그 프로필로 실행됩니다. "이 서브에이전트들은 서로 다른 권한 아래에서 돌아야 한다"는 요구에 맞는 구조입니다.
 
-![헤르메스 에이전트 자동화 기능 이미지](/assets/images/posts/hermes-delegation-backends-20261024/feature-automation.jpg)
+![헤르메스 에이전트 자동화 기능 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-delegation-backends-20261024/feature-automation.jpg)
 *공식 홈페이지의 자동화 섹션. 위임 라우팅은 이 자동화 계층 아래에서 "누가 얼마짜리 모델로 일할지"를 결정하는 부품에 해당한다 (출처: Nous Research 공식 홈페이지)*
 
 ---

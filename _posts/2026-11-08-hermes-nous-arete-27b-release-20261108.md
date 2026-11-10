@@ -5,7 +5,7 @@ date: 2026-11-08 07:50:00 +0900
 categories: [career]
 tags: [헤르메스에이전트, HermesAgent, Arete27B, 누스리서치, NousResearch, 오픈웨이트, Qwen38, 가치정렬, 업무자동화, AI에이전트, 2026년11월]
 author: "40대 블로거"
-image: /assets/images/posts/hermes-nous-arete-27b-release-20261108/nous-arete-cover.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-nous-arete-27b-release-20261108/nous-arete-cover.jpg
 description: "2026년 11월 6일 노우스 리서치가 알리바바 Qwen3.8-27B를 SFT로 재학습한 오픈 모델 아레테-27B(Arete-27B)를 아파치 2.0 라이선스로 공개했습니다. 자체 803개 프롬프트 평가에서 선전성 응답 비율이 22%에서 0.9%로, 사실 점수는 2.32에서 2.98로 올랐고, Hermes Bench는 65.77%에서 65.60%로 사실상 변화가 없었습니다. 27B 로컬 모델로 에이전트를 돌리는 조직이라면 모델 선택지가 하나 늘어난 셈이지만, 평가가 제작사 자체 설계라는 점은 감안해야 합니다."
 ---
 
@@ -15,7 +15,7 @@ description: "2026년 11월 6일 노우스 리서치가 알리바바 Qwen3.8-27B
 
 메이저 버전 업그레이드는 아니지만, **모델 자체가 새로 나온 릴리스**이고 앞으로 에이전트의 판단 품질에 직접 영향을 주는 종류의 변화라 정리해 둘 가치가 충분합니다.
 
-![아레테-27B 공식 발표 커버 이미지](/assets/images/posts/hermes-nous-arete-27b-release-20261108/nous-arete-cover.jpg)
+![아레테-27B 공식 발표 커버 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-nous-arete-27b-release-20261108/nous-arete-cover.jpg)
 *아레테-27B 공식 발표문 커버. 모델명의 어원인 '아레테(arête, 빙하 골짜기를 가르는 날카로운 산릉선)'를 그대로 담았다 (출처: Nous Research 공식 블로그)*
 
 > **📌 한줄 요약:** 아레테-27B는 **새로운 능력의 추가가 아니라 "관점의 교체"** 실험입니다. 같은 27B급 로컬 모델에서 선전성 응답 비율을 22% → 0.9%로 낮추고 사실 점수를 2.32 → 2.98로 올렸으며, 자체 일반·에이전트 벤치마크에서는 유의미한 성능 손실이 없었다고 주장합니다. 다만 평가 세트와 판정 방식 모두 제작사가 설계한 **자기 평가**라는 점, 27B급이라는 절대적 한계는 함께 봐야 합니다.
@@ -60,7 +60,7 @@ description: "2026년 11월 6일 노우스 리서치가 알리바바 Qwen3.8-27B
 
 점수는 두 축으로 나뉩니다. **사실 점수(0~5)** 는 필수 사실을 얼마나 진술했는지, **선전 점수(0~2)** 는 답변이 특정 논조를 자기 계정으로 채택했는지입니다. 선전 점수는 0보다 높으면 **정확한 문구 인용이 증거로 붙어야** 인정됩니다. 논조를 "비판하기 위해 인용"한 경우는 선전으로 치지 않는 장치까지 넣었습니다.
 
-![아레테(arête) 지형 사진](/assets/images/posts/hermes-nous-arete-27b-release-20261108/arete-ridge-wikimedia.jpg)
+![아레테(arête) 지형 사진](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-nous-arete-27b-release-20261108/arete-ridge-wikimedia.jpg)
 *모델명의 어원이 된 지형 '아레테'. 두 빙하 골짜기를 가르는 날카로운 암릉을 뜻한다 (출처: Wikimedia Commons, CC BY-SA 4.0)*
 
 ---

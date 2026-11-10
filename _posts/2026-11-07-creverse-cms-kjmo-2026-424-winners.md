@@ -5,7 +5,7 @@ date: 2026-11-07 11:50:00 +0900
 categories: [education]
 tags: [크레버스, CMS영재관, KJMO, 한국주니어수학올림피아드, KMO, 사고력수학, 초등수학, 경시대회, 자녀교육]
 author: "40대 블로거"
-image: /assets/images/posts/creverse-cms-kjmo-2026-424-20261107/01-kjmo-2026-cms-press.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/creverse-cms-kjmo-2026-424-20261107/01-kjmo-2026-cms-press.jpg
 description: "크레버스가 운영하는 CMS영재관이 2026 한국주니어수학올림피아드(KJMO)에서 수강생 424명을 입상시키며 전년 297명 대비 43% 늘었다. 금상 30명·은상 56명·동상 101명·장려상 237명, 전국 1위 수상자도 배출했다. 2023년 242명 이후 3년 연속 증가 흐름과 2026 KMO 348명 입상 실적, KJMO 대회 개요와 CMS의 단계별 경시 학습과정을 정리했다."
 ---
 
@@ -13,7 +13,7 @@ description: "크레버스가 운영하는 CMS영재관이 2026 한국주니어�
 
 교육기업 **크레버스(CREVERSE)** 가 운영하는 **CMS영재관**이 **2026 한국주니어수학올림피아드(KJMO)** 에서 수강생 **424명**을 입상시키며 전년 대비 **약 43%** 늘어난 실적을 냈습니다. 2026년 11월 5일 발표되고 이데일리가 11월 6일 오후 2시 8분 보도한 내용으로, 같은 주제의 공지가 크레버스 공식 홈페이지 공지사항에도 **"[CMS영재관] 2026 KJMO 424명 수상!"** 이라는 제목으로 올라와 있습니다.
 
-![2026 KJMO CMS영재관 424명 입상 보도 이미지](/assets/images/posts/creverse-cms-kjmo-2026-424-20261107/01-kjmo-2026-cms-press.jpg)
+![2026 KJMO CMS영재관 424명 입상 보도 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/creverse-cms-kjmo-2026-424-20261107/01-kjmo-2026-cms-press.jpg)
 *▲ 2026 KJMO 입상 실적을 발표한 크레버스 CMS영재관 (이미지: 이데일리 보도자료, CMS 제공)*
 
 사고력수학 시장에서 경시대회 성적은 단순한 자랑거리가 아닙니다. 초등 고학년부터 중등까지 이어지는 **경시·심화 트랙의 학습 성과를 가장 객관적으로 보여주는 지표**이자, 학부모가 학원 선택을 할 때 실제로 확인하는 숫자입니다. 올해 CMS의 숫자는 그 지표에서 뚜렷한 반등을 만들었습니다.
@@ -81,7 +81,7 @@ CMS는 초등 수학 기초부터 경시 심화까지 **다섯 가지 교과 프
 
 여기에 **초등 사고력 수학 → KJMO → KMO**로 이어지는 경시 학습 루트가 별도로 있습니다. 경시 기본 이론과 중등 수학 응용·심화, KJMO 기출 학습을 거쳐 **KMO 1차 단답형과 2차 서술형 대비**로 연결되는 구조입니다. 단답형(KJMO)에서 서술형(KMO 2차)으로 넘어가는 구간을 따로 설계해 둔 것이 핵심입니다.
 
-![CMS영재관 2026 KJMO 카드뉴스 이미지](/assets/images/posts/creverse-cms-kjmo-2026-424-20261107/02-kjmo-card-cover.jpg)
+![CMS영재관 2026 KJMO 카드뉴스 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/creverse-cms-kjmo-2026-424-20261107/02-kjmo-card-cover.jpg)
 *▲ CMS영재관이 공식 채널에 게시한 2026 KJMO 관련 카드뉴스 이미지 (이미지: CMS영재관 공식 채널)*
 
 ## 6. 학부모가 체크할 세 가지

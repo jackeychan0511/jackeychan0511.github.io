@@ -6,7 +6,7 @@ categories: [ai-teacher]
 tags: [업무자동화, 회의록, 생산성, 사내도구, AI활용, GPT, 커스텀GPT, 주간보고, 문서자동화, 1인개발, 2026년11월]
 author: 재찬키
 description: '매주 손으로 쓰던 주간회의록을 녹취 요약과 사내 주간업무보고를 합쳐 요약형·상세형 워드 2장으로 자동 생성하는 프로그램으로 바꾼 과정을 정리했습니다.'
-image: /assets/images/posts/meeting-minutes-generator/00-hero.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/meeting-minutes-generator/00-hero.jpg
 ---
 
 회사에서 월요일마다 주간회의가 열립니다. 회의가 끝나면 늘 같은 일이 기다렸습니다. **회의록 작성**입니다.
@@ -22,7 +22,7 @@ image: /assets/images/posts/meeting-minutes-generator/00-hero.jpg
 
 매주 **몇 시간**이 그대로 사라졌습니다. 내용 자체는 가치 있는 일인데, 옮겨 적고 서식 맞추는 '단순 반복'에 시간이 너무 많이 들었습니다.
 
-![프로그램의 기본 화면 — 회의 날짜, 사내 인트라넷 DAMO 로그인, 파일 첨부 영역](/assets/images/posts/meeting-minutes-generator/01-create.jpg)
+![프로그램의 기본 화면 — 회의 날짜, 사내 인트라넷 DAMO 로그인, 파일 첨부 영역](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/meeting-minutes-generator/01-create.jpg)
 
 ## "이건 프로그램으로 만들 수 있지 않을까?"
 
@@ -55,13 +55,13 @@ image: /assets/images/posts/meeting-minutes-generator/00-hero.jpg
 
 AI가 쓴 초안이 100%는 아니니, 워드를 따로 열지 않고 화면에서 섹션별로 고친 뒤 버튼 한 번으로 워드에 반영되게 했습니다.
 
-![요약형·상세형 탭으로 나눠 섹션별로 바로 수정](/assets/images/posts/meeting-minutes-generator/02-edit.jpg)
+![요약형·상세형 탭으로 나눠 섹션별로 바로 수정](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/meeting-minutes-generator/02-edit.jpg)
 
 ### ② 지난 기록 보관
 
 만든 회의록이 자동으로 쌓여서, 나중에 다시 열어 보거나 고치거나 워드로 다시 뽑을 수 있습니다. 다운로드 폴더의 워드를 지웠어도 보관본에서 되살릴 수 있습니다.
 
-![날짜별로 보관된 지난 회의록 목록](/assets/images/posts/meeting-minutes-generator/03-history.jpg)
+![날짜별로 보관된 지난 회의록 목록](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/meeting-minutes-generator/03-history.jpg)
 
 ### ③ 비밀번호 잠금
 

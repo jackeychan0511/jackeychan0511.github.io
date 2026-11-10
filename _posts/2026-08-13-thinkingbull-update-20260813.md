@@ -4,7 +4,7 @@ title: "[업데이트] 황소수학 9월 개강 편입시험, 지점별 접수 �
 date: 2026-08-13 12:30:00 +0900
 categories: [education]
 tags: [황소수학, 생각하는황소, 황소고시]
-image: /assets/images/posts/thinking-bull-main.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/thinking-bull-main.png
 description: "2026년 8월 13일 기준 생각하는황소(황소수학) 새 소식. 9월 개강 편입시험이 지점별로 한창 진행 중입니다. 목동학원은 중등·고등 시작반 응시가 8월 10일·12일부터 시작됐고, 일산은 5-1 일품이 올해 3·4학년의 마지막 응시 기회입니다. 지점별 일정을 정리했습니다."
 sitemap: false
 noindex: true

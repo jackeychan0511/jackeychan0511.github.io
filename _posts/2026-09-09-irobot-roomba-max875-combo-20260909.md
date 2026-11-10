@@ -5,13 +5,13 @@ date: 2026-09-09 11:26:00 +0900
 categories: [products]
 tags: [아이로봇, iRobot, 룸바, Roomba, 룸바 맥스 875, Roomba Max 875, 맥스 875 콤보, SealForce, 씰포스, 로봇청소기, 로봇청소기 추천, 로봇청소기 비교, 카펫 청소, ThermaMist, PowerSpin Max, AutoWash, 로보락, Roborock, 사로스 20 플로우, Saros 20 Flow, Qrevo Edge 3 Pro, 큐레보 엣지 3 프로, IFA 2026, 2026년9월]
 author: "40대 블로거"
-image: /assets/images/posts/irobot-roomba-max875-combo-20260909/roomba-max875-hero.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/irobot-roomba-max875-combo-20260909/roomba-max875-hero.jpg
 description: "독일 베를린 IFA 2026(9월 4~8일)이 폐막하면서 해외 매체들이 꼽은 '베스트 오브 IFA' 로봇청소기 1순위가 바로 아이로봇의 신형 플래그십 '룸바 맥스 875 콤보'(미국 $1,199)입니다. 카펫에 공기막을 밀착시켜 3배 깊이 청소하는 'SealForce' 기술과 80℃ 온수로 롤러 물걸레를 세척하는 AutoWash 도크를 앞세운 iRobot의 야심작인데요. 같은 전시회에서 36,000Pa 업계 최고 흡입력으로 맞선 로보락 '사로스 20 플로우 / Qrevo Edge 3 Pro'와 스펙·가격·출시일을 한눈에 비교하고, 카펫 중심 집 vs 마루 중심 집 중 어디에 어떤 제품이 맞는지 솔직하게 정리했습니다. 이미지는 아이로봇 영국 공식 홈페이지 및 IFA 현장 보도 사진입니다."
 ---
 
 > **📌 한줄 요약:** 베를린 IFA 2026(9월 4~8일)이 막을 내리며 해외 매체들이 뽑은 **'올해의 로봇청소기'**가 결정됐습니다. 로봇청소기의 원조 **아이로봇(iRobot)**이 5년 만의 플래그십 **'룸바 맥스 875 콤보'(미국 $1,199·영국 £1,099, 판매 시작)**를 내놓았는데, **카펫에 밀착해 3배 깊이 청소하는 'SealForce'** + **80℃ 온수 세척 AutoWash 도크**라는 파격 구성을 들고 나왔어요. 맞수 **로보락**은 36,000Pa의 업계 최고 흡입력 '사로스 20 플로우 / Qrevo Edge 3 Pro'로 응수했고요. **카펫·러그 많은 집에는 룸바 맥스 875, 문턱 높고 가구 아래 낮은 집에는 로보락** — 두 플래그십의 스펙·가격·출시일을 한 번에 비교해 드립니다.
 
-![룸바 맥스 875 콤보 + AutoWash 도크 (출처: iRobot 영국 공식 홈페이지 irobot.co.uk)](/assets/images/posts/irobot-roomba-max875-combo-20260909/roomba-max875-hero.jpg)
+![룸바 맥스 875 콤보 + AutoWash 도크 (출처: iRobot 영국 공식 홈페이지 irobot.co.uk)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/irobot-roomba-max875-combo-20260909/roomba-max875-hero.jpg)
 *룸바 맥스 875 콤보 + AutoWash 도크 — 블랙 (출처: iRobot 영국 공식 홈페이지 irobot.co.uk)*
 
 요즘 저처럼 **"로봇청소기, 이제 뭐가 진짜 좋은 거지?"** 하시는 분들 많으시죠. 솔직히 저도 지난 7월부터 삼성·LG·샤오미 신제품이 쏟아질 때마다 비교 글을 쓰면서도, **"이름값 하는 원조 브랜드는 왜 조용하지?"** 싶었거든요. 그런데 지난주 독일 베를린에서 열린 유럽 최대 가전전시회 **IFA 2026(9월 4~8일)**가 끝나면서 분위기가 확 바뀌었습니다. 로봇청소기를 처음 만든 회사, **아이로봇이 '오랜만에 진짜 혁신'**이라는 평가를 받는 플래그십을 꺼내들었더라고요.
@@ -44,7 +44,7 @@ description: "독일 베를린 IFA 2026(9월 4~8일)이 폐막하면서 해외 �
 
 ## ② 룸바 맥스 875 콤보 — "카펫에 공기막이 밀착된다"는 SealForce의 정체
 
-![룸바 맥스 875 — PowerSpin Max 롤러 물걸레 (출처: iRobot 영국 공식 홈페이지 irobot.co.uk)](/assets/images/posts/irobot-roomba-max875-combo-20260909/roomba-max875-powerspin.jpg)
+![룸바 맥스 875 — PowerSpin Max 롤러 물걸레 (출처: iRobot 영국 공식 홈페이지 irobot.co.uk)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/irobot-roomba-max875-combo-20260909/roomba-max875-powerspin.jpg)
 *룸바 맥스 875 — PowerSpin Max 롤러 물걸레 시연 (출처: iRobot 영국 공식 홈페이지 irobot.co.uk)*
 
 **룸바 맥스 875 콤보**는 iRobot이 "지금까지 만든 로봇청소기 중 가장 진보한 모델"이라고 직접 소개한 **올인원(진공+물걸레) 플래그십**입니다. 핵심 스펙부터 정리하면 이렇습니다.
@@ -64,7 +64,7 @@ description: "독일 베를린 IFA 2026(9월 4~8일)이 폐막하면서 해외 �
 
 가장 눈길을 끄는 건 단연 **SealForce™**입니다. 쉽게 말하면 **로봇이 카펫 위에서 '공기막(밀봉)'을 만들어 바닥에 달라붙은 채 빨아들이는 기술**인데요. 일반 로봇청소기는 카펫 털 사이로 바람이 새어나가 깊은 먼지가 안 빠지는데, SealForce가 틈을 막아주니 **흡입력 35,000 Pa이 카펫 깊은 곳까지 그대로 전달**된다는 원리입니다. iRobot은 이를 두고 "토네이도형 기류와 결합해 **3배 더 깊은 카펫 청소**"라고 설명합니다.
 
-![룸바 맥스 875 — ThermaMist 핫 스프레이 물걸레 (출처: iRobot 영국 공식 홈페이지 irobot.co.uk)](/assets/images/posts/irobot-roomba-max875-combo-20260909/roomba-max875-thermamist.jpg)
+![룸바 맥스 875 — ThermaMist 핫 스프레이 물걸레 (출처: iRobot 영국 공식 홈페이지 irobot.co.uk)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/irobot-roomba-max875-combo-20260909/roomba-max875-thermamist.jpg)
 *룸바 맥스 875 — ThermaMist 초음파 핫 스프레이 (출처: iRobot 영국 공식 홈페이지 irobot.co.uk)*
 
 여기에 **물걸레도 한 단계 올렸습니다.** 초음파로 미스트를 뿜는 **ThermaMist**가 마른 얼룩·국물 자국을 불려주고, **PowerSpin Max 롤러 물걸레**가 뜨거운 물로 3.75배 더 깊게 문질러 닦아요. 저처럼 아이 있는 집에서 **"국물 튄 마루 자국은 직접 닦아야 한다"**고 생각하셨던 분들, 이제는 로봇한테 맡겨도 된다는 게 회사 측 설명입니다. 그리고 카펫이 있는 집을 위해 물걸레 패드가 카펫에 닿기 직전 **DriLift로 롤러를 들어 올려** 카펫을 마르게 유지하는 것도 포인트예요.
@@ -73,7 +73,7 @@ description: "독일 베를린 IFA 2026(9월 4~8일)이 폐막하면서 해외 �
 
 ## ③ AutoWash 도크 — "80℃ 온수 세척 + 최대 90일 자동 비움"
 
-![룸바 맥스 875 — AutoWash 도크 (출처: iRobot 영국 공식 홈페이지 irobot.co.uk)](/assets/images/posts/irobot-roomba-max875-combo-20260909/roomba-max875-autowash-dock.jpg)
+![룸바 맥스 875 — AutoWash 도크 (출처: iRobot 영국 공식 홈페이지 irobot.co.uk)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/irobot-roomba-max875-combo-20260909/roomba-max875-autowash-dock.jpg)
 *룸바 맥스 875 — AutoWash 도크의 자동 세척·건조 (출처: iRobot 영국 공식 홈페이지 irobot.co.uk)*
 
 요즘 프리미엄 로봇청소기의 필수 조건이 된 **'스스로 씻는 도크'**도 빠지지 않습니다. 룸바 맥스 875의 **AutoWash 도크**는:
@@ -88,7 +88,7 @@ description: "독일 베를린 IFA 2026(9월 4~8일)이 폐막하면서 해외 �
 
 ## ④ 맞수 — 로보락 사로스 20 플로우 & Qrevo Edge 3 Pro (36,000Pa)
 
-![로보락 사로스 20 플로우 컴플리트 (출처: Android Police의 IFA 2026 현장 보도 사진)](/assets/images/posts/irobot-roomba-max875-combo-20260909/roborock-saros20-flow-complete.jpg)
+![로보락 사로스 20 플로우 컴플리트 (출처: Android Police의 IFA 2026 현장 보도 사진)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/irobot-roomba-max875-combo-20260909/roborock-saros20-flow-complete.jpg)
 *로보락 사로스 20 플로우 — IFA 2026 전시 (출처: Android Police IFA 2026 현장 보도 사진)*
 
 iRobot이 '카펫 밀착'으로 승부수를 던졌다면, **로보락은 '수치로 승부'**합니다. IFA 2026에서 공개한 신형 플래그십 두 모델의 핵심은 다음과 같아요.

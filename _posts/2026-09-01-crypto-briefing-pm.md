@@ -5,13 +5,13 @@ date: 2026-09-01 17:00:00 +0900
 categories: [finance]
 tags: [비트코인, 가상화폐, 코인, BTC, 암호화폐]
 author: "40대 블로거"
-image: /assets/images/posts/crypto-briefing-20260901-pm/bitcoin-price-chart.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/crypto-briefing-20260901-pm/bitcoin-price-chart.png
 description: "9월 1일 오후 코인 브리핑. 비트코인이 7만8000달러 안팎에서 혼조세를 보인 가운데, 미국 비트코인 현물 ETF가 하루 만에 2억1670만 달러 순유입으로 전환했습니다. 스트래티지가 약 2개월 만에 비트코인 4603개를 매수했고, 국세청은 USDT 고시환율 과세 기준을 안내했습니다."
 sitemap: false
 noindex: true
 ---
 
-![비트코인 7일 가격 차트](/assets/images/posts/crypto-briefing-20260901-pm/bitcoin-price-chart.png)
+![비트코인 7일 가격 차트](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/crypto-briefing-20260901-pm/bitcoin-price-chart.png)
 *BTC 7일 가격 추이 (CoinGecko, 9/1 18:05 KST 기준)*
 
 **핵심 요약**: 9월 첫날 비트코인은 7만8000달러 안팎 혼조세. 미 비트코인 현물 ETF는 하루 만에 순유입으로 전환됐고, 스트래티지가 두 달 만에 매수를 재개했습니다.

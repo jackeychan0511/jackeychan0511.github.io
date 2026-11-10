@@ -5,13 +5,13 @@ date: 2026-07-31 10:30:00 +0900
 categories: [products]
 tags: [샤오미, 보조배터리, 울트라씬, 레노버, ThinkTab, 태블릿, MorningBlues, 투명스피커, IT, 가전, 신제품, 가젯추천, 2026년7월]
 author: "40대 블로거"
-image: /assets/images/posts/hot-gadgets-july-2026/xiaomi-powerbank-hero.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hot-gadgets-july-2026/xiaomi-powerbank-hero.jpg
 description: "2026년 7월, IT 업계에서 가장 주목받은 가전·가젯 3종을 골랐습니다. 6mm 초슬림 보조배터리, 50만 원대 방수 태블릿, 가사가 뜨는 투명 스피커까지 — 실사용 관점에서 정리했습니다."
 ---
 
 > **📌 한줄 요약:** 2026년 7월, 해외 IT 매체에서 가장 주목한 제품 세 가지를 엄선했습니다. **샤오미 울트라씬 자력 보조배터리**(6mm, 98g), **레노버 ThinkTab X11**(50만 원대 러기드 태블릿), **MorningBlues SonicGlass A1**(가사가 보이는 투명 스피커). 각각의 사용감과 장단점을 솔직하게 비교합니다.
 
-![샤오미 울트라씬 자력 보조배터리 5000 — 6mm 두께로 아이폰에 부착한 모습](/assets/images/posts/hot-gadgets-july-2026/xiaomi-powerbank-hero.jpg)
+![샤오미 울트라씬 자력 보조배터리 5000 — 6mm 두께로 아이폰에 부착한 모습](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hot-gadgets-july-2026/xiaomi-powerbank-hero.jpg)
 *샤오미 울트라씬 자력 보조배터리 5000. 6mm, 98g의 초슬림 디자인 (출처: Yanko Design)*
 
 ---
@@ -53,7 +53,7 @@ description: "2026년 7월, IT 업계에서 가장 주목받은 가전·가젯 3
 
 6mm 두께면 아이폰 17 프로 맥스에 붙여도 **전체 두께가 13mm 전후**밖에 안 됩니다. 주머니에 넣고 다녀도 부담이 거의 없어요. 실제로 쥐어보면 **일반 보조배터리의 절반도 안 되는 두께감**이에요.
 
-![샤오미 울트라씬 자력 보조배터리 측면 — 6mm 두께 강조](/assets/images/posts/hot-gadgets-july-2026/xiaomi-powerbank-side.jpg)
+![샤오미 울트라씬 자력 보조배터리 측면 — 6mm 두께 강조](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hot-gadgets-july-2026/xiaomi-powerbank-side.jpg)
 *6mm 두께를 강조한 측면 샷. 일반 스마트폰 케이스보다 얇다 (출처: Yanko Design)*
 
 ### 아쉬운 점
@@ -68,7 +68,7 @@ description: "2026년 7월, IT 업계에서 가장 주목받은 가전·가젯 3
 - 출근/외출 시 **가방을 최대한 가볍게** 하고 싶은 분
 - 보조배터리를 "비상용"이 아니라 **"평소에도 달고 다닐 용도"**로 찾는 분
 
-![샤오미 울트라씬 자력 보조배터리를 아이폰에 부착한 모습](/assets/images/posts/hot-gadgets-july-2026/xiaomi-powerbank-phone.jpg)
+![샤오미 울트라씬 자력 보조배터리를 아이폰에 부착한 모습](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hot-gadgets-july-2026/xiaomi-powerbank-phone.jpg)
 *아이폰 후면에 자석으로 부착한 모습. 두께감이 거의 느껴지지 않는다 (출처: Yanko Design)*
 
 ---
@@ -92,7 +92,7 @@ description: "2026년 7월, IT 업계에서 가장 주목받은 가전·가젯 3
 
 레노버가 이번에 ThinkTab X11을 내놓으면서 가장 놀라웠던 점은 **배터리를 분리해도 작동을 멈추지 않는다**는 거예요. 배터리 잔량이 떨어지면 **뜨거운 상태로 배터리를 갈아끼우는** 핫스왑(Hot Swap)이 가능합니다. 한쪽 배터리는 충전하고, 다른 쪽은 기기에 끼워서 24시간 연속 사용할 수 있는 구조예요.
 
-![레노버 ThinkTab X11 러기드 태블릿 전면](/assets/images/posts/hot-gadgets-july-2026/lenovo-thinktab-x11.jpg)
+![레노버 ThinkTab X11 러기드 태블릿 전면](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hot-gadgets-july-2026/lenovo-thinktab-x11.jpg)
 *레노버 ThinkTab X11 — IP68 방수방진, MIL-SPEC 낙하 인증 (출처: Yanko Design)*
 
 ### 아쉬운 점
@@ -126,7 +126,7 @@ description: "2026년 7월, IT 업계에서 가장 주목받은 가전·가젯 3
 
 SonicGlass A1의 핵심은 **투명한 21.5인치 전면 패널**에 실시간으로 노래 가사가 흘러간다는 점이에요. 그냥 텍스트가 아니라 가사에 맞춰 배경 장면과 AI가 생성하는 비주얼이 함께 재생됩니다. 파티나 집들이에서 **인테리어 소품과 음악 감상이 하나로 합쳐진** 느낌이에요.
 
-![MorningBlues SonicGlass A1 투명 스피커 전경](/assets/images/posts/hot-gadgets-july-2026/sonicglass-a1-hub.jpg)
+![MorningBlues SonicGlass A1 투명 스피커 전경](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hot-gadgets-july-2026/sonicglass-a1-hub.jpg)
 *MorningBlues SonicGlass A1 — 투명 TFT 패널과 AI 비주얼이 결합된 스피커 (출처: MorningBlues 공식)*
 
 ### 아쉬운 점
@@ -141,7 +141,7 @@ SonicGlass A1의 핵심은 **투명한 21.5인치 전면 패널**에 실시간�
 - 혼술·혼카페 타임에 **분위기 있는 음악 감상**을 원하는 분
 - 파티나 모임에서 **화제가 될 만한 아이템**을 찾는 분
 
-![SonicGlass A1 가사 표시 모드 — 실시간 가사와 비주얼](/assets/images/posts/hot-gadgets-july-2026/sonicglass-a1-lyrics.jpg)
+![SonicGlass A1 가사 표시 모드 — 실시간 가사와 비주얼](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hot-gadgets-july-2026/sonicglass-a1-lyrics.jpg)
 *투명 패널 위로 흐르는 실시간 가사와 AI 생성 배경 (출처: MorningBlues 공식)*
 
 ---

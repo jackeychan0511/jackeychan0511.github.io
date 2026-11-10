@@ -5,7 +5,7 @@ date: 2026-08-13 12:00:00 +0900
 categories: [career]
 tags: [HermesAgent, NousResearch, AI에이전트, Grok4.6, xAI, OpenClaw, 마이그레이션, KimiK3, Moonshot, AI뉴스, 오픈소스AI, AI툴추천, 2026년8월]
 author: "40대 블로거"
-image: /assets/images/posts/hermes-grok46-migration-20260813/grok46-og.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-grok46-migration-20260813/grok46-og.png
 description: "8월 12일 xAI가 롱러닝 에이전트 특화 모델 Grok 4.6을 공개했고, 오픈소스 AI 에이전트 Hermes Agent가 같은 날 당일 지원을 추가했습니다. 또 OpenClaw에서 Hermes로 설정·메모리·스킬·API 키를 통째로 옮기는 'hermes claw migrate' 공식 가이드와 Kimi K3 리즈닝 매핑, 프로필 export/import까지 최신 소식을 정리했습니다."
 sitemap: false
 noindex: true
@@ -16,7 +16,7 @@ noindex: true
 
 이번 글에서는 **Grok 4.6 출시 → Hermes 당일 지원 → Kimi K3 업데이트 → OpenClaw 마이그레이션 가이드** 순서로 핵심만 정리해 드릴게요.
 
-![Grok 4.6 공식 발표 이미지](/assets/images/posts/hermes-grok46-migration-20260813/grok46-og.png)
+![Grok 4.6 공식 발표 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-grok46-migration-20260813/grok46-og.png)
 *Grok 4.6 공식 발표 이미지 (출처: xAI 공식 뉴스룸 x.ai/news/grok-4-6)*
 
 ## 1. xAI, Grok 4.6 공개 — "롱러닝 에이전트"에 올인한 모델 (8/12)
@@ -101,12 +101,12 @@ API 키는 `--migrate-secrets`를 줬을 때만 옮겨지고, **허용 목록에
 4. `hermes config show`로 세션 리셋 정책 확인
 5. 전부 정상이면 `hermes claw cleanup`으로 기존 OpenClaw 폴더를 `.pre-migration/`으로 정리
 
-![OpenClaw 공식 문서 대표 이미지](/assets/images/posts/hermes-grok46-migration-20260813/openclaw-hero.png)
+![OpenClaw 공식 문서 대표 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-grok46-migration-20260813/openclaw-hero.png)
 *OpenClaw 공식 문서 대표 이미지 (출처: OpenClaw 공식 문서 docs.openclaw.ai)*
 
 솔직한 한 줄 평가를 하자면, **OpenClaw를 오래 쓰면서 SOUL.md·스킬·메시징 설정을 많이 쌓아둔 분일수록 이 가이드의 가치가 큽니다.** 처음부터 다시 설정하는 것과는 비교가 안 되거든요. 반대로 "나 그냥 심플하게 쓰는 편"이신 분들도 `--preset user-data`로 필요한 것만 골라서 옮길 수 있습니다.
 
-![Hermes Agent 공식 홈페이지 — 메시징 플랫폼 연결 화면](/assets/images/posts/hermes-grok46-migration-20260813/hermes-feature-connect.jpg)
+![Hermes Agent 공식 홈페이지 — 메시징 플랫폼 연결 화면](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-grok46-migration-20260813/hermes-feature-connect.jpg)
 *Hermes Agent 공식 홈페이지 — 메시징 플랫폼 연결 기능 (출처: Hermes Agent 공식 홈페이지)*
 
 ## 4. 프로필 export/import — 이제 `/export`, `/import`로 프로필 공유
@@ -123,7 +123,7 @@ Hermes Agent는 이 글을 쓰는 시점(8/13) 기준 **GitHub 스타 229,551개
 
 **마이그레이션을 고민 중이신 분께 드리는 팁** — 일단 `hermes claw migrate --dry-run`으로 미리보기만 돌려보세요. 1분이면 "내 데이터가 어디로 어떻게 옮겨지는지" 전체 목록을 볼 수 있고, 부담 없이 결정할 수 있습니다. API 키까지 옮기고 싶다면 `--migrate-secrets`를 꼭 붙이는 것만 기억하시면 됩니다. 가성비 좋은 오픈소스 AI 에이전트 찾는 분께 추천드립니다.
 
-![Hermes Agent 공식 홈페이지 — 브라우저·리서치 기능 화면](/assets/images/posts/hermes-grok46-migration-20260813/hermes-feature-browse.jpg)
+![Hermes Agent 공식 홈페이지 — 브라우저·리서치 기능 화면](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-grok46-migration-20260813/hermes-feature-browse.jpg)
 *Hermes Agent 공식 홈페이지 — 브라우저·리서치 기능 (출처: Hermes Agent 공식 홈페이지)*
 
 - 공식 발표: [Introducing Grok 4.6 — xAI](https://x.ai/news/grok-4-6)

@@ -5,13 +5,13 @@ date: 2026-08-11 23:30:00 +0900
 categories: [products]
 tags: [AI스피커, 구글홈스피커, GoogleHomeSpeaker, 제미나이, Gemini for Home, 스마트스피커, 구글홈, 스마트홈, AI가전, 직구, 가전추천, 2026년8월, 구매가이드]
 author: "40대 블로거"
-image: /assets/images/posts/google-home-speaker-20260811/google-home-speaker-hero.webp
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/google-home-speaker-20260811/google-home-speaker-hero.webp
 description: "2026년 8월, 6년 만에 돌아온 구글의 새 스마트 스피커 '구글 홈 스피커(Google Home Speaker)'가 가장 핫합니다. 2020년 네스트 오디오 이후 첫 신제품으로, 음성 비서를 완전히 제미나이(Gemini for Home)로 갈아탄 첫 오디오 기기입니다. 99.99달러(약 14만 원)에 360도 사운드·58mm 드라이버·Thread 보더 라우터까지 탑재했는데, 핵심 AI 기능은 구독(구글 홈 프리미엄) 뒤에 숨겨져 있어 호불호가 갈립니다. 스펙, 해외 리뷰 종합, 한국 출시 전망과 직구 꿀팁까지 정리했습니다."
 ---
 
 > **📌 한줄 요약:** 2026년 8월 현재 스마트 스피커 시장에서 가장 핫한 제품은 **구글 홈 스피커(Google Home Speaker)**입니다. 구글이 **6년 만에** 내놓은 신형 스마트 스피커로, 2020년 네스트 오디오(Nest Audio) 이후 첫 신제품이자 **음성 비서를 완전히 제미나이(Gemini for Home)로 교체한 첫 오디오 기기**입니다. **$99.99(약 14만 원)**, 360도 사운드 + 58mm 풀레인지 드라이버(네스트 미니 대비 2배), Thread 보더 라우터 탑재. 다만 **제미나이 라이브·카메라 검색 등 핵심 AI 기능은 '구글 홈 프리미엄' 구독(월 약 $10, 6개월 무료 체험 포함)** 뒤에 있어, '하드웨어는 칭찬, AI는 아직 진행형'이라는 평가를 받고 있습니다.
 
-![구글 홈 스피커 2026 공식 히어로 이미지](/assets/images/posts/google-home-speaker-20260811/google-home-speaker-hero.webp)
+![구글 홈 스피커 2026 공식 히어로 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/google-home-speaker-20260811/google-home-speaker-hero.webp)
 *구글 홈 스피커(2026) — 6년 만에 돌아온 구글의 신형 스마트 스피커 (출처: Google 공식 블로그, 2026-06-17)*
 
 ---
@@ -51,7 +51,7 @@ description: "2026년 8월, 6년 만에 돌아온 구글의 새 스마트 스피
 | **부가 기능** | 하단 라이트 링, 탭 컨트롤, 마이크 물리 스위치, 스테레오 페어링, Google TV 스트리머 연동 |
 | **구독** | 구글 홈 프리미엄 월 약 $10 (연 $120), 구매 시 6개월 무료 |
 
-![구글 홈 스피커 4가지 색상](/assets/images/posts/google-home-speaker-20260811/google-home-speaker-colors.webp)
+![구글 홈 스피커 4가지 색상](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/google-home-speaker-20260811/google-home-speaker-colors.webp)
 *헤이즐·포슬린(전 세계) + 제이드·베리(미국 한정) 4가지 색상 (출처: Google 공식 블로그)*
 
 가장 눈에 띄는 건 **전용 NPU(신경망 처리 장치) 탑재**입니다. 일부 제미나이 명령을 **기기 안에서 직접 처리**해서 응답이 빨라지고, 인터넷이 잠깐 끊겨도 기본 명령은 작동합니다. 기존 "전부 클라우드로 보내던" 방식과 확실히 달라진 부분이에요.
@@ -71,7 +71,7 @@ description: "2026년 8월, 6년 만에 돌아온 구글의 새 스마트 스피
 ### ③ 10가지 새로운 음성
 어색한 로봇 톤 대신 **자연스러운 목소리 10종**을 고를 수 있습니다. 해외 리뷰에서 "처음엔 사람 목소리인 줄 알았다"는 반응이 나올 정도로 표현력이 좋아졌습니다.
 
-![제미나이 대화 기능 소개 이미지](/assets/images/posts/google-home-speaker-20260811/google-home-speaker-gemini.webp)
+![제미나이 대화 기능 소개 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/google-home-speaker-20260811/google-home-speaker-gemini.webp)
 *자연어 이해·복합 명령·후속 질문이 가능해진 제미나이 for Home (출처: Google 공식 블로그)*
 
 ### ④ 스마트홈의 숨은 기능 — Thread 보더 라우터
@@ -87,7 +87,7 @@ description: "2026년 8월, 6년 만에 돌아온 구글의 새 스마트 스피
 ### ⚠️ 아쉬운 점: 음질은 "좋은 편이지, 놀랍진 않다"
 음질은 **네스트 미니보다 확실히 좋아졌지만**, 같은 가격대 블루투스 스피커(JBL 등)와 비교하면 역부족이라는 게 중론입니다. 팟캐스트·보컬·잔잔한 음악은 훌륭하고, **스피커 2대를 스테레오 페어링**하면 공간감이 확 살아납니다. 다만 저음이 강한 EDM이나 큰 볼륨에서는 중저음이 뭉개진다는 지적이 있어요. 요약하면 "음악 스피커라기보다 **AI 비서가 달린 스피커**"에 가깝습니다.
 
-![구글 홈 스피커 라이트 링 상세](/assets/images/posts/google-home-speaker-20260811/google-home-speaker-lightring.webp)
+![구글 홈 스피커 라이트 링 상세](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/google-home-speaker-20260811/google-home-speaker-lightring.webp)
 *하단 라이트 링 — 제미나이 상태를 색으로 알려주는 인디케이터 (출처: Google 공식 블로그)*
 
 ---
@@ -109,7 +109,7 @@ description: "2026년 8월, 6년 만에 돌아온 구글의 새 스마트 스피
 ### ⚠️ 단점 4: 한국 출시 미정 + 한국어 이슈
 현재 **한국 공식 출시는 아직 미정**입니다. 구글 고객센터 커뮤니티에도 "일본은 출시되는데 한국은 왜 안 되냐"는 글이 올라올 만큼 국내 사용자들의 아쉬움이 큽니다. 국내 유튜버가 직구로 들여와 테스트한 영상에서는 **한국어 인식이 아직 완벽하지 않다**는 지적도 있었어요. 한국어 제미나이 지원 정확도가 검증되기 전까지는 **직구를 서두르기보다 하반기 공식 발표를 기다리는 것**도 방법입니다.
 
-![구글 홈 스피커 네이버 쇼핑 직구 상품 이미지](/assets/images/posts/google-home-speaker-20260811/google-home-speaker-naver-shop.jpg)
+![구글 홈 스피커 네이버 쇼핑 직구 상품 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/google-home-speaker-20260811/google-home-speaker-naver-shop.jpg)
 *국내 네이버 쇼핑에도 등록된 구글 홈 스피커 직구 상품 (출처: 네이버 쇼핑, 2026-08-11 확인)*
 
 ---

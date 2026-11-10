@@ -5,7 +5,7 @@ date: 2026-09-24 11:25:00 +0900
 categories: [products]
 tags: [OPPO Find X10 프로 맥스, OPPO Find X10 Pro Max, 트리플 200MP, 하셀블라드 카메라, 디멘시티 9600 프로, 2nm 스마트폰, 8000mAh 배터리, 80W SUPERVOOC, 컬러OS 17, 비보 X500 프로 맥스, 아이폰 18 프로 맥스, 갤럭시 S26 울트라, 카메라폰 추천, 플래그십 스마트폰 비교, 제품 비교]
 author: "40대 블로거"
-image: /assets/images/posts/oppo-find-x10-pro-max-triple-200mp-20260924/oppo-find-x10-pro-max-01-official-hero.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/oppo-find-x10-pro-max-triple-200mp-20260924/oppo-find-x10-pro-max-01-official-hero.jpg
 description: "OPPO가 9월 22일 중국에서 Find X10 프로 맥스를 공개하고 9월 24일부터 판매를 시작했습니다. 세계 최초로 후면 트리플 200MP 하셀블라드 카메라를 얹은 폰이고, 2nm 디멘시티 9600 프로·6.78인치 1.5K 144Hz LTPO·8,000mAh 실리콘카본 배터리·80W SUPERVOOC까지 갖췄습니다. 이틀 전 같은 2nm 칩으로 나온 비보 X500 프로 맥스, 그리고 아이폰 18 프로 맥스·갤럭시 S26 울트라와 무엇이 다른지, 중국 가격 6,799~8,999위안 기준으로 구매 판단 포인트를 솔직하게 정리했습니다. 이미지는 OPPO 공식 제품 페이지와 Gizmochina 보도 이미지입니다."
 ---
 
@@ -17,7 +17,7 @@ description: "OPPO가 9월 22일 중국에서 Find X10 프로 맥스를 공개�
 
 이번 글에서는 **Find X10 프로 맥스가 정확히 무엇이 새로운지, 그리고 하루 전 나온 비보 X500 프로 맥스와 뭐가 다른지**를 정리해 봤습니다.
 
-![OPPO Find X10 프로 맥스 공식 이미지 — 하셀블라드 카메라 모듈과 트리플 200MP 시스템 (출처: OPPO 공식 제품 페이지)](/assets/images/posts/oppo-find-x10-pro-max-triple-200mp-20260924/oppo-find-x10-pro-max-01-official-hero.jpg)
+![OPPO Find X10 프로 맥스 공식 이미지 — 하셀블라드 카메라 모듈과 트리플 200MP 시스템 (출처: OPPO 공식 제품 페이지)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/oppo-find-x10-pro-max-triple-200mp-20260924/oppo-find-x10-pro-max-01-official-hero.jpg)
 *Find X10 프로 맥스는 카메라 모듈에 하셀블라드 각인과 오렌지 포인트를 넣었습니다 (출처: OPPO 공식)*
 
 ## OPPO Find X10 프로 맥스 — 무엇이 달라졌나
@@ -51,7 +51,7 @@ description: "OPPO가 9월 22일 중국에서 Find X10 프로 맥스를 공개�
 
 솔직히 세 렌즈를 다 200MP로 맞추면 **파일 용량과 처리 부담**이 걱정됩니다. OPPO가 '0.7초' 연사 간격과 딥픽스로 그 부분을 겨냥한 게 눈에 띄지만, 실사용 체감은 첫 리뷰에서 확인하는 게 안전합니다.
 
-![OPPO Find X10 프로 맥스 트리플 200MP 카메라 특징 (출처: Gizmochina 보도 이미지 / OPPO 공개 자료)](/assets/images/posts/oppo-find-x10-pro-max-triple-200mp-20260924/oppo-find-x10-pro-max-05-camera.jpg)
+![OPPO Find X10 프로 맥스 트리플 200MP 카메라 특징 (출처: Gizmochina 보도 이미지 / OPPO 공개 자료)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/oppo-find-x10-pro-max-triple-200mp-20260924/oppo-find-x10-pro-max-05-camera.jpg)
 *메인·초광각·망원을 전부 200MP로 통일한 게 이 폰의 최대 차별점입니다 (출처: Gizmochina / OPPO 공개 자료)*
 
 ### 3) 디스플레이 — 6.78인치 1.5K, 144Hz LTPO
@@ -74,17 +74,17 @@ description: "OPPO가 9월 22일 중국에서 Find X10 프로 맥스를 공개�
 
 8,000mAh에 80W면 **하루 종일 200MP 카메라를 돌려도 충전기를 안 찾는 구성**입니다. 다만 두께 8.4mm·무게 **235g**은 발표 스펙 그대로라, 200g 초반대 폰에 익숙한 분은 매장에서 꼭 들어보시길 권합니다.
 
-![OPPO Find X10 프로 맥스 공식 제품 렌더 — 후면 카메라 모듈 (출처: OPPO 공식 제품 페이지)](/assets/images/posts/oppo-find-x10-pro-max-triple-200mp-20260924/oppo-find-x10-pro-max-02-official-render.png)
+![OPPO Find X10 프로 맥스 공식 제품 렌더 — 후면 카메라 모듈 (출처: OPPO 공식 제품 페이지)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/oppo-find-x10-pro-max-triple-200mp-20260924/oppo-find-x10-pro-max-02-official-render.png)
 *후면은 메탈 마감과 3D 직조 패턴을 섞고, 클래식 필름카메라를 참고한 디자인을 넣었습니다 (출처: OPPO 공식)*
 
 ## 색상 — 문 화이트 / 웜 오렌지 / 라이트 티타늄
 
 클래식 카메라의 소재감을 참고했다는 후면은 **세 가지 색상**으로 나옵니다. 실물 사진을 보면 오렌지가 시그니처, 티타늄이 무난한 선택으로 보입니다.
 
-![OPPO Find X10 프로 맥스 웜 오렌지 색상 (출처: Gizmochina 보도 이미지 / OPPO 공개 자료)](/assets/images/posts/oppo-find-x10-pro-max-triple-200mp-20260924/oppo-find-x10-pro-max-03-warm-orange.png)
+![OPPO Find X10 프로 맥스 웜 오렌지 색상 (출처: Gizmochina 보도 이미지 / OPPO 공개 자료)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/oppo-find-x10-pro-max-triple-200mp-20260924/oppo-find-x10-pro-max-03-warm-orange.png)
 *웜 오렌지는 하셀블라드 오렌지 포인트와 가장 잘 어울리는 색입니다 (출처: Gizmochina / OPPO 공개 자료)*
 
-![OPPO Find X10 프로 맥스 라이트 티타늄 색상 (출처: Gizmochina 보도 이미지 / OPPO 공개 자료)](/assets/images/posts/oppo-find-x10-pro-max-triple-200mp-20260924/oppo-find-x10-pro-max-04-light-titanium.png)
+![OPPO Find X10 프로 맥스 라이트 티타늄 색상 (출처: Gizmochina 보도 이미지 / OPPO 공개 자료)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/oppo-find-x10-pro-max-triple-200mp-20260924/oppo-find-x10-pro-max-04-light-titanium.png)
 *라이트 티타늄은 가장 무난하게 오래 쓸 수 있는 색입니다 (출처: Gizmochina / OPPO 공개 자료)*
 
 ## 형제 모델 비교 — Find X10E / Find X10 / Find X10 프로 맥스

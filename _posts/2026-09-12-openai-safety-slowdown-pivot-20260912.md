@@ -5,14 +5,14 @@ date: 2026-09-12 14:53:00 +0900
 categories: [career]
 tags: [GPT, OpenAI, 샘앨트만, AI규제, AI안전, GPT6, Astra, 프론티어AI, AI정책, ChatGPT, 업무자동화, AI뉴스, 2026년9월]
 author: "40대 블로거"
-image: /assets/images/posts/openai-safety-slowdown-pivot-20260912/openai-logo-2025-symbol.svg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-safety-slowdown-pivot-20260912/openai-logo-2025-symbol.svg
 description: "2026년 9월 9일 OpenAI의 크리스 르헤인 최고대외협력책임자가 '의무적 국가 안전규제'를 촉구하는 글을 올렸고, 9월 10~11일에는 샘 앨트만 CEO가 사내 회의에서 '최첨단 AI 개발 속도를 늦출 용의가 있다'고 말했다는 보도가 나왔습니다. 같은 시기 GPT-6 Astra의 사이버 능력이 'Critical' 등급에 도달하며 일부 개발이 일시 중단됐고, 수요 폭증으로 월 200달러 ChatGPT Pro 신규 가입까지 멈췄습니다. '속도'로 상징되던 OpenAI가 처음으로 '브레이크'를 말하기 시작한 배경과 사용자·개발자 영향, 전망을 정리했습니다."
 sitemap: false
 noindex: true
 ---
 > **📌 한줄 요약:** '더 빠르게'로 상징되던 **OpenAI가 처음으로 '속도 조절'을 꺼내 들었습니다.** **2026년 9월 9일** OpenAI의 **크리스 르헤인(Chris Lehane) 최고대외협력책임자**가 **"의무적(mandatory) 국가 안전규제"** 를 촉구하는 글을 발표했고, **9월 10~11일**에는 **샘 앨트만 CEO가 사내 회의에서 "최첨단 AI 개발 속도를 늦출 용의가 있다"** 고 말했다는 보도가 나왔습니다. 배경엔 **GPT-6 Astra가 사이버 능력 최고 등급인 'Critical'을 처음 통과**한 것, 그리고 **8월의 모델 개발 일시 중단**과 **수요 폭증으로 인한 월 200달러 ChatGPT Pro 신규 가입 중단**이 깔려 있습니다. 아래에서 무엇이 바뀐 건지, 우리 업무·개발에는 어떤 의미인지 살펴봤습니다.
 
-![OpenAI 2025 공식 로고 (출처: Wikimedia Commons · OpenAI 브랜드, 퍼블릭 도메인)](/assets/images/posts/openai-safety-slowdown-pivot-20260912/openai-logo-2025-symbol.svg)
+![OpenAI 2025 공식 로고 (출처: Wikimedia Commons · OpenAI 브랜드, 퍼블릭 도메인)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-safety-slowdown-pivot-20260912/openai-logo-2025-symbol.svg)
 *OpenAI 2025 공식 로고 (출처: Wikimedia Commons · OpenAI 브랜드, 퍼블릭 도메인)*
 
 요즘 저처럼 사내 반복 업무를 **AI로 자동화**해 보려고 여기저기 붙여 보시는 분들, 공감하실 겁니다. 저도 이번 달 들어서는 거의 매주 새 모델 소식을 챙겨 보느라 정신이 없는데요, **9월 초 GPT-6 Astra**가 풀린 뒤로는 "다음엔 또 뭐가 나오나" 하는 기대감으로만 가득했습니다.
@@ -53,7 +53,7 @@ noindex: true
 
 여기서 눈여겨볼 건 **"개별 기업의 자율적 감속"이 아니라 "산업 전체의 공동 감속"** 을 말하고 있다는 점입니다. 한 회사만 멈추면 경쟁에서 밀리니, **규제라는 이름으로 모두를 같은 선 위에 세우려는 셈**이죠. 참고로 **앤트로픽도 출시 속도 조율에 관심을 보인다**는 보도가 함께 나왔습니다.
 
-![OpenAI CEO 샘 앨트만 (출처: Wikimedia Commons · TED, CC BY 2.0)](/assets/images/posts/openai-safety-slowdown-pivot-20260912/sam-altman-ted.jpg)
+![OpenAI CEO 샘 앨트만 (출처: Wikimedia Commons · TED, CC BY 2.0)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-safety-slowdown-pivot-20260912/sam-altman-ted.jpg)
 *OpenAI CEO 샘 앨트만 (출처: Wikimedia Commons · TED, CC BY 2.0)*
 
 ### ③ 왜 '지금'인가 — Astra와 용량 압박

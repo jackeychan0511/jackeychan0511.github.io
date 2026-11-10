@@ -5,13 +5,13 @@ date: 2026-08-11 17:00:00 +0900
 categories: [finance]
 tags: [비트코인, 가상화폐, 코인, BTC, 암호화폐]
 author: "40대 블로거"
-image: /assets/images/posts/crypto-briefing-20260811/bitcoin-wallet-security.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/crypto-briefing-20260811/bitcoin-wallet-security.jpg
 description: "8월 11일 오후 코인 브리핑. 6.5만달러 회복 하루 만에 비트코인이 6.4만달러 아래로 후퇴. 세계 최대 BTC 보유 기업 스트래티지가 1,690 BTC를 추가 매각했고, BTCPay 서버 해킹·BIP 110 포크 지연 등 인프라 악재도 겹쳤다. 내일(8/12) 美 7월 CPI가 분수령."
 sitemap: false
 noindex: true
 ---
 
-![하드웨어 지갑(트레저)과 카사시우스 5BTC 실물 코인](/assets/images/posts/crypto-briefing-20260811/bitcoin-wallet-security.jpg)
+![하드웨어 지갑(트레저)과 카사시우스 5BTC 실물 코인](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/crypto-briefing-20260811/bitcoin-wallet-security.jpg)
 *하드웨어 지갑과 실물 BTC 코인 — 이번 주 보안 이슈를 상징 (Gage Skidmore / Wikimedia Commons, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/))*
 
 **핵심 요약**: 비트코인이 6.5만달러 회복 하루 만에 6.4만달러 아래로 후퇴했습니다. 스트래티지의 연이은 매도와 BTCPay 해킹·BIP 110 포크 지연이 겹쳤고, 내일(8/12) 미국 7월 CPI가 분수령입니다.

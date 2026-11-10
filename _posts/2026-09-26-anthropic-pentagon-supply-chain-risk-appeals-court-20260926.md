@@ -5,7 +5,7 @@ date: 2026-09-26 16:52:00 +0900
 categories: [career]
 tags: [Anthropic, Claude, 앤트로픽, 클로드, 국방부, 펜타곤, 공급망리스크, FASCSA, DC항소법원, 카차스판결, 헤그세스, 아모데이, 국방조달, GenAImil, 자율무기, 대량감시, AI안전가드레일, AI정책, AI규제, 앤트로픽IPO, 조달리스크, 업무자동화, 자동화파이프라인, 2026년9월]
 author: "40대 블로거"
-image: /assets/images/posts/anthropic-pentagon-appeals-court-20260926/pentagon-arlington-aerial-wikimedia.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-pentagon-appeals-court-20260926/pentagon-arlington-aerial-wikimedia.jpg
 description: "2026년 9월 25일(미국 현지시간), 미국 워싱턴 D.C. 연방항소법원(D.C. Circuit)이 앤트로픽(Anthropic)이 제기한 소송에서 2대 1로 국방부(Department of War)의 '공급망 리스크(supply chain risk)' 지정을 유지했습니다. 사건명은 Anthropic PBC v. U.S. Department of War로, 2018년 연방조달공급망보안법(FASCSA)에 근거한 지정이 위법·월권·위헌이라는 앤트로픽 주장이 모두 배척됐습니다. 다수 의견은 카차스(Gregory Katsas) 판사가 작성했고 라오(Neomi Rao) 판사가 가담했으며, 헨더슨(Karen LeCraft Henderson) 판사는 'manipulate' 조항 해석을 둘러싸고 반대의견을 냈습니다. 이 지정은 미군이 클로드를 쓰지 못하게 하고, 국방 계약업체들이 국방부 업무에 클로드를 활용하는 것도 막습니다. 앤트로픽은 8월 샌프란시스코 지방법원에서 평행한 다른 지정을 위법으로 무효화한 바 있어, 두 법원의 결론이 충돌하는 상태입니다. 이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망 순서로 정리했습니다."
 sitemap: false
 noindex: true
@@ -15,7 +15,7 @@ noindex: true
 
 요즘 저처럼 **AI 에이전트를 실사용하고 업무 자동화 파이프라인을 운영하시는 분들**은, 모델 성능표만 보지 않고 **"이 모델을 계속 쓸 수 있는가"라는 조건**까지 함께 확인하게 되실 겁니다. 저도 그렇습니다. 제 파이프라인은 결국 **API 정책·요금제·조달 가능성**이라는 바깥 조건 위에 올라가 있기 때문에, 그 조건이 흔들리면 **모델이 아무리 좋아도 소용이 없습니다.** 그래서 이번 판결처럼 **"AI 회사가 제도권과 부딪히는 뉴스"** 는 남의 회사 이야기로 넘기지 않고 읽습니다. 아래에서 **무엇이 확정됐는지, 법리적으로 어디서 갈렸는지, 그리고 저 같은 실사용자에게 무엇이 바뀌는지** 정리해 보겠습니다.
 
-![미국 국방부 청사인 펜타곤(버지니아주 알링턴) 항공 전경 — 이번 항소심의 무대가 된 기관입니다](/assets/images/posts/anthropic-pentagon-appeals-court-20260926/pentagon-arlington-aerial-wikimedia.jpg)
+![미국 국방부 청사인 펜타곤(버지니아주 알링턴) 항공 전경 — 이번 항소심의 무대가 된 기관입니다](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-pentagon-appeals-court-20260926/pentagon-arlington-aerial-wikimedia.jpg)
 *펜타곤(미국 국방부 청사, 버지니아주 알링턴) 항공 전경 — 2026년 9월 25일 D.C. 항소법원은 이 기관의 클로드 퇴출 조치를 유지했습니다 (출처: Wikimedia Commons, 촬영 2010, CC BY-SA 2.0, 촬영 mariordo59)*
 
 ## 🗞️ 이슈 요약 — 한눈에 보기
@@ -113,7 +113,7 @@ noindex: true
 
 **여기서 실사용자 관점의 핵심**은 이겁니다. **"법이 아직 확정되지 않았다"** 는 것입니다. 4월에는 유지, 8월에는 무효, 9월에는 유지. **분기마다 결론이 뒤집히는 상태**이고, 그 사이에 **계약·조달·컴플라이언스 판단을 해야 하는 조직**은 계속 리스크를 안고 갑니다.
 
-![앤트로픽 CEO 다리오 아모데이 — 이번 항소심 패소로 회사의 국방 조달 문제가 IPO를 앞두고 다시 부각됐습니다](/assets/images/posts/anthropic-pentagon-appeals-court-20260926/dario-amodei-anthropic-ceo-wikimedia.jpg)
+![앤트로픽 CEO 다리오 아모데이 — 이번 항소심 패소로 회사의 국방 조달 문제가 IPO를 앞두고 다시 부각됐습니다](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-pentagon-appeals-court-20260926/dario-amodei-anthropic-ceo-wikimedia.jpg)
 *앤트로픽 CEO 다리오 아모데이(Dario Amodei) — 앤트로픽은 "다른 연방법원은 평행한 지정을 위법으로 판단했다"며 재심리를 포함한 모든 선택지를 검토한다고 밝혔습니다 (출처: Wikimedia Commons, UK Prime Minister, 촬영 2023, CC BY 2.0)*
 
 ## ⚖️ 솔직한 장단점 — 이 뉴스가 실사용자에게 주는 것

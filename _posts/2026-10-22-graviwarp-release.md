@@ -6,12 +6,12 @@ categories: [team-jackchankey]
 tags: [그라비워프, Graviwarp, 모바일게임개발, 인디게임, 구글플레이출시, Phaser, Capacitor, AdMob, Firebase, AI개발, 개발일지, 1인개발, 2026년10월]
 author: 재찬키
 description: "탭 한 번으로 행성 궤도를 갈아타는 우주 아케이드 게임 그라비워프(Graviwarp)를 구글 플레이에 출시했습니다. 기획부터 개발, 12명 14일 비공개 테스트, 광고·결제 설정, 이름 변경, 정식 출시, 홍보 쇼츠 제작까지의 전 과정을 정리했습니다."
-image: /assets/images/posts/graviwarp-devlog/00-hero-1024x500.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/graviwarp-devlog/00-hero-1024x500.jpg
 ---
 
 탭 한 번으로 행성 궤도를 갈아타는 우주 아케이드 게임 **그라비워프(Graviwarp)** 를 구글 플레이에 출시했습니다. 기획부터 개발, 12명 14일 비공개 테스트, 광고·결제 설정, 이름 변경, 정식 출시, 홍보 쇼츠 제작까지의 과정을 정리했습니다.
 
-![그라비워프 스토어 대표 이미지](/assets/images/posts/graviwarp-devlog/00-hero-1024x500.jpg)
+![그라비워프 스토어 대표 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/graviwarp-devlog/00-hero-1024x500.jpg)
 
 - **Google Play:** https://play.google.com/store/apps/details?id=com.jackeychankey.orbithop
 - **플랫폼:** Android · **가격:** 무료(광고 포함, 1회 결제로 광고 제거)
@@ -29,12 +29,12 @@ image: /assets/images/posts/graviwarp-devlog/00-hero-1024x500.jpg
 
 행성 궤도를 돌다가 **딱 맞는 순간에 탭**하면 다음 행성으로 날아갑니다. 행성 한가운데를 노리면 PERFECT, 연속 성공하면 콤보가 쌓입니다.
 
-![그라비워프 타이틀 화면](/assets/images/posts/graviwarp-devlog/01-title.jpg)
-![그라비워프 플레이 화면](/assets/images/posts/graviwarp-devlog/02-gameplay.jpg)
+![그라비워프 타이틀 화면](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/graviwarp-devlog/01-title.jpg)
+![그라비워프 플레이 화면](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/graviwarp-devlog/02-gameplay.jpg)
 
 플레이 모습을 GIF로 보면 이렇습니다.
 
-![그라비워프 플레이 장면 (6초)](/assets/images/posts/graviwarp-devlog/gameplay-6s.gif)
+![그라비워프 플레이 장면 (6초)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/graviwarp-devlog/gameplay-6s.gif)
 
 ### 이벤트 구간 7종
 
@@ -52,14 +52,14 @@ image: /assets/images/posts/graviwarp-devlog/00-hero-1024x500.jpg
 
 300점이 넘으면 행성이 흔들리고 궤도가 빨라지는 **혼돈의 궤도**도 나옵니다.
 
-![블랙홀 구역](/assets/images/posts/graviwarp-devlog/03-blackhole.jpg)
-![유성우 구역](/assets/images/posts/graviwarp-devlog/04-meteors.jpg)
+![블랙홀 구역](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/graviwarp-devlog/03-blackhole.jpg)
+![유성우 구역](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/graviwarp-devlog/04-meteors.jpg)
 
 ### 아이템 4종
 
 자석 · 슬로우 · 조준 가이드 · 궤도변경권(회전 방향 반대). 이벤트 구간을 클리어하면 얻고, 한 판이 끝나면 사라집니다.
 
-![아이템 사용 화면](/assets/images/posts/graviwarp-devlog/06-items.jpg)
+![아이템 사용 화면](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/graviwarp-devlog/06-items.jpg)
 
 ## 3. 이미지 파일 없이 코드로 그린 그래픽
 
@@ -67,19 +67,19 @@ image: /assets/images/posts/graviwarp-devlog/00-hero-1024x500.jpg
 
 ### 행성 도감
 
-![그라비워프 행성 도감 9종](/assets/images/posts/graviwarp-devlog/08-planets-sheet.png)
+![그라비워프 행성 도감 9종](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/graviwarp-devlog/08-planets-sheet.png)
 
 ### 우주선 도감: 9종
 
 스카우트부터 불꽃을 흩날리는 피닉스까지, 모은 별로 하나씩 열 수 있습니다. 특수효과 우주선은 전기·별가루·오로라·불꽃이 비행 궤적에 남습니다.
 
-![그라비워프 우주선 도감 9종](/assets/images/posts/graviwarp-devlog/07-ships-sheet.png)
+![그라비워프 우주선 도감 9종](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/graviwarp-devlog/07-ships-sheet.png)
 
-![우주선 궤적 (8초)](/assets/images/posts/graviwarp-devlog/ship-trails-8s.gif)
+![우주선 궤적 (8초)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/graviwarp-devlog/ship-trails-8s.gif)
 
 주간 랭킹 1위에게만 주어지는 **황금 챔피언 우주선**도 있습니다.
 
-![주간 챔피언 우주선](/assets/images/posts/graviwarp-devlog/card-champion.png)
+![주간 챔피언 우주선](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/graviwarp-devlog/card-champion.png)
 
 ## 4. 개발 타임라인
 
@@ -97,10 +97,10 @@ image: /assets/images/posts/graviwarp-devlog/00-hero-1024x500.jpg
 
 초기 실기기에서 찍은 화면과 지금 화면을 비교하면 변화가 큽니다.
 
-![초기 실기기 화면](/assets/images/posts/graviwarp-devlog/11-early-device-orbit-hop.png)
+![초기 실기기 화면](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/graviwarp-devlog/11-early-device-orbit-hop.png)
 *개발 첫날 실기기 화면. 아직 ♪ 버튼이 있고 로고도 없습니다.*
 
-![현재 게임오버 화면](/assets/images/posts/graviwarp-devlog/05-gameover.jpg)
+![현재 게임오버 화면](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/graviwarp-devlog/05-gameover.jpg)
 *현재 — 설정 버튼, 이어하기, 랭킹 보기 등이 정리된 게임오버 화면 (화면의 수치는 테스트 값입니다)*
 
 ## 5. 기술 스택
@@ -178,18 +178,18 @@ image: /assets/images/posts/graviwarp-devlog/00-hero-1024x500.jpg
 
 ### 이름 변경 전과 후
 
-![이전 이름 Orbit Hop 대표 이미지](/assets/images/posts/graviwarp-devlog/09-before-orbit-hop-hero.png)
+![이전 이름 Orbit Hop 대표 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/graviwarp-devlog/09-before-orbit-hop-hero.png)
 *이전: Orbit Hop*
 
-![새 이름 그라비워프 대표 이미지](/assets/images/posts/graviwarp-devlog/00-hero-1024x500.jpg)
+![새 이름 그라비워프 대표 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/graviwarp-devlog/00-hero-1024x500.jpg)
 *현재: 그라비워프(Graviwarp). 중력(Gravity)과 워프(Warp)를 합친 이름입니다.*
 
 ## 10. 홍보: 광고 쇼츠 제작
 
 게임 화면으로 15초·30초 광고 쇼츠(한국어/영어)를 만들고, 썸네일과 제목·설명·해시태그까지 준비했습니다.
 
-![한국어 쇼츠 썸네일](/assets/images/posts/graviwarp-devlog/thumb-ko-1280x720.png)
-![영어 쇼츠 썸네일](/assets/images/posts/graviwarp-devlog/thumb-en-1280x720.png)
+![한국어 쇼츠 썸네일](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/graviwarp-devlog/thumb-ko-1280x720.png)
+![영어 쇼츠 썸네일](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/graviwarp-devlog/thumb-en-1280x720.png)
 
 - 영상 속 링크는 누를 수 없어서 설명 첫 줄과 고정 댓글에 스토어 링크를 넣었습니다.
 - 광고 정책을 지키려고 **실제 게임 화면만** 사용했습니다.
@@ -214,11 +214,11 @@ image: /assets/images/posts/graviwarp-devlog/00-hero-1024x500.jpg
 
 - **Google Play:** https://play.google.com/store/apps/details?id=com.jackeychankey.orbithop
 
-![웹 플레이 QR](/assets/images/posts/graviwarp-devlog/10-web-play-qr.png)
+![웹 플레이 QR](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/graviwarp-devlog/10-web-play-qr.png)
 *웹에서 가볍게 해보고 싶다면 위 QR을 찍어 주세요. 테스트 채널이라 2026년 11월 18일까지만 열려 있습니다.*
 
 > **참고:** 스크린샷과 영상에 보이는 별 개수·점수·랭킹은 **테스트 중 찍은 값**입니다. 실제 사용자 기록이 아닙니다.
 
 개발팀: Team Jackeychankey
 
-![Team Jackeychankey 로고](/assets/images/posts/graviwarp-devlog/12-team-logo.webp)
+![Team Jackeychankey 로고](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/graviwarp-devlog/12-team-logo.webp)

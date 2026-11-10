@@ -4,7 +4,7 @@ title: "운정 팜스활어직판장 솔직 후기 | 가성비 포장 횟집 줄
 date: 2026-07-26 16:00:00 +0900
 categories: [food]
 tags: [운정맛집, 팜스활어직판장, 파주횟집, 줄돔, 포장횟집, 가성비회]
-image: /assets/images/posts/food-palms/01.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/food-palms/01.jpg
 ---
 
 파주 운정에는 가성비 좋은 횟집이 많다는 얘기를 듣고 여러 군데 다녀봤습니다.
@@ -33,7 +33,7 @@ image: /assets/images/posts/food-palms/01.jpg
 
 줄돔은 제주도 근해에서 주로 잡히는 어종으로, 일반 도미보다 육질이 단단하고 쫄깃한 식감이 특징입니다. 감성돔과 비슷한 계열이라 회로 먹으면 고소한 맛이 일품이에요.
 
-![팜스활어직판장 줄돔회](/assets/images/posts/food-palms/01.jpg)
+![팜스활어직판장 줄돔회](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/food-palms/01.jpg)
 
 *한 마리 통째로 손질해서 머리부터 꼬리까지 푸짐하게*
 
@@ -45,7 +45,7 @@ image: /assets/images/posts/food-palms/01.jpg
 
 포장 횟집에서 중요한 건 **신선도 유지**와 **구성의 알차기**입니다. 팜스활어직판장의 포장 구성을 하나씩 뜯어보겠습니다.
 
-![팜스활어직판장 포장 구성](/assets/images/posts/food-palms/02.jpg)
+![팜스활어직판장 포장 구성](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/food-palms/02.jpg)
 
 *회와 함께 나온 기본 구성 — 초장, 간장, 쌈채소, 마늘, 반찬*
 

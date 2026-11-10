@@ -5,12 +5,12 @@ date: 2026-08-17 14:00:00 +0900
 categories: [career]
 tags: [ChatGPT, OpenAI, 컴퓨터히스토리, ComputerHistory, 챗GPT맥앱, 맥OS, macOS, 데스크톱앱, 코덱스, Codex, 크로니클, Chronicle, 윈도우리콜, WindowsRecall, AI비서, 개인정보, 프라이버시, 메모리, Memories, 자동화, 스킬, 오픈라우터, OpenRouter, 스트라이프, Stripe, 2026년8월, 신기능, 사용법]
 author: "40대 블로거"
-image: /assets/images/posts/chatgpt-computer-history-20260817/openai-announcement.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/chatgpt-computer-history-20260817/openai-announcement.jpg
 description: "2026년 8월 17일 기준, AI 업계의 핫이슈는 8월 13일(현지시간) OpenAI가 맥용 챗GPT 데스크톱 앱에 공개한 '컴퓨터 히스토리(Computer History)'입니다. 사용자가 허용한 앱·웹사이트에서의 클릭·키 입력·앱 전환 같은 상호작용 이벤트를 기록해 타임라인과 로컬 메모리로 만들고, ChatGPT·Codex가 그 맥락을 활용해 '아까 뭐 하다 말았지?' 같은 질문에 답하고 반복 작업 자동화까지 제안하는 기능입니다. 스크린샷을 찍던 연구 프리뷰 '크로니클'을 대체했고 기본 꺼짐(옵트인) 방식이라 윈도우 리콜과 다릅니다. 프로·비즈니스·엔터프라이즈 한정 제공, 켜는 방법, 장점과 솔직한 단점(암호화 안 된 로컬 파일·프롬프트 인젝션 위험), 개인정보 보호 설정 팁, 오늘 발표된 스트라이프의 오픈라우터 70억 달러 인수 소식까지 정리했습니다."
 ---
 > **📌 한줄 요약:** 2026년 8월, AI 비서 시장의 최대 화제는 단연 **OpenAI의 '컴퓨터 히스토리(Computer History)'**입니다. OpenAI가 지난 **8월 13일(현지시간)**, 맥용 챗GPT 데스크톱 앱에 **사용자가 허용한 앱·웹사이트에서의 클릭, 키 입력, 앱 전환 같은 '상호작용 이벤트'를 기록**해 **타임라인과 로컬 메모리 파일**로 만들어주는 새 기능을 공개했어요. 이 기록을 바탕으로 ChatGPT와 코덱스(Codex)는 **"아까 그 문서 어디 있었지?" "오늘 뭐 하다 말았지?"** 같은 질문에 답하고, 반복되는 업무 패턴을 찾아 **자동화(스킬)까지 제안**합니다. 화면 스크린샷을 찍던 기존 연구 프리뷰 '크로니클(Chronicle)'을 대체했고, **기본 꺼짐(옵트인)** 방식이라 논란을 빚은 윈도우 리콜(Recall)과는 결이 다릅니다. 다만 **프로·비즈니스·엔터프라이즈 가입자 한정**이고, 저장 파일이 **암호화되지 않는다**는 점 등 개인정보 리스크는 꼭 확인하고 켜야 합니다.
 
-![OpenAI 공식 발표 이미지 — ChatGPT 컴퓨터 히스토리](/assets/images/posts/chatgpt-computer-history-20260817/openai-announcement.jpg)
+![OpenAI 공식 발표 이미지 — ChatGPT 컴퓨터 히스토리](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/chatgpt-computer-history-20260817/openai-announcement.jpg)
 *"ChatGPT can now remember your activity across the apps and websites on your computer." — OpenAI 공식 X(구 트위터) 계정 발표 이미지 (출처: @OpenAI, 2026-08-13)*
 
 ---
@@ -30,7 +30,7 @@ description: "2026년 8월 17일 기준, AI 업계의 핫이슈는 8월 13일(�
 
 요즘 저처럼 **업무를 하다가 "아까 본 그 문서 어디 있었지?", "오늘 오전에 뭐 하다가 점심 먹었지?"** 하며 맥북의 파인더와 브라우저 탭을 뒤적이시는 분들, 꽤 많으시죠. 저만 해도 회의 전에 "지난주에 만들었던 견적서 어디 뒀더라…" 하면서 슬랙(Slack) 대화방과 구글 드라이브, 브라우저 탭을 오가다가 시간을 허비한 적이 한두 번이 아닙니다. **"AI가 내 컴퓨터 사용 기록쯤은 기억해주면 안 되나"** 하는 생각을 하던 차에, 마침 **OpenAI가 8월 13일(현지시간) 맥용 챗GPT 데스크톱 앱에 '컴퓨터 히스토리(Computer History)'**라는 기능을 공개했다는 소식을 접했습니다. 오늘 이렇게 바로 정리해 봅니다.
 
-![컴퓨터 히스토리 타임라인 — 실제 기능 화면](/assets/images/posts/chatgpt-computer-history-20260817/verge-timeline-screenshot.png)
+![컴퓨터 히스토리 타임라인 — 실제 기능 화면](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/chatgpt-computer-history-20260817/verge-timeline-screenshot.png)
 *컴퓨터 히스토리로 생성된 작업 타임라인 화면 — 날짜·시간별로 앱과 웹사이트 활동이 정리된다 (출처: The Verge 기사, 2026-08-16)*
 
 ---
@@ -41,7 +41,7 @@ description: "2026년 8월 17일 기준, AI 업계의 핫이슈는 8월 13일(�
 
 컴퓨터 히스토리는 화면을 캡처하지 않습니다. OpenAI는 **맥OS의 접근성 시스템을 활용해 클릭, 키 입력, 키보드 단축키, 앱 전환 같은 '상호작용 이벤트'**만 기록한다고 설명했어요. OpenAI의 도미니크 쿤델(Dominik Kundel)은 공식 데모 영상에서 **"컴퓨터 히스토리는 화면이나 오디오 캡처에 의존하지 않고, 클릭·타이핑·앱 전환 등의 이벤트를 포착해 더 빠르고 효율적으로 기억을 만든다"**고 말했습니다. 스크린샷과 OCR로 작업 맥락을 파악하던 연구 프리뷰 **'크로니클(Chronicle)'을 대체**하는 기능이고, OpenAI는 새 방식이 크로니클보다 **토큰 사용량이 적고 개인정보 통제 기능이 강화**됐다고 설명합니다.
 
-![OpenAI 공식 데모 영상 — 컴퓨터 히스토리 소개](/assets/images/posts/chatgpt-computer-history-20260817/openai-demo-video-thumb.jpg)
+![OpenAI 공식 데모 영상 — 컴퓨터 히스토리 소개](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/chatgpt-computer-history-20260817/openai-demo-video-thumb.jpg)
 *OpenAI 공식 발표 영상 — "컴퓨터 히스토리는 화면·오디오 캡처가 아닌 상호작용 이벤트를 기록한다" (출처: OpenAI 공식 X 계정 발표 영상, 2026-08-13)*
 
 ### ② 저장 방식: 이벤트 → 텍스트 요약 → 로컬 마크다운 파일
@@ -72,7 +72,7 @@ description: "2026년 8월 17일 기준, AI 업계의 핫이슈는 8월 13일(�
 
 켜고 나면 **맥OS 메뉴 막대**에 전용 항목이 생겨서, 언제든 **기록을 일시 중지하거나 다시 시작**할 수 있습니다. 이미 기록된 활동은 **일부 또는 전체를 삭제**하는 것도 가능합니다. 참고로 일부 매체는 이 기능이 **Apple Silicon(M1 이상) 맥 + macOS 15.4 이상 + 데스크톱 앱 v2.6.0 이상**에서 지원된다고 전했으니, 인텔 맥을 쓰시는 분은 지원 여부를 먼저 확인해 보시길 권합니다.
 
-![ChatGPT 로고](/assets/images/posts/chatgpt-computer-history-20260817/chatgpt-logo.png)
+![ChatGPT 로고](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/chatgpt-computer-history-20260817/chatgpt-logo.png)
 *ChatGPT — OpenAI의 대화형 AI 서비스 (출처: Wikimedia Commons, ChatGPT logo.svg)*
 
 ---
@@ -119,7 +119,7 @@ description: "2026년 8월 17일 기준, AI 업계의 핫이슈는 8월 13일(�
 
 ## 7. 오늘의 다른 핫이슈 — 스트라이프, 오픈라우터를 70억 달러에 인수
 
-![OpenRouter 로고](/assets/images/posts/chatgpt-computer-history-20260817/openrouter-logo.svg)
+![OpenRouter 로고](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/chatgpt-computer-history-20260817/openrouter-logo.svg)
 *OpenRouter — 하나의 API 키로 수백 개 LLM을 호출할 수 있는 AI 모델 라우팅 플랫폼 (출처: OpenRouter 공식 브랜드 페이지, openrouter.ai)*
 
 오늘(8월 17일) AI 업계의 또 다른 큰 뉴스는 **결제 기업 스트라이프(Stripe)가 AI 모델 라우팅 스타트업 오픈라우터(OpenRouter)를 70억 달러(한화 약 9조 5,000억 원) 이상에 인수하는 데 합의했다**는 블룸버그 통신의 보도입니다. 오픈라우터는 **OpenAI·앤트로픽·구글·메타·미스트랄·딥시크 등 수백 개 LLM을 하나의 API 키로 호출**할 수 있게 해주는 서비스인데요, 사용자 입장에선 **"어느 모델을 쓸지 일일이 가입하지 않아도 되는"** 편리함 덕에 개발자들 사이에서 빠르게 자리 잡았습니다. 스트라이프가 이 회사를 품으면 AI 서비스 결제와 모델 선택·라우팅 인프라가 하나로 묶일 수 있어, **앞으로 AI 도구 구독·결제 방식에도 변화가 생길 수 있다**는 전망이 나옵니다. AI 툴을 자주 쓰는 분이라면 가격·요금 구조가 어떻게 바뀌는지 지켜볼 만한 소식입니다.

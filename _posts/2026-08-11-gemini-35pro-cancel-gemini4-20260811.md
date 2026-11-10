@@ -14,7 +14,7 @@ noindex: true
 
 2026년 8월 7일, 글로벌 AI 리서치 기관 **SemiAnalysis**가 공개 보고서를 통해 **Google이 Gemini 3.5 Pro를 '조용히(silently)' 취소했다**고 주장했습니다. 그리고 이 내용은 8월 10~11일 사이 주요 테크 미디어를 통해 본격적으로 확산됐는데요. 오늘은 이 이슈를 **요약 → 상세 분석 → 영향(사용자·개발자) → 전망** 순서로 정리해 드립니다. 마지막에 **아직 살아있는 Gemini Omni 무료 이벤트** 꿀팁도 있으니 끝까지 읽어보세요.
 
-![Google Gemini 로고](/assets/images/posts/gemini-35pro-cancel-gemini4-20260811/gemini-official-logo.png)
+![Google Gemini 로고](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-35pro-cancel-gemini4-20260811/gemini-official-logo.png)
 *Google Gemini 로고 — Google의 멀티모달 AI 모델·어시스턴트 브랜드 (출처: Wikimedia Commons)*
 
 ## 📌 이슈 요약: SemiAnalysis "Gemini 3.5 Pro 조용히 취소, Gemini 4로 전환"
@@ -56,7 +56,7 @@ SemiAnalysis는 이 흐름을 두고 "3.5 Pro는 사실상 취소됐다"고 단�
 
 솔직히 말해서, 3.5 Pro의 '취소' 여부는 아직 **반은 보도, 반은 루머** 상태라고 보는 게 정확합니다. 다만 "출시가 계속 미뤄지고 있고, 구글 내부의 초점이 Gemini 4로 확실히 옮겨가고 있다"는 점은 여러 정황(리더십 개편, 사전학습 공식화, 8월 출시설)으로 볼 때 명백해 보입니다.
 
-![Google DeepMind 로고](/assets/images/posts/gemini-35pro-cancel-gemini4-20260811/google-deepmind-logo.png)
+![Google DeepMind 로고](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-35pro-cancel-gemini4-20260811/google-deepmind-logo.png)
 *Google DeepMind 로고 — 8월 5일 리더십 개편(Hassabis CEO 사임) 이후 Gemini 4 집중 체제로 전환 (출처: Wikimedia Commons)*
 
 ### 4. 맞물리는 퍼즐: 리더십 개편 + Gemini 4 출시설

@@ -5,13 +5,13 @@ date: 2026-10-22 14:52:00 +0900
 categories: [career]
 tags: [OpenAI, GPT56Sol, PHP2Shell, PHP취약점, CVE-2026-109618, CVE-2026-109619, 원격코드실행, RCE, 웹보안, 긴급패치, WordPress, 워드프레스보안, Wiz, Cloudflare, AI보안, 업무자동화, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/openai-php2shell-php-rce-20261021/php-server-room.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-php2shell-php-rce-20261021/php-server-room.jpg
 description: "2026년 10월 21일 PHP 코어에서 치명적 원격코드실행 취약점 두 건(CVE-2026-109618, CVE-2026-109619, CVSS 9.2)이 긴급 패치됐습니다. 이 취약점은 OpenAI GPT-5.6 Sol과 Wiz 연구진의 AI가 찾아냈고, 전 세계 웹사이트 70%가 영향을 받습니다. 패치 버전, 공격 현황, 지금 당장 할 일을 정리했습니다."
 ---
 
 > **📌 한줄 요약:** 2026년 **10월 21일**, PHP 코어에서 **미인증 원격코드실행(RCE)** 취약점 두 건이 긴급 패치됐습니다. **CVE-2026-109618**, **CVE-2026-109619** 모두 **CVSS v4.0 9.2**이고, **PHP 5.4(2012년) 이후 거의 모든 버전**이 영향을 받습니다. 전 세계 웹사이트의 **약 70%**가 PHP로 돌아갑니다. 결정적인 건 발견 경로입니다. **OpenAI GPT-5.6 Sol**과 **Wiz** 연구진이 **프런티어 AI**로 찾아냈습니다. 사람이 손으로 파려면 사실상 불가능했던 결함이 AI 때문에 **실전 익스플로잇**이 됐다는 점이 이번 사건의 본질입니다.
 
-![데이터센터 서버 랙 전경 (출처: Wikimedia Commons, CC BY-SA 3.0, Victor Grigas)](/assets/images/posts/openai-php2shell-php-rce-20261021/php-server-room.jpg)
+![데이터센터 서버 랙 전경 (출처: Wikimedia Commons, CC BY-SA 3.0, Victor Grigas)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-php2shell-php-rce-20261021/php-server-room.jpg)
 *전 세계 웹서버의 상당수가 PHP 위에서 돌아갑니다. 이번 취약점은 애플리케이션이 아니라 PHP 엔진 자체의 결함이라, 코드를 잘 짜둔 사이트도 예외가 아닙니다 (출처: Wikimedia Commons, CC BY-SA 3.0, Victor Grigas).*
 
 워드프레스로 블로그를 굴리거나, 쇼핑몰·사내 시스템을 PHP로 운영하는 분들이라면 이번 주는 그냥 넘길 수 없는 한 주입니다. 솔직히 처음 이 소식을 봤을 때는 "또 PHP 패치 공지겠지" 싶었는데, 원문을 읽어보니 **하트블리드(Heartbleed)나 로그4셸(Log4Shell)과 같은 급**이라는 표현이 과장이 아니었습니다. 게다가 이걸 찾아낸 게 **AI 모델**이라는 점에서, 개발자에게 주는 메시지가 완전히 다릅니다. 생각보다 훨씬 큰 사건입니다.
@@ -43,7 +43,7 @@ Wiz Research가 공개한 설명에 따르면, 이 결함들은 **10년 넘게 P
 
 PHP는 `memory_limit`를 넘기면 `longjmp()`로 요청 처리를 중단합니다. 문제는 이 중단이 **요청 내부 데이터가 절반만 초기화된 상태**에서 일어날 수 있다는 점입니다. 이후 정리(cleanup) 단계가 **초기화되지 않은 메모리를 정상 데이터로 착각**하고, 다음 요청이나 재사용된 워커가 **남아 있던 낡은 상태(stale state)**를 그대로 물려받습니다.
 
-![PHP 공식 로고 (출처: Wikimedia Commons, 퍼블릭 도메인, Colin Viebrock)](/assets/images/posts/openai-php2shell-php-rce-20261021/php-logo-official.png)
+![PHP 공식 로고 (출처: Wikimedia Commons, 퍼블릭 도메인, Colin Viebrock)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-php2shell-php-rce-20261021/php-logo-official.png)
 *PHP는 워드프레스·드루팔·미디어위키·마젠토 등 사실상 웹 생태계의 토대입니다. 그래서 코어 결함 하나가 생태계 전체로 번집니다 (출처: Wikimedia Commons, 퍼블릭 도메인, Colin Viebrock / php.net).*
 
 ### CVE-2026-109618 — 업로드 진행률 처리기의 use-after-free

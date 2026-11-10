@@ -5,11 +5,11 @@ date: 2026-10-14 09:52:00 +0900
 categories: [career]
 tags: [OpenClaw, 오픈클로, 2026.10.2, 2026.10.3, 워크스페이스초기화, 데이터손실, doctor, 에이전트메모리, MEMORYmd, IDENTITYmd, 패치릴리스, 업무자동화, AI에이전트, 오픈소스AI, 오픈클로업데이트, 백업, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/openclaw-2026102-workspace-wipe-doctor-data-loss-20261014/openclaw-official-og.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openclaw-2026102-workspace-wipe-doctor-data-loss-20261014/openclaw-official-og.png
 description: "2026년 10월 12일 OpenClaw 2026.10.2 정식 업데이트 이후 일부 사용자의 에이전트 워크스페이스가 초기화되는 데이터 손실이 보고됐습니다. IDENTITY.md·SOUL.md·USER.md가 기본값으로 덮이고 MEMORY.md와 memory/ 폴더가 사라진 사안으로, 하루 뒤 나온 2026.10.3이 Doctor 복구 경로의 데이터 손실을 막는 수정을 담았습니다. 업무 자동화에 에이전트를 붙여 쓰는 분들이 지금 확인해야 할 내용만 정리했습니다."
 ---
 
-![OpenClaw 공식 홈페이지 대표 이미지 — 오픈소스 AI 에이전트 OpenClaw](/assets/images/posts/openclaw-2026102-workspace-wipe-doctor-data-loss-20261014/openclaw-official-og.png)
+![OpenClaw 공식 홈페이지 대표 이미지 — 오픈소스 AI 에이전트 OpenClaw](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openclaw-2026102-workspace-wipe-doctor-data-loss-20261014/openclaw-official-og.png)
 *OpenClaw 공식 홈페이지(openclaw.ai) 대표 이미지 — "The AI that really does things. Any OS. Any Platform." (출처: openclaw.ai)*
 
 > **📌 한줄 요약:** 요즘 오픈소스 AI 에이전트를 업무 자동화에 붙여 굴리는 분들이라면 이번 소식은 그냥 넘기면 안 됩니다. **2026년 10월 12일** 나온 정식 업데이트 **`2026.10.2`** 를 적용한 뒤, **일부 사용자의 에이전트 워크스페이스가 통째로 초기화되는 사고**가 보고됐습니다. `IDENTITY.md`·`SOUL.md`·`USER.md`가 빈 기본값으로 덮이고, **`MEMORY.md`와 `memory/` 폴더가 삭제**된 사안입니다. 하루 뒤 나온 **`2026.10.3`** 이 **Doctor 복구 경로에서의 데이터 손실을 막는 수정**을 담았는데, 핵심은 **"앞으로를 막는 것"이지 "이미 날아간 것을 되돌리는 것"이 아니라는 점**입니다. 지금 사용 중인 환경이 있다면 **읽고 바로 백업 여부를 확인**하는 게 좋습니다.
@@ -46,7 +46,7 @@ description: "2026년 10월 12일 OpenClaw 2026.10.2 정식 업데이트 이후 
 
 겉보기엔 **"패치 두 개가 연달아 나왔다"** 뿐입니다. 그런데 문제는 **`2026.10.2`를 적용한 환경에서 워크스페이스가 초기화되는 데이터 손실**이 보고됐다는 데 있습니다.
 
-![OpenClaw 공식 문서 — 릴리스 노트 v2026.10.2](/assets/images/posts/openclaw-2026102-workspace-wipe-doctor-data-loss-20261014/openclaw-v2026102-release-notes-og.png)
+![OpenClaw 공식 문서 — 릴리스 노트 v2026.10.2](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openclaw-2026102-workspace-wipe-doctor-data-loss-20261014/openclaw-v2026102-release-notes-og.png)
 *OpenClaw 공식 문서 릴리스 노트(v2026.10.2, 2026-10-12) — "업그레이드·복구 수정, 누락·중복 응답, 긴 대화, 자격 증명 마스킹" (출처: docs.openclaw.ai)*
 
 ---
@@ -80,7 +80,7 @@ description: "2026년 10월 12일 OpenClaw 2026.10.2 정식 업데이트 이후 
 - **손상된(malformed) 메모리 파일은 원본 바이트를 그대로 유지**하도록 수정
 - **차단된 로컬 플러그인**의 설정을 보존하고, 경로가 복구될 때까지 차단 유지
 
-![OpenClaw 공식 문서 — 릴리스 노트 v2026.10.3](/assets/images/posts/openclaw-2026102-workspace-wipe-doctor-data-loss-20261014/openclaw-v2026103-release-notes-og.png)
+![OpenClaw 공식 문서 — 릴리스 노트 v2026.10.3](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openclaw-2026102-workspace-wipe-doctor-data-loss-20261014/openclaw-v2026103-release-notes-og.png)
 *OpenClaw 공식 문서 릴리스 노트(v2026.10.3, 2026-10-13) — "업데이트·Doctor 복구, Mac 설정, 대화 연속성, Muse Wonder·MiniMax 수정" (출처: docs.openclaw.ai)*
 
 여기서 **가장 중요한 뉘앙스**를 짚어야 합니다. 공식 문서와 커뮤니티 해설 모두 **"이 수정은 앞으로의 데이터 손실을 막는 것이지, 이미 삭제된 데이터를 복구해 주는 것은 아니다"** 라고 못 박습니다. 즉 **`2026.10.3`은 방어막이고, 백업은 아닙니다.**

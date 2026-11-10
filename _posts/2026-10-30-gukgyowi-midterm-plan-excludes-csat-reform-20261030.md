@@ -5,7 +5,7 @@ date: 2026-10-30 11:30:00 +0900
 categories: [education]
 tags: [국가교육위원회, 국교위, 대입제도개편, 수능서논술형, 수능절대평가, 2028대입, 중장기교육발전계획, 사고력수학, 시매쓰, 크레버스, 와이즈만, 소마사고력수학, 씨투엠, 생각하는황소, 자녀교육]
 author: "40대 블로거"
-image: /assets/images/posts/gukgyowi-2028-2037-plan-excludes-csat-reform-20261030/01-csat-exam-day-2018.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gukgyowi-2028-2037-plan-excludes-csat-reform-20261030/01-csat-exam-day-2018.jpg
 description: "국가교육위원회가 교육부에 전달한 '2028~2037년 중장기 국가교육발전계획' 2차 초안에서 대입제도 개편안이 빠졌습니다. 수능 서·논술형 평가 도입과 전 과목 절대평가 전환이라는 핵심 안건이 최상위 법정계획 초안에서 제외되면서, 시안 발표도 당초 이달 말에서 연말로 미뤄졌습니다. 10/29 머니투데이 단독 보도와 10/30 데일리안 보도를 정리하고, 사고력수학·영재교육 업계에 어떤 의미인지 짚었습니다."
 ---
 
@@ -13,7 +13,7 @@ description: "국가교육위원회가 교육부에 전달한 '2028~2037년 중�
 
 **2026년 10월 29일**, 머니투데이가 단독으로 보도한 내용이 교육계에 큰 파장을 만들고 있습니다. **국가교육위원회(이하 국교위)**가 이달 초 교육부에 전달한 **'2028~2037년 중장기 국가교육발전계획' 2차 초안**에서 **대입제도 개편안이 빠진 것**으로 확인됐습니다. 국교위가 야심차게 추진해 온 **수능 서·논술형 평가 도입**과 **수능 전 과목 절대평가 전환**이, 향후 10년 국가 교육정책의 최상위 법정계획 초안에는 담기지 못한 것입니다. 데일리안이 **10월 30일 09시 32분** 후속 보도를 내면서 이틀 연속 주요 일간지 지면에 오른 사안이 됐습니다.
 
-![2018학년도 대학수학능력시험 당일 시험장 모습](/assets/images/posts/gukgyowi-2028-2037-plan-excludes-csat-reform-20261030/01-csat-exam-day-2018.jpg)
+![2018학년도 대학수학능력시험 당일 시험장 모습](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gukgyowi-2028-2037-plan-excludes-csat-reform-20261030/01-csat-exam-day-2018.jpg)
 *대학수학능력시험 당일 시험장을 나서는 수험생들. 수능 서·논술형 평가 도입과 절대평가 전환을 담은 대입제도 개편안이 국교위 중장기 교육발전계획 초안에서 제외됐다. (사진: Wikimedia Commons, CC BY 4.0)*
 
 ## 📌 핵심 요약 — 한눈에 보기
@@ -39,7 +39,7 @@ description: "국가교육위원회가 교육부에 전달한 '2028~2037년 중�
 
 중장기 교육계획은 앞으로 10년간 국가 교육정책의 방향을 제시하는 **최상위 법정계획**입니다. **2022년 국교위 출범 이후 처음 수립되는 계획**이라는 점에서 상징성이 큽니다. 그 첫 계획의 초안에서 대입 개편이 제외됐다는 것은, 적어도 문서상으로는 **향후 10년 교육정책의 축에서 대입개편이 후순위로 밀린** 것으로 읽힙니다.
 
-![교육부 청사 전경](/assets/images/posts/gukgyowi-2028-2037-plan-excludes-csat-reform-20261030/02-ministry-of-education-building.jpg)
+![교육부 청사 전경](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gukgyowi-2028-2037-plan-excludes-csat-reform-20261030/02-ministry-of-education-building.jpg)
 *교육부 청사. 국교위는 계획 초안을 관계 부처에 보내 의견을 수렴해야 하지만, 이번에는 대입제도 초안만 전달되지 않은 상태다. (사진: Wikimedia Commons, CC BY-SA 4.0)*
 
 ## ⚖️ 왜 빠졌나 — '합의 실패'와 '협의 순서'의 엇갈림
@@ -56,7 +56,7 @@ description: "국가교육위원회가 교육부에 전달한 '2028~2037년 중�
 
 > **교육부 관계자**: "중장기 교육계획 수립은 국교위의 고유 권한으로 교육부는 초안을 받아야 공식 의견을 낼 수 있다. 다른 분야는 모두 전달됐는데 대입제도만 빠진 상태인 만큼 관련 초안도 전달될 것으로 기대하고 있다."
 
-![국회의사당 전경](/assets/images/posts/gukgyowi-2028-2037-plan-excludes-csat-reform-20261030/03-national-assembly-yeouido.jpg)
+![국회의사당 전경](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gukgyowi-2028-2037-plan-excludes-csat-reform-20261030/03-national-assembly-yeouido.jpg)
 *국회의사당. 대입제도 개편은 법정계획의 부처 협의 절차와 공론화 절차가 동시에 걸려 있는 사안이다. (사진: Wikimedia Commons, CC BY-SA 3.0)*
 
 ## 📉 이미 예고된 흐름이었다 — 10월 6일 보도와 연결하면

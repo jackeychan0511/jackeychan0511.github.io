@@ -16,7 +16,7 @@ noindex: true
 
 이번 글에서는 Bloomberg 보도와 관련 기업 공식 자료를 바탕으로 **이슈 요약 → 상세 분석 → 영향 → 전망** 순서로 정리해 드립니다.
 
-![Anthropic 로고](/assets/images/posts/claude-10b-volta-compute-deal-20260805/anthropic-logo.png)
+![Anthropic 로고](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/claude-10b-volta-compute-deal-20260805/anthropic-logo.png)
 *Anthropic — Claude 개발사 (출처: Wikimedia Commons, 퍼블릭 도메인)*
 
 > 📌 참고: 본 글은 2026년 8월 5일 기준 Bloomberg 보도(2026-08-04)와 Crypto Briefing, Bitdeer 공식 자료 등을 바탕으로 작성한 정보형 기사입니다. 계약 당사자들이 고객사명을 공식 확인하지 않았음을 유의해 주세요.
@@ -71,7 +71,7 @@ Bitdeer도 예외가 아닙니다. 6월 운영 업데이트에서 티달 부지 
 
 Anthropic은 이미 **SpaceX, AMD, Microsoft, Nvidia, Alphabet, Amazon** 등과 잇따라 인프라·컴퓨팅 계약을 맺어왔습니다. 올해 초에는 **650억 달러(약 85조 원)를 조달**했고, **연내 기업공개(IPO)를 검토 중**이라는 보도도 나오고 있습니다. 이번 볼타 계약은 그 '컴퓨트 확보 레이스'의 최신 사례입니다.
 
-![Bitdeer 로고](/assets/images/posts/claude-10b-volta-compute-deal-20260805/bitdeer-logo.png)
+![Bitdeer 로고](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/claude-10b-volta-compute-deal-20260805/bitdeer-logo.png)
 *Bitdeer — 노르웨이 티달 데이터센터 운영사 (출처: Bitdeer 공식 홈페이지)*
 
 ---

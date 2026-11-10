@@ -5,13 +5,13 @@ date: 2026-10-21 11:20:00 +0900
 categories: [products]
 tags: [RTX스파크, 엔비디아, 서피스랩톱울트라, 델XPS16, 레노버요가프로9n, AIPC, 로컬AI, 맥북프로비교, 윈도우온ARM, 노트북추천, 구매가이드, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/rtx-spark-laptops-20261021/surface-laptop-ultra-hero.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/rtx-spark-laptops-20261021/surface-laptop-ultra-hero.jpg
 description: "엔비디아 RTX 스파크(N1X) 탑재 노트북이 10월 16일 전 세계 출시됐습니다. 서피스 랩톱 울트라(2599달러부터), 델 XPS 16 크리에이터 에디션(3799달러부터), 레노버 요가 프로 9n, HP 오멘북 울트라 16까지 라인업과 가격을 정리했습니다. 128GB 통합 메모리·1페타플롭 AI 성능, 맥북 프로 M5 맥스와의 실측 비교, 게이밍 성능, 배터리, 국내 출시 정보, 어떤 분이 사야 하는지까지 한 번에 확인하세요."
 ---
 
 노트북에서 70B급 모델을 돌리려는 분들이라면 올해 가장 기다린 소식이 하나 있었을 겁니다. 엔비디아가 노트북용 SoC 시장에 직접 뛰어든다는 이야기, 그리고 그 칩이 **10월 16일 전 세계에 동시 출시**됐다는 소식입니다. 데스크톱 GPU 회사가 윈도우 노트북의 두뇌까지 만들겠다고 나선 것이라, 단순한 신제품 하나가 아니라 PC 판도 자체가 달라질 수 있는 이벤트에 가깝습니다.
 
-![엔비디아 RTX 스파크 공식 이미지](/assets/images/posts/rtx-spark-laptops-20261021/nvidia-rtx-spark.jpg)
+![엔비디아 RTX 스파크 공식 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/rtx-spark-laptops-20261021/nvidia-rtx-spark.jpg)
 *RTX 스파크는 그레이스 CPU와 블랙웰 RTX GPU를 한 패키지에 묶은 슈퍼칩입니다 (출처: NVIDIA 공식 제품 페이지)*
 
 > **📌 한줄 요약:** RTX 스파크 노트북은 **최대 128GB 통합 메모리와 1페타플롭 AI 성능**으로 클라우드 없이 로컬 모델을 돌리는 데 특화된 윈도우 노트북입니다. 국내 기준 **서피스 랩톱 울트라 2599달러(약 370만 원대)부터, 델 XPS 16은 3799달러부터** 시작하고, 레노버 요가 프로 9n은 국내에 상위 구성 기준 1,000만 원 안팎까지 나온다는 보도가 나왔습니다. 다만 **CPU 성능은 맥북 프로 M5 맥스에 확실히 밀리고, 로컬 AI 소프트웨어는 아직 베타 느낌**이라는 평가가 많습니다. "AI 에이전트를 노트북에서 직접 돌려야 하는 사람"에게만 값어치가 있는 물건입니다.
@@ -61,12 +61,12 @@ description: "엔비디아 RTX 스파크(N1X) 탑재 노트북이 10월 16일 �
 
 즉 "풀 스펙 칩 + 128GB"를 원하면 **600만 원대 후반**을 각오해야 합니다. 국내 보도에서 "최대 1,000만 원"이라는 표현이 나온 것도 이 구조 때문입니다. 참고로 델 XPS 16은 최상위 구성이 **6,999달러**까지 올라갑니다.
 
-![마이크로소프트 서피스 랩톱 울트라 공식 제품 이미지](/assets/images/posts/rtx-spark-laptops-20261021/surface-laptop-ultra-front.jpg)
+![마이크로소프트 서피스 랩톱 울트라 공식 제품 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/rtx-spark-laptops-20261021/surface-laptop-ultra-front.jpg)
 *서피스 랩톱 울트라. 15인치 3:2 비율 터치 디스플레이에 미니LED 백라이트를 적용했습니다 (출처: Microsoft 공식 스토어)*
 
 하드웨어 완성도만 놓고 보면 서피스가 가장 앞섭니다. 15인치 **3270×2180 120Hz 미니LED, 최대 2,000니트** HDR 밝기(맥북 프로는 1,600니트), 알루미늄 유니바디, 대형 햅틱 트랙패드, 자석으로 붙는 **매그네틱 커넥트** USB-C 충전까지 갖췄습니다. 무게는 **2kg**, 두께 19.16mm, 배터리 92Wh입니다.
 
-![레노버 요가 9n 공식 이미지](/assets/images/posts/rtx-spark-laptops-20261021/lenovo-yoga-9n.jpg)
+![레노버 요가 9n 공식 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/rtx-spark-laptops-20261021/lenovo-yoga-9n.jpg)
 *레노버 요가 9n 시리즈. 360도 힌지와 펜 입력을 결합한 컨버터블 모델도 RTX 스파크를 탑재합니다 (출처: Lenovo 공식 보도자료)*
 
 ---
@@ -152,7 +152,7 @@ DLSS 5와 프레임 생성, 레이 트레이싱을 그대로 쓸 수 있다는 �
 
 대안을 정리하면, **CPU·영상 편집·배터리 종합 성능**은 여전히 M5 프로/맥스 맥북 프로가 안정적이고, **가벼운 AI PC**를 원하면 스냅드래곤 X2 계열 노트북이 가격 면에서 낫습니다. RTX 스파크는 그 사이의 "로컬 추론 특화"라는 틈새를 정확히 겨냥한 제품입니다.
 
-![서피스 랩톱 울트라 공식 히어로 이미지](/assets/images/posts/rtx-spark-laptops-20261021/surface-laptop-ultra-hero.jpg)
+![서피스 랩톱 울트라 공식 히어로 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/rtx-spark-laptops-20261021/surface-laptop-ultra-hero.jpg)
 *서피스 랩톱 울트라는 RTX 스파크 라인업에서 가장 완성도 높은 하드웨어로 평가받습니다 (출처: Microsoft 공식 홈페이지)*
 
 ---

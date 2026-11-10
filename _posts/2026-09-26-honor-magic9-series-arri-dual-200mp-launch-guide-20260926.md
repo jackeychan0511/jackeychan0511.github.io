@@ -5,11 +5,11 @@ date: 2026-09-26 11:25:00 +0900
 categories: [products]
 tags: [Honor Magic9, 아너 매직9, Honor Magic9 Pro Max, ARRI 카메라폰, 듀얼 200MP, 500mm 망원 증배경, 스냅드래곤 8 Elite Gen 6, 2nm 스마트폰, 8800mAh 배터리, CIPA 8.0 손떨림 보정, MagicOS 11, 아이폰 18 프로 맥스, 갤럭시 S26 울트라, 비보 X500 프로 맥스, 카메라폰 추천, 플래그십 스마트폰 비교, 제품 비교, 2026년9월]
 author: "40대 블로거"
-image: /assets/images/posts/honor-magic9-series-arri-dual-200mp-launch-guide-20260926/honor-magic9-keyvisual-official.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/honor-magic9-series-arri-dual-200mp-launch-guide-20260926/honor-magic9-keyvisual-official.jpg
 description: "Honor가 2026년 9월 28일 베이징에서 Magic9 시리즈를 공개합니다. 공식 발표된 핵심은 ARRI 공동 개발 듀얼 200MP 카메라(2억 화소 메인 + 2억 화소 망원)와 업계 최초 500mm 망원 증배경·200mm 엄지 망원킷, 안드로이드 최초 정사각형 화각 5,500만 화소 전면 카메라, CIPA 8.0 보정, MagicOS 11입니다. 유출 기준 Magic9 Pro Max는 2nm 스냅드래곤 8 Elite Gen6·8,800mAh 배터리·100W 충전이 예상됩니다. 아이폰 18 프로 맥스·갤럭시 S26 울트라·비보 X500 프로 맥스와 무엇이 다른지, 중국 가격대와 직구 시 확인할 포인트까지 정리했습니다. 이미지는 Honor 공식 발표 페이지와 공식 디자인 공개 자료입니다."
 ---
 
-![Honor Magic9 시리즈 공식 발표 키비주얼 — 2026년 9월 28일 베이징 'Magic 성전' 발표회](/assets/images/posts/honor-magic9-series-arri-dual-200mp-launch-guide-20260926/honor-magic9-keyvisual-official.jpg)
+![Honor Magic9 시리즈 공식 발표 키비주얼 — 2026년 9월 28일 베이징 'Magic 성전' 발표회](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/honor-magic9-series-arri-dual-200mp-launch-guide-20260926/honor-magic9-keyvisual-official.jpg)
 *▲ Honor 공식 발표 페이지 키비주얼 (출처: Honor 공식 홈페이지 활동 페이지)*
 
 요즘 저처럼 "스마트폰 카메라로 어디까지 찍을 수 있나"를 계속 확인하게 되는 분들 많으시죠. 저도 아이폰 18 프로 맥스와 갤럭시 S26 울트라를 번갈아 쓰면서, 정작 여행 갈 때 무거운 카메라를 다시 들고 나가는 내 자신을 발견하고 좀 허탈했습니다. 그런데 이번 주말, 중국 쪽 플래그십 소식을 보다가 오랜만에 눈이 번쩍 뜨이는 걸 발견했어요. Honor가 **Magic9 시리즈**를 **9월 28일 베이징**에서 공개한다는 소식인데, 단순히 "또 신형 폰" 수준이 아니라 **카메라 구조 자체를 바꿔버린 제품**이라서 정리해 보려고 합니다.
@@ -22,7 +22,7 @@ description: "Honor가 2026년 9월 28일 베이징에서 Magic9 시리즈를 �
 
 여기에 **"발표 즉시 판매(发布即开售)"**라는 표현도 눈에 띕니다. 요즘 플래그십은 예약 판매를 길게 끌고 가는 경우가 많은데, Magic9은 발표 당일 판매까지 붙인다는 뜻이라 중국 현지 관심이 상당한 상태입니다.
 
-![Honor 공식 홈페이지 Magic9 시리즈 발표 티저](/assets/images/posts/honor-magic9-series-arri-dual-200mp-launch-guide-20260926/honor-magic9-teaser-official.jpg)
+![Honor 공식 홈페이지 Magic9 시리즈 발표 티저](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/honor-magic9-series-arri-dual-200mp-launch-guide-20260926/honor-magic9-teaser-official.jpg)
 *▲ Honor 공식 홈페이지 메인에 걸린 Magic9 시리즈 발표 티저 (출처: Honor 공식 홈페이지)*
 
 ## 핵심 스펙·특징 — Honor가 공식으로 밝힌 것
@@ -48,7 +48,7 @@ description: "Honor가 2026년 9월 28일 베이징에서 Magic9 시리즈를 �
 **2) 500mm 망원 증배경 — "폰에 망원 렌즈를 클립으로"**
 업계 최초라는 **500mm 증배경**은 카메라 모듈에 붙여 약 20배 수준의 광학 도달 거리를 만들어주는 액세서리입니다. 여기에 **200mm 엄지 망원킷(88g·81mm)**도 함께 나와서, 무거운 망원 렌즈 대신 주머니에 넣고 다닐 수 있는 선택지를 준 셈입니다. 솔직히 이런 액세서리는 "번들로 주는지, 별도 구매인지"가 체감 가격을 크게 좌우합니다.
 
-![Honor Magic9 공식 디자인 공개 이미지 — ARRI 브랜딩이 들어간 카메라 모듈](/assets/images/posts/honor-magic9-series-arri-dual-200mp-launch-guide-20260926/honor-magic9-camera-module-official.jpg)
+![Honor Magic9 공식 디자인 공개 이미지 — ARRI 브랜딩이 들어간 카메라 모듈](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/honor-magic9-series-arri-dual-200mp-launch-guide-20260926/honor-magic9-camera-module-official.jpg)
 *▲ ARRI 브랜딩이 들어간 Magic9 카메라 모듈 공식 디자인 (출처: Honor 공식 디자인 공개 자료 / Gizmochina)*
 
 **3) 전면도 손봤다 — 안드로이드 최초 정사각형 화각**
@@ -79,14 +79,14 @@ description: "Honor가 2026년 9월 28일 베이징에서 Magic9 시리즈를 �
 
 정리하면, **"망원·야간·영상 Look"에 무게를 두면 Magic9**, **"국내 정식 AS·생태계·펜 입력"에 무게를 두면 국내 유통 모델**이 합리적입니다.
 
-![Honor Magic9 공식 디자인 이미지 — 후면 카메라 타워 구성](/assets/images/posts/honor-magic9-series-arri-dual-200mp-launch-guide-20260926/honor-magic9-design-official.jpg)
+![Honor Magic9 공식 디자인 이미지 — 후면 카메라 타워 구성](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/honor-magic9-series-arri-dual-200mp-launch-guide-20260926/honor-magic9-design-official.jpg)
 *▲ Honor Magic9 공식 디자인 공개 이미지 (출처: Honor 공식 디자인 공개 자료 / Gizchina)*
 
 ## 가격·출시 정보와 구매 팁
 
 가격은 아직 **정식 발표 전**입니다. 참고로 직전 세대인 Magic8 Pro가 중국에서 5,699위안부터 시작했고, 이번 세대는 중국 커뮤니티에서 **5,499위안대 시작** 이야기가 돌고 있습니다. 다만 이는 확정가가 아니니 발표 당일 공식 가격을 확인하시는 게 안전합니다.
 
-![Honor Magic9 공식 디자인 이미지 — 색상 구성](/assets/images/posts/honor-magic9-series-arri-dual-200mp-launch-guide-20260926/honor-magic9-design-color-official.jpg)
+![Honor Magic9 공식 디자인 이미지 — 색상 구성](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/honor-magic9-series-arri-dual-200mp-launch-guide-20260926/honor-magic9-design-color-official.jpg)
 *▲ Honor Magic9 공식 디자인·색상 공개 이미지 (출처: Honor 공식 디자인 공개 자료 / Gizchina)*
 
 구매 전에 제가 꼭 확인하는 체크리스트도 공유합니다.

@@ -5,13 +5,13 @@ date: 2026-08-01 19:00:00 +0900
 categories: [products]
 tags: [애플, 아이폰, 애플업그레이드, AppleUpgrade, 리스, 구독, 클라르나, Klarna, 아이패드, 맥북, 애플워치, IT, 신제품, 구매가이드, 2026년8월]
 author: "40대 블로거"
-image: /assets/images/posts/apple-upgrade-lease-20260801/apple-upgrade-hero.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/apple-upgrade-lease-20260801/apple-upgrade-hero.jpg
 description: "애플이 7월 28일 미국에서 '애플 업그레이드(Apple Upgrade)' 리스 프로그램을 출시했습니다. 아이폰은 월 17.99달러부터, 애플워치·아이패드는 11.99달러부터 빌려 쓸 수 있고, 계약이 끝나면 최신 기기로 갈아탈 수 있습니다. 기존 아이폰 업그레이드 프로그램이 사라진 이유와 모델별 월 리스 요금, 국내 적용 가능성을 총정리했습니다."
 ---
 
 > **📌 한줄 요약:** 애플이 2026년 7월 28일 미국에서 **'애플 업그레이드(Apple Upgrade)'** 리스 프로그램을 출시했습니다. 결제업체 **클라르나(Klarna)**가 운영을 맡아 **아이폰은 월 17.99달러부터, 애플워치·아이패드는 월 11.99달러, 맥은 월 24.99달러부터** 빌려 쓸 수 있습니다. 계약 종료 시 최신 기기로 교체하거나, 잔여금을 내고 소유할 수 있습니다. **기존 '아이폰 업그레이드 프로그램'은 이번에 완전히 종료**됐습니다.
 
-![애플 업그레이드 공식 히어로 이미지 — 아이폰·애플워치·맥·아이패드](/assets/images/posts/apple-upgrade-lease-20260801/apple-upgrade-hero.jpg)
+![애플 업그레이드 공식 히어로 이미지 — 아이폰·애플워치·맥·아이패드](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/apple-upgrade-lease-20260801/apple-upgrade-hero.jpg)
 *애플 업그레이드(Apple Upgrade) 프로그램 공식 이미지 — 아이폰·애플워치·맥·아이패드를 월 리스로 이용할 수 있다 (출처: Apple Newsroom, 확인일 2026-08-01)*
 
 ---
@@ -53,7 +53,7 @@ description: "애플이 7월 28일 미국에서 '애플 업그레이드(Apple Up
 
 > 💡 **왜 이제서야?** 반도체값 폭등으로 기기 가격이 치솟으면서 '일시불 구매'의 문턱이 높아졌습니다. 애플은 리스로 진입장벽을 낮춰 **더 자주 최신 기기로 갈아타게** 만들려는 전략입니다. 실제로 KB증권은 이번 리스 프로그램을 바탕으로 **2027년 아이폰 글로벌 출하량이 역대 최대인 2억 6,000만 대**에 달할 것으로 전망했습니다.
 
-![아이폰 17 프로·프로 맥스 공식 이미지](/assets/images/posts/apple-upgrade-lease-20260801/apple-iphone17-pro.jpg)
+![아이폰 17 프로·프로 맥스 공식 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/apple-upgrade-lease-20260801/apple-iphone17-pro.jpg)
 *리스 대상 아이폰 17 프로·프로 맥스 — 아이폰 리스는 월 17.99달러부터 (출처: Apple Newsroom, 확인일 2026-08-01)*
 
 ---
@@ -81,7 +81,7 @@ description: "애플이 7월 28일 미국에서 '애플 업그레이드(Apple Up
 
 > ⚠️ **중요:** 리스 종료 시 아무것도 안 하면 **최대 6개월간 월 단위(month-to-month)로 자동 연장**되고, 이후에도 조치가 없으면 **구매금이 청구**됩니다. 리스 기간 중 해지하면 상당한 위약금이 발생할 수 있어요. 리스는 '대여'이므로 **계약이 끝나도 기기는 내 소유가 아닙니다.**
 
-![맥북 프로 공식 이미지](/assets/images/posts/apple-upgrade-lease-20260801/apple-macbook-pro.jpg)
+![맥북 프로 공식 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/apple-upgrade-lease-20260801/apple-macbook-pro.jpg)
 *리스 대상 맥북 프로(M5 프로·맥스) — 맥 리스는 월 24.99달러부터 (출처: Apple Newsroom, 확인일 2026-08-01)*
 
 ---
@@ -104,7 +104,7 @@ description: "애플이 7월 28일 미국에서 '애플 업그레이드(Apple Up
 - **해지·연체 위약금** — 중도 해지 시 상당한 수수료, 분실·파손 시 손해배상금 발생 (보험 미포함)
 - **제외 기기 존재** — 아이폰 16·16 플러스, 애플워치 SE, 맥북 네오, 맥 미니, 아이패드(A16) 등은 대상 아님
 
-![아이패드 프로 공식 이미지](/assets/images/posts/apple-upgrade-lease-20260801/apple-ipad-pro.jpg)
+![아이패드 프로 공식 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/apple-upgrade-lease-20260801/apple-ipad-pro.jpg)
 *리스 대상 아이패드 프로(M5) — 아이패드 리스는 월 11.99달러부터 (출처: Apple Newsroom, 확인일 2026-08-01)*
 
 ---
@@ -119,7 +119,7 @@ description: "애플이 7월 28일 미국에서 '애플 업그레이드(Apple Up
 
 > 💡 **판단 기준:** 미국에서도 7월 28일 막 시작된 서비스인 만큼, 한국 출시 여부는 **공식 발표가 나올 때까지 지켜보는 게 정확합니다.** 급하게 결론 내리기보다 9월 아이폰 18 발표 전후로 애플의 글로벌 확장 계획이 나올 가능성이 높아요.
 
-![애플워치 울트라 3 공식 이미지](/assets/images/posts/apple-upgrade-lease-20260801/apple-watch-ultra3.jpg)
+![애플워치 울트라 3 공식 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/apple-upgrade-lease-20260801/apple-watch-ultra3.jpg)
 *리스 대상 애플워치 울트라 3 — 스포츠·아웃도어용 최상위 워치 (출처: Apple Newsroom, 확인일 2026-08-01)*
 
 ---

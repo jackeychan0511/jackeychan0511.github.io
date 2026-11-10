@@ -4,7 +4,7 @@ title: "후쿠오카 하카타역 점보복권 도전 & 이치란라멘 혼행�
 date: 2026-07-22 14:00:00 +0900
 categories: [travel]
 tags: [후쿠오카, 하카타역, 점보복권, 이치란라멘, 혼자여행, 일본여행, 후쿠오카맛집]
-image: /assets/images/posts/fukuoka-trip/hero.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/fukuoka-trip/hero.jpg
 ---
 
 요즘 유독 더웠던 날, 나는 **후쿠오카行 비행기**에 몸을 실었다.
@@ -21,7 +21,7 @@ image: /assets/images/posts/fukuoka-trip/hero.jpg
 
 ## 1. 비행기에서 만난 복덩이
 
-![비행기 창가 좌석](/assets/images/posts/fukuoka-trip/01-plane.jpg)
+![비행기 창가 좌석](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/fukuoka-trip/01-plane.jpg)
 *편하게 혼자 창가에 앉았다. 옆자리가 비어서 1인 2좌석 활용*
 
 출발부터 운이 따랐다. 비행기 탑승했는데 **옆자리가 텅 비어 있었다.**
@@ -36,7 +36,7 @@ image: /assets/images/posts/fukuoka-trip/hero.jpg
 
 후쿠오카 공항에서 지하철로 5분이면 **하카타역**에 도착한다. 접근성 하나는 정말 최고다.
 
-![하카타역 전경](/assets/images/posts/fukuoka-trip/hero.jpg)
+![하카타역 전경](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/fukuoka-trip/hero.jpg)
 *후쿠오카의 관문, 하카타역*
 
 이번 방문의 가장 큰 목적은 바로 **일본 점보복권(ジャンボ宝くじ) 구매**.
@@ -53,7 +53,7 @@ image: /assets/images/posts/fukuoka-trip/hero.jpg
 | 🏬 **하카타시티(아뮤플라자)** | 역 직결 쇼핑몰 내 판매점 (아래층) |
 | 🏪 **역 주변 복권방** | `宝くじ` 간판을 찾으면 OK |
 
-![하카타역 복권 판매점](/assets/images/posts/fukuoka-trip/06-lottery-shop.jpg)
+![하카타역 복권 판매점](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/fukuoka-trip/06-lottery-shop.jpg)
 *하카타역 주변 복권 판매점. 빨간색 간판이 포인트!*
 
 > 💡 **찾는 팁:** `宝くじ(다카라쿠지)`라고 적힌 빨간색 또는 파란색 간판을 찾으면 됩니다. 하카타역에서는 주로 JR 하카타시티 방면 지하 1층이나 1층 통로 쪽에 있습니다.
@@ -62,7 +62,7 @@ image: /assets/images/posts/fukuoka-trip/hero.jpg
 
 이번에 구매한 것은 **2026년 서머 점보복권(サマージャンボ宝くじ)**.
 
-![서머 점보복권](/assets/images/posts/fukuoka-trip/07-lottery-set.jpg)
+![서머 점보복권](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/fukuoka-trip/07-lottery-set.jpg)
 *2026 서머 점보복권 10장 세트. 여름 분위기가 물씬!*
 
 | 항목 | 내용 |
@@ -73,7 +73,7 @@ image: /assets/images/posts/fukuoka-trip/hero.jpg
 | **1등 당첨금** | 수억 엔 (매회 변동) |
 | **구매처** | 전국 복권 판매점, 역 구내, 우체국 |
 
-![점보복권 + 5000엔](/assets/images/posts/fukuoka-trip/05-lottery-ticket.jpg)
+![점보복권 + 5000엔](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/fukuoka-trip/05-lottery-ticket.jpg)
 *구매한 복권과 거스름돈. 5,000엔 내고 2,000엔 거스름받고 10장 GET!*
 
 **기간 한정 판매**이기 때문에 시즌을 잘 맞춰야 한다. 서머 점보는 보통 7월~8월 초에 판매하고, 연말 점보는 11월~12월에 판매한다.
@@ -90,7 +90,7 @@ image: /assets/images/posts/fukuoka-trip/hero.jpg
 
 복권을 사고 나니 더위가 밀려왔다. 7월 후쿠오카의 더위는 만만치 않다.
 
-![스타벅스 커피](/assets/images/posts/fukuoka-trip/02-coffee.jpg)
+![스타벅스 커피](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/fukuoka-trip/02-coffee.jpg)
 *더운 날 카페에 들어가 시원한 커피 한잔. 천국이다.*
 
 하카타역 주변에는 카페가 많지만, 익숙한 **스타벅스**에 들어갔다. 일본 스타벅스에는 한국에 없는 시즌 메뉴나 지역 한정 음료가 있으니 한번쯤 도전해보는 것도 재미있다.
@@ -105,7 +105,7 @@ image: /assets/images/posts/fukuoka-trip/hero.jpg
 
 후쿠오카 하카타역 앞에는 **이치란라멘(一蘭) 하카타점**이 있다. 이치란은 후쿠오카가 본고장인 라멘 체인으로, 한국인에게도 가장 익숙한 일본 라멘 브랜드다.
 
-![이치란라멘 하카타점](/assets/images/posts/fukuoka-trip/03-ichiran.jpg)
+![이치란라멘 하카타점](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/fukuoka-trip/03-ichiran.jpg)
 *이치란라멘 하카타점 — 돈코츠라멘 + 생맥주 + 반숙란 + 파 추가*
 
 ### 이치란라멘 주문 방법
@@ -122,7 +122,7 @@ image: /assets/images/posts/fukuoka-trip/hero.jpg
 
 이치란의 가장 큰 특징은 **1인 칸막이 좌석(혼밥 부스)**. 앞만 보고 집중해서 라멘을 먹을 수 있는 구조라 혼밥하기에 최적화되어 있다.
 
-![이치란 내부 안내문](/assets/images/posts/fukuoka-trip/04-restaurant-notice.jpg)
+![이치란 내부 안내문](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/fukuoka-trip/04-restaurant-notice.jpg)
 *가림막 너머로 직원과 소통할 수 있는 요청 카드 시스템*
 
 > 혼밥도 OK, 가족도 OK. 이치란의 칸막이는 필요하면 접을 수 있어 단체석으로도 사용 가능합니다.
@@ -144,7 +144,7 @@ image: /assets/images/posts/fukuoka-trip/hero.jpg
 
 라멘으로 배를 채우고, 다시 하카타역으로 돌아왔다.
 
-![점보복권 판매점](/assets/images/posts/fukuoka-trip/06-lottery-shop.jpg)
+![점보복권 판매점](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/fukuoka-trip/06-lottery-shop.jpg)
 *떠나기 전 한 번 더 들린 복권방. 혹시 모르니까 한 장 더?*
 
 돌아오는 비행기에서도 **운이 따라줬다**. 왔을 때처럼 옆자리가 비어 있어서 편하게 돌아올 수 있었다.

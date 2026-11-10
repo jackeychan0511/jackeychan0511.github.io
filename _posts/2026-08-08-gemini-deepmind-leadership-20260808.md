@@ -16,7 +16,7 @@ noindex: true
 
 이번 글에서는 이 이슈를 **요약 → 상세 분석 → 영향(사용자·개발자) → 전망** 순서로 정리해 드립니다.
 
-![Demis Hassabis, 2024년 노벨 화학상 기자회견 사진](/assets/images/posts/gemini-deepmind-leadership-20260808/demis-hassabis-nobel-2024.jpg)
+![Demis Hassabis, 2024년 노벨 화학상 기자회견 사진](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-deepmind-leadership-20260808/demis-hassabis-nobel-2024.jpg)
 *Demis Hassabis — Google DeepMind CEO에서 물러나 회장 겸 Alphabet 최고과학자로 (출처: Wikimedia Commons, 2024년 노벨상 기자회견 공식 사진)*
 
 ## 📌 이슈 요약: DeepMind, 설립 이래 최대 리더십 개편
@@ -53,7 +53,7 @@ Hassabis는 직원들에게 보낸 서한에서 **"AGI(범용인공지능)가 �
 
 이런 상황에서 구글은 **"증분 업데이트(3.5 Pro)보다 차세대 모델 Gemini 4에 올인"**하는 전략을 선택했습니다. 실제로 8월 5일 공식 블로그에서 **Gemini 4 사전학습(pre-training) 시작**이 확인됐고, 이번 리더십 개편으로 그 방향이 더 확고해졌습니다.
 
-![Google DeepMind 공식 로고](/assets/images/posts/gemini-deepmind-leadership-20260808/google-deepmind-official-logo.png)
+![Google DeepMind 공식 로고](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-deepmind-leadership-20260808/google-deepmind-official-logo.png)
 *Google DeepMind 공식 로고 — Hassabis·Kavukcuoglu 체제로 새출발 (출처: Wikimedia Commons, Google 공식 로고)*
 
 ## 👤 영향: 사용자와 개발자에게 어떤 변화가?

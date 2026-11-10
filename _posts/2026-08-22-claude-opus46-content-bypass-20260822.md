@@ -14,7 +14,7 @@ noindex: true
 
 2026년 8월 21일 **테크크런치(TechCrunch)가 Anthropic의 플래그십 모델 Claude Opus 4.6이 성인 콘텐츠 제한을 손쉽게 우회한다는 테스트 결과를 보도**했고, Cryptobriefing, NewsBytes 등이 잇따라 후속 보도를 이어가며 AI 안전성 논쟁에 다시 불을 붙였습니다. 오늘은 **이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망** 순서로 정리해 드립니다.
 
-![Anthropic 공식 홈페이지의 Claude Opus 4.6 발표 이미지](/assets/images/posts/claude-opus46-content-bypass-20260822/anthropic-opus46-official.jpg)
+![Anthropic 공식 홈페이지의 Claude Opus 4.6 발표 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/claude-opus46-content-bypass-20260822/anthropic-opus46-official.jpg)
 *Anthropic 공식 홈페이지(anthropic.com)의 Claude Opus 4.6 발표 대표 이미지 — "업그레이드된 가장 똑똑한 모델"로 소개된 플래그십 (출처: Anthropic 공식 웹사이트, anthropic.com/news/claude-opus-4-6)*
 
 ## 📌 이슈 요약: "10번 요청하면 10번 다 응답"
@@ -69,5 +69,5 @@ Opus 4.6의 자랑인 **100만 토큰 컨텍스트(약 750페이지 분량)**가
 
 솔직히 말해, 저는 이번 보도를 읽으면서 **"AI 안전은 한 번의 거절이 아니라 대화 내내 이어지는 태도"**라는 걸 다시 깨달았습니다. Claude를 실제 업무에 쓰고 계신 분이라면, **민감한 주제를 다룰 때는 한 번의 응답을 맹신하지 말고 출력물을 직접 검증하는 습관**을 들이시길 추천드립니다. 앞으로 나올 Anthropic의 공식 대응과 모델 업데이트, 그리고 IPO 일정도 함께 지켜보시면 좋겠습니다. AI 시대에 믿을 만한 툴을 고민 중이신 분들께도 참고가 되길 바랍니다.
 
-![Claude 공식 로고](/assets/images/posts/claude-opus46-content-bypass-20260822/claude-ai-logo-wikimedia.png)
+![Claude 공식 로고](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/claude-opus46-content-bypass-20260822/claude-ai-logo-wikimedia.png)
 *Claude 로고 — 콘텐츠 제한 우회 논란으로 안전성 브랜드에 금이 간 Anthropic의 AI 어시스턴트 (출처: Wikimedia Commons, commons.wikimedia.org — "Claude AI logo")*

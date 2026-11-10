@@ -5,13 +5,13 @@ date: 2026-10-29 16:55:00 +0900
 categories: [career]
 tags: [Anthropic, Claude, 앤트로픽, 클로드, MithrilMedicine, 미스릴메디신, 신약개발, AI신약개발, 근이영양증, LAMA2, 약물개발, ClaudeScience, ClaudeCode, 바이오테크, PipelineInAPerson, GenerateBiomedicines, BristolMyersSquibb, DivergenceLabs, BigHatBiosciences, Enveda, 임상시험, 업무자동화, AI에이전트, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/anthropic-claude-mithril-drug-development-20261029/anthropic-drug-development-hero.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-mithril-drug-development-20261029/anthropic-drug-development-hero.jpg
 description: "2026년 10월 27일(현지), Anthropic이 1인 바이오테크 '미스릴 메디신(Mithril Medicine)'을 인수하고 자체 신약 개발에 들어간다고 공식 발표했습니다. 창업자 코디 트랜바거는 Claude로 11개 외부 실험실의 계약·물류·실험을 관리해 18개월 만에 근이영양증 후보 항체를 쥐 실험 단계까지 끌어올렸고, 앤트로픽은 2028년 말 임상 진입을 목표로 제시했습니다. 함께 공개된 6개 제약·바이오 파트너 사례(항체 35,000개 설계, 검토 시간 89% 절감 등)와 'Pipeline-in-a-Person' 운영 모델, 사용자·개발자·업계에 미치는 영향을 정리했습니다."
 sitemap: false
 noindex: true
 ---
 
-![Anthropic 공식 리서치 'Early progress on accelerating drug development with Claude' 대표 이미지](/assets/images/posts/anthropic-claude-mithril-drug-development-20261029/anthropic-drug-development-hero.jpg)
+![Anthropic 공식 리서치 'Early progress on accelerating drug development with Claude' 대표 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-mithril-drug-development-20261029/anthropic-drug-development-hero.jpg)
 *(이미지 출처: Anthropic(앤트로픽) 공식 리서치 페이지 "Early progress on accelerating drug development with Claude", 2026.10.27)*
 
 > **📌 한줄 요약:** 2026년 **10월 27일(현지)**, 앤트로픽이 **1인 바이오테크 '미스릴 메디신(Mithril Medicine)'을 인수**하고 **자체 신약 개발 프로그램**을 공식화했습니다. 창업자 **코디 트랜바거(Cody Tranbarger)** 는 Claude로 **11개 외부 실험실**의 계약·물류·실험 데이터를 관리해, 통상 훨씬 큰 팀이 필요한 **희귀 근이영양증 후보 항체**를 **18개월 만에 쥐 실험 유효성 결과**까지 끌어올렸습니다. 앤트로픽은 같은 글에서 **BMS·Generate Biomedicines·BigHat·Divergence Labs·Enveda·The Column Group** 6곳과의 공동 연구 성과도 함께 공개했고, 후보가 버티면 **2028년 말 인간 임상** 착수를 목표로 제시했습니다. 요점은 하나입니다. **AI 회사가 '제약사에 도구를 파는 회사'에서 '직접 약을 만드는 회사'로 넘어갔습니다.**
@@ -57,7 +57,7 @@ noindex: true
 
 미스릴의 접근은 **두 단백질을 동시에 붙잡는 이중특이(bispecific) 항체**입니다. 한쪽 팔로 라미닌을, 다른 쪽 팔로 디스트로글리칸을 잡아 **끊어진 연결을 인위적으로 다시 이어주는** 방식입니다.
 
-![미스릴 메디신의 이중특이 항체가 라미닌과 디스트로글리칸 연결을 복원하는 원리 (Anthropic 공식 Figure 1)](/assets/images/posts/anthropic-claude-mithril-drug-development-20261029/mithril-antibody-mechanism.jpg)
+![미스릴 메디신의 이중특이 항체가 라미닌과 디스트로글리칸 연결을 복원하는 원리 (Anthropic 공식 Figure 1)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-mithril-drug-development-20261029/mithril-antibody-mechanism.jpg)
 *(이미지 출처: Anthropic 공식 리서치 — Figure 1. "두 질환 모두 라미닌과 디스트로글리칸의 연결이 끊긴다. 미스릴의 항체는 두 단백질을 동시에 붙잡아 연결을 복원한다" — 항체의 형상과 위치는 예시)*
 
 ### 2-2. 숫자로 본 초기 결과
@@ -68,7 +68,7 @@ noindex: true
 - **생존율:** 미처치군은 8마리 중 **4마리**가 생후 2~6주 사이에 폐사했지만, 치료군은 8마리 중 **1마리**만 폐사했습니다.
 - **조직 도달:** 항체가 실제로 작용해야 할 근육 조직에서 발견되어, 표적 도달의 증거를 확보했습니다.
 
-![미스릴 항체 투여군·미투여군·건강군의 6주령 악력·근수축력 및 생존율 비교 (Anthropic 공식 Figure 2)](/assets/images/posts/anthropic-claude-mithril-drug-development-20261029/mithril-mouse-results.jpg)
+![미스릴 항체 투여군·미투여군·건강군의 6주령 악력·근수축력 및 생존율 비교 (Anthropic 공식 Figure 2)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-mithril-drug-development-20261029/mithril-mouse-results.jpg)
 *(이미지 출처: Anthropic 공식 리서치 — Figure 2. 위: 6주령 악력(좌)·삼두근 근수축력(우), 아래: 생후 2주에 생존한 DyW 마우스가 6주까지 생존한 비율)*
 
 여기서 반드시 붙여야 하는 단서가 있습니다. **치료군도 건강한 쥐보다 여전히 약했습니다.** 즉 이 항체는 **완치가 아니라 진행을 늦추는 방향의 후보**입니다. 그리고 무엇보다 **사람에게는 아직 투여되지 않았습니다.** 쥐에서 좋은 결과가 사람에서 반복되지 않는 사례는 신약 개발 역사에서 흔합니다.
@@ -114,7 +114,7 @@ noindex: true
 - **Claude:** 기록 관리, 인수인계 문서, 데이터 정리·분석, 설계 후보 생성, 각종 문서 초안.
 - **외부:** CRO와 전문가가 실제 실험·생물학적 검증 수행.
 
-![앤트로픽 합류 전후 미스릴 메디신의 운영 구조 — 사람은 판단, Claude는 기록·인수인계·분석, CRO는 실험 (Anthropic 공식 Figure 5)](/assets/images/posts/anthropic-claude-mithril-drug-development-20261029/mithril-pipeline-in-a-person.jpg)
+![앤트로픽 합류 전후 미스릴 메디신의 운영 구조 — 사람은 판단, Claude는 기록·인수인계·분석, CRO는 실험 (Anthropic 공식 Figure 5)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-mithril-drug-development-20261029/mithril-pipeline-in-a-person.jpg)
 *(이미지 출처: Anthropic 공식 리서치 — Figure 5. "How Mithril was run, before and after joining Anthropic")*
 
 이 모델이 흥미로운 이유는 **확장 단위가 '사람 수'가 아니라 '에이전트 수'** 라는 점입니다. 전통적으로 바이오테크는 프로그램을 늘릴 때 인력을 늘려야 했고, 그래서 투자자들은 검증된 표적 쪽으로 쏠렸습니다. 운영 오버헤드가 줄면 **"성공 확률은 낮지만 환자에게 더 필요한 표적"** 에 자본이 갈 여지가 생깁니다. The Column Group이 Pleiades를 세운 이유도 정확히 이 지점입니다.

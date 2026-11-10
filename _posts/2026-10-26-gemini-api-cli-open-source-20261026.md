@@ -5,11 +5,11 @@ date: 2026-10-26 15:55:00 +0900
 categories: [career]
 tags: [Google Gemini, 구글 제미나이, Gemini API CLI, gemini-api, 제미나이 API CLI, AI 에이전트, Claude Code, Codex, Antigravity, 매니지드 에이전트, Managed Agents, Lyria 3.5, Nano Banana 2.1, Gemini Omni, Gemini 3.8 Flash TTS, 음성 전사, 오픈소스, Apache 2.0, 업무자동화, AI뉴스, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/gemini-api-cli-open-source-20261026/gemini-api-cli-press.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-api-cli-open-source-20261026/gemini-api-cli-press.png
 description: "구글이 10월 23일(현지시간) 제미나이 API CLI(gemini-api)를 실험적 프리뷰로 공개했습니다. 셸 명령만으로 이미지(나노 바나나 2.1)·영상(제미나이 옴니 1.1 플래시)·음악(리리아 3.5)·음성 합성(3.8 플래시 TTS)·문서 분석·음성 전사까지 실행하고, 백그라운드 매니지드 에이전트에 장기 작업을 위임할 수 있습니다. 클로드 코드·코덱스·커서·안티그래비티 같은 기존 에이전트에 제미나이 능력을 붙이는 구조라는 점이 핵심입니다. 아파치 2.0 오픈소스이고, 명령어·옵션·스키마·드라이런까지 바이너리 안에서 자기설명하도록 설계됐습니다. 기능과 사용법, 자동화 관점의 의미, 한계를 정리했습니다."
 ---
 
-![구글이 공개한 제미나이 API CLI 관련 이미지 (사진=구글, AI타임스 게재)](/assets/images/posts/gemini-api-cli-open-source-20261026/gemini-api-cli-press.png)
+![구글이 공개한 제미나이 API CLI 관련 이미지 (사진=구글, AI타임스 게재)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-api-cli-open-source-20261026/gemini-api-cli-press.png)
 *출처: 구글 제공 자료 — AI타임스 "구글, 터미널서 AI 에이전트 다루는 '제미나이 API CLI' 오픈소스 공개"(2026.10.24) 게재 이미지*
 
 ## 한 줄 요약: "내 에이전트는 그대로, 제미나이는 명령어로"
@@ -43,7 +43,7 @@ gemini-api image "A friendly robot mascot for a developer tool" --out ./assets/
 - 버전: 0.4.x (2026년 10월 26일 기준 최신 릴리스 v0.4.4, 10월 23일 공개)
 - 저장소: `github.com/google-gemini/gemini-api-cli` (10월 26일 기준 스타 296개)
 
-![Gemini API 공식 아트워크 (출처: Google AI for Developers)](/assets/images/posts/gemini-api-cli-open-source-20261026/gemini-api-official.png)
+![Gemini API 공식 아트워크 (출처: Google AI for Developers)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-api-cli-open-source-20261026/gemini-api-official.png)
 *출처: Google AI for Developers 공식 사이트(ai.google.dev) Gemini API 공유 이미지*
 
 ---

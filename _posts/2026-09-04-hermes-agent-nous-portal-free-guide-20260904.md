@@ -5,10 +5,10 @@ date: 2026-09-04 09:00:00 +0900
 categories: [career]
 tags: [HermesAgent, NousResearch, NousPortal, DeepSeek, DeepSeekV4Flash, 무료AI, Ollama, Hermes4.3, 오픈소스AI, AI에이전트, AI툴추천, 구독할인, 가성비, 자동화 작업, 크론잡, 2026년9월]
 author: "40대 블로거"
-image: /assets/images/posts/hermes-agent-nous-portal-free-guide-20260904/hero-one-account.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-agent-nous-portal-free-guide-20260904/hero-one-account.jpg
 description: "2026년 9월 4일 기준, 오픈소스 AI 에이전트 Hermes Agent를 '돈 거의 안 내고' 쓰는 법을 30일 실사용 비용과 함께 정리한 가이드입니다. 핵심은 Nous Research의 통합 구독 게이트웨이 'Nous Portal' 하나로 끝난다는 것. OAuth 한 번이면 Hermes Agent·Inference API·Hermes Cloud를 모두 쓰고, 300개 이상 모델(Claude·GPT·Gemini·DeepSeek 등)과 각종 툴이 포함됩니다. 무료로 시작(free to start)할 수 있고, 자동화 파이프라인 엔진으로도 쓰이는 DeepSeek V4 Flash(284B/13B MoE, 1M 컨텍스트)는 포털 공식 카드 기준 $0.08/$0.15(리스트의 절반 수준)에 쓰며, 8월 초에는 Novita Labs와 함께 7일간 90% 할인 프로모도 진행했습니다. 여기에 OpenRouter 무료 모델 라운드로빈, Ollama 로컬 무료 + Hermes 4.3 36B(512K 컨텍스트, RefusalBench SOTA, Psyche 분산 학습) 조합까지, '무료로 AI 에이전트 굴리는 4가지 길'을 실제 사용기 관점에서 솔직하게 정리했습니다. GitHub 스타 24만 개 돌파(9/3 실측)한 Hermes Agent v0.21.0 판테온 기준입니다."
 ---
-![Nous Portal 공식 랜딩 이미지 — One account, everywhere](/assets/images/posts/hermes-agent-nous-portal-free-guide-20260904/hero-one-account.jpg)
+![Nous Portal 공식 랜딩 이미지 — One account, everywhere](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-agent-nous-portal-free-guide-20260904/hero-one-account.jpg)
 *Nous Portal 공식 랜딩 이미지 — "하나의 계정으로 어디서나(Hermes Agent·Inference API·Hermes Cloud)" (출처: portal.nousresearch.com 공식 홈페이지)*
 
 > **📌 한줄 요약:** 요즘 저처럼 **"AI 에이전트는 쓰고 싶은데, 클로드·챗GPT 구독비가 부담"** 되시는 분들을 위한 실전 가이드입니다. Nous Research의 Hermes Agent는 **MIT 라이선스 무료 오픈소스**라 프로그램 자체는 0원이고, 모델 비용만 잘 고르면 됩니다. **Nous Portal**에 OAuth 한 번으로 로그인하면 300개 이상 모델과 툴이 따라오고, 가성비 끝판왕 **DeepSeek V4 Flash**는 포털 공식 카드 기준 $0.08/$0.15(리스트의 절반 수준), 완전 무료를 원하면 **OpenRouter 무료 모델** 또는 **Ollama 로컬 + Hermes 4.3 36B** 조합이 정답입니다. **매일 자동화 작업도 Hermes 크론잡 + DeepSeek V4 Flash 조합으로 돌릴 수 있고, 한 달 실비용은 거의 0원입니다.**
@@ -60,7 +60,7 @@ Hermes Agent는 Nous Research가 만든 오픈소스 AI 에이전트입니다. �
 
 이제 제가 가장 많이 쓰는 모델입니다. **DeepSeek V4 Flash**는 총 284B(활성 13B) Mixture-of-Experts 구조에 **1M(100만) 토큰 컨텍스트**를 가진 효율형 모델로, 추론 성능이 V4 Pro에 근접하면서 속도는 훨씬 빠르고 가격은 크게 낮습니다. 4월 프리뷰 공개 후 **7/31 '0731' 정식 릴리스**가 나오면서 에이전트(도구 사용) 능력이 대폭 강화됐고, Terminal Bench 2.1에서 82.7%를 기록하며 V4 Pro와 GLM-5.2를 제쳤다는 보도까지 나왔습니다.
 
-![DeepSeek-V4-Flash-0731 공식 모델 카드 이미지](/assets/images/posts/hermes-agent-nous-portal-free-guide-20260904/deepseek-v4-flash-0731.jpg)
+![DeepSeek-V4-Flash-0731 공식 모델 카드 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-agent-nous-portal-free-guide-20260904/deepseek-v4-flash-0731.jpg)
 *Hugging Face의 DeepSeek-V4-Flash-0731 공식 모델 카드 대표 이미지 — 284B/13B MoE·1M 컨텍스트 (출처: huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731)*
 
 가격이 핵심인데, **Nous Portal 공식 가격 카드 기준 입력 $0.08 / 출력 $0.15(1M 토큰당)**입니다. DeepSeek 공식 리스트($0.14/$0.28)와 비교하면 **절반 수준**이에요. 게다가 8월 초에는 Novita Labs와 손잡고 **7일 한정 90% 할인 프로모**를 진행해 "포털에서 DeepSeek V4 Flash가 무료/거의 공짜"라는 크리에이터 영상이 한동안 화제가 되기도 했습니다.
@@ -79,7 +79,7 @@ Hermes Agent는 Nous Research가 만든 오픈소스 AI 에이전트입니다. �
 
 마지막 길은 아예 **내 PC에서 끝내는 로컬 무료**입니다. Ollama로 오픈 모델을 돌리면 토큰 비용이 원천적으로 0원이고, 데이터가 내 기기를 안 나가서 프라이버시도 최강입니다. 실제로 Ollama 라이브러리에는 DeepSeek V4 Flash도 올라와 있는데(40만 회 이상 다운로드), Hermes 공식 가이드에도 'Ollama 로컬 LLM' 설정법이 정리되어 있을 만큼 지원이 성숙했습니다.
 
-![Ollama 공식 대표 이미지](/assets/images/posts/hermes-agent-nous-portal-free-guide-20260904/ollama-og.jpg)
+![Ollama 공식 대표 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-agent-nous-portal-free-guide-20260904/ollama-og.jpg)
 *Ollama 공식 홈페이지 대표 이미지 — 오픈 모델을 내 PC에서 무료로 실행 (출처: ollama.com 공식 홈페이지)*
 
 그리고 로컬에서 쓸 모델로 요즘 가장 추천할 만한 것이 **Hermes 4.3 36B**입니다. Nous Research가 최근 공개한 오픈 웨이트 모델로, ByteDance Seed 36B를 베이스로 만들었는데:
@@ -89,7 +89,7 @@ Hermes Agent는 Nous Research가 만든 오픈소스 AI 에이전트입니다. �
 - **RefusalBench 최고(SOTA) 성능** — '안전하면서도 잘 따르는' 정렬
 - **Psyche 분산 학습 네트워크(DisTrO 옵티마이저)로 사후학습된 첫 프로덕션 모델** — 화제의 '탈중앙 학습' 실전 사례
 
-![Hermes 4.3 36B 공식 모델 카드 이미지](/assets/images/posts/hermes-agent-nous-portal-free-guide-20260904/hermes-4-3-36b.jpg)
+![Hermes 4.3 36B 공식 모델 카드 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-agent-nous-portal-free-guide-20260904/hermes-4-3-36b.jpg)
 *Hugging Face의 NousResearch/Hermes-4.3-36B 공식 모델 카드 대표 이미지 — 512K 컨텍스트 하이브리드 추론 모델 (출처: huggingface.co/NousResearch/Hermes-4.3-36B)*
 
 36B급이면 개인 PC에서 돌리기 부담스러운 건 사실입니다(Apple Silicon 고용량 Mac이나 GPU가 있으면 쾌적). 그래도 "클라우드 구독을 아예 끊고 싶다"는 분에겐 이 조합이 현실적인 최종 목적지가 되어 줍니다.
@@ -124,7 +124,7 @@ Hermes Agent는 Nous Research가 만든 오픈소스 AI 에이전트입니다. �
 
 ## 시작하는 법 3단계
 
-![Nous Portal 공식 랜딩의 시작 3단계 이미지](/assets/images/posts/hermes-agent-nous-portal-free-guide-20260904/portal-setup-steps.jpg)
+![Nous Portal 공식 랜딩의 시작 3단계 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-agent-nous-portal-free-guide-20260904/portal-setup-steps.jpg)
 *Nous Portal 공식 랜딩의 시작 단계 안내 이미지 — 계정 생성 → 터미널 연결 → 앱 실행 (출처: portal.nousresearch.com 공식 홈페이지)*
 
 1. **portal.nousresearch.com에서 계정 만들기** — OAuth 한 번이면 끝, 무료로 시작 가능

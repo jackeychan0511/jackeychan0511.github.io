@@ -5,11 +5,11 @@ date: 2026-09-26 09:55:00 +0900
 categories: [career]
 tags: [Microsoft, 마이크로소프트, Copilot, 코파일럿, Autopilot, 오토파일럿, OpenClaw, 오픈클로, MicrosoftScout, Scout, AI에이전트, 업무자동화, 자동화파이프라인, 에이전트런타임, MicrosoftIQ, GitHubCopilot, Frontier, 2026년9월, AI뉴스]
 author: "40대 블로거"
-image: /assets/images/posts/2026-09-26-microsoft-copilot-autopilot-openclaw-20260926/microsoft-copilot-sep25-official-hero.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-09-26-microsoft-copilot-autopilot-openclaw-20260926/microsoft-copilot-sep25-official-hero.png
 description: "2026년 9월 25일, 마이크로소프트가 Copilot을 Home·Code·Autopilot 세 축으로 다시 짰다고 발표했습니다. 핵심은 'Autopilot' — 예전 이름이 Microsoft Scout였던 상시 대기 개인 에이전트입니다. 그리고 OpenClaw 재단 블로그가 이 Autopilot의 토대가 OpenClaw라고 공식 확인했습니다. 저처럼 OpenClaw로 업무 자동화 파이프라인을 돌리는 입장에서, 무엇이 바뀌었고 어떤 게 반가운지, 솔직히 어디가 걸리는지 정리했습니다."
 ---
 
-![마이크로소프트 신형 Copilot(Home·Code·Autopilot) 공식 발표 이미지](/assets/images/posts/2026-09-26-microsoft-copilot-autopilot-openclaw-20260926/microsoft-copilot-sep25-official-hero.png)
+![마이크로소프트 신형 Copilot(Home·Code·Autopilot) 공식 발표 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-09-26-microsoft-copilot-autopilot-openclaw-20260926/microsoft-copilot-sep25-official-hero.png)
 *2026년 9월 25일 마이크로소프트 공식 블로그가 공개한 신형 Copilot 발표 이미지 (출처: blogs.microsoft.com 마이크로소프트 공식 블로그)*
 
 ## 요즘 저처럼 AI 에이전트를 실사용하시는 분들, 이번 소식은 그냥 지나칠 수 없습니다
@@ -36,7 +36,7 @@ description: "2026년 9월 25일, 마이크로소프트가 Copilot을 Home·Code
 
 그리고 이번 글에서 제가 주목한 건 기능 목록이 아니라 한 줄입니다. **OpenClaw 재단 블로그(작성자 Graham McBain, 2026년 9월 25일)가 "Autopilot의 토대(foundation)는 OpenClaw"라고 공식 확인했다**는 점입니다.
 
-![마이크로소프트 Autopilot 공식 소개 이미지](/assets/images/posts/2026-09-26-microsoft-copilot-autopilot-openclaw-20260926/microsoft-autopilot-official-hero.png)
+![마이크로소프트 Autopilot 공식 소개 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-09-26-microsoft-copilot-autopilot-openclaw-20260926/microsoft-autopilot-official-hero.png)
 *마이크로소프트 공식 블로그의 Autopilot 소개 이미지 — 구 Scout에서 Autopilot으로 이름을 바꾸고 프라이빗 프리뷰에 들어갑니다 (출처: blogs.microsoft.com 마이크로소프트 공식 블로그)*
 
 ---
@@ -58,7 +58,7 @@ Autopilot 팀을 이끄는 마이크로소프트의 **오마르 샤힌 부사장
 
 솔직히 이 세 번째가 제일 반갑습니다. 기업이 오픈소스를 "가져다만 쓰는" 경우와 "되돌려주는" 경우는 커뮤니티 입장에서 완전히 다르니까요.
 
-![신형 Copilot의 Code 기능 공식 이미지](/assets/images/posts/2026-09-26-microsoft-copilot-autopilot-openclaw-20260926/microsoft-copilot-code-official.png)
+![신형 Copilot의 Code 기능 공식 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-09-26-microsoft-copilot-autopilot-openclaw-20260926/microsoft-copilot-code-official.png)
 *신형 Copilot의 'Code' — 자연어로 앱·자동화 워크플로를 만들어 테넌트 안에 호스팅합니다 (출처: blogs.microsoft.com 마이크로소프트 공식 블로그)*
 
 ---
@@ -81,7 +81,7 @@ OpenClaw 재단과 마이크로소프트 Windows 팀이 **네이티브 Windows �
 
 여기서 하나는 꼭 짚고 싶습니다. **"명령이 확실히 실행되지 않은 것"과 "실행됐는지 모르는 것"은 다르다**는 구분을 OpenClaw 본류에 반영했다는 대목입니다. 결과를 모르는 명령을 무작정 재시도하면 상황이 더 나빠질 수 있으니, 불확실성을 그대로 보존하는 쪽으로 고쳤다는 겁니다. 상시 대기 에이전트를 돌려본 사람이라면 이게 얼마나 중요한지 아실 겁니다.
 
-![마이크로소프트 레드먼드 캠퍼스 전경](/assets/images/posts/2026-09-26-microsoft-copilot-autopilot-openclaw-20260926/microsoft-redmond-building92-wikimedia.jpg)
+![마이크로소프트 레드먼드 캠퍼스 전경](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-09-26-microsoft-copilot-autopilot-openclaw-20260926/microsoft-redmond-building92-wikimedia.jpg)
 *마이크로소프트 레드먼드 캠퍼스(Building 92) 전경 — 이번 Autopilot 발표의 주체인 마이크로소프트 본거지입니다 (출처: Wikimedia Commons, panoramio, CC BY 3.0)*
 
 ---
@@ -98,7 +98,7 @@ OpenClaw 재단과 마이크로소프트 Windows 팀이 **네이티브 Windows �
 
 결론은 이렇습니다. **"우리 회사에 맞는 에이전트를 직접 만들려면 개발팀이 필요하다"** 는 통념이, **OpenClaw 같은 오픈소스 런타임 + 마이크로소프트의 거버넌스**가 결합되면서 꽤 흔들리는 중이라는 게 이번 발표의 진짜 의미라고 봅니다.
 
-![마이크로소프트 신형 Copilot 공식 이미지 (Home·Code·Autopilot)](/assets/images/posts/2026-09-26-microsoft-copilot-autopilot-openclaw-20260926/openclaw-microsoft-autopilot-official-og.png)
+![마이크로소프트 신형 Copilot 공식 이미지 (Home·Code·Autopilot)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-09-26-microsoft-copilot-autopilot-openclaw-20260926/openclaw-microsoft-autopilot-official-og.png)
 *OpenClaw 재단 블로그의 공식 이미지 — "Microsoft Autopilot is built on OpenClaw. The contributions go both ways." (출처: openclaw.ai OpenClaw 공식 블로그)*
 
 ---

@@ -5,14 +5,14 @@ date: 2026-09-02 15:00:00 +0900
 categories: [career]
 tags: [GPT, OpenAI, ChatGPT, EU, DSA, 디지털서비스법, VLOSE, 초대형온라인검색엔진, VLOP, AI규제, AI Act, 유럽위원회, 유럽연합, 헤나비르쿠넨, HennaVirkkunen, 검색엔진, 챗GPT규제, AI뉴스, 2026년9월]
 author: "40대 블로거"
-image: /assets/images/posts/openai-chatgpt-eu-dsa-vlose-20260902/eu-berlaymont-building.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-chatgpt-eu-dsa-vlose-20260902/eu-berlaymont-building.jpg
 description: "2026년 8월 31일(월), 유럽연합(EU) 집행위원회가 챗GPT를 디지털서비스법(DSA)상 '초대형 온라인 검색엔진(VLOSE)'으로 지정했습니다. 생성형 AI 챗봇이 DSA 최상위 규제 대상이 된 것은 이번이 처음입니다. EU 내 월 평균 이용자 약 1억 5,910만 명(검색 기능 기준)이 지정 사유였고, 레딧·로블록스는 '초대형 온라인 플랫폼(VLOP)'으로 함께 지정됐습니다. OpenAI는 4개월 안에 시스템 리스크 평가·외부 감사·투명성 보고 등 최상위 의무를 이행해야 하며, 위반 시 글로벌 연매출의 최대 6% 과징금이 부과될 수 있습니다. AI Act(모델 규제)에 이어 DSA(서비스 규제)까지 겹치며 'AI 검색 = 검색엔진'이라는 글로벌 규제의 첫 선례가 됐다는 분석을 정리했습니다."
 sitemap: false
 noindex: true
 ---
 > **📌 한줄 요약:** 유럽연합(EU) 집행위원회가 8월 31일(현지시각) **챗GPT(ChatGPT)를 디지털서비스법(DSA)상 '초대형 온라인 검색엔진(VLOSE)'으로 공식 지정**했습니다. 생성형 AI 챗봇이 DSA 최상위 규제(초대형 플랫폼 전용 의무)를 받는 것은 **세계 최초**입니다. EU 내 검색 기능 월 평균 이용자가 약 1억 5,910만 명으로 기준(4,500만 명)을 크게 넘긴 것이 사유이며, 레딧과 로블록스는 '초대형 온라인 플랫폼(VLOP)'으로 함께 지정됐습니다. OpenAI는 **지정 후 4개월 안에** 리스크 평가·외부 감사·투명성 보고 등 새 의무를 이행해야 하고, 어기면 글로벌 연매출의 최대 6%까지 과징금을 물을 수 있습니다.
 
-![EU 집행위원회 본부 베를레이몽 빌딩 전경 (출처: Wikimedia Commons, CC BY 2.0)](/assets/images/posts/openai-chatgpt-eu-dsa-vlose-20260902/eu-berlaymont-building.jpg)
+![EU 집행위원회 본부 베를레이몽 빌딩 전경 (출처: Wikimedia Commons, CC BY 2.0)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-chatgpt-eu-dsa-vlose-20260902/eu-berlaymont-building.jpg)
 *EU 집행위원회 본부인 브뤼셀 베를레이몽(Berlaymont) 빌딩 전경 (출처: Wikimedia Commons, CC BY 2.0)*
 
 요즘 저처럼 챗GPT를 검색엔진 대신 쓰시는 분들, 꽤 많으시죠? 솔직히 저도 궁금한 거 생기면 구글보다 챗GPT 검색부터 엽니다. 그런데 EU가 바로 그 점을 주목했습니다. "챗GPT는 사실상 검색엔진이다"라고 판단한 겁니다. 8월 31일, EU 집행위원회가 챗GPT를 DSA(디지털서비스법) 최상위 규제 대상인 **초대형 온라인 검색엔진(VLOSE)**으로 지정하면서, AI 챗봇이 이런 규제를 받는 건 세계에서 처음이 됐습니다. 오늘은 이 소식의 의미를 사용자·개발자 입장에서 정리해 봤습니다.
@@ -96,7 +96,7 @@ OpenAI는 이미 EU **AI Act**의 적용을 받고 있습니다. AI Act가 '일�
 
 둘째, **OpenAI의 선택이 중요해졌습니다.** 4개월 안에 순응(compliance)할지, 아니면 미국 빅테크·워싱턴 일각의 반발 기류에 편승해 DSA 자체를 겨냥한 대응에 나설지입니다. OpenAI는 이미 AI Act 적용도 받고 있어 '규제 순응 비용'이 빠르게 늘고 있는데, EU가 챗GPT 광고 확장의 핵심 시장인 만큼 쉽게 포기하기 어려운 계산이 얽혀 있습니다.
 
-![ChatGPT 공식 로고 (출처: Wikimedia Commons, Public Domain)](/assets/images/posts/openai-chatgpt-eu-dsa-vlose-20260902/chatgpt-logo.png)
+![ChatGPT 공식 로고 (출처: Wikimedia Commons, Public Domain)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-chatgpt-eu-dsa-vlose-20260902/chatgpt-logo.png)
 *ChatGPT 공식 로고 (출처: Wikimedia Commons, Public Domain)*
 
 솔직히 저는 "챗GPT를 검색엔진으로 규제한다?"는 문구를 처음 봤을 때 '좀 억지 아냐?' 싶었습니다. 그런데 생각보다 EU의 논리는 단순했습니다. "실시간 웹 검색을 해서 답을 주면, 그건 검색이지 뭐가 다르냐"는 거죠. 우리가 매일 쓰는 AI 검색이 앞으로 어떻게 달라질지, 4개월 뒤 OpenAI가 내놓을 첫 리스크 평가 보고서가 가늠자가 될 것 같습니다.

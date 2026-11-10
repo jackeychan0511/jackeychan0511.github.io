@@ -5,7 +5,7 @@ date: 2026-08-03 09:40:00 +0900
 categories: [career]
 tags: [HermesAgent, NousResearch, AI에이전트, 오픈소스, Termux, 안드로이드, v0.19.1, v0.20.0, 팩트체크, AI업데이트, 커리어]
 author: "40대 블로거"
-image: /assets/images/posts/hermes-agent-android-termux-20260803/hermes-official-hero.webp
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-agent-android-termux-20260803/hermes-official-hero.webp
 description: "2026년 8월 3일 기준 Hermes Agent 최신 소식입니다. 가장 큰 변화는 안드로이드 폰에서 공식적으로 쓸 수 있게 된 Termux 지원(공식 문서 등재)입니다. 여기에 GitHub 스타 22만 4,313개 돌파, 8월 2일 새벽에 올라온 팩트체크 모드·세션 워치독 커밋, v0.20.0 예고 상태까지 한 자리에 정리했습니다."
 ---
 
@@ -13,7 +13,7 @@ description: "2026년 8월 3일 기준 Hermes Agent 최신 소식입니다. 가�
 
 바로 **안드로이드 폰 공식 지원(Termux)** 입니다. 공식 문서에 전용 설치 가이드가 등재됐고, 공식 설치 스크립트가 Termux 환경을 자동 인식하도록 바뀌었습니다. "폰에서도 되는 거냐"는 질문에 공식적으로 답이 생긴 셈이죠. 오늘은 이 소식과 함께, 8월 3일 아침 기준으로 확인한 **정확한 수치와 최신 커밋**까지 정리해드립니다.
 
-![Hermes Agent 공식 홈페이지 대표 이미지](/assets/images/posts/hermes-agent-android-termux-20260803/hermes-official-hero.webp)
+![Hermes Agent 공식 홈페이지 대표 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-agent-android-termux-20260803/hermes-official-hero.webp)
 *Hermes Agent — "The agent that grows with you" (출처: hermes-agent.nousresearch.com 공식 홈페이지, 확인일 2026-08-03)*
 
 ---
@@ -24,7 +24,7 @@ description: "2026년 8월 3일 기준 Hermes Agent 최신 소식입니다. 가�
 
 다만 솔직히 말씀드리면, **"공식 지원"이라 해도 모든 기능이 되는 건 아닙니다.** 공식 문서상 Termux는 **Tier 2 플랫폼**으로 분류됩니다. Tier 1(macOS, Windows, Linux, Docker)은 "절대 설치·업데이트를 깨지 않도록 최우선 관리"하는 반면, Tier 2는 **"최선을 다해 유지하지만 릴리즈로 깨질 수 있다"**는 수준이에요. 폰에서 돌아간다는 건 확인된 사실이지만, 데스크톱과 똑같은 경험을 기대하면 안 된다는 뜻입니다.
 
-![Termux 안드로이드 폰 공식 스크린샷](/assets/images/posts/hermes-agent-android-termux-20260803/termux-fdroid-screen1.jpg)
+![Termux 안드로이드 폰 공식 스크린샷](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-agent-android-termux-20260803/termux-fdroid-screen1.jpg)
 *Termux — 안드로이드에서 동작하는 터미널 에뮬레이터 (출처: F-Droid 공식 앱 페이지 스크린샷, 확인일 2026-08-03)*
 
 ### 공식 검증된 설치 경로에서 지원하는 것
@@ -71,7 +71,7 @@ curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash
 
 수동 설치는 `pkg install -y git python clang rust make pkg-config libffi openssl nodejs ripgrep ffmpeg` 후 공식 문서의 매뉴얼 경로를 따르면 됩니다. 주의할 점은 `ANDROID_API_LEVEL` 환경변수 설정 — Rust/maturin 기반 패키지(`jiter` 등) 빌드에 필요하다고 문서에 명시돼 있습니다.
 
-![Termux 공식 사이트 htop 실행 화면](/assets/images/posts/hermes-agent-android-termux-20260803/termux-official-htop.png)
+![Termux 공식 사이트 htop 실행 화면](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-agent-android-termux-20260803/termux-official-htop.png)
 *Termux 공식 홈페이지에 게시된 실제 실행 화면 — 폰에서 시스템 모니터링 (출처: termux.dev, 확인일 2026-08-03)*
 
 ---
@@ -108,7 +108,7 @@ curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash
 
 `SCHEMA_VERSION 24`로 올라가며 활동 추적 컬럼이 추가됐고, durable compression lease(압축 중간에 자원을 놓치지 않도록 하는 잠금)부터 `pool_saturated` 텔레메트리까지 **컨텍스트 압축 관련 버그 수정이 10건 이상** 연속으로 올라왔습니다. 긴 세션에서 "갑자기 기억이 리셋되는" 문제를 겪던 분이라면 눈여겨볼 부분입니다. 덤으로 `perf(agent,gateway): back cancel-wait polls off from 1ms to 25ms` — 취소 대기 폴링을 1ms → 25ms로 늦춰 CPU 부담을 줄이는 최적화도 포함됐어요.
 
-![Hermes Agent 공식 데스크톱 쇼케이스](/assets/images/posts/hermes-agent-android-termux-20260803/hermes-official-showcase.webp)
+![Hermes Agent 공식 데스크톱 쇼케이스](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-agent-android-termux-20260803/hermes-official-showcase.webp)
 *Hermes Agent 데스크톱 앱 공식 쇼케이스 이미지 (출처: hermes-agent.nousresearch.com, 확인일 2026-08-03)*
 
 ---

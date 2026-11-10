@@ -5,10 +5,10 @@ date: 2026-09-02 09:00:00 +0900
 categories: [career]
 tags: [HermesAgent, NousResearch, 크론잡, cron, 자동화, no-agent, bot-chat, 연속성, continuity, 봇모드, 스킬, AI에이전트, 오픈소스AI, AI툴추천, 2026년9월]
 author: "40대 블로거"
-image: /assets/images/posts/hermes-agent-cron-automation-20260902/hermes-desktop-showcase.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-agent-cron-automation-20260902/hermes-desktop-showcase.jpg
 description: "2026년 9월 2일 기준, Nous Research의 오픈소스 AI 에이전트 Hermes Agent의 크론잡(cron) 자동화를 30일 넘게 실사용하며 정리한 실전 가이드입니다. 매일 도는 자동화 파이프라인을 Hermes 크론잡으로 구성하는 법도 함께 다룹니다. 자연어로 예약하는 세 가지 방법(/cron, hermes cron create, 그냥 말하기), 스킬을 붙이는 멀티스킬 워크플로, 웹사이트 변경 감시·주간 리포트·GitHub 감시·데이터 수집 파이프라인 등 공식 가이드의 5가지 실전 패턴, 그리고 v0.21.0 판테온에서 새로워진 영구 메모리·연속성(continuity)·스크래치패드·LLM 없는 no-agent 모드·봇 채팅(bot-chat) 전달까지 다룹니다. GitHub API 실측 기준 스타 239,498개·포크 48,928개, MIT 라이선스 무료 오픈소스. 커뮤니티 실사용 사례(28개 크론잡, $175 미니PC 24시간 운영 등)도 함께 정리했습니다."
 ---
-![Hermes Agent 데스크톱 앱 공식 쇼케이스 이미지](/assets/images/posts/hermes-agent-cron-automation-20260902/hermes-desktop-showcase.jpg)
+![Hermes Agent 데스크톱 앱 공식 쇼케이스 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-agent-cron-automation-20260902/hermes-desktop-showcase.jpg)
 *Hermes Agent 데스크톱 앱 공식 쇼케이스 — 크론잡·봇 모드·메모리·메시징 게이트웨이가 한 앱에 (출처: hermes-agent.nousresearch.com 공식 홈페이지)*
 
 > **📌 한줄 요약:** 요즘 저처럼 **\"매일 아침 반복 업무를 AI에게 자동으로 시키고 싶은\"** 분들을 위한 Hermes Agent 크론잡 실전 가이드입니다. 자연어 한마디(\"/cron add every 9am ...\")로 예약하면 끝이고, v0.21.0부터는 크론잡이 **영구 메모리와 연속성(continuity)** 을 가져서 \"어제 뭐라고 말했는지\"를 기억합니다. 스킬을 붙이면 **AI 리서치 → 이미지 검색 → 글쓰기 → 검증 → 배포**까지 전 과정을 매일 스스로 돌릴 수 있습니다. GitHub 실측 스타 **239,498개**·MIT 라이선스 **무료** 오픈소스입니다.
@@ -68,7 +68,7 @@ hermes cron create "every 1h" "새 피드 항목을 요약해줘" --skill blogwa
 
 크론잡은 **이전 대화 기억이 없는 새 세션**에서 실행되기 때문에, 프롬프트에 필요한 정보를 모두 담아야 합니다. 그래서 Hermes가 권장하는 조합이 바로 **프롬프트 + 스킬(skill) + 전달(deliver) 대상**입니다. 스킬을 붙이면 그 작업만의 전문 매뉴얼을 통째로 로드하고, deliver로 결과를 텔레그램·디스코드·이메일 어디로든 보낼 수 있어요.
 
-![Hermes Agent 자동화 기능 공식 이미지](/assets/images/posts/hermes-agent-cron-automation-20260902/feature-automation.jpg)
+![Hermes Agent 자동화 기능 공식 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-agent-cron-automation-20260902/feature-automation.jpg)
 *Hermes Agent 데스크톱 앱의 자동화(Automation) 기능 — 루틴·크론잡을 자연어로 관리하는 화면 (출처: hermes-agent.nousresearch.com 공식 홈페이지)*
 
 ---
@@ -100,7 +100,7 @@ hermes cron create "every 1d at 6am" \
 
 솔직히 처음에는 \"AI가 쓴 글이니 검증이 필요하겠지\" 하고 시작했는데, 한 달이 지난 지금은 **검증 스킬이 없으면 불안할 정도**입니다. 배포 직전에 깨진 이미지 링크나 Liquid 문법 오류를 잡아주니까요.
 
-![Hermes Agent 메모리 기능 공식 이미지](/assets/images/posts/hermes-agent-cron-automation-20260902/feature-memory.jpg)
+![Hermes Agent 메모리 기능 공식 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-agent-cron-automation-20260902/feature-memory.jpg)
 *Hermes Agent의 메모리 기능 — 크론잡도 v0.21.0부터 이 영구 메모리를 로드·업데이트한다 (출처: hermes-agent.nousresearch.com 공식 홈페이지)*
 
 ---
@@ -166,7 +166,7 @@ hermes cron create "every 6h" \
 - **모델 고정(핀)** — 잡마다 모델을 고정할 수 있고, 전역 기본 모델이 바뀌어도 **실패 시 스킵+1회 알림**으로 끝나도록 방어됩니다. 자동화 잡이 조용히 유료 모델로 갈아타는 사고를 막아줍니다.
 - **사전 검증(preflight)** — 잡이 실행되기 전에 API 키·스킬·전달 대상이 정상인지 확인하고, 문제가 있으면 **LLM 호출 없이** `blocked_config` 상태로 표시합니다. 잘못된 설정이 토큰을 태우는 일이 없어요.
 
-![Hermes Agent 메시징 연결 기능 공식 이미지](/assets/images/posts/hermes-agent-cron-automation-20260902/feature-connect.jpg)
+![Hermes Agent 메시징 연결 기능 공식 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-agent-cron-automation-20260902/feature-connect.jpg)
 *Hermes Agent의 메시징 연결(Connect) — 크론잡 결과를 텔레그램·디스코드·슬랙·이메일 등 어디로든 전달 (출처: hermes-agent.nousresearch.com 공식 홈페이지)*
 
 ---
@@ -184,7 +184,7 @@ hermes cron create "every 6h" \
 
 특히 u/HolmeBengt의 '새벽 3시 드리밍 잡'이 인상적이었어요. \"모든 대화에서 결정·실수·대화 상대를 추출해 내일 컨텍스트로 만든다\"는 이 패턴은, 크론잡이 단순 알림을 넘어 **에이전트의 성장 루프 자체를 자동화**할 수 있다는 걸 보여줍니다. \"어제 다룬 주제와 겹치지 않는 소재 고르기\"도 사실 같은 원리예요.
 
-![Hermes Agent GitHub 저장소 공식 소셜 이미지](/assets/images/posts/hermes-agent-cron-automation-20260902/github-repo-og.jpg)
+![Hermes Agent GitHub 저장소 공식 소셜 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-agent-cron-automation-20260902/github-repo-og.jpg)
 *Hermes Agent GitHub 저장소(NousResearch/hermes-agent) — 9/2 실측 스타 239,498개·포크 48,928개 (출처: GitHub 공식 저장소)*
 
 ---

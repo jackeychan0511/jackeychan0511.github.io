@@ -5,11 +5,11 @@ date: 2026-10-01 11:20:00 +0900
 categories: [products]
 tags: [애플, Apple, 홈패드, HomePad, 스마트홈허브, 스마트디스플레이, HomePodmini2, HomePodmini, AppleTV4K, SiriAI, 애플인텔리전스, A18, homeOS, 홈킷, Matter, 2026년10월, 신제품비교, 구매가이드]
 author: "40대 블로거"
-image: /assets/images/posts/apple-homepad-smart-home-hub-oct13-20261001/homepod-official.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/apple-homepad-smart-home-hub-oct13-20261001/homepod-official.png
 description: "2026년 9월 30일(현지시간) 블룸버그의 마크 거먼 보도에 따르면, 애플이 오는 10월 13일 첫 스마트홈 허브 '홈패드(HomePad)'를 공개합니다. 6인치대 사각 디스플레이에 아이맥 G4를 닮은 레트로 디자인, 재설계된 시리 AI가 핵심이고, 같은 날 HomePod mini 2와 신형 Apple TV 4K도 함께 나옵니다. 스마트홈 기기를 여러 개 쓰거나, 구글·아마존 스마트 디스플레이를 고민해 온 분들이라면 눈여겨볼 만한 발표입니다. 이슈 요약 → 제품 3종 분석 → 비교 포인트 → 솔직한 장단점 → 가격·출시·구매 팁 순서로 정리했습니다."
 ---
 
-![애플 HomePod 라인업 공식 이미지 — 10월 13일 스마트홈 허브 '홈패드'와 함께 HomePod mini 2가 공개될 예정](/assets/images/posts/apple-homepad-smart-home-hub-oct13-20261001/homepod-official.png)
+![애플 HomePod 라인업 공식 이미지 — 10월 13일 스마트홈 허브 '홈패드'와 함께 HomePod mini 2가 공개될 예정](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/apple-homepad-smart-home-hub-oct13-20261001/homepod-official.png)
 *애플 공식 홈페이지에 올라온 HomePod 라인업 이미지입니다. 2026년 10월 13일에는 여기에 첫 화면형 스마트홈 허브 '홈패드(HomePad)'가 더해질 전망입니다 (출처: Apple 공식 홈페이지, 2026)*
 
 > **📌 한줄 요약:** 블룸버그 보도에 따르면 애플이 **2026년 10월 13일** 첫 스마트홈 허브 **'홈패드(HomePad)'**를 공개합니다. **6인치대 사각 디스플레이 + 아이맥 G4를 닮은 레트로 디자인**, 그리고 **재설계된 시리 AI**가 핵심입니다. 같은 날 **HomePod mini 2(2020년 이후 첫 업데이트)** 와 **신형 Apple TV 4K(2022년 이후 첫 신모델)** 도 함께 나옵니다. 가격은 아직 공식 발표 전이고, 외신 기준 **약 350달러(약 48만 원)** 수준이 거론됩니다. 스마트홈을 하나의 화면으로 묶고 싶은 분들이라면 10월 13일 발표를 지켜볼 만합니다.
@@ -88,7 +88,7 @@ description: "2026년 9월 30일(현지시간) 블룸버그의 마크 거먼 보
 
 10월 13일은 홈패드 단독 발표가 아니라, **홈 라인업 3종이 한꺼번에 나오는 날**이 될 전망입니다.
 
-![HomePod mini 실제 제품 사진 — 2020년 이후 첫 업데이트가 예고된 모델](/assets/images/posts/apple-homepad-smart-home-hub-oct13-20261001/homepod-mini-2024.jpg)
+![HomePod mini 실제 제품 사진 — 2020년 이후 첫 업데이트가 예고된 모델](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/apple-homepad-smart-home-hub-oct13-20261001/homepod-mini-2024.jpg)
 *현행 HomePod mini 실물 사진입니다. 신형(HomePod mini 2)은 디자인을 유지한 채 더 빠른 칩과 새 색상을 얻을 것으로 전해집니다 (출처: Wikimedia Commons)*
 
 ### ① HomePod mini 2 (2020년 이후 첫 업데이트)
@@ -97,14 +97,14 @@ description: "2026년 9월 30일(현지시간) 블룸버그의 마크 거먼 보
 - **신규 색상** — 외신은 **핑크, 그린** 등 새 컬러가 추가될 것으로 전했습니다.
 
 ### ② 신형 Apple TV 4K (2022년 이후 첫 신모델)
-![Apple TV 4K 실물 사진 — 신형은 더 빠른 칩과 새 시리 리모컨이 예고됨](/assets/images/posts/apple-homepad-smart-home-hub-oct13-20261001/apple-tv-4k-4gen.jpg)
+![Apple TV 4K 실물 사진 — 신형은 더 빠른 칩과 새 시리 리모컨이 예고됨](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/apple-homepad-smart-home-hub-oct13-20261001/apple-tv-4k-4gen.jpg)
 *Apple TV 4K 실물 사진입니다. 신형은 A19급 칩과 8GB RAM, 개선된 시리 리모컨이 거론됩니다 (출처: Wikimedia Commons)*
 - **A19급 칩 + 8GB RAM** — 지난 3세대(A15)에서 크게 뛰어오르는 성능으로 전해집니다.
 - **시리 AI 지원**, 그리고 **새 시리 리모컨** 동봉설이 나옵니다.
 - 애플 TV는 최근 에미상 수상 등 콘텐츠 성과도 겹쳐, '거실 허브'로서의 존재감이 다시 커지는 상황입니다.
 
 ### ③ 비교 참고 — 무엇이 빠지나
-![Apple TV 4K와 시리 리모컨 — 거실 홈 허브 역할 비교용 사진](/assets/images/posts/apple-homepad-smart-home-hub-oct13-20261001/apple-tv-4k-siri-remote.jpg)
+![Apple TV 4K와 시리 리모컨 — 거실 홈 허브 역할 비교용 사진](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/apple-homepad-smart-home-hub-oct13-20261001/apple-tv-4k-siri-remote.jpg)
 *Apple TV 4K와 시리 리모컨. 홈패드·홈팟 미니 2와 함께 '거실 3종 세트'를 이루는 구성입니다 (출처: Wikimedia Commons)*
 - **풀사이즈 HomePod(시리 AI 탑재)** 는 **10월 라인업에서 빠졌습니다.** 대형 홈팟을 기다려 온 분이라면 이번엔 아쉬울 수 있습니다.
 - 즉 10월 13일은 **"화면(홈패드) + 소형 스피커(홈팟 미니 2) + 셋톱박스(애플 TV 4K)"** 조합이 완성되는 날입니다.
@@ -149,7 +149,7 @@ description: "2026년 9월 30일(현지시간) 블룸버그의 마크 거먼 보
 
 ## 6. 가격·출시 정보와 구매 팁
 
-![애플파크(애플 본사) 전경 — 애플의 스마트홈 전략을 상징하는 사진](/assets/images/posts/apple-homepad-smart-home-hub-oct13-20261001/apple-park-hq.jpg)
+![애플파크(애플 본사) 전경 — 애플의 스마트홈 전략을 상징하는 사진](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/apple-homepad-smart-home-hub-oct13-20261001/apple-park-hq.jpg)
 *애플파크(Apple Park) 전경. 이번 발표는 애플이 '집'을 새 플랫폼으로 삼는 신호로 읽힙니다 (출처: Wikimedia Commons)*
 
 정리하면, 지금 시점의 구매 로드맵은 이렇습니다.

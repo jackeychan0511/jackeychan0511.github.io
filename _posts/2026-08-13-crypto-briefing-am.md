@@ -5,13 +5,13 @@ date: 2026-08-13 06:00:00 +0900
 categories: [finance]
 tags: [비트코인, 가상화폐, 코인, BTC, 암호화폐]
 author: "40대 블로거"
-image: /assets/images/posts/crypto-briefing-20260813-am/bitcoin-challenge-coin.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/crypto-briefing-20260813-am/bitcoin-challenge-coin.jpg
 description: "8월 13일 오전 코인 브리핑. 미국 7월 CPI(헤드라인 3.4%·코어 2.5%)가 예상에 부합했지만 비트코인은 6.4만 달러 아래로 밀렸다. 골드만삭스가 NEOS를 22억 5000만 달러에 인수하며 비트코인 수익형 ETF 시장에 진출했고, 하모니 ONE은 40억 개 토큰 무단 민팅 의혹에 26% 급락했다."
 sitemap: false
 noindex: true
 ---
 
-![비트코인 챌린지 코인](/assets/images/posts/crypto-briefing-20260813-am/bitcoin-challenge-coin.jpg)
+![비트코인 챌린지 코인](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/crypto-briefing-20260813-am/bitcoin-challenge-coin.jpg)
 *비트코인 챌린지 코인 — 8/13 오전 브리핑 (Isokivi / Wikimedia Commons, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/))*
 
 **핵심 요약**: 어젯밤 21:30 발표된 미국 7월 CPI가 예상치에 부합했지만, 비트코인은 오히려 6.4만 달러 아래로 밀렸습니다. '깜짝 둔화'가 아니었다는 점에서 연준이 금리 인하를 서두를 이유가 줄었다는 해석입니다. 골드만삭스는 비트코인 수익형 ETF 시장에 진출했고, 하모니 ONE은 무단 민팅 의혹에 급락했습니다.

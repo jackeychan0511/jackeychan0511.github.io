@@ -6,7 +6,7 @@ categories: [career]
 tags: [Gemini, Google, GeminiEnterprise, 법률AI, 로펌, 에이전트AI, GoogleCloud, 리걸테크, MCP, AI뉴스, 구글AI, 2026년8월]
 author: "40대 블로거"
 description: "2026년 8월 25일 Google Cloud가 법률 특화 에이전트 AI 'Gemini Enterprise for Legal'을 발표했습니다. 사전 구축 AI 에이전트·법률 시스템 연동(MCP), 기존 RBAC 보안 상속, Cleary Gottlieb·Freshfields 등 로펌 참여, Thomson Reuters 파트너십까지. OpenAI·Anthropic과의 법률 AI 경쟁 구도를 이슈 요약 → 상세 분석 → 영향 → 전망 순서로 정리했습니다."
-image: /assets/images/posts/gemini-enterprise-legal-20260826/gemini-enterprise-legal-hero.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-enterprise-legal-20260826/gemini-enterprise-legal-hero.jpg
 sitemap: false
 noindex: true
 ---
@@ -15,7 +15,7 @@ noindex: true
 
 바로 **법률 특화 에이전트 AI 'Gemini Enterprise for Legal'**입니다. 로펌 변호사들이 쓰는 문서관리·e-discovery 시스템에 안전하게 연결되어, 계약 검토부터 실사까지 **에이전트가 대신 처리해 주는** 플랫폼인데요. Reuters·Business Insider 등 주요 매체가 일제히 "구글이 법률 AI 경쟁에 뛰어들었다"고 보도했습니다. 오늘은 이 이슈를 **요약 → 상세 분석 → 영향(사용자·개발자) → 전망** 순서로 정리해 드립니다.
 
-![Gemini Enterprise for Legal 공식 대표 이미지](/assets/images/posts/gemini-enterprise-legal-20260826/gemini-enterprise-legal-hero.jpg)
+![Gemini Enterprise for Legal 공식 대표 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-enterprise-legal-20260826/gemini-enterprise-legal-hero.jpg)
 *Gemini Enterprise for Legal 공식 발표 이미지 — 법률 워크플로에 특화된 에이전트 AI 플랫폼 (출처: Google Cloud 공식 블로그, 2026-08-25)*
 
 ## 📌 이슈 요약: 8월 25일, "변호사용 Gemini" 공식 등장
@@ -73,7 +73,7 @@ Reuters 보도에 따르면 구글은 이번 플러그인이 **법률·행정 �
 2. **'인간 감독 하의 자동화'가 표준으로**: 완전 자동화보다 **변호사가 검토·승인하는 워크플로**가 업계 표준으로 자리 잡을 가능성이 큽니다. 구글의 '권한 상속' 설계는 이 흐름을 정면으로 노린 것입니다.
 3. **전문직 전반으로 확산**: 법률에 이어 금융(동시 발표) 등 규제 산업으로 에이전트 AI가 확장되는 패턴 — "AI 에이전트가 전문직에 들어오는 속도"가 생각보다 빠르다는 걸 보여줍니다.
 
-![Gemini Enterprise for Legal 제품 화면](/assets/images/posts/gemini-enterprise-legal-20260826/gemini-enterprise-legal-ui.png)
+![Gemini Enterprise for Legal 제품 화면](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-enterprise-legal-20260826/gemini-enterprise-legal-ui.png)
 *Gemini Enterprise for Legal 워크플로 화면 — 법률 시스템에 연결된 에이전트 인터페이스 (출처: Google Cloud 공식 블로그, 2026-08-25)*
 
 ## 🎁 마무리: 법률 AI 소식 빠르게 챙기는 팁

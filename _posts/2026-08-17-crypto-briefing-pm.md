@@ -5,13 +5,13 @@ date: 2026-08-17 17:00:00 +0900
 categories: [finance]
 tags: [비트코인, 가상화폐, 코인, BTC, 암호화폐]
 author: "40대 블로거"
-image: /assets/images/posts/crypto-briefing-20260817-pm/bitcoin-price-chart.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/crypto-briefing-20260817-pm/bitcoin-price-chart.png
 description: "8월 17일 오후 코인 브리핑. 미국 7월 소매판매가 1년여 만에 최대 폭으로 급감하며 9월 연준 금리 인상 확률이 일주일 만에 50%대에서 30.6%로 급락했다. 골드만삭스는 '9월 인상은 매우 가능성 낮다'고 밝혔고, 비트코인은 아시아 오전 한때 6.4만 달러를 넘보며 6.3만 달러대 초반으로 반등. 하이퍼리퀴드(HYPE)가 주간 +9%로 두각. 수요일 FOMC 의사록과 백악관 가상자산 회의가 이번 주 관전 포인트."
 sitemap: false
 noindex: true
 ---
 
-![비트코인 7일 가격 차트](/assets/images/posts/crypto-briefing-20260817-pm/bitcoin-price-chart.png)
+![비트코인 7일 가격 차트](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/crypto-briefing-20260817-pm/bitcoin-price-chart.png)
 *비트코인(BTC) 7일 가격 추이 — 8/17 오후 브리핑 (Binance 4시간봉 기반 자체 제작)*
 
 **핵심 요약**: 미국 7월 소매판매가 1년여 만에 최대 폭으로 급감하면서 다음 달 연준 금리 인상 확률이 일주일 만에 '반토막'(50% 안팎 → 30.6%) 났습니다. 골드만삭스도 "9월 인상은 매우 가능성 낮다"는 입장을 내놨고, 비트코인은 아시아 오전 한때 6.4만 달러를 넘보며 6.3만 달러대 초반으로 반등했습니다.

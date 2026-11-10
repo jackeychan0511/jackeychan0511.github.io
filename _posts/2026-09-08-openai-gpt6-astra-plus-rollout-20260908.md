@@ -5,14 +5,14 @@ date: 2026-09-08 14:52:00 +0900
 categories: [career]
 tags: [GPT, OpenAI, Astra, GPT-6, ChatGPT Plus, ChatGPT Work, Codex, 롤아웃, 컴퓨터사용, ComputerUse, API가격, 출시, AI뉴스, 2026년9월]
 author: "40대 블로거"
-image: /assets/images/posts/openai-gpt6-astra-plus-rollout-20260908/openai-logo-2025-symbol.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-gpt6-astra-plus-rollout-20260908/openai-logo-2025-symbol.png
 description: "2026년 9월 7일(월, 미국 현지시간), OpenAI가 X 공지를 통해 차세대 플래그십 모델 GPT-6 Astra의 롤아웃을 월 20달러 ChatGPT Plus와 Business 사용자까지 확대한다고 밝혔습니다. Astra는 9월 3일 발표 직후 일부 조직과 Pro·Enterprise·Business Premium(상위 요금제)부터 순차적으로 풀렸고, 지난 주말(9/5~6)부터 Plus 사용자에게도 도달하기 시작했습니다. 다만 Plus에서는 일반 채팅창이 아닌 'ChatGPT Work'와 'Codex'에서만 사용할 수 있고, 채팅창의 최상위 모델은 기존 GPT-5.6 Sol이 유지됩니다(채팅창용 상위 모델 GPT-6 Pro는 Pro·Business·Enterprise 전용). 험난했던 롤아웃 초반을 반영해 OpenAI는 9월 3일부터 Astra를 하루라도 못 쓴 유료 사용자에게 날짜당 사용량 리셋 1회를 보상으로 적립하기로 했고, 샘 올트먼 CEO도 'messy(엉망)'였다고 공개 사과했습니다. 컴퓨터 사용(Computer Use)을 핵심 기능으로 내세운 Astra의 요금제별 사용량 제한(Sol 대비 약 절반), API 가격(입력 100만 토큰당 10달러·출력 50달러), 벤치마크 결과와 논란, 일반 사용자·업무자동화·개발자에게 미칠 영향을 정리했습니다."
 sitemap: false
 noindex: true
 ---
 > **📌 한줄 요약:** OpenAI가 **2026년 9월 7일(월, 미국 현지시간)** X 공지를 통해 차세대 플래그십 **GPT-6 Astra**의 롤아웃을 **월 20달러 ChatGPT Plus·Business 사용자까지 확대**한다고 밝혔습니다. Astra는 9월 3일 공식 발표 직후 **일부 조직 → Pro($100/$200)·Enterprise·Business Premium → 지난 주말(9/5~6) Plus** 순서로 순차 배포 중이며, 아직 **무료 티어는 대상이 아닙니다.** 다만 Plus에서는 일반 채팅창이 아니라 **'ChatGPT Work'와 'Codex' 화면에서만** Astra를 쓸 수 있고(채팅창 최상위는 GPT-5.6 Sol 유지), 채팅창용 상위 모델 'GPT-6 Pro'는 Pro·Business·Enterprise 전용입니다. 롤아웃이 예고보다 험난했던 만큼 OpenAI는 **9월 3일부터 Astra를 하루라도 못 쓴 유료 사용자에게 날짜당 사용량 리셋 1회를 보상 적립**하기로 했고, 샘 올트먼 CEO도 이를 두고 **"messy(엉망)"였다고 공개 사과**했습니다.
 
-![OpenAI 2025 공식 로고 (출처: Wikimedia Commons, OpenAI 공식 브랜드 페이지)](/assets/images/posts/openai-gpt6-astra-plus-rollout-20260908/openai-logo-2025-symbol.png)
+![OpenAI 2025 공식 로고 (출처: Wikimedia Commons, OpenAI 공식 브랜드 페이지)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-gpt6-astra-plus-rollout-20260908/openai-logo-2025-symbol.png)
 *OpenAI 2025 공식 로고 (출처: Wikimedia Commons, OpenAI 브랜드 페이지)*
 
 요즘 저처럼 GPT-6 Astra 출시 소식을 매일 확인하시는 분들, 지난 9월 3일 글에서 제가 "Astra 공식 출시 소식이 나오면 바로 다시 정리해 찾아오겠습니다"라고 했잖아요. 솔직히 그 사이 롤아웃이 **예상보다 훨씬 험난**했습니다. 유료 고객은 "플랜에 포함된 모델이 왜 안 보이지?" 하며 문의가 폭주했고, 샘 올트먼 CEO가 직접 "엉망이었다"고 사과하는 일까지 벌어졌거든요. 그런데 **이번 주말을 기점으로 마침내 월 20달러 ChatGPT Plus 사용자에게도 Astra가 도착하기 시작**했습니다. 오늘은 9월 7일 OpenAI 공식 X 공지와 Notebookcheck·Dataconomy·The Decoder 보도를 바탕으로, **어디서 어떻게 Astra를 만날 수 있는지 + 대기 보상 + 요금제별 사용량 제한**까지 실용적으로 정리해 봤습니다.
@@ -97,7 +97,7 @@ Astra는 **OpenAI API·Microsoft Azure·AWS Bedrock**에서도 이용 가능하�
 - **ExploitBench: 100%** — 알려진 취약점으로 동작하는 익스플로잇 제작 테스트 만점. 지난 9/3 글에서 다룬 **'Critical(심각)' 사이버보안 등급 판정의 직접적 근거**
 - **OSWorld 2.0: 72.6%** (GPT-5.6 Sol 65.7%) — 컴퓨터 사용 벤치마크, 작업당 소요 시간도 75분 → 약 40분으로 단축
 
-![OpenAI 본사 — 샌프란시스코 미션베이 1515 Third Street (출처: Wikimedia Commons, Coolcaesar 촬영, CC BY 4.0)](/assets/images/posts/openai-gpt6-astra-plus-rollout-20260908/openai-hq-1515-third-street.jpg)
+![OpenAI 본사 — 샌프란시스코 미션베이 1515 Third Street (출처: Wikimedia Commons, Coolcaesar 촬영, CC BY 4.0)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-gpt6-astra-plus-rollout-20260908/openai-hq-1515-third-street.jpg)
 *OpenAI 본사 — 샌프란시스코 미션베이 1515 Third Street (출처: Wikimedia Commons, Coolcaesar 촬영, CC BY 4.0)*
 
 ### 5. 논란 — 'AGI 시대' 선언에 대한 회의론도

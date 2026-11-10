@@ -5,7 +5,7 @@ date: 2026-08-15 14:52:00 +0900
 categories: [career]
 tags: [GPT, OpenAI, GPT-5.6, Sol, Ultrafast, Cerebras, 웨이퍼스케일, API, AI뉴스, 2026년8월]
 author: "40대 블로거"
-image: /assets/images/posts/openai-ultrafast-gpt56-sol-cerebras-20260815/cerebras-ultrafast-hero.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-ultrafast-gpt56-sol-cerebras-20260815/cerebras-ultrafast-hero.png
 description: "2026년 8월 13일 OpenAI가 발표한 'Ultrafast' 모드 프리뷰를 정리했습니다. Cerebras 웨이퍼스케일 엔진으로 GPT-5.6 Sol을 표준 대비 최대 14배 빠르게, 초당 750토큰으로 구동하는 새 API 서비스 티어의 내용과 개발자·사용자에게 미칠 영향을 분석합니다."
 sitemap: false
 noindex: true
@@ -13,7 +13,7 @@ noindex: true
 
 > **📌 한줄 요약:** 지난 8월 13일, OpenAI가 **'Ultrafast' 모드**라는 새로운 API 서비스 티어를 프리뷰로 공개했습니다. Cerebras의 웨이퍼스케일 엔진으로 **GPT-5.6 Sol을 표준 처리 대비 최대 14배 빠르게**, **초당 최대 750 출력 토큰**으로 구동하는 것이 핵심입니다. 한정 고객 대상 초청제 프리뷰로 시작하며, 가격과 정식 출시(GA) 일정은 아직 미정입니다.
 
-![OpenAI 공식 로고](/assets/images/posts/openai-ultrafast-gpt56-sol-cerebras-20260815/openai-logo-1280.png)
+![OpenAI 공식 로고](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-ultrafast-gpt56-sol-cerebras-20260815/openai-logo-1280.png)
 *이미지 출처: Wikimedia Commons (OpenAI Logo.svg)*
 
 ## 이슈 요약 — "이제 속도도 프런티어급"
@@ -33,7 +33,7 @@ noindex: true
 
 Ultrafast의 비밀은 GPU가 아니라 **Cerebras의 웨이퍼스케일 엔진**에 있습니다. 일반 GPU는 모델 가중치를 칩 안팎으로 반복해서 옮겨야 해서, 토큰을 생성할 때마다 **메모리 대역폭이 병목**이 됩니다. Cerebras는 반대로 **웨이퍼 하나를 통째로 칩으로 만들어 44GB SRAM을 온칩에 탑재**해, 가중치가 칩 밖으로 나갈 필요 없이 토큰이 계속 흘러가도록 설계했습니다. OpenAI와 Cerebras는 이 방식이 모델 크기가 커질수록 더 유리해진다고 설명합니다.
 
-![Cerebras 공식 블로그의 Ultrafast 모드 소개 이미지](/assets/images/posts/openai-ultrafast-gpt56-sol-cerebras-20260815/cerebras-ultrafast-hero.png)
+![Cerebras 공식 블로그의 Ultrafast 모드 소개 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-ultrafast-gpt56-sol-cerebras-20260815/cerebras-ultrafast-hero.png)
 *이미지 출처: Cerebras 공식 블로그 (Accelerating GPT-5.6 Sol Ultrafast with OpenAI, 2026.8.13)*
 
 ### 2. 수치로 보는 속도: 750토큰/초, 비교 모델 대비 최대 11배

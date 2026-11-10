@@ -5,19 +5,19 @@ date: 2026-09-10 14:53:20 +0900
 categories: [career]
 tags: [GPT, OpenAI, 나비에스토크스, NavierStokes, 밀레니엄문제, 밀레니엄난제, AI에이전트, GPT6, Astra, Lean, 수학증명, 저작권논란, AI뉴스, 2026년9월]
 author: "40대 블로거"
-image: /assets/images/posts/openai-navier-stokes-millennium-proof-20260910/openai-logo-2025-symbol.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-navier-stokes-millennium-proof-20260910/openai-logo-2025-symbol.png
 description: "2026년 9월 8일(화, 미국 현지시간), OpenAI가 '내부 AI 시스템'(자사 최신 모델 GPT-6 Astra보다 훨씬 강력한 미공개 모델)이 약 1만 개의 AI 에이전트를 동원해 90여 년간 미해결이던 밀레니엄 문제 '나비에-스토크스(Navier–Stokes) 존재와 매끄러움'을 88시간 만에 해결했다고 발표했습니다. 166페이지 논문 'Finite Time Blowup for Navier–Stokes'와 Lean 정형화(추가 17시간, GPT-6 Astra 사용)가 함께 공개됐고, 3차원 유체 방정식이 유한 시간 안에 특이점(blow-up)을 일으킬 수 있음을 보였습니다. 다만 발표 직전 NYU 트리스탄 벅마스터·Anthropic의 레벤트 알포게가 '강제 오일러 방정식' 폭발 결과를 먼저 공개하며 우선권(저작권) 논란이 폭발했고, 클레이 수학연구소·독립 수학자의 검증은 아직 없습니다. 이슈 요약부터 실질적 영향, 전망까지 정리했습니다."
 sitemap: false
 noindex: true
 ---
 > **📌 한줄 요약:** OpenAI가 **2026년 9월 8일(화, 미국 현지시간)** **90여 년간 미해결이던 밀레니엄 문제 '나비에-스토크스(Navier–Stokes) 존재와 매끄러움'**을 자사 **내부 AI 시스템**(GPT-6 Astra보다 "훨씬 더 강력한" 미공개 모델)으로 해결했다고 발표했습니다. 방식이 눈에 띕니다 — **약 1만 개(10,000)의 AI 에이전트**를 동시에 풀가동해 **9월 1일 시작 → 약 88시간 만에** 결과에 도달했고, 이어 **Lean 정형화·검증에 17시간**(GPT-6 Astra 사용)이 더 걸렸습니다. 결과물은 **166페이지 논문 'Finite Time Blowup for Navier–Stokes' + Lean 프로젝트**이며, 핵심 주장은 **"3차원 유체 방정식이 유한 시간 안에 폭발(blow-up) = 특이점을 일으킬 수 있다"**는 것입니다. 다만 발표 직전 **NYU 트리스탄 벅마스터 + Anthropic의 레벤트 알포게**가 '강제(forced) 오일러 방정식' 폭발 결과를 먼저 공개하며 **우선권(저작권) 논란**이 터졌고, **클레이 수학연구소·독립 수학자 검증은 아직 없습니다.** 이번 글에서 **무엇을 해결했다고 주장하는지 + 왜 논란이 됐는지 + 우리 업무·개발에 뭐가 달라지는지**를 정리해 봤습니다.
 
-![OpenAI 2025 공식 로고 (출처: Wikimedia Commons, OpenAI 브랜드 페이지, 퍼블릭 도메인)](/assets/images/posts/openai-navier-stokes-millennium-proof-20260910/openai-logo-2025-symbol.png)
+![OpenAI 2025 공식 로고 (출처: Wikimedia Commons, OpenAI 브랜드 페이지, 퍼블릭 도메인)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-navier-stokes-millennium-proof-20260910/openai-logo-2025-symbol.png)
 *OpenAI 2025 공식 로고 (출처: Wikimedia Commons · OpenAI 브랜드 페이지, 퍼블릭 도메인)*
 
 요즘 저처럼 GPT-6 Astra 소식(9/8 글)을 챙겨 보시는 분들, 어제(9/8) 하루에만 OpenAI가 **모델 롤아웃, 이미지 모델(ChatGPT Images 2.5), 그리고 이번 수학 발표까지** 쏟아내서 "이게 무슨 날이지?" 싶으셨을 겁니다. 솔직히 저는 처음 뉴스 제목을 봤을 때 **"1만 개 AI 에이전트가 88시간 만에 밀레니엄 난제를 풀었다"**는 문장을 그냥 과장 마케팅으로 넘기려고 했습니다. 그런데 **클레이 수학연구소가 100만 달러 상금을 걸어둔 7대 밀레니엄 문제** 중 하나가 걸린 사안이고, 논문·Lean 코드가 실제로 공개됐으며, 무엇보다 **"수학계가 진짜로 들썩이고 논쟁이 붙었다"**는 점에서 이건 확실히 '이슈급'이라고 판단했습니다. 오늘은 OpenAI 공식 발표문과 Quanta Magazine·Nature 계열 보도, 그리고 논쟁의 진앙인 NYU 수학자의 주장(TechCrunch·Axios·Scientific American)을 바탕으로 정리해 봤습니다.
 
-![나비에-스토크스 방정식 (출처: Wikimedia Commons, Sander Bais·Gijs Mathijs Ontwerpers, 퍼블릭 도메인)](/assets/images/posts/openai-navier-stokes-millennium-proof-20260910/navier-stokes-equations.jpg)
+![나비에-스토크스 방정식 (출처: Wikimedia Commons, Sander Bais·Gijs Mathijs Ontwerpers, 퍼블릭 도메인)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-navier-stokes-millennium-proof-20260910/navier-stokes-equations.jpg)
 *문제의 나비에-스토크스 방정식 (출처: Wikimedia Commons · Sander Bais / Gijs Mathijs Ontwerpers, 퍼블릭 도메인). 유체의 운동을 기술하는 이 방정식이 유한 시간 안에 '폭발'할 수 있는지가 90여 년 묵은 난제였습니다.*
 
 ---
@@ -34,7 +34,7 @@ noindex: true
 - **규모:** 에이전트들이 주고받은 메시지 약 **490만 개**(나비에-스토크스 작업만 270만 개), 사용한 **출력 토큰 약 1,300억 개**(전체 시도 문제 기준 약 3,000억 개).
 - **비용:** 보도에 따라 **약 650만 달러 ~ 1,500만 달러**로 추정(New Scientist는 "약 1,500만 달러 규모의 AI 작업"으로 표현).
 
-![항공기 후류(항적 난기류) 시뮬레이션 (출처: Wikimedia Commons, DLR 독일항공우주센터, CC BY 3.0 DE)](/assets/images/posts/openai-navier-stokes-millennium-proof-20260910/turbulence-wake-simulation.jpg)
+![항공기 후류(항적 난기류) 시뮬레이션 (출처: Wikimedia Commons, DLR 독일항공우주센터, CC BY 3.0 DE)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-navier-stokes-millennium-proof-20260910/turbulence-wake-simulation.jpg)
 *A340 항적 난기류(wake turbulence) 유동 시뮬레이션 (출처: Wikimedia Commons · 독일항공우주센터 DLR, CC BY 3.0 DE). 나비에-스토크스 방정식은 항공·기상·혈류 시뮬레이션의 뼈대라, '유체가 언제 무너지는가'는 공학적으로도 민감한 주제입니다.*
 
 ## 🔍 2. 상세 분석 — 이 문제가 뭐길래, 그리고 무엇을 '증명'했다고 주장하나

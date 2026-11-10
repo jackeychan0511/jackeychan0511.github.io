@@ -5,7 +5,7 @@ date: 2026-08-18 14:55:00 +0900
 categories: [career]
 tags: [OpenAI, GPT, ChatGPT, 엔비디아, NVIDIA, 데이터센터, 오하이오, PORTS-Pike, SB에너지, 소프트뱅크, SBEnergy, 1050억달러, AI인프라, 컴퓨팅파워, 그렉브록먼, AI뉴스, 2026년8월]
 author: "40대 블로거"
-image: /assets/images/posts/openai-nvidia-ohio-datacenter-20260818/sbe-ports-pike-announce.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-nvidia-ohio-datacenter-20260818/sbe-ports-pike-announce.jpg
 description: "2026년 8월 18일 기준, OpenAI의 최신 이슈는 8월 17일(현지시간) 엔비디아가 증권신고서를 통해 공개한 '오하이오주 PORTS-Pike 데이터센터 최대 1,050억 달러 보증'입니다. 냉전 시대 우라늄 농축 시설 부지에 SB Energy(소프트뱅크 계열)가 짓고 오픈AI가 20년간 임대하는 약 8GW 규모의 초대형 AI 데이터센터 캠퍼스로, 엔비디아가 잔존가치 보증과 SB Energy 15억 달러 투자로 뒷받침합니다. 초기 4.25GW는 2028년부터 단계 가동, 건설 일자리 3만 5,000개·운영 일자리 2,500개 창출, 오픈AI는 커뮤니티 펀드 4,000만 달러와 오하이오 대학생 약 84만 4,000명 대상 Codex 크레딧 최대 8,400만 달러를 약속했습니다. 이 거래가 왜 'AI 시대의 석유' 논쟁까지 불러왔는지, 사용자·개발자에게 어떤 의미인지 자세히 정리했습니다."
 sitemap: false
 noindex: true
@@ -13,10 +13,10 @@ noindex: true
 
 > **📌 한줄 요약:** 엔비디아가 지난 **8월 17일(현지시간)**, 오하이오주 파이크 카운티에 들어서는 오픈AI 전용 초대형 AI 데이터센터 캠퍼스 **PORTS-Pike Technology Campus**를 위해 **최대 1,050억 달러(약 143조 원) 규모의 보증**을 제공하기로 했습니다. 냉전 시대 우라늄 농축 시설 부지에 SB Energy(소프트뱅크 계열)가 건설·소유·운영하고 오픈AI가 20년 임대하는 구조로, 초기 **4.25GW**(옵션 포함 최대 약 8GW) 용량이 **2028년부터 단계적으로 가동**됩니다. 엔비디아는 SB Energy에 15억 달러를 투자하고, 오픈AI가 임대 의무를 못 지키면 최대 1,050억 달러 한도로 대신 갚는 '잔존가치 보증'까지 걸었습니다. 오픈AI는 지역 커뮤니티 펀드 4,000만 달러와 오하이오 대학생 약 84만 4,000명에게 Codex 크레딧 최대 8,400만 달러를 약속했습니다.
 
-![SB Energy PORTS-Pike 발표 이미지](/assets/images/posts/openai-nvidia-ohio-datacenter-20260818/sbe-ports-pike-announce.jpg)
+![SB Energy PORTS-Pike 발표 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-nvidia-ohio-datacenter-20260818/sbe-ports-pike-announce.jpg)
 *SB Energy 공식 발표 이미지 — 오하이오 PORTS-Pike Technology Campus (출처: SB Energy 공식 홈페이지, 2026-08-17)*
 
-![NVIDIA·OpenAI·SB Energy 공식 로고 락업](/assets/images/posts/openai-nvidia-ohio-datacenter-20260818/nvidia-sbenergy-openai-lockup.png)
+![NVIDIA·OpenAI·SB Energy 공식 로고 락업](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-nvidia-ohio-datacenter-20260818/nvidia-sbenergy-openai-lockup.png)
 *NVIDIA 뉴스룸 공식 보도자료 대표 이미지 — OpenAI·SB Energy·NVIDIA 파트너십 로고 락업 (출처: NVIDIA Newsroom, 2026-08-17)*
 
 ---

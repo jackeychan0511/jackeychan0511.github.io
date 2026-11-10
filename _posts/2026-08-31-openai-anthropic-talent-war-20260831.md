@@ -5,7 +5,7 @@ date: 2026-08-31 14:53:00 +0900
 categories: [career]
 tags: [GPT, OpenAI, Anthropic, Claude, 인재전쟁, AI인재, 이직, 채용, 개발자, 커리어, 샘알트만, 카파시, Karpathy, AI뉴스, 2026년8월, 빅테크, AI랩]
 author: "40대 블로거"
-image: /assets/images/posts/openai-anthropic-talent-war-20260831/openai-logo-2025-symbol.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-anthropic-talent-war-20260831/openai-logo-2025-symbol.png
 description: "2026년 8월 30일, OpenAI와 Anthropic이 빅테크와 AI 인재를 두고 치열한 쟁탈전을 벌이고 있다는 보도가 나왔습니다. 테크 워커 8명을 인터뷰한 이 기사는 AI 랩의 리크루터가 개인에게 직접 접근하는 현실, 연봉·스톡 프리미엄, 학계 인재 유출(22명), 카파시·발로네 등 주요 인물들의 이적까지 담고 있습니다. 인재 전쟁의 배경, 사용자·개발자에게 미치는 영향, 그리고 AI 업계 커리어 전망까지 정리했습니다."
 sitemap: false
 noindex: true
@@ -13,11 +13,11 @@ noindex: true
 
 > **📌 한줄 요약:** 어제(8/30) **OpenAI와 Anthropic이 빅테크와 AI 인재를 놓고 치열한 쟁탈전을 벌이고 있다**는 보도가 나왔습니다. 인터뷰에 응한 테크 워커들은 "AI 랩 리크루터가 직접 찾아온다"고 증언했고, 올해만 해도 **카파시(OpenAI 공동창업자)의 Anthropic 이적**, **6개월간 엘리트 대학 교수·연구자 22명의 AI 랩 유출**, **OpenAI 안전 리드의 Anthropic 합류** 등 굵직한 인력 이동이 이어지고 있습니다. GPT-6 'Astra' 출시와 Anthropic IPO를 앞둔 지금, AI 인재 시장은 그 어느 때보다 뜨겁습니다.
 
-![OpenAI 공식 로고 (출처: Wikimedia Commons, OpenAI logo 2025 symbol)](/assets/images/posts/openai-anthropic-talent-war-20260831/openai-logo-2025-symbol.png)
+![OpenAI 공식 로고 (출처: Wikimedia Commons, OpenAI logo 2025 symbol)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-anthropic-talent-war-20260831/openai-logo-2025-symbol.png)
 
 요즘 저처럼 AI 뉴스도 챙기고, 개발자 커리어에도 관심이 많으신 분들 많으시죠? 저도 ChatGPT로 코딩하다 보면 문득 '이 회사들은 과연 어떤 사람들을 데려가고, 어떤 조건을 줄까' 궁금할 때가 있는데요. 어제(8/30) **OpenAI와 Anthropic이 빅테크와 AI 인재를 두고 본격적인 쟁탈전을 벌이고 있다**는 기사가 나왔습니다. 솔직히 제목만 봐도 '아, 이제 진짜 사람 싸움이 시작됐구나' 싶더라고요. 오늘은 이 인재 전쟁의 전모를 정리해 봤습니다.
 
-![Anthropic 공식 로고 (출처: Wikimedia Commons, Anthropic logo)](/assets/images/posts/openai-anthropic-talent-war-20260831/anthropic-logo.png)
+![Anthropic 공식 로고 (출처: Wikimedia Commons, Anthropic logo)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-anthropic-talent-war-20260831/anthropic-logo.png)
 
 ---
 

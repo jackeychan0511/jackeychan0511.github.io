@@ -5,11 +5,11 @@ date: 2026-10-10 11:22:00 +0900
 categories: [products]
 tags: [아이폰듀오, iPhoneDuo, 애플폴더블, 애플첫폴더블, 폴더블폰, A20Pro, 갤럭시Z폴드8, 갤럭시폴드8, 폴더블비교, 아이폰18프로, 측면터치ID, 제품비교, 구매가이드, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/iphone-duo-first-foldable-guide-20261010/iphone-duo-colors.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/iphone-duo-first-foldable-guide-20261010/iphone-duo-colors.jpg
 description: "애플이 2026년 9월 9일 첫 폴더블 아이폰 '아이폰 듀오(iPhone Duo)'를 공개했습니다. 펼치면 7.6형·접으면 5.4형 OLED(3,000니트), 5.2mm 초슬림 바디, A20 Pro 칩, 48MP 듀얼 카메라, 측면 Touch ID가 핵심입니다. 국내 출고가는 256GB 329만 원부터(2TB 509만 원), 사전예약은 10월 16일 오후 9시, 정식 출시는 10월 23일입니다. 이 글은 제품 소개 → 핵심 스펙·특징 → 갤럭시 Z 폴드8과 비교 포인트 → 가격·출시·구매 가이드 순서로 정리했습니다."
 ---
 
-![아이폰 듀오 공식 이미지 — 스타 화이트·나이트 스카이 두 가지 색상이 나란히 놓인 모습](/assets/images/posts/iphone-duo-first-foldable-guide-20261010/iphone-duo-colors.jpg)
+![아이폰 듀오 공식 이미지 — 스타 화이트·나이트 스카이 두 가지 색상이 나란히 놓인 모습](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/iphone-duo-first-foldable-guide-20261010/iphone-duo-colors.jpg)
 *애플이 공개한 첫 폴더블 아이폰 '아이폰 듀오'. 색상은 스타 화이트와 나이트 스카이 두 가지입니다 (출처: Apple Newsroom, 2026.9)*
 
 > **📌 한줄 요약:** 애플이 **2026년 9월 9일** 미국 쿠퍼티노에서 브랜드 최초의 폴더블 스마트폰 **아이폰 듀오(iPhone Duo)**를 공개했습니다. 핵심은 **펼치면 7.6형·접으면 5.4형 OLED(최대 3,000니트)**, **펼친 두께 5.2mm**의 초슬림 설계, **A20 Pro 칩**, **48MP 듀얼 카메라**, 그리고 **측면 버튼 Touch ID**입니다. 국내 출고가는 **256GB 329만 원**부터이고, **사전예약은 10월 16일 오후 9시**, **정식 출시는 10월 23일**입니다. 폴더블을 처음 고민하거나 갤럭시 Z 폴드8과 저울질하는 분들이라면 눈여겨볼 만한 모델입니다.
@@ -53,7 +53,7 @@ description: "애플이 2026년 9월 9일 첫 폴더블 아이폰 '아이폰 듀
 
 ## 2. 핵심 스펙·특징 — 화면·두께·성능·카메라
 
-![아이폰 듀오 공식 이미지 — 접었을 때 5.4형, 펼쳤을 때 7.6형 화면 크기 비교](/assets/images/posts/iphone-duo-first-foldable-guide-20261010/iphone-duo-display-sizes.jpg)
+![아이폰 듀오 공식 이미지 — 접었을 때 5.4형, 펼쳤을 때 7.6형 화면 크기 비교](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/iphone-duo-first-foldable-guide-20261010/iphone-duo-display-sizes.jpg)
 *접었을 때 5.4형, 펼쳤을 때 7.6형. 애플은 펼친 상태 기준 역대 가장 얇은 아이폰이라고 설명했습니다 (출처: Apple Newsroom, 2026.9)*
 
 ### 화면과 두께
@@ -75,7 +75,7 @@ description: "애플이 2026년 9월 9일 첫 폴더블 아이폰 '아이폰 듀
 - 내부 화면에는 **UDC(디스플레이 하부 카메라)** 방식의 페이스타임 카메라 탑재
 - 다만 **망원 렌즈가 빠져** 광학급 2배 줌까지만 지원합니다. 원거리 촬영을 즐기는 분께는 아쉬운 구성입니다
 
-![아이폰 듀오 공식 이미지 — 48MP 퓨전 메인 카메라로 촬영한 저조도 사진 예시](/assets/images/posts/iphone-duo-first-foldable-guide-20261010/iphone-duo-camera.jpg)
+![아이폰 듀오 공식 이미지 — 48MP 퓨전 메인 카메라로 촬영한 저조도 사진 예시](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/iphone-duo-first-foldable-guide-20261010/iphone-duo-camera.jpg)
 *48MP 퓨전 메인 카메라 + 48MP 초광각. 망원 렌즈는 빠졌지만 센서 크기와 저조도 처리는 세대 최고 수준입니다 (출처: Apple Newsroom, 2026.9)*
 
 ### 소재·잠금 해제
@@ -85,7 +85,7 @@ description: "애플이 2026년 9월 9일 첫 폴더블 아이폰 '아이폰 듀
 
 ## 3. 비교 포인트 — 갤럭시 Z 폴드8과 뭐가 다른가
 
-![삼성 갤럭시 Z 폴드8 실물 사진 — 펼친 모습](/assets/images/posts/iphone-duo-first-foldable-guide-20261010/galaxy-z-fold8.jpg)
+![삼성 갤럭시 Z 폴드8 실물 사진 — 펼친 모습](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/iphone-duo-first-foldable-guide-20261010/galaxy-z-fold8.jpg)
 *아이폰 듀오의 가장 직접적인 경쟁 기종은 삼성 갤럭시 Z 폴드8입니다. 무게와 내구성, 가격에서 차이가 갈립니다 (출처: Wikimedia Commons / CC BY-SA 4.0)*
 
 | 비교 항목 | **아이폰 듀오** | **갤럭시 Z 폴드8** |
@@ -105,7 +105,7 @@ description: "애플이 2026년 9월 9일 첫 폴더블 아이폰 '아이폰 듀
 - **가격**: 동급 용량 기준 아이폰 듀오가 **100만 원 안팎 더 비쌉니다**. 다만 애플 생태계(맥·아이패드·에어팟)를 쓰는 분이라면 연동 이점이 이를 상당 부분 상쇄합니다.
 - **화면 활용**: 두 제품 모두 대화면 멀티태스킹을 강조하지만, 아이폰 듀오는 **내부 화면의 주름을 최소화한 마감**을 전면에 내세웁니다.
 
-![아이폰 듀오 공식 이미지 — 내부 대화면에서 사파리와 시리를 나란히 띄운 멀티태스킹 화면](/assets/images/posts/iphone-duo-first-foldable-guide-20261010/iphone-duo-multitasking.jpg)
+![아이폰 듀오 공식 이미지 — 내부 대화면에서 사파리와 시리를 나란히 띄운 멀티태스킹 화면](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/iphone-duo-first-foldable-guide-20261010/iphone-duo-multitasking.jpg)
 *내부 화면에서 앱 두 개를 나란히 띄우는 Split View, 드래그 앤 드롭을 지원합니다 (출처: Apple Newsroom, 2026.9)*
 
 ## 4. 누구에게 맞는 제품인가 — 구매 가이드

@@ -5,13 +5,13 @@ date: 2026-08-07 14:00:00 +0900
 categories: [products]
 tags: [갤럭시워치9, 갤럭시워치울트라2, 삼성전자, 스마트워치, 정식출시, 8월7일, 웨어러블, 헬스케어, 스마트워치추천, 이슈제품, 2026년8월]
 author: "40대 블로거"
-image: /assets/images/posts/galaxy-watch9-ultra2-official-launch-20260807/galaxy-watch-unpacked-official.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/galaxy-watch9-ultra2-official-launch-20260807/galaxy-watch-unpacked-official.jpg
 description: "2026년 8월 7일(금), 갤럭시 워치 울트라2·워치9이 드디어 국내 정식 출시됐습니다. 사전예약을 못 하신 분들도 오늘부터 삼성닷컴과 전국 매장에서 바로 구매할 수 있는데요. 워치9 40mm 49만 9,000원부터 울트라2 96만 9,100원까지 출고가 총정리, 8월 31일까지 받을 수 있는 전용 밴드 50% 할인 쿠폰 2매와 타임플릭 워치페이스 6개월 구독권 혜택, 사전판매에서 두 자릿수 성장을 기록한 인기 색상, 그리고 96만 원짜리 울트라2에 대한 솔직한 평가까지 정리했습니다."
 ---
 
 > **📌 한줄 요약:** 오늘(8월 7일 금요일) **갤럭시 워치 울트라2와 갤럭시 워치9이 국내 정식 출시**됐습니다. 사전예약을 못 하신 분들도 **오늘부터 삼성닷컴과 전국 매장, 통신 3사에서 바로 구매·개통**할 수 있어요. 사전판매에서 전작 대비 **두 자릿수 성장**을 기록하며 화제가 된 두 모델의 출고가는 워치9 40mm 블루투스 **49만 9,000원**부터, 울트라2(LTE) **96만 9,100원**까지입니다. **8월 31일까지 구매하면 삼성닷컴 전용 밴드 50% 할인 쿠폰 2매와 타임플릭 워치페이스 6개월 구독권을 무상 증정**받을 수 있고, 갤럭시 Z8 시리즈와 함께 사면 워치 10% 할인 쿠폰도 받을 수 있어요.
 
-![갤럭시 워치 울트라2·워치9 공식 이미지 — 언팩에서 공개된 두 모델](/assets/images/posts/galaxy-watch9-ultra2-official-launch-20260807/galaxy-watch-unpacked-official.jpg)
+![갤럭시 워치 울트라2·워치9 공식 이미지 — 언팩에서 공개된 두 모델](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/galaxy-watch9-ultra2-official-launch-20260807/galaxy-watch-unpacked-official.jpg)
 *갤럭시 워치 울트라2(왼쪽 2대)와 갤럭시 워치9(오른쪽 4대). 7월 22일 런던 갤럭시 언팩 2026에서 공개된 두 모델이 오늘(8/7) 드디어 국내 시장에 나왔다 (출처: 삼성전자 뉴스룸, 2026-08-07 확인)*
 
 ---
@@ -34,7 +34,7 @@ description: "2026년 8월 7일(금), 갤럭시 워치 울트라2·워치9이 �
 
 솔직히 저는 아직 실물을 직접 만져보지는 못했지만, 언팩 현장에서 공개된 공식 스펙과 사전판매 데이터, 그리고 지난해 갤럭시 워치 울트라를 1년 넘게 써온 경험을 바탕으로 **오늘 바로 구매해도 되는지, 어떤 모델·색상을 골라야 하는지** 꼼꼼하게 정리해 봤습니다.
 
-![갤럭시 워치 울트라2 공식 히어로 이미지](/assets/images/posts/galaxy-watch9-ultra2-official-launch-20260807/galaxy-watch-ultra2-hero.jpg)
+![갤럭시 워치 울트라2 공식 히어로 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/galaxy-watch9-ultra2-official-launch-20260807/galaxy-watch-ultra2-hero.jpg)
 *갤럭시 워치 울트라2 — 800mAh 배터리와 최대 5,000니트 디스플레이를 갖춘 아웃도어 플래그십. 사전판매에서 티타늄 그레이 모델이 가장 인기가 많았다 (출처: 삼성전자 공식 홈페이지, 2026-08-07 확인)*
 
 ---
@@ -57,7 +57,7 @@ description: "2026년 8월 7일(금), 갤럭시 워치 울트라2·워치9이 �
 
 워치9 기준으로 LTE 모델이 블루투스보다 **약 3만 원** 더 비쌉니다. 그런데 LTE 모델은 개통 후 **통신사 워치 요금제가 매달 추가**될 수 있다는 점을 꼭 기억하세요. 휴대폰 없이 외출하는 일이 거의 없다면, 처음 3만 원보다 누적 통신비 차이가 훨씬 큽니다. 저처럼 "폰은 항상 들고 다닌다" 하시는 분들은 **블루투스 모델로 충분**해요.
 
-![갤럭시 워치9 크림 색상 공식 제품 이미지](/assets/images/posts/galaxy-watch9-ultra2-official-launch-20260807/galaxy-watch9-cream.png)
+![갤럭시 워치9 크림 색상 공식 제품 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/galaxy-watch9-ultra2-official-launch-20260807/galaxy-watch9-cream.png)
 *갤럭시 워치9 40mm 크림 — 사전판매에서 40mm 크림과 44mm 그라파이트의 선호도가 가장 높았다 (출처: 삼성전자 공식 홈페이지, 2026-08-07 확인)*
 
 ---
@@ -83,7 +83,7 @@ description: "2026년 8월 7일(금), 갤럭시 워치 울트라2·워치9이 �
 
 > 💡 **꿀팁:** Z8 시리즈를 구매할 예정이라면 **폰과 워치를 같은 삼성닷컴 계정으로 구매**해서 10% 할인 쿠폰을 꼭 챙기세요. 폰+워치를 함께 생각 중이신 분들은 오늘이 가장 좋은 타이밍입니다.
 
-![갤럭시 워치9·울트라2 출시 공식 보도사진 — 모델들이 워치를 소개하는 모습](/assets/images/posts/galaxy-watch9-ultra2-official-launch-20260807/galaxy-launch-press-DL3.jpg)
+![갤럭시 워치9·울트라2 출시 공식 보도사진 — 모델들이 워치를 소개하는 모습](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/galaxy-watch9-ultra2-official-launch-20260807/galaxy-launch-press-DL3.jpg)
 *삼성전자가 8월 6일 공개한 국내 공식 출시 보도자료 이미지. 전시대에 'Galaxy Watch9' 제품이 진열돼 있다 (출처: 삼성전자 뉴스룸 보도자료, 2026-08-07 확인)*
 
 ---
@@ -127,7 +127,7 @@ description: "2026년 8월 7일(금), 갤럭시 워치 울트라2·워치9이 �
 | 폰 없이 통화·러닝, GPS 운동 | 워치9 LTE 또는 울트라2 |
 | 등산·장거리 러닝·수영·다이빙 | **울트라2** (800mAh + 10ATM + IP69K) |
 
-![갤럭시 워치9·울트라2 미디어 브리핑 실물 사진](/assets/images/posts/galaxy-watch9-ultra2-official-launch-20260807/galaxy-watch-briefing-real1.jpg)
+![갤럭시 워치9·울트라2 미디어 브리핑 실물 사진](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/galaxy-watch9-ultra2-official-launch-20260807/galaxy-watch-briefing-real1.jpg)
 *삼성전자 미디어 브리핑 현장에 진열된 갤럭시 워치9·울트라2 실물 (출처: 핀포인트뉴스 미디어 브리핑 보도사진, 2026-07-23 촬영)*
 
 ---

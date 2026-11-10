@@ -5,11 +5,11 @@ date: 2026-10-28 15:54:00 +0900
 categories: [career]
 tags: [Google Gemini, 구글 제미나이, Gemini API, 제미나이 API, 데이터 보관 정책, 로그 저장, store 파라미터, 55일 보관, 개인정보, 컴플라이언스, ZDR, 제로 데이터 보관, Generate Content API, Interactions API, AI 에이전트, 업무자동화, 개발자 정책, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/gemini-api-storage-default-20261028/gemini-logo.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-api-storage-default-20261028/gemini-logo.png
 description: "구글이 2026년 10월 26일부터 제미나이 API의 Generate Content API 요청을 신규 유료 프로젝트에서 기본 저장(store=true)하도록 바꿨습니다. 기본 보관 기간은 최대 55일이며 7·14·28일로 줄일 수 있고, 저장된 데이터셋은 만료되지 않습니다. 요청 단위 store=false 또는 프로젝트 설정으로 끌 수 있지만 백그라운드 실행은 저장이 필수입니다. 남용 모니터링 로그는 별도로 55일 보관된다는 점도 함께 짚었습니다. 바뀐 범위, 남는 데이터의 실체, 자동화 파이프라인에 미치는 영향과 지금 확인해야 할 5가지를 정리했습니다."
 ---
 
-![구글 제미나이(Gemini) 로고 (이미지=Wikimedia Commons, 퍼블릭 도메인)](/assets/images/posts/gemini-api-storage-default-20261028/gemini-logo.png)
+![구글 제미나이(Gemini) 로고 (이미지=Wikimedia Commons, 퍼블릭 도메인)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-api-storage-default-20261028/gemini-logo.png)
 *출처: Wikimedia Commons "Google Gemini logo 2025.svg" — 퍼블릭 도메인(상표는 Google LLC 소유)*
 
 ## 한 줄 요약: "안 남기던 요청이, 이제 남습니다"
@@ -18,7 +18,7 @@ description: "구글이 2026년 10월 26일부터 제미나이 API의 Generate C
 
 이미 만들어진 프로젝트는 기존 설정을 유지합니다. 즉 **지금 잘 돌고 있는 파이프라인이 갑자기 로그를 남기기 시작하는 건 아니고**, 앞으로 새로 만드는 유료 프로젝트가 기본 저장으로 시작합니다. 문제는 대부분의 팀이 "새 프로젝트"를 아무 생각 없이 만든다는 점입니다. 서비스 분리, 스테이징 환경, 신규 고객사 전용 워크스페이스 — 전부 새 프로젝트로 생성되니까요.
 
-![구글 데이터센터 전경 (사진=Lambtron, Wikimedia Commons, CC BY-SA 4.0)](/assets/images/posts/gemini-api-storage-default-20261028/google-datacenter.jpg)
+![구글 데이터센터 전경 (사진=Lambtron, Wikimedia Commons, CC BY-SA 4.0)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-api-storage-default-20261028/google-datacenter.jpg)
 *출처: Wikimedia Commons "Google data center.jpg" — 촬영 Lambtron, CC BY-SA 4.0*
 
 ---

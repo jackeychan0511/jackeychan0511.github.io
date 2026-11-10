@@ -5,13 +5,13 @@ date: 2026-10-16 16:54:00 +0900
 categories: [career]
 tags: [Anthropic, Claude, 앤트로픽, 클로드, METR, 독립평가자, IndependentEvaluator, AI안전, AISafety, 프런티어모델, FrontierAI, 레드팀, RedTeam, WhiteHouseAccord, SecureBio, HuggingFace, Accenture, Faculty, 정렬, Alignment, 리스크리포트, RiskReport, AI거버넌스, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/anthropic-independent-evaluators-metr-20261016/anthropic-evaluators-official.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-independent-evaluators-metr-20261016/anthropic-evaluators-official.jpg
 description: "2026년 10월 15일(현지), Anthropic(앤트로픽)이 비영리 평가기관 METR에 '직원급 접근권(employee-like access)'을 부여하기 시작했다고 발표했습니다. METR 직원 6명이 회사 하드웨어·사무 공간·내부 시스템 접근권을 받았고, 앤트로픽은 METR의 발표를 거부권(veto)으로 막을 수 없습니다. 함께 공개된 '평가자 3단계 접근 프로그램'과 SecureBio·Accenture·Faculty·Hugging Face 등 파트너 현황도 정리했습니다. 이슈 요약 → 상세 분석 → 배경 → 영향(사용자·개발자) → 전망 순으로 살펴봅니다."
 sitemap: false
 noindex: true
 ---
 
-![Anthropic(앤트로픽) 독립 평가자 프로그램 발표 이미지](/assets/images/posts/anthropic-independent-evaluators-metr-20261016/anthropic-evaluators-official.jpg)
+![Anthropic(앤트로픽) 독립 평가자 프로그램 발표 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-independent-evaluators-metr-20261016/anthropic-evaluators-official.jpg)
 *Anthropic(앤트로픽)이 공개한 독립 평가자 프로그램 관련 공식 이미지입니다. (이미지 출처: Anthropic 공식 뉴스룸, 2026.10.15)*
 
 > **📌 한줄 요약:** **2026년 10월 15일(현지)**, **Anthropic(앤트로픽)** 이 비영리 평가기관 **METR**에 **'직원급 접근권(employee-like access)'** 을 부여하기 시작했다고 발표했습니다. **METR 직원 6명**이 **회사 하드웨어·사무 공간·내부 시스템 접근권**을 받았고, **Anthropic은 METR의 발표를 거부권으로 막을 수 없습니다.** 함께 공개된 **'평가자 3단계 접근 프로그램'** 과 **SecureBio·Accenture·Faculty·Hugging Face** 등 파트너 현황도 정리했습니다.
@@ -76,7 +76,7 @@ Anthropic은 **세 단계 접근 등급(tier)** 을 설계 중입니다. 궁극�
 
 **SecureBio**는 앤트로픽 8월 위험 보고서(Risk Report)의 **화학·생물무기 챕터**를 검토 중이고, **Accenture·Faculty**와는 **모델 평가·레드팀·정렬 평가·안전장치 테스트**를 포함한 파트너십을 진행 중이라고 밝혔습니다. **Hugging Face** 등과는 **초기 논의** 단계입니다.
 
-![Claude(클로드) 공식 심볼 — 앤트로픽의 AI 어시스턴트 브랜드](/assets/images/posts/anthropic-independent-evaluators-metr-20261016/claude-ai-symbol.png)
+![Claude(클로드) 공식 심볼 — 앤트로픽의 AI 어시스턴트 브랜드](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-independent-evaluators-metr-20261016/claude-ai-symbol.png)
 *Claude(클로드) 공식 심볼입니다. (이미지 출처: Wikimedia Commons, "Claude AI symbol", CC0)*
 
 ---

@@ -5,13 +5,13 @@ date: 2026-07-30 10:00:00 +0900
 categories: [tech, ai]
 tags: [GPT56, 오픈AI, ChatGPT, AI, 인공지능, Sol, Terra, Luna, 코딩AI, AI에이전트, IT트렌드, 2026]
 author: "40대 블로거"
-image: /assets/images/posts/gpt-5-6-complete-guide/gpt56-openai.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gpt-5-6-complete-guide/gpt56-openai.jpg
 description: "2026년 7월 9일 정식 출시된 OpenAI의 GPT-5.6 시리즈. Sol·Terra·Luna 세 모델의 차이점, 가격, 성능, 추천 대상을 실제 사용 관점에서 비교 정리했습니다. 코딩·에이전트·일반 작업별로 어떤 모델이 적합한지 알려드립니다."
 ---
 
 > **📌 한줄 요약:** OpenAI가 2026년 7월 9일 GPT-5.6 시리즈를 정식 출시했습니다. 플래그십 **Sol**, 균형형 **Terra**, 경량형 **Luna** 세 모델로 나뉘며, 코딩·사이버보안·과학 분야에서 전 세대를 뛰어넘는 성능을 보여줍니다. Terra는 ChatGPT 무료 사용자도 쓸 수 있고, Sol은 105만 토큰 컨텍스트와 멀티 에이전트 기능이 핵심입니다.
 
-![OpenAI GPT-5.6 공식 이미지](/assets/images/posts/gpt-5-6-complete-guide/gpt56-openai.jpg)
+![OpenAI GPT-5.6 공식 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gpt-5-6-complete-guide/gpt56-openai.jpg)
 *출처: OpenAI 공식 홈페이지 — GPT-5.6 Sol 미리보기 페이지 (openai.com)*
 
 ---
@@ -39,7 +39,7 @@ description: "2026년 7월 9일 정식 출시된 OpenAI의 GPT-5.6 시리즈. So
 
 ## <a name="2">Sol·Terra·Luna 세 모델의 핵심 차이</a>
 
-![조선비즈 GPT-5.6 출시 기사 이미지](/assets/images/posts/gpt-5-6-complete-guide/gpt56-chosun.jpg)
+![조선비즈 GPT-5.6 출시 기사 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gpt-5-6-complete-guide/gpt56-chosun.jpg)
 *출처: 조선비즈 — "오픈AI, GPT-5.6 정식 출시" (2026.07.10)*
 
 GPT-5.6은 성능과 가격대에 따라 세 가지 티어로 구분됩니다.
@@ -74,7 +74,7 @@ GPT-5.6은 성능과 가격대에 따라 세 가지 티어로 구분됩니다.
 
 솔직히 말하면, Terra의 가성비가 가장 인상적입니다. GPT-5.5와 비슷한 성능을 절반 가격에 쓰니까요. Luna는 대량 API 호출이 필요한 서비스에 적합하고, Sol은 진짜 고난도 작업이 있을 때만 골라 쓰는 걸 추천합니다.
 
-![한국일보 GPT-5.6 관련 기사 이미지](/assets/images/posts/gpt-5-6-complete-guide/gpt56-hankook.jpg)
+![한국일보 GPT-5.6 관련 기사 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gpt-5-6-complete-guide/gpt56-hankook.jpg)
 *출처: 한국일보 — "클로드와 성능 겨룬 GPT-5.6 출시…업무 파트너로 진화" (2026.07.10)*
 
 ---

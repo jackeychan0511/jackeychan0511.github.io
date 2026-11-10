@@ -5,7 +5,7 @@ date: 2026-10-24 14:50:00 +0900
 categories: [career]
 tags: [OpenAI, DecisionsAPI, GPT6Luna, OpenAIAPI, 정식출시, 업무자동화, AI에이전트, API가격, 프롬프트캐싱, 분류자동화, 프롬프트라우팅, GPTLive, AI뉴스, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/openai-decisions-api-ga-20261024/openai-decisions-api-ga-guide.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-decisions-api-ga-20261024/openai-decisions-api-ga-guide.png
 description: "2026년 10월 22일, OpenAI가 Decisions API를 정식 출시(GA)했습니다. GPT-6 Luna 기반으로 입력 100만 토큰당 0.10달러, 캐시 입력 0.01달러, 출력 토큰 요금은 0원입니다. 베타 대비 프롬프트 캐싱·JSON 입력·이미지 URL·질문 400개·GPT-Live 연동이 추가됐고, ZDR과 HIPAA, 미국·유럽 리전 처리까지 지원합니다. 분류·라우팅·검수 자동화를 운영하는 팀이 실제로 따져야 할 비용 계산과 한계까지 정리했습니다."
 ---
 
@@ -15,7 +15,7 @@ description: "2026년 10월 22일, OpenAI가 Decisions API를 정식 출시(GA)�
 
 그 지점을 겨냥한 API가 **공개 베타를 끝내고 정식 제품이 됐습니다.** 10월 초 베타 소식에서 "몇 주 안에 GA, 요금 정책이 관전 포인트"라고 짚었는데, 그 답이 이번에 나온 셈입니다. 이번 글은 **베타와 무엇이 달라졌는지**, 그리고 **실무에서 비용이 실제로 얼마나 달라지는지** 중심으로 정리했습니다.
 
-![OpenAI 공식 개발자 문서의 Decisions API 가이드 화면 (출처: OpenAI 공식 개발자 문서 developers.openai.com, 2026년 10월 24일 캡처)](/assets/images/posts/openai-decisions-api-ga-20261024/openai-decisions-api-ga-guide.png)
+![OpenAI 공식 개발자 문서의 Decisions API 가이드 화면 (출처: OpenAI 공식 개발자 문서 developers.openai.com, 2026년 10월 24일 캡처)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-decisions-api-ga-20261024/openai-decisions-api-ga-guide.png)
 *OpenAI 공식 개발자 문서의 Decisions API 가이드 화면 (출처: OpenAI 공식 개발자 문서 developers.openai.com, 2026년 10월 24일 캡처)*
 
 ## 이슈 요약 — 무엇이 확정됐나
@@ -30,7 +30,7 @@ description: "2026년 10월 22일, OpenAI가 Decisions API를 정식 출시(GA)�
 
 베타 때와 비교하면 "기능이 늘었다"보다 **"프로덕션에 넣을 수 있는 조건이 갖춰졌다"** 는 쪽이 정확한 변화입니다. 데이터 처리 옵션과 사용량 집계, 사설 연결이 한꺼번에 붙었기 때문입니다.
 
-![OpenAI Decisions API 공식 문서 대표 이미지 (출처: OpenAI 공식 개발자 문서 developers.openai.com, 2026년 10월)](/assets/images/posts/openai-decisions-api-ga-20261024/openai-decisions-api-ga-official.png)
+![OpenAI Decisions API 공식 문서 대표 이미지 (출처: OpenAI 공식 개발자 문서 developers.openai.com, 2026년 10월)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-decisions-api-ga-20261024/openai-decisions-api-ga-official.png)
 *OpenAI Decisions API 공식 문서 대표 이미지 (출처: OpenAI 공식 개발자 문서 developers.openai.com, 2026년 10월)*
 
 ## 상세 분석 — 정식판에서 달라진 9가지

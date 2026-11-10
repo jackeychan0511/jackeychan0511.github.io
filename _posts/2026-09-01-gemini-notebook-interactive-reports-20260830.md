@@ -6,7 +6,7 @@ categories: [career]
 tags: [Gemini, Google, GeminiNotebook, NotebookLM, 인터랙티브리포트, AI리서치, AI보고서, 스튜디오, 구글AI, AI뉴스, 2026년8월]
 author: "40대 블로거"
 description: "2026년 8월 30일 TestingCatalog가 Gemini Notebook(전 NotebookLM)에 '인터랙티브 리포트(Interactive Reports)' 기능이 준비되고 있다고 보도했습니다. 스튜디오(Studio) 패널에 '대화형 보고서를 만들 수 있습니다' 안내가 등장했고, '스튜디오 콘텐츠를 포함한 인터랙티브 보고서'라는 새 프리셋이 확인됐습니다. 여기에 채팅 창에서 바로 PDF·Word·Excel·PowerPoint로 내보내기가 이미 지원된다는 소식까지. 리서치 툴에서 '구조화된 연구 워크스페이스'로 진화하는 Gemini Notebook의 움직임을 이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망 순서로 정리했습니다."
-image: /assets/images/posts/gemini-notebook-interactive-reports-20260830/gemini-notebook-official-cover.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-notebook-interactive-reports-20260830/gemini-notebook-official-cover.png
 sitemap: false
 noindex: true
 ---
@@ -15,7 +15,7 @@ noindex: true
 
 지난 8월 30일, AI 앱 분석 매체 **TestingCatalog**가 **Gemini Notebook에 '인터랙티브 리포트(Interactive Reports)' 기능이 준비되고 있다**고 보도했습니다. 같은 시각, **PDF·Word·Excel·PowerPoint로의 내보내기가 채팅 창에서 바로 지원되는 것**도 확인됐는데요. 오늘은 이 소식을 **이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망** 순서로 정리해 드립니다.
 
-![Gemini Notebook 공식 커버 이미지](/assets/images/posts/gemini-notebook-interactive-reports-20260830/gemini-notebook-official-cover.png)
+![Gemini Notebook 공식 커버 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-notebook-interactive-reports-20260830/gemini-notebook-official-cover.png)
 *Gemini Notebook — 구글 공식 블로그 'NotebookLM is now Gemini Notebook' (출처: Google 공식 블로그, 2026.7.16)*
 
 ## 📌 이슈 요약: "리서치 툴"에서 "보고서 공장"으로
@@ -55,7 +55,7 @@ TestingCatalog가 공개한 화면을 보면, Gemini Notebook의 스튜디오 �
 
 구글은 Gemini Notebook을 단순 'PDF 요약 도구'가 아니라, **자료를 넣고 → 분석하고 → 보고서·발표자료까지 완성해 내보내는 연구 워크스페이스**로 키우고 있습니다.
 
-![Gemini Notebook 스튜디오 패널 화면](/assets/images/posts/gemini-notebook-interactive-reports-20260830/gemini-notebook-interactive-reports-testingcatalog.jpg)
+![Gemini Notebook 스튜디오 패널 화면](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-notebook-interactive-reports-20260830/gemini-notebook-interactive-reports-testingcatalog.jpg)
 *Gemini Notebook 스튜디오 패널 — '인터랙티브 보고서' 안내 문구가 확인된 화면 (출처: TestingCatalog, 2026.8.30)*
 
 ## 👥 영향: 사용자와 개발자

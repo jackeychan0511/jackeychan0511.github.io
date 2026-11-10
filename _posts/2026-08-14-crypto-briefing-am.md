@@ -5,13 +5,13 @@ date: 2026-08-14 06:30:00 +0900
 categories: [finance]
 tags: [비트코인, 가상화폐, 코인, BTC, 암호화폐]
 author: "40대 블로거"
-image: /assets/images/posts/crypto-briefing-20260814-am/bitcoin-price-chart.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/crypto-briefing-20260814-am/bitcoin-price-chart.png
 description: "8월 14일 오전 코인 브리핑. 7월 PPI가 보합(0.0%)을 기록하며 시장 예상(+0.2%)을 밑돌아 9월 금리 인상 확률이 35%로 낮아지고 동결 확률은 65%로 높아졌다. 비트코인은 중동발 지정학적 불확실성과 롱 포지션 청산 부담 속에 6.3만 달러 안팎에서 등락했다. 메타플래닛은 첫 '비트본드'를 발행했고, UBS는 IBIT 보유 규모를 상반기 230% 늘렸다."
 sitemap: false
 noindex: true
 ---
 
-![비트코인 일봉 캔들 차트](/assets/images/posts/crypto-briefing-20260814-am/bitcoin-price-chart.png)
+![비트코인 일봉 캔들 차트](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/crypto-briefing-20260814-am/bitcoin-price-chart.png)
 *비트코인 일봉 캔들 차트 — 8/14 오전 브리핑 (Fabo.Hax / Wikimedia Commons, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/))*
 
 **핵심 요약**: 어젯밤(8/13 현지) 발표된 미국 7월 PPI가 보합을 기록하며 시장 예상(+0.2%)을 밑돌았습니다. 9월 금리 인상 확률이 35%까지 낮아지고 동결 확률은 65%로 높아졌지만, 비트코인은 중동발 지정학적 불확실성과 대규모 롱 청산 부담 속에 6.3만 달러 안팎에서 등락을 반복했습니다.

@@ -6,7 +6,7 @@ categories: [ai-teacher]
 tags: [Flutter, 개발일지, 앱개발, 맛집, 맛집검색, 카카오API, 카카오맵, GPS, 안드로이드, geolocator, 코딩, 2026년8월]
 author: "40대 블로거"
 description: "밖에 나가면 어디서 뭐 먹을지 고민될 때, 내 위치 주변 맛집을 카테고리별로 보여주는 '재찬키의 맛집 검색' Flutter 앱을 만든 개발일지입니다. 카카오 로컬 API 연동, GPS 기반 거리순 검색, 카테고리 중복 버그 수정, 테스트 13/13과 APK 배포까지 9단계로 정리했습니다."
-image: /assets/images/posts/matjip-search-devlog-20260815/3.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/matjip-search-devlog-20260815/3.jpg
 ---
 
 며칠 전 [Flutter로 만든 'AI 선생님' 앱 개발일지](/2026/08/03/ai-teacher-devlog/)로 앱 개발기를 공유했더니, 반응이 좋아서 이번엔 **맛집 검색 앱**도 만들어봤습니다.
@@ -170,7 +170,7 @@ final response = await _client.get(uri, headers: {
   - **전화 걸기** — 예약할 때 유용
 - 아래로 당기면 새로고침 (RefreshIndicator)
 
-![맛집 목록 화면 — 거리순 카드 리스트](/assets/images/posts/matjip-search-devlog-20260815/3.jpg)
+![맛집 목록 화면 — 거리순 카드 리스트](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/matjip-search-devlog-20260815/3.jpg)
 *맛집 목록 화면 — 가까운 순으로 정렬된 카드 리스트에 거리 뱃지(280m~392m) 표시*
 
 네이버 플레이스는 카카오와 달리 API 키가 필요 없어서, 가게명 + 시군구를 조합한 검색 URL을 직접 열어주는 방식으로 구현했습니다.
@@ -198,10 +198,10 @@ Future<void> saveKakaoKey(String key) async {
 
 키는 이 앱의 로컬 저장소에만 보관되고, 서버로 전송되지 않습니다. 사용자는 카카오 개발자 콘솔(developers.kakao.com)에서 **내 애플리케이션 → 앱 키** 메뉴의 REST API 키를 복사해 붙여넣기만 하면 됩니다.
 
-![설정 화면 — 카카오 API 키 입력](/assets/images/posts/matjip-search-devlog-20260815/1.jpg)
+![설정 화면 — 카카오 API 키 입력](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/matjip-search-devlog-20260815/1.jpg)
 *설정 화면 — 개발자 표기와 함께 사용자가 직접 카카오 REST API 키를 입력하는 구조*
 
-![카카오 API 키 발급 방법 안내](/assets/images/posts/matjip-search-devlog-20260815/2.jpg)
+![카카오 API 키 발급 방법 안내](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/matjip-search-devlog-20260815/2.jpg)
 *설정 화면 안에 넣은 키 발급 방법 5단계 안내 (developers.kakao.com 접속부터 복사까지)*
 
 ---

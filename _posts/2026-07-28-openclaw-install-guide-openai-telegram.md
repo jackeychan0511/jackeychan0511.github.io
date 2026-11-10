@@ -4,7 +4,7 @@ title: "OpenClaw 설치 가이드: OpenAI 뇌로 Telegram AI 비서 만들기 (2
 date: 2026-07-26 14:00:00 +0900
 categories: [career]
 tags: [OpenClaw, ChatGPT, OpenAI, 텔레그램봇, AI에이전트, AI자동화, 개인비서]
-image: /assets/images/posts/openclaw-guide/hero.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openclaw-guide/hero.png
 ---
 
 요즘 AI 에이전트에 대한 관심이 뜨겁습니다. 그중에서도 **OpenClaw**는 단연 화제의 중심에 있는 오픈소스 AI 에이전트 플랫폼인데요.
@@ -66,7 +66,7 @@ OpenAI를 두뇌로 사용하려면 **OpenAI API 키**가 필요합니다.
 
 ## 3. OpenClaw 설치하기
 
-![OpenClaw 설치 화면](/assets/images/posts/openclaw-guide/setup.png)
+![OpenClaw 설치 화면](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openclaw-guide/setup.png)
 
 설치 방법은 3가지가 있습니다. 초보자에게는 **npm 글로벌 설치**를 가장 추천합니다.
 

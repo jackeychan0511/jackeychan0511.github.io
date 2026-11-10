@@ -5,7 +5,7 @@ date: 2026-08-02 22:30:00 +0900
 categories: [career]
 tags: [OpenClaw, 오픈클로, AI에이전트, v2026.7.2, 베타, GPTLive, Automations, DuckDuckGo, FishAudio, 업데이트, 릴리즈, 오픈소스AI, 2026년8월]
 author: "40대 블로거"
-image: /assets/images/posts/openclaw-v202672-beta7-20260802/openclaw-og-image.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openclaw-v202672-beta7-20260802/openclaw-og-image.png
 description: "오픈소스 AI 에이전트 OpenClaw가 8월 1일 베타.6, 8월 2일 베타.7을 잇달아 배포했습니다. GPT Live 인증 방식 변경(Codex OAuth 폴백 제거·Platform API 키 필수), cron→Automations 개명, DuckDuckGo 검색의 플러그인 분리, 그리고 정식 릴리즈를 앞둔 릴리즈 검증 절차 도입까지 v2026.7.2 베타의 최신 상황을 총정리했습니다."
 sitemap: false
 noindex: true
@@ -13,7 +13,7 @@ noindex: true
 
 > **📌 한줄 요약:** 오픈소스 AI 에이전트 **OpenClaw**가 8월 1일 **v2026.7.2 베타.6**, 8월 2일 **베타.7**을 이틀 연속 배포하며 안정화 국면에 들어섰습니다. 이번 베타에서는 **GPT Live 인증 방식이 바뀌어** 이제 OpenAI **Platform API 키가 필수**이고, **cron 도구가 Automations로 개명**, **DuckDuckGo 검색이 플러그인으로 분리**됐습니다. 베타.7부터는 **릴리즈 검증(Release Verification) 절차**까지 도입돼 정식 릴리즈가 멀지 않았다는 신호로 읽힙니다.
 
-![OpenClaw 공식 홈페이지 대표 이미지](/assets/images/posts/openclaw-v202672-beta7-20260802/openclaw-og-image.png)
+![OpenClaw 공식 홈페이지 대표 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openclaw-v202672-beta7-20260802/openclaw-og-image.png)
 *OpenClaw 공식 홈페이지 대표 이미지 (출처: openclaw.ai, 확인일 2026-08-02)*
 
 ---
@@ -26,7 +26,7 @@ noindex: true
 
 이번 글에서는 어제와 오늘 나온 **베타.6·베타.7의 핵심 변화**와, 제가 실제로 확인한 **정식 릴리즈 임박 신호**까지 정리해드립니다. 특히 **GPT Live를 Codex 계정(OAuth)으로 쓰고 계셨던 분들은 꼭 읽어보셔야 합니다.** 인증 방식이 바뀌었거든요.
 
-![OpenClaw 공식 문서 OG 카드](/assets/images/posts/openclaw-v202672-beta7-20260802/openclaw-docs-ogcard.png)
+![OpenClaw 공식 문서 OG 카드](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openclaw-v202672-beta7-20260802/openclaw-docs-ogcard.png)
 *OpenClaw 공식 문서 사이트 대표 카드 — 멀티채널 게이트웨이를 표방 (출처: docs.openclaw.ai, 확인일 2026-08-02)*
 
 ---
@@ -80,7 +80,7 @@ noindex: true
 - **제공자 신뢰성**: Anthropic의 Retry-After 응답 존중, Codex Computer Use 경로 복구, Ollama/LM Studio 등 로컬 모델 탐지 안정화
 - **시스템**: systemd 게이트웨이 중복 소유권 방지 등
 
-![OpenClaw 실제 사용 예시 — WhatsApp 채널](/assets/images/posts/openclaw-v202672-beta7-20260802/openclaw-whatsapp-usage.jpg)
+![OpenClaw 실제 사용 예시 — WhatsApp 채널](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openclaw-v202672-beta7-20260802/openclaw-whatsapp-usage.jpg)
 *OpenClaw 공식 문서에 공개된 WhatsApp 채널 사용 예시 (출처: docs.openclaw.ai, 확인일 2026-08-02)*
 
 솔직히 "기능이 화려하게 늘었다"기보다는 **"쌓인 기능이 흔들리지 않게 다지는"** 성격의 업데이트입니다. 밤새 자동화 작업을 돌려놓는 분에게는 오히려 이런 업데이트가 더 반갑습니다. 크래시 한 번에 작업이 증발하는 일이 없어야 하니까요.
@@ -98,7 +98,7 @@ noindex: true
 
 이건 단순한 형식 변화가 아니라 **"배포할 때마다 이 버전이 검증됐는지 증명을 남기는"** 품질 게이트입니다. 여기에 릴리즈 주기가 **7/28 → 8/1 → 8/2로 급격히 짧아진** 점까지 합치면, **v2026.7.2 정식판(Stable)이 머지않아 나올 가능성이 높다**고 보는 게 합리적입니다.
 
-![ClawCon 2026 현장 — OpenClaw 창업자 피터 스타인버거(좌)와 토마스 테일러(우)](/assets/images/posts/openclaw-v202672-beta7-20260802/openclaw-clawcon-2026.jpg)
+![ClawCon 2026 현장 — OpenClaw 창업자 피터 스타인버거(좌)와 토마스 테일러(우)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openclaw-v202672-beta7-20260802/openclaw-clawcon-2026.jpg)
 *ClawCon 2026 현장의 OpenClaw 창업자 피터 스타인버거와 토마스 테일러 (출처: Wikimedia Commons, 확인일 2026-08-02)*
 
 참고로 프로젝트 규모도 계속 커지고 있습니다. GitHub 기준 **스타 약 38만 5,000개(384,903개, 2026-08-02 확인)**, 포크 약 8만 1,000개 수준입니다. 7월 13일 정식 릴리즈된 v2026.7.1(3,063개 커밋·532명 컨트리뷰터) 이후에도 개발 속도는 꺾이지 않는 모양새입니다.

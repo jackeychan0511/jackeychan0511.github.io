@@ -5,11 +5,11 @@ date: 2026-10-10 15:50:00 +0900
 categories: [career]
 tags: [Google Gemini, 구글 제미나이, EmbeddingGemma 2, 임베딩젬마2, Gemma 4, 젬마4, 온디바이스 AI, 멀티모달 임베딩, 오픈소스 AI, Apache 2.0, RAG, 온디바이스 RAG, 시맨틱 검색, 벡터 검색, Google DeepMind, 구글 딥마인드, 엣지 AI, MediaPipe, 업무자동화, AI뉴스, 2026년 10월]
 author: "40대 블로거"
-image: /assets/images/posts/gemini-embeddinggemma2-20261006/embeddinggemma2-hero-googledeepmind.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-embeddinggemma2-20261006/embeddinggemma2-hero-googledeepmind.png
 description: "2026년 10월 6일, 구글 딥마인드가 오픈 멀티모달 임베딩 모델 'EmbeddingGemma 2'를 공개했습니다. Gemma 4 기반의 sub-1B 모델로, 텍스트·코드·이미지·영상·오디오를 하나의 768차원 벡터 공간에 매핑합니다. 270M(텍스트·코드)부터 740M(전체 멀티모달)까지 모듈형으로 필요한 인코더만 로드하고, Matryoshka 표현학습으로 768→128차원까지 줄여 벡터 DB 저장 공간을 최대 6배 아낍니다. 픽셀 11 프로에서 전체 모델이 약 567MB RAM으로 동작하며, 코드 검색 성능은 전작 대비 9.92점(68.76→78.68) 올랐습니다. 이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망 순으로 정리했습니다."
 ---
 
-![EmbeddingGemma 2 공개 — 구글 딥마인드 공식 비주얼](/assets/images/posts/gemini-embeddinggemma2-20261006/embeddinggemma2-hero-googledeepmind.png)
+![EmbeddingGemma 2 공개 — 구글 딥마인드 공식 비주얼](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-embeddinggemma2-20261006/embeddinggemma2-hero-googledeepmind.png)
 *구글 딥마인드가 2026년 10월 6일 공개한 EmbeddingGemma 2 공식 비주얼 (출처: Google DeepMind 공식 블로그)*
 
 > **📌 한줄 요약:** **2026년 10월 6일**, 구글 딥마인드가 **오픈 멀티모달 임베딩 모델 'EmbeddingGemma 2'**를 공개했습니다. **Gemma 4 아키텍처** 기반의 **sub-1B(10억 미만) 모델**로, **텍스트·코드·이미지·영상·오디오를 하나의 768차원 벡터 공간**에 매핑합니다. **270M(텍스트·코드)부터 740M(전체 멀티모달)까지 모듈형**으로 필요한 인코더만 메모리에 올리고, **Matryoshka 표현학습(MRL)** 으로 **768→128차원**까지 줄여 **벡터 DB 저장 공간을 최대 6배** 아낍니다. 픽셀 11 프로에서 **전체 모델이 약 567MB RAM**으로 돌아가고, **코드 검색 성능은 전작 대비 9.92점(68.76→78.68)** 올랐습니다. 라이선스는 **Apache 2.0**입니다.
@@ -58,7 +58,7 @@ EmbeddingGemma 1은 **텍스트 임베딩**에 특화된 가벼운 모델이었�
 
 가장 눈에 띄는 개선은 **코드 검색**입니다. **MTEB(Code) 점수가 68.76에서 78.68로 9.92점** 올라, **로컬 코드베이스 인덱싱·시맨틱 코드 검색·코딩 에이전트의 검색 단계**에 특히 적합해졌습니다. 여기에 더해 **MTEB(텍스트)·MAEB(오디오) 등에서 sub-1B급 최상위** 성능을 기록했고, **2배 이상 큰 전문 모델을 앞서는 항목**도 있다고 밝혔습니다.
 
-![EmbeddingGemma 2 멀티모달 임베딩 벤치마크 — 구글 딥마인드 공식 자료](/assets/images/posts/gemini-embeddinggemma2-20261006/embeddinggemma2-mteb-benchmark-google.webp)
+![EmbeddingGemma 2 멀티모달 임베딩 벤치마크 — 구글 딥마인드 공식 자료](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-embeddinggemma2-20261006/embeddinggemma2-mteb-benchmark-google.webp)
 *EmbeddingGemma 2 공식 벤치마크 자료(텍스트 임베딩) — sub-1B급 최상위 수준을 기록했습니다 (출처: Google DeepMind 공식 블로그 / Google)*
 
 ### 5) '오프라인'이 기본값이 된다

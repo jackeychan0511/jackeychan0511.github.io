@@ -4,7 +4,7 @@ title: "[업데이트] 황소수학, 기초생활수급자·차상위계층 자�
 date: 2026-08-15 12:00:00 +0900
 categories: [education]
 tags: [황소수학, 생각하는황소, 황소고시]
-image: /assets/images/posts/thinking-bull-tuition-free.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/thinking-bull-tuition-free.jpg
 description: "2026년 8월 15일 기준 생각하는황소(황소수학) 새 소식. 기초생활수급자와 차상위계층 자녀의 수강료를 2026년 8월부터 전국 지점에서 전액 면제하기로 했습니다. 시·군·구 발급 확인서를 학원에 제출하면 되며, 8월 이후 신입생도 동일 조건이 적용됩니다."
 ---
 

@@ -5,13 +5,13 @@ date: 2026-11-08 16:52:00 +0900
 categories: [career]
 tags: [Anthropic, Claude, 앤트로픽, 클로드, PersonalFinance, 퍼스널파이낸스, Plaid, 금융AI, 소비분석, 가계부, 프라이버시, 보안, ChatGPT, 업무자동화, 2026년11월]
 author: "40대 블로거"
-image: /assets/images/posts/anthropic-claude-personal-finance-20261108/claude-personal-finance-hero.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-personal-finance-20261108/claude-personal-finance-hero.png
 description: "Anthropic이 2026년 11월 5일 Claude에 '퍼스널 파이낸스'를 베타로 풀었습니다. Plaid로 은행·카드 계좌를 연결하면 소비 카테고리 분석, 다음 급여일 전 빠져나갈 결제, 중복 청구·인상된 요금 찾기까지 자연어로 처리합니다. 읽기 전용 접근, 모델 학습 미사용, 언제든 연동 해제라는 조건과 함께 기능 범위·보안 구조·경쟁 구도·사용자와 개발자에게 미치는 영향을 정리했습니다."
 sitemap: false
 noindex: true
 ---
 
-![Claude 퍼스널 파이낸스 화면](/assets/images/posts/anthropic-claude-personal-finance-20261108/claude-personal-finance-hero.png)
+![Claude 퍼스널 파이낸스 화면](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-personal-finance-20261108/claude-personal-finance-hero.png)
 *Anthropic이 공개한 퍼스널 파이낸스 화면. 연결한 계좌의 소비를 카테고리별로 합산해 한 화면에 보여줍니다 (이미지 출처: Anthropic 공식 발표 자료, claude.com)*
 
 > **📌 한줄 요약:** Anthropic이 **2026년 11월 5일** Claude에 **퍼스널 파이낸스(Personal Finance)** 를 베타로 추가했습니다. **Plaid**를 통해 은행·카드 계좌를 연결하면 "이번 달에 돈이 어디로 갔나" 같은 질문에 카테고리별 소비 내역, 급여일 전 빠져나갈 결제, 중복 청구·슬금슬금 오른 요금까지 정리해 답합니다. 접근은 **읽기 전용**이고, 허브 안에서의 대화는 **모델 학습에 쓰이지 않으며**, 계좌는 **언제든 연동 해제**할 수 있습니다. 대상은 **미국 Pro·Max·Ultra 구독자**로 한정된 베타입니다.
@@ -30,7 +30,7 @@ Anthropic은 11월 5일(미국 시간) 공식 자료 "Introducing Personal Finan
 
 같은 날 The Verge와 MacRumors가 일제히 보도했고, TestingCatalog는 "Claude adds Personal Finance with read-only bank access"라는 제목으로 기능 스펙을 정리했습니다. 즉, 루머 단계가 아니라 **공식 발표가 끝난 실제 배포**입니다.
 
-![Claude 퍼스널 파이낸스 결제 예정 화면](/assets/images/posts/anthropic-claude-personal-finance-20261108/claude-personal-finance-payments.png)
+![Claude 퍼스널 파이낸스 결제 예정 화면](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-personal-finance-20261108/claude-personal-finance-payments.png)
 *급여일 전에 빠져나갈 결제와 남는 금액을 정리해 보여주는 화면. 공식 예시에서는 급여일 전 4건의 결제를 빼고 1,393.22달러가 남는다고 계산했습니다 (이미지 출처: Anthropic 공식 발표 자료, claude.com)*
 
 ---

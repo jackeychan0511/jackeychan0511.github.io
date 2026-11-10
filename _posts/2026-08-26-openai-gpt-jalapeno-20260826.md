@@ -5,7 +5,7 @@ date: 2026-08-26 14:58:00 +0900
 categories: [career]
 tags: [GPT, OpenAI, Jalapeño, 할라페뇨, AI칩, 추론칩, Broadcom, 엔비디아, GB300, HotChips, InferenceX, 추론비용, AI인프라, AI뉴스, 2026년8월]
 author: "40대 블로거"
-image: /assets/images/posts/openai-gpt-jalapeno-20260826/openai-jalapeno-chip.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-gpt-jalapeno-20260826/openai-jalapeno-chip.jpg
 description: "2026년 8월 25일(미국 현지시간) Hot Chips 컨퍼런스에서 OpenAI가 첫 자체 설계 AI 추론 칩 'Jalapeño(할라페뇨)'의 첫 공식 벤치마크 결과를 공개했습니다. SemiAnalysis의 공개 벤치마크 InferenceX 기준 GPT-OSS 120B·DeepSeek R1 670B·Kimi K2.5 1T 세 모델에서 엔비디아 GB200/GB300 대비 전력당 처리량 1.5~1.9배, 종단 간 지연시간 1.7~3.6배 단축을 달성했다고 합니다. Broadcom과 공동 개발·TSMC 3nm로 제조된 이 칩이 GPT 추론 비용과 속도에 어떤 변화를 가져올지, 사용자·개발자에게 미치는 영향과 전망까지 정리했습니다."
 sitemap: false
 noindex: true
@@ -13,7 +13,7 @@ noindex: true
 
 > **📌 한줄 요약:** OpenAI가 2026년 8월 25일(화, 미국 현지시간) **자체 설계 첫 AI 추론 칩 'Jalapeño(할라페뇨)'의 첫 공식 벤치마크 결과**를 공개했습니다. SemiAnalysis가 만든 공개 벤치마크 **InferenceX**로 GPT-OSS 120B·DeepSeek R1 670B·Kimi K2.5 1T 등 공개 모델 3종을 돌린 결과, 엔비디아 **GB200/GB300 대비 전력당 처리량 1.5~1.9배, 종단 간 응답 지연시간 1.7~3.6배 단축**을 달성했다고 합니다. 지난 6월 24일 Broadcom과 공동 개발·TSMC 3nm 공정 소식으로 처음 공개된 이 칩은, **연내 OpenAI 인프라에 배포를 시작**해 GPT 추론 속도와 비용을 직접 바꿀 예정입니다. 모델(소프트웨어)에 이어 '칩(하드웨어)'까지 직접 만드는 OpenAI의 수직 통합 전략이 첫 성적표를 낸 셈입니다.
 
-![OpenAI 자체 설계 AI 추론 칩 'Jalapeño' 공식 이미지 (티콜 기판에 실장된 모습)](/assets/images/posts/openai-gpt-jalapeno-20260826/openai-jalapeno-chip.jpg)
+![OpenAI 자체 설계 AI 추론 칩 'Jalapeño' 공식 이미지 (티콜 기판에 실장된 모습)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-gpt-jalapeno-20260826/openai-jalapeno-chip.jpg)
 *이미지 출처: OpenAI 공식 발표 'Jalapeño's first results show industry-leading speed and efficiency in AI inference' (2026.8.25)*
 
 ## 이슈 요약 — \"OpenAI가 마침내 '칩'까지 직접 만든다\"
@@ -90,7 +90,7 @@ OpenAI는 SemiAnalysis의 공개 벤치마크 **InferenceX**를 사용해, GPT-O
 
 ## 마무리 — 정리하면
 
-![OpenAI 공식 로고 (2025 심볼)](/assets/images/posts/openai-gpt-jalapeno-20260826/openai-logo-2025-symbol.png)
+![OpenAI 공식 로고 (2025 심볼)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-gpt-jalapeno-20260826/openai-logo-2025-symbol.png)
 *이미지 출처: Wikimedia Commons (OpenAI logo 2025 symbol, 공식 브랜드 로고)*
 
 이번 소식을 한 문장으로 정리하면, **\"OpenAI가 첫 자체 추론 칩 Jalapeño로 '와트당 성능' 1.9배를 증명하며, AI 비용·속도의 다음 단계를 직접 만들기 시작했다\"**입니다. 발표 주체가 직접 측정한 수치라는 점은 감안하되, 추론 전용 설계·풀스택 공동 설계·AI를 활용한 칩 개발이라는 방향 자체는 분명한 산업적 전환점입니다. GPT를 자주 쓰는 분이라면 **연내 배포 이후 '더 빠르고 싼 GPT'를 기대**해도 좋고, 개발자라면 **추론 비용 하락 여력**을 비즈니스 모델에 미리 반영해 볼 만합니다. '가성비 좋은 AI 경험'을 찾는 분께 특히 주목해 볼 만한 소식이었습니다.

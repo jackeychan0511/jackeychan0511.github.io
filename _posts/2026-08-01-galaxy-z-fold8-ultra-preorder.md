@@ -4,13 +4,13 @@ title: "갤럭시 Z 폴드8 울트라 추천 총정리 — 첫 '울트라' 폴�
 date: 2026-08-01 13:00:00 +0900
 categories: [products]
 tags: [삼성, 갤럭시, Z폴드8울트라, 폴더블, 사전예약, 300만원시대, 200MP, 5000mAh, 언팩2026, IT, 신제품, 스마트폰, 구매가이드]
-image: /assets/images/posts/galaxy-z-fold8-ultra-preorder-2026/hero-galaxy-z-fold8-series.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/galaxy-z-fold8-ultra-preorder-2026/hero-galaxy-z-fold8-series.jpg
 description: "갤럭시 Z 폴드8 울트라가 8월 3일 사전예약 마감을 앞두고 있습니다. 폴더블 최초의 '울트라' 모델의 핵심 스펙, 1030세대 사전예약 50% 돌파 소식, 더블 스토리지 등 구매 전 확인할 혜택을 총정리했습니다."
 ---
 
 > **📌 한줄 요약:** 갤럭시 Z 폴드8 울트라는 **삼성 폴더블 최초의 '울트라' 모델**입니다. **8인치 대화면·2억 화소 카메라·5,000mAh 배터리**를 갖췄고, 사전예약 고객의 1030세대 비중이 **50%를 넘겼을** 정도로 요즘 가장 뜨거운 제품입니다. **사전예약은 8월 3일(월)까지**, 정식 출시는 8월 7일(금)입니다.
 
-![갤럭시 Z 폴드8 시리즈 3종 공식 이미지](/assets/images/posts/galaxy-z-fold8-ultra-preorder-2026/hero-galaxy-z-fold8-series.jpg)
+![갤럭시 Z 폴드8 시리즈 3종 공식 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/galaxy-z-fold8-ultra-preorder-2026/hero-galaxy-z-fold8-series.jpg)
 *왼쪽부터 갤럭시 Z 플립8, Z 폴드8, Z 폴드8 울트라 (출처: Samsung Newsroom, 확인일 2026-08-01)*
 
 ---
@@ -39,7 +39,7 @@ description: "갤럭시 Z 폴드8 울트라가 8월 3일 사전예약 마감을 
 
 사전예약은 **7월 28일부터 8월 3일(월)까지**, 불과 이틀 남았습니다. 개통은 8월 4일부터, 공식 출시는 8월 7일(금)이에요. **더블 스토리지 등 사전예약 전용 혜택**을 노린다면 이번 주말이 마지막 기회입니다.
 
-![갤럭시 Z 폴드8 울트라 공식 사진](/assets/images/posts/galaxy-z-fold8-ultra-preorder-2026/galaxy-z-fold8-ultra.jpg)
+![갤럭시 Z 폴드8 울트라 공식 사진](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/galaxy-z-fold8-ultra-preorder-2026/galaxy-z-fold8-ultra.jpg)
 *갤럭시 Z 폴드8 울트라 — 폴더블 최초의 울트라 모델 (출처: Samsung Newsroom, 확인일 2026-08-01)*
 
 ---
@@ -70,7 +70,7 @@ description: "갤럭시 Z 폴드8 울트라가 8월 3일 사전예약 마감을 
 
 삼성의 자체 기술인 **플렉스 티타늄(Flex Titanium)**을 적용해 디스플레이 주름을 대폭 줄이고 내구성을 높였습니다. 폴더블을 오래 쓰고 싶은 분이라면 반가운 변화예요.
 
-![갤럭시 Z 폴드8 울트라 바이올렛 쉐도우 실사](/assets/images/posts/galaxy-z-fold8-ultra-preorder-2026/fold8-ultra-violet-shadow.jpg)
+![갤럭시 Z 폴드8 울트라 바이올렛 쉐도우 실사](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/galaxy-z-fold8-ultra-preorder-2026/fold8-ultra-violet-shadow.jpg)
 *갤럭시 Z 폴드8 울트라 바이올렛 쉐도우 (출처: Samsung Newsroom, 확인일 2026-08-01)*
 
 ---
@@ -90,7 +90,7 @@ description: "갤럭시 Z 폴드8 울트라가 8월 3일 사전예약 마감을 
 
 > 💡 **선택 기준:** 카메라와 멀티태스킹, '최고'를 원한다면 **울트라**, 웹툰·영상·문서를 큰 화면으로 보는 게 목적이라면 **폴드8**, 가볍고 세련된 플립을 원한다면 **플립8**이 어울립니다. 폴더블에 처음 도전하는 분이라면 가벼운 폴드8이나 플립8이 부담이 적어요.
 
-![갤럭시 Z 폴드8 공식 사진](/assets/images/posts/galaxy-z-fold8-ultra-preorder-2026/galaxy-z-fold8.jpg)
+![갤럭시 Z 폴드8 공식 사진](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/galaxy-z-fold8-ultra-preorder-2026/galaxy-z-fold8.jpg)
 *새로운 4:3 와이드 폼팩터의 갤럭시 Z 폴드8 (출처: Samsung Newsroom, 확인일 2026-08-01)*
 
 ---
@@ -112,7 +112,7 @@ description: "갤럭시 Z 폴드8 울트라가 8월 3일 사전예약 마감을 
 - **전작 대비 변화 체감 논란** — 일부 해외 리뷰어는 "울트라지만 지난해 폴드7과 크게 달라 보이지 않는다"는 지적도 했습니다. 울트라 이름값을 기대했다면 실물을 직접 확인해 보는 게 좋아요.
 - **무게 215g** — 대화면·대용량 배터리 특성상 가볍지는 않습니다. 폴드8(201g)과 비교해 손에 쥐어보고 결정하세요.
 
-![갤럭시 Z 플립8 공식 사진](/assets/images/posts/galaxy-z-fold8-ultra-preorder-2026/galaxy-z-flip8.jpg)
+![갤럭시 Z 플립8 공식 사진](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/galaxy-z-fold8-ultra-preorder-2026/galaxy-z-flip8.jpg)
 *컴팩트한 폼팩터의 갤럭시 Z 플립8 (출처: Samsung Newsroom, 확인일 2026-08-01)*
 
 ---

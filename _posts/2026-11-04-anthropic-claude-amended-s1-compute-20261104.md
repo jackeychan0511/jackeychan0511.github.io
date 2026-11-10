@@ -5,13 +5,13 @@ date: 2026-11-04 16:50:00 +0900
 categories: [career]
 tags: [Anthropic, Claude, 앤트로픽, 클로드, IPO, 수정S1, 나스닥, ANT, 3분기실적, 영업손실, 컴퓨트약정, 8954억달러, 다리오아모데이, ClaudeAPI, 가격인하, ClaudeOpus55, 업무자동화, 2026년11월]
 author: "40대 블로거"
-image: /assets/images/posts/anthropic-claude-amended-s1-compute-20261104/anthropic-logo-wordmark.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-amended-s1-compute-20261104/anthropic-logo-wordmark.png
 description: "Anthropic이 2026년 11월 2일(미국 현지) SEC에 수정 S-1을 제출하며 3분기 실적을 처음 공개했습니다. 3분기 매출은 169억 5,600만 달러로 전 분기보다 46.7% 늘었지만, 2분기 9억 7,400만 달러 영업이익은 5억 6,700만 달러 영업손실로 돌아섰습니다. 원인은 50억 달러어치 단기 컴퓨트와 20억 달러 비현금 기부 매칭 비용입니다. 함께 드러난 컴퓨트·인프라 약정 총액은 8,954억 달러, 1년 내 만기가 약 700억 달러입니다. 숫자의 의미, 가격 인하가 매출에 준 영향, 사용자·개발자·자동화 운영팀이 챙길 항목까지 정리했습니다."
 sitemap: false
 noindex: true
 ---
 
-![Anthropic(앤트로픽) 공식 워드마크](/assets/images/posts/anthropic-claude-amended-s1-compute-20261104/anthropic-logo-wordmark.png)
+![Anthropic(앤트로픽) 공식 워드마크](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-amended-s1-compute-20261104/anthropic-logo-wordmark.png)
 *Anthropic(앤트로픽) 공식 워드마크. 2026년 11월 2일(미국 현지) 수정 S-1 제출로 3분기 실적이 처음 공개됐습니다 (이미지 출처: Wikimedia Commons, "Anthropic logo", Public domain — Anthropic)*
 
 > **📌 한줄 요약:** Anthropic이 **2026년 11월 2일(미국 현지)** 미 증권거래위원회(SEC)에 **수정 S-1(Form S-1/A)** 을 제출했습니다. 10월 26일 첫 신고서가 상반기까지만 담았던 재무제표를 **9월 30일까지 9개월치로 교체**한 문서입니다. **3분기 매출은 169억 5,600만 달러**로 전 분기 대비 **46.7% 증가**했지만, 2분기의 **9억 7,400만 달러 영업이익은 5억 6,700만 달러 영업손실로 반전**했습니다. 손실의 주된 원인은 **단기 계약으로 급히 사들인 50억 달러어치 컴퓨트**와 **20억 달러 비현금 기부 매칭 비용**입니다. 같은 문서에서 **컴퓨트·인프라 약정 총액 8,954억 달러**, **1년 내 만기 약 700억 달러**도 처음 숫자로 확인됐습니다.
@@ -94,7 +94,7 @@ AI 모델 뉴스는 "얼마나 똑똑해졌나"로 읽지만, **상장을 앞둔
 
 비교 기준이 되는 현금은 **2026년 9월 30일 기준 약 1,320억 달러**(현금성자산·단기투자)입니다. 약정 총액이 현금의 **약 6.8배**입니다. 다만 이 약정은 **향후 20년에 걸친 미래 지출 약속**이고, 매출이 발생하면서 함께 소진되는 성격입니다. 실제로 1년 내 만기분(약 700억 달러)은 보유 현금으로 감당 가능한 범위입니다.
 
-![나스닥 마켓사이트 외관](/assets/images/posts/anthropic-claude-amended-s1-compute-20261104/nasdaq-marketsite-exterior.jpg)
+![나스닥 마켓사이트 외관](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-amended-s1-compute-20261104/nasdaq-marketsite-exterior.jpg)
 *미국 뉴욕 타임스퀘어의 나스닥 마켓사이트(Nasdaq MarketSite). Anthropic은 나스닥 글로벌 셀렉트 마켓 상장을 신청했고 티커는 'ANT'입니다. 공모가와 주식수는 아직 공란입니다 (이미지 출처: Wikimedia Commons, "Nasdaq MarketSite" — ajay_suresh, CC BY 2.0)*
 
 한 가지 더 눈에 띄는 변화가 있습니다. **구글 클라우드에 대한 약정이 약 1,213억 달러로 늘었습니다.** 첫 신고서의 1,145억 달러에서 일주일 만에 68억 달러가 추가된 것입니다. 단기 컴퓨트를 줄이기 위한 해법으로 신고서가 새로 언급한 **'Anthropic Direct'** 라는 조달 모델도 같은 맥락입니다. 수요가 몰리는 구간의 단기 컴퓨트를, 전용 인프라가 들어오는 대로 **더 저렴한 장기 컴퓨트로 대체(backfill)** 하겠다는 구상입니다.

@@ -5,12 +5,12 @@ date: 2026-08-24 17:00:00 +0900
 categories: [finance]
 tags: [비트코인, 가상화폐, 코인, BTC, 암호화폐]
 author: "40대 블로거"
-image: /assets/images/posts/crypto-briefing-20260824-pm/bitcoin-price-chart.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/crypto-briefing-20260824-pm/bitcoin-price-chart.png
 description: "8월 24일 오후 코인 브리핑. 트럼프 일가 밈코인(TRUMP)이 주말 사이 한때 100% 넘게 급등하며 '신규 코인 발행설'까지 돌았지만, 에릭 트럼프가 X에서 '전혀 사실이 아니다…다르게 말하는 사람은 사기'라며 전면 부인했습니다. 같은 시각 트럼프팀 지갑은 110만 TRUMP를 매도해 294만 달러를 현금화한 것으로 포착됐어요. 비트코인은 7만 7천 달러대에서 횡보 중(업비트 1억 612만원)이고, 미국 현물 ETF는 지난주 합산 26억달러 순유입을 기록하며 2025년 10월 이후 최대 주간 유입을 찍었습니다. 리플이 알트코인 ETF 유입을 주도했고, 솔라나 검증인은 발행 감축·수수료 개편 표결에 착수했습니다. 잭슨홀(8/27~29)과 7월 PCE가 다음 변수입니다."
 sitemap: false
 noindex: true
 ---
-![비트코인 7일 가격 차트](/assets/images/posts/crypto-briefing-20260824-pm/bitcoin-price-chart.png)
+![비트코인 7일 가격 차트](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/crypto-briefing-20260824-pm/bitcoin-price-chart.png)
 *BTC 7일 가격 추이 (CoinGecko, 8/24 18:00 KST 기준)*
 
 **핵심 요약**: 트럼프 일가 밈코인(TRUMP)이 주말 사이 한때 100% 넘게 급등하며 '신규 코인 발행설'까지 돌았지만, 에릭 트럼프가 "사기"라며 전면 부인했습니다. 같은 시각 트럼프팀 지갑에선 110만 TRUMP 매도(294만 달러 현금화)가 포착됐어요. 비트코인은 7만 7천 달러대 횡보, 미국 현물 ETF는 지난주 합산 26억 달러 순유입(2025년 10월 이후 최대)입니다.

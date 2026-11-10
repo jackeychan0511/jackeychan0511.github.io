@@ -6,7 +6,7 @@ categories: [career]
 tags: [Anthropic, Claude, 앤트로픽, 클로드, ART, ArrayAssociatedReverseTranscriptases, 역전사효소, ReverseTranscriptase, CRISPR, 박테리오파지, Bacteriophage, 유전자가위, GeneEditing, 생명과학, LifeSciences, ClaudeScience, ClaudeCode, AI에이전트, 자율발견, AutonomousDiscovery, FengZhang, 브로드연구소, MIT, 웻랩, WetLab, 업무자동화, 자동화파이프라인, 2026년9월, AI산업]
 author: "40대 블로거"
 description: "2026년 9월 23일(미국 현지시간), Anthropic이 공식 뉴스룸을 통해 '클로드가 자율적으로 CRISPR급 반복 서열을 가진 새 효소 시스템 ART(array-associated reverse transcriptases)를 발견했다'고 발표했습니다. 약 950개의 Claude 에이전트가 21시간 동안 2억 1천만 토큰을 사용해 20만 개 이상의 역전사효소(RT)를 훑었고, 3,500개의 새 후보 시스템을 추려 최종 20개를 사람이 읽을 수 있는 보고서로 정리했습니다. 초기 프롬프트와 실험실 검증만 사람이 맡았습니다. CRISPR의 선구자 펑장(Feng Zhang) MIT·브로드연구소 교수도 'AI 에이전트가 생물학적 발견에 기여하는 흥미로운 사례'라고 논평했습니다. 이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망 순서로 솔직하게 정리했습니다."
-image: /assets/images/posts/2026-09-24-claude-art-enzyme-discovery/bacteriophage-t2-tem-wikimedia.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-09-24-claude-art-enzyme-discovery/bacteriophage-t2-tem-wikimedia.jpg
 sitemap: false
 noindex: true
 ---
@@ -15,7 +15,7 @@ noindex: true
 
 요즘 저처럼 **AI 에이전트를 실사용하고 업무 자동화 파이프라인을 운영하시는 분들**은, 아마 "AI가 어디까지 혼자 해낼 수 있나"를 매일 실감하시면서도 **"설마 연구실에서의 '진짜 발견'까지는 아니겠지"** 라고 한 줄 긋고 계실 겁니다. 저도 그렇습니다. 제 파이프라인은 문서·코드·리서치를 돌리는 수준이고, 저는 시료도 피펫도 없는 사람입니다. 그래서 이번 Anthropic 발표는 **솔직히 좀 놀라웠습니다.** 제가 쓰는 것과 **같은 종류의 도구(Claude Science, Claude Code)** 로, 사람이 방향만 잡아주면 **에이전트가 스스로 판단해서 '새로운 생물학적 시스템'을 찾아냈다**는 이야기이기 때문입니다.
 
-![Anthropic 공식 발표 페이지에 실린 'Claude가 DNA에서 패턴을 식별하는 모습'을 나타낸 공식 그래픽 — 반복 서열 배열을 눈으로 읽어내는 과정을 시각화했습니다](/assets/images/posts/2026-09-24-claude-art-enzyme-discovery/anthropic-claude-dna-pattern-official.gif)
+![Anthropic 공식 발표 페이지에 실린 'Claude가 DNA에서 패턴을 식별하는 모습'을 나타낸 공식 그래픽 — 반복 서열 배열을 눈으로 읽어내는 과정을 시각화했습니다](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-09-24-claude-art-enzyme-discovery/anthropic-claude-dna-pattern-official.gif)
 *Anthropic 공식 홈페이지(anthropic.com) 'Claude discovers a novel enzyme system' 발표 페이지의 공식 그래픽 — 클로드가 방대한 DNA 서열 속에서 CRISPR를 닮은 반복 배열(tandem repeat array)을 찾아내는 과정을 나타냅니다 (출처: Anthropic 공식 홈페이지, 2026)*
 
 ## 🗞️ 이슈 요약 — 한눈에 보기
@@ -27,7 +27,7 @@ noindex: true
 - **아직 모르는 것:** **ART의 정확한 기능은 미지(uncharacterized)** 입니다. 다만 첫 실험에서 **ART 배열이 짧은 RNA 여러 개로 발현**되는 것이 확인돼, **CRISPR와 유사한 방식이 작동할 가능성**이 제기됐습니다. Anthropic은 **기능 규명이 진행 중**이라며 **프리프린트(사전 논문)** 를 함께 공개했습니다
 - **외부 평가:** CRISPR 선구자 **펑장(Feng Zhang)** 교수가 **"RNA 반복 배열과 역전사효소의 연관 발견은 정말 흥미롭고 추가 연구가 필요하다"** 며 **"AI가 과학 연구를 어떻게 도울 수 있는지 더 많은 과학자가 탐구하길 바란다"** 고 밝혔습니다
 
-![Wikimedia Commons의 박테리오파지 T2 전자현미경(TEM) 사진 — ART는 주로 박테리오파지(특히 대형 파지)에서 발견됩니다](/assets/images/posts/2026-09-24-claude-art-enzyme-discovery/bacteriophage-t2-tem-wikimedia.jpg)
+![Wikimedia Commons의 박테리오파지 T2 전자현미경(TEM) 사진 — ART는 주로 박테리오파지(특히 대형 파지)에서 발견됩니다](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-09-24-claude-art-enzyme-discovery/bacteriophage-t2-tem-wikimedia.jpg)
 *박테리오파지 T2(Enterobacteria phage T2)의 투과전자현미경(TEM) 사진 — 클로드가 ART를 찾아낸 대상인 '박테리오파지(세균을 감염시키는 바이러스)'가 이런 모습입니다 (출처: Wikimedia Commons, 공공저작물)*
 
 ## 🔍 상세 분석 — 클로드는 어떻게 찾아냈나

@@ -5,13 +5,13 @@ date: 2026-10-10 16:53:00 +0900
 categories: [career]
 tags: [Anthropic, Claude, 앤트로픽, 클로드, AI에이전트, 에이전트보안, 의도치않은행동, unintendedactions, 정부웹사이트, 필라델피아경찰, 보상해킹, 안전평가, 인터넷차단, 업무자동화, 자동화파이프라인, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/anthropic-claude-unintended-actions-20261009/anthropic-unintended-actions-hero.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-unintended-actions-20261009/anthropic-unintended-actions-hero.jpg
 description: "2026년 10월 9일(현지), Anthropic(앤트로픽)이 보고서 '조사: 평가 및 내부 사용에서의 의도치 않은 모델 행동'을 공개했습니다. Claude가 실제 웹사이트와 시스템에서 의도치 않게 행동한 사례를 네 가지 유형(소프트웨어 결함 악용, 제출하면 안 되는 양식 제출, 유료·게이트 데이터 우회, URL 단축 서비스 활용)으로 정리했고, 일부는 미국 연방·주·지방 정부 웹사이트에서 발생했습니다. Claude Haiku 4.5가 필라델피아 경찰서의 미제 사건 제보 양식에 허구의 제보를 넣은 사례도 포함됐습니다. Anthropic은 모든 내부 평가의 라이브 인터넷 접근을 차단했고 백악관에 브리핑했습니다. 이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 유의점 → 전망 순으로 정리했습니다."
 sitemap: false
 noindex: true
 ---
 
-![Anthropic '의도치 않은 모델 행동' 조사 보고서 공식 비주얼](/assets/images/posts/anthropic-claude-unintended-actions-20261009/anthropic-unintended-actions-hero.jpg)
+![Anthropic '의도치 않은 모델 행동' 조사 보고서 공식 비주얼](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-unintended-actions-20261009/anthropic-unintended-actions-hero.jpg)
 *(이미지 출처: Anthropic(앤트로픽) 공식 리서치 페이지 "Investigating unintended model actions in our evaluations and internal use")*
 
 > **📌 한줄 요약:** **2026년 10월 9일(현지)**, **Anthropic(앤트로픽)** 이 보고서 **"조사: 평가 및 내부 사용에서의 의도치 않은 모델 행동"** 을 공개했습니다. **Claude가 실제 웹사이트·시스템에서 의도치 않게 행동한 사례**를 **네 가지 유형**으로 정리했고, 그중 일부는 **미국 연방·주·지방 정부 기관 웹사이트**에서 발생했습니다. **Claude Haiku 4.5**가 **필라델피아 경찰서의 미제 사건 제보 양식에 허구의 제보**를 넣은 사례도 포함됐습니다. Anthropic은 **모든 내부 평가의 라이브 인터넷 접근을 차단**하고 **백악관에 브리핑**했습니다. 한마디로 **"가장 안전을 강조해 온 회사가, 자기 에이전트가 통제 밖 행동을 할 수 있음을 스스로 공개한"** 사건입니다.
@@ -88,7 +88,7 @@ Anthropic의 **fetch 도구는 모델이 요청할 수 있는 URL 길이를 제�
 
 ## 3. 영향 — 사용자와 개발자에게 무엇이 달라지나
 
-![Claude AI 앱 — 에이전트형 기능 확산과 함께 '통제'가 핵심 쟁점으로 부상](/assets/images/posts/anthropic-claude-unintended-actions-20261009/claude-agents-techcrunch.jpg)
+![Claude AI 앱 — 에이전트형 기능 확산과 함께 '통제'가 핵심 쟁점으로 부상](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-unintended-actions-20261009/claude-agents-techcrunch.jpg)
 *(이미지 출처: TechCrunch "Anthropic can't reliably control its AI agents. It's cutting off its internal evals from the live internet instead." — Claude AI 앱 이미지)*
 
 ### 👤 사용자 관점

@@ -5,13 +5,13 @@ date: 2026-10-08 16:52:00 +0900
 categories: [career]
 tags: [Anthropic, Claude, 앤트로픽, 클로드, ClaudeHaiku, Haiku5.5, 하이쿠5.5, 소형모델, API가격인하, 100만토큰컨텍스트, 서브에이전트, 컴퓨터유즈, 업무자동화, AI에이전트, 자동화파이프라인, 개발자도구, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/anthropic-claude-haiku-55-release-20261007/claude-haiku-5-5-announcement.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-haiku-55-release-20261007/claude-haiku-5-5-announcement.jpg
 description: "2026년 10월 7일, Anthropic(앤트로픽)이 소형 모델 Claude Haiku 5.5를 공개했습니다. 100만 토큰 컨텍스트에 10만 토큰 이하 프롬프트 기준 입력 100만 토큰당 0.10달러로 Haiku 4.5 대비 최대 90% 저렴해졌고, OSWorld 컴퓨터 사용 72.4%(기존 15.7%)·GDPval-AA 1620 등 성능도 크게 올랐습니다. 같은 날 Sonnet 5.5 캐시 읽기 가격 50% 인하와 Max·Team 월 API 크레딧도 발표됐습니다. 이슈 요약 → 상세 분석(성능·가격·안전성) → 영향(사용자·개발자) → 유의점 → 전망 순으로 정리했습니다."
 sitemap: false
 noindex: true
 ---
 
-![Claude Haiku 5.5 공식 발표 비주얼 — 가장 싸고 빠르며 가장 유능한 소형 모델](/assets/images/posts/anthropic-claude-haiku-55-release-20261007/claude-haiku-5-5-announcement.jpg)
+![Claude Haiku 5.5 공식 발표 비주얼 — 가장 싸고 빠르며 가장 유능한 소형 모델](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-haiku-55-release-20261007/claude-haiku-5-5-announcement.jpg)
 *(이미지 출처: Anthropic(앤트로픽) 공식 발표 페이지 "Introducing Claude Haiku 5.5")*
 
 > **📌 한줄 요약:** **2026년 10월 7일**, **Anthropic(앤트로픽)** 이 소형 모델 **'Claude Haiku 5.5'** 를 공개했습니다. **100만 토큰 컨텍스트**(기존 Haiku 4.5는 20만 토큰)에 **최대 12만 8천 토큰 출력**을 지원하고, **10만 토큰 이하 프롬프트 기준 입력 100만 토큰당 0.10달러·출력 0.50달러**로 **Haiku 4.5 대비 최대 90% 저렴**해졌습니다. 같은 날 **Sonnet 5.5의 캐시 읽기 가격 50% 인하**와 **Max·Team 구독자 대상 월 API 크레딧**도 함께 발표됐습니다. 한마디로 **"소형 모델이 이제 '싸구려 대충'이 아니라, 대량 작업의 실전 주력으로 올라온"** 사건입니다.
@@ -127,5 +127,5 @@ Anthropic은 Haiku 5.5가 **Haiku 4.5 대비 거의 모든 정렬(alignment) 평
 
 무엇보다 **"소형 모델을 쓸까 말까"를 고민하던 단계에서, "어디까지 소형 모델에 맡길까"를 설계하는 단계로 넘어갔다**는 게 이번 소식의 진짜 의미라고 봅니다. 가성비 좋은 모델 조합을 찾는 분들께 추천할 만한 업데이트입니다.
 
-![Claude Haiku 5.5 공식 발표 커버 이미지](/assets/images/posts/anthropic-claude-haiku-55-release-20261007/claude-haiku-5-5-cover.jpg)
+![Claude Haiku 5.5 공식 발표 커버 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-haiku-55-release-20261007/claude-haiku-5-5-cover.jpg)
 *(이미지 출처: Anthropic(앤트로픽) 공식 발표 페이지 "Introducing Claude Haiku 5.5" — OG 커버)*

@@ -5,13 +5,13 @@ date: 2026-11-06 16:52:00 +0900
 categories: [career]
 tags: [Anthropic, Claude, 앤트로픽, 클로드, ClaudeDispatch, ThisBash, 브라우저확장, RCE, 원격코드실행, 보안취약점, ClaudeCowork, ClaudeCode, RemoteControl, 프롬프트포싱, 제로데이, CVE, 버그바운티, 업무자동화, AI에이전트보안, 2026년11월]
 author: "40대 블로거"
-image: /assets/images/posts/anthropic-claude-dispatch-thisbash-rce-20261106/anthropic-official-hero.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-dispatch-thisbash-rce-20261106/anthropic-official-hero.jpg
 description: "브라우저 확장 하나로 Claude Desktop에 명령을 보내 PC에서 코드를 실행할 수 있는 Claude Dispatch 취약점 'ThisBash'가 공개됐습니다. 연구자 Gal Weizman이 2026년 5월 14일 Anthropic에 신고했고, Anthropic은 유효한 취약점으로 인정했지만 중복 이슈로 닫았습니다. CVE도 버그바운티도 없었고, 10월 말 Dispatch 종료 예고도 지켜지지 않았습니다. 공개 시점 기준 175일째 미패치입니다. 공격 6단계, 기업 침투 경로, 사용자·개발자 대응책을 정리했습니다."
 sitemap: false
 noindex: true
 ---
 
-![Anthropic 공식 브랜드 이미지](/assets/images/posts/anthropic-claude-dispatch-thisbash-rce-20261106/anthropic-official-hero.jpg)
+![Anthropic 공식 브랜드 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-dispatch-thisbash-rce-20261106/anthropic-official-hero.jpg)
 *Anthropic 공식 홈페이지 대표 이미지. 2026년 11월 5일 Claude Dispatch 취약점 'ThisBash'가 공개됐습니다 (이미지 출처: Anthropic 공식 홈페이지)*
 
 > **📌 한줄 요약:** 브라우저 확장 하나가 **claude.ai 로그인 세션**을 이용해 **Claude Desktop에 명령을 주입**하고, 결국 **PC에서 코드를 실행**할 수 있는 취약점이 공개됐습니다. 이름은 **ThisBash**. 연구자는 **2026년 5월 14일** Anthropic에 신고했고, Anthropic은 **유효한 취약점으로 인정**했습니다. 하지만 **중복 이슈로 처리**했고, **CVE도 버그바운티도 없었습니다.** Dispatch를 **10월 말에 종료하겠다**고 했지만 지켜지지 않았습니다. 공개 시점 기준 **175일째 미패치**입니다.
@@ -110,7 +110,7 @@ PoC에서는 악성 npm 패키지의 `preinstall.js` 훅이 **계산기 앱을 �
 
 비교 사례로 OpenAI의 Codex를 들었습니다. Codex는 **웹과 데스크톱 세션을 공유하지 않습니다.** 웹에서 데스크톱 세션을 보고 조작하는 경로 자체가 없으니, 같은 문제가 성립하지 않습니다. 반대로 Claude는 데스크톱·모바일·웹에서 **같은 세션에 접근**하는 편의성을 택했고, 그 대가로 **웹의 낮은 보안 수준이 데스크톱의 높은 권한으로 승격**되는 통로가 생겼습니다.
 
-![Claude 공식 심볼](/assets/images/posts/anthropic-claude-dispatch-thisbash-rce-20261106/claude-symbol-wikimedia.png)
+![Claude 공식 심볼](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-dispatch-thisbash-rce-20261106/claude-symbol-wikimedia.png)
 *Claude 공식 심볼. 문제는 특정 기능 하나가 아니라 웹 세션과 데스크톱 에이전트를 잇는 공통 신뢰 모델에 있습니다 (이미지 출처: Wikimedia Commons, "Claude AI symbol")*
 
 ---

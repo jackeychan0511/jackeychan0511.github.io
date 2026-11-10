@@ -6,14 +6,14 @@ categories: [career]
 tags: [Anthropic, Claude, 앤트로픽, 클로드, AI뉴스, Claude Team, 과학자, 연구자, AI for Science, Claude Science, 무료, 할인, 대학, 비영리, 연구, 2026년8월, AI산업]
 author: "40대 블로거"
 description: "2026년 8월 28일 앤트로픽(Anthropic)이 'Expanding our support for scientists'를 발표하며 전 세계 과학자 10,000명에게 클로드(Claude) 구독을 1년간 무료 또는 할인된 가격으로 제공하는 '클로드 팀 플랜 포 사이언티스트(Claude team plan for scientists)'를 공개했습니다. 표준 좌석은 무료, 5배 사용량의 프리미엄 좌석은 월 15달러(1년 가격 고정)이며, 생물학 중심이던 AI for Science 보조금도 수학·공학 등으로 확대해 프로젝트당 최대 5만 달러의 API 크레딧을 지원합니다. 과학자용 AI 워크벤치 '클로드 사이언스(Claude Science)' 지원도 이어집니다. 이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망 순서로 정리했습니다."
-image: /assets/images/posts/2026-08-29-claude-scientist-seats-20260829/claude-team-plan-scientists-official.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-08-29-claude-scientist-seats-20260829/claude-team-plan-scientists-official.jpg
 sitemap: false
 noindex: true
 ---
 
 요즘 저처럼 **"AI로 논문 읽고, 데이터 정리하고, 코드도 짜는데, 연구실 예산에 부담 없이 쓸 방법은 없을까"** 고민하시는 분들, 많으시죠? 솔직히 저도 매달 AI 구독료가 부담스러울 때가 있습니다. 그런데 지난 8월 28일, **앤트로픽(Anthropic)이 전 세계 과학자 10,000명에게 클로드(Claude) 구독을 무료 또는 할인된 가격으로 1년간 제공하겠다고 발표**했습니다. 대학·비영리 연구소 소속이라면 표준 좌석은 무료, 사용량 5배짜리 프리미엄 좌석도 월 15달러로 쓸 수 있는 조건입니다. 오늘은 이 **이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망** 순서로 정리해 드리겠습니다.
 
-![Claude Team 플랜(연구실용) 공식 소개 이미지](/assets/images/posts/2026-08-29-claude-scientist-seats-20260829/claude-team-plan-scientists-official.jpg)
+![Claude Team 플랜(연구실용) 공식 소개 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-08-29-claude-scientist-seats-20260829/claude-team-plan-scientists-official.jpg)
 *전 세계 과학자를 위한 Claude Team 플랜 공식 소개 이미지 (출처: Claude 공식 홈페이지 claude.com/programs/team-plan-for-scientists, 2026.8)*
 
 ## 📌 이슈 요약: "연구실도 이제 클로드를 공짜로 쓴다"
@@ -72,5 +72,5 @@ noindex: true
 
 솔직히 개인적으로는, **대학원생 시절에 이런 프로그램이 있었더라면** 하는 아쉬움이 남습니다. 연구·개발 분야에 계신 분들이라면 소속 기관 자격을 확인해 보시고, 해당된다면 공식 페이지(claude.com/programs/team-plan-for-scientists)에서 신청 절차를 살펴보시길 추천합니다. 가성비 좋은 연구 도구를 찾는 분들께 도움이 되길 바랍니다.
 
-![Claude Science — 과학자용 AI 워크벤치 공식 이미지](/assets/images/posts/2026-08-29-claude-scientist-seats-20260829/claude-science-workbench-official.jpg)
+![Claude Science — 과학자용 AI 워크벤치 공식 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-08-29-claude-scientist-seats-20260829/claude-science-workbench-official.jpg)
 *이번 프로그램의 기반이 되는 과학자용 AI 워크벤치 'Claude Science' (출처: Claude 공식 홈페이지 claude.com/product/claude-science, 2026.8)*

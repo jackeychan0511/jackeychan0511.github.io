@@ -5,13 +5,13 @@ date: 2026-08-16 17:00:00 +0900
 categories: [finance]
 tags: [비트코인, 가상화폐, 코인, BTC, 암호화폐]
 author: "40대 블로거"
-image: /assets/images/posts/crypto-briefing-20260816-pm/bitcoin-price-chart.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/crypto-briefing-20260816-pm/bitcoin-price-chart.png
 description: "8월 16일 오후 코인 브리핑. 러시아가 전력난을 이유로 모스크바 등 수도권 비트코인 채굴을 2032년 말까지 전면 금지했고, UBS는 2분기 13F에서 IBIT 콜옵션을 24배 늘린 것으로 나타났다. 피터 토드와 아담 백의 2100만개 상한 논쟁도 재점화. BTC는 6.3만 달러(업비트 8,923만 원) 보합."
 sitemap: false
 noindex: true
 ---
 
-![비트코인 7일 가격 차트](/assets/images/posts/crypto-briefing-20260816-pm/bitcoin-price-chart.png)
+![비트코인 7일 가격 차트](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/crypto-briefing-20260816-pm/bitcoin-price-chart.png)
 *비트코인(BTC) 7일 가격 추이 — 8/16 오후 브리핑 (Binance 4시간봉 기반 자체 제작)*
 
 **핵심 요약**: 러시아가 전력난을 이유로 모스크바 등 수도권 채굴을 전면 금지했고, UBS의 비트코인 ETF 콜옵션이 한 분기 만에 24배 급증했습니다. 오전 브리핑 이후 '새로운 재료'가 쏟아진 하루입니다.

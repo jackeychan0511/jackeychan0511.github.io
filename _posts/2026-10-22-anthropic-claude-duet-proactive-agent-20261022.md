@@ -5,7 +5,7 @@ date: 2026-10-22 14:22:00 +0900
 categories: [career]
 tags: [Anthropic, Claude, 앤트로픽, 클로드, ClaudeDuet, 듀엣, 프로액티브에이전트, ProactiveAgent, Opus55, AI에이전트, 업무자동화, 리서치프리뷰, MetaMuse, OpenAIDots, 에이전트보안, 승인게이트, 커넥터, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/anthropic-claude-duet-20261022/duet-hero.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-duet-20261022/duet-hero.jpg
 description: "2026년 10월 21일(미국 태평양시간) 앤트로픽이 'Claude Duet' 리서치 프리뷰를 공개했습니다. 사용자가 묻기 전에 먼저 말을 거는 프로액티브 에이전트로, Opus 5.5 기반에 자체 브라우저가 있는 클라우드 가상머신에서 백그라운드로 작업합니다. iOS·안드로이드 독립 앱과 claude.ai에서 쓸 수 있고, 미국 Pro·Max 구독자를 대상으로 대기명단을 받습니다. 아침 브리핑 구조, 승인 게이트, 자격증명·프롬프트 인젝션 방어 설계, 6,000개 커넥터, 사용 한도 공유 방식, 공개된 한계와 경쟁 구도까지 정리했습니다."
 ---
 
@@ -19,7 +19,7 @@ description: "2026년 10월 21일(미국 태평양시간) 앤트로픽이 'Claud
 
 ## 1. 무슨 일이 있었나 — 10월 21일, 'Duet' 리서치 프리뷰
 
-![Claude Duet 공식 대표 이미지](/assets/images/posts/anthropic-claude-duet-20261022/duet-hero.jpg)
+![Claude Duet 공식 대표 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-duet-20261022/duet-hero.jpg)
 *앤트로픽 공식 Claude Duet 제품 페이지의 대표 이미지. (이미지 출처: claude.com/duet)*
 
 발표문의 첫 문장은 이렇습니다.
@@ -61,7 +61,7 @@ description: "2026년 10월 21일(미국 태평양시간) 앤트로픽이 'Claud
 
 발표문에 나온 내부 사용 사례도 이 방향을 보여줍니다. Claude Code 팀을 이끄는 Boris Cherny는 산책하면서 머릿속 할 일 목록을 Duet에게 말한다고 하고, 모델·제품 행동 설계 팀의 Chelsea Larsson은 아이들과 있으려고 자리를 뜨기 전에 할 일 목록을 넘기고 저녁에 결과 보고를 받는다고 합니다.
 
-![Claude 로고 (출처: Wikimedia Commons, Claude AI logo)](/assets/images/posts/anthropic-claude-duet-20261022/claude-logo-wikimedia.png)
+![Claude 로고 (출처: Wikimedia Commons, Claude AI logo)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-duet-20261022/claude-logo-wikimedia.png)
 *Claude 로고. (이미지 출처: Wikimedia Commons, File:Claude AI logo.svg)*
 
 ---

@@ -6,7 +6,7 @@ categories: [career]
 tags: [Anthropic, Claude, 앤트로픽, 클로드, ClaudeCode, 클로드코드, Projects, 프로젝트재설계, 멀티에이전트, MultiAgent, 병렬스레드, ParallelThreads, 오케스트레이터, Coordinator, 공유메모리, SharedMemory, 클라우드세션, CloudSession, PullRequest, 개발워크플로, 업무자동화, AI에이전트, AIagent, 에이전트감독, 2026년9월, AI산업]
 author: "40대 블로거"
 description: "2026년 9월 17일(현지), Anthropic이 Claude Code의 핵심 기능 'Projects'를 전면 재설계해 공개했습니다. 기존에 파일과 지침을 담아두는 '폴더'였던 프로젝트가, 목표만 던지면 스스로 작업을 쪼개 병렬 스레드로 위임하고 PR까지 정리하는 '하나의 지속되는 대화 + 오케스트레이터'로 바뀌었습니다. 각 스레드는 자체 브랜치와 레포 사본을 가진 Claude Code 클라우드 세션이고, 프로젝트 공유 메모리와 라이브러리를 함께 씁니다. 클라우드에서 계속 돌아가므로 노트북을 닫아도 작업이 이어집니다. 베타 대상·사용 한도·로컬 실행 지원 시점까지, 이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망 순서로 정리했습니다."
-image: /assets/images/posts/2026-09-19-claude-code-projects-redesign-20260919/projects-redesigned-official.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-09-19-claude-code-projects-redesign-20260919/projects-redesigned-official.jpg
 sitemap: false
 noindex: true
 ---
@@ -17,7 +17,7 @@ noindex: true
 
 그런데 **2026년 9월 17일(현지시간), Anthropic이 그 병목을 정면으로 건드리는 기능을 내놨습니다.** Claude Code의 **Projects를 '폴더'에서 '대화'로** 다시 정의한 겁니다. 이번 글도 다른 소식들과 마찬가지로 **이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망** 순서로 정리해 드리겠습니다.
 
-![Anthropic 공식 블로그 'Projects redesigned: from folder to conversation' 대표 이미지](/assets/images/posts/2026-09-19-claude-code-projects-redesign-20260919/projects-redesigned-official.jpg)
+![Anthropic 공식 블로그 'Projects redesigned: from folder to conversation' 대표 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-09-19-claude-code-projects-redesign-20260919/projects-redesigned-official.jpg)
 *Anthropic 공식 블로그(claude.com/blog/projects-redesigned)에 게시된 'Projects redesigned: from folder to conversation' 대표 이미지 — 이번 업데이트의 핵심은 '폴더였던 프로젝트가 대화가 됐다'는 한 줄로 요약됩니다 (출처: claude.com 공식 블로그, 2026.9.17)*
 
 ## 🗞️ 이슈 요약 — 한눈에 보기
@@ -61,7 +61,7 @@ noindex: true
 - **레포가 연결되면** 스레드가 **PR을 열고 테스트를 돌립니다.** 문서가 연결되면 **문서를 읽고 초안을 씁니다**
 - **사용자가 개입하는 두 개의 창:** **메인 프로젝트 채팅**(전체 진행 모니터링·지시)과 **개별 스레드**(세부 확인·조정). 공식 표현대로 **"참모장(chief of staff)에게 브리핑하듯"** 프로젝트에 지시하면, Claude가 **새 스레드 또는 기존 스레드로 작업을 라우팅**합니다
 
-![Claude Code 새 프로젝트의 '새 스레드 시작' 화면 (Anthropic 공식 자료)](/assets/images/posts/2026-09-19-claude-code-projects-redesign-20260919/claude-code-projects-threads-ui-official.png)
+![Claude Code 새 프로젝트의 '새 스레드 시작' 화면 (Anthropic 공식 자료)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-09-19-claude-code-projects-redesign-20260919/claude-code-projects-threads-ui-official.png)
 *새 프로젝트에서는 왼쪽 대화에서 목표를 주면 오른쪽에 스레드가 열리고, 그 아래에 메모리·의사결정·결과가 쌓입니다 (출처: claude.com 공식 블로그 'Projects redesigned', 2026.9.17)*
 
 ### 3️⃣ 공유 메모리와 라이브러리 — "프롬프트 엔지니어링을 줄인다"

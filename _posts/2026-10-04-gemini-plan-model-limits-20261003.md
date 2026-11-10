@@ -5,11 +5,11 @@ date: 2026-10-04 15:52:00 +0900
 categories: [career]
 tags: [Google Gemini, 구글 제미나이, Gemini 요금제 변경, 무료 플랜 제한, AI Plus, AI Pro, AI Ultra, Gemini Flash-Lite, Gemini Flash, Gemini Pro, Deep Think, 딥싱크, 지원 문서 업데이트, 10월 9일 시행, 요금제 개편, 모델 접근 제한, 업무자동화, AI뉴스, 2026년 10월]
 author: "40대 블로거"
-image: /assets/images/posts/gemini-model-limits-tiers-20261003/gemini-logo-wikimedia.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-model-limits-tiers-20261003/gemini-logo-wikimedia.png
 description: "2026년 10월 3일, 구글이 제미나이 앱의 요금제별 모델 접근 범위를 축소한다는 내용을 지원 문서로 공지했습니다. 10월 9일부터 무료(무요금제) 사용자는 Flash-Lite 한 종류만 쓸 수 있고, AI Plus(월 4.99달러) 구독자는 Pro 접근이 끊깁니다. 반대로 AI Pro(월 19.99달러) 이상은 모델 제한이 없으며, 그동안 최상위 요금제 전용이던 Deep Think가 AI Pro까지 내려옵니다. 또 모델마다 low·medium·high 노력(effort) 단계가 추가됩니다. 이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망 순으로 정리했습니다."
 ---
 
-![Google Gemini 공식 로고](/assets/images/posts/gemini-model-limits-tiers-20261003/gemini-logo-wikimedia.png)
+![Google Gemini 공식 로고](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-model-limits-tiers-20261003/gemini-logo-wikimedia.png)
 *Google Gemini 공식 로고 (출처: Wikimedia Commons)*
 
 > **📌 한줄 요약:** **2026년 10월 3일**, 구글이 제미나이 앱의 **요금제별 모델 접근 범위를 줄인다**는 내용을 지원 문서로 공지했습니다. **10월 9일부터** 무료(무요금제) 사용자는 **Flash-Lite 한 종류**만 쓸 수 있고, **AI Plus(월 4.99달러)** 구독자는 Pro 접근이 끊깁니다. 반대로 **AI Pro(월 19.99달러)** 이상은 모델 제한이 없고, 그동안 최상위 요금제 전용이던 **Deep Think**가 AI Pro까지 내려옵니다. 여기에 모델별로 **low·medium·high 노력(effort) 단계**가 추가될 예정입니다.
@@ -53,7 +53,7 @@ description: "2026년 10월 3일, 구글이 제미나이 앱의 요금제별 모
 
 구글이 명확히 **상위 요금제 쪽으로 무게를 옮기고 있음**을 보여주는 변화가 두 가지입니다. 첫째, **AI Pro에 Deep Think 개방**입니다. Deep Think는 여러 가능성을 **병렬로 검토**해 답을 내는 추론 모드로, 기존에는 월 99.99·199.99달러 요금제 전용이었습니다. 둘째, **모델마다 low·medium·high 노력(effort) 단계**가 추가됩니다. 이는 현재 **Google AI Studio와 Antigravity에 있는 것과 같은 방식**으로, 현재의 "Extended thinking: Complex problem solving" 옵션을 대체·세분화하는 성격입니다. **품질이 올라가는 대신 사용량 한도를 더 많이 쓰는** 구조라는 점은 기억해 둘 만합니다.
 
-![Gemini 3.1 Pro에 적용된 Deep Think 화면 — 기존에는 최상위 요금제 전용이던 추론 모드가 AI Pro까지 내려옵니다](/assets/images/posts/gemini-model-limits-tiers-20261003/gemini-deep-think-ai-pro.jpg)
+![Gemini 3.1 Pro에 적용된 Deep Think 화면 — 기존에는 최상위 요금제 전용이던 추론 모드가 AI Pro까지 내려옵니다](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-model-limits-tiers-20261003/gemini-deep-think-ai-pro.jpg)
 *Gemini 3.1 Pro + Deep Think 화면 — 최상위 요금제 전용이던 '최대 병렬 추론' 모드가 AI Pro(월 19.99달러)까지 내려옵니다 (출처: 9to5Google / Google)*
 
 ## 📉 영향 — 사용자·개발자에게 뭐가 달라지나

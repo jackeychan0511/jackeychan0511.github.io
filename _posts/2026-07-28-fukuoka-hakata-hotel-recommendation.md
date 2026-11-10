@@ -4,7 +4,7 @@ title: "후쿠오카 하카타역 호텔 추천 2026: 역 도보 5분, 가성비
 date: 2026-07-28 14:00:00 +0900
 categories: [travel]
 tags: [후쿠오카, 하카타역, 호텔추천, 가성비호텔, 일본여행, 후쿠오카여행, 숙소추천]
-image: /assets/images/posts/hakata-hotels/hakata-square.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hakata-hotels/hakata-square.jpg
 ---
 
 후쿠오카 여행의 시작과 끝은 **하카타역**입니다. 공항에서 지하철로 5분, 큐슈 각지로 가는 JR의 거점, 그리고 먹거리와 쇼핑이 집결된 곳이죠.
@@ -23,7 +23,7 @@ image: /assets/images/posts/hakata-hotels/hakata-square.jpg
 | **1박 요금** | 12~18만원 |
 | **추천 대상** | 역 접근성 최우선 |
 
-![오리엔탈 호텔 후쿠오카 하카타 스테이션](/assets/images/posts/hakata-hotels/hotel-oriental.jpg)
+![오리엔탈 호텔 후쿠오카 하카타 스테이션](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hakata-hotels/hotel-oriental.jpg)
 *오리엔탈 호텔 후쿠오카 하카타 스테이션 외관 — 하카타역 직결*
 
 역과 건물이 직접 연결되어 접근성이 가장 좋습니다. 1층 로손 편의점과 영어 가능한 프론트까지 갖춰 여행 초보자에게 제격입니다.
@@ -38,7 +38,7 @@ image: /assets/images/posts/hakata-hotels/hakata-square.jpg
 | **1박 요금** | 20~30만원 |
 | **추천 대상** | 특별한 날, 커플 |
 
-![미야코 호텔 하카타 외관](/assets/images/posts/hakata-hotels/hotel-miyako.jpg)
+![미야코 호텔 하카타 외관](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hakata-hotels/hotel-miyako.jpg)
 *미야코 호텔 하카타 — JR큐슈 운영 5성급 호텔*
 
 JR큐슈가 운영하는 **5성급 호텔**. 객실이 넓고 전망이 뛰어나며, 조식 뷔페가 특히 유명합니다.
@@ -53,7 +53,7 @@ JR큐슈가 운영하는 **5성급 호텔**. 객실이 넓고 전망이 뛰어�
 | **1박 요금** | 7~10만원 |
 | **추천 대상** | **가성비 1위**, 1인 여행자 |
 
-![프린스 스마트 인 하카타](/assets/images/posts/hakata-hotels/hotel-prince-smart.jpg)
+![프린스 스마트 인 하카타](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hakata-hotels/hotel-prince-smart.jpg)
 *프린스 스마트 인 하카타 외관 — 역 도보 2분, 가성비 최강*
 
 불필요한 서비스를 과감히 줄이고 객실 퀄리티에 집중한 스마트 호텔입니다. 1박 7~10만원이면 역 도보 2분이라 가성비가 압도적입니다.
@@ -68,7 +68,7 @@ JR큐슈가 운영하는 **5성급 호텔**. 객실이 넓고 전망이 뛰어�
 | **1박 요금** | 10~15만원 |
 | **추천 대상** | 온천 힐링 여행자 |
 
-![도미 인 하카타 기온 외관](/assets/images/posts/hakata-hotels/hotel-dormy-ext.jpg)
+![도미 인 하카타 기온 외관](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hakata-hotels/hotel-dormy-ext.jpg)
 *도미 인 하카타 기온 건물 외관 — 기온 지역, 호텔 내 천연온천 보유*
 
 호텔 내 **천연온천**을 즐길 수 있는 특별한 곳입니다. 지친 여행자의 몸과 마음을 달래주는 **야간 라면 서비스**까지! 힐링 여행에 최적화되어 있어요.
@@ -83,7 +83,7 @@ JR큐슈가 운영하는 **5성급 호텔**. 객실이 넓고 전망이 뛰어�
 | **1박 요금** | **5~8만원** (최저가) |
 | **추천 대상** | 잠만 자는 여행자 |
 
-![APA 호텔 & 리조트 하카타에키히가시 외관](/assets/images/posts/hakata-hotels/hotel-apa-ext.jpg)
+![APA 호텔 & 리조트 하카타에키히가시 외관](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hakata-hotels/hotel-apa-ext.jpg)
 *APA 호텔 & 리조트 하카타에키히가시 — 역 도보 4분, 최저가 비즈니스 호텔*
 
 일본 전국 비즈니스 호텔 체인 APA. **1박 5~8만원**이라는 가격이 압도적입니다. 객실은 좁지만 '잠만 자고 나가서 논다'면 최고의 선택.
@@ -98,7 +98,7 @@ JR큐슈가 운영하는 **5성급 호텔**. 객실이 넓고 전망이 뛰어�
 | **1박 요금** | 8~13만원 |
 | **추천 대상** | **가족·단체 여행** (레지던스형) |
 
-![캐널시티 하카타 호텔](/assets/images/posts/hakata-hotels/canal-washington.jpg)
+![캐널시티 하카타 호텔](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hakata-hotels/canal-washington.jpg)
 *캐널시티 하카타 워싱턴 호텔 — 가족 여행객에게 인기*
 
 아파트먼트형 **레지던스 호텔**로 주방과 세탁기가 완비되어 3~4인 가족에게 좋습니다.
@@ -113,7 +113,7 @@ JR큐슈가 운영하는 **5성급 호텔**. 객실이 넓고 전망이 뛰어�
 | **1박 요금** | 8~12만원 |
 | **추천 대상** | 조식 맛집, 감성 숙소 |
 
-![캐널시티 야경](/assets/images/posts/hakata-hotels/canal-city-night.jpg)
+![캐널시티 야경](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hakata-hotels/canal-city-night.jpg)
 *캐널시티 하카타 야경 — 호텔 그레이트 모닝 인근*
 
 리뷰 평점 **9.6/10**의 초고평점 호텔. 조식이 예술이라는 평가가 많습니다. 역에서 약간 떨어져 있지만 캐널시티와 가까워 저녁 시간이 풍성합니다.

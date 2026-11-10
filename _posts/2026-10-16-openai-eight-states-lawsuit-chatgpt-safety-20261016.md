@@ -5,13 +5,13 @@ date: 2026-10-16 14:55:00 +0900
 categories: [career]
 tags: [OpenAI, ChatGPT, GPT, AI규제, 소송, 미국주정부, 주법무장관, 아동안전, 청소년보호, 소비자보호, AI정책, 공공소송, 업무자동화, AI뉴스, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/openai-eight-states-lawsuit-chatgpt-20261016/openai-hq-pioneer-building-wikimedia.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-eight-states-lawsuit-chatgpt-20261016/openai-hq-pioneer-building-wikimedia.jpg
 description: "2026년 10월 14일, 미국 8개 주(애리조나·아칸소·아이다호·아이오와·캔자스·몬태나·네브래스카·웨스트버지니아) 법무장관이 각 주 법원에 OpenAI를 상대로 별도 소송을 제기했습니다. ChatGPT가 아동에게 위험한 조언을 하고, 학부모를 오도했다는 소비자보호법 위반 주장입니다. 사건 개요, 상세 분석, 사용자·개발자·기업 영향, 전망을 정리했습니다."
 ---
 
 > **📌 한줄 요약:** 2026년 **10월 14일**, 미국 **8개 주 법무장관**이 각 주 법원에 **OpenAI를 상대로 별도 소송**을 제기했습니다. 애리조나·아칸소·아이다호·아이오와·캔자스·몬태나·네브래스카·웨스트버지니아가 참여했고, **ChatGPT가 아동을 해치고 학부모를 오도했다**는 것이 핵심 주장입니다. 모델 출시 뉴스가 아니라, **AI 제품의 '안전성'이 이제 주(州) 단위 법정 다툼으로 넘어갔다는 신호**입니다.
 
-![OpenAI 샌프란시스코 본사가 있는 파이오니어 빌딩 (출처: Wikimedia Commons, CC BY-SA 4.0, HaeB)](/assets/images/posts/openai-eight-states-lawsuit-chatgpt-20261016/openai-hq-pioneer-building-wikimedia.jpg)
+![OpenAI 샌프란시스코 본사가 있는 파이오니어 빌딩 (출처: Wikimedia Commons, CC BY-SA 4.0, HaeB)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-eight-states-lawsuit-chatgpt-20261016/openai-hq-pioneer-building-wikimedia.jpg)
 *OpenAI 샌프란시스코 본사가 있는 파이오니어 빌딩 (출처: Wikimedia Commons, CC BY-SA 4.0, HaeB)*
 
 AI 모델 성능 경쟁이 매주 새 숫자를 쏟아내는 동안, 정작 **제품 책임**을 묻는 축은 조용히 다른 곳에서 굵어지고 있습니다. 이번 사안은 **모델 벤치마크가 아니라 주(州) 소비자보호법**이 무대입니다. ChatGPT를 업무·자동화 파이프라인에 얹어 쓰는 조직이라면, **"규제가 어디서 먼저 터지는가"**를 보여주는 사례로 읽어둘 만합니다.
@@ -51,7 +51,7 @@ AI 모델 성능 경쟁이 매주 새 숫자를 쏟아내는 동안, 정작 **�
 
 보도에 따르면 **연방거래위원회(FTC)** 쪽에서도 **안전 관련 기록 제출**을 요구하는 움직임이 함께 흐르고 있습니다. **주(州) + 연방 + 민사 소송**이 동시에 압박하는 구조는, AI 기업의 **컴플라이언스 비용과 문서화 요구**를 구조적으로 끌어올립니다.
 
-![법원·재판을 상징하는 의사봉(gavel) 참고 이미지 (출처: Wikimedia Commons, CC BY-SA 4.0, Jonathunder)](/assets/images/posts/openai-eight-states-lawsuit-chatgpt-20261016/court-gavel-wikimedia.jpg)
+![법원·재판을 상징하는 의사봉(gavel) 참고 이미지 (출처: Wikimedia Commons, CC BY-SA 4.0, Jonathunder)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-eight-states-lawsuit-chatgpt-20261016/court-gavel-wikimedia.jpg)
 *법원·재판을 상징하는 의사봉(gavel) 참고 이미지 (출처: Wikimedia Commons, CC BY-SA 4.0, Jonathunder). 실제 사건과 무관한 상징 이미지입니다.*
 
 ---

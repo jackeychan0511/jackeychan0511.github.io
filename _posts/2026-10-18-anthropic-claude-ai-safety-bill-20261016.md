@@ -5,13 +5,13 @@ date: 2026-10-18 16:52:00 +0900
 categories: [career]
 tags: [Anthropic, Claude, 앤트로픽, 클로드, AI안전법, 프런티어AI, AI규제, 미국의회, Politico, AdvancedAIFramework, 사전심사, 모델출시, AI정책, EUAIAct, 주법선점, IPO, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/anthropic-ai-safety-bill-20261016/capitol-west-front.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-ai-safety-bill-20261016/capitol-west-front.jpg
 description: "2026년 10월 16일(현지) Politico는 앤트로픽이 미국 의회 의원들을 대상으로 프런티어 AI 안전·보안 규제 법안 초안을 조용히 설명했다고 보도했습니다. 초안의 핵심은 정부가 모델 출시를 막을 수 있는 요건을 '명백한 재앙적 위험'으로 좁히고, 출시 중단에는 법원 승인을 요구하는 구조입니다. 아직 정식 발의 전인 초안의 내용과 배경, 사용자·개발자에게 미칠 영향을 정리했습니다."
 sitemap: false
 noindex: true
 ---
 
-![미국 국회의사당(캐피톨) 서쪽 정면 전경](/assets/images/posts/anthropic-ai-safety-bill-20261016/capitol-west-front.jpg)
+![미국 국회의사당(캐피톨) 서쪽 정면 전경](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-ai-safety-bill-20261016/capitol-west-front.jpg)
 *미국 국회의사당 서쪽 정면. 앤트로픽이 프런티어 AI 규제 법안 초안을 의회에 설명한 것으로 보도된 배경입니다. (이미지 출처: Wikimedia Commons, "United States Capitol - west front")*
 
 > **📌 한줄 요약:** **2026년 10월 16일(현지)**, **Politico**가 **앤트로픽(Anthropic)** 관계자들이 **미국 의회 의원들을 상대로 프런티어 AI 안전·보안 규제 법안 초안을 비공개로 설명했다**고 보도했습니다. 초안의 핵심은 **정부가 모델 출시를 막을 수 있는 문턱을 아주 좁은 '재앙적 위험' 상황으로 제한**하고, **출시 중단에는 법원 승인을 요구**하는 구조입니다. 안전을 이유로 규제를 요청해 온 회사가, 동시에 **규제의 칼날에 상한선을 긋는 법안**을 직접 들고 나온 셈입니다. 아직 **정식 발의 전 초안**이라 법이 되는 것은 아닙니다.
@@ -34,7 +34,7 @@ AI 규제 뉴스는 늘 "또 원론적인 이야기"로 끝나기 일쑤입니�
 
 정리하면 **"앤트로픽이 자기 회사가 지켜야 할 규칙을, 자기가 써서 의회에 들고 갔다"** 는 구조입니다. 표면적으로는 업계에서 가장 앞서 나가는 규제 옹호자 이미지와 맞아떨어지지만, 초안의 세부 조항은 **규제의 방향을 회사에 유리하게 고정하려는 시도**로도 읽힙니다.
 
-![앤트로픽 공식 뉴스룸 배너 이미지](/assets/images/posts/anthropic-ai-safety-bill-20261016/anthropic-newsroom-banner.jpg)
+![앤트로픽 공식 뉴스룸 배너 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-ai-safety-bill-20261016/anthropic-newsroom-banner.jpg)
 *앤트로픽 공식 뉴스룸의 대표 이미지. 이번 초안은 회사가 6월 공개한 Advanced AI Framework를 법제화한 성격입니다. (이미지 출처: Anthropic 공식 홈페이지 anthropic.com/news)*
 
 ---

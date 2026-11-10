@@ -5,7 +5,7 @@ date: 2026-09-29 16:52:00 +0900
 categories: [career]
 tags: [Anthropic, Claude, 앤트로픽, 클로드, ClaudeSonnet55, Sonnet55, 소넷5.5, Claude55패밀리, ClaudeOpus55, ClaudeCode, 터미널벤치, TerminalBench40, CursorBench, SWEbenchPro, 아마존베드락, GitHubCopilot, Haiku55, 업무자동화, 자동화파이프라인, 2026년9월, AI산업]
 author: "40대 블로거"
-image: /assets/images/posts/anthropic-claude-sonnet55-20260929/claude-sonnet55-official.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-sonnet55-20260929/claude-sonnet55-official.jpg
 description: "2026년 9월 28일(미국 현지시간), Anthropic이 중급 모델 '클로드 소넷 5.5(Claude Sonnet 5.5)'를 전격 공개했습니다. 소넷 5의 직계 후속으로, 출력 생성이 30% 이상 빠르고 대부분의 작업에서 실행 비용이 최대 30% 낮아졌습니다. 에이전트 코딩 벤치마크 Terminal-Bench 4.0에서 70.6%를 기록해 소넷 5(10.3%)를 크게 앞섰고, 상위 모델 오푸스 5.5(66.4%)마저 넘어섰습니다. 가격은 입력 $2 / 출력 $10(백만 토큰당)으로 소넷 5와 동일하게 동결됐고, 오푸스 5.5의 절반입니다. 100만 토큰 컨텍스트·128K 출력을 지원하며 Claude API·Claude Code·AWS Bedrock·Google Cloud·Microsoft Foundry·GitHub Copilot에 동시 공개됐습니다. 이슈 요약부터 상세 분석, 솔직한 장단점, 사용자·개발자 영향, 전망까지 정리했습니다."
 sitemap: false
 noindex: true
@@ -15,7 +15,7 @@ noindex: true
 
 요즘 저처럼 **AI 에이전트를 실사용하고 업무 자동화 파이프라인을 운영하시는 분들**은, 새 모델이 나올 때마다 **"성능이 얼마나 뛰었나"보다 "작업당 비용이 얼마나 내려갔나"를 먼저 보게** 되실 겁니다. 저도 그렇습니다. 파이프라인을 굴리는 입장에서 **모델 지능 5% 상승은 체감이 크지 않지만, 같은 값에 처리량이 늘거나 단가가 내려가면 청구서와 대기 시간에 바로 티가 나기** 때문입니다. 그래서 이번 **소넷 5.5**는 제 기준에서 **꽤 반가운 뉴스**였습니다. 지난주 오푸스 5.5가 '최전선을 싸게' 만들었다면, 이번 소넷 5.5는 **'실무 기본값을 통째로 끌어올리는' 성격의 발표**입니다. 무엇이 바뀐 건지, 그리고 **솔직히 아쉬운 부분까지** 정리해 보겠습니다.
 
-![Anthropic 공식 홈페이지의 'Introducing Claude Sonnet 5.5' 발표 페이지 대표 이미지 — 2026년 9월 28일 공개된 Claude 5.5 패밀리의 두 번째 모델입니다](/assets/images/posts/anthropic-claude-sonnet55-20260929/claude-sonnet55-official.jpg)
+![Anthropic 공식 홈페이지의 'Introducing Claude Sonnet 5.5' 발표 페이지 대표 이미지 — 2026년 9월 28일 공개된 Claude 5.5 패밀리의 두 번째 모델입니다](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-sonnet55-20260929/claude-sonnet55-official.jpg)
 *Anthropic 공식 홈페이지(anthropic.com) 'Introducing Claude Sonnet 5.5' 발표 페이지의 대표 이미지 — 2026년 9월 28일 공개된 Claude 5.5 패밀리의 두 번째 모델입니다 (출처: Anthropic 공식 홈페이지, 2026)*
 
 ## 🗞️ 이슈 요약 — 한눈에 보기
@@ -45,7 +45,7 @@ noindex: true
 
 즉 **소넷 5.5는 소넷 5의 업그레이드가 아니라, 사실상 '한 급 위 모델의 성능을 중급 가격에 내려온 것'** 입니다. 그리고 결정적으로 **가격을 올리지 않았습니다.** 이게 저처럼 **실무 파이프라인을 굴리는 사람에게 가장 중요한 대목**입니다. **같은 단가로 처리 성공률이 오르면, 재시도(retry)와 실패 복구에 쓰던 토큰이 통째로 사라지기** 때문입니다.
 
-![Anthropic 공식 발표 페이지에 포함된 모델 비교 이미지 — 소넷 5·소넷 5.5·오푸스 5.5의 결과물을 나란히 비교한 자료입니다](/assets/images/posts/anthropic-claude-sonnet55-20260929/claude-sonnet55-compare.jpg)
+![Anthropic 공식 발표 페이지에 포함된 모델 비교 이미지 — 소넷 5·소넷 5.5·오푸스 5.5의 결과물을 나란히 비교한 자료입니다](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-sonnet55-20260929/claude-sonnet55-compare.jpg)
 *Anthropic 공식 발표 페이지에 포함된 모델 비교 이미지 — 소넷 세대별 결과물을 나란히 비교한 자료입니다 (출처: Anthropic 공식 홈페이지, 2026)*
 
 ### 2️⃣ 숫자 너머 — '더 적은 토큰'이 진짜 의미하는 것

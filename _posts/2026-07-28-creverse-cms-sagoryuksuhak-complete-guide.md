@@ -5,7 +5,7 @@ date: 2026-07-21 11:00:00 +0900
 categories: [education]
 tags: [크레버스, CMS영재교육센터, CMS사고력관, 사고력수학, 청담러닝, 크레버스사고력, CMS블랙, 아이러닝, 영재교육, 초등수학, 수학학원]
 author: "40대 블로거"
-image: /assets/images/posts/creverse-cms-main.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/creverse-cms-main.png
 description: "2002년 청담러닝으로 시작해 2022년 CMS에듀와 합병하며 융합사고력 플랫폼으로 도약한 크레버스. CMS영재교육센터(사고력관)의 CMS Black·Signature·Bloomath 등 프로그램과 아이러닝 3.0 온라인 시스템, 전국 300개 학원 네트워크, 2025년 주요 성과까지 상세 분석합니다."
 ---
 

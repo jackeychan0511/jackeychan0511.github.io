@@ -5,7 +5,7 @@ date: 2026-10-07 14:50:00 +0900
 categories: [career]
 tags: [OpenAI, DecisionsAPI, GPT6Luna, OpenAIAPI, 공개베타, 업무자동화, AI에이전트, 분류API, 프롬프트라우팅, API가격, ResponsesAPI, 개발자도구, AI뉴스, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/openai-decisions-api-public-beta-20261007/openai-decisions-api-docs.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-decisions-api-public-beta-20261007/openai-decisions-api-docs.png
 description: "2026년 10월 6일, OpenAI가 'Decisions API'를 공개 베타로 풀었습니다. GPT-6 Luna를 기반으로 문장·이미지를 넣으면 '예/아니오 확률', '정해진 선택지 중 하나', '점수' 형태로 딱 떨어지는 답을 돌려주는 전용 엔드포인트(POST /v1/decisions)입니다. 기존 Responses API 대비 최대 10배 빠르고, 입력 100만 토큰당 0.10달러에 출력 요금이 없습니다. 자동화 파이프라인에서 분류·라우팅·검수에 쓰기 좋은 이 API의 이슈 요약부터 상세 분석, 사용자·개발자 영향, 전망까지 정리했습니다."
 ---
 
@@ -13,7 +13,7 @@ description: "2026년 10월 6일, OpenAI가 'Decisions API'를 공개 베타로 
 
 AI 자동화 파이프라인이나 에이전트를 굴리다 보면, 정작 자주 막히는 지점은 화려한 생성이 아니라 **"이거 어느 쪽으로 보낼까?"** 하는 사소한 판단입니다. 문의 메일을 분류하고, 리뷰가 불량인지 판정하고, 이 문장이 조건에 맞는지 참·거짓으로만 알고 싶은 순간들이죠. 그런데 그 판단 하나 때문에 매번 큰 모델에 긴 출력을 시키면 **느리고, 비싸고, 결과가 들쭉날쭉**합니다. 이번 발표는 바로 그 지점을 겨냥합니다.
 
-![OpenAI API 공식 문서 'Decisions' 가이드 화면 (출처: OpenAI 공식 개발자 문서 developers.openai.com, 2026년 10월 6일)](/assets/images/posts/openai-decisions-api-public-beta-20261007/openai-decisions-api-docs.png)
+![OpenAI API 공식 문서 'Decisions' 가이드 화면 (출처: OpenAI 공식 개발자 문서 developers.openai.com, 2026년 10월 6일)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-decisions-api-public-beta-20261007/openai-decisions-api-docs.png)
 *OpenAI API 공식 문서 'Decisions' 가이드 화면 (출처: OpenAI 공식 개발자 문서 developers.openai.com, 2026년 10월 6일)*
 
 ## 이슈 요약 — 무엇이 새로 나왔나
@@ -42,7 +42,7 @@ Decisions API의 가장 큰 특징은 **출력이 자유 서술이 아니라 '�
 
 호출 방식은 일반 API와 크게 다르지 않습니다. 모델에 `gpt-6-luna`를 지정하고, 입력(텍스트·이미지)과 함께 **질문 목록(`questions`)** 을 넘기면 됩니다. 공식 문서 예시는 제품 사진과 함께 "파손이 있는가"라는 predicate 질문을 던지고, 돌아온 확률 값을 그대로 사용합니다. 전용 엔드포인트를 쓰기 때문에 기존 SDK도 **Python 3.26.0+, JavaScript 7.30.0+, Go 3.73.0+, Ruby 0.101.0+, Java 4.78.0+** 이상 버전을 요구합니다.
 
-![OpenAI 개발자 커뮤니티 'Decisions API is now available in Public Beta' 공지 (출처: OpenAI Developer Community community.openai.com, 2026년 10월 6일)](/assets/images/posts/openai-decisions-api-public-beta-20261007/openai-decisions-api-announcement.jpg)
+![OpenAI 개발자 커뮤니티 'Decisions API is now available in Public Beta' 공지 (출처: OpenAI Developer Community community.openai.com, 2026년 10월 6일)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-decisions-api-public-beta-20261007/openai-decisions-api-announcement.jpg)
 *OpenAI 개발자 커뮤니티 'Decisions API is now available in Public Beta' 공지 (출처: OpenAI Developer Community community.openai.com, 2026년 10월 6일)*
 
 ## 같은 날, 함께 바뀐 것 — API 레이트리밋 개편

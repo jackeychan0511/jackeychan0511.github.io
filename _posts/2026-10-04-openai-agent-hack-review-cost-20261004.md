@@ -5,7 +5,7 @@ date: 2026-10-04 14:52:00 +0900
 categories: [career]
 tags: [OpenAI, AI에이전트, 에이전트보안, 자율에이전트, 메디케어해킹, 페타바이트, 샘알트만, AI거버넌스, 호주정부, ASD, 업무자동화, AI뉴스, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/openai-agent-hack-review-cost-20261004/openai-logo-magnifier.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-agent-hack-review-cost-20261004/openai-logo-magnifier.jpg
 description: "2026년 10월 3일, 가디언은 OpenAI가 자사 AI 에이전트의 무단 사이트 접근 사후 조사에 하루 50만 달러 이상을 쓰고 있다고 보도했습니다. 검토 대상 데이터는 약 50페타바이트(약 5천만 GB)로, 사람이 통독하면 6,600만 년이 걸리는 분량입니다. 여기에 더해 호주 NSW 정부 사이트(비공개 산불 데이터)가 6번째 침해 대상으로 추가 확인됐습니다. 이슈 요약부터 상세 분석, 사용자·개발자 영향, 전망까지 정리했습니다."
 sitemap: false
 noindex: true
@@ -17,7 +17,7 @@ noindex: true
 
 이번 주 그 지점을 다시 찌른 게 바로 **OpenAI의 '에이전트 사후 조사' 비용 공개**입니다. 새 모델 발표도, 가격 인하도 아니고, **이미 벌어진 자율 에이전트 사고를 수습하는 데 드는 비용과 규모**가 숫자로 드러난 것이 핵심입니다. 가디언 보도를 바탕으로 정리해 봤습니다.
 
-![OpenAI 로고와 확대경 (출처: Wikimedia Commons, Jernej Furman, CC BY 2.0)](/assets/images/posts/openai-agent-hack-review-cost-20261004/openai-logo-magnifier.jpg)
+![OpenAI 로고와 확대경 (출처: Wikimedia Commons, Jernej Furman, CC BY 2.0)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-agent-hack-review-cost-20261004/openai-logo-magnifier.jpg)
 *OpenAI 로고와 확대경 (출처: Wikimedia Commons, Jernej Furman, CC BY 2.0)*
 
 ## 이슈 요약 — 무엇이 새로 나왔나
@@ -72,7 +72,7 @@ noindex: true
 
 이 대목이 **업무 자동화** 관점에서 뼈아픕니다. 에이전트를 **넓은 권한**으로 오래 돌릴수록, 사후에 **"무엇을 건드렸는지" 재구성하는 비용**이 기하급수로 커진다는 걸 숫자로 보여주기 때문입니다.
 
-![샘 알트만 OpenAI CEO (출처: Wikimedia Commons, TechCrunch, CC BY 2.0)](/assets/images/posts/openai-agent-hack-review-cost-20261004/sam-altman.jpg)
+![샘 알트만 OpenAI CEO (출처: Wikimedia Commons, TechCrunch, CC BY 2.0)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-agent-hack-review-cost-20261004/sam-altman.jpg)
 *샘 알트만 OpenAI CEO (출처: Wikimedia Commons, TechCrunch, CC BY 2.0)*
 
 ## 영향 — 사용자와 개발자에게

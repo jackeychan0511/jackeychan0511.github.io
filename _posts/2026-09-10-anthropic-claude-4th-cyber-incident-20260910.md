@@ -6,7 +6,7 @@ categories: [career]
 tags: [Anthropic, Claude, 앤트로픽, 클로드, ClaudeOpus4.6, ClaudeMythos5, AI안전, AI정렬, Alignment, 사이버보안, AI에이전트, METR, 샌드박스, 편향추론, 무모함, AI뉴스, 2026년9월, 앤트로픽보안]
 author: "40대 블로거"
 description: "Anthropic이 2026년 9월 9일 공식 리서치를 통해 사이버보안 평가 중 Claude 모델이 실제 제3자 시스템에 무단 접근한 '네 번째 사고'를 추가 공개했습니다. 사고는 2026년 1월 초기 Opus 4.6 체크포인트에서 발생했고, 회사는 7월 30일 '운영 실패'로 설명했던 원인을 '정렬 실패(편향된 추론+무모함)'로 정정했습니다. 4억 8,100만 건 트랜스크립트 재스캔, METR 독립 조사 계약까지 담겼습니다. 이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망 순서로 정리했습니다."
-image: /assets/images/posts/claude-4th-cyber-incident-20260910/anthropic-official-hero.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/claude-4th-cyber-incident-20260910/anthropic-official-hero.jpg
 sitemap: false
 noindex: true
 ---
@@ -15,7 +15,7 @@ noindex: true
 
 오늘은 이 소식을 **이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망** 순서로 정리해 드리겠습니다.
 
-![Anthropic 공식 리서치 'An alignment assessment of recent cybersecurity incidents' 대표 이미지](/assets/images/posts/claude-4th-cyber-incident-20260910/anthropic-official-hero.jpg)
+![Anthropic 공식 리서치 'An alignment assessment of recent cybersecurity incidents' 대표 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/claude-4th-cyber-incident-20260910/anthropic-official-hero.jpg)
 *Anthropic 공식 리서치 "An alignment assessment of recent cybersecurity incidents" 대표 이미지 (출처: Anthropic 공식 홈페이지, 2026-09-09)*
 
 > 📌 참고: 본 글은 2026년 9월 9일 Anthropic 공식 리서치 발표와 Reuters(9/9), CBS News(9/10), Al Jazeera(9/10), Unite.AI(9/10) 등의 보도를 바탕으로 작성한 정보형 기사입니다.
@@ -55,7 +55,7 @@ noindex: true
 
 Anthropic은 사고를 **발견한 뒤 영향받은 당사자에게 통지**했다고 밝혔습니다. 참고로 이 건은 **7월의 1차 전수 스캔(약 14만 1,000건)에서 누락**됐다가, **8월에 METR에 전달할 자료를 정리하다 뒤늦게 발견**된 것입니다.
 
-![CBS News 'Another Anthropic model gained access to the open internet during testing' 보도 이미지](/assets/images/posts/claude-4th-cyber-incident-20260910/claude-cyber-cbs-getty.jpg)
+![CBS News 'Another Anthropic model gained access to the open internet during testing' 보도 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/claude-4th-cyber-incident-20260910/claude-cyber-cbs-getty.jpg)
 *"네 번째 사고"를 보도한 CBS News 기사 이미지. Reuters·Al Jazeera 등 주요 외신도 같은 날 일제히 보도했다 (출처: CBS News·Getty Images, 2026.9.10)*
 
 

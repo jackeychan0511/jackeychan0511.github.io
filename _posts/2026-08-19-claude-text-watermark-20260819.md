@@ -16,7 +16,7 @@ noindex: true
 
 존 그루버(Daring Fireball)는 이걸 두고 **"글쓰기의 변질(perverse adulteration)"**이라고 표현했고, 스트래처리의 벤 톰슨은 **"철학적으로 끔찍한 생각"**이라고 평가했습니다. 사용자들은 레딧과 X에서 갑론을박을 벌였고, **구독 해지 선언까지 잇따랐습니다.** 오늘은 이 워터마크 사태를 **이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망** 순서로 정리해 드립니다.
 
-![스마트폰에 표시된 Claude 앱 아이콘](/assets/images/posts/claude-text-watermark-20260819/claude-app-guardian-shutterstock.jpg)
+![스마트폰에 표시된 Claude 앱 아이콘](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/claude-text-watermark-20260819/claude-app-guardian-shutterstock.jpg)
 *스마트폰에 표시된 Claude 앱 아이콘 — Anthropic은 Claude가 생성하는 모든 텍스트에 보이지 않는 워터마크를 적용한다고 발표했다 (사진: David Talukdar/Shutterstock, The Guardian 2026-08-17 기사에서 인용)*
 
 > 📌 참고: 본 글은 Anthropic 공식 블로그 'How Claude's text watermark works'(2026-08-14), The Guardian(2026-08-17), Daring Fireball(2026-08-16), TechCrunch(2026-08-15), Stratechery·Business Insider(2026-08-14~15), Brussels Signal(2026-08-12) 보도를 바탕으로 작성한 정보형 기사입니다.
@@ -86,7 +86,7 @@ TechCrunch(8/15)에 따르면 사용자 반응은 극명하게 갈렸습니다. 
 
 또한 **Anthropic은 Claude 워터마크를 감지하는 API를 출시할 예정**이며, 제미나이의 워터마크는 Claude가 감지하지 못하고 그 반대도 마찬가지입니다 — **키가 제공사별로 다르기 때문입니다.**
 
-![Claude AI 심볼](/assets/images/posts/claude-text-watermark-20260819/claude-ai-symbol-wikimedia.png)
+![Claude AI 심볼](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/claude-text-watermark-20260819/claude-ai-symbol-wikimedia.png)
 *Claude — Anthropic의 AI 모델 패밀리 심볼. 워터마크는 8월 2일 이후 출시된 모델부터 지원된다 (출처: Wikimedia Commons, Claude AI symbol)*
 
 ---

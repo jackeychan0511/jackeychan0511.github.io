@@ -5,7 +5,7 @@ date: 2026-11-01 12:00:00 +0900
 categories: [education]
 tags: [생각하는황소, 선행학습금지법, 공교육정상화법, 사고력수학, 초등수학, 자녀교육, 학원규제, 대치동학원]
 author: "40대 블로거"
-image: /assets/images/posts/hwangso-prek-learning-ban-20261101/national-assembly.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hwangso-prek-learning-ban-20261101/national-assembly.jpg
 description: "생각하는황소가 2026년 10월 30일 본사 공지사항에 '학원 선행학습 금지법에 반대합니다'라는 제목으로 공식 성명을 올렸다. 더불어민주당 김문수 의원 등 11인이 발의한 공교육정상화법 개정안(의안번호 2221602)이 교육위원회 심사에 들어간 가운데, 수학 선행·심화를 전문으로 하는 입장에서 원안 시행 시 학원 운영이 불가능해질 수 있다는 것이 반대 이유다. 법안의 3대 쟁점과 학부모가 확인해야 할 일정을 정리했다."
 ---
 
@@ -13,7 +13,7 @@ description: "생각하는황소가 2026년 10월 30일 본사 공지사항에 '
 
 사고력수학·영재교육 브랜드 **생각하는황소**가 **2026년 10월 30일 오후 7시 34분**, 자사 홈페이지 공지사항에 **"학원 선행학습 금지법에 반대합니다"**라는 제목의 공식 성명을 게시했습니다. 법안 이름을 정면으로 언급하며 반대 입장을 밝힌 것은 최근 사고력수학 업계에서 매우 이례적인 움직임입니다.
 
-![국회의사당 전경](/assets/images/posts/hwangso-prek-learning-ban-20261101/national-assembly.jpg)
+![국회의사당 전경](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hwangso-prek-learning-ban-20261101/national-assembly.jpg)
 *▲ 공교육정상화법 개정안은 국회 교육위원회 심사 단계에 있다 (사진: Wikimedia Commons)*
 
 문제가 된 법안은 **'공교육 정상화 촉진 및 선행교육 규제에 관한 특별법 일부개정법률안'**입니다. 흔히 **공교육정상화법** 또는 **'선행학습 금지법'**으로 불리는 법의 개정안으로, **더불어민주당 김문수 의원 등 11인**이 대표발의했습니다. 국회 의안정보시스템 기준 **의안번호 2221602**, 발의일은 **2026년 9월 28일**이며 9월 29일 교육위원회에 회부돼 **현재 위원회 심사 단계**에 있습니다. 입법예고는 10월 10일 마감됐습니다.
@@ -55,7 +55,7 @@ description: "생각하는황소가 2026년 10월 30일 본사 공지사항에 '
 
 ## 3. 생각하는황소가 든 반대 논리
 
-![생각하는황소 공식 엠블럼](/assets/images/posts/hwangso-prek-learning-ban-20261101/hwangso-emblem.png)
+![생각하는황소 공식 엠블럼](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hwangso-prek-learning-ban-20261101/hwangso-emblem.png)
 *▲ 생각하는황소 공식 엠블럼 (자료: thinking-bull.com)*
 
 생각하는황소는 공지에서 반대 이유를 크게 세 갈래로 정리했습니다.

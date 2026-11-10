@@ -5,11 +5,11 @@ date: 2026-10-05 15:56:00 +0900
 categories: [career]
 tags: [Google Gemini, 구글 제미나이, Gemini 데스크톱, Gemini macOS, 맥 앱, Additional sandbox options, 추가 샌드박스 옵션, 컴퓨터 유즈, computer use, AI 에이전트, 파일 접근, 샌드박스, 보안, 프롬프트 인젝션, 업무자동화, AI뉴스, 2026년 10월]
 author: "40대 블로거"
-image: /assets/images/posts/gemini-macos-full-access-20261003/gemini-macos-sandbox-setting.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-macos-full-access-20261003/gemini-macos-sandbox-setting.png
 description: "2026년 10월 3일, 보안 매체 BleepingComputer가 맥용 Gemini 데스크톱 앱에서 'Additional sandbox options(추가 샌드박스 옵션)'라는 숨겨진 설정이 발견됐다고 보도했습니다. 이 옵션을 켜면 Gemini가 연결한 폴더 밖의 파일까지 읽고·만들고·수정·삭제할 수 있고, Mail·Safari·Messages 같은 앱을 넘나들며 웹까지 둘러보게 됩니다. 위험한 작업은 여전히 사람 확인을 거치지만, 매 단계마다 승인을 요구하지 않는 '컴퓨터 사용(computer use)' 모드로 가는 신호입니다. 이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망 순으로 정리했습니다."
 ---
 
-![Google Gemini 공식 로고](/assets/images/posts/gemini-macos-full-access-20261003/gemini-logo-wikimedia.png)
+![Google Gemini 공식 로고](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-macos-full-access-20261003/gemini-logo-wikimedia.png)
 *Google Gemini 공식 로고 (출처: Wikimedia Commons)*
 
 > **📌 한줄 요약:** **2026년 10월 3일**, 보안 매체 **BleepingComputer**가 맥(Mac)용 **Gemini 데스크톱 앱**에서 **'Additional sandbox options(추가 샌드박스 옵션)'** 이라는 **숨겨진 설정**이 발견됐다고 보도했습니다. 이 옵션을 켜면 Gemini가 **지정한 폴더 밖의 파일까지 읽고·만들고·고치고·지울 수 있고**, **Mail·Safari·Messages 같은 앱을 넘나들며 웹까지 둘러보게** 됩니다. 다만 구글은 아직 **공식 확인도, 정식 출시도 하지 않은** 상태입니다.
@@ -87,5 +87,5 @@ description: "2026년 10월 3일, 보안 매체 BleepingComputer가 맥용 Gemin
 
 > **참고 출처:** BleepingComputer(2026.10.3), TestingCatalog(2026.10.2), Google 공식 Gemini 릴리스 노트·모델 문서
 
-![Gemini 데스크톱 '컴퓨터 사용' 관련 화면](/assets/images/posts/gemini-macos-full-access-20261003/gemini-macos-sandbox-setting.png)
+![Gemini 데스크톱 '컴퓨터 사용' 관련 화면](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-macos-full-access-20261003/gemini-macos-sandbox-setting.png)
 *Gemini 데스크톱 앱의 컴퓨터 사용(Computer Use)·샌드박스 관련 화면 (출처: TestingCatalog)*

@@ -5,13 +5,13 @@ date: 2026-10-08 14:53:00 +0900
 categories: [career]
 tags: [OpenAI, GPT6, GPT6Sol, GPT6Luna, IntelligentUI, 지능형UI, 인터랙티브UI, ChatGPT, ChatGPT업데이트, AI모델, 업무자동화, AI에이전트, AI뉴스, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/openai-gpt6-intelligent-ui-chatgpt-20261008/gpt6-intelligent-ui-official.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-gpt6-intelligent-ui-chatgpt-20261008/gpt6-intelligent-ui-official.png
 description: "2026년 10월 7일(현지시간), OpenAI가 GPT-6를 ChatGPT 전체로 배포하고 'Intelligent UI'를 함께 도입했습니다. 주간 이용자 12억 명 규모입니다. 유료(Plus·Pro·Business·Enterprise)는 10월 7일부터, Free·Go는 10월 8일부터 순차 적용되며, 유료는 GPT-6 Sol, Free·Go는 GPT-6 Luna가 기본이 됩니다. Intelligent UI는 답변을 텍스트로만 주지 않고 표·차트·버튼·폼·게임 같은 인터랙티브 요소로 구성하는 새 인터페이스입니다. GPT-6는 웹 검색 질문에서 이전 세대보다 평균 44% 더 빨리 답변을 시작합니다. 이슈 요약부터 상세 분석, 사용자·개발자 영향, 전망까지 정리했습니다."
 ---
 
 > **📌 한줄 요약:** 2026년 **10월 7일(현지시간)**, OpenAI가 **GPT-6를 ChatGPT 전체로 배포**하고, 답변을 **텍스트에서 '인터랙티브 화면'으로** 바꾸는 새 인터페이스 **'Intelligent UI'** 를 함께 공개했습니다. 대상은 **주간 이용자 약 12억 명**. **유료(Plus·Pro·Business·Enterprise)는 10월 7일**부터, **Free·Go는 10월 8일**부터 순차 적용되며, **유료는 GPT-6 Sol, Free·Go는 GPT-6 Luna**가 기본이 됩니다. **Work·Codex에 들어가는 모델은 이번에 바뀌지 않습니다.** 아래에서 무엇이 바뀐 건지, 일상과 업무에는 어떤 의미인지 살펴봤습니다.
 
-![ChatGPT Intelligent UI 공식 발표 이미지 (출처: OpenAI · TechCrunch, Image Credits: OpenAI)](/assets/images/posts/openai-gpt6-intelligent-ui-chatgpt-20261008/gpt6-intelligent-ui-official.png)
+![ChatGPT Intelligent UI 공식 발표 이미지 (출처: OpenAI · TechCrunch, Image Credits: OpenAI)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-gpt6-intelligent-ui-chatgpt-20261008/gpt6-intelligent-ui-official.png)
 *ChatGPT Intelligent UI 공식 발표 이미지 (출처: OpenAI · TechCrunch, Image Credits: OpenAI)*
 
 요즘 ChatGPT를 쓰다 보면, 답은 잘 나오는데 **그 답을 다시 손으로 정리해야 하는 순간**이 은근히 많습니다. 비교표를 물어보면 줄글을 표로 다시 옮기고, 계산이 필요하면 답을 복사해 계산기에 붙여 넣고, 개념 설명은 읽고 나서 머릿속으로 그림을 그려야 하죠. 이런 분들이라면 이번 소식이 반가울 겁니다. **"말로 답하는 챗봇"이 "눌러서 쓰는 화면"으로 넘어가는 첫 대규모 배포**이기 때문입니다.
@@ -78,7 +78,7 @@ GPT-6에는 **GPT-6 Astra에서 다진 안전 작업**이 이식됐습니다.
 - **GPT-6.1은 아직**: 커뮤니티 설명에 따르면 **GPT-6.1은 API 전용 단일 모델**이고, 이번 Chat 화면 기본은 GPT-6 계열입니다
 - **비주얼은 조절 가능**: 시각 요소가 과하다 싶으면 **강도를 낮출 수 있습니다** — 다른 ChatGPT 성격 설정과 같은 방식입니다
 
-![OpenAI 로고 (출처: Wikimedia Commons)](/assets/images/posts/openai-gpt6-intelligent-ui-chatgpt-20261008/openai-logo-wikimedia.png)
+![OpenAI 로고 (출처: Wikimedia Commons)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-gpt6-intelligent-ui-chatgpt-20261008/openai-logo-wikimedia.png)
 *OpenAI 로고 (출처: Wikimedia Commons)*
 
 ## 장점과 아쉬운 점(단점)

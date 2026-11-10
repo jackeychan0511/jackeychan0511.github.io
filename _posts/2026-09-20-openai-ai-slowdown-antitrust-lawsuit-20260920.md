@@ -5,7 +5,7 @@ date: 2026-09-20 14:52:00 +0900
 categories: [career]
 tags: [GPT, OpenAI, 챗GPT, ChatGPT, 앤트로픽, Anthropic, Claude, 클로드, 구글, Gemini, 제미나이, xAI, Grok, 그록, SpaceXAI, 집단소송, 담합, 독점금지법, 셔먼법, 반독점, AI규제, AI안전, 샘앨트만, 다리오아모데이, 일론머스크, 데미스하사비스, 업무자동화, AI뉴스, 2026년9월]
 author: "40대 블로거"
-image: /assets/images/posts/openai-ai-slowdown-antitrust-lawsuit-20260920/anthropic-pace-of-ai-development-official.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-ai-slowdown-antitrust-lawsuit-20260920/anthropic-pace-of-ai-development-official.jpg
 description: "2026년 9월 18일(현지), 챗GPT·클로드·그록·제미나이 유료 구독자 4명이 캘리포니아 북부연방지방법원에 집단소송(Buist v. Anthropic PBC, No. 3:26-cv-10693)을 냈습니다. 앤트로픽·OpenAI·SpaceXAI(xAI)·구글이 'AI 개발 속도를 함께 늦추기로' 합의한 것이 셔먼법 1조 위반이라는 주장입니다. 9월 12일 다리오 아모데이의 '속도 조절' 에세이와 앨트만·머스크·하사비스의 공개 지지가 근거로 인용됐고, 원고들은 3배 손해배상과 금지명령, 배심 재판을 요구했습니다. 이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망 순서로 정리했습니다."
 sitemap: false
 noindex: true
@@ -13,7 +13,7 @@ noindex: true
 
 > **📌 한줄 요약:** **2026년 9월 18일(현지시간) 금요일 저녁**, 챗GPT·클로드·그록·제미나이에 **각각 돈을 내고 쓰는 유료 구독자 4명**이 **캘리포니아 북부연방지방법원(샌프란시스코)** 에 집단소송을 냈습니다. 사건명은 **Buist v. Anthropic PBC, No. 3:26-cv-10693**. 피고는 **앤트로픽·OpenAI·SpaceXAI(xAI)·구글**. 청구 원인은 **셔먼법(Sherman Act) 제1조 위반** — 즉 *"경쟁사들이 '모델을 예전보다 천천히 개선하자'고 합의한 것은 담합이고, 그 결과 소비자는 **같은 월 20달러를 내면서 더 느린 제품**을 받게 된다"* 는 논리입니다. 근거로 지목된 시점은 **9월 12일 다리오 아모데이 앤트로픽 CEO의 '속도 조절' 에세이**와, 같은 날 **샘 앨트만·일론 머스크·데미스 하사비스가 공개적으로 지지한 일**입니다. 원고들은 **3배 손해배상(클레이튼법)·금지명령·배심 재판**을 요구했고, 4개사 모두 아직 공식 답변을 내지 않았습니다.
 
-![앤트로픽 공식 인사이트 페이지 '프론티어 랩 내부의 AI 개발 속도 측정'(2026.9.17) 대표 이미지 — 이번 소송의 출발점이 된 '속도 조절' 논의를 상징하는 장면](/assets/images/posts/openai-ai-slowdown-antitrust-lawsuit-20260920/anthropic-pace-of-ai-development-official.jpg)
+![앤트로픽 공식 인사이트 페이지 '프론티어 랩 내부의 AI 개발 속도 측정'(2026.9.17) 대표 이미지 — 이번 소송의 출발점이 된 '속도 조절' 논의를 상징하는 장면](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-ai-slowdown-antitrust-lawsuit-20260920/anthropic-pace-of-ai-development-official.jpg)
 *앤트로픽 공식 인사이트 페이지(2026.9.17) 'Measurements for understanding the pace of AI development inside frontier labs' 대표 이미지. 이번 소송이 문제 삼은 '개발 속도를 어떻게 보고 조절할 것인가' 논의의 당사자 자료입니다. 출처: Anthropic 공식 사이트(anthropic.com)*
 
 ---
@@ -87,7 +87,7 @@ noindex: true
 
 즉 **"정부는 규제에 소극적이고, 기업은 자율적으로 속도를 조절하겠다는데, 그 자율 조절이 담합 아니냐"** 는 구조입니다. 원고 측 대표 변호사 닉 롤리는 *"AI 안전과 프로토콜이 세계에서 가장 강력한 영리 기업들의 **사적 자기이익 합의**로 통제된다면, AI는 인간의 통제를 벗어나 우리 모두를 죽일 수 있다"* 는 취지로 말했습니다 — **안전을 이유로 반독점을 적용하자**는, 조금 독특한 구도의 주장입니다.
 
-![소장이 접수된 법원 — 캘리포니아 북부연방지방법원(샌프란시스코 연방빌딩·연방법원 청사 전경)](/assets/images/posts/openai-ai-slowdown-antitrust-lawsuit-20260920/phillip-burton-federal-courthouse-wikimedia.jpg)
+![소장이 접수된 법원 — 캘리포니아 북부연방지방법원(샌프란시스코 연방빌딩·연방법원 청사 전경)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-ai-slowdown-antitrust-lawsuit-20260920/phillip-burton-federal-courthouse-wikimedia.jpg)
 *소장이 접수된 **미국 캘리포니아 북부연방지방법원**(Phillip Burton Federal Building & United States Courthouse, 샌프란시스코). 출처: Wikimedia Commons, 촬영 Marincyclist, CC BY-SA 4.0*
 
 ## 영향 — 사용자와 개발자에게 뭐가 달라지나

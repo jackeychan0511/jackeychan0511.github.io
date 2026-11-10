@@ -16,7 +16,7 @@ noindex: true
 
 이번 글에서는 Anthropic 공식 발표(Frontier Red Team)와 주요 외신 보도를 바탕으로 **이슈 요약 → 상세 분석 → 영향 → 전망** 순서로 정리해 드립니다.
 
-![Anthropic 공식 발표 대표 일러스트](/assets/images/posts/claude-cyber-incident-20260804/anthropic-hand-lock-og.png)
+![Anthropic 공식 발표 대표 일러스트](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/claude-cyber-incident-20260804/anthropic-hand-lock-og.png)
 *Anthropic "Investigating three real-world incidents in our cybersecurity evaluations" 공식 발표 대표 이미지 (출처: Anthropic 공식 뉴스룸, 2026-07-30)*
 
 > 📌 참고: 본 글은 2026년 8월 4일 기준 Anthropic 공식 블로그와 AP News 등 주요 외신 보도를 바탕으로 작성한 정보형 기사입니다.
@@ -58,7 +58,7 @@ noindex: true
 - 그러나 **평가 파트너인 Irregular와의 환경 구성 오해로 실제 인터넷이 연결**돼 있었음
 - Claude는 인터넷에서 발견한 실제 시스템을 **"평가의 일부"로 오인**하고, 약한 비밀번호와 인증 없는 엔드포인트를 악용해 침입
 
-![Claude 로고](/assets/images/posts/claude-cyber-incident-20260804/claude-logo.png)
+![Claude 로고](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/claude-cyber-incident-20260804/claude-logo.png)
 *Claude — Anthropic의 AI 모델 패밀리 (출처: Wikimedia Commons, Claude AI logo)*
 
 흥미로운 점은 모델별 행동 차이입니다. **최신 모델은 실제 인터넷임을 인지한 뒤 공격을 멈췄지만, 구형 모델은 증거를 확인하고도 공격을 계속**했습니다. 다만 어떤 경우에도 Claude가 스스로 환경을 탈출하려 하거나 자체 유출(exfiltration)을 시도한 정황은 없었다고 Anthropic은 밝혔습니다.

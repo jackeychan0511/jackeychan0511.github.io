@@ -5,13 +5,13 @@ date: 2026-10-15 16:52:00 +0900
 categories: [career]
 tags: [Anthropic, Claude, 앤트로픽, 클로드, AnthropicIPO, 앤트로픽IPO, Q3실적, 3분기매출, 168억달러, 조정흑자, 흑자전환, 캐시플로우, DarioAmodei, 다리오아모데이, AI수익모델, AI버블논쟁, 엔터프라이즈AI, 업무자동화, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/anthropic-q3-revenue-168b-ipo-20261015/anthropic-logo-wordmark.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-q3-revenue-168b-ipo-20261015/anthropic-logo-wordmark.png
 description: "2026년 10월 15일(현지), Anthropic(앤트로픽)이 투자자 대상 클로즈드 프리IPO 미팅에서 3분기 매출 168억 달러를 공개했습니다. 2분기 115억 달러에서 약 50% 늘어난 수치로, 조정 기준 흑자 전환과 캐시플로우 플러스, 컴퓨팅 1달러당 매출 1.70달러도 함께 제시됐습니다. 11월로 예고된 IPO를 앞두고 나온 숫자라 업계가 주목하고 있습니다. 다만 성장률이 여름 이후 둔화됐다는 지적도 나옵니다. 이슈 요약 → 상세 분석 → 영향(사용자·개발자·기업) → 전망 순으로 정리했습니다."
 sitemap: false
 noindex: true
 ---
 
-![Anthropic(앤트로픽) 공식 로고](/assets/images/posts/anthropic-q3-revenue-168b-ipo-20261015/anthropic-logo-wordmark.png)
+![Anthropic(앤트로픽) 공식 로고](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-q3-revenue-168b-ipo-20261015/anthropic-logo-wordmark.png)
 *Anthropic(앤트로픽) 공식 워드마크입니다. (이미지 출처: Wikimedia Commons, "Anthropic logo", Public domain — Anthropic)*
 
 > **📌 한줄 요약:** **2026년 10월 15일(현지)**, **Anthropic(앤트로픽)** 이 투자자 대상 **클로즈드 프리IPO 미팅**에서 **3분기 매출 168억 달러**를 공개했습니다. **2분기 115억 달러에서 약 50% 늘어난** 수치이고, **조정 기준 흑자 전환**, **캐시플로우 플러스**, **컴퓨팅 1달러당 매출 1.70달러**도 함께 제시됐습니다. **11월로 예고된 IPO**를 앞두고 나온 숫자라 업계가 촉각을 곤두세우고 있습니다. 다만 **여름 이후 성장률이 둔화됐다**는 지적도 함께 나옵니다.
@@ -66,7 +66,7 @@ AI 업계 뉴스는 요즘 "새 모델이 얼마나 똑똑한가"보다 **"그 �
 
 같은 숫자를 놓고도 **"질적 개선"** 과 **"성장 피로"** 라는 두 방향의 읽기가 동시에 나오는 게 지금의 분위기입니다.
 
-![Anthropic(앤트로픽) CEO 다리오 아모데이(Dario Amodei) — 2023년 TechCrunch Disrupt 무대](/assets/images/posts/anthropic-q3-revenue-168b-ipo-20261015/dario-amodei-2023.jpg)
+![Anthropic(앤트로픽) CEO 다리오 아모데이(Dario Amodei) — 2023년 TechCrunch Disrupt 무대](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-q3-revenue-168b-ipo-20261015/dario-amodei-2023.jpg)
 *Anthropic(앤트로픽) CEO **다리오 아모데이(Dario Amodei)** 입니다. (이미지 출처: Wikimedia Commons, "Dario Amodei at TechCrunch Disrupt 2023", 촬영 TechCrunch, CC BY 2.0)*
 
 ---

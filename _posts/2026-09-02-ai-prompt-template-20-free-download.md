@@ -5,7 +5,7 @@ date: 2026-09-02 20:00:00 +0900
 categories: [career]
 tags: [AI프롬프트, 프롬프트템플릿, 생성형AI, 챗GPT, 업무자동화, 회사원, 직장인, 무료자료, AI는나를해고하지않았다, 전자책, 40대, 2026년9월]
 author: "40대 블로거"
-image: /assets/images/posts/ai-prompt-template-20-free-download/book-cover.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/ai-prompt-template-20-free-download/book-cover.png
 description: "〈AI는 나를 해고하지 않았다〉(심종주 지음)의 독자용 부록, 회사원용 AI 프롬프트 템플릿 20선을 무료로 배포합니다. 문서 작성·이메일·회의·엑셀·분석/기획·커리어 6개 카테고리로 정리했고, 구독·메일 입력 없이 바로 받을 수 있습니다. 받는 데 조건 없음, 출처를 밝히고 자유롭게 공유하세요."
 ---
 
@@ -13,7 +13,7 @@ description: "〈AI는 나를 해고하지 않았다〉(심종주 지음)의 독
 
 > **📌 한줄 요약:** 40대 직장인이 AI를 실제 업무에 쓰며 정리한 프롬프트 노하우를 **템플릿 20개**로 묶었습니다. 문서 작성·이메일·회의·엑셀·분석/기획·커리어 6개 카테고리로 나눠서 **【 】만 채우면 바로 쓸 수 있는 문장**으로 만들어 두었고, 구독이나 메일 입력 없이 아래 버튼으로 바로 받을 수 있습니다.
 
-![〈AI는 나를 해고하지 않았다〉 표지](/assets/images/posts/ai-prompt-template-20-free-download/book-cover.png)
+![〈AI는 나를 해고하지 않았다〉 표지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/ai-prompt-template-20-free-download/book-cover.png)
 *〈AI는 나를 해고하지 않았다〉 — "AI는 나를 해고하지 않았다. 대신, 나를 바꿨다."*
 
 ---
@@ -31,7 +31,7 @@ description: "〈AI는 나를 해고하지 않았다〉(심종주 지음)의 독
 
 ## 자료 받기
 
-[📥 회사원용 AI 프롬프트 템플릿 20선 (PDF) — 바로 다운로드](/assets/downloads/ai-prompt-template-20.pdf)
+[📥 회사원용 AI 프롬프트 템플릿 20선 (PDF) — 바로 다운로드](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/downloads/ai-prompt-template-20.pdf)
 
 - **받는 데 구독·메일 입력이 필요 없습니다.** 조건 없이 무료입니다.
 - 파일은 책과 같은 크림·골드 톤으로 제작된 6쪽 PDF입니다.

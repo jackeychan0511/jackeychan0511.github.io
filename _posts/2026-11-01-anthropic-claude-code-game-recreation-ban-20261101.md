@@ -5,13 +5,13 @@ date: 2026-11-01 16:50:00 +0900
 categories: [career]
 tags: [Anthropic, Claude, 앤트로픽, 클로드, ClaudeCode, 클로드코드, 게임재현금지, 저작권, 지식재산권, 프롬프트가드레일, tengu_heron_brook, Opus5.5, 바이브코딩, 인디게임, 원격토글, AI에이전트, 업무자동화, 2026년11월]
 author: "40대 블로거"
-image: /assets/images/posts/anthropic-claude-code-game-recreation-ban-20261101/claude-code-official.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-code-game-recreation-ban-20261101/claude-code-official.jpg
 description: "2026년 10월 30일, Anthropic이 Claude Code 2.1.314에 '기존 게임을 재현하지 말 것'이라는 두 문장짜리 지침을 조용히 추가했습니다. 공개 체인지로그에는 없고, 서버 플래그로 원격 제어되며, 사용자가 끌 수 있는 설정도 없습니다. 정당한 모드·팬 프로젝트까지 거절됐다는 개발자 보고가 이어지면서, AI 코딩 에이전트의 '행동 계층'이 언제든 바뀔 수 있다는 점이 새 쟁점으로 떠올랐습니다."
 sitemap: false
 noindex: true
 ---
 
-![Claude Code 공식 제품 페이지 대표 이미지 — Anthropic의 터미널 기반 AI 코딩 에이전트](/assets/images/posts/anthropic-claude-code-game-recreation-ban-20261101/claude-code-official.jpg)
+![Claude Code 공식 제품 페이지 대표 이미지 — Anthropic의 터미널 기반 AI 코딩 에이전트](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-code-game-recreation-ban-20261101/claude-code-official.jpg)
 *Claude Code 공식 제품 페이지 대표 이미지. 이번 변경은 모델 가중치나 UI가 아니라, 매 세션마다 모델에 주입되는 '지침 텍스트' 계층에서 이뤄졌습니다 (출처: Anthropic 공식 사이트 claude.com/product/claude-code)*
 
 > **📌 한줄 요약:** 2026년 **10월 30일(UTC)**, Anthropic이 **Claude Code 2.1.314**에 **두 문장짜리 새 지침**을 넣었습니다. "원작 게임은 만들되, **특정 기존 게임의 재현은 이름을 바꿔도 하지 말 것**"이라는 내용입니다. 문제는 세 가지입니다. **① 공개 체인지로그에 없었고**, **② 서버 플래그(`tengu_heron_brook`)로 원격 제어되며**, **③ 사용자가 끌 수 있는 설정이 없습니다.** 게다가 이 지침은 기술적 차단이 아니라 모델에 대한 '부탁'이라, **정당한 모드·팬 프로젝트까지 거절되는 사례**가 보고되고 있습니다.
@@ -77,7 +77,7 @@ AI 코딩 에이전트를 업무에 붙여 쓰는 분들이라면 이번 건이 
 1. **일관성이 없다** — 같은 요청도 표현에 따라 통과하거나 거절됩니다.
 2. **경계 판정을 모델이 한다** — "이 에셋이 내 것인지"를 모델이 알 방법이 없습니다. Hacker News에서 가장 많이 나온 질문이 정확히 이것이었습니다. *"내 디자인과 에셋인지 Claude가 어떻게 아나?"*
 
-![Claude AI 공식 로고 — Wikimedia Commons](/assets/images/posts/anthropic-claude-code-game-recreation-ban-20261101/claude-ai-logo.png)
+![Claude AI 공식 로고 — Wikimedia Commons](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-claude-code-game-recreation-ban-20261101/claude-ai-logo.png)
 *Claude AI 공식 로고. 이번 변경은 모델 자체가 아니라 '모델에 주입되는 지침'의 변경이어서, 같은 모델·같은 버전에서도 결과가 달라질 수 있습니다 (출처: Wikimedia Commons, Claude AI logo.svg)*
 
 ---

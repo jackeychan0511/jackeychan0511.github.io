@@ -4,7 +4,7 @@ title: "OpenClaw 생태계가 진화했다: 모바일 앱·Control UI·GPT-5.6�
 date: 2026-07-29 10:00:00 +0900
 categories: [career]
 tags: [OpenClaw, AI에이전트, 모바일앱, ControlUI, GPT-5.6, 오픈소스AI, IOS, Android]
-image: /assets/images/posts/openclaw-2026-summer/hero-openclaw.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openclaw-2026-summer/hero-openclaw.png
 sitemap: false
 noindex: true
 ---
@@ -17,7 +17,7 @@ noindex: true
 
 방금 조사한 내용을 바탕으로, 2026년 여름 OpenClaw 생태계의 핵심 변화를 정리해봤습니다.
 
-![OpenClaw GitHub Social Preview](/assets/images/posts/openclaw-2026-summer/hero-openclaw.png)
+![OpenClaw GitHub Social Preview](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openclaw-2026-summer/hero-openclaw.png)
 *OpenClaw 프로젝트 - 출처: GitHub (openclaw/openclaw)*
 
 ---
@@ -56,7 +56,7 @@ OpenClaw 하면 CLI(터미널) 이미지가 강했는데, 이번 v2026.7.1에서
 
 v2026.3.12에서 첫 선을 보인 이후 7월 v2026.7.1에서 대폭 개선됐습니다. 532명의 컨트리뷰터가 3,063개의 커밋을 쏟아부은 결과물이죠.
 
-![OpenClaw Logo](/assets/images/posts/openclaw-2026-summer/wikipedia-330px-Openclaw-logo-text-dark.svg.png)
+![OpenClaw Logo](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openclaw-2026-summer/wikipedia-330px-Openclaw-logo-text-dark.svg.png)
 *OpenClaw 로고 - 출처: Wikimedia Commons (CC BY-SA)*
 
 ---

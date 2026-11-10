@@ -5,7 +5,7 @@ date: 2026-09-30 11:24:00 +0900
 categories: [products]
 tags: [낫싱 헤드폰 1 프로, Nothing Headphone (1) Pro, 낫싱 헤드폰 프로, 트리플 드라이버, xMEMS 트위터, 46dB ANC, 노이즈캔슬링 헤드폰, LDAC 헤드폰, 68시간 배터리, 메트로폴리스 스튜디오, 스튜디오 모드, BTS 뷔 앰버서더, 에어팟 맥스 2 비교, 보스 QC 울트라 비교, 무선 헤드폰 추천, 오버이어 헤드폰 비교, 제품 비교]
 author: "40대 블로거"
-image: /assets/images/posts/nothing-headphone-1-pro-review-20260930/nothing-headphone-1-pro-hero.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/nothing-headphone-1-pro-review-20260930/nothing-headphone-1-pro-hero.jpg
 description: "낫싱이 2026년 9월 29일 플래그십 오버이어 헤드폰 Headphone (1) 프로를 399달러에 전격 공개했습니다. 이어컵마다 드라이버를 3개(40mm 베이스 + 정밀 다이내믹 + xMEMS 트위터) 넣은 트리플 드라이버 구조에 최대 46dB 적응형 ANC, LDAC 24bit/96kHz 무선 하이레스, USB-C 24bit/192kHz 유선 무손실, 최대 68시간 배터리, 메트로폴리스 스튜디오 튜닝의 '스튜디오 모드'까지 담았습니다. 무게 327g·aptX 미지원·케이스 설계 같은 아쉬운 점과 에어팟 맥스 2·보스 QC 울트라·소니 플래그십과 비교해 누구에게 맞는지, 399달러 기준으로 솔직하게 정리했습니다. 이미지는 낫싱 공식 제품 페이지 이미지입니다."
 ---
 
@@ -17,7 +17,7 @@ description: "낫싱이 2026년 9월 29일 플래그십 오버이어 헤드폰 H
 
 이번 글에서는 **Headphone (1) 프로가 정확히 무엇이 새로운지, 그리고 399달러를 내고 살 만한지**를 정리해 봤습니다.
 
-![낫싱 헤드폰 (1) 프로 공식 제품 이미지 — 트랜스패런트 디자인과 메탈 프레임 (출처: 낫싱 공식 제품 페이지)](/assets/images/posts/nothing-headphone-1-pro-review-20260930/nothing-headphone-1-pro-hero.jpg)
+![낫싱 헤드폰 (1) 프로 공식 제품 이미지 — 트랜스패런트 디자인과 메탈 프레임 (출처: 낫싱 공식 제품 페이지)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/nothing-headphone-1-pro-review-20260930/nothing-headphone-1-pro-hero.jpg)
 *투명 이어컵 안으로 드라이버 구조가 그대로 보이는 낫싱 특유의 디자인이 이번에도 살아 있습니다 (출처: 낫싱 공식)*
 
 ## 낫싱 헤드폰 (1) 프로 — 무엇이 달라졌나
@@ -48,7 +48,7 @@ description: "낫싱이 2026년 9월 29일 플래그십 오버이어 헤드폰 H
 
 무선·유선 모두 하이레스 인증을 받은 게 반갑습니다. 다만 **aptX Adaptive·Lossless는 빠졌습니다.** 퀄컴 스냅드래곤 기기에서 aptX로 듣던 분이라면 이건 명확한 아쉬운 점입니다. 아이폰이면 AAC라 상관없지만, 안드로이드 유저는 **LDAC 지원 여부를 꼭 확인**하시길 권합니다.
 
-![낫싱 헤드폰 (1) 프로 드라이버 구조 이미지 (출처: 낫싱 공식 제품 페이지)](/assets/images/posts/nothing-headphone-1-pro-review-20260930/nothing-headphone-1-pro-driver.jpg)
+![낫싱 헤드폰 (1) 프로 드라이버 구조 이미지 (출처: 낫싱 공식 제품 페이지)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/nothing-headphone-1-pro-review-20260930/nothing-headphone-1-pro-driver.jpg)
 *대역별로 유닛을 나눈 트리플 드라이버 구조가 이 제품의 최대 차별점입니다 (출처: 낫싱 공식)*
 
 ### 3) 노이즈캔슬링 — 마이크 10개, 최대 46dB
@@ -59,7 +59,7 @@ description: "낫싱이 2026년 9월 29일 플래그십 오버이어 헤드폰 H
 
 숫자만 보면 에어팟 맥스 2·보스 QC 울트라와 같은 최상위권 대역입니다. 다만 이어패드가 **더 부드러워진 대신 밀착 차음은 살짝 약해졌다**는 해외 리뷰 평도 있어, **ANC 성능은 실착용 후 판단**하는 게 안전합니다.
 
-![낫싱 헤드폰 (1) 프로 노이즈캔슬링 및 사운드 기능 (출처: 낫싱 공식 제품 페이지)](/assets/images/posts/nothing-headphone-1-pro-review-20260930/nothing-headphone-1-pro-anc.jpg)
+![낫싱 헤드폰 (1) 프로 노이즈캔슬링 및 사운드 기능 (출처: 낫싱 공식 제품 페이지)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/nothing-headphone-1-pro-review-20260930/nothing-headphone-1-pro-anc.jpg)
 *마이크 10개로 구동하는 적응형 ANC와 다이나믹 스페이셜 오디오를 강조한 이미지입니다 (출처: 낫싱 공식)*
 
 ### 4) 스튜디오 모드 — 메트로폴리스 스튜디오 협업
@@ -82,7 +82,7 @@ description: "낫싱이 2026년 9월 29일 플래그십 오버이어 헤드폰 H
 
 배터리는 숫자만 보면 최상위권입니다. 다만 **327g은 여전히 무거운 편**이라, 보스 QC 울트라나 소니 플래그십보다 무겁습니다. 장시간 착용 시 정수리 압박이 걱정된다면 **매장에서 꼭 써보시길** 권합니다.
 
-![낫싱 헤드폰 (1) 프로 착용 라이프스타일 이미지 (출처: 낫싱 공식 제품 페이지)](/assets/images/posts/nothing-headphone-1-pro-review-20260930/nothing-headphone-1-pro-lifestyle.jpg)
+![낫싱 헤드폰 (1) 프로 착용 라이프스타일 이미지 (출처: 낫싱 공식 제품 페이지)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/nothing-headphone-1-pro-review-20260930/nothing-headphone-1-pro-lifestyle.jpg)
 *헤드밴드를 넓히고 패딩을 부드럽게 개선해 착용감을 손봤습니다 (출처: 낫싱 공식)*
 
 ## 비교 포인트 — 에어팟 맥스 2·보스·소니와 뭐가 다른가
@@ -106,7 +106,7 @@ description: "낫싱이 2026년 9월 29일 플래그십 오버이어 헤드폰 H
 
 한 가지 아쉬운 점은 **케이스**입니다. 이어컵만 담기고 헤드밴드가 밖으로 튀어나오는 플라스틱 케이스라, 해외에서 "에어팟 맥스 브라 케이스를 그대로 따라 했다"는 지적까지 나왔습니다. 휴대성이 중요한 분께는 이 부분이 마이너스입니다.
 
-![낫싱 헤드폰 (1) 프로 블랙·화이트 색상 이미지 (출처: 낫싱 공식 제품 페이지)](/assets/images/posts/nothing-headphone-1-pro-review-20260930/nothing-headphone-1-pro-white.jpg)
+![낫싱 헤드폰 (1) 프로 블랙·화이트 색상 이미지 (출처: 낫싱 공식 제품 페이지)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/nothing-headphone-1-pro-review-20260930/nothing-headphone-1-pro-white.jpg)
 *블랙과 화이트 두 색상으로 나오며, 화이트는 투명 파츠와 대비가 특히 잘 어울립니다 (출처: 낫싱 공식)*
 
 ## 가격과 출시 정보

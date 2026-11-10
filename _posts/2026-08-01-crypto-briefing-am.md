@@ -5,13 +5,13 @@ date: 2026-08-01 08:00:00 +0900
 categories: [finance]
 tags: [비트코인, 가상화폐, 코인, BTC, 암호화폐, 콜드카드, 하드웨어지갑, 보안]
 author: "40대 블로거"
-image: /assets/images/posts/crypto-briefing-20260801/crypto-bitcoin.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/crypto-briefing-20260801/crypto-bitcoin.jpg
 description: "8월 1일 오전 코인 브리핑. 콜드카드 Mk3 하드웨어 지갑 시드 결함으로 약 594 BTC(약 5,470억원)가 25분 만에 탈취되는 사건 발생. BTC는 $64,200선으로 소폭 반등, 원화 약 9,080만원. 8월 징크스 관심과 함께 하드웨어 지갑 보안 점검이 필요한 시점."
 sitemap: false
 noindex: true
 ---
 
-![비트코인 차트](/assets/images/posts/crypto-briefing-20260801/crypto-bitcoin.jpg)
+![비트코인 차트](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/crypto-briefing-20260801/crypto-bitcoin.jpg)
 *비트코인 — $64,200선 소폭 반등, 8월 징크스 앞두고 관망세 (확인일: 2026.08.01 08:00 KST)*
 
 **핵심 요약**: 하드웨어 지갑 '콜드카드' Mk3의 시드 생성 결함으로 약 594 BTC(한화 약 5,470억원)가 25분 만에 탈취됐습니다. 비트코인은 전일 대비 소폭 반등해 $64,200선(원화 약 9,080만원)에서 거래 중입니다.

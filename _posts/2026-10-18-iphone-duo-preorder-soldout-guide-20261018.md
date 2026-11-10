@@ -5,7 +5,7 @@ date: 2026-10-18 11:20:00 +0900
 categories: [products]
 tags: [아이폰듀오, iPhoneDuo, 애플폴더블, 아이폰듀오가격, 아이폰듀오사전예약, 갤럭시Z폴드8, 폴더블폰비교, A20Pro, 애플, 구매가이드, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/iphone-duo-preorder-soldout-guide-20261018/iphone-duo-foldable.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/iphone-duo-preorder-soldout-guide-20261018/iphone-duo-foldable.jpg
 description: "아이폰 듀오 사전예약이 시작되자마자 배송일이 11월→12월→2027년 1월로 밀렸습니다. 애플은 수요가 '이례적(extraordinary)'이라고 밝혔고, 출시일 매장 구매는 사실상 어렵다는 보도도 나왔습니다. 국내 출고가 329만 원부터, 10월 23일 출시. 용량별 가격·핵심 스펙·갤럭시 Z 폴드8과의 비교·지금 주문할지 기다릴지 판단 기준을 공식 자료 기준으로 정리했습니다."
 ---
 
@@ -13,7 +13,7 @@ description: "아이폰 듀오 사전예약이 시작되자마자 배송일이 1
 
 ---
 
-![아이폰 듀오 폴더블 디자인 공식 이미지](/assets/images/posts/iphone-duo-preorder-soldout-guide-20261018/iphone-duo-foldable.jpg)
+![아이폰 듀오 폴더블 디자인 공식 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/iphone-duo-preorder-soldout-guide-20261018/iphone-duo-foldable.jpg)
 *애플이 공개한 아이폰 듀오. 펼치면 7.6인치, 접으면 5.4인치로 쓸 수 있는 첫 폴더블 아이폰입니다 (출처: Apple 공식 제품 페이지)*
 
 ---
@@ -47,7 +47,7 @@ description: "아이폰 듀오 사전예약이 시작되자마자 배송일이 1
 
 미국 가격은 256GB **1,999달러**부터, 2TB **3,199달러**입니다. 색상은 **스타 화이트·나이트 스카이** 두 가지로, 국내에서는 양쪽 용량 모두 같은 색상 라인업으로 나옵니다.
 
-![아이폰 듀오 스타 화이트·나이트 스카이 색상 이미지](/assets/images/posts/iphone-duo-preorder-soldout-guide-20261018/iphone-duo-colors.jpg)
+![아이폰 듀오 스타 화이트·나이트 스카이 색상 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/iphone-duo-preorder-soldout-guide-20261018/iphone-duo-colors.jpg)
 *스타 화이트와 나이트 스카이 두 가지 색상으로 출시됩니다 (출처: Apple Newsroom, 2026.9)*
 
 용량 간 가격 차이가 계단식으로 커지는 구조도 눈여겨볼 만합니다. 256GB → 512GB는 30만 원이지만, 1TB → 2TB는 90만 원입니다. **"일단 256GB, 나중에 클라우드"**가 합리적인 이유이기도 합니다.
@@ -72,14 +72,14 @@ description: "아이폰 듀오 사전예약이 시작되자마자 배송일이 1
 | 소재 | 5등급 티타늄, 전면 Ceramic Shield 2 |
 | 기타 | Apple Pencil(USB-C) 지원, Wi‑Fi 7, Thread |
 
-![아이폰 듀오 5.4인치·7.6인치 화면 크기 비교 이미지](/assets/images/posts/iphone-duo-preorder-soldout-guide-20261018/iphone-duo-display-sizes.jpg)
+![아이폰 듀오 5.4인치·7.6인치 화면 크기 비교 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/iphone-duo-preorder-soldout-guide-20261018/iphone-duo-display-sizes.jpg)
 *접었을 때 5.4인치, 펼쳤을 때 7.6인치. 두 화면 모두 최대 3,000니트 밝기를 지원합니다 (출처: Apple Newsroom, 2026.9)*
 
 솔직히 스펙표에서 가장 눈에 걸리는 숫자는 **254g**입니다. 폴더블 중에서는 가벼운 편이 아니고, 바형 아이폰 프로 맥스보다 확실히 묵직합니다. 반대로 **IP68**은 폴더블 카테고리에서 여전히 드문 등급이라, 물·먼지에 예민한 분들에게는 실질적인 차이입니다.
 
 배터리도 숫자만 보면 넉넉합니다. 외부 화면 기준 동영상 재생 **최대 44시간**, 내부 화면 기준 **31시간**입니다. 다만 대화면을 오래 켜 두는 사용 패턴이라면 실사용 시간은 이보다 줄어든다고 보는 게 안전합니다.
 
-![아이폰 듀오 멀티태스킹 화면 이미지](/assets/images/posts/iphone-duo-preorder-soldout-guide-20261018/iphone-duo-multitasking.jpg)
+![아이폰 듀오 멀티태스킹 화면 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/iphone-duo-preorder-soldout-guide-20261018/iphone-duo-multitasking.jpg)
 *펼친 화면에서 Safari와 Siri를 함께 띄운 모습. 분할 화면 활용이 이 제품의 핵심 사용성입니다 (출처: Apple Newsroom, 2026.9)*
 
 ---
@@ -118,7 +118,7 @@ description: "아이폰 듀오 사전예약이 시작되자마자 배송일이 1
 - 예산이 빠듯하다면 **갤럭시 Z 폴드8(227만 원)** 또는 **아이폰 18 프로**가 여전히 유효한 대안입니다. 329만 원은 "폰값"이라기보다 "태블릿+폰"을 한 번에 사는 가격에 가깝습니다.
 - 폴더블 특성상 **디스플레이 수리비가 높은 편**입니다. 오래 쓸 생각이라면 **AppleCare+ 가입 비용까지 총소유비용에 넣고** 계산하는 편이 안전합니다.
 
-![아이폰 듀오 펼친 화면 공식 이미지](/assets/images/posts/iphone-duo-preorder-soldout-guide-20261018/iphone-duo-display.jpg)
+![아이폰 듀오 펼친 화면 공식 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/iphone-duo-preorder-soldout-guide-20261018/iphone-duo-display.jpg)
 *펼친 상태 두께 5.2mm. 애플은 역대 가장 얇은 아이폰이라고 설명했습니다 (출처: Apple 공식 제품 페이지)*
 
 ---

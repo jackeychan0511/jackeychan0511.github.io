@@ -5,7 +5,7 @@ date: 2026-10-11 07:55:00 +0900
 categories: [career]
 tags: [HermesAgent, NousResearch, 보안취약점, CVE, PKCE, 세션탈취, 업무자동화, AI에이전트, Tenable, v0216, 보안업데이트, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/2026-10-11-hermes-agent-pkce-session-takeover-20261011/hermes-agent-official-og.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-10-11-hermes-agent-pkce-session-takeover-20261011/hermes-agent-official-og.png
 description: "2026년 10월 9일, 보안업체 Tenable이 오픈소스 AI 에이전트 Hermes Agent에서 PKCE 세션 탈취 취약점(TRA-2026-65, CVSS 8.8)을 공개했습니다. 0.21.6 미만 버전이 영향을 받고, 10월 8일 배포된 v0.21.6에서 수정됐습니다. 업무 자동화 파이프라인을 운영하는 분들이라면 꼭 확인해야 할 내용만 정리했습니다."
 ---
 
@@ -15,7 +15,7 @@ description: "2026년 10월 9일, 보안업체 Tenable이 오픈소스 AI 에이
 
 문제는 이 세션을 뺏어가는 취약점이 **공개**됐다는 점입니다. 2026년 10월 9일, 보안업체 **Tenable**이 오픈소스 AI 에이전트 **Hermes Agent**(Nous Research 개발)에서 **PKCE 세션 탈취 취약점**을 공개했습니다. 권고 번호는 **TRA-2026-65**, 위험도는 **High**입니다.
 
-![Hermes Agent 공식 홈페이지 랜딩 이미지](/assets/images/posts/2026-10-11-hermes-agent-pkce-session-takeover-20261011/hermes-agent-official-og.png)
+![Hermes Agent 공식 홈페이지 랜딩 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-10-11-hermes-agent-pkce-session-takeover-20261011/hermes-agent-official-og.png)
 *Hermes Agent 공식 사이트(hermes-agent.nousresearch.com) 랜딩 이미지 — 출처: Nous Research 공식 사이트*
 
 업무 자동화에 AI 에이전트를 얹어 쓰는 분들이라면, 결론부터 말하면 **0.21.6 미만 버전을 쓰고 있으면 지금 바로 업데이트**해야 합니다. 이유를 하나씩 짚어보겠습니다.
@@ -49,7 +49,7 @@ Tenable 권고에 명시된 **영향받는 버전은 Hermes Agent 0.21.6 미만*
 
 Hermes Agent를 **서버에 상주시켜 메신저·웹 로그인과 연동**해 쓰는 구성이라면 영향이 더 큽니다. 세션이 곧 에이전트의 권한이기 때문에, 세션이 탈취되면 그 에이전트가 접근할 수 있는 **파일·터미널·메시징 채널**이 그대로 넘어갈 수 있습니다.
 
-![Hermes Agent v0.21.6 GitHub 릴리스 페이지](/assets/images/posts/2026-10-11-hermes-agent-pkce-session-takeover-20261011/hermes-v0216-github-release.png)
+![Hermes Agent v0.21.6 GitHub 릴리스 페이지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-10-11-hermes-agent-pkce-session-takeover-20261011/hermes-v0216-github-release.png)
 *Hermes Agent v0.21.6 GitHub 릴리스(2026.10.8) — 출처: github.com/NousResearch/hermes-agent/releases*
 
 ## 해결책 — v0.21.6으로 업데이트하면 끝
@@ -94,7 +94,7 @@ hermes version
 
 업무 자동화 파이프라인을 돌리면서 AI 에이전트를 실사용하는 분들이라면, 이번 주 안에 버전 한 번만 확인해 보시길 권합니다. 5분 투자로 세션 탈취 위험을 정리할 수 있는, 가성비 좋은 보안 점검입니다.
 
-![Hermes Agent 사이드 배너 이미지](/assets/images/posts/2026-10-11-hermes-agent-pkce-session-takeover-20261011/hermes-agent-official-hero.webp)
+![Hermes Agent 사이드 배너 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-10-11-hermes-agent-pkce-session-takeover-20261011/hermes-agent-official-hero.webp)
 *Hermes Agent 공식 사이트 배너 이미지 — 출처: Nous Research 공식 사이트*
 
 > 참고 자료

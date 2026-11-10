@@ -5,11 +5,11 @@ date: 2026-10-31 15:55:00 +0900
 categories: [career]
 tags: [Google Gemini, 구글 제미나이, Connected Apps Platform, 커넥티드 앱, Gemini 앱 연동, 구글 검색 AI, AI 모드, MCP, Model Context Protocol, Android MCP, AppFunctions, Google Connected Console, A2UI, Gemini Nano 4, Agentic API, Android Dev Summit, 에이전트 생태계, 업무자동화]
 author: "40대 블로거"
-image: /assets/images/posts/gemini-connected-apps-platform-20261031/connected-apps-platform.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-connected-apps-platform-20261031/connected-apps-platform.png
 description: "구글이 2026년 10월 28일(미국 현지시간) 커넥티드 앱 플랫폼(Connected Apps Platform) 프리뷰를 공개했습니다. 그동안 구글과 개별 협의로만 붙일 수 있던 앱 연동을, 이제 미국 개발자 누구나 클라우드 MCP 서버나 Android MCP(AppFunctions API)로 만들어 구글 커넥티드 콘솔에서 등록·테스트·제출할 수 있습니다. Search와 Gemini 앱 중 노출 지면을 직접 고르고 트래픽·지연·오류율을 추적합니다. Gemini에 이미 50개 이상 연결된 앱은 몇 주 안에 검색으로도 확장됩니다. 기술 요건, 개발자·자동화 운영자 영향, 아직 남은 제약을 정리했습니다."
 ---
 
-![Google 커넥티드 앱 플랫폼 공식 발표 이미지](/assets/images/posts/gemini-connected-apps-platform-20261031/connected-apps-platform.png)
+![Google 커넥티드 앱 플랫폼 공식 발표 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-connected-apps-platform-20261031/connected-apps-platform.png)
 *출처: Google 공식 블로그 "New Connected Apps Platform launches for developers" (2026.10.28)*
 
 > **📌 한 줄 요약:** 구글이 **2026년 10월 28일(미국 현지시간)**, 그동안 자사와 개별 협의로만 붙일 수 있었던 앱 연동을 **누구나 신청해서 붙일 수 있는 셀프서브 플랫폼**으로 바꿨습니다. 이름은 **커넥티드 앱 플랫폼(Connected Apps Platform)**. 개발자는 **클라우드 호스팅 MCP 서버**나 **Android MCP(AppFunctions API)** 로 앱 기능을 노출하고, 새로 생긴 **구글 커넥티드 콘솔(Google Connected Console)** 에서 등록·테스트·제출합니다. 노출 지면은 **검색(Search)** 과 **Gemini 앱** 중 직접 고를 수 있고, 배포 후에는 **트래픽·지연시간·오류율**을 콘솔에서 추적합니다. Gemini 앱에 이미 붙어 있는 **50개 이상**의 연동 앱은 앞으로 몇 주에 걸쳐 검색으로도 확장됩니다.
@@ -58,7 +58,7 @@ MCP 서버로 사내 도구나 외부 SaaS를 에이전트에 붙여 쓰는 분�
 
 지금 검색 쪽 연동은 Gemini보다 훨씬 적습니다. Instacart, Canva, YouTube Music, Yahoo Fantasy Football 정도가 알려져 있습니다. 그런데 Gemini에 이미 붙어 있는 **50개 이상**의 앱이 **몇 주 안에 검색으로 확장**됩니다. 사용자가 검색창에 "이번 주말 등산 준비물 사줘"라고 치면, 검색 결과를 읽고 링크를 누르는 대신 **연동된 앱이 그 자리에서 작업을 처리**하는 그림입니다.
 
-![Android Dev Summit 공식 발표 이미지](/assets/images/posts/gemini-connected-apps-platform-20261031/android-agentic-hero.jpg)
+![Android Dev Summit 공식 발표 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-connected-apps-platform-20261031/android-agentic-hero.jpg)
 *출처: Android Developers Blog "Agentic and Flexible: A next era of Android development" (2026.10.28)*
 
 이건 웹사이트 운영자에게 불편한 소식이면서 기회입니다. 검색 결과 클릭이 줄어드는 대신, **앱이 직접 호출되는 지면**이 생깁니다. 블로그·쇼핑몰을 운영하는 분들이라면 "내 서비스가 에이전트에게 어떤 도구로 보일 것인가"를 고민해야 하는 시점입니다. TechCrunch가 *"SEO가 검색 순위를 만들었던 것처럼, 이것이 에이전트 웹에서 서비스를 노출시키는 첫 단계가 될 수 있다"* 고 짚은 이유입니다.

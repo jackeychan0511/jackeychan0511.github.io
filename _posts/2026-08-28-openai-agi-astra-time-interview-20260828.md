@@ -5,7 +5,7 @@ date: 2026-08-28 14:52:00 +0900
 categories: [career]
 tags: [GPT, OpenAI, Astra, AGI, 샘알트만, SamAltman, TIME, 마크첸, 파촉키, 자동연구인턴, RecursiveSelfImprovement, RSI, 에이전트, PersistentAgents, Anthropic, AI뉴스, 2026년8월]
 author: "40대 블로거"
-image: /assets/images/posts/openai-agi-astra-time-interview-20260828/sam-altman-wikimedia.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-agi-astra-time-interview-20260828/sam-altman-wikimedia.jpg
 description: "2026년 8월 26일 TIME지가 공개한 심층 보도 'Inside OpenAI's Reboot'에서 샘 알트만 CEO가 '연내(2026년 말까지) 내부 AGI 달성'을 선언했습니다. 차세대 모델군 'Astra'는 이미 내부 기준 '자동 연구 인턴' 벤치마크를 통과해, 실험 아이디어를 받으면 자사 코드베이스에 직접 구현·실행·결과 반환까지 수행하고, 연구자 1주일치 작업을 처리하는 수준이라고 합니다. 슈퍼휴먼 속도로 컴퓨터를 조작하는 '지속형 에이전트' 데모, 허깅페이스 사건 이후의 안전 우선 리부트, 그리고 사용자·개발자에게 미치는 영향과 전망까지 정리했습니다."
 sitemap: false
 noindex: true
@@ -13,7 +13,7 @@ noindex: true
 
 > **📌 한줄 요약:** TIME지가 2026년 8월 26일 공개한 심층 보도 **"Inside OpenAI's Reboot(OpenAI의 리부트)"**에서 샘 알트만 CEO가 **"2026년 말까지 내부적으로 AGI(범용 인공지능)로 볼 수 있는 시스템을 달성하겠다"**고 선언했습니다. 핵심은 차세대 모델군 **Astra**입니다. OpenAI 최고과학자 파촉키(Jakub Pachocki)는 **Astra가 이미 '자동 연구 인턴(automated research intern)' 내부 벤치마크를 통과**했다고 밝혔는데, 실험 아이디어를 받으면 자사 코드베이스에 직접 코드를 구현하고, 실험을 돌려 결과까지 반환하는 수준입니다. 외신은 **연구자 1주일치 작업을 처리**한다고 전했습니다. '슈퍼휴먼' 속도로 컴퓨터를 조작하며 며칠씩 일하는 **지속형 에이전트(persistent agents)**라는 콘셉트와 함께, 지난 1년간 Anthropic에 주도권을 내줬던 OpenAI가 '안전 우선'으로 재정비하는 과정이 담겼습니다.
 
-![샘 알트만 OpenAI CEO (2022년 11월 촬영)](/assets/images/posts/openai-agi-astra-time-interview-20260828/sam-altman-wikimedia.jpg)
+![샘 알트만 OpenAI CEO (2022년 11월 촬영)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-agi-astra-time-interview-20260828/sam-altman-wikimedia.jpg)
 *샘 알트만 OpenAI CEO (출처: Wikimedia Commons 'Sam Altman November 2022', Village Global 촬영, CC BY 2.0, 2026-08-28 확인)*
 
 ## 이슈 요약 — "AGI가 더 이상 먼 미래가 아니다"
@@ -69,7 +69,7 @@ TIME 보도에 따르면 OpenAI의 올해 연구 목표 중 하나는 **'주니�
 - 파촉키는 이제 **'정렬·안전에 대한 확신'이 컴퓨팅 파워만큼이나 OpenAI의 진척을 좌우하는 제약 조건**이 됐다고 말합니다. Astra 출시도 새 안전장치 통과가 전제입니다.
 - 업계 전반으로는 **1,300명 이상의 프런티어 AI 기업 현직·전직 직원이 'Pacing the Frontier' 서한**에 서명했고, 버니 샌더스 상원의원이 "인류를 위해 개발 중단"을 촉구한 상황도 함께 언급됐습니다.
 
-![OpenAI 공식 로고 (2025 심볼)](/assets/images/posts/openai-agi-astra-time-interview-20260828/openai-logo-2025-symbol.png)
+![OpenAI 공식 로고 (2025 심볼)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-agi-astra-time-interview-20260828/openai-logo-2025-symbol.png)
 *OpenAI 공식 로고 (출처: Wikimedia Commons 'OpenAI logo 2025 symbol', 공식 브랜드 로고, 2026-08-28 확인)*
 
 ## 영향 — 사용자와 개발자에게는?

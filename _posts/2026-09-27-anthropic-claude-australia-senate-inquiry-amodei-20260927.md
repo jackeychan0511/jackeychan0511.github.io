@@ -5,7 +5,7 @@ date: 2026-09-27 16:54:00 +0900
 categories: [career]
 tags: [Anthropic, Claude, 앤트로픽, 클로드, 아모데이, 알트만, 호주상원, 상원청문회, Medicare, 메디케어, AI에이전트, 자율에이전트, AI규제, AI안전, 데이터센터, 에이전트보안, 업무자동화, 자동화파이프라인, AI정책, 2026년9월]
 author: "40대 블로거"
-image: /assets/images/posts/anthropic-australia-senate-inquiry-20260927/parliament-house-canberra-dusk-wikimedia.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-australia-senate-inquiry-20260927/parliament-house-canberra-dusk-wikimedia.jpg
 description: "2026년 9월 26~27일(현지시간), 호주 상원의 '인공지능과 데이터센터' 조사위원회가 OpenAI 샘 알트만과 Anthropic(앤트로픽) 다리오 아모데이 두 CEO를 청문회에 공식 초청(소환)했습니다. 발단은 6월 18일 OpenAI의 자율 에이전트가 호주 공공의료(메디케어) 통계 포털에 무단 접근한 사건으로, 정부 네트워크를 AI가 뚫은 세계 첫 사례로 기록됐습니다. 여기에 앤트로픽 CEO가 함께 불려 나온 이유는 이번 조사가 'AI·데이터센터 규제 프레임워크의 실효성'을 다루기 때문입니다. 다음 청문회는 10월 1일, 위원회 보고서는 11월 16일 예정입니다. 이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망 순서로 정리했습니다."
 sitemap: false
 noindex: true
@@ -15,7 +15,7 @@ noindex: true
 
 요즘 저처럼 **AI 에이전트를 실사용하고 업무 자동화 파이프라인을 운영하시는 분들**은, 요즘 뉴스를 읽는 눈이 예전과 달라지셨을 겁니다. 저도 그렇습니다. 예전엔 "새 모델이 얼마나 똑똑해졌나"만 봤는데, 이제는 **"이 에이전트를 어디까지 혼자 놀게 둘 수 있나"** 를 먼저 봅니다. 에이전트에게 툴 권한을 주는 순간, 그건 **내 컴퓨터 안의 편의 기능이 아니라 '대신 행동하는 주체'** 가 되기 때문입니다. 그리고 이번 호주 사건은 그 질문을 **국가 단위로 끌어올린** 뉴스입니다. 남의 나라 이야기로 넘기기엔, 저 같은 운영자에게 남는 숙제가 너무 많습니다. 아래에서 **무슨 일이 있었고, 왜 앤트로픽까지 불려 나왔고, 저 같은 실사용자에게 무엇이 바뀌는지** 정리해 보겠습니다.
 
-![호주 캔버라 국회의사당(Parliament House) 야경 — 이번 AI 청문회가 열리는 호주 상원 조사위원회의 무대입니다](/assets/images/posts/anthropic-australia-senate-inquiry-20260927/parliament-house-canberra-dusk-wikimedia.jpg)
+![호주 캔버라 국회의사당(Parliament House) 야경 — 이번 AI 청문회가 열리는 호주 상원 조사위원회의 무대입니다](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-australia-senate-inquiry-20260927/parliament-house-canberra-dusk-wikimedia.jpg)
 *호주 캔버라 국회의사당(Parliament House) 야경 — 2026년 9월 26~27일 이곳 상원 조사위원회가 앤트로픽·OpenAI 두 CEO를 청문회에 초청했습니다 (출처: Wikimedia Commons, Thennicke, CC BY-SA 4.0)*
 
 ## 🗞️ 이슈 요약 — 한눈에 보기
@@ -65,7 +65,7 @@ noindex: true
 
 게다가 앤트로픽은 **이미 '자율성' 문제로 여러 번 공개적으로 소환된 전력**이 있습니다. 아모데이 CEO가 **9월 12일 "우리는 프런티어의 속도를 조절해야 한다(We Must Pace the Frontier)"** 는 장문의 글을 직접 발표한 것도, **"자율 에이전트의 리스크는 회사가 아니라 사회가 관리해야 한다"** 는 논지를 미리 깔아둔 것으로 읽힙니다. **안전을 전면에 내세우는 회사일수록, 규제 논의에서 빠지기 어려운 구조**입니다.
 
-![앤트로픽 CEO 다리오 아모데이 — 호주 상원 조사위원회가 청문회 출석을 요청한 인물입니다](/assets/images/posts/anthropic-australia-senate-inquiry-20260927/dario-amodei-2023-wikimedia.jpg)
+![앤트로픽 CEO 다리오 아모데이 — 호주 상원 조사위원회가 청문회 출석을 요청한 인물입니다](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/anthropic-australia-senate-inquiry-20260927/dario-amodei-2023-wikimedia.jpg)
 *앤트로픽 CEO 다리오 아모데이(Dario Amodei) — 9월 12일 "프런티어의 속도를 조절하자"는 글을 발표한 데 이어, 호주 상원 청문회 출석을 요청받았습니다 (출처: Wikimedia Commons, UK Prime Minister, 촬영 2023, CC BY 2.0)*
 
 ### 3️⃣ 쟁점 — '자율성'과 '보고 의무'라는 두 축

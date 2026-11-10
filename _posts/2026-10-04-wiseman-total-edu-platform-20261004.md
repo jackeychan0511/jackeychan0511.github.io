@@ -5,7 +5,7 @@ date: 2026-10-04 12:00:00 +0900
 categories: [education]
 tags: [와이즈만, 와이즈만영재교육, 창의와탐구, 와이키즈, 종합에듀플랫폼, 베저스인베스트먼트, KB인베스트먼트, 사고력수학, 초등수학, 영재교육, 볼트온]
 author: "40대 블로거"
-image: /assets/images/posts/wiseman-total-edu-platform-20261004/02-wiseman-official.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/wiseman-total-edu-platform-20261004/02-wiseman-official.png
 description: "와이즈만 영재교육·와이키즈 운영사 (주)창의와탐구가 수학·과학 중심 사업 구조에서 벗어나 국어·영어까지 아우르는 '종합 에듀 플랫폼'으로 사업 재편에 나섭니다. 새 주인인 베저스인베스트먼트·KB인베스트먼트는 외부 교육 콘텐츠·판권 인수와 볼트온(Bolt-on)을 통해 전국 오프라인 프랜차이즈에 새 과목을 공급하는 구상을 내놨습니다. 2025년 매출 200억 원·영업이익 감소라는 실적 부진 속에서 나온 승부수입니다."
 ---
 
@@ -13,7 +13,7 @@ description: "와이즈만 영재교육·와이키즈 운영사 (주)창의와�
 
 초등 사고력수학·융합과학 대표 브랜드 **와이즈만 영재교육**과 유아 브랜드 **와이키즈**를 운영하는 **(주)창의와탐구**가 사업 구조를 크게 바꿉니다. 기존 **수학·과학 중심**의 틀에서 벗어나 **국어·영어 등 타 교과까지 아우르는 '종합 에듀 플랫폼'**으로 전환한다는 구상입니다.
 
-![창의와탐구(주) 공식 로고](/assets/images/posts/wiseman-total-edu-platform-20261004/01-changuitamgu-logo.png)
+![창의와탐구(주) 공식 로고](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/wiseman-total-edu-platform-20261004/01-changuitamgu-logo.png)
 
 *와이즈만·와이키즈 운영사 (주)창의와탐구 공식 로고. 출처: 창의와탐구 공식 홈페이지*
 
@@ -43,7 +43,7 @@ description: "와이즈만 영재교육·와이키즈 운영사 (주)창의와�
 
 즉, 전국에 깔린 오프라인 학원망을 하나의 **플랫폼**으로 활용해, 기존 원생에게 다양한 교과 서비스를 **교차 판매**하고 원생 1인당 결제액(객단가)과 가맹점 수익성을 동시에 끌어올린다는 구상입니다.
 
-![와이즈만 영재교육 공식 브랜드 이미지](/assets/images/posts/wiseman-total-edu-platform-20261004/02-wiseman-official.png)
+![와이즈만 영재교육 공식 브랜드 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/wiseman-total-edu-platform-20261004/02-wiseman-official.png)
 
 *와이즈만 영재교육 공식 브랜드 이미지. 출처: 와이즈만 영재교육 공식 홈페이지*
 
@@ -62,7 +62,7 @@ description: "와이즈만 영재교육·와이키즈 운영사 (주)창의와�
 
 또 하나의 축은 **수강 연령층 확대**입니다. 현재 창의와탐구의 고객은 대부분 **유아 브랜드 와이키즈**와 **초·중등 대상 와이즈만**에 집중돼 있습니다. 새 경영진은 이들의 **수강 연령을 높여** 자사 브랜드 안에서 성장한 원생이 이탈하지 않도록 막고, **맞춤형 고학년 프로그램**으로 고객 생애가치(LTV)를 늘리겠다는 복안입니다.
 
-![와이키즈 공식 브랜드 이미지](/assets/images/posts/wiseman-total-edu-platform-20261004/03-waikiz-brand.png)
+![와이키즈 공식 브랜드 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/wiseman-total-edu-platform-20261004/03-waikiz-brand.png)
 
 *창의와탐구의 유아 브랜드 와이키즈 공식 브랜드 이미지. 출처: 와이즈만·와이키즈 공식 홈페이지*
 

@@ -6,7 +6,7 @@ categories: [career]
 tags: [Anthropic, Claude, 앤트로픽, 클로드, 웻랩, WetLab, 생명과학, LifeSciences, ClaudeScience, 생물안전, Biosecurity, LifeSciencesVerificationProgram, 생물안전가드레일, Safeguards, CoefficientBio, NovoNordisk, Genentech, BristolMyersSquibb, AI거버넌스, AIGovernance, 안전장치, 업무자동화, 자동화파이프라인, 2026년9월, AI산업]
 author: "40대 블로거"
 description: "2026년 9월 18일(현지) Reuters가 'Anthropic이 샌프란시스코 베이에리어에 웻랩(wet lab)을 조용히 세웠다'고 단독 보도했고, 생명과학 총괄 에릭 카우더러-아브람스가 실명으로 확인했습니다. 이 실험실은 컴퓨터 시뮬레이션이 아니라 실제 생물 시료를 다루는 물리 실험실이고, Anthropic은 Claude가 로봇 장비를 지휘해 실험을 자동화하는 구상을 '아주 초기 단계'라고 밝혔습니다. 규모·인원·개설 시점·생물안전등급(BSL)은 전부 비공개입니다. 같은 주 9월 17일에는 '생명과학 검증 프로그램(Life Sciences Verification Program)'이 베타로 열렸습니다. 검증된 팀에는 과학 작업용으로 완화된 안전장치가 적용되고, 고위험 프로젝트에는 '생명과학 요청을 막는 모든 안전장치를 제거'하는 그랜트가 주어집니다. 이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망 순서로 정리했습니다."
-image: /assets/images/posts/2026-09-22-anthropic-claude-wet-lab-life-sciences/anthropic-claude-science-official.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-09-22-anthropic-claude-wet-lab-life-sciences/anthropic-claude-science-official.png
 sitemap: false
 noindex: true
 ---
@@ -17,7 +17,7 @@ noindex: true
 
 이유는 단순합니다. **Anthropic은 지난 2년 동안 "AI의 생물무기 위험"을 가장 크게 경고해 온 회사**입니다. 그 회사가 **실제 생물 시료를 다루는 실험실을 열고, 동시에 생물 관련 안전장치를 검증된 팀에 풀어주는 프로그램**을 열었습니다. **경고하는 사람이 실험실 열쇠를 같이 쥔 셈**입니다. 오늘은 이 두 가지를 **이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망** 순서로, 그리고 **제가 이해가 안 되는 부분까지 솔직하게** 정리해 드리겠습니다.
 
-![Anthropic 공식 뉴스룸에 게시된 생명과학 워크벤치 'Claude Science' 대표 이미지 — 이번 주 공개된 웻랩과 검증 프로그램의 배경이 되는 제품입니다](/assets/images/posts/2026-09-22-anthropic-claude-wet-lab-life-sciences/anthropic-claude-science-official.png)
+![Anthropic 공식 뉴스룸에 게시된 생명과학 워크벤치 'Claude Science' 대표 이미지 — 이번 주 공개된 웻랩과 검증 프로그램의 배경이 되는 제품입니다](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-09-22-anthropic-claude-wet-lab-life-sciences/anthropic-claude-science-official.png)
 *Anthropic 공식 홈페이지(anthropic.com) 뉴스룸의 'Claude Science, an AI workbench for scientists' 대표 이미지 — Anthropic은 2026년 6월 실험실 연구용 소프트웨어 Claude Science를 출시했고, 이번 웻랩은 그 소프트웨어의 '출력'을 실제 벤치에서 검증하려는 시도입니다 (출처: Anthropic 공식 홈페이지, 2026)*
 
 ## 🗞️ 이슈 요약 — 한눈에 보기
@@ -101,7 +101,7 @@ Reuters 보도를 기준으로 확인된 사실은 이 정도입니다.
 - **상업적 이해충돌:** Anthropic은 **Genentech·Bristol Myers Squibb·Novo Nordisk에 도구를 팔면서, 같은 영역에서 자체 연구 프로그램**을 운영합니다. 고객사 데이터 경계와 **잠재적 경쟁** 문제를 지적하는 보도가 이미 나왔습니다
 - **개인 사용자와의 격차:** 검증 프로그램은 **Enterprise·Team·API 전용**입니다. 개인 Pro·Max 사용자는 **아무것도 달라지지 않고**, 앞으로도 이 영역은 **조직 자격**으로만 열립니다
 
-![자동화 실험실에서 사용되는 액체 분주(liquid handling) 로봇 — Anthropic은 Claude가 로봇 장비를 지휘해 실험을 돌리는 구상이 '아주 초기 단계'라고 밝혔습니다](/assets/images/posts/2026-09-22-anthropic-claude-wet-lab-life-sciences/lab-automation-robot-niaid.jpg)
+![자동화 실험실에서 사용되는 액체 분주(liquid handling) 로봇 — Anthropic은 Claude가 로봇 장비를 지휘해 실험을 돌리는 구상이 '아주 초기 단계'라고 밝혔습니다](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-09-22-anthropic-claude-wet-lab-life-sciences/lab-automation-robot-niaid.jpg)
 *실험실 자동화용 액체 분주 로봇. Anthropic의 베이에리어 실험실 내부 사진은 공개되지 않아, 로봇 기반 실험 자동화가 실제로 어떤 장비로 이뤄지는지 이해를 돕기 위해 자동화 실험 장비 사진을 사용했습니다 (출처: Wikimedia Commons, 미국 국립알레르기·전염병연구소(NIAID), 퍼블릭 도메인)*
 
 ## 💼 영향 — 사용자와 개발자에게 실제로 뭐가 바뀌나
@@ -118,7 +118,7 @@ Reuters 보도를 기준으로 확인된 사실은 이 정도입니다.
 **④ 업무 자동화를 돌리는 입장 — 제 현실적인 결론.**
 이번 주 뉴스는 제 파이프라인을 당장 바꾸지 않습니다. 다만 **"모델이 만든 것을 물리 세계에서 검증하는 순간 책임 구조가 완전히 달라진다"** 는 사실은 기억해 둘 만합니다. 저는 업무 자동화에서도 **검증 단계를 별도로 두고, 되돌릴 수 없는 작업은 사람이 승인**하는 규칙을 유지합니다. 이번 사안은 그 규칙이 **왜 필요한지**를 아주 큰 스케일로 보여주는 사례입니다.
 
-![Anthropic CEO 다리오 아모데이 — 그는 2년간 AI의 생물무기 위험을 가장 크게 경고해 온 인물이며, Reuters는 이번 생물 프로그램의 동기에 아버지를 치료제 없이 잃은 개인적 배경도 있다고 전했습니다](/assets/images/posts/2026-09-22-anthropic-claude-wet-lab-life-sciences/dario-amodei-techcrunch-2023.jpg)
+![Anthropic CEO 다리오 아모데이 — 그는 2년간 AI의 생물무기 위험을 가장 크게 경고해 온 인물이며, Reuters는 이번 생물 프로그램의 동기에 아버지를 치료제 없이 잃은 개인적 배경도 있다고 전했습니다](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-09-22-anthropic-claude-wet-lab-life-sciences/dario-amodei-techcrunch-2023.jpg)
 *Anthropic CEO 다리오 아모데이(Dario Amodei) (출처: Wikimedia Commons, TechCrunch, CC BY 2.0, TechCrunch Disrupt 2023)*
 
 ## 🔮 전망 — 앞으로 지켜볼 세 가지

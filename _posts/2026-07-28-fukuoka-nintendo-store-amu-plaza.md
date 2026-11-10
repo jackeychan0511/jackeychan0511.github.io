@@ -4,7 +4,7 @@ title: "후쿠오카 하카타역 아뮤플라자 8층 닌텐도샵 완전정복
 date: 2026-07-23 16:00:00 +0900
 categories: [travel]
 tags: [후쿠오카, 하카타역, 아뮤플라자, 닌텐도스토어, 닌텐도샵, 가족여행, 키즈]
-image: /assets/images/posts/nintendo-store/hero.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/nintendo-store/hero.jpg
 ---
 
 후쿠오카 여행을 계획 중이고 **아이들이 닌텐도를 좋아한다면** 하카타역 아뮤플라자 8층에 있는 **닌텐도 스토어 후쿠오카(Nintendo Store Fukuoka)**는 필수 코스입니다.
@@ -33,12 +33,12 @@ image: /assets/images/posts/nintendo-store/hero.jpg
 
 아뮤플라자 8층에 도착하면 닌텐도의 상징적인 **레트로 게임 조형물**이 반겨줍니다.
 
-![닌텐도 스토어 마리오 조형물](/assets/images/posts/nintendo-store/20260705_132437.jpg)
+![닌텐도 스토어 마리오 조형물](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/nintendo-store/20260705_132437.jpg)
 *입구에 있는 픽셀 아트 스타일의 슈퍼 마리오 조형물. 아이들이 신나서 사진 찍기 딱 좋아요*
 
 옆에는 **슈퍼 마리오의 물음표 블록** 조형물도 있어서 포토존으로 인기 만점입니다.
 
-![물음표 블록 조형물](/assets/images/posts/nintendo-store/20260705_132448.jpg)
+![물음표 블록 조형물](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/nintendo-store/20260705_132448.jpg)
 *실제 게임 속 물음표 블록을 3D로 재현한 대형 조형물*
 
 ---
@@ -51,17 +51,17 @@ image: /assets/images/posts/nintendo-store/hero.jpg
 
 ### 2️⃣ 젤다의 전설 존
 
-![젤다의 전설 굿즈](/assets/images/posts/nintendo-store/20260705_132537.jpg)
+![젤다의 전설 굿즈](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/nintendo-store/20260705_132537.jpg)
 *젤다의 전설 테마 가방, 파우치, 문구류. 하이리아 문장 디자인이 고급스러움*
 
 젤다의 전설 팬이라면 눈을 뗄 수 없는 코너입니다. 특히 **하일리아 문장**이 새겨진 가죽 토트백과 파우치는 퀄리티가 인상적이었어요.
 
-![젤다 핀 배지와 문구류](/assets/images/posts/nintendo-store/20260705_132635.jpg)
+![젤다 핀 배지와 문구류](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/nintendo-store/20260705_132635.jpg)
 *젤다의 전설 핀 배지, 샤프펜슬, 제트스트림 멀티펜 등. 가격대 770엔~1,760엔*
 
 ### 3️⃣ 젤다 전시 코너
 
-![젤다 전시 케이스](/assets/images/posts/nintendo-store/20260705_132546.jpg)
+![젤다 전시 케이스](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/nintendo-store/20260705_132546.jpg)
 *젤다의 전설 관련 소품 전시 — 젤다 부츠, 하일리아 문장, 무쥬라 가면, 하일리아 방패 등*
 
 일반 굿즈 외에도 **젤다의 전설 시리즈 관련 실제 소품**이 전시되어 있어, 게임 속 아이템을 실제로 보는 재미가 있습니다. '만지지 마시오' 표시가 있으니 눈으로만 감상하세요!
@@ -72,7 +72,7 @@ image: /assets/images/posts/nintendo-store/hero.jpg
 
 ### 5️⃣ JFA 일본 축구대표팀 굿즈
 
-![일본 축구대표팀 공식 굿즈](/assets/images/posts/nintendo-store/20260705_132335.jpg)
+![일본 축구대표팀 공식 굿즈](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/nintendo-store/20260705_132335.jpg)
 *공식 라이선스 일본 축구대표팀 상품 코너*
 
 닌텐도 스토어에서는 **JFA(일본축구협회) 공식 라이선스 상품**도 판매하고 있습니다. 축구 좋아하는 아이들에게는 특별한 선물이 될 수 있어요.
@@ -91,7 +91,7 @@ image: /assets/images/posts/nintendo-store/hero.jpg
 | 🏷️ 핀 배지 (젤다) | 1,100엔 | 10종 이상, 모으는 재미 |
 | 🧸 마리오 인형 | 약 2,500엔 | 아이들이 포기 못함 |
 
-![제트스트림 젤다 에디션](/assets/images/posts/nintendo-store/20260705_133224.jpg)
+![제트스트림 젤다 에디션](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/nintendo-store/20260705_133224.jpg)
 *아이가 직접 고른 제트스트림 4&1 젤다의 전설 에디션. 4색 볼펜 + 샤프펜슬 일체형*
 
 ---

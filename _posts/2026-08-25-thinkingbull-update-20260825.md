@@ -5,7 +5,7 @@ date: 2026-08-25 12:00:00 +0900
 categories: [education]
 tags: [황소수학, 생각하는황소, 황소고시, 진급시험, 고등과정, 대치본원, 성적분포, 실력정석, 기본정석]
 author: "40대 블로거"
-image: /assets/images/posts/thinkingbull-update-20260825/score-dist-202609.svg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/thinkingbull-update-20260825/score-dist-202609.svg
 description: "생각하는황소 대치본원이 8/17 공식 블로그를 통해 2026년 9월 고등과정 진급시험 성적분포(재원생)를 공개했습니다. 대치·분당 재원생 142명이 응시해 평균 50.12점, 최고 90점을 기록했고, 실력정석은 70점 이상(상위 약 21%)이 배정됐습니다. 전회(6월) 179명·평균 50.92점과의 비교와 배정 구간을 정리했습니다."
 sitemap: false
 noindex: true
@@ -13,7 +13,7 @@ noindex: true
 
 # [업데이트] 생각하는황소 대치본원, 9월 고등과정 진급시험 성적분포 공개
 
-![2026년 9월 고등과정 진급시험 성적분포 요약 차트](/assets/images/posts/thinkingbull-update-20260825/score-dist-202609.svg)
+![2026년 9월 고등과정 진급시험 성적분포 요약 차트](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/thinkingbull-update-20260825/score-dist-202609.svg)
 *2026년 9월 고등과정 진급시험 성적분포 요약 (출처: 생각하는황소 대치본원 공식 블로그 데이터 기반 작성)*
 
 안녕하세요. 40대 라이프 블로그입니다.

@@ -5,13 +5,13 @@ date: 2026-11-10 11:20:00 +0900
 categories: [products]
 tags: [인텔리전트아이웨어, 갤럭시글래스, 삼성AI안경, 안드로이드XR, 제미나이, 워비파커, 젠틀몬스터, 레이밴메타, 스마트글래스, AI글래스, 예약판매, 제품비교, 구매가이드, 2026년11월]
 author: "40대 블로거"
-image: /assets/images/posts/samsung-intelligent-eyewear-preorder-20261110/ie-1-main.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/samsung-intelligent-eyewear-preorder-20261110/ie-1-main.jpg
 description: "삼성과 구글이 만든 첫 AI 안경 '인텔리전트 아이웨어'가 2026년 11월 12일 워비파커 컬렉션 예약판매를 시작합니다. 12월 중순 한국·미국 우선 판매, 젠틀몬스터 버전은 12월 출시 예정입니다. 스냅드래곤 AR1 Gen1·제미나이·9시간 배터리·충전 케이스 7회 추가 충전 등 확인된 스펙과, 레이밴 메타 3세대·메타 오디오·바이브 이글과의 가격·기능 비교, 예약 전 체크리스트를 정리했습니다."
 ---
 
 > **📌 한줄 요약:** 삼성과 구글이 함께 만든 첫 AI 안경 **인텔리전트 아이웨어(Intelligent Eyewear)**가 **2026년 11월 12일(목) 워비파커 컬렉션 예약판매**를 시작합니다. 워비파커 공동창업자 데이브 길보아가 3분기 실적 발표에서 직접 날짜를 못 박았고, 초기 물량은 **연휴 시즌(12월) 배송**입니다. 젠틀몬스터 버전은 **12월 출시** 예고만 나온 상태입니다. 가격은 아직 공식 발표가 없고, **11월 12일에 처음 공개될 가능성**이 큽니다.
 
-![삼성·구글 인텔리전트 아이웨어 공식 이미지](/assets/images/posts/samsung-intelligent-eyewear-preorder-20261110/ie-1-main.jpg)
+![삼성·구글 인텔리전트 아이웨어 공식 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/samsung-intelligent-eyewear-preorder-20261110/ie-1-main.jpg)
 *이미지 출처: 삼성전자 뉴스룸 공식 보도자료 (삼성·구글 인텔리전트 아이웨어)*
 
 ## 스마트폰을 꺼내지 않고 싶은 순간들
@@ -37,7 +37,7 @@ description: "삼성과 구글이 만든 첫 AI 안경 '인텔리전트 아이�
 - **2026년 11월 5일** — 워비파커, **11월 12일 예약판매** 공식 확인
 - **2026년 11월 6일** — 젠틀몬스터, 호아킨 피닉스 주연·조나단 글레이저 감독 단편 공개 예고와 함께 "**12월 출시**" 언급
 
-![인텔리전트 아이웨어 착용 이미지](/assets/images/posts/samsung-intelligent-eyewear-preorder-20261110/ie-2-main.jpg)
+![인텔리전트 아이웨어 착용 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/samsung-intelligent-eyewear-preorder-20261110/ie-2-main.jpg)
 *이미지 출처: 삼성전자 뉴스룸 공식 보도자료*
 
 ## 예약부터 배송까지, 일정 한눈에
@@ -65,7 +65,7 @@ description: "삼성과 구글이 만든 첫 AI 안경 '인텔리전트 아이�
 - **제스처 조작** — **갤럭시 워치9**를 통한 제스처 상호작용이 언급됐습니다. 즉 워치가 없으면 일부 조작이 제한될 수 있습니다.
 - **프라이버시 표시** — 안드로이드 XR 정책상 **촬영 표시등이 필수**이고, 표시등을 가리면 녹화가 중단됩니다.
 
-![젠틀몬스터 협업 모델](/assets/images/posts/samsung-intelligent-eyewear-preorder-20261110/ie-3-gentlemonster.jpg)
+![젠틀몬스터 협업 모델](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/samsung-intelligent-eyewear-preorder-20261110/ie-3-gentlemonster.jpg)
 *이미지 출처: 삼성전자 뉴스룸 공식 보도자료 (젠틀몬스터 협업 모델)*
 
 ## 확인된 스펙과, 아직 모르는 것
@@ -88,7 +88,7 @@ description: "삼성과 구글이 만든 첫 AI 안경 '인텔리전트 아이�
 
 배터리는 **9시간 + 케이스 7회 충전**으로, 하루 종일 쓰고 케이스에 넣어두는 사용 패턴을 전제로 한 수치입니다. 안경 하나로 이틀을 버티는 개념은 아니라는 뜻입니다.
 
-![워비파커 협업 모델](/assets/images/posts/samsung-intelligent-eyewear-preorder-20261110/ie-4-warbyparker.jpg)
+![워비파커 협업 모델](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/samsung-intelligent-eyewear-preorder-20261110/ie-4-warbyparker.jpg)
 *이미지 출처: 삼성전자 뉴스룸 공식 보도자료 (워비파커 협업 모델)*
 
 ## 레이밴 메타 3세대와 비교 — 결국 '생태계 vs 완성도'
@@ -105,7 +105,7 @@ AI 안경을 처음 사는 경우라면 비교 대상은 사실상 메타입니�
 | 프레임 브랜드 | 워비파커·젠틀몬스터 | 레이밴 | 레이밴 | 자체 |
 | 강점 | 구글 서비스·안경 브랜드 도수 대응 | 완성도·앱 생태계·국내 AS | 카메라 없는 가벼운 구성 | 카메라 성능 |
 
-![레이밴 메타 스마트 글래스 라인업](/assets/images/posts/samsung-intelligent-eyewear-preorder-20261110/ie-6-rayban-meta-compare.jpg)
+![레이밴 메타 스마트 글래스 라인업](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/samsung-intelligent-eyewear-preorder-20261110/ie-6-rayban-meta-compare.jpg)
 *이미지 출처: 메타·레이밴 공식 제품 이미지 (레이밴 메타 라인업)*
 
 비교 포인트를 정리하면 이렇습니다.
@@ -129,7 +129,7 @@ AI 안경을 처음 사는 경우라면 비교 대상은 사실상 메타입니�
 4. **1세대 리스크 감안** — 첫 제품은 펌웨어·앱 완성도가 몇 달에 걸쳐 개선되는 경우가 많습니다. 초기 물량을 프리미엄 가격에 사는 셈이라는 점을 염두에 둘 필요가 있습니다.
 5. **젠틀몬스터 디자인이 목적이라면 대기** — 12월 출시 예고만 나온 상태라, 예약 일정과 가격이 별도로 공개될 수 있습니다.
 
-![인텔리전트 아이웨어 제품 디테일](/assets/images/posts/samsung-intelligent-eyewear-preorder-20261110/ie-5-detail.jpg)
+![인텔리전트 아이웨어 제품 디테일](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/samsung-intelligent-eyewear-preorder-20261110/ie-5-detail.jpg)
 *이미지 출처: 삼성전자 뉴스룸 공식 보도자료*
 
 ## 솔직히 아쉬운 점

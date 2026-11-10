@@ -5,13 +5,13 @@ date: 2026-08-20 17:30:00 +0900
 categories: [finance]
 tags: [비트코인, 가상화폐, 코인, BTC, 암호화폐]
 author: "40대 블로거"
-image: /assets/images/posts/crypto-briefing-20260820-pm/bitcoin-price-chart.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/crypto-briefing-20260820-pm/bitcoin-price-chart.png
 description: "8월 20일 오후 코인 브리핑. 미국 재무부가 장기 국채 바이백 한도를 20억→40억 달러로 2배 확대하면서 비트코인이 7만 달러를 돌파(업비트 9,900만원). 24시간 새 숏 포지션 27.4억 달러가 강제청산되며 2021년 이후 최대 숏스퀴즈. 코인베이스 50배 무기한선물 도입, 캔터 피츠제럴드의 칼시 예측시장 지원 등 업계 소식도 정리했습니다."
 sitemap: false
 noindex: true
 ---
 
-![비트코인 7일 가격 차트](/assets/images/posts/crypto-briefing-20260820-pm/bitcoin-price-chart.png)
+![비트코인 7일 가격 차트](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/crypto-briefing-20260820-pm/bitcoin-price-chart.png)
 *BTC 7일 가격 추이 (CoinGecko, 8/20 18:00 KST)*
 
 **핵심 요약**: 미 재무부의 장기 국채 바이백 2배 확대에 비트코인이 하루 만에 11% 급등, 7만 달러를 돌파했습니다. 업비트 기준 9,900만원으로 1억원을 눈앞에 뒀어요.

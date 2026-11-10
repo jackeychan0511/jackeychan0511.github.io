@@ -5,13 +5,13 @@ date: 2026-10-31 14:55:00 +0900
 categories: [career]
 tags: [OpenAI, ChatGPT, API크레딧, ChatGPTPro, ChatGPTBusiness, OpenAIAPI, 개발자혜택, 업무자동화, AI구독, ResponsesAPI, AgentsAPI, AI에이전트, GPT6, AI뉴스, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/openai-chatgpt-api-credits-20261031/openai-api-credits-card.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-chatgpt-api-credits-20261031/openai-api-credits-card.png
 description: "2026년 10월 28일 OpenAI API 변경로그를 통해 ChatGPT Pro·Business 구독자에게 월 최대 500달러의 API 크레딧을 지급하는 혜택이 공개됐습니다. Pro 100·200·500 등급은 각각 100·200·500달러, Business는 Standard 좌석당 20달러·Premium 좌석당 100달러(워크스페이스당 최대 500달러)입니다. 자격 요건, 신청 경로, 크레딧이 커버하는 API와 제외되는 영역(API 키를 통한 Codex 사용), 소멸·소진 시 동작(HTTP 429 credit_balance_exhausted)까지 공식 문서 기준으로 정리했습니다."
 ---
 
 > **📌 한줄 요약:** 2026년 **10월 28일(현지시간)** OpenAI API 변경로그에 **ChatGPT Pro·Business 구독자 대상 월 최대 500달러 API 크레딧** 혜택이 게시됐고, 29일부터개발자 커뮤니티와 외신 보도로 빠르게 확산됐습니다. **Pro 100·200·500 등급은 각각 100·200·500달러**, **Business는 Standard 좌석당 20달러·Premium 좌석당 100달러**(워크스페이스당 월 500달러 상한)입니다. 핵심은 **"구독료 안에서 API까지 쓴다"**는 구조라는 점입니다. 다만 **월 단위로 소멸하고 이월되지 않으며, API 키로 쓰는 Codex 사용량은 제외**됩니다.
 
-![OpenAI API 크레딧 안내 공식 문서 대표 이미지 (출처: OpenAI 공식 개발자 문서 developers.openai.com, 2026년 10월)](/assets/images/posts/openai-chatgpt-api-credits-20261031/openai-api-credits-card.png)
+![OpenAI API 크레딧 안내 공식 문서 대표 이미지 (출처: OpenAI 공식 개발자 문서 developers.openai.com, 2026년 10월)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-chatgpt-api-credits-20261031/openai-api-credits-card.png)
 
 ## 1. 무슨 일이 있었나 — "구독에 API 크레딧이 붙었다"
 
@@ -74,7 +74,7 @@ Business는 좌석 단가로 계산해 **워크스페이스 단위로 합산(poo
 
 반대로 **API 키로 Codex를 호출하는 사용량은 이 혜택에서 빠집니다.** 또 크레딧이 쌓인다고 해서 **ChatGPT나 로그인 상태의 Codex 사용 한도가 올라가지는 않습니다.** 이 둘은 완전히 별개 계량입니다.
 
-![OpenAI 로고 (출처: Wikimedia Commons, OpenAI 로고 2025 심볼)](/assets/images/posts/openai-chatgpt-api-credits-20261031/openai-logo-symbol.png)
+![OpenAI 로고 (출처: Wikimedia Commons, OpenAI 로고 2025 심볼)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-chatgpt-api-credits-20261031/openai-logo-symbol.png)
 
 ## 4. 실전에서 돈 새는 지점 — 5가지 주의사항
 

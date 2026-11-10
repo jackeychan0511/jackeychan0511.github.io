@@ -5,13 +5,13 @@ date: 2026-08-07 07:30:00 +0900
 categories: [finance]
 tags: [업비트, 빗썸, CAP, 캡, UB, 유니베이스, 신규상장, 코인, 가상자산, 스테이블코인, AI에이전트, 상장]
 author: "40대 블로거"
-image: /assets/images/posts/upbit-cap-bithumb-unibase-listing-20260807/cap-hero.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/upbit-cap-bithumb-unibase-listing-20260807/cap-hero.png
 description: "8월 6일 업비트가 캡(CAP)을 KRW·BTC·USDT 마켓에 신규 상장했고, 빗썸은 유니베이스(UB)를 원화 마켓에 추가했습니다. 두 종목의 상장 개요, 기준가, 현재 시세, 프로젝트 정보와 상장 초기 거래 제한·입금 시 필수 확인사항을 정리했습니다."
 ---
 
 8월 6일, 국내 양대 거래소가 또 한 번 신규 상장에 속도를 냈습니다. **업비트는 8/6 14:00 캡(CAP)** 을, **빗썸은 같은 날 13:00 유니베이스(UB)** 를 각각 신규 상장했습니다. CAP는 지난 6/30 빗썸 원화 마켓에 먼저 상장된 종목으로, 이번 업비트 상장으로 **국내 1·2위 거래소 모두에서 거래**할 수 있게 됐습니다.
 
-![캡(CAP) 공식 브랜드 로고](/assets/images/posts/upbit-cap-bithumb-unibase-listing-20260807/cap-hero.png)
+![캡(CAP) 공식 브랜드 로고](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/upbit-cap-bithumb-unibase-listing-20260807/cap-hero.png)
 *캡(Cap) 공식 브랜드 로고 (출처: docs.cap.app, 확인일: 2026.08.07)*
 
 **핵심 요약**: 업비트 CAP 8/6 14:00 거래 개시(기준가 40.69원), 빗썸 UB 8/6 13:00 거래 개시(기준가 197원). 8/7 오전 기준 CAP는 업비트 43.4원·빗썸 42.5원, UB는 234원(+18.78%)으로 상장 이틀째 비교적 안정적인 흐름입니다.
@@ -69,7 +69,7 @@ CAP는 **차입자의 상환 리스크를 언더라이터(Underwriter)의 담보
 | **입금 컨펌 수** | 15회 |
 | **입출금 개시** | 공지 게시 시점으로부터 2시간 이내 |
 
-![유니베이스(Unibase) 공식 히어로 배너](/assets/images/posts/upbit-cap-bithumb-unibase-listing-20260807/unibase-hero.jpg)
+![유니베이스(Unibase) 공식 히어로 배너](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/upbit-cap-bithumb-unibase-listing-20260807/unibase-hero.jpg)
 *유니베이스(Unibase) 공식 브랜드 배너 (출처: unibase.com, 확인일: 2026.08.07)*
 
 ### 유니베이스(UB)는 어떤 프로젝트?

@@ -5,7 +5,7 @@ date: 2026-07-28 11:00:00 +0900
 categories: [education]
 tags: [와이즈만, 와이즈만영재교육, 사고력수학, 창의와탐구, 영재교육, 수학학원, 과학학원, GT수학, MathPower, 와이키즈, 초등수학]
 author: "40대 블로거"
-image: /assets/images/posts/wise-man-main.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/wise-man-main.png
 description: "1998년 설립, 수학과 과학을 통합한 창의사고력 교육으로 영재교육원 합격자 25,000명을 배출한 와이즈만 영재교육. GT·GT Advanced·WMO·Math Power 등 프로그램 라인업, 후츠파 융합 프로그램, 전국 94개 가맹점 정보까지 상세 분석합니다."
 ---
 

@@ -5,11 +5,11 @@ date: 2026-08-30 09:00:00 +0900
 categories: [career]
 tags: [HermesAgent, NousResearch, BotMode, 봇모드, AI직원, SOUL.md, 크론잡, 루틴, 그룹챗, message_agent, Teknium, A2A, AI에이전트, 오픈소스AI, AI툴추천, 2026년8월]
 author: "40대 블로거"
-image: /assets/images/posts/hermes-botmode-guide-20260830/hermes-botmode-teknium-screenshot.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-botmode-guide-20260830/hermes-botmode-teknium-screenshot.jpg
 description: "2026년 8월 30일 기준, Nous Research의 오픈소스 AI 에이전트 Hermes Agent에 기본 내장된 봇 모드(Bot Mode)를 실제로 써보고 정리한 실사용 가이드입니다. 8/13 Teknium의 스크린샷 공개(디그 110만 뷰) → 하루짜리 공개 베타 → 8/17 MarkTechPost 보도 → v0.20.3 기본 내장까지의 전개를 실측 정리했고, 봇 3명을 실제로 만들어본 경험을 바탕으로 ① New Agent 3필드 생성부터 SOUL.md 성격 부여, ② 루틴(크론잡)으로 매일 아침 자동출근 시키기, ③ 2~6인 단톡방 회의, ④ 봇끼리 @멘션으로 일 넘기는 message_agent, ⑤ 머신을 넘나드는 hermes peer까지 다룹니다. GitHub API 실측 기준 스타 238,119개·포크 48,425개, MIT 라이선스 무료 오픈소스입니다."
 ---
 
-![Teknium이 공개한 Hermes Agent 봇 모드 스크린샷](/assets/images/posts/hermes-botmode-guide-20260830/hermes-botmode-teknium-screenshot.jpg)
+![Teknium이 공개한 Hermes Agent 봇 모드 스크린샷](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-botmode-guide-20260830/hermes-botmode-teknium-screenshot.jpg)
 *Hermes Agent 데스크톱 앱의 봇 모드(Bot Mode) — 세션 목록 대신 이름·직책·프로필 이미지·개별 메모리를 가진 봇 로스터가 뜬다 (출처: Nous Research 공동창업자 Teknium의 X 포스트, Digg 보도 2026-08-13 경유)*
 
 ---
@@ -84,7 +84,7 @@ description: "2026년 8월 30일 기준, Nous Research의 오픈소스 AI 에이
 
 아바타도 재밌습니다. 이름에서 결정적으로 생성되는 **blob 얼굴**(같은 이름 = 같은 얼굴), 7가지 모양×10가지 색의 **기하학적 얼굴**(일하는 동안 눈이 스캔함), **사진 업로드**, **AI 초상화**(이미지 백엔드 설정 시), 그리고 일하는 동안 아바타 옆에서 깡충거리는 **픽셀 펫**(`hermes pets`로 갤러리 탐색)까지. 취향대로 고르면 됩니다.
 
-![Hermes Agent 자동화 기능 공식 이미지](/assets/images/posts/hermes-botmode-guide-20260830/hermes-desktop-feature-automation.jpg)
+![Hermes Agent 자동화 기능 공식 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-botmode-guide-20260830/hermes-desktop-feature-automation.jpg)
 *Hermes 데스크톱의 자동화(automation) 기능 공식 이미지 — 루틴·크론잡이 데스크톱 UI에 스케줄 피커로 들어와 있다 (출처: hermes-agent.nousresearch.com 공식 홈페이지, 2026-08-30 확인)*
 
 ---
@@ -123,7 +123,7 @@ You are a meticulous publishing manager for a Korean tech blog.
 
 솔직히 이 한 파일의 효과가 생각보다 큽니다. 같은 모델을 써도 **SOUL.md가 있냐 없냐에 따라 답변의 말투와 꼼꼼함이 확연히 달라져요.** 그리고 보안도 신경 썼더라고요. SOUL.md는 프롬프트 인젝션 스캔을 통과해야만 들어가고, 내용이 비어 있으면 내장 기본 정체성으로 폴백합니다.
 
-![Hermes Agent 메모리 기능 공식 이미지](/assets/images/posts/hermes-botmode-guide-20260830/hermes-desktop-feature-memory.jpg)
+![Hermes Agent 메모리 기능 공식 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-botmode-guide-20260830/hermes-desktop-feature-memory.jpg)
 *Hermes 데스크톱의 메모리(memory) 기능 공식 이미지 — 봇마다 격리된 영구 메모리가 세션을 넘어 이어진다 (출처: hermes-agent.nousresearch.com 공식 홈페이지, 2026-08-30 확인)*
 
 ---
@@ -227,7 +227,7 @@ hermes peer dm spark/researcher < /tmp/dm.txt
 message_agent(target="spark/researcher", message="이 문서 검토 부탁해")
 ```
 
-![Hermes Agent 연결 기능 공식 이미지](/assets/images/posts/hermes-botmode-guide-20260830/hermes-desktop-feature-connect.jpg)
+![Hermes Agent 연결 기능 공식 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-botmode-guide-20260830/hermes-desktop-feature-connect.jpg)
 *Hermes 데스크톱의 연결(connect) 기능 공식 이미지 — 여러 백엔드를 등록하면 봇 로스터가 머신을 넘나든다 (출처: hermes-agent.nousresearch.com 공식 홈페이지, 2026-08-30 확인)*
 
 ---
@@ -236,7 +236,7 @@ message_agent(target="spark/researcher", message="이 문서 검토 부탁해")
 
 이 봇 모드는 해외에서만 화제가 아닙니다. 국내에서도 **"헤르메스 에이전트 봇 모드로 AI 직원을 고용해봤습니다"**(Aiden의 친절한 AI 채널, 조회수 8,056·8일 전 업로드)라는 실사용 영상이 올라왔습니다. 봇 생성 → 성격 설정(SOUL.md) → **매일 아침 자동 출근(크론잡)** → @멘션으로 일 넘기기 → 하이라이트인 **단톡방 편집 회의**까지 실제 화면으로 보여주더라고요. 저처럼 "영상으로 먼저 보고 싶다" 하시는 분께 추천합니다.
 
-![국내 봇 모드 실사용 영상 썸네일](/assets/images/posts/hermes-botmode-guide-20260830/hermes-botmode-youtube-kr.jpg)
+![국내 봇 모드 실사용 영상 썸네일](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-botmode-guide-20260830/hermes-botmode-youtube-kr.jpg)
 *"헤르메스 에이전트 봇 모드로 AI 직원을 고용해봤습니다" — Aiden의 친절한 AI 채널 실사용 영상 (출처: youtube.com, 2026-08-30 확인, 조회수 8,056)*
 
 ---

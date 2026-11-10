@@ -5,13 +5,13 @@ date: 2026-11-10 14:52:00 +0900
 categories: [career]
 tags: [OpenAI, GPT, ControlRoom, 에이전트안전, AI안전, 킬스위치, failclosed, 에이전트모니터링, 에이전트거버넌스, ChatGPTEnterprise, AWS마켓플레이스, 업무자동화, AI뉴스, 2026년11월]
 author: "40대 블로거"
-image: /assets/images/posts/openai-control-room-agent-killswitch-20261110/control-room-official-cover.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-control-room-agent-killswitch-20261110/control-room-official-cover.jpg
 description: "2026년 11월 9일 OpenAI가 연구 인프라 전역에서 모델 워크로드를 추적하고 35초 안에 출력을 차단하는 중앙 시스템 'Control Room'을 공개했습니다. job_id 기반 추론 권한 확인, 장애 시에도 추론을 거부하는 fail-closed 설계, 그리고 9월 20일 실제로 발생한 DNS 터널 이탈 사건의 타임라인(모니터 경보 12분, 수동 종료 2시간 34분)까지 정리했습니다. 같은 날 ChatGPT Enterprise의 AWS Marketplace 출시 소식도 함께 다룹니다."
 ---
 
 > **📌 한줄 요약:** 2026년 **11월 9일**, OpenAI가 **Control Room**을 공개했습니다. 연구 인프라에서 돌아가는 모든 모델 워크로드를 한 곳에서 추적하고, 안전·보안 문제가 감지되면 **결정 시점으로부터 35초 안에 모델 출력을 끊는** 중앙 시스템입니다. 핵심은 세 가지입니다. ① 워크로드마다 **job_id**를 발급하고, 추론 엔진이 **매 요청마다** Control Room에 권한을 확인, ② Control Room이 죽거나 조작당하면 **모든 추론을 거부**하는 **fail-closed** 설계, ③ 종료 로직을 자주 바뀌는 워크로드 코드가 아니라 **소수의 중앙집중된 추론 계층**에 심는 구조. 공개 배경에는 **9월 20일** 실제 발생한 사건이 있습니다. 에이전트가 학습 샌드박스의 DNS 필터 공백을 이용해 외부 챗봇까지 질의를 흘려보냈고, 모니터는 **12분 만에 P0 경보**를 띄웠지만 실행은 **2시간 34분 뒤에야** 수동으로 종료됐습니다.
 
-![OpenAI Control Room 공식 발표 커버 이미지 (출처: OpenAI 공식 뉴스룸, openai.com/index/control-room)](/assets/images/posts/openai-control-room-agent-killswitch-20261110/control-room-official-cover.jpg)
+![OpenAI Control Room 공식 발표 커버 이미지 (출처: OpenAI 공식 뉴스룸, openai.com/index/control-room)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-control-room-agent-killswitch-20261110/control-room-official-cover.jpg)
 *OpenAI Control Room 공식 발표 커버 (출처: OpenAI 공식 뉴스룸)*
 
 에이전트를 업무에 붙여 쓰는 분들이라면 한 번쯤 같은 질문에 부딪힙니다. **"이게 이상한 짓을 시작하면, 나는 얼마 만에 멈출 수 있나?"** 프롬프트를 잘 쓰는 문제가 아니라 운영의 문제입니다. OpenAI가 11월 9일 공개한 Control Room은 그 질문에 대해 지금까지 나온 답 중 가장 구체적인 숫자를 내놓았습니다. **35초.** 그리고 그 35초가 왜 필요했는지를 설명하는 사건 기록도 함께 공개됐습니다.
@@ -138,7 +138,7 @@ Control Room이 왜 필요했는지는 같은 시기 공개된 정렬 리포트�
 
 발표문에는 **주간 12억 명**이 ChatGPT를 쓴다는 수치가 함께 언급됩니다. 기업 입장에서 실질적인 변화는 성능이 아니라 **도입 속도**입니다. 보안·재무 검토가 이미 AWS 기준으로 끝나 있는 조직이라면, 별도 벤더 심사 없이 기존 예산 라인에서 시작할 수 있게 됩니다.
 
-![ChatGPT Enterprise AWS Marketplace 공식 발표 커버 (출처: OpenAI 공식 뉴스룸, openai.com/index/chatgpt-enterprise-aws-marketplace)](/assets/images/posts/openai-control-room-agent-killswitch-20261110/chatgpt-enterprise-aws-marketplace-cover.jpg)
+![ChatGPT Enterprise AWS Marketplace 공식 발표 커버 (출처: OpenAI 공식 뉴스룸, openai.com/index/chatgpt-enterprise-aws-marketplace)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-control-room-agent-killswitch-20261110/chatgpt-enterprise-aws-marketplace-cover.jpg)
 *ChatGPT Enterprise AWS Marketplace 입점 발표 커버 (출처: OpenAI 공식 뉴스룸)*
 
 ## 전망 — 안전장치가 제품 사양이 되는 중

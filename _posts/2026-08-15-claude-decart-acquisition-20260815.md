@@ -5,7 +5,7 @@ date: 2026-08-15 17:03:00 +0900
 categories: [career]
 tags: [Anthropic, Claude, Decart, 인수합병, M&A, AI인프라, 추론최적화, DOS, 월드모델, NVIDIA, IPO, 컴퓨팅효율, AI뉴스, 2026년8월]
 author: "40대 블로거"
-image: /assets/images/posts/claude-decart-acquisition-20260815/anthropic-og.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/claude-decart-acquisition-20260815/anthropic-og.jpg
 description: "Bloomberg가 2026년 8월 13일 보도한 Anthropic의 Decart AI 인수 협상(약 60억 달러)을 정리했습니다. 성사 시 Anthropic 사상 최대 규모 인수로, 이스라엘 AI 스타트업 Decart의 추론 최적화 기술(DOS)과 월드 모델, NVIDIA 투자 배경, IPO를 앞둔 컴퓨팅 효율화 전략까지 이슈 요약·상세 분석·영향·전망 순으로 다룹니다."
 sitemap: false
 noindex: true
@@ -17,7 +17,7 @@ noindex: true
 
 이번 글에서는 Bloomberg 보도와 Decart 공식 자료를 바탕으로 **이슈 요약 → 상세 분석 → 영향 → 전망** 순서로 정리해 드립니다.
 
-![Anthropic 공식 뉴스룸 대표 이미지](/assets/images/posts/claude-decart-acquisition-20260815/anthropic-og.jpg)
+![Anthropic 공식 뉴스룸 대표 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/claude-decart-acquisition-20260815/anthropic-og.jpg)
 *Anthropic — Claude 개발사 (출처: anthropic.com 공식 뉴스 페이지 OG 카드)*
 
 > 📌 참고: 본 글은 2026년 8월 15일 기준 Bloomberg 보도(2026-08-13), Quartz, Tech Startups, Decart 공식 사이트(decart.ai) 등을 바탕으로 작성한 정보형 기사입니다. 협상은 초기 단계로, 아직 확정되지 않았습니다.
@@ -39,7 +39,7 @@ noindex: true
 
 ### Decart는 어떤 회사인가
 
-![Decart 공식 홈페이지 대표 이미지](/assets/images/posts/claude-decart-acquisition-20260815/decart-og.jpg)
+![Decart 공식 홈페이지 대표 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/claude-decart-acquisition-20260815/decart-og.jpg)
 *Decart — 실시간 월드 모델을 만드는 이스라엘 AI 연구소 (출처: decart.ai 공식 홈페이지)*
 
 **Decart**는 2023년 9월, 이스라엘 신호정보부대 **8200부대 출신**인 Dean Leitersdorf(CEO)와 Moshe Shalev(VP of Product)가 설립한 AI 스타트업입니다. 회사 스스로를 "실시간 월드 모델(real-time world models)을 만드는 프론티어 AI 랩"이라고 소개하는데요. 핵심은 두 가지입니다.

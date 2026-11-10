@@ -5,13 +5,13 @@ date: 2026-10-15 14:52:00 +0900
 categories: [career]
 tags: [OpenAI, ChatGPT, GPT, 보안사고, 내부자위협, 도청, 녹음장치, FBI, 미국법무부, 샌프란시스코, AI보안, 업무자동화, AI뉴스, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/openai-engineer-hidden-recorder-arrest-20261015/openai-hq-pioneer-building-wikimedia.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-engineer-hidden-recorder-arrest-20261015/openai-hq-pioneer-building-wikimedia.jpg
 description: "2026년 10월 13일 미국 법무부는 OpenAI 엔지니어 Abdulrahman Alfozan(35)을 전자 장치를 이용한 통신 가로채기 혐의로 기소했다고 발표했습니다. 그는 샌프란시스코 사무실 임원 회의실 TV 뒤 USB 포트에 휴지로 감싼 암호화 녹음 장치를 설치한 혐의를 받고 있으며, 9월 30일 발견돼 10월 9일 FBI에 체포, 10월 13일 연방법원에 첫 출석했습니다. OpenAI는 그를 해고했습니다. 사건 개요와 상세 분석, 사용자·개발자·기업 보안 담당자 영향, 전망을 정리했습니다."
 ---
 
 > **📌 한줄 요약:** 2026년 **10월 13일, 미국 법무부(DOJ)** 는 OpenAI 엔지니어 **Abdulrahman Alfozan(35)** 을 **전자 장치를 이용해 구두 통신을 가로채려 한 혐의**로 기소했다고 밝혔습니다. 그는 **샌프란시스코 사무실의 임원 회의실 TV 뒤 USB 포트**에 **휴지로 감싼 암호화 녹음 장치**를 설치한 혐의를 받습니다. 장치는 **9월 30일 발견**됐고, 그는 **10월 9일 FBI에 체포**되어 **10월 13일 연방법원에 첫 출석**했으며 **OpenAI에서 해고**됐습니다. 모델 출시 뉴스가 아니라, **AI 기업의 내부 보안이 실제로 뚫릴 수 있다는 걸 보여준 사건**입니다.
 
-![OpenAI 샌프란시스코 본사가 있는 파이오니어 빌딩 (출처: Wikimedia Commons, CC BY-SA 4.0, HaeB)](/assets/images/posts/openai-engineer-hidden-recorder-arrest-20261015/openai-hq-pioneer-building-wikimedia.jpg)
+![OpenAI 샌프란시스코 본사가 있는 파이오니어 빌딩 (출처: Wikimedia Commons, CC BY-SA 4.0, HaeB)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-engineer-hidden-recorder-arrest-20261015/openai-hq-pioneer-building-wikimedia.jpg)
 *OpenAI 샌프란시스코 본사가 있는 파이오니어 빌딩 (출처: Wikimedia Commons, CC BY-SA 4.0, HaeB)*
 
 AI 기업의 보안 뉴스를 보면 대부분 **외부 해커, 프롬프트 인젝션, 모델 탈취** 얘기입니다. 그런데 실제로 회의실 문 안쪽에서 벌어지는 일은 훨씬 **아날로그**합니다. 이번 사건의 핵심도 프롬프트도, 취약점 CVE도 아닙니다. **USB 포트에 꽂힌 작은 녹음기 하나**입니다. 프런티어 랩의 보안 담당자나, 사내 자동화 파이프라인을 굴리는 조직이라면 한 번쯤 읽어둘 만한 사건입니다.
@@ -51,7 +51,7 @@ AI 기업의 보안 뉴스를 보면 대부분 **외부 해커, 프롬프트 인
 
 9월 30일 발견 → 10월 9일 체포 → 10월 13일 법정 출석. **약 2주 안에 물리 증거 확보, CCTV 분석, 법적 절차 착수**까지 진행된 셈입니다. 사내 물리 보안·포렌식 체계와 FBI 협업이 빠르게 돌아갔다는 신호로 읽힙니다. 반대로 말하면, **장치가 발견되기까지 최소 이틀간 회의실이 노출**되어 있었다는 뜻이기도 합니다.
 
-![소형 디지털 녹음기 참고 이미지 — Olympus VN-541PC (출처: Wikimedia Commons, CC BY-SA 4.0, Jacek Halicki)](/assets/images/posts/openai-engineer-hidden-recorder-arrest-20261015/digital-voice-recorder-wikimedia.jpg)
+![소형 디지털 녹음기 참고 이미지 — Olympus VN-541PC (출처: Wikimedia Commons, CC BY-SA 4.0, Jacek Halicki)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-engineer-hidden-recorder-arrest-20261015/digital-voice-recorder-wikimedia.jpg)
 *사건에서 발견된 장치의 유형을 보여주는 참고 이미지 — 소형 디지털 녹음기 예시 (출처: Wikimedia Commons, CC BY-SA 4.0, Jacek Halicki). 실제 압수된 장치 사진이 아닙니다.*
 
 ---

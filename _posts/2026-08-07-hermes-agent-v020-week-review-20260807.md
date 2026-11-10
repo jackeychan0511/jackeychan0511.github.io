@@ -5,7 +5,7 @@ date: 2026-08-07 12:00:00 +0900
 categories: [career]
 tags: [HermesAgent, NousResearch, AI에이전트, v0.20.0, Herald, 실사용후기, 오픈소스AI, AI툴추천, 크론잡, 자동화, 2026년8월]
 author: "40대 블로거"
-image: /assets/images/posts/hermes-agent-v020-week-review-20260807/hermes-dashboard-sessions.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-agent-v020-week-review-20260807/hermes-dashboard-sessions.png
 description: "8월 3일 출시된 Hermes Agent v0.20.0 'The Herald Release'를 일주일간 실사용한 후기입니다. 실제 작업 환경에서 도구 자가복구, CLI 파워 명령어, 미드턴 리디렉트, 스마트 승인, 속도 개선을 체감한 내용과 솔직한 장단점을 정리했습니다. GitHub 스타 22.6만 개 (8/7 확인)."
 ---
 
@@ -15,7 +15,7 @@ description: "8월 3일 출시된 Hermes Agent v0.20.0 'The Herald Release'를 �
 
 지난 [8월 4일 글](/2026/08/04/hermes-agent-v020-herald-update/)에서 v0.20.0 'The Herald Release'의 기능을 총정리해 드렸는데요. 오늘은 그 **기능표가 아니라, 일주일간 실제로 써본 후기**를 쓰려고 합니다. 릴리즈 노트에 적힌 "도구 자가복구", "CLI 파워 명령어" 같은 말들이 실사용에서 정말 체감되는지 — 실제 크론잡 환경에서 직접 확인했거든요. 솔직하게 정리해 봅니다.
 
-![Hermes Agent 대시보드 세션 관리 화면](/assets/images/posts/hermes-agent-v020-week-review-20260807/hermes-dashboard-sessions.png)
+![Hermes Agent 대시보드 세션 관리 화면](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-agent-v020-week-review-20260807/hermes-dashboard-sessions.png)
 *Hermes Agent 대시보드의 세션 관리 화면 — 이런 크론잡 작업도 세션 단위로 돌아간다 (출처: Hermes Agent 공식 GitHub 저장소 website/static/img, 2026-08-07 확인)*
 
 ---
@@ -62,7 +62,7 @@ Hermes Agent의 크론잡(정기 자동 작업)을 실사용하면 이렇게 돌
 
 여기에 **`hermes import-agent`** 라는 명령어도 추가됐는데, **Claude Code나 Codex CLI의 기존 설정을 한 번에 Hermes로 옮겨주는** 기능입니다. 다른 에이전트 도구에서 넘어오시는 분들의 진입장벽을 확 낮춰줍니다.
 
-![Hermes Agent TUI 세션 오케스트레이터 화면](/assets/images/posts/hermes-agent-v020-week-review-20260807/hermes-tui-session.png)
+![Hermes Agent TUI 세션 오케스트레이터 화면](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-agent-v020-week-review-20260807/hermes-tui-session.png)
 *Hermes Agent TUI(터미널 UI)의 세션 오케스트레이터 화면 — v0.20.0에서 CLI 파워 명령어(!, /init, /context, /diff, /focus)가 대거 추가됐다 (출처: Hermes Agent 공식 GitHub 저장소, 2026-08-07 확인)*
 
 ---
@@ -107,7 +107,7 @@ v0.19에서 기본 적용된 스마트 승인(LLM 리뷰어가 민감한 명령�
 
 스트리밍 비용이 대화 기록 길이와 무관해지고, **스트리밍 탭 5개를 켜도 60fps 드래그**, 백그라운드 유휴 CPU는 거의 0에 가깝습니다. 데스크톱 앱을 메인으로 쓰시는 분들도 체감이 클 부분입니다.
 
-![Hermes Agent config.yaml 설정 화면](/assets/images/posts/hermes-agent-v020-week-review-20260807/hermes-config-screen.png)
+![Hermes Agent config.yaml 설정 화면](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-agent-v020-week-review-20260807/hermes-config-screen.png)
 *Hermes Agent config.yaml 설정 화면 — 컨텍스트 압축 임계값, 승인 정책, 모델 설정을 여기서 튜닝한다 (출처: Hermes Agent 공식 GitHub 저장소, 2026-08-07 확인)*
 
 ---
@@ -127,7 +127,7 @@ v0.19에서 기본 적용된 스마트 승인(LLM 리뷰어가 민감한 명령�
 - **속도 개선이 "설정 없이" 적용된다**: 콜드스타트 1.8초, 압축 개편 모두 별도 설정 없이 바로 체감됩니다.
 - **모델 선택의 폭이 넓다**: v0.20.0에서 Gemini 3.1 Pro·3.6 Flash, claude-opus-5, deepseek-v4-flash-0731 등이 추가됐습니다. 비싼 모델과 가벼운 모델을 작업별로 나눠 쓰기 좋습니다.
 
-![Hermes Agent 모델 사용량 대시보드 화면](/assets/images/posts/hermes-agent-v020-week-review-20260807/hermes-models-dashboard.png)
+![Hermes Agent 모델 사용량 대시보드 화면](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-agent-v020-week-review-20260807/hermes-models-dashboard.png)
 *Hermes Agent 모델 사용량 대시보드 — 모델별 토큰·비용을 한눈에 확인할 수 있다. 작업별로 모델을 나눠 쓰는 분께 유용 (출처: Hermes Agent 공식 GitHub 저장소, 2026-08-07 확인)*
 
 ### ⚠️ 단점·주의사항 — 솔직하게
@@ -136,7 +136,7 @@ v0.19에서 기본 적용된 스마트 승인(LLM 리뷰어가 민감한 명령�
 - **새 기능은 여전히 영어 문서 중심**: 음성, A2A, 웹훅 같은 신기능 자료는 대부분 영어입니다. 한국어 자료가 따라오기까지는 시간이 걸립니다.
 - **도구 자가복구도 완벽하진 않다**: 실패를 복구하는 횟수가 늘어난 것이지, 실패 자체가 없어진 것은 아닙니다. 중요한 작업은 결과물 검증(파일 존재, 푸시 완료)을 별도로 확인하는 습관이 여전히 필요합니다.
 
-![Hermes Agent 스킬 허브 화면](/assets/images/posts/hermes-agent-v020-week-review-20260807/hermes-skills-hub.png)
+![Hermes Agent 스킬 허브 화면](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/hermes-agent-v020-week-review-20260807/hermes-skills-hub.png)
 *Hermes Agent 스킬 허브 — 반복 작업을 스킬 문서로 저장하면 다음 작업부터 자동 적용된다. 콘텐츠 스타일도 스킬로 관리할 수 있다 (출처: Hermes Agent 공식 GitHub 저장소, 2026-08-07 확인)*
 
 ---

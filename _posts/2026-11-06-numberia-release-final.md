@@ -6,12 +6,12 @@ categories: [team-jackchankey]
 tags: [넘버리아, 넘버리아대륙, 수학모험, 7세수학, 유아수학게임, 어린이수학앱, 수학게임, 앱개발일지, 안드로이드앱출시, 플레이스토어출시, 비공개테스트, 개인개발자, 인디게임개발, React, Capacitor, 1인개발, 2026년11월]
 author: 재찬키
 description: '7세를 위한 수학 모험 게임 넘버리아 대륙의 수학모험을 구글 플레이에 정식 출시했습니다. 9월 11일 첫 빌드부터 31번의 버전, 비공개 테스트 거절, 전수 검수를 도구로 만든 일, 그리고 출시까지의 전 과정을 한 편에 정리했습니다.'
-image: /assets/images/posts/numberia-release/00-hero-1024x500.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/numberia-release/00-hero-1024x500.jpg
 ---
 
 7세 아이를 위한 수학 모험 게임, **넘버리아 대륙의 수학모험**을 구글 플레이스토어에 정식으로 출시했습니다.
 
-![넘버리아 대륙 정식 출시](/assets/images/posts/numberia-release/00-hero-1024x500.jpg)
+![넘버리아 대륙 정식 출시](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/numberia-release/00-hero-1024x500.jpg)
 
 처음 웹 프로토타입을 앱으로 포장했던 9월 11일부터 지금까지, 앱 버전 번호는 **31**까지 올라갔습니다. 이 글은 그 전체 과정을 한 편에 담은 완결편입니다 — 소리를 만들고, 모바일 화면을 고치고, 펫을 다시 설계하고, 안드로이드 앱으로 포장하고, 스토어의 얼굴을 만들고, 아동 정책과 서명 키를 준비하고, 마지막으로 **비공개 테스트와 한 번의 거절**을 지나 출시하기까지의 기록입니다.
 
@@ -19,7 +19,7 @@ image: /assets/images/posts/numberia-release/00-hero-1024x500.jpg
 - 🗓️ **정식 출시:** 2026년 10월 30일
 - 🌐 **웹 버전:** [numberia.web.app](https://numberia.web.app/)
 
-![첫 번째 이야기 완결 화면](/assets/images/posts/numberia-release/01-ending.jpg)
+![첫 번째 이야기 완결 화면](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/numberia-release/01-ending.jpg)
 *다섯 에피소드를 모두 지나면 만나는 완결 화면. (이야기의 마지막 장면이라 스포일러에 민감하시면 건너뛰셔도 됩니다)*
 
 ## 넘버리아는 어떤 게임인가요
@@ -28,7 +28,7 @@ image: /assets/images/posts/numberia-release/00-hero-1024x500.jpg
 
 아이는 별 모양 마스코트 **델타**, 불의 정령 **이그니**와 함께 대륙을 여행하며 몬스터가 내는 수학 문제를 풀어 저주를 풀어 줍니다.
 
-![델타와의 첫 만남](/assets/images/posts/numberia-release/02-delta-meet.jpg)
+![델타와의 첫 만남](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/numberia-release/02-delta-meet.jpg)
 *새싹마을에서 델타를 처음 만나는 장면*
 
 - 정답을 고르면 별빛이 반짝이며 바로 칭찬과 보상이 따라옵니다.
@@ -36,27 +36,27 @@ image: /assets/images/posts/numberia-release/00-hero-1024x500.jpg
 - 모은 재료로 다리를 고치고 도구를 만드는 조합·미션이 중간중간 들어 있습니다.
 - 문제를 풀며 모은 별가루로 **별빛 펫**을 키웁니다.
 
-![전투: 정답을 고르면 별빛이 몬스터에게 닿습니다](/assets/images/posts/numberia-release/03-battle-correct.jpg)
+![전투: 정답을 고르면 별빛이 몬스터에게 닿습니다](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/numberia-release/03-battle-correct.jpg)
 
-![틀렸을 때 나오는 힌트 화면](/assets/images/posts/numberia-release/04-battle-hint.jpg)
+![틀렸을 때 나오는 힌트 화면](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/numberia-release/04-battle-hint.jpg)
 
 이 게임이 가장 하고 싶은 말은 사실 수학 문제가 아니라 이것입니다. **"틀려도 다시 해 보면 돼."** 마지막 여정에서 흐려진 '처음의 별'을 되살리는 것도, 정답을 아는 힘이 아니라 다시 해 보는 마음이었습니다.
 
-![에피소드 5: 흐려진 처음의 별 '빈빛'과 마주하는 장면](/assets/images/posts/numberia-release/05-boss-binbit.jpg)
+![에피소드 5: 흐려진 처음의 별 '빈빛'과 마주하는 장면](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/numberia-release/05-boss-binbit.jpg)
 
 ## 숫자로 보는 첫 번째 여정
 
-![숫자로 보는 넘버리아 대륙](/assets/images/posts/numberia-release/09-info-numbers.jpg)
+![숫자로 보는 넘버리아 대륙](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/numberia-release/09-info-numbers.jpg)
 
 **에피소드 5개, 모험 구역 26곳, 수학 문제 1,535개, 몬스터 96종, 이야기 장면 244컷.** 수 세기에서 시작해 모으기·가르기, 크기 비교, 도형, 규칙 찾기, 열 개씩 묶는 자리값, 시계 읽기, 길이·무게 비교, 그림표 읽기, 똑같이 나누기까지 이어집니다.
 
-![다섯 번의 여정 지도](/assets/images/posts/numberia-release/10-info-map.jpg)
+![다섯 번의 여정 지도](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/numberia-release/10-info-map.jpg)
 
 ## 펫은 알에서 시작합니다
 
 새싹마을을 무사히 고치면 델타가 수수께끼 알을 건넵니다. 알을 깨우면 6종의 별빛 펫 중 한 마리가 태어나고, 모험에서 모은 별가루로 3단계까지 천천히 자랍니다. 아직 만나지 못한 펫은 도감에 '???'로 숨어 있어서 새 친구를 만나는 두근거림이 남아 있습니다.
 
-![별빛 펫 6종 · 알에서 수호자까지](/assets/images/posts/numberia-release/14-pets.jpg)
+![별빛 펫 6종 · 알에서 수호자까지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/numberia-release/14-pets.jpg)
 
 ## 만들면서 부딪힌 것들
 
@@ -98,7 +98,7 @@ Capacitor로 웹 코드를 앱에 담는 것까지는 빨랐지만, 이 컴퓨�
 
 ## 출시까지의 길
 
-![첫 빌드에서 정식 출시까지](/assets/images/posts/numberia-release/11-info-timeline.jpg)
+![첫 빌드에서 정식 출시까지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/numberia-release/11-info-timeline.jpg)
 
 | 시기 | 사건 |
 |---|---|
@@ -119,13 +119,13 @@ Capacitor로 웹 코드를 앱에 담는 것까지는 빨랐지만, 이 컴퓨�
 
 에피소드 2~5의 이야기와 문제가 폭발적으로 자랐습니다. 열빛 항구, 묶음시장, 되돌림 철도, 시계꽃 정원… 구역이 늘 때마다 앱도 다시 빌드했습니다. 9월 28일부터 10월 1일 사이에만 버전이 7에서 20까지 올라갔습니다.
 
-![에피소드 2: 열빛 항구](/assets/images/posts/numberia-release/06-light-harbor.jpg)
+![에피소드 2: 열빛 항구](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/numberia-release/06-light-harbor.jpg)
 
 ### 10월 중순 — "7세 과정만 먼저 내보내자"
 
 1학년 과정도 만들고 있었지만, 점검해 보니 문제 그림이 빠졌거나 화면이 까맣게 나오는 곳, 그림이 너무 작은 곳이 남아 있었습니다. 그래서 **1학년 과정은 '개발 중이에요'로 잠가 두고, 7세 과정만 먼저 출시**하기로 했습니다. 과정 선택 화면에 잠긴 카드가 그대로 보이도록 해서 다음 과정이 준비되고 있다는 걸 알 수 있게 했습니다.
 
-![과정 선택 화면: 7세 과정만 열려 있습니다](/assets/images/posts/numberia-release/07-course-select.jpg)
+![과정 선택 화면: 7세 과정만 열려 있습니다](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/numberia-release/07-course-select.jpg)
 
 ## 비공개 테스트, 그리고 한 번의 거절
 
@@ -139,7 +139,7 @@ Capacitor로 웹 코드를 앱에 담는 것까지는 빨랐지만, 이 컴퓨�
 2. **테스트 중에도 계속 업데이트합니다.** 의견을 받아 고친 버전을 테스트 트랙에 올린 기록 자체가 신뢰가 됩니다.
 3. 테스터를 모을 때부터 **'며칠에 걸쳐 여러 번 열어 보는 사람'** 을 모으는 게 중요합니다.
 
-![테스트에서 배운 다섯 가지](/assets/images/posts/numberia-release/12-info-test-lessons.jpg)
+![테스트에서 배운 다섯 가지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/numberia-release/12-info-test-lessons.jpg)
 
 그래서 테스터를 다시 모집하고, 그 기간 동안 **전수 검수 → 수정 → 새 버전 업로드**를 반복했습니다.
 
@@ -154,7 +154,7 @@ Capacitor로 웹 코드를 앱에 담는 것까지는 빨랐지만, 이 컴퓨�
 
 근본 원인은 분명했습니다. 점검을 매번 그때그때 떠오른 관점으로 새로 만들고, 끝나면 지워 버렸습니다. 그래서 **점검을 도구로 남기기로** 했습니다.
 
-![품질 점검 흐름](/assets/images/posts/numberia-release/13-info-qa-flow.jpg)
+![품질 점검 흐름](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/numberia-release/13-info-qa-flow.jpg)
 
 이제 업데이트를 올리기 전에 `npm run qa` 한 줄이면,
 
@@ -171,7 +171,7 @@ Capacitor로 웹 코드를 앱에 담는 것까지는 빨랐지만, 이 컴퓨�
 
 테스터에게 계속 새 버전을 배포하다 보니 "옛날 버전을 쓰는 사람에게도 수정이 닿으려면?" 하는 고민이 생겼습니다. 그래서 앱을 켤 때 **플레이스토어에 새 버전이 있으면 안내 화면을 띄우고, 업데이트 전에는 게임으로 들어가지 못하게** 하는 기능을 넣었습니다. 플레이 도중에는 막지 않습니다 — 진행을 직접 저장하는 방식이라, 갑자기 막으면 저장하지 못한 진행이 사라질 수 있기 때문입니다.
 
-![새 버전이 나오면 뜨는 업데이트 안내 화면](/assets/images/posts/numberia-release/08-force-update.jpg)
+![새 버전이 나오면 뜨는 업데이트 안내 화면](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/numberia-release/08-force-update.jpg)
 
 ## 앱 이름에 '수학모험'을 넣기까지
 

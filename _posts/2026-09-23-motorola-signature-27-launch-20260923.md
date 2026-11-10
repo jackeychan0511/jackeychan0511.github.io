@@ -5,13 +5,13 @@ date: 2026-09-23 14:07:00 +0900
 categories: [products]
 tags: [모토로라 시그니처 27, Motorola Signature 27, 스냅드래곤 8 Elite Extreme Gen 6, Snapdragon 8 Elite Extreme Gen 6, 스냅드래곤 서밋 2026, 퀄컴, 2nm, 5GHz, Oryon, Adreno, 200MP 페리스코프, Sony LYTIA 910, ArcticMesh 쿨링, 뱅앤올룹슨, GrapheneOS, 7년 업데이트, 플래그십 비교, 2026년9월]
 author: "40대 블로거"
-image: /assets/images/posts/motorola-signature-27-launch-20260923/motorola-signature-27-hero.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/motorola-signature-27-launch-20260923/motorola-signature-27-hero.jpg
 description: "모토로라가 9월 22일(현지시간) 스냅드래곤 서밋 2026에서 시그니처 27을 공개했습니다. 퀄컴 스냅드래곤 8 Elite Extreme Gen 6를 단 첫 스마트폰으로, 50MP 소니 LYTIA 910 메인 + 200MP 페리스코프 망원, ArcticMesh 쿨링, 뱅앤올룹슨 사운드, 7년 OS 업데이트를 담았습니다. 아직 공개되지 않은 것과 공식 확정된 것을 구분해 정리했습니다."
 ---
 
 > **📌 한줄 요약:** 모토로라가 **9월 22일(현지시간) 미국 하와이 마우이의 '스냅드래곤 서밋 2026'** 에서 **모토로라 시그니처 27**을 공개했습니다. **퀄컴 스냅드래곤 8 Elite Extreme Gen 6(TSMC 2nm)를 단 첫 스마트폰**이고, **50MP 소니 LYTIA 910 메인 + 200MP 페리스코프 망원(최대 100x)**, **ArcticMesh 쿨링**, **뱅앤올룹슨(B&O) 사운드**, **7년 OS·보안 업데이트**까지 담았습니다. 다만 **가격과 화면·배터리 제원, 정확한 출시일은 아직 공개되지 않았습니다.**
 
-![모토로라 시그니처 27 공식 대표 이미지 (출처: 모토로라 공식 홈페이지)](/assets/images/posts/motorola-signature-27-launch-20260923/motorola-signature-27-hero.jpg)
+![모토로라 시그니처 27 공식 대표 이미지 (출처: 모토로라 공식 홈페이지)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/motorola-signature-27-launch-20260923/motorola-signature-27-hero.jpg)
 *모토로라 시그니처 27 — 퀄컴 스냅드래곤 8 Elite Extreme Gen 6를 단 첫 스마트폰입니다 (출처: 모토로라 공식 홈페이지)*
 
 요즘 저처럼 **"올해 플래그십은 뭘 사야 하나"** 고민하시는 분들 많으시죠. 아이폰 18 프로와 폴더블 아이폰 '듀오'가 나왔고, 갤럭시 Z 폴드8 시리즈도 자리를 잡았는데, 정작 **안드로이드 진영의 새 심장인 퀄컴 2nm 칩은 이제 막 베일을 벗은 상태**입니다. 폰을 사려고 해도 "이게 올해 칩인지, 내년 칩인지"가 헷갈리는 시기예요.
@@ -54,7 +54,7 @@ description: "모토로라가 9월 22일(현지시간) 스냅드래곤 서밋 20
 
 ⚠️ 솔직히 짚으면 — **5GHz는 '종이 위 숫자'입니다.** 클럭이 높다는 건 순간 최대치이고, 실제 체감은 **발열과 스로틀링**이 결정합니다. 그래서 이번 발표에서 저는 칩 성능보다 **쿨링**을 더 눈여겨봤습니다(아래 ③).
 
-![퀄컴 스냅드래곤 8 Elite Extreme Gen 6 공식 이미지 (출처: 퀄컴 공식 홈페이지)](/assets/images/posts/motorola-signature-27-launch-20260923/snapdragon-8-elite-extreme-gen-6-badge.jpg)
+![퀄컴 스냅드래곤 8 Elite Extreme Gen 6 공식 이미지 (출처: 퀄컴 공식 홈페이지)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/motorola-signature-27-launch-20260923/snapdragon-8-elite-extreme-gen-6-badge.jpg)
 *퀄컴 스냅드래곤 8 Elite Extreme Gen 6 — 모토로라 시그니처 27에 들어간 첫 상위형 2nm 플래그십 칩입니다 (출처: 퀄컴 공식 홈페이지)*
 
 ### ② 카메라: 50MP 소니 LYTIA 910 + 200MP 페리스코프
@@ -67,7 +67,7 @@ description: "모토로라가 9월 22일(현지시간) 스냅드래곤 서밋 20
 
 200MP 망원을 넣는 건 요즘 상위 플래그십의 흐름이지만, **모토로라 폰에 이 구성이 들어온 건 처음**입니다. 망원 화소가 높으면 **중간 배율(2~5배)에서 크롭 품질이 유리**하다는 게 실사용 장점이에요.
 
-![모토로라 시그니처 27 카메라 공식 이미지 (출처: 모토로라 공식 홈페이지)](/assets/images/posts/motorola-signature-27-launch-20260923/motorola-signature-27-camera.jpg)
+![모토로라 시그니처 27 카메라 공식 이미지 (출처: 모토로라 공식 홈페이지)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/motorola-signature-27-launch-20260923/motorola-signature-27-camera.jpg)
 *시그니처 27의 카메라 구성 — 50MP 소니 LYTIA 910 메인과 200MP 페리스코프 망원이 중심입니다 (출처: 모토로라 공식 홈페이지)*
 
 ### ③ 쿨링: ArcticMesh — 이번엔 여기에 힘을 줬습니다
@@ -80,7 +80,7 @@ description: "모토로라가 9월 22일(현지시간) 스냅드래곤 서밋 20
 
 제가 이 부분을 좋게 본 이유는, **"스펙은 높은데 30분만 지나면 느려지는 폰"이 최근 몇 년간 가장 흔한 불만**이었기 때문입니다. 쿨링을 공식 발표의 전면에 세운 건 소비자 입장에서 반가운 신호예요.
 
-![모토로라 시그니처 27 성능·쿨링 공식 이미지 (출처: 모토로라 공식 홈페이지)](/assets/images/posts/motorola-signature-27-launch-20260923/motorola-signature-27-performance.jpg)
+![모토로라 시그니처 27 성능·쿨링 공식 이미지 (출처: 모토로라 공식 홈페이지)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/motorola-signature-27-launch-20260923/motorola-signature-27-performance.jpg)
 *ArcticMesh 쿨링 시스템을 강조한 공식 성능 섹션 이미지 — 2nm 칩의 발열을 잡는 것이 이번 세대의 관전 포인트입니다 (출처: 모토로라 공식 홈페이지)*
 
 ### ④ 소프트웨어: 7년 업데이트 + 그래핀OS 협업
@@ -98,7 +98,7 @@ description: "모토로라가 9월 22일(현지시간) 스냅드래곤 서밋 20
 - **Capulet Green(Capulet Olive)** — 브러시드 텍스타일 느낌의 그린
 - 카메라 모듈이 크게 도드라지는 비대칭 후면 배치로, 예전 드로이드·레이저 계열 디자인을 떠올리게 한다는 평이 많습니다
 
-![모토로라 시그니처 27 디자인 공식 이미지 (출처: 모토로라 공식 홈페이지)](/assets/images/posts/motorola-signature-27-launch-20260923/motorola-signature-27-design.jpg)
+![모토로라 시그니처 27 디자인 공식 이미지 (출처: 모토로라 공식 홈페이지)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/motorola-signature-27-launch-20260923/motorola-signature-27-design.jpg)
 *시그니처 27의 디자인 — 큰 카메라 모듈과 텍스타일 마감이 특징입니다 (출처: 모토로라 공식 홈페이지)*
 
 ---

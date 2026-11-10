@@ -5,13 +5,13 @@ date: 2026-08-19 18:00:00 +0900
 categories: [products]
 tags: [쿠첸, Cuchen, 냉장고, 소형냉장고, 세컨드냉장고, 1인가구, 자취생, 85L, 89L, 205L, CRF-E85TMW, CRF-E90TTW, CRF-E206TMW, 7단계온도조절, 쿠첸몰, 냉장고추천, 2026년8월, 구매가이드]
 author: "40대 블로거"
-image: /assets/images/posts/cuchen-refrigerator-20260819/cuchen-205l-press-etnews.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/cuchen-refrigerator-20260819/cuchen-205l-press-etnews.jpg
 description: "2026년 8월 가전업계에서 가장 화제인 소식, 밥솥으로 유명한 쿠첸(Cuchen)이 냉장고 시장에 처음 진출했습니다. 8월 13일 출시된 신제품 4종은 85L 2도어, 89L 일체형, 205L 2도어(화이트·실버)로 구성됐고, 7단계 온도 조절과 강화유리 선반을 갖췄습니다. 쿠첸몰 기준 205L이 30만 원대, 89L은 18만 9천 원까지 내려가는 가격이 최대 강점인데, OEM 생산과 대형가전 첫 진출이라는 리스크도 있습니다. 1인 가구·세컨드 냉장고를 찾는 분들을 위해 가격·스펙·장단점·구매 팁을 정리했습니다."
 ---
 
 > **📌 한줄 요약:** 2026년 8월 가전업계 핫이슈는 **쿠첸(Cuchen)의 냉장고 첫 출시**입니다. 전기밥솥·인덕션·음식물처리기로 유명한 쿠첸이 8월 13일 **냉장고 신제품 4종**(85L 2도어, 89L 일체형, 205L 2도어 화이트·실버)을 내놨는데, **7단계 온도 조절**과 강화유리 선반을 갖추고 쿠첸몰 기준 **205L이 30만 원대, 89L은 18만 9천 원**이라는 공격적인 가격으로 나왔습니다. 다만 OEM 생산 방식이고 대형가전은 첫 진출이라 AS·내구성은 지켜봐야 한다는 게 솔직한 평가입니다.
 
-![쿠첸 205L 2도어 냉장고 보도사진](/assets/images/posts/cuchen-refrigerator-20260819/cuchen-205l-press-etnews.jpg)
+![쿠첸 205L 2도어 냉장고 보도사진](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/cuchen-refrigerator-20260819/cuchen-205l-press-etnews.jpg)
 *쿠첸 205L 2도어 냉장고 — 밥솥 명가가 처음 선보인 대형가전 (출처: 전자신문 보도사진, 2026-08-13)*
 
 ---
@@ -45,7 +45,7 @@ description: "2026년 8월 가전업계에서 가장 화제인 소식, 밥솥으
 
 *가격은 쿠첸 공식몰(cuchenmall.co.kr) 기준, 확인일 2026-08-19*
 
-![쿠첸 냉장고 4종 라인업 보도사진](/assets/images/posts/cuchen-refrigerator-20260819/cuchen-4models-press-hansbiz.jpg)
+![쿠첸 냉장고 4종 라인업 보도사진](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/cuchen-refrigerator-20260819/cuchen-4models-press-hansbiz.jpg)
 *쿠첸 냉장고 신제품 4종 라인업 — 절제된 디자인과 차분한 화이트·실버 컬러가 특징 (출처: 한스경제 보도사진, 2026-08-13)*
 
 ## 핵심 기능 — '소형 냉장고인데 이것까지?' 싶은 구성
@@ -57,13 +57,13 @@ description: "2026년 8월 가전업계에서 가장 화제인 소식, 밥솥으
 3. **강화유리 선반 + 도어 포켓** — 내구성이 좋은 강화유리 선반은 높낮이 조절이 가능하고, 도어 포켓으로 음료·소스류를 편리하게 수납할 수 있습니다.
 4. **절제된 디자인** — 주방과 사무실 등 어디에 둬도 어색하지 않게 화이트·실버 위주의 차분한 컬러를 적용했습니다. 밥솥으로 다져진 쿠첸 특유의 '깔끔한 가전 디자인' 감각이 그대로 느껴집니다.
 
-![쿠첸 85L 2도어 냉장고 화이트](/assets/images/posts/cuchen-refrigerator-20260819/cuchen-85l-official.png)
+![쿠첸 85L 2도어 냉장고 화이트](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/cuchen-refrigerator-20260819/cuchen-85l-official.png)
 *쿠첸 85L 2도어 냉장고(CRF-E85TMW, 화이트) — 냉장·냉동 분리 타입, 1인 가구·숙박시설용 (출처: 쿠첸 공식몰, 확인일 2026-08-19)*
 
-![쿠첸 89L 일체형 냉장고 화이트](/assets/images/posts/cuchen-refrigerator-20260819/cuchen-89l-official.png)
+![쿠첸 89L 일체형 냉장고 화이트](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/cuchen-refrigerator-20260819/cuchen-89l-official.png)
 *쿠첸 89L 일체형 냉장고(CRF-E90TTW, 화이트) — 1도어 전체 냉장 타입, 김치·주류·음료 세컨드 냉장고로 활용 (출처: 쿠첸 공식몰, 확인일 2026-08-19)*
 
-![쿠첸 205L 2도어 냉장고 실버](/assets/images/posts/cuchen-refrigerator-20260819/cuchen-205l-silver-official.png)
+![쿠첸 205L 2도어 냉장고 실버](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/cuchen-refrigerator-20260819/cuchen-205l-silver-official.png)
 *쿠첸 205L 2도어 냉장고(CRF-E206TMG, 실버) — 2인 가구 메인 또는 4인 가구 이상의 세컨드 냉장고로 적합 (출처: 쿠첸 공식몰, 확인일 2026-08-19)*
 
 ## 용도별로 보는 실제 사용감 — 어느 모델을 골라야 할까

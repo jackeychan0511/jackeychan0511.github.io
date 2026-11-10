@@ -5,11 +5,11 @@ date: 2026-10-14 11:24:00 +0900
 categories: [products]
 tags: [애플HomeView, 홈팟미니2, HomePodmini2, 애플TV4K, AppleTV4K, 애플스마트홈, AppleHomeCollection, SiriAI, 애플인텔리전스, 스마트홈허브, 제품비교, 구매가이드, 2026년10월]
 author: "40대 블로거"
-image: /assets/images/posts/apple-welcome-home-homeview-homepod-mini-2-20261013/homeview-living-room.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/apple-welcome-home-homeview-homepod-mini-2-20261013/homeview-living-room.jpg
 description: "애플이 2026년 10월 13일 'Welcome Home' 이벤트에서 스마트홈 신제품 3종을 공개했습니다. 7형 스퀘어 디스플레이를 얹은 첫 스마트홈 허브 'HomeView'(299달러), S10 칩과 Siri AI를 담은 '홈팟 미니 2'(149달러), 파필드 마이크 3개를 내장한 'Apple TV 4K'(299달러)입니다. 국내 관심이 큰 세 제품의 스펙·가격·출시일과 선택 기준을 한 번에 정리했습니다."
 ---
 
-![애플 HomeView를 거실에서 사용하는 모습 — 7형 스퀘어 디스플레이와 스피커 일체형 디자인](/assets/images/posts/apple-welcome-home-homeview-homepod-mini-2-20261013/homeview-living-room.jpg)
+![애플 HomeView를 거실에서 사용하는 모습 — 7형 스퀘어 디스플레이와 스피커 일체형 디자인](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/apple-welcome-home-homeview-homepod-mini-2-20261013/homeview-living-room.jpg)
 *애플이 공개한 첫 스마트홈 허브 'HomeView'. 7형 디스플레이와 고음질 스피커가 일체형으로 결합된 형태입니다 (출처: Apple Newsroom, 2026.10)*
 
 > **📌 한줄 요약:** 애플이 **2026년 10월 13일(현지시간)** 뉴욕에서 연 'Welcome Home' 이벤트에서 스마트홈 신제품을 한꺼번에 공개했습니다. 핵심은 세 가지입니다. ① **HomeView**(299달러) — 애플 최초의 스마트홈 디스플레이 허브, ② **홈팟 미니 2**(149달러) — S10 칩과 Siri AI를 담은 보급형 스피커, ③ **Apple TV 4K**(299달러) — 파필드 마이크 3개로 완전한 핸즈프리를 지원하는 셋톱박스. 여기에 LG전자·슈나이더 일렉트릭과 협업한 액세서리 라인업 **Apple Home Collection**까지 더해졌습니다. 홈팟 미니 2는 10월 30일, HomeView와 Apple TV 4K는 11월 13일 출시됩니다.
@@ -44,7 +44,7 @@ description: "애플이 2026년 10월 13일 'Welcome Home' 이벤트에서 스�
 
 거실이나 주방에 두고 쓰는 **7형 스퀘어(정사각형) 디스플레이**에 고음질 스피커를 일체형으로 붙인 기기입니다. 쉽게 말해 **아이패드와 홈팟을 합쳐 놓은 형태**라고 보면 이해가 빠릅니다.
 
-![Apple HomeView 4가지 색상 라인업 — 실버, 스타라이트, 로즈 핑크, 스페이스 그레이](/assets/images/posts/apple-welcome-home-homeview-homepod-mini-2-20261013/homeview-color-family.jpg)
+![Apple HomeView 4가지 색상 라인업 — 실버, 스타라이트, 로즈 핑크, 스페이스 그레이](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/apple-welcome-home-homeview-homepod-mini-2-20261013/homeview-color-family.jpg)
 *HomeView는 실버·스타라이트·로즈 핑크·스페이스 그레이 4가지 색상으로 출시됩니다 (출처: Apple Newsroom, 2026.10)*
 
 ### 핵심 기능
@@ -62,7 +62,7 @@ description: "애플이 2026년 10월 13일 'Welcome Home' 이벤트에서 스�
 
 ## 2. 홈팟 미니 2 — S10 칩과 Siri AI를 담은 보급형 스피커
 
-![홈팟 미니 2 5가지 색상 라인업 — 핑크, 그린, 블루, 화이트, 미드나이트](/assets/images/posts/apple-welcome-home-homeview-homepod-mini-2-20261013/homepod-mini-2-colors.jpg)
+![홈팟 미니 2 5가지 색상 라인업 — 핑크, 그린, 블루, 화이트, 미드나이트](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/apple-welcome-home-homeview-homepod-mini-2-20261013/homepod-mini-2-colors.jpg)
 *홈팟 미니 2는 핑크·그린·블루·화이트·미드나이트 5가지 색상으로 출시됩니다 (출처: Apple Newsroom, 2026.10)*
 
 2020년 오리지널 홈팟 미니 이후 **6년 만의 정식 후속작**입니다. 겉모습은 비슷하지만 속이 완전히 달라졌습니다.
@@ -87,7 +87,7 @@ description: "애플이 2026년 10월 13일 'Welcome Home' 이벤트에서 스�
 
 ## 3. Apple TV 4K — 파필드 마이크 3개로 완전한 핸즈프리
 
-![신형 Apple TV 4K 홈시어터 구성 이미지](/assets/images/posts/apple-welcome-home-homeview-homepod-mini-2-20261013/apple-tv-4k.jpg)
+![신형 Apple TV 4K 홈시어터 구성 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/apple-welcome-home-homeview-homepod-mini-2-20261013/apple-tv-4k.jpg)
 *신형 Apple TV 4K. 홈팟과 짝지으면 애플 역대 최고 수준의 서라운드 사운드를 구성합니다 (출처: Apple Newsroom, 2026.10)*
 
 ### 핵심 스펙
@@ -103,7 +103,7 @@ description: "애플이 2026년 10월 13일 'Welcome Home' 이벤트에서 스�
 
 ## 4. Apple Home Collection — LG·슈나이더와 손잡은 액세서리
 
-![Apple Home Collection 액세서리 라인업 — 카메라, 도어벨, 스마트락, 온도조절기](/assets/images/posts/apple-welcome-home-homeview-homepod-mini-2-20261013/home-collection-lineup.jpg)
+![Apple Home Collection 액세서리 라인업 — 카메라, 도어벨, 스마트락, 온도조절기](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/apple-welcome-home-homeview-homepod-mini-2-20261013/home-collection-lineup.jpg)
 *LG전자·슈나이더 일렉트릭과 협업한 Apple Home Collection. 실내외 카메라, 온도조절기, 비디오 도어벨, 스마트 데드볼트 락 등으로 구성됩니다 (출처: Apple Newsroom, 2026.10)*
 
 스마트홈에서 늘 걸림돌이던 "기기마다 다른 앱·계정" 문제를 없애는 것이 목표입니다.
@@ -118,7 +118,7 @@ description: "애플이 2026년 10월 13일 'Welcome Home' 이벤트에서 스�
 
 ## 5. 비교 가이드 — 무엇부터 사야 할까
 
-![Apple HomeView 주방 사용 이미지](/assets/images/posts/apple-welcome-home-homeview-homepod-mini-2-20261013/homeview-kitchen.jpg)
+![Apple HomeView 주방 사용 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/apple-welcome-home-homeview-homepod-mini-2-20261013/homeview-kitchen.jpg)
 *HomeView는 거실·주방의 관제 화면 겸 스피커로, Apple TV 4K는 거실 미디어 허브로 역할이 나뉩니다 (출처: Apple Newsroom, 2026.10)*
 
 | 이런 분이라면 | 추천 조합 | 예상 비용(미국가) |

@@ -5,13 +5,13 @@ date: 2026-08-10 08:00:00 +0900
 categories: [finance]
 tags: [비트코인, 가상화폐, 코인, BTC, 암호화폐]
 author: "40대 블로거"
-image: /assets/images/posts/crypto-briefing-20260810/bitcoin-coin-packaging.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/crypto-briefing-20260810/bitcoin-coin-packaging.jpg
 description: "8월 10일 오전 코인 브리핑. 美 7월 고용 쇼크(-2.3만)로 금리인상 우려 완화, 현물 BTC ETF 주간 8.5억달러 순유입(4월 중순 이후 최대)에 비트코인이 6.5만달러선을 회복. BIP 110 하드포크 논쟁·고래 매집(약 1,975 BTC)도 관심. 업비트 9,128만 원, 바이낸스 6만4,987달러."
 sitemap: false
 noindex: true
 ---
 
-![투명 캡슐에 담긴 금색 비트코인 실물 코인](/assets/images/posts/crypto-briefing-20260810/bitcoin-coin-packaging.jpg)
+![투명 캡슐에 담긴 금색 비트코인 실물 코인](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/crypto-briefing-20260810/bitcoin-coin-packaging.jpg)
 *금색 비트코인 실물 기념 코인 — 6.5만달러 회복 (2026.08.10) / Wikimedia Commons ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/))*
 
 **핵심 요약**: 미국 7월 고용 쇼크로 금리인상 우려가 완화된 가운데 현물 BTC ETF에 4월 중순 이후 최대 주간 자금(8.5억달러)이 유입되며 비트코인이 6만5,000달러선을 회복했습니다. 다만 BIP 110 하드포크 논쟁과 호르무즈 해협 불확실성은 상승을 제한하는 변수입니다.

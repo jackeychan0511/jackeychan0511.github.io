@@ -6,7 +6,7 @@ categories: [career]
 tags: [Anthropic, Claude, 앤트로픽, 클로드, AI안전, 표준기구, StandardsBody, FINRA, 자기규제, SelfRegulatory, 반독점, Antitrust, 셔먼법, OpenAI, GoogleDeepMind, 구글딥마인드, DemisHassabis, 하사비스, DarioAmodei, 아모데이, ChrisLehane, 르헤인, SamAltman, 앨트만, ResponsibleScalingPolicy, RSP, 프런티어모델, FrontierAI, AI거버넌스, AI규제, 업무자동화, AI에이전트, ClaudeCode, 2026년9월, AI산업]
 author: "40대 블로거"
 description: "2026년 9월 15일(현지), OpenAI가 CNBC·블룸버그에 \"앤트로픽·구글(딥마인드)과 수 주째 AI 안전 협력을 논의해 왔다\"고 공식 확인했습니다. 출발점은 구글 딥마인드 하사비스 의장이 7월 제안한 미 금융규제기구(FINRA) 모델의 'AI 표준기구(Standards Body)'입니다. 크리스 르헤인은 반독점 면제가 필요 없다고 했고, 반대로 아모데이는 면제(웨이버)가 필요하다고 봤습니다. 이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망 순서로 정리했습니다."
-image: /assets/images/posts/2026-09-16-anthropic-claude-ai-standards-body-20260916/anthropic-rsp-official.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-09-16-anthropic-claude-ai-standards-body-20260916/anthropic-rsp-official.png
 sitemap: false
 noindex: true
 ---
@@ -15,7 +15,7 @@ noindex: true
 
 그런데 **9월 15일(현지시간), 완전히 다른 축의 뉴스가 터졌습니다.** OpenAI가 공식적으로 **"앤트로픽(Anthropic), 구글(딥마인드)과 이미 수 주째 AI 안전 협력을 논의해 왔다"**고 확인한 겁니다. 경쟁사 셋이 조용히 같은 테이블에 앉아 있었다는 얘기입니다. 이번 글도 이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망 순서로 정리해 드리겠습니다.
 
-![Anthropic 공식 홈페이지에 게시된 'Responsible Scaling Policy(RSP)' 공지 대표 이미지](/assets/images/posts/2026-09-16-anthropic-claude-ai-standards-body-20260916/anthropic-rsp-official.png)
+![Anthropic 공식 홈페이지에 게시된 'Responsible Scaling Policy(RSP)' 공지 대표 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-09-16-anthropic-claude-ai-standards-body-20260916/anthropic-rsp-official.png)
 *Anthropic 공식 홈페이지에 게시된 책임확장정책(Responsible Scaling Policy) 공지 대표 이미지 — 이번 논의의 배경에는 각 사의 안전 정책 문서가 있습니다 (출처: anthropic.com 공식, 2026.9.16 접속)*
 
 ## 🗞️ 이슈 요약 — 한눈에 보기
@@ -41,7 +41,7 @@ CNBC가 전한 내용을 정리하면, 제안된 기구의 역할은 크게 세 
 
 저처럼 IT 업계에서 일하는 입장에서 이 구조는 좀 낯이 익습니다. **"정부가 규제를 못 만들면, 업계가 규제기관을 하나 만들어서 그 규제기관이 우리를 감독하게 하자"**는 형태니까요. 표준을 먼저 정하는 쪽이 유리해지는 구조이기도 합니다.
 
-![데미스 하사비스 구글 딥마인드 의장](/assets/images/posts/2026-09-16-anthropic-claude-ai-standards-body-20260916/demis-hassabis-wikimedia.jpg)
+![데미스 하사비스 구글 딥마인드 의장](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-09-16-anthropic-claude-ai-standards-body-20260916/demis-hassabis-wikimedia.jpg)
 *'AI 표준기구' 제안의 원작성자, 데미스 하사비스 구글 딥마인드 의장 — 2024 노벨 위크 무대 (출처: Wikimedia Commons, Jenny8lee / CC BY-SA 4.0, 2026.9.16 접속)*
 
 ### 2️⃣ 르헤인의 "면제는 필요 없다" — 반독점이라는 진짜 복병

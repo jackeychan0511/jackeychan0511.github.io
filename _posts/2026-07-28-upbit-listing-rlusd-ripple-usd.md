@@ -4,7 +4,7 @@ title: "업비트 RLUSD(리플유에스디) 신규 상장! 7월 28일 14시 거�
 date: 2026-07-28 09:00:00 +0900
 categories: [finance]
 tags: [업비트, RLUSD, 리플유에스디, RippleUSD, 신규상장, 스테이블코인, 코인, 가상자산]
-image: /assets/images/posts/coin-rlusd.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/coin-rlusd.jpg
 ---
 
 2026년 7월 28일, 업비트가 **RLUSD(리플유에스디 / Ripple USD)** 의 신규 거래를 지원한다고 공지했습니다.

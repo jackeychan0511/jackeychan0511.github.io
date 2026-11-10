@@ -5,7 +5,7 @@ date: 2026-08-06 14:52:00 +0900
 categories: [career]
 tags: [GPT, OpenAI, ChatGPT, ChatGPT Work, Codex, 교육플러그인, 에듀테크, AI교육, AI플러그인, AI에이전트, IT뉴스, 2026년8월]
 author: "40대 블로거"
-image: /assets/images/posts/openai-education-plugins-20260806/openai-education-plugins-hero.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-education-plugins-20260806/openai-education-plugins-hero.jpg
 description: "2026년 8월 4일 OpenAI가 발표한 ChatGPT Work·Codex 교육용 플러그인 3종(College Educator, K-12 Educator, College Student)을 정리했습니다. 각 플러그인의 역할, ChatGPT Edu·ChatGPT for Teachers 배포 방식, '능력 격차(capability overhang)' 데이터, 교육자·학생·에듀테크 업계에 주는 의미와 전망까지 다룹니다."
 sitemap: false
 noindex: true
@@ -13,7 +13,7 @@ noindex: true
 
 > **📌 한줄 요약:** OpenAI가 2026년 8월 4일, ChatGPT Work와 Codex에서 쓸 수 있는 **교육용 플러그인 3종**(대학 교수용 College Educator, K-12 교사용 K-12 Educator, 대학생용 College Student)을 발표했습니다. 플러그인은 앱·역할별 스킬·워크플로우를 묶어 놓은 패키지로, 복잡한 프롬프트 없이도 수업 설계·평가 제작·학습 플랜을 바로 시작할 수 있게 해 줍니다. ChatGPT Edu와 ChatGPT for Teachers(미국 K-12 교사 무료) 배포 환경에서 제공되며, OpenAI는 18~24세 주간 사용자 2억 명 이상 중 상당수가 AI를 '파워유저 대비 90~99% 덜 활용'하는 **능력 격차(capability overhang)**를 이번 발표의 핵심 배경으로 제시했습니다.
 
-![OpenAI 교육 플러그인 공식 발표 배너](/assets/images/posts/openai-education-plugins-20260806/openai-education-plugins-hero.jpg)
+![OpenAI 교육 플러그인 공식 발표 배너](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-education-plugins-20260806/openai-education-plugins-hero.jpg)
 *이미지 출처: OpenAI 공식 블로그 "New ways to learn and teach with ChatGPT Work and Codex" (2026.8.4)*
 
 ## 이슈 요약 — "AI가 교실로 들어온다"
@@ -30,7 +30,7 @@ noindex: true
 
 ## 상세 분석 — 플러그인 3종은 무엇을 하는가
 
-![OpenAI K-12 Teacher Jam 현장 (미국 조지아주 Jonesboro)](/assets/images/posts/openai-education-plugins-20260806/openai-skills-jam-atl.jpg)
+![OpenAI K-12 Teacher Jam 현장 (미국 조지아주 Jonesboro)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/openai-education-plugins-20260806/openai-skills-jam-atl.jpg)
 *이미지 출처: OpenAI 공식 블로그, "OpenAI K-12 Teacher Jam in Jonesboro, Georgia" (사진: Cole Curtis)*
 
 ### 1. 플러그인이라는 새로운 형태

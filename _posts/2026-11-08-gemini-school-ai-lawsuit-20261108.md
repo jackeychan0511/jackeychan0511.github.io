@@ -5,11 +5,11 @@ date: 2026-11-08 15:52:00 +0900
 categories: [career]
 tags: [Google Gemini, 구글 제미나이, AI 모드, AI Mode, 구글 검색 AI, 크롬북, 학교 AI, K-12 AI, AI 안전, 아동 안전, AI 소송, AI 가드레일, 에듀테크, 업무자동화]
 author: "40대 블로거"
-image: /assets/images/posts/gemini-school-ai-lawsuit-20261108/ai-mode-hero-googleblog.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-school-ai-lawsuit-20261108/ai-mode-hero-googleblog.jpg
 description: "2026년 11월 2일, 미국 캘리포니아 법원에 구글의 AI 검색 기능을 상대로 한 과실 소송이 접수됐습니다. 학교가 Gemini 앱과 ChatGPT는 차단했지만 크롬북에서 구글 검색의 AI 모드는 열려 있었고, 원고 측은 그 경로로 13세 학생이 위험한 대화에 노출됐다고 주장합니다. 구글은 '검토 중'이라며 AI 모드에 자해 관련 안전장치가 있다고 밝혔습니다. '앱 하나 막으면 AI가 다 막힌다'는 전제가 어디서 깨지는지, 학교·기업 배포 환경의 통제 지점을 정리했습니다."
 ---
 
-![Google 검색 AI 모드 공식 소개 이미지](/assets/images/posts/gemini-school-ai-lawsuit-20261108/ai-mode-hero-googleblog.jpg)
+![Google 검색 AI 모드 공식 소개 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-school-ai-lawsuit-20261108/ai-mode-hero-googleblog.jpg)
 *구글 검색의 AI 모드(AI Mode) 공식 소개 이미지 (출처: Google 공식 블로그)*
 
 > **📌 한 줄 요약:** 2026년 11월 2일(현지), 미국 캘리포니아 법원에 **구글의 AI 검색 기능을 겨냥한 과실 소송**이 접수됐습니다. 핵심은 "학교가 Gemini 앱과 ChatGPT는 막았는데, **구글 검색 안의 AI 모드는 그대로 열려 있었다**"는 점입니다. 생성형 AI를 앱 단위로 차단하는 통제 방식이 실제로는 **검색이라는 우회로**를 남긴다는 사실이 법정 다툼의 쟁점이 됐습니다. 학교든 회사든 "AI 차단" 정책을 세워 둔 조직이라면, 자기 환경에서 같은 구멍이 있는지 확인해 볼 시점입니다.
@@ -45,7 +45,7 @@ AFP 통신 보도에 따르면, 13세 여학생의 부모가 2026년 11월 2일(
 | **검색의 AI 모드·AI 개요** | **높음** | 검색 자체를 끄지 않는 한 분리 불가 |
 | 서드파티 챗봇(ChatGPT 등) | 중간 | URL 필터링 |
 
-![크롬북(HP 11 G2) 실물 사진](/assets/images/posts/gemini-school-ai-lawsuit-20261108/chromebook-wikimedia.jpg)
+![크롬북(HP 11 G2) 실물 사진](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-school-ai-lawsuit-20261108/chromebook-wikimedia.jpg)
 *학교에 보급되는 대표적인 크롬북 기기(HP 11 G2 Chromebook). 사진: Edoderoo, CC BY-SA 4.0, Wikimedia Commons*
 
 구글 역시 이 구조를 부정하지 않습니다. 11월 초 영국 가디언은 "구글은 AI 없이 검색을 쓰는 방법이 없다고 말한다"는 제목으로, **검색과 생성형 AI가 이미 분리되지 않는 상태**라는 구글의 설명을 전했습니다. 지난 11월 3일 구글이 K-12 대상 AI 도구를 기본 OFF로 전환하면서 "AI를 전면 금지하는 학교는 학생 계정의 검색 접근도 잃게 된다"고 안내한 것도 같은 맥락입니다. 즉 **AI를 끄는 선택지와 검색을 유지하는 선택지가 물리적으로 분리돼 있지 않다**는 것이 이번 소송의 출발점입니다.

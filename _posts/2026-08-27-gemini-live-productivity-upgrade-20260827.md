@@ -6,7 +6,7 @@ categories: [career]
 tags: [Gemini, Google, GeminiLive, Spark, DailyBrief, Gmail, AI뉴스, 에이전트AI, 브랜딩, TechCrunch, 2026년8월, 구글AI]
 author: "40대 블로거"
 description: "2026년 8월 26일 구글이 Gemini Live의 대규모 생산성 업그레이드를 발표했습니다. 음성만으로 Spark 에이전트·Gmail·Daily Brief·개인 기억(Personal Intelligence)을 실행할 수 있게 된 것인데요. 같은 날 TechCrunch는 '채팅·Spark·Daily Brief가 각자 브랜드로 분리돼 오히려 혼란스럽다'는 날카로운 비판을 내놨습니다. 발표 내용과 브랜딩 논란을 이슈 요약 → 상세 분석 → 영향 → 전망 순서로 정리했습니다."
-image: /assets/images/posts/gemini-live-productivity-upgrade-20260827/gemini-live-9to5google.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-live-productivity-upgrade-20260827/gemini-live-9to5google.jpg
 sitemap: false
 noindex: true
 ---
@@ -15,7 +15,7 @@ noindex: true
 
 바로 **Gemini Live 생산성 대규모 업그레이드**입니다. 이제 음성만으로 **Spark 에이전트**를 가동하고, **Gmail을 손 없이 정리**하고, **Daily Brief(데일리 브리프)로 하루 일정을 요약**받을 수 있게 됐는데요. 그런데 재밌게도 같은 날 **TechCrunch는 "Gemini의 브랜딩이 오히려 사용자를 헷갈리게 한다"**는 정반대의 비판 기사를 냈습니다. 오늘은 이 두 소식을 **요약 → 상세 분석 → 영향(사용자·개발자) → 전망** 순서로 정리해 드립니다.
 
-![Gemini Live 대표 이미지](/assets/images/posts/gemini-live-productivity-upgrade-20260827/gemini-live-9to5google.jpg)
+![Gemini Live 대표 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-live-productivity-upgrade-20260827/gemini-live-9to5google.jpg)
 *Gemini Live — 음성 대화로 Spark 에이전트·Gmail·Daily Brief를 실행하는 구글의 AI 비서 (출처: 9to5Google)*
 
 ## 📌 이슈 요약: "목소리로 하루를 위임한다" vs "브랜드가 너무 많다"
@@ -27,7 +27,7 @@ noindex: true
 
 > ⚠️ 본 글은 2026년 8월 27일 기준 구글 공식 블로그와 9to5Google·TechCrunch 보도를 바탕으로 작성했습니다.
 
-![Google Gemini 로고](/assets/images/posts/gemini-live-productivity-upgrade-20260827/gemini-logo-2025-wikimedia.png)
+![Google Gemini 로고](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/gemini-live-productivity-upgrade-20260827/gemini-logo-2025-wikimedia.png)
 *Google Gemini 로고 — AI 어시스턴트·모델 브랜드 (출처: Wikimedia Commons)*
 
 ## 🔍 상세 분석: 발표 내용과 브랜딩 논란

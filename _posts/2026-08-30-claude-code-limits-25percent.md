@@ -6,14 +6,14 @@ categories: [career]
 tags: [Anthropic, Claude, 앤트로픽, 클로드, Claude Code, 클로드 코드, AI뉴스, 주간 한도, Weekly Limits, 사용량, Usage, 25% 인상, 17% 인하, ClaudeDevs, SpaceX, 컴퓨팅, AI 코딩, AI에이전트, AI Agent, 2026년8월, AI산업]
 author: "40대 블로거"
 description: "2026년 8월 29일 앤트로픽(Anthropic)이 공식 X 계정(@ClaudeDevs)을 통해 9월 14일부터 Claude Code의 표준 주간 한도를 Pro·Max·Team·시트 기반 엔터프라이즈 플랜 기준 25% 영구 인상한다고 발표했습니다. 그런데 발표를 자세히 보면 함정이 있습니다. 현재 적용 중인 임시 50% 부스트(5월 13일 시작, SpaceX 컴퓨팅 딜 기반)가 9월 14일 종료되면서, 실제로는 150→125로 체감 17% 인하가 되는 셈입니다. 원래 한도 100 기준으로 보면 25% 인상이 맞지만, 지금 쓰는 분들이 체감하는 한도는 오히려 줄어듭니다. 이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망 순서로 정리했습니다."
-image: /assets/images/posts/2026-08-30-claude-code-limits-25percent/claude-code-og.jpg
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-08-30-claude-code-limits-25percent/claude-code-og.jpg
 sitemap: false
 noindex: true
 ---
 
 요즘 저처럼 **Claude Code로 코딩을 맡기시는 분들**, 많으시죠? 솔직히 저는 주간 사용량 한도가 얼마나 남았는지 확인하는 게 이제 일상이 됐습니다. 그러던 중 8월 29일(금), **앤트로픽이 "Claude Code 주간 한도를 25% 영구 인상한다"는 발표**를 했습니다. 반가운 소식이었는데... 잠깐, 자세히 읽어보니 **"알고 보니 지금보다 17% 줄어드는 것 아니냐"**는 얘기가 커뮤니티에서 바로 나오더군요. 오늘은 이 **이슈 요약 → 상세 분석 → 영향(사용자·개발자) → 전망** 순서로 정리해 드리겠습니다.
 
-![Claude Code 공식 제품 이미지](/assets/images/posts/2026-08-30-claude-code-limits-25percent/claude-code-og.jpg)
+![Claude Code 공식 제품 이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-08-30-claude-code-limits-25percent/claude-code-og.jpg)
 *Claude Code — 앤트로픽의 AI 코딩 에이전트 (출처: Anthropic 공식 제품 페이지 claude.com/product/claude-code, 2026.8.30 접속)*
 
 ## 📌 이슈 요약: "25% 인상"이 왜 "17% 인하"로 읽히나
@@ -48,7 +48,7 @@ noindex: true
 
 이 임시 50% 부스트는 갑자기 생긴 게 아닙니다. **5월 13일**, 앤트로픽이 **SpaceX와의 컴퓨팅 파트너십**(약 300MW 규모로 알려진 인프라 딜)을 발표하면서 "컴퓨팅 여유가 생겼다"며 7월 13일까지 한시적으로 주간 한도를 50% 올려줬습니다. 이후 **7월 18일 연장(→8월 19일)** → **8월 초 추가 연장(→8월 31일)** → 이번 발표에서 **9월 14일까지로 마지막 연장**된 것으로 보입니다. 한도를 늘렸다 줄였다 하는 과정이 벌써 세 차례 이상 반복된 셈입니다.
 
-![앤트로픽 공식 뉴스 일러스트(노드 글로브)](/assets/images/posts/2026-08-30-claude-code-limits-25percent/anthropic-news-globe.png)
+![앤트로픽 공식 뉴스 일러스트(노드 글로브)](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/2026-08-30-claude-code-limits-25percent/anthropic-news-globe.png)
 *앤트로픽 공식 뉴스 'Higher usage limits for Claude and a compute deal with SpaceX' 페이지의 대표 일러스트 (출처: Anthropic 공식 뉴스룸, 2026.8.30 접속)*
 
 ### 4) 왜 이런 결정을 했을까 — 컴퓨팅과 성장의 딜레마

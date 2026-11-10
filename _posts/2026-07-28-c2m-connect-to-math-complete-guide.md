@@ -5,7 +5,7 @@ date: 2026-07-21 09:00:00 +0900
 categories: [education]
 tags: [씨투엠, C2M, 씨투엠에듀, 사고력수학, 씨투엠클래스, 씨투엠RAT, 수학교구, 플라토, 팡세, 코어연산, 초등수학]
 author: "40대 블로거"
-image: /assets/images/posts/c2m-main.png
+image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/c2m-main.png
 description: "시매쓰·크레버스·와이즈만·황소에 이어 다섯 번째 사고력수학 브랜드 분석. 'Connect to Math'라는 철학으로 교구 중심 활동수학을 선도하는 씨투엠(C2M)의 씨투엠클래스·RAT·키즈·코어연산 등 프로그램과 교재, 학원 현장 후기까지 낱낱이 정리합니다."
 ---
 
