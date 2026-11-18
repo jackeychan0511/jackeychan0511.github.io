@@ -6,6 +6,7 @@ categories: [team-jackchankey]
 tags: [그라비워프, Graviwarp, 모바일게임개발, 인디게임, 구글플레이출시, Phaser, Capacitor, AdMob, Firebase, AI개발, 개발일지, 1인개발, 2026년10월]
 author: 재찬키
 description: "탭 한 번으로 행성 궤도를 갈아타는 우주 아케이드 게임 그라비워프(Graviwarp)를 구글 플레이에 출시했습니다. 기획부터 개발, 12명 14일 비공개 테스트, 광고·결제 설정, 이름 변경, 정식 출시, 홍보 쇼츠 제작까지의 전 과정을 정리했습니다."
+card_image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/graviwarp-devlog/00-card.jpg
 image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/graviwarp-devlog/00-hero-1024x500.jpg
 ---
 

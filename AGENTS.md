@@ -61,6 +61,24 @@ python3 scripts/optimize_images.py <파일>     # 압축만
 **자격증명:** `~/.hermes/r2_credentials.json` (저장소에 커밋 금지)
 **확인:** `python3 scripts/r2_images.py --check`
 
+**카드 썸네일 잘림 방지 — `card_image` (선택)**
+목록·카테고리 카드 박스는 **280×261 (비율 1.072)** 이고 `object-fit: cover`라서, 2:1 대표이미지는 좌우 약 48%가 잘립니다. 글자·로고가 좌우에 있으면 잘려 보입니다.
+
+```
+card_image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/<slug>/00-card.jpg
+image:      (기존 대표이미지 — 글 상단 히어로·OG에 사용)
+```
+
+- `card_image`가 있으면 **카드(홈·카테고리·관련글)에서만** 이 이미지를 씁니다. 없으면 `image`로 자동 대체됩니다.
+- 카드용은 **1.072:1 비율(권장 560×522)** 로 만들고, **글자·로고가 잘리지 않는 영역**을 잡으세요.
+  ```python
+  from PIL import Image
+  im = Image.open('00-hero.jpg')
+  cw = round(im.height * 280/261)          # 카드 비율
+  im.crop((0, 0, cw, im.height)).resize((560,522), Image.LANCZOS).save('00-card.jpg','JPEG',quality=90)
+  ```
+
+
 ## 🚫 배포 실패 시 — 재시도 커밋 금지
 
 배포(Pages 빌드/Actions)가 실패하거나 오래 걸려도 **재시도용 커밋을 만들지 마세요.** 배포는 `main` push 시 자동으로 다시 실행됩니다.
