@@ -60,9 +60,10 @@ layout: default
       <div class="related-grid">
         {% for post in related_posts limit:4 %}
         <a href="{{ post.url }}" class="related-card">
-          {% if post.image %}
+          {% assign card_src = post.card_image | default: post.image %}
+          {% if card_src %}
           <div class="related-card-image">
-            <img src="{{ post.image }}" alt="{{ post.title }}" loading="lazy">
+            <img src="{{ card_src }}" alt="{{ post.title }}" loading="lazy">
           </div>
           {% endif %}
           <div class="related-card-body">

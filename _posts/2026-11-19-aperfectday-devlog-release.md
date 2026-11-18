@@ -6,6 +6,7 @@ categories: [team-jackchankey]
 tags: [딱맞는하루, APerfectDay, 정리게임, 타임어택, 캐주얼게임, 모바일게임개발, 인디게임, 구글플레이출시, Capacitor, AdMob, Firebase, AI개발, 바이브코딩, 개발일지, 1인개발, 2026년11월]
 author: 재찬키
 description: "흩어진 생활용품을 알맞은 실루엣 칸에 정리하는 모바일 타임어택 게임 딱 맞는 하루. 단순한 카드형 프로토타입을 실제 사물과 공간이 살아 있는 20개 스테이지로 바꾸고, 랜덤 배치·콤보·진동·랭킹·광고·업데이트 안내와 모바일 화면 문제를 고쳐 Google Play 프로덕션 승인을 받기까지의 개발 기록입니다."
+card_image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/aperfectday-devlog/00-card.jpg
 image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/aperfectday-devlog/00-hero-1024x500.jpg
 ---
 
