@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "GTA 6 콘솔 성능 비교 — PS5 vs PS5 Pro vs Xbox Series X|S 실측 프레임 가이드 (2026.11.20)"
+title: "GTA 6 콘솔 성능 비교 — PS5 vs PS5 Pro vs Xbox Series X·S 실측 프레임 가이드 (2026.11.20)"
 date: 2026-11-20 11:29:00 +0900
 categories: [products]
 tags: [GTA6, GTA6성능, GTA6프레임, GTA630fps, PS5, PS5프로, PS5Pro, XboxSeriesX, XboxSeriesS, PSSR, FSR4, 콘솔비교, 메타크리틱99, 제품비교, 구매가이드, 2026년11월]
