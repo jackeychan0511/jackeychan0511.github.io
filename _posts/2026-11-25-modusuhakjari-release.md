@@ -160,13 +160,13 @@ https://play.google.com/store/apps/details?id=com.jackeychankey.modusuhakjari
 
 ## 7. Google Play 출시 화면
 
-구글 플레이에 등록된 그대로의 모습입니다.
+구글 플레이 스토어에 등록된 그대로의 모습입니다.
 
-![구글 플레이 등록 대표이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/modusuhakjari-release/07-store-feature.jpg)
+![모두의 수학자리 Google Play 등록 화면](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/modusuhakjari-release/09-play-store.jpg)
 
-스토어 상단에 노출되는 **등록 대표이미지(1024×500)** 입니다.
+앱 이름과 개발자, 설치 수, 스토어 스크린샷, 개발자(Team. Jackeychankey)의 다른 앱까지 한 화면에 보입니다.
 
-![구글 플레이 등록 스크린샷](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/modusuhakjari-release/08-store-gallery.jpg)
+![스토어 등록 스크린샷](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/modusuhakjari-release/08-store-gallery.jpg)
 
 스토어에 공개된 **휴대폰 스크린샷**입니다. 왼쪽부터 시작화면, 초등 분석 결과, 중등 분석 결과입니다.
 
