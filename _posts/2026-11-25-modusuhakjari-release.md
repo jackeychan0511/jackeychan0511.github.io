@@ -156,6 +156,20 @@ card_image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/po
 **Google Play에서 '모두의 수학자리'를 검색하세요.**
 https://play.google.com/store/apps/details?id=com.jackeychankey.modusuhakjari
 
+---
+
+## 7. Google Play 출시 화면
+
+구글 플레이에 등록된 그대로의 모습입니다.
+
+![구글 플레이 등록 대표이미지](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/modusuhakjari-release/07-store-feature.jpg)
+
+스토어 상단에 노출되는 **등록 대표이미지(1024×500)** 입니다.
+
+![구글 플레이 등록 스크린샷](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/modusuhakjari-release/08-store-gallery.jpg)
+
+스토어에 공개된 **휴대폰 스크린샷**입니다. 왼쪽부터 시작화면, 초등 분석 결과, 중등 분석 결과입니다.
+
 궁금한 점이나 필요한 기능은 댓글로 남겨 주세요. 다음 개선에 참고하겠습니다.
 
 > ※ 이 앱은 공공 자료를 가공한 참고용 분석을 제공하며, 개원 여부와 입지의 최종 판단은 이용자의 몫입니다. 글 속 수치는 2026년 11월 25일의 예시 지역 화면입니다.
