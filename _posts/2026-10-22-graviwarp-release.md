@@ -209,7 +209,17 @@ image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/g
 4. **수정할 때마다 직접 확인**: 출시가 가까워질수록 "수정 후 직접 실행해서 확인"을 필수 절차로 삼았습니다.
 5. **이름은 일찍**: 같은 이름의 앱이 있는지 미리 확인하면 이미지·영상·문서를 다시 만드는 수고를 줄일 수 있습니다.
 
-## 13. 지금 해 보세요
+## 13. Google Play 출시 화면
+
+구글 플레이 스토어에 등록된 그대로의 모습입니다.
+
+![그라비워프 Google Play 등록 화면](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/graviwarp-devlog/09-play-store.jpg)
+
+앱 이름과 개발자, 설치 수, 스토어 스크린샷, 개발자(Team. Jackeychankey)의 다른 앱까지 한 화면에 보입니다.
+
+---
+
+## 14. 지금 해 보세요
 
 구글 플레이에서 바로 설치할 수 있습니다.
 

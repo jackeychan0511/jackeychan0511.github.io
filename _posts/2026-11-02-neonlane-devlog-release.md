@@ -226,7 +226,17 @@ Play Console에서 한 일을 순서대로 정리하면 이렇습니다.
 - 랭킹 시즌제(주간·월간)와 보상 검토
 - Android vitals(비정상 종료)와 리뷰를 보면서 안정화
 
-## 12. 지금 해 보세요
+## 12. Google Play 출시 화면
+
+구글 플레이 스토어에 등록된 그대로의 모습입니다.
+
+![네온 레인 Google Play 등록 화면](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/neonlane-devlog/09-play-store.jpg)
+
+앱 이름과 개발자, 설치 수, 스토어 스크린샷, 개발자(Team. Jackeychankey)의 다른 앱까지 한 화면에 보입니다.
+
+---
+
+## 13. 지금 해 보세요
 
 - **Google Play:** [네온 레인 - 4색 리듬 러너](https://play.google.com/store/apps/details?id=com.jackeychankey.neonlane)
 - **웹 버전:** [jackeychan0511.github.io/games/neon-lane](https://jackeychan0511.github.io/games/neon-lane/)

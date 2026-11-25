@@ -186,6 +186,16 @@ Capacitor로 웹 코드를 앱에 담는 것까지는 빨랐지만, 이 컴퓨�
 **기술 스택:** React · Capacitor · Firebase Hosting · Node.js(사운드 합성) · Android SDK
 **앱 버전:** versionCode 31 · AAB 약 146MB · 저장 슬롯 3개 · 배경음악 20곡 · 효과음 21종
 
+## Google Play 출시 화면
+
+구글 플레이 스토어에 등록된 그대로의 모습입니다.
+
+![넘버리아 대륙 Google Play 등록 화면](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/numberia-release/09-play-store.jpg)
+
+앱 이름과 개발자, 설치 수, 스토어 스크린샷, 개발자(Team. Jackeychankey)의 다른 앱까지 한 화면에 보입니다.
+
+---
+
 ## 앞으로
 
 - 지금은 **7세 과정**이 열려 있고, 1학년 이상 과정은 개발 중입니다. 준비되면 업데이트로 엽니다.
