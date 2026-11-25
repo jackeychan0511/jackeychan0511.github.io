@@ -6,6 +6,7 @@ categories: [team-jackchankey]
 tags: [네온레인, NeonLane, 리듬게임, 모바일게임개발, 인디게임, 구글플레이출시, Capacitor, AdMob, Firebase, AI개발, 개발일지, 1인개발, 2026년11월]
 author: 재찬키
 description: "빨강·주황·노랑·초록 네 개의 네온 선 위를 박자에 맞춰 달리는 리듬 러너 네온 레인을 구글 플레이에 출시했습니다. 레이싱 게임에서 리듬 러너로 방향을 바꾼 이유, 가로·세로·상하반전 이벤트, 일일 랭킹, 테스트에서 찾은 점수 44배 버그와 지직거리는 소리, 12명 14일 비공개 테스트와 프로덕션 승인, AdMob 앱 인증까지의 과정을 정리했습니다."
+card_image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/neonlane-devlog/00-card.jpg
 image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/neonlane-devlog/00-hero-1024x500.jpg
 ---
 

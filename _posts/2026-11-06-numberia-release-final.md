@@ -6,6 +6,7 @@ categories: [team-jackchankey]
 tags: [넘버리아, 넘버리아대륙, 수학모험, 7세수학, 유아수학게임, 어린이수학앱, 수학게임, 앱개발일지, 안드로이드앱출시, 플레이스토어출시, 비공개테스트, 개인개발자, 인디게임개발, React, Capacitor, 1인개발, 2026년11월]
 author: 재찬키
 description: '7세를 위한 수학 모험 게임 넘버리아 대륙의 수학모험을 구글 플레이에 정식 출시했습니다. 9월 11일 첫 빌드부터 31번의 버전, 비공개 테스트 거절, 전수 검수를 도구로 만든 일, 그리고 출시까지의 전 과정을 한 편에 정리했습니다.'
+card_image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/numberia-release/00-card.jpg
 image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/numberia-release/00-hero-1024x500.jpg
 ---
 
