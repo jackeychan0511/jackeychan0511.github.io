@@ -107,7 +107,7 @@ card_image: https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/po
 
 1913년 문을 연 그랜드 센트럴은 역이면서 관광지입니다. 메인 콘코스에 서면 **청록색 천장에 금으로 그려진 별자리**가 보입니다.
 
-![그랜드 센트럴 천장](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/newyork-2024/12-grand-central-ceiling.jpg)
+![그랜드 센트럴 천장](https://pub-a8e00ddf355f47339bd2e01ff3221de7.r2.dev/assets/images/posts/newyork-2024/12-grand-central-concourse.jpg)
 *별자리가 그려진 메인 콘코스 천장*
 
 중앙의 **정보 부스**와 그 위의 시계는 이 역의 상징이고, 옆쪽 **밴더빌트 홀**은 전시와 행사 공간으로 쓰입니다.
